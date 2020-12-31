@@ -36,6 +36,10 @@ Allgemeine Informationen, Slides, Inhalte und Aufgaben werden als GitHub-Reposit
 
 Der Unterricht wird mit online mit Zoom durchgeführt.
 
+**Feedback**
+
+Rückmeldung zu den Kursunterlagen können direkt an den Dozenten oder über Moodle mitgeteilt werden.
+
 ## Administration
 
 Die Kursunterlagen wurden mit [Obsidian]() erstellt und mit [Vuepress]() veröffentlicht.

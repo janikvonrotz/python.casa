@@ -7,6 +7,7 @@ Aufwand: 8-16 Stunden.
 Resultat:
 * Pyhton-Program (Ordner mit Skripten)
 * Dokumentation zum Programm (4-8 Seiten, ohne Cover, Dateityp PDF oder ePub)
+* 
 
 ## Beispiele
 
@@ -19,8 +20,8 @@ Resultat:
 Kapitelübeschriften der Dokumentation:
 
 * **Problemstellung**: Beschreibung des Problems.
-* **Vorgehen**: Vorgehen um das Problem zu lösen.
-* **Umsetzung**: Wie wurde die Lösung effektiv implementiert? Beschreibung wichtigsten Programm-Teile.
+* **Vorgehen**: Vorgehen um das Problem zu lösen. Visualisierung mittels Flowchart.
+* **Umsetzung**: Wie wurde die Lösung effektiv implementiert? Beschreibung der wichtigsten Programm-Teile.
 * **Rückblick**: Gab es Problem bei der Umsetzung?
 * **Technische Anleitung**: Wie kann man das Program ausführen?
 
@@ -37,21 +38,18 @@ Leitfragen:
 * Sind die Anweisungen dokumentiert?
 * Kann ein Laie die Funktion des Programs nachvollziehen?
 
-**Umfang**
+**Herausforderung**
 
-Gewichtung: 3
-
-* Die Dokumentation lieg in einem angemessen Umfang vor.
-
-Herausforderung
+Gewichtung: 2
 
 * Kann das definiere Problem  auch wirklich nur mit einem Program glelöst werden?
-* 
+* Ist die Herausforderung dem HF-Niveau entsprechend?
+* Ist in der Reflexion ein Lerneffekt sichtbar?
 
 **Inhalt**
 
 Gewichtung: 4
 
 * Wurden die Inhalte aus den Lektionen korrekt angewendet?
-* Wurde das Problem gelöst?
-* 
+* Liegt die Dokumentation in einem angemessen Umfang vor?
+* Wurde der Code mit einem Flowchart visualisiert?

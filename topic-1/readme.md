@@ -46,3 +46,8 @@ Vernetzung:
 
 Querverweis
 Rahmenlehrplan:
+* Prozess 11: Systems
+Engineering
+Entwurf eines Konzeptes
+* Prozess 12: Systeme
+projektieren
