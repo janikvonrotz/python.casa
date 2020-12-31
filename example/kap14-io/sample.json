@@ -1,0 +1,19 @@
+[
+    {
+        "title": "Raspberry Pi",
+        "isbn": "978-3836265195",
+        "authors": [
+            "Kofler",
+            "Scherbeck",
+            "Kühnast"
+        ]
+    },
+    {
+        "title": "Docker",
+        "isbn": "978-3836261760",
+        "authors": [
+            "Öggl",
+            "Kofler"
+        ]
+    }
+]

@@ -1,0 +1,115 @@
+{
+  "main": {
+    "id": "0ba35004f0935b0b",
+    "type": "split",
+    "children": [
+      {
+        "id": "5fb93e1ac50013d9",
+        "type": "leaf",
+        "dimension": 50,
+        "active": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "about.md",
+            "mode": "source"
+          }
+        },
+        "group": "5bed473bd4758ad7"
+      },
+      {
+        "id": "e3ddce32cd7359fc",
+        "type": "leaf",
+        "dimension": 50,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "about.md",
+            "mode": "preview"
+          }
+        },
+        "group": "5bed473bd4758ad7"
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "78ad4cc1d48e3b2d",
+    "type": "split",
+    "children": [
+      {
+        "id": "e7fbacb340a9d4f6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a4f1c208f76db5dc",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "0a6960592a2fcba0",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "23c06486c0583ed2",
+    "type": "split",
+    "children": [
+      {
+        "id": "6ad234e316c77b0f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5538e7238c0f4a34",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "about.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "lastOpenFiles": [
+    "about.md",
+    "readme.md",
+    "topic-3/readme.md",
+    "exam.md",
+    "faq.md",
+    "schedule.md",
+    "topic-0/readme.md",
+    "example/readme.md",
+    "README.md",
+    "lection-1/README.md"
+  ]
+}

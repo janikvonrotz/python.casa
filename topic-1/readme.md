@@ -1,0 +1,48 @@
+# Thema 1 - Einführung Programmiersprache
+
+Ziele:
+* Erklärung der wesentlichen
+Begriffen
+* Quellcode Kompilieren und
+Interpretieren
+* Bedienung des Texteditors /
+IDE
+
+Kompetenzen:
+Die Studierenden
+* können die Begriffe der
+Hochsprache, der
+kompilierten Sprache und
+der Skriptsprache
+erklären und
+unterscheiden.
+* können den Quellcode in
+Python kompilieren und
+interpretieren
+* können den Texteditoren /
+die IDE bedienen
+
+[Slides](topic-1/slide.md)  
+[Aufgaben](excercise.md)
+
+Didaktische Umsetzung:
+
+- Einführung
+Frontalunterricht
+- Live-Vorführung «Hello
+World» in C
+(Kompilieren)
+- Live-Vorführung «Hello
+World» in Python
+(Interpretieren)
+- Selbständige Übungen
+mit einfachen
+Programmieraufgaben
+
+Vernetzung:
+- Labview
+- Eingebette Systeme
+- Computernetzwerke
+
+Querverweis
+Rahmenlehrplan:

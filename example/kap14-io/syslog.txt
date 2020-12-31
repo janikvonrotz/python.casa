@@ -1,0 +1,108 @@
+Jul 17 10:31:42 u1804 anacron[7181]: Job `cron.daily' terminated
+Jul 17 10:35:01 u1804 CRON[8007]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jul 17 10:41:38 u1804 anacron[7181]: Job `cron.monthly' started
+Jul 17 10:41:38 u1804 anacron[7181]: Job `cron.monthly' terminated
+Jul 17 10:41:38 u1804 anacron[7181]: Normal exit (2 jobs run)
+Jul 17 10:45:01 u1804 CRON[8053]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jul 17 10:55:01 u1804 CRON[8068]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jul 17 10:55:25 u1804 PackageKit: get-updates transaction /1213_ccaebdea from uid 1000 finished with success after 481ms
+Jul 17 10:55:28 u1804 dbus-daemon[517]: [system] Activating via systemd: service name='org.freedesktop.Flatpak.SystemHelper' unit='flatpak-system-helper.service' requested by ':1.172' (uid=1000 pid=12580 comm="/usr/bin/gnome-software --gapplication-service " label="unconfined")
+Jul 17 10:55:28 u1804 systemd[1]: Starting flatpak system helper...
+Jul 17 10:55:28 u1804 dbus-daemon[517]: [system] Successfully activated service 'org.freedesktop.Flatpak.SystemHelper'
+Jul 17 10:55:28 u1804 systemd[1]: Started flatpak system helper.
+Jul 17 10:55:34 u1804 gnome-software[12580]: libostree pull from 'flathub' for appstream2/x86_64 complete#012security: GPG: summary+commit http: TLS#012non-delta: meta: 2 content: 0#012transfer: secs: 4 size: 791 Bytes
+Jul 17 10:55:46 u1804 gnome-software[12580]: libostree pull from 'flathub' for appstream2/x86_64 complete#012security: GPG: summary+commit http: TLS#012delta: parts: 1 loose: 2#012transfer: secs: 11 size: 5,5 MB
+Jul 17 10:55:51 u1804 gnome-software[12580]: libostree pull from 'flathub' for runtime/org.gnome.Platform.Locale/x86_64/3.28 complete#012security: GPG: summary+commit http: TLS#012non-delta: meta: 2 content: 0#012transfer: secs: 4 size: 1,3 kB
+Jul 17 10:55:53 u1804 gnome-software[12580]: libostree pull from 'flathub' for runtime/org.gnome.Platform.Locale/x86_64/3.28 complete#012security: GPG: summary+commit http: TLS#012non-delta: meta: 3 content: 0#012transfer: secs: 2 size: 14,3 kB
+Jul 17 10:56:01 u1804 gnome-software[12580]: libostree pull from 'flathub' for runtime/org.gnome.Platform/x86_64/3.28 complete#012security: GPG: summary+commit http: TLS#012non-delta: meta: 2 content: 0#012transfer: secs: 4 size: 2,9 kB
+Jul 17 10:56:08 u1804 gnome-software[12580]: libostree pull from 'flathub' for runtime/org.gnome.Platform/x86_64/3.28 complete#012security: GPG: summary+commit http: TLS#012delta: parts: 3 loose: 1#012transfer: secs: 6 size: 3,0 MB
+Jul 17 10:56:12 u1804 PackageKit: get-updates transaction /1214_ecbdbebe from uid 1000 finished with success after 696ms
+Jul 17 11:02:01 u1804 systemd[1]: Started Run anacron jobs.
+Jul 17 11:02:01 u1804 anacron[8282]: Anacron 2.3 started on 2018-07-17
+Jul 17 11:02:01 u1804 anacron[8282]: Normal exit (0 jobs run)
+Jul 17 11:05:01 u1804 CRON[8304]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jul 17 11:15:02 u1804 CRON[8357]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jul 17 11:17:01 u1804 CRON[8361]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jul 17 11:25:01 u1804 CRON[8371]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jul 17 11:30:01 u1804 systemd[1]: Starting Cleanup of Temporary Directories...
+Jul 17 11:30:01 u1804 systemd[1]: Started Cleanup of Temporary Directories.
+Jul 17 11:35:01 u1804 CRON[8408]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jul 17 11:45:01 u1804 CRON[8419]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jul 17 11:55:01 u1804 CRON[8432]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jul 17 12:02:54 u1804 systemd[1]: Started Run anacron jobs.
+Jul 17 12:02:54 u1804 anacron[8441]: Anacron 2.3 started on 2018-07-17
+Jul 17 12:02:54 u1804 anacron[8441]: Normal exit (0 jobs run)
+Jul 17 12:05:01 u1804 CRON[8467]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jul 17 12:15:01 u1804 CRON[8476]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jul 17 12:17:01 u1804 CRON[8480]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jul 17 12:25:01 u1804 CRON[8490]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jul 17 12:27:50 u1804 kernel: [90760.065314] e1000: enp0s3 NIC Link is Down
+Jul 17 12:50:52 u1804 systemd[1]: Starting Message of the Day...
+Jul 17 12:50:53 u1804 systemd[1]: Started Message of the Day.
+Jul 17 12:50:56 u1804 NetworkManager[550]: <info>  [1531824656.3092] device (enp0s3): carrier: link connected
+Jul 17 12:50:56 u1804 kernel: [90764.096773] e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Jul 17 12:50:56 u1804 NetworkManager[550]: <info>  [1531824656.3094] device (enp0s3): DHCPv4 lease renewal requested
+Jul 17 12:50:56 u1804 NetworkManager[550]: <info>  [1531824656.3449] dhcp4 (enp0s3): canceled DHCP transaction, DHCP client pid 7265
+Jul 17 12:50:56 u1804 NetworkManager[550]: <info>  [1531824656.3450] dhcp4 (enp0s3): state changed bound -> done
+Jul 17 12:50:56 u1804 NetworkManager[550]: <info>  [1531824656.3454] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Jul 17 12:50:56 u1804 NetworkManager[550]: <info>  [1531824656.3577] dhcp4 (enp0s3): dhclient started with pid 8541
+Jul 17 12:50:56 u1804 dhclient[8541]: DHCPREQUEST of 10.0.0.146 on enp0s3 to 255.255.255.255 port 67 (xid=0x5fcb3f5e)
+Jul 17 12:50:56 u1804 dhclient[8541]: DHCPACK of 10.0.0.146 from 10.0.0.111
+Jul 17 12:50:56 u1804 NetworkManager[550]: <info>  [1531824656.6026] dhcp4 (enp0s3):   address 10.0.0.146
+Jul 17 12:50:56 u1804 NetworkManager[550]: <info>  [1531824656.6029] dhcp4 (enp0s3):   plen 24 (255.255.255.0)
+Jul 17 12:50:56 u1804 NetworkManager[550]: <info>  [1531824656.6029] dhcp4 (enp0s3):   gateway 10.0.0.138
+Jul 17 12:50:56 u1804 NetworkManager[550]: <info>  [1531824656.6029] dhcp4 (enp0s3):   lease time 86400
+Jul 17 12:50:56 u1804 NetworkManager[550]: <info>  [1531824656.6029] dhcp4 (enp0s3):   hostname 'u1804'
+Jul 17 12:50:56 u1804 NetworkManager[550]: <info>  [1531824656.6029] dhcp4 (enp0s3):   nameserver '10.0.0.111'
+Jul 17 12:50:56 u1804 NetworkManager[550]: <info>  [1531824656.6029] dhcp4 (enp0s3):   domain name 'lan'
+Jul 17 12:50:56 u1804 NetworkManager[550]: <info>  [1531824656.6029] dhcp4 (enp0s3): state changed unknown -> bound
+Jul 17 12:50:56 u1804 dbus-daemon[517]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.13' (uid=0 pid=550 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Jul 17 12:50:56 u1804 systemd[1]: Starting Network Manager Script Dispatcher Service...
+Jul 17 12:50:56 u1804 dbus-daemon[517]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Jul 17 12:50:56 u1804 systemd[1]: Started Network Manager Script Dispatcher Service.
+Jul 17 12:50:56 u1804 nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: new request (1 scripts)
+Jul 17 12:50:56 u1804 nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: start running ordered scripts...
+Jul 17 12:50:56 u1804 dhclient[8541]: bound to 10.0.0.146 -- renewal in 34113 seconds.
+Jul 17 12:55:01 u1804 CRON[8579]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jul 17 13:05:01 u1804 CRON[8589]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jul 17 13:05:01 u1804 systemd[1]: Started Run anacron jobs.
+Jul 17 13:05:01 u1804 anacron[8590]: Anacron 2.3 started on 2018-07-17
+Jul 17 13:05:01 u1804 anacron[8590]: Normal exit (0 jobs run)
+Jul 17 13:15:01 u1804 CRON[8620]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jul 17 13:17:01 u1804 CRON[8625]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jul 17 13:17:21 u1804 dbus-daemon[12156]: [session uid=1000 pid=12156] Activating service name='org.gnome.ChromeGnomeShell' requested by ':1.108' (uid=1000 pid=8629 comm="/usr/bin/python3 /usr/bin/chrome-gnome-shell /usr/" label="unconfined")
+Jul 17 13:17:21 u1804 dbus-daemon[12156]: [session uid=1000 pid=12156] Successfully activated service 'org.gnome.ChromeGnomeShell'
+Jul 17 13:25:01 u1804 CRON[8661]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jul 17 13:35:01 u1804 CRON[8673]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jul 17 13:45:01 u1804 CRON[8685]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jul 17 13:51:03 u1804 kernel: [94371.137384] e1000: enp0s3 NIC Link is Down
+Jul 17 14:40:40 u1804 kernel: [94372.299806] 26:13:07.710385 timesync vgsvcTimeSyncWorker: Radical host time change: 2 986 515 000 000ns (HostNow=1 531 831 240 854 000 000 ns HostLast=1 531 828 254 339 000 000 ns)
+Jul 17 14:40:40 u1804 anacron[8696]: Anacron 2.3 started on 2018-07-17
+Jul 17 14:40:40 u1804 systemd[1]: Started Run anacron jobs.
+Jul 17 14:40:40 u1804 anacron[8696]: Normal exit (0 jobs run)
+Jul 17 14:40:43 u1804 NetworkManager[550]: <info>  [1531831243.7246] device (enp0s3): carrier: link connected
+Jul 17 14:40:43 u1804 NetworkManager[550]: <info>  [1531831243.7247] device (enp0s3): DHCPv4 lease renewal requested
+Jul 17 14:40:43 u1804 kernel: [94375.169736] e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Jul 17 14:40:43 u1804 NetworkManager[550]: <info>  [1531831243.7421] dhcp4 (enp0s3): canceled DHCP transaction, DHCP client pid 8541
+Jul 17 14:40:43 u1804 NetworkManager[550]: <info>  [1531831243.7421] dhcp4 (enp0s3): state changed bound -> done
+Jul 17 14:40:43 u1804 NetworkManager[550]: <info>  [1531831243.7426] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Jul 17 14:40:43 u1804 NetworkManager[550]: <info>  [1531831243.7439] dhcp4 (enp0s3): dhclient started with pid 8716
+Jul 17 14:40:43 u1804 dhclient[8716]: DHCPREQUEST of 10.0.0.146 on enp0s3 to 255.255.255.255 port 67 (xid=0xe5cda83)
+Jul 17 14:40:44 u1804 dhclient[8716]: DHCPACK of 10.0.0.146 from 10.0.0.111
+Jul 17 14:40:44 u1804 NetworkManager[550]: <info>  [1531831244.0043] dhcp4 (enp0s3):   address 10.0.0.146
+Jul 17 14:40:44 u1804 NetworkManager[550]: <info>  [1531831244.0045] dhcp4 (enp0s3):   plen 24 (255.255.255.0)
+Jul 17 14:40:44 u1804 NetworkManager[550]: <info>  [1531831244.0046] dhcp4 (enp0s3):   gateway 10.0.0.138
+Jul 17 14:40:44 u1804 NetworkManager[550]: <info>  [1531831244.0047] dhcp4 (enp0s3):   lease time 86400
+Jul 17 14:40:44 u1804 NetworkManager[550]: <info>  [1531831244.0048] dhcp4 (enp0s3):   hostname 'u1804'
+Jul 17 14:40:44 u1804 NetworkManager[550]: <info>  [1531831244.0049] dhcp4 (enp0s3):   nameserver '10.0.0.111'
+Jul 17 14:40:44 u1804 NetworkManager[550]: <info>  [1531831244.0050] dhcp4 (enp0s3):   domain name 'lan'
+Jul 17 14:40:44 u1804 NetworkManager[550]: <info>  [1531831244.0050] dhcp4 (enp0s3): state changed unknown -> bound
+Jul 17 14:40:44 u1804 dbus-daemon[517]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.13' (uid=0 pid=550 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Jul 17 14:40:44 u1804 systemd[1]: Starting Network Manager Script Dispatcher Service...
+Jul 17 14:40:44 u1804 dbus-daemon[517]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Jul 17 14:40:44 u1804 systemd[1]: Started Network Manager Script Dispatcher Service.
+Jul 17 14:40:44 u1804 nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: new request (1 scripts)
+Jul 17 14:40:44 u1804 nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: start running ordered scripts...
+Jul 17 14:40:44 u1804 dhclient[8716]: bound to 10.0.0.146 -- renewal in 39280 seconds.
+Jul 17 14:40:50 u1804 kernel: [94382.300021] 26:13:17.710610 timesync vgsvcTimeSyncWorker: Radical guest time change: 2 986 342 803 000ns (GuestNow=1 531 831 250 854 330 000 ns GuestLast=1 531 828 264 511 527 000 ns fSetTimeLastLoop=true )
+Jul 17 14:45:01 u1804 CRON[8771]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
