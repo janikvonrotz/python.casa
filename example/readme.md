@@ -1,8 +1,8 @@
 # Beispiele
 
-In diesem Ordner sind die Beispieldateien zum Buch "Python -- Der Grundkurs" gespeichert.
+In diesem Ordner sind die Beispieldateien zum Buch "Python - Der Grundkurs" gespeichert.
 
-Abbild der Ordnerstruktur:
+Abbildung der Ordnerstruktur:
 
 ```
 .
@@ -202,7 +202,7 @@ Abbild der Ordnerstruktur:
 
 ## Bedingungen
 
-Beispieldateien zum Buch »Python -- Der Grundkurs«
+Beispieldateien zum Buch "Python - Der Grundkurs"
 
 Copyright 2018 Michael Kofler + Rheinwerk Verlag
 
