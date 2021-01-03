@@ -6,8 +6,8 @@ Ziele:
 Kompetenzen: Die Studierenden ...
 * 
 
-[slide](topic-5/slide.md)  
-[excercise](topic-5/excercise.md)  
+[Slides](slide.md)  
+[Aufgaben](excercise.md)  
 
 Didaktische Umsetzung:
 * 

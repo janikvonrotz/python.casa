@@ -1,4 +1,4 @@
-## Variablen und Datentypen
+## Slides - Variablen und Datentypen
 
 Thema 2
 

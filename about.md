@@ -20,7 +20,7 @@ Durch eine Einführung ins Programmieren wird die **Kompetenz** zur Erstellung v
 
 **Fachliteratur**
 
-Fachlich baut der Kurs auf dem Buch "Python - Der Grundkurs" von Michael Kofler auf.  Der Erwerb des Buches ist optional. Die Code-Beispiele werden unter [example](example/readme.md) gespeichert.
+Fachlich baut der Kurs auf dem Buch "Python - Der Grundkurs" von Michael Kofler auf.  Der Erwerb des Buches ist optional. Die Code-Beispiele werden unter [Beispiele](examples/readme.md) gespeichert.
 
 Das Buch kann als eBook bei [Orell-Flüssli](https://www.orellfuessli.ch/shop/home/artikeldetails/ID128412897.html) gekauft werde .
 

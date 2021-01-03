@@ -1,4 +1,4 @@
-## Einführung Programmiersprache
+## Slides - Einführung Programmiersprache
 
 Thema 1
 
@@ -61,8 +61,8 @@ name='Michael'
 
 ### Skript erstellen
 
-* Projektordner und Unterordner `kap01` erstellen
-* Datei []() in Ordner speichern
+* Projektordner und Unterordner `top01` erstellen
+* Datei [HelloWorld.py](https://github.com/janikvonrotz/python.casa/blob/main/examples/kap01/HelloWorld.py) im Ordner speichern
 * Skript in Terminal ausführen
 
 Unter GNU/Linux muss das Programm mit `chmod +x /path/to/file` ausführbar gemacht werden.
