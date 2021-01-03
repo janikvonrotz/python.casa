@@ -8,13 +8,13 @@ Thema 0
 
 * Wirtschaftsinformatiker
 * Systemtechniker (Informatik)
-* http://janikvonrotz.ch
+* <http://janikvonrotz.ch>
 
 ---
 
 ### Geschäftlich
 
-* https://www.mint-system.ch/
+* <https://www.mint-system.ch/>
 * Odoo ist ein Python-Program
 * Die Brücke zwischen Technik und Geschäft schlagen
 
@@ -23,7 +23,7 @@ Thema 0
 ### Privat
 
 * Open Source
-* https://www.engage.ch/
+* <https://www.engage.ch/>
 * Sport
 
 ---

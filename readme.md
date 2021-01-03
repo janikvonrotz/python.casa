@@ -4,7 +4,7 @@ Einführung in die Programmierung.
 
 [Über dieses Modul](about.md)  
 [Stundenplan](schedule.md)  
-[Lernnachweis](exam.md)  
+[Leistungsnachweis](exam.md)  
 [Moodle](https://moodle.medizintechnik-hf.ch/course/view.php?id=183)  
 
 ## Lektionen
