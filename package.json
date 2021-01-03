@@ -1,0 +1,15 @@
+{
+  "name": "python.casa",
+  "version": "1.0.0",
+  "description": "Einführung in die Programmierung.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev .",
+    "build": "vuepress build ."
+  },
+  "author": "Janik Vonrotz",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.7.1"
+  }
+}
