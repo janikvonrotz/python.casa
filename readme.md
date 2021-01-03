@@ -3,7 +3,7 @@
 Einführung in die Programmierung.
 
 [Über dieses Modul](about.md)  
-[Stundenplan](schedule.md)  
+[Stundenplan](timetable.md)  
 [Leistungsnachweis](exam.md)  
 [Moodle](https://moodle.medizintechnik-hf.ch/course/view.php?id=183)  
 

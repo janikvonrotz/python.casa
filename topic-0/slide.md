@@ -48,12 +48,13 @@ Thema 0
 
 ### Erwartungen
 
+* Selbständige Erweiterung Grundwissen
+* 
+
 ---
 ### Unterlagen
 
-* https://python.casa/
-* 
-
+Ihr findet alles unter <https://python.casa/>.
 
 ---
 

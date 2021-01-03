@@ -12,8 +12,8 @@ Kompetenzen: Die Studierenden ...
 	- Sequentielle Datentypen
 	- Zuordnende Datentypen
 
-[slide](topic-2/slide.md)  
-[excercise](topic-2/excercise.md)  
+[Slide](slide.md)  
+[Aufgaben](excercise.md)  
 
 Didaktische Umsetzung:
 - Einführung Variablen Deklaration und Initialisierung

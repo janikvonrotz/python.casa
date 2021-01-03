@@ -11,7 +11,7 @@ Die Studierenden ...
 * können den Quellcode in Python kompilieren und interpretieren
 * können den Texteditoren / die IDE bedienen
 
-[Slide](slide.md)
+[Slides](slide.md)  
 [Aufgaben](excercise.md)
 
 Didaktische Umsetzung:

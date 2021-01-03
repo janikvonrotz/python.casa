@@ -22,7 +22,9 @@ Durch eine Einführung ins Programmieren wird die **Kompetenz** zur Erstellung v
 
 Fachlich baut der Kurs auf dem Buch "Python - Der Grundkurs" von Michael Kofler auf.  Der Erwerb des Buches ist optional. Die Code-Beispiele werden unter [example](example/readme.md) gespeichert.
 
-Das Buch kann zur Vorschau [hier](https://janikv.cloud/s/x362ERYZp6kL3Gb) heruntergeladen werden. Das Passwort wird Anfrage vom Dozenten zur Verfügung gestellt.
+Das Buch kann als eBook bei [Orell-Flüssli](https://www.orellfuessli.ch/shop/home/artikeldetails/ID128412897.html) gekauft werde .
+
+Zur Vorschau kann [hier](https://janikv.cloud/s/x362ERYZp6kL3Gb) heruntergeladen werden. Das Passwort wird Anfrage vom Dozenten zur Verfügung gestellt.
 
 **Kommunikation**
 
@@ -30,7 +32,7 @@ Informationen zum Modul werden an zwei Orten gespeichert. Auf Moodle kann der St
 
 **Kursunterlagen**
 
-Allgemeine Informationen, Slides, Inhalte und Aufgaben werden als GitHub-Repository publiziert und sind unter der Adresse https://python.casa abrufbar.
+Allgemeine Informationen, Slides, Inhalte und Aufgaben werden als GitHub-Repository publiziert und sind unter der Adresse <https://python.casa> abrufbar.
 
 Die bereitgestellten Unterlagen sind eine Zusammenfassung des Buches. Mit Slides werden die wichtigsten Inhalte zusammengefasst und mit den dazugehörenden Übungen angwendet.
 
@@ -44,4 +46,4 @@ Rückmeldung zu den Kursunterlagen können direkt an den Dozenten oder über Moo
 
 ## Administration
 
-Die Kursunterlagen wurden mit [Obsidian]() erstellt und mit [Vuepress]() veröffentlicht.
+Die Kursunterlagen wurden mit [Obsidian](https://obsidian.md/) erstellt und mit [Vuepress](https://vuepress.vuejs.org/) veröffentlicht.

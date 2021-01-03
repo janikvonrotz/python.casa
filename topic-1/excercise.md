@@ -14,4 +14,4 @@ Hint: Im interaktiven Modus eine String-Variable deklarieren, den Variablenamen 
 
 ## Wiederholungsfragen
 
-![](topic-1/topic-1-questions.png)
+![](topic-1-questions.png)
