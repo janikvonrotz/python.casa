@@ -1,3 +1,3 @@
 # Fragen und Antworten
 
-Hier werden Fragen und Antworten zum Modul publiziert.
+Hier werden Fragen und Antworten zum Kurs publiziert.
