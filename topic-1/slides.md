@@ -13,7 +13,7 @@ Buch: Kapitel 1 Hello, World!
 <iframe src="https://giphy.com/embed/Wvfq2yFumK61W" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 
 * 1991 entwickelt
-* Einfache Syntax uns gute Lesbarkeit
+* Einfache Syntax und gute Lesbarkeit
 * Universell anwendbar
 * Beliebt in den Naturwissenschaften
 
