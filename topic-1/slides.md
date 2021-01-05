@@ -58,9 +58,13 @@ name='Michael'
 
 * Projektordner und Unterordner `Thema01` erstellen
 * Datei [HelloWorld.py](https://raw.githubusercontent.com/janikvonrotz/python.casa/main/examples/kap01/HelloWorld.py) im Ordner speichern
-* Skript in Terminal ausführen `ptyhon ./HelloWorld.py`
+* Skript in Terminal ausführen 
 
-Unter GNU/Linux muss das Programm mit `chmod +x /path/to/file` ausführbar gemacht werden.
+```py
+ptyhon ./HelloWorld.py`
+```
+
+Unter GNU/Linux muss das Programm mit `chmod +x ./HelloWorld.py` ausführbar gemacht werden.
 
 ---
 ### Shebang
@@ -86,6 +90,8 @@ Wir arbeiten mit Python 3.6 und höher.
 IDE-Editor [VS Code](https://code.visualstudio.com/) installieren. 
 
 Video: [Visual Studio Code für die Python-Programmierung einrichten](https://www.youtube.com/watch?v=og51Lo5uKBA)
+
+*Aufteilung in Breakout-Rooms.*
 
 ---
 ### Skript öffnen
