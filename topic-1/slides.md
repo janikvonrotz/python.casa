@@ -20,15 +20,18 @@ Buch: Kapitel 1 Hello, World!
 ---
 ### Installation Python
 
-Installation Python via [Python Download](https://www.python.org/downloads)[^1].  
+Installation Python via [Python Download](https://www.python.org/downloads).
+
 Video: [Python3-Tutorial #1 - Installation unter Windows 10](https://www.youtube.com/watch?v=hr1P_F7Vp9Y)
 
 *Aufteilung in Breakout-Rooms.*
 
+Ziel: Jeder kann Python-Shell starten.
+
 ---
 ### Terminal
 
-Wir machen unsere erste Schritt in der Python-Shell.
+Wir machen unsere erste Schritte in der Python-Shell.
 
 > Keine Angst vor dem Terminal
 
@@ -43,8 +46,6 @@ Anweisung eingeben:
 print('Hello, World!')
 ```
 
-*Kurze Demo Python interaktiv*
-
 ---
 ### Weitere Shell-Befehle
 
@@ -58,9 +59,16 @@ name='Michael'
 
 * Projektordner und Unterordner `Thema01` erstellen
 * Datei [HelloWorld.py](https://raw.githubusercontent.com/janikvonrotz/python.casa/main/examples/kap01/HelloWorld.py) im Ordner speichern
+
+---
+### Skript ausführen
+
+* Im Unterordner das Terminal starten
+	* Ordner im Explorer öffnen
+	* In Adressleiste `cmd.exe eingeben
 * Skript in Terminal ausführen 
 
-```py
+```bash
 ptyhon ./HelloWorld.py`
 ```
 
@@ -93,12 +101,14 @@ Video: [Visual Studio Code für die Python-Programmierung einrichten](https://ww
 
 *Aufteilung in Breakout-Rooms.*
 
+Ziel: Jeder kann IDE starten.
+
 ---
 ### Skript öffnen
 
 * Das Skript `HelloWorld.py` in der IDE öffnen
 * Den Ausgabe-Text ändern und speichern
-* Das Skript mit der IDE ausführen
+* Das Skript mit der IDE oder dem Terminal ausführen
 
 ---
 ### Was ist ein Skript?
@@ -165,6 +175,8 @@ print('abc')  # noch ein Kommentar
 ### Aufgaben
 
 Lösen die Aufgaben und besprechen sie die Wiederholungsfragen.
+
+*Aufteilung in Breakout-Rooms.*
 
 ---
 ### Review
