@@ -1,6 +1,6 @@
 # Leistungsnachweis
 
-Ziel: Eine Problem definieren und dieses mithilfe eines selbstgeschriebenen Programs lösen.
+Ziel: Eine Problem definieren und dieses mithilfe eines selbstgeschriebenen Programms lösen.
 
 Aufwand: 8-16 Stunden
 
