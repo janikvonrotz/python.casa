@@ -32,7 +32,7 @@ Thema 0
 
 * Interesse an Erwachsenenbildung
 * Ideen und Konzepte vermitteln
-* Verständnis für IT
+* Verständnis für IT fördern
 * [Systemtheorie](https://de.wikipedia.org/wiki/Systemtheorie) für Systemtechniker
 
 ---
@@ -42,14 +42,15 @@ Thema 0
 * Abstraktens Denken
 * Elementare Bausteine Programmierung
 * Programmcode Interpretieren
-* Anwenden
+* Anwenden in der Praxis
 
 ---
 
 ### Erwartungen
 
 * Selbständige Erweiterung Grundwissen
-* 
+* Webcam-Always-On
+* Anwesenheit [hier](https://moodle.medizintechnik-hf.ch/mod/attendance/manage.php?id=4479) eintragen
 
 ---
 ### Unterlagen
@@ -60,12 +61,13 @@ Ihr findet alles unter <https://python.casa/>.
 
 ### Leistungsnachweis
 
-- 14 Lektionen ist nicht viel
-- Details unter [Leistungsnachweis](exam.md)
+* 14 Lektionen sind nicht viel
+* Details unter [Leistungsnachweis](exam.md)
 
 ---
 
 ### Feedback
 
-- Direkt hi@janikv.ch
-- Indirekt 
+Das ist die erste Durchführung!
+
+Feedback immer am Ende des Unterrichts oder per mail an <hi@janikv.ch>.

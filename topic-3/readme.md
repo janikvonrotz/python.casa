@@ -1,4 +1,6 @@
 # Thema 3 - Boolsche Algebra
+[Slides](topic-3/slides.md)  
+[Übungen](excercise.md)  
 
 Ziele:
 * Vergleichende Operatoren
@@ -10,9 +12,6 @@ Kompetenzen: Die Studierenden ...
 - können UND-Verknüpfung anwenden
 - Können ODER-Verknüpfung anwenden
 - können Probleme als Verknüpfungen aus vergleichende Operatoren und UND/ODER-Verknüpfung formulieren
-
-[slide](topic-3/slide.md)  
-[excercise](topic-3/excercise.md)  
 
 Didaktische Umsetzung:
 - Live-Beispiel zur Motivation von vergleichenden Variablen

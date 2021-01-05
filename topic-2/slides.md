@@ -2,6 +2,8 @@
 
 Thema 2
 
+*[Anwesenheit bestätigen](https://moodle.medizintechnik-hf.ch/mod/attendance/manage.php?id=4479)*
+
 ---
 
 ### Referenz

@@ -1,13 +1,12 @@
 # Thema 4 - Kontrollstrukturen
+[Slides](slides.md)  
+[Übungen](excercise.md)  
 
 Ziele:
 * 
 
 Kompetenzen: Die Studierenden ...
 * 
-
-[Slides](slide.md)  
-[Aufgaben](excercise.md)  
 
 Didaktische Umsetzung:
 * 

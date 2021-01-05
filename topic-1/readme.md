@@ -1,4 +1,6 @@
 # Thema 1 - Einführung Programmiersprache
+[Slides](topic-0/slides.md)  
+[Übungen](excercise.md)  
 
 Ziele:
 * Erklärung der wesentlichen Begriffen
@@ -10,9 +12,6 @@ Die Studierenden ...
 * können die Begriffe der Hochsprache, der kompilierten Sprache und der Skriptsprache erklären und unterscheiden.
 * können den Quellcode in Python kompilieren und interpretieren
 * können den Texteditoren / die IDE bedienen
-
-[Slides](slide.md)  
-[Aufgaben](excercise.md)
 
 Didaktische Umsetzung:
 

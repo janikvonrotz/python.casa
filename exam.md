@@ -2,21 +2,24 @@
 
 Ziel: Eine Problem definieren und dieses mithilfe eines selbstgeschriebenen Programs lösen.
 
-Aufwand: 8-16 Stunden.
+Aufwand: 8-16 Stunden
 
 Resultat:
-* Pyhton-Program (Ordner mit Skripten)
-* Dokumentation zum Programm (4-8 Seiten, ohne Cover, Dateityp PDF oder ePub)
+* Pyhton-Program (gezippter Ordner mit Skripten): `Code.zip`
+* Dokumentation zum Programm (4-8 Seiten, ohne Cover, Dateityp PDF oder ePub): `Dokumentation.pdf`
 
 ## Termine
 
-#FIXME
+27.02.2021: Eingabe Projektvorschlag für Leistungsnachweis  
+27.03.2021: Deadline Hochladen Leistungsnachweis
 
 ## Beispiele
 
-* Auswertung von Log-Daten
-* Unterstützung komplexe Berechnungen
-* Automatisierte Tests von Hardware
+* Suche nach Begriff in Log-Dateien
+* Unterstützung mathematische Berechnungen
+* Raspberry-PI 
+
+#FIXME
 
 ## Vorlagen
 

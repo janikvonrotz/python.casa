@@ -9,7 +9,7 @@ Einführung in die Programmierung.
 
 ## Lektionen
 
-Zum Teilnehmen diesen [Zoom-Link](https://us02web.zoom.us/j/88161947853) öffnen.
+Zum Teilnehmen diesen [Zoom-Link]([https://erp.sti](https://erp.sti/)ärbiär.ch/shop/address) öffnen.
 
 [Thema 0](topic-0/readme.md)  
 [Thema 1](topic-1/readme.md)  

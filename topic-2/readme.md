@@ -1,4 +1,6 @@
 # Thema 2 - Variablen und Datentypen
+[Slides](topic-0/slides.md)  
+[Übungen](excercise.md)  
 
 Ziele:
 - Variablen
@@ -11,9 +13,6 @@ Kompetenzen: Die Studierenden ...
 	- Numerischen Datentypen
 	- Sequentielle Datentypen
 	- Zuordnende Datentypen
-
-[Slide](slide.md)  
-[Aufgaben](excercise.md)  
 
 Didaktische Umsetzung:
 - Einführung Variablen Deklaration und Initialisierung
