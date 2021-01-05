@@ -13,23 +13,42 @@ Resultat:
 27.02.2021: Eingabe Projektvorschlag für Leistungsnachweis  
 27.03.2021: Deadline Hochladen Leistungsnachweis
 
-## Beispiele
+## Inspiration
+
+Hier eine Beispiele>
 
 * Suche nach Begriff in Log-Dateien
 * Unterstützung mathematische Berechnungen
-* Raspberry-PI 
-
-#FIXME
+* Raspberry Pi LED-Morsecode
+* Temperaturdaten lesen und als Kurve darstellen
+* LED auf Raspberry Pi ein- und ausschalten
+* Daten aus Datenbank lesen und schreiben
+* Auf Linux einen Vorgang automatisieren
+* Wetter-Informationen abrufen und darstellen
+* Tweet von Twitter-Account anzeigen lassen
+* Datei auf Dropbox speichern
 
 ## Vorlagen
+
+### Projektvorschlag
+
+Der Projektvorschlag wird auf Moodle mitgeteilt und besteht im wesentlichen aus einem Titel und einer kurzen Beschreibung (~100 Wörter)
+
+### Dokumentation
 
 Kapitelübeschriften der Dokumentation:
 
 * **Problemstellung**: Beschreibung des Problems.
 * **Vorgehen**: Vorgehen um das Problem zu lösen. Visualisierung mittels Flowchart.
-* **Umsetzung**: Wie wurde die Lösung effektiv implementiert? Beschreibung der wichtigsten Programm-Teile.
+* **Umsetzung**: Wie wurde die Lösung effektiv implementiert? Beschreibung der wichtigsten Programm-Teile
 * **Rückblick**: Gab es Problem bei der Umsetzung?
 * **Technische Anleitung**: Wie kann man das Program ausführen?
+
+::: tip
+Auf <https://carbon.now.sh/> kann man seinen Code einfügen und als Bild darstellen lassen.
+
+![](carbon-example.png)
+:::
 
 ## Kriterien
 

@@ -81,7 +81,7 @@ Windows:
 ### Installation IDE
 
 IDE=Integrierte Entwicklungsumgebung  
-Wir arbeiten mit Python 3.6 und höher.
+Wir arbeiten mit Python 3.6 und höher.  
 
 IDE-Editor [VS Code](https://code.visualstudio.com/) installieren. 
 
@@ -107,14 +107,53 @@ Video: [Visual Studio Code für die Python-Programmierung einrichten](https://ww
 ---
 ### Anweisungen
 
+Ist normalerweise Einzeilig.
+
+```py
+print('abc',
+      'efg')
+```
+
+Mehre Anweisungen auf einer Zeile:
+
+```py
+a=1; b=2; c=3
+```
+
 ---
 ### Blockelemente
 
----
-### Module
+Sprachelemente über mehrere Zeilen.
+
+```py
+if xxx:
+    anweisung1a
+    anweisung1b
+else:
+    anweisung2a
+```
+
+Anweisungen müssen eingeruckt sein.
 
 ---
 ### Input
+
+Eingabe des Benutzers empfangen.
+
+```py
+name = input('Geben Sie Ihren Namen an:')
+print('Ihr Name lautet:', name)
+```
+
+---
+### Kommentare
+
+Kommentieren direkt im Code.
+
+```py
+# ein Kommentar
+print('abc')  # noch ein Kommentar
+```
 
 ---
 ### Aufgaben
