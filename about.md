@@ -6,7 +6,7 @@ An der [Höheren Fachschule Medizintechnik Sarnen](https://www.medizintechnik-hf
 
 * Studierende entwickeln ein **abstraktes Denken** für Algorithmen, können Prozesse und **Arbeitsabläufe** in der Informationsverarbeitung und Gerätewartung als Algorithmen erkennen, formulieren und synthetisieren.  
 * Sie lernen die **elementaren Bausteine** von Algorithmen kennen und können diese verwenden, um Algorithmen zu entwerfen.  
-* Durch die Verwendung der Programmiersprache Python erlangen sie die Fähigkeit, eine Vielzahl von *C-ähnlichen* Programmiersprachen zu lesen, zu interpretieren** und deren Ergebnisse vorauszusagen.  
+* Durch die Verwendung der Programmiersprache Python erlangen sie die Fähigkeit, eine Vielzahl von **C-ähnlichen Programmiersprachen zu lesen, zu interpretieren** und deren Ergebnisse vorauszusagen.  
 * Durch eine Einführung ins Programmieren wird die **Kompetenz** zur Erstellung von Software erlangt, um einfache Automatisierungsaufgaben selbständig zu lösen.
 
 ## Voraussetzungen

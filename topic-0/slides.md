@@ -3,7 +3,6 @@
 Thema 0
 
 ---
-
 ### Wer bin ich?
 
 * Wirtschaftsinformatiker
@@ -11,7 +10,6 @@ Thema 0
 * <http://janikvonrotz.ch>
 
 ---
-
 ### Geschäftlich
 
 * <https://www.mint-system.ch/>
@@ -19,7 +17,6 @@ Thema 0
 * Die Brücke zwischen Technik und Geschäft schlagen
 
 ---
-
 ### Privat
 
 * Open Source
@@ -27,7 +24,6 @@ Thema 0
 * Sport
 
 ---
-
 ### Warum unterrichte ich?
 
 * Interesse an Erwachsenenbildung
@@ -36,7 +32,6 @@ Thema 0
 * [Systemtheorie](https://de.wikipedia.org/wiki/Systemtheorie) für Systemtechniker
 
 ---
-
 ### Ziele
 
 * Abstraktens Denken
@@ -45,11 +40,10 @@ Thema 0
 * Anwenden in der Praxis
 
 ---
-
 ### Erwartungen
 
-* Selbständige Erweiterung Grundwissen
-* Webcam-Always-On
+* Bereitschaft zum Probieren
+* Webcam always on
 * Anwesenheit [hier](https://moodle.medizintechnik-hf.ch/mod/attendance/manage.php?id=4479) eintragen
 
 ---
@@ -58,14 +52,12 @@ Thema 0
 Ihr findet alles unter <https://python.casa/>.
 
 ---
-
 ### Leistungsnachweis
 
 * 14 Lektionen sind nicht viel
 * Details unter [Leistungsnachweis](exam.md)
 
 ---
-
 ### Feedback
 
 Das ist die erste Durchführung!
