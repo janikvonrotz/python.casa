@@ -102,7 +102,7 @@ Video: [Visual Studio Code für die Python-Programmierung einrichten](https://ww
 
 ---
 ### Was passiert beim kompilieren?
-![](python-datei-kompilieren.png)
+![](../python-datei-kompilieren.png)
 
 ---
 ### Anweisungen
