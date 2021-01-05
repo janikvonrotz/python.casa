@@ -8,6 +8,7 @@ Einführung in die Programmierung.
 [Stundenplan](timetable.md)  
 [Leistungsnachweis](exam.md)  
 [Moodle](https://moodle.medizintechnik-hf.ch/course/view.php?id=183)  
+[Fragen und Antworten](faq.md)
 
 ## Lektionen
 

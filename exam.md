@@ -5,7 +5,7 @@ Ziel: Eine Problem definieren und dieses mithilfe eines selbstgeschriebenen Prog
 Aufwand: 8-16 Stunden
 
 Resultat:
-* Pyhton-Program (gezippter Ordner mit Skripten): `Code.zip`
+* Pyhton-Progrmam (gezippter Ordner mit Skripten): `Code.zip`
 * Dokumentation zum Programm (4-8 Seiten, ohne Cover, Dateityp PDF oder ePub): `Dokumentation.pdf`
 
 ## Termine
@@ -13,7 +13,7 @@ Resultat:
 27.02.2021: Eingabe Projektvorschlag für Leistungsnachweis  
 27.03.2021: Deadline Hochladen Leistungsnachweis
 
-## Inspiration
+## Themenwahl
 
 Hier eine Beispiele:
 
@@ -32,7 +32,7 @@ Hier eine Beispiele:
 
 ### Projektvorschlag
 
-Der Projektvorschlag wird auf Moodle mitgeteilt und besteht im wesentlichen aus einem Titel und einer kurzen Beschreibung (~100 Wörter)
+Der Projektvorschlag wird auf Moodle mitgeteilt und besteht im wesentlichen aus einem Titel und einer kurzen Beschreibung (~100 Wörter).
 
 ### Dokumentation
 
@@ -40,9 +40,9 @@ Kapitelübeschriften der Dokumentation:
 
 * **Problemstellung**: Beschreibung des Problems.
 * **Vorgehen**: Vorgehen um das Problem zu lösen. Visualisierung mittels Flowchart.
-* **Umsetzung**: Wie wurde die Lösung effektiv implementiert? Beschreibung der wichtigsten Programm-Teile
-* **Rückblick**: Gab es Problem bei der Umsetzung?
-* **Technische Anleitung**: Wie kann man das Program ausführen?
+* **Umsetzung**: Wie wurde die Lösung effektiv implementiert? Beschreibung der wichtigsten Programm-Teile.
+* **Rückblick**: Gab es Problem bei der Umsetzung? Was lief gut und was nicht?
+* **Technische Anleitung**: Wie kann man das Program ausführen? Welche Vorbereitungen müssen getroffen werden?
 
 ::: tip
 Auf <https://carbon.now.sh/> kann man seinen Code einfügen und als Bild darstellen lassen.
@@ -58,7 +58,7 @@ Gewichtung: 5
 
 Leitfragen:
 * Ist die Struktur des Codes verständlich?
-* Sind die Anweisungen dokumentiert?
+* Sind die Anweisungen kommentiert?
 * Kann ein Laie die Funktion des Programs nachvollziehen?
 
 **Herausforderung**
@@ -75,4 +75,4 @@ Gewichtung: 4
 
 * Wurden die Inhalte aus den Lektionen korrekt angewendet?
 * Liegt die Dokumentation in einem angemessen Umfang vor?
-* Wurde der Code mit einem Flowchart visualisiert?
+* Wurde der Code mit einem Flowchart sachgemäss visualisiert?
