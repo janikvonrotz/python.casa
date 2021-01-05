@@ -8,7 +8,11 @@ Thema 2
 
 ### Referenz
 
-Buch: Kapitel 2 Variablen und Kapitel 4 Zahlen
+Buch: Kapitel 2 Variablen, 3 Operatoren und 4 Zahlen
 
 ---
+
+### Datentypen
+
+![](../datentypen.png)
 

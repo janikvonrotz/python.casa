@@ -51,9 +51,14 @@ Thema 0
 
 Ihr findet alles unter <https://python.casa/>.
 
+[![](../buch.png)](https://kofler.info/buecher/python/)
+
+Teil 1 wird im Unterricht behandelt.
+
 ---
 ### Leistungsnachweis
 
+* Teil 2 des Buches ist der Leistungsnachweis
 * 14 Lektionen sind nicht viel
 * Details unter [Leistungsnachweis](exam.md)
 
