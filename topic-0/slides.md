@@ -13,7 +13,7 @@ Thema 0
 ### Geschäftlich
 
 * <https://www.mint-system.ch/>
-* Odoo ist ein Python-Program
+* Odoo ist ein Python-Programm
 * Die Brücke zwischen Technik und Geschäft schlagen
 
 ---
