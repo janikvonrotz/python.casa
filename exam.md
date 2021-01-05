@@ -15,7 +15,7 @@ Resultat:
 
 ## Inspiration
 
-Hier eine Beispiele>
+Hier eine Beispiele:
 
 * Suche nach Begriff in Log-Dateien
 * Unterstützung mathematische Berechnungen
@@ -46,8 +46,6 @@ Kapitelübeschriften der Dokumentation:
 
 ::: tip
 Auf <https://carbon.now.sh/> kann man seinen Code einfügen und als Bild darstellen lassen.
-
-![](carbon-example.png)
 :::
 
 ## Kriterien
