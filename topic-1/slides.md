@@ -1,11 +1,8 @@
 ## Slides - Einführung Programmiersprache
 
-Thema 1
+[Thema 1](topic-1/readme.md)
 
----
-### Referenz
-
-Buch: Kapitel 1 Hello, World!
+📖 Kapitel 1 Hello, World!
 
 ---
 ### Python
@@ -22,11 +19,13 @@ Buch: Kapitel 1 Hello, World!
 
 Installation Python via [Python Download](https://www.python.org/downloads).
 
-Video: [Python3-Tutorial #1 - Installation unter Windows 10](https://www.youtube.com/watch?v=hr1P_F7Vp9Y)
+Videos:
+* [Python3 auf Windows 10 installieren](https://www.youtube.com/watch?v=hr1P_F7Vp9Y)  
+* [Python3 auf MacOS installieren](https://www.youtube.com/watch?v=1xMT1Tzskrg)
 
-*Aufteilung in Breakout-Rooms.*
+⚡Aufteilung in Breakout-Rooms ⏱️ 10 Minuten
 
-Ziel: Jeder kann Python-Shell starten.
+Ziel: Jeder hat Python installiert.
 
 ---
 ### Terminal
@@ -35,12 +34,24 @@ Wir machen unsere erste Schritte in der Python-Shell.
 
 > Keine Angst vor dem Terminal
 
-*Terminal starten*
+---
+### Terminal starten
+
+🎬 Auf MacOS: <kbd>cmd</kbd> + <kbd>leertaste</kbd> drücken, `Terminal` eingeben und `enter` drücken
+
+🎬 Windows: <kbd>windows</kbd> + <kbd>r</kbd> drücken, `cmd.exe` eingeben und `enter` drücken
+
+---
+### Python-Shell starten
+
+Wir starten nun die Python-Shell.
+
+🎬 `python` im Terminal eingeben.
 
 ---
 ### Hello World
 
-Anweisung eingeben:
+🎬 Anweisung eingeben:
 
 ```py
 print('Hello, World!')
@@ -48,6 +59,8 @@ print('Hello, World!')
 
 ---
 ### Weitere Shell-Befehle
+
+🎬 Anweisung eingeben:
 
 ```py
 name='Michael'
@@ -57,22 +70,32 @@ name='Michael'
 ---
 ### Skript erstellen
 
+Wir laden ein Skript herunter und speichern es in einem Ordner.
+
+🎬 Folgende Punkte erledigen:
 * Projektordner und Unterordner `Thema01` erstellen
 * Datei [HelloWorld.py](https://raw.githubusercontent.com/janikvonrotz/python.casa/main/examples/kap01/HelloWorld.py) im Ordner speichern
+---
+### Skript ausführen
+
+Im Unterordner das Terminal starten.
+
+🎬 Folgende Punkte erledigen:
+
+* Ordner im Explorer/Finder öffnen
+* Windows: In Adressleiste `cmd.exe` eingeben und mit `enter` bestätigen
+* MacOS: In Finder Rechtsklick auf den Ordner machen und Terminal in Ordner starten.
 
 ---
 ### Skript ausführen
 
-* Im Unterordner das Terminal starten
-	* Ordner im Explorer öffnen
-	* In Adressleiste `cmd.exe eingeben
-* Skript in Terminal ausführen 
+🎬 Skript in Terminal ausführen 
 
 ```bash
-ptyhon ./HelloWorld.py`
+ptyhon ./HelloWorld.py
 ```
 
-Unter GNU/Linux muss das Programm mit `chmod +x ./HelloWorld.py` ausführbar gemacht werden.
+ℹ️ Unter MacOS und GNU/Linux muss das Programm mit `chmod +x ./HelloWorld.py` ausführbar gemacht werden.
 
 ---
 ### Shebang
@@ -97,27 +120,29 @@ Wir arbeiten mit Python 3.6 und höher.
 
 IDE-Editor [VS Code](https://code.visualstudio.com/) installieren. 
 
-Video: [Visual Studio Code für die Python-Programmierung einrichten](https://www.youtube.com/watch?v=og51Lo5uKBA)
+Video: [Visual Studio Code für Windows installieren](https://www.youtube.com/watch?v=og51Lo5uKBA)
 
-*Aufteilung in Breakout-Rooms.*
+⚡Aufteilung in Breakout-Rooms ⏱️ 10 Minuten
 
-Ziel: Jeder kann IDE starten.
+Ziel: Jeder kann die IDE starten.
 
 ---
 ### Skript öffnen
 
+🎬 Folgende Aktionen ausführen:
 * Das Skript `HelloWorld.py` in der IDE öffnen
 * Den Ausgabe-Text ändern und speichern
 * Das Skript mit der IDE oder dem Terminal ausführen
 
 ---
-### Was ist ein Skript?
+### Was läuft hier?
 
 * Quellcode wird direkt vom Interpreter (Python) ausgeführt
 * Programmcode wird kompiliert
 
 ---
 ### Was passiert beim kompilieren?
+
 ![](../python-datei-kompilieren.png)
 
 ---
@@ -154,7 +179,7 @@ Anweisungen müssen eingeruckt sein.
 ---
 ### Input
 
-Eingabe des Benutzers empfangen.
+Eingabe des Benutzers empfangen und ausgeben.
 
 ```py
 name = input('Geben Sie Ihren Namen an:')
@@ -174,9 +199,11 @@ print('abc')  # noch ein Kommentar
 ---
 ### Aufgaben
 
-Lösen die Aufgaben und besprechen sie die Wiederholungsfragen.
+Lösen sie die Aufgaben und besprechen sie die Wiederholungsfragen.
 
-*Aufteilung in Breakout-Rooms.*
+⚡Aufteilung in Breakout-Rooms ⏱️ 10 Minuten
+
+Ziel: Aufgabe 1.1 gelöst.
 
 ---
 ### Review

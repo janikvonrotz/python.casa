@@ -26,5 +26,5 @@ Wiederholungsfragen zum Thema.
 
 ## Mehr zum Thema
 
-#FIXME
+* [Die Programmiersprache Python](http://openbook.rheinwerk-verlag.de/python/02_001.html#u2)
 

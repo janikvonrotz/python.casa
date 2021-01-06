@@ -21,3 +21,9 @@ Zum Teilnehmen diesen [Zoom-Link](https://us02web.zoom.us/j/89458566531?pwd=OXVF
 [Thema 4](topic-4/readme.md)  
 [Thema 5](topic-5/readme.md)  
 [Thema 6](topic-6/readme.md)  
+
+## Anderes
+
+[Mitarbeiter](contribution.md)  
+[Dozent](teacher.md)  
+[Beispiele](examples/readme.md)  
