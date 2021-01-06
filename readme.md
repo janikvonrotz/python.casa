@@ -24,6 +24,6 @@ Zum Teilnehmen diesen [Zoom-Link](https://us02web.zoom.us/j/89458566531?pwd=OXVF
 
 ## Anderes
 
-[Mitarbeiter](contribution.md)  
+[Mitarbeit](contribution.md)  
 [Dozent](teacher.md)  
 [Beispiele](examples/readme.md)  
