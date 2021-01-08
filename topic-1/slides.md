@@ -1,4 +1,4 @@
-## Slides - Einführung Programmiersprache
+## Einführung Programmiersprache
 
 [Thema 1](topic-1/readme.md)
 
@@ -11,13 +11,13 @@
 
 * 1991 entwickelt
 * Einfache Syntax und gute Lesbarkeit
-* Universell anwendbar
+* Universell anwendbar und Plattform unabhängig
 * Beliebt in den Naturwissenschaften
 
 ---
 ### Installation Python
 
-Installation Python via [Python Download](https://www.python.org/downloads).
+Installation via [Python Download](https://www.python.org/downloads).
 
 Videos:
 * [Python3 auf Windows 10 installieren](https://www.youtube.com/watch?v=hr1P_F7Vp9Y)  
@@ -70,7 +70,7 @@ name='Michael'
 ```
 
 ---
-### Skript erstellen
+### Skript herunterladen
 
 Wir laden ein Skript herunter und speichern es in einem Ordner.
 
@@ -138,6 +138,7 @@ Ziel: Jeder kann die IDE starten.
 
 * Quellcode wird direkt vom Interpreter (Python) ausgeführt
 * Programmcode wird kompiliert
+* Program wird als C-Code ausgeführt
 
 ---
 ### Was passiert beim kompilieren?

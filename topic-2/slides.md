@@ -1,4 +1,4 @@
-## Slides - Variablen und Datentypen
+## Variablen und Datentypen
 
 [Thema 2](topic-2/readme.md)
 

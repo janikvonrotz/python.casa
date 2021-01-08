@@ -13,7 +13,7 @@
 ### Geschäftlich
 
 * <https://www.mint-system.ch/>
-* Odoo ist ein Python-Programm
+* Odoo ist eine Python-Software
 * Die Brücke zwischen Technik und Geschäft schlagen
 
 ---
@@ -34,9 +34,9 @@
 ---
 ### Ziele
 
-* Abstraktens Denken
+* Abstraktes Denken
 * Elementare Bausteine Programmierung
-* Programmcode Interpretieren
+* Programmcode interpretieren
 * Anwenden in der Praxis
 
 ---
@@ -53,7 +53,7 @@ Ihr findet alles unter <https://python.casa/>.
 
 [![](../buch.png)](https://kofler.info/buecher/python/)
 
-Teil 1 wird im Unterricht behandelt.
+Teil 1 es Buches wird im Unterricht behandelt.
 
 ---
 ### Leistungsnachweis
