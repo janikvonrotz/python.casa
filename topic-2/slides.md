@@ -7,7 +7,12 @@
 📖 Kapitel 2 Variablen, 3 Operatoren und 4 Zahlen
 
 ---
+### Besprechung Thema 1
 
+* Ziele erreicht?
+* Aufgaben und Wiederholungsfragen
+
+---
 ### Datentypen
 
 ![](../datentypen.png)
