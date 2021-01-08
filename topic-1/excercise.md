@@ -18,6 +18,12 @@ Im interaktiven Modus eine String-Variable deklarieren, den Variablenamen mit ei
 
 Fügen sie zu jeder Anweisung des Programs aus Aufgabe 1 einen Kommentar hinzu.
 
+### Aufgabe 1.3: IDE VS Code
+
+Installieren sie den IDE-Editor [VS Code](https://code.visualstudio.com/). 
+
+Video: [Visual Studio Code für Windows installieren](https://www.youtube.com/watch?v=og51Lo5uKBA)
+
 ## Wiederholungsfragen
 
 Wiederholungsfragen zum Thema.
@@ -27,4 +33,3 @@ Wiederholungsfragen zum Thema.
 ## Mehr zum Thema
 
 * [Die Programmiersprache Python](http://openbook.rheinwerk-verlag.de/python/02_001.html#u2)
-

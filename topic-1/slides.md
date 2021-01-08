@@ -48,6 +48,8 @@ Wir starten nun die Python-Shell.
 
 🎬 `python` im Terminal eingeben.
 
+> Wir arbeiten mit Python 3.6 und höher.
+
 ---
 ### Hello World
 
@@ -116,11 +118,8 @@ Windows:
 ### Installation IDE
 
 IDE=Integrierte Entwicklungsumgebung  
-Wir arbeiten mit Python 3.6 und höher.  
 
-IDE-Editor [VS Code](https://code.visualstudio.com/) installieren. 
-
-Video: [Visual Studio Code für Windows installieren](https://www.youtube.com/watch?v=og51Lo5uKBA)
+IDE-Editor [Thonny](https://thonny.org/) installieren.
 
 ⚡Aufteilung in Breakout-Rooms ⏱️ 10 Minuten
 
