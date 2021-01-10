@@ -1,6 +1,24 @@
 # Thema 2 - Variablen und Datentypen
-## [Slides](slides.md)  
-## [Übungen](excercise.md)  
+## [Slides](slides.md)
+## [Übungen](excercise.md)
+## Ankündigungen
+
+**Rückblick + Unterrichtsform**
+
+Liebe Studentinnen und Studenten
+
+Am letzten Freitag haben wir zusammen Python installiert und die ersten Schritte im Programmieren gemacht. Auch wenn die Übung mit dem Terminal nicht funktioniert hat, konnten am Ende alle mit Thonny ein Pthyon-Skript ausführen. Wir haben unsere Ziele erreicht.
+
+Für das Thema 2 möchte ich an der Unterrichtsform schrauben. Ich denke  es ist verwirrend wenn ich zwischen den Folien, der Website und der IDE (Thonny) hin und her wechsle. Für den kommenden Unterrichtsblock möchte ich herausfinden, ob es besser ist, wenn ihr auf der linken Seite eures Bildschirms die IDE geöffnet habt und auf der rechten Seite die Slides von der Website. Dazu ein Beispiel wie das aussehen könnte:
+
+Zoom wäre dann lediglich dazu da, dass ihr meine Stimmen bzw. Anweisungen hört. Ich begleite auch durch die Slides und wir geben fortlaufend unseren Python-Code ein. Zwischendrin gibt es Übungen damit alle auf den gleichen Stand kommen.
+
+Ich wäre das ganze am Freitag nochmals erläutern. Bis dann.
+
+Lieber Gruss
+
+Janik von Rotz
+
 ## Meta
 
 Ziele:
