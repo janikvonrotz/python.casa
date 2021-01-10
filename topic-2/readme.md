@@ -1,5 +1,5 @@
 # Thema 2 - Variablen und Datentypen
-## [Slides](topic-0/slides.md)  
+## [Slides](slides.md)  
 ## [Übungen](excercise.md)  
 ## Meta
 
