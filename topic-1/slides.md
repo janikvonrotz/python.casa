@@ -94,7 +94,7 @@ Im Unterordner das Terminal starten.
 🎬 Skript in Terminal ausführen 
 
 ```bash
-ptyhon ./HelloWorld.py
+python ./HelloWorld.py
 ```
 
 ℹ️ Unter MacOS und GNU/Linux muss das Programm mit `chmod +x ./HelloWorld.py` ausführbar gemacht werden.
@@ -119,7 +119,7 @@ Windows:
 
 IDE=Integrierte Entwicklungsumgebung  
 
-IDE-Editor [Thonny](https://thonny.org/) installieren.
+IDE-Editor [Thonny](https://thonny.org/) installieren. Wählt als Sprache `English` und Einstellung `Standard`.
 
 ⚡Aufteilung in Breakout-Rooms ⏱️ 10 Minuten
 

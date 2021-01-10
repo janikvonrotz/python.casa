@@ -1,6 +1,21 @@
 # Thema 1 - Einführung Programmiersprache
-[Slides](slides.md)  
-[Übungen](excercise.md)  
+## [Slides](slides.md)
+## [Übungen](excercise.md)
+## Ankündigungen
+
+**Rückblick + Thema 2**
+
+Liebe Studentinnen und Studenten
+
+Am letzten Freitag haben wir zusammen Python installiert und die ersten Schritt gemacht. Auch wenn die Übung mit dem Terminal nicht funktioniert hat, konnten am Ende alle mit Thonny ein Pthyon-Skript ausführen. Wir haben unsere Ziele erreicht. 
+
+Am nächsten Freitag werden wir Variablen und Datentypen von Python behandeln. 
+
+Lieber Gruss
+
+Janik von Rotz
+
+## Meta
 
 Ziele:
 * Erklärung der wesentlichen Begriffen

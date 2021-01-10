@@ -1,6 +1,7 @@
 # Thema 3 - Boolsche Algebra
-[Slides](topic-3/slides.md)  
-[Übungen](excercise.md)  
+## [Slides](topic-3/slides.md)  
+## [Übungen](excercise.md)  
+## Meta
 
 Ziele:
 * Vergleichende Operatoren

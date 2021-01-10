@@ -1,6 +1,5 @@
 # Thema 0 - Über diesen Kurs
-[Slides](slides.md)  
-
+## [Slides](slides.md)  
 ## Ankündigungen
 
 **Umfrage + Vorbereitung**
