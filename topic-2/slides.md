@@ -17,3 +17,14 @@
 
 ![](../datentypen.png)
 
+---
+### Was sind variablen?
+
+---
+### Heap anzeigen
+
+---
+### Variablen anzeigen
+
+> Variablen sind Referenzen
+

@@ -1,5 +1,5 @@
 # Thema 3 - Boolsche Algebra
-## [Slides](topic-3/slides.md)  
+## [Slides](slides.md)  
 ## [Übungen](excercise.md)  
 ## Meta
 
