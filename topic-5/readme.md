@@ -1,5 +1,5 @@
 # Thema 5 - Funktionen
-## [Slides](slides.md)  
+## [Slides](../topic-0/slides.md)  
 ## [Übungen](excercise.md)  
 ## Meta
 

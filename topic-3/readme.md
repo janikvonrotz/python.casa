@@ -1,6 +1,10 @@
-# Thema 3 - Boolsche Algebra
+# Thema 3 - Boolsche Algebra und Zeichenketten
 ## [Slides](slides.md)  
 ## [Übungen](excercise.md)  
+## Ankündigung
+
+Video: [Python3-Einstieg #6 - Datentyp String](https://youtu.be/CWQpPioHmSU)
+
 ## Meta
 
 Ziele:

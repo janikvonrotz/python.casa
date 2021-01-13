@@ -1,5 +1,5 @@
 # Thema 4 - Kontrollstrukturen
-## [Slides](slides.md)  
+## [Slides](../topic-0/slides.md)  
 ## [Übungen](excercise.md)  
 ## Meta
 
@@ -12,7 +12,7 @@ Ziele:
 
 Kompetenzen: Die Studierenden ...
 * können Probleme als sequentielle Abläufe erkennen
-* rkönnen repetetive Aufgaben als Kombination von Verzweigungen und Schlaufen erkennen, Programmabläufe entwerfen und als Flow-Charts darstellen
+* können repetetive Aufgaben als Kombination von Verzweigungen und Schlaufen erkennen, Programmabläufe entwerfen und als Flow-Charts darstellen
 * können die Probleme mithilfe von Kontrollstrukturen in der Software abbilden
 
 Didaktische Umsetzung:

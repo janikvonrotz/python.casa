@@ -1,5 +1,5 @@
 # Thema  6 - Ein- und Ausgabe
-## [Slides](slides.md)  
+## [Slides](../topic-0/slides.md)  
 ## [Übungen](excercise.md)  
 ## Meta
 
