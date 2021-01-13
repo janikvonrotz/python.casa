@@ -75,7 +75,7 @@ name='Michael'
 Wir laden ein Skript herunter und speichern es in einem Ordner.
 
 🎬 Folgende Punkte erledigen:
-* Projektordner und Unterordner `Thema01` erstellen
+* Projektordner und Unterordner `Thema1` erstellen
 * Datei [HelloWorld.py](https://raw.githubusercontent.com/janikvonrotz/python.casa/main/examples/kap01/HelloWorld.py) im Ordner speichern
 ---
 ### Skript ausführen
