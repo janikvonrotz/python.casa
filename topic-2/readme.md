@@ -21,7 +21,7 @@ Ich werde das ganze am Freitag nochmals erläutern. Bis dann.
 
 Lieber Gruss
 
-Janik von Rotz
+Janik
 
 ## Meta
 

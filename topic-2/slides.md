@@ -43,14 +43,17 @@ Beim Start eines Programms wird es in den Arbeitsspeicher (Memory) geladen
 ---
 ### Der Heap
 
-Im sog. Heap speichert Python die Werte der Variablen
+Im sogenannten Heap speichert Python die Werte der Variablen
 
 ![](../python-vm.png)
 
 ---
 ### Fensterdarstellung wechseln
 
-Für den weiteren Verlauf des Unterrichts arbeiten wir mit Thonny und der Website gleichzeitig.
+Für den weiteren Verlauf des Unterrichts arbeiten wir mit Thonny und der Website gleichzeitig. Dazu wechseln wir die Fensterdarstellung.
+
+---
+### Fensterdarstellung wechseln
 
 🎬 Folgende Aktion ausführen:
 * Thonny öffnen und das Fenster auf die linke Seite schieben
@@ -73,11 +76,7 @@ Mit Thonny können wir sehen wie Python die Variablen und deren Werte verwaltet.
 🎬 Folgende Aktionen in Thonny ausführen:
 * Neues leeres Skript erstellen
 * Datei speichern im neuen Ordner `Thema2` als `Heap.py`
-* Folgende Anweisung eingeben und ausführen:
-
-```py
-x=1
-```
+* Anweisung `x=1` eingeben und ausführen
 
 ---
 ### Ergebnis Heap
@@ -85,8 +84,6 @@ x=1
 Eine Variable ist eine Referenz zu einem Eintrag im Heap.
 
 ![](../thonny-variables-and-heap.png)
-
-Wie weiss Python um welchen Datentyp es sich handelt?
 
 ---
 ### Datentyp anzeigen
@@ -96,7 +93,7 @@ Variablen haben keinen Typ, aber deren Wert.
 🎬 Im Programm `Heap.py` diesen Code anfügen und ausführen.
 
 ```py
-print(type(x))
+print(type(x)) # Ausgabe: <class 'int'>
 ```
 
 ---
@@ -126,6 +123,13 @@ x = 3 # int
 s = s + str(x)
 print(s) # Ergebnis 'abc3'
 ```
+
+---
+### Pause
+
+⚡Wir machen eine Pause ⏱️ 10 Minuten
+
+<iframe src="https://giphy.com/embed/RicRd3dDNQJM3fmkzt" width="280" height="280" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 
 ---
 ### Gültigkeitsbereich
@@ -160,12 +164,31 @@ Python ...
 ---
 ### Division
 
-#FIXME
+Gewöhnliche Division liefert immer Fliesskommazahlen.
+
+```py
+print(2/3, 6/3) # Ausgabe: 0.6666666666666666 2.0
+```
+
+Für ganzzahlige Division `//` verwenden.
+
+```py
+print(2//3, 6//3) # Ausgabe: 0 2
+```
+
+🎬  Führen sie die Divisionen aus.
 
 ---
 ### Runden
 
-#FIXME
+🎬  Zum Runden die Funktion `round` verwenden.
+
+```py
+print(round(1.5)) # Ausgabe: 2
+print(round(1.4)) # Ausgabe: 1
+```
+
+ℹ️ Mit `help(round)` erfahren sie mehr zur Funktion.
 
 ---
 ### Zufallszahl generieren
@@ -179,7 +202,7 @@ from random import randint
 print(randint(0, 7))
 ```
 
-Generiert eine Zufallszahl von 0 bis 7.
+🎬  Generieren sie eine Zufallszahl von 1 bis 10.
 
 ---
 ### Aufgaben
@@ -193,14 +216,14 @@ Ziel: Aufgabe 2.1 gelöst.
 ---
 ### Review
 
-#FIXME 
-
-Ziele erreicht?
-* 
+🎯 Ziele erreicht?
+* Variablen deklarieren und verwenden
+* Datentypen verstanden
+* Einfach Berechnungen ausführen
 
 ---
 ### Abschluss
 
-Ich bitte euch die Aufgaben und Wiederholungsfragen im Selbststudium durchzugehen.
+📝 Ich bitte euch die restlichen Aufgaben und Wiederholungsfragen im Selbststudium durchzugehen.
 
 👋 Bis zum nächsten Mal.

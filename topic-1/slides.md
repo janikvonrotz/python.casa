@@ -66,7 +66,7 @@ print('Hello, World!')
 
 ```py
 name='Michael'
-'Hallo ' + name + '!'
+'Hallo ' + name + '!'
 ```
 
 ---
@@ -107,7 +107,7 @@ Was hat es mit der ersten Zeile auf sich?
 GNU/Linux und MacOS:
 
 ```py
-#!/usr/bin/env python3
+#!/usr/bin/env python3
 ```
 
 Windows:
@@ -152,13 +152,13 @@ Ist normalerweise Einzeilig.
 
 ```py
 print('abc',
-      'efg')
+      'efg')
 ```
 
 Mehre Anweisungen auf einer Zeile:
 
 ```py
-a=1; b=2; c=3
+a=1; b=2; c=3
 ```
 
 ---
@@ -167,11 +167,11 @@ a=1; b=2; c=3
 Sprachelemente über mehrere Zeilen.
 
 ```py
-if xxx:
-    anweisung1a
-    anweisung1b
+if xxx:
+    anweisung1a
+    anweisung1b
 else:
-    anweisung2a
+    anweisung2a
 ```
 
 Anweisungen müssen eingeruckt sein.
@@ -182,8 +182,8 @@ Anweisungen müssen eingeruckt sein.
 Eingabe des Benutzers empfangen und ausgeben.
 
 ```py
-name = input('Geben Sie Ihren Namen an:')
-print('Ihr Name lautet:', name)
+name = input('Geben Sie Ihren Namen an:')
+print('Ihr Name lautet:', name)
 ```
 
 ---
@@ -192,8 +192,8 @@ print('Ihr Name lautet:', name)
 Kommentieren direkt im Code.
 
 ```py
-# ein Kommentar
-print('abc')  # noch ein Kommentar
+# ein Kommentar
+print('abc')  # noch ein Kommentar
 ```
 
 ---

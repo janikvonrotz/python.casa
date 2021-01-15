@@ -4,7 +4,7 @@
 
 Aufgaben zum Thema.
 
-### Aufgabe 2.1 Zufallszahl Float
+### Aufgabe 2.1 Zufall
 
 Generieren sie eine Zufallszahl vom Typ `float` im Bereich von 1 bis 10.
 
@@ -14,7 +14,15 @@ Die Python Dokumentation bietet zu allen Module Informationen. Hier der Link zum
 
 ### Aufgabe 2.2 Runden
 
-Runden die generierte Zahl auf 3 Stellen nach dem Komma.
+Runden sie die generierte Zahl auf 3 Stellen nach dem Komma.
+
+### Augabe 2.3 Modulo
+
+Fragen sie den Benutzer nach einer ersten und einer zweiten Zahl. Geben sie den Restwert einer Division der ersten durch die zeite Zahl aus.
+
+::: warning
+Wenn die Heap-Ansicht noch aktiviert ist, kann es sein, das Python nicht den Wert der Zahl liefert, sondern deren Referenz. Deaktivieren sie die Heap-Ansicht um sicher zu gehen.
+:::
 
 ## Wiederholungsfragen
 

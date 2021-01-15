@@ -1,7 +1,7 @@
 
 # Mitarbeit
 
-Was muss beim Erstellen von Inhalten beachtet werden.
+Was beim Erstellen von Inhalten beachtet werden muss ist hier erläutert.
 
 ## Form
 
@@ -23,11 +23,15 @@ Aktionen für die Studenten werden mit 🎬 angeführt.
 
 **Aufforderungen**
 
-Aufforderungen an ale Studenten werden mit ⚡ markiert.
+Aufforderungen an alle Studenten werden mit ⚡ markiert.
 
 **Information**
 
-Hinweise werden mit ℹ️ markiert.
+Hinweise werden mit ℹ️ markiert oder als Container dargestellt:
+
+::: tip
+Das ist ein Hinweis.
+:::
 
 **Zeitlimiten**
 
@@ -36,3 +40,11 @@ Zeitlimiten werden mit ⏱️ angeführt.
 **Buchreferenz**
 
 Referenz zum Buch ist mit 📖 markiert.
+
+**Ziele**
+
+Ziele werden mit 🎯  markiert.
+
+**Hausaufgaben**
+
+Hausaufgaben werden mit 📝 markiert.
