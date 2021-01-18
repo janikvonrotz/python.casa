@@ -50,6 +50,10 @@ n=22.7
 msg='Die Temperatur beträgt ' + n + ' Grad.'
 ```
 
+* W5: Wie führen Sie eine ganzzahlige Division durch?
+* W6: Welchem Zahlenwert ist True zugeordnet?
+* W7: Sie wollen den Rest der Division 225 / 17 ermitteln. Wie gehen Sie vor?
+
 ## Mehr zum Thema
 
 * Video: [Python3-Einstieg #3 - Zahlen (Teil 1)](https://youtu.be/uBi17MBFjL0)

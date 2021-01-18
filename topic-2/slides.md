@@ -205,6 +205,12 @@ print(randint(0, 7))
 🎬  Generieren sie eine Zufallszahl von 1 bis 10.
 
 ---
+### Boolsche Werte
+
+#FIXME
+
+---
+
 ### Aufgaben
 
 Lösen sie die Aufgabe 2.1 und besprechen sie die Wiederholungsfragen.
