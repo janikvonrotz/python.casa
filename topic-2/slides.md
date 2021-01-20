@@ -167,7 +167,7 @@ Python ...
 Gewöhnliche Division liefert immer Fliesskommazahlen.
 
 ```py
-print(2/3, 6/3) # Ausgabe: 0.6666666666666666 2.0
+print(2/3, 6/3) # Ausgabe: 0.6666666666666666 2.0
 ```
 
 Für ganzzahlige Division `//` verwenden.
@@ -207,7 +207,17 @@ print(randint(0, 7))
 ---
 ### Boolsche Werte
 
-#FIXME
+Boolsche Werte kennen zwei Zustände.
+
+🎬  Führt das folgende Skript aus:
+
+```py
+a = True
+b = 7==8
+c = not 0
+d = int(False)
+print(a,b,c,d)
+```
 
 ---
 
