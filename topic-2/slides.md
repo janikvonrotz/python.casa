@@ -48,12 +48,12 @@ Im sogenannten Heap speichert Python die Werte der Variablen
 ![](../python-vm.png)
 
 ---
-### Fensterdarstellung wechseln
+### Fensterdarstellung wechseln 1
 
 Für den weiteren Verlauf des Unterrichts arbeiten wir mit Thonny und der Website gleichzeitig. Dazu wechseln wir die Fensterdarstellung.
 
 ---
-### Fensterdarstellung wechseln
+### Fensterdarstellung wechseln 2
 
 🎬 Folgende Aktion ausführen:
 * Thonny öffnen und das Fenster auf die linke Seite schieben
