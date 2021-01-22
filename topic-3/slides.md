@@ -20,6 +20,10 @@ A ⋁ B = B ⋁ A
 
 ### De Morgan’s Laws
 
+### Aufgabe
+
+Breakout Session 1
+
 ### Pause
 
 ### Grundregeln Zeichenketten
@@ -42,6 +46,8 @@ A ⋁ B = B ⋁ A
 
 ### Format-Kurzschreibweise
 
-### 
+###  Aufgabe
+
+Breakout Session 2
 
 ### Abschluss
