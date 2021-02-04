@@ -3,7 +3,22 @@
 ## [Übungen](excercise.md)  
 ## Ankündigung
 
-Video: [Python3-Einstieg #6 - Datentyp String](https://youtu.be/CWQpPioHmSU)
+**Thema 3**
+
+Hallo Zusammen
+
+Zur Vorbereitung für den kommen Freitag habe ich zwei Videos:
+
+- [Python3-Einstieg #6 - Datentyp String](https://youtu.be/CWQpPioHmSU)  
+- [Informatik: Bool'sche Algebra](https://www.youtube.com/watch?v=P9NYIjupCbw)
+
+Zuerst schauen wir uns Bool'sche Algebra an, setzen diese in Python um und danach lernen wir mehr zu Zeichenketten.
+
+Ich freue mich, bis gleich.
+
+Lieber Gruss
+
+Janik
 
 ## Meta
 

@@ -26,3 +26,6 @@ Gestaltung:
 * Alle Kursinhalte zerlegen
 * Weiterführende Materialien bieten
 
+## Resourcen
+
+- [# Einführung ins Programmieren mit Python](https://pythonbuch.com/index.html)
