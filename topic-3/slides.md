@@ -178,7 +178,7 @@ Ziel: Aufgabe 3.1 und 3.2 gelöst.
 ### Grundregeln Zeichenketten
 
 * Wichtigkeit: Zeichenketten > Zahlen
-* In Python macht den Umgang mit Zeichenketten relativ leicht
+* Python macht den Umgang mit Zeichenketten relativ leicht
 
 ```py
 s='abc'
@@ -211,43 +211,161 @@ print(s)
 ---
 ### Zeichenketten kombinieren
 
-```py
+🎬 Folgende Aktionen ausführen:
+* Ordner `Thema3` und Datei `Zeichenketten.py` erstellen
+* Geben sie den folgenden Code ein:
 
+```py
+s1 = 'abc'
+s2 = 'efg'
+s3 = s1 + s2 + s1
+print(s3) # Ergebnis 'abcefgabc'
 ```
 
 ---
 ### Zeichenketten vervielfältigen
 
+```py
+s1 = 'abc'
+s2 = s1*3 + 'x'*2
+print(s2) # Ergebnis 'abcabcabcxx'
+```
+
 ---
 ### Sonderzeichen
+
+Sonderzeichen können mit Escape-Sequenzen eingebettet werden.
+
+![](../escape-sequences.png)
+
+---
+### Raw-Zeichenketten
+
+Python interpretiert \-Sequenzen als Sonderzeichen, um das zu vermeiden, stellen sie den Buchstaben r (raw) voran:
+
+```py
+latexcode = r'\section{Überschrift}'
+```
 
 ---
 ### Teilzeichenketten
 
+Mit der Slicing-Syntax `s[start:ende]` kann auf Teile einer Zeichenkette zugegriffen werden.
+
+🎬  Erstellen sie die Datei `Teilzeichenketten.py`
+
+---
+### Zugriff Teilzeichenketten
+
+🎬  Führen sie die folgenden Zeilen aus:
+
+```py
+s='abcdefghijklmnopqrstuvwxyz'
+print(s[3]) # Viertes Zeichen
+print(s[3:6])
+print(s[:3]) # Alles bis und mit dem dritten Zeichen
+print(s[-4]) # Das viertletzte Zeichen
+print(s[-4:]) # Alles ab dem iertletzten Zeichen
+```
+
 ---
 ### Schrittweite
 
+Mit dem dritten Parameter kann die Schrittweite angegeben werden.
+
+🎬  Fügen sie diese Zeilen an:
+
+```py
+print(s[::2]) # jedes zweite Zeichen
+```
+
+Mit negativen Schrittweite kehrt die Reihenfolge:
+
+```py
+print(s[::-1]) # alles in umgekehrter Reihenfolge
+print(s[::-2]) # Jedes zweite Zeichen in umgekehrter Reihenfolge
+```
+
 ---
 ### Zeichenkettenfunktionen
+
+Zeichenketten können mit vielen Funktionen und Methoden bearbeitet werden.
+
+![](../string-methods.png)
+
+---
+### ℹ️ Funktionen versus Methoden
+
+Methoden sind etwas Ähnliches wie Funktionen, sie werden aber direkt auf die zugrundeliegenden Daten (Objekte) angewendet.
+
+```py
+funktion(daten)
+daten.methode(weitere, daten)
+```
+
+---
+### Anwendungsbeispiele Methoden
+
+🎬  Erstellen sie die Datei `Methoden` mit diesem Inhalt:
+
+```py
+s='abcdefghijklmnopqrstuvwxyz'
+print(s.upper()) # Alles in Grossbuchstaben
+print(s.count('efg')) 
+```
+
+### Eigenschaften ermitteln
+
+
 
 ---
 ### Suchen und ersetzen
 
 ---
+### Daten formatieren
+
+* %-Operator
+* format-Methode
+* format-Kurzschreibweise
+
+---
 ### Formatierung mit %-Operator
 
 ---
-### Format-Kurzschreibweise
+### Formatierung mit format-Methode
 
 ---
-###  Aufgaben 2
+### Formatierung mit format-Kurzschreibweise
 
-Breakout Session 2
+---
+### Lokalisierung
+
+---
+### Aufgaben 1
+
+Lösen sie die nächsten zwei Aufgaben.
+
+⚡Aufteilung in Breakout-Rooms ⏱️ 10 Minuten
+
+Ziel: Aufgabe 3.3 und 3.4 gelöst.
+
+---
+### Review
+
+🎯 Ziele erreicht?
+* 
+* 
+* 
 
 ---
 ### Abschluss
+
+📝 Ich bitte euch die restlichen Aufgaben und Wiederholungsfragen im Selbststudium durchzugehen.
+
+👋 Auf Wiedersehen (zumindest virtuel)
 
 ---
 ### Referenzen
 
 [^1]: [Wikipedia - Boolesche Algebra](https://de.wikipedia.org/wiki/Boolesche_Algebra#Definition)
+[^2]: [# How to count non-DNA bases in a sequence using Python](https://pythonforbiologists.com/counting-bases-in-a-sequence)

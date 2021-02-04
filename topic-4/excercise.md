@@ -11,3 +11,7 @@ if zahl % 2 == 0:
 else:
     print("Die eingegebene Zahl ist nicht durch drei und zwei teilbar.")
 ```
+
+### Aufgabe Password-Check
+
+Sicheres Password prüfen.
