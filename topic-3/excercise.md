@@ -54,7 +54,7 @@ https://www.youtube.com/watch?v=
 
 ℹ️ Anführungszeichen sind Zeichen aus der Programmier-Syntax.
 
-* W2: Wie bilden Sie Zeichenketten, die das Zeichen \ enthalten?
+* W2: Wie bilden Sie Zeichenketten, die das Zeichen \\ enthalten?
 * W3: Extrahieren Sie aus der folgenden Zeichenkette das Tag zwischen den eckigen Klammern:
 
 `bla [wichtig] mehr bla`

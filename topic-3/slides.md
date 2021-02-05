@@ -238,10 +238,14 @@ Sonderzeichen können mit Escape-Sequenzen eingebettet werden.
 
 ![](../escape-sequences.png)
 
+```py
+print("Hallo\nWelt")
+```
+
 ---
 ### Raw-Zeichenketten
 
-Python interpretiert \-Sequenzen als Sonderzeichen, um das zu vermeiden, stellen sie den Buchstaben r (raw) voran:
+Python interpretiert \\-Sequenzen als Sonderzeichen, um das zu vermeiden, stellen sie den Buchstaben r (raw) voran:
 
 ```py
 latexcode = r'\section{Überschrift}'
@@ -306,7 +310,7 @@ daten.methode(weitere, daten)
 ---
 ### Anwendungsbeispiele Methoden
 
-🎬  Erstellen sie die Datei `Methoden` mit diesem Inhalt:
+🎬  Erstellen sie die Datei `Methoden.py` mit diesem Inhalt:
 
 ```py
 s='abcdefghijklmnopqrstuvwxyz'
@@ -314,31 +318,90 @@ print(s.upper()) # Alles in Grossbuchstaben
 print(s.count('efg')) 
 ```
 
+---
 ### Eigenschaften ermitteln
 
+Mit `str.isxxx`-Funktionen können sie Zeichenketten nach bestimmten Eigenschaften testen.
 
+🎬  Erstellen sie die Datei `Eigenschaften.py` mit diesem Inhalt:
+
+```py
+print(len('abc')) # 3
+print(str.isalpha('abcäöü')) # True
+print(str.isalpha('abc123')) # False
+print(str.isdigit('123')) # True
+print(str.isalnum('abc123')) # True
+print(str.isascii('abc123|$!')) # True
+print(str.islower('abcD')) # False
+```
 
 ---
-### Suchen und ersetzen
+### Suchen
+
+🎬 Führen sie diese Aktionen aus:
+* Datei `Suchen.py` erstellen
+* Diesen Code einfügen und ausführen:
+
+```py
+s="abcdefghijklmnopqrstuvwxyz"
+print(s.find("hij")) # Ergebnis: 7
+print(s.find("hij",8)) # -1 also nicht gefunden
+print(s.rfind("hij")) # Suche von Rechts nach Links
+```
+
+ℹ️ Beim Zugriff auf die Startposition muss 1 dazugezählt werden.
+
+---
+### Ersetzen
+
+🎬 Fügen sie diesen Code an die letzte Datei:
+
+```py
+print(s.replace('e', 'X'))
+```
 
 ---
 ### Daten formatieren
 
+Es gibt mehrere Ansätze zum Formatieren von Zeichenketten:
 * %-Operator
 * format-Methode
 * format-Kurzschreibweise
 
+🎬 Erstellen sie eine Datei `Formatierung.py`
+
 ---
 ### Formatierung mit %-Operator
+
+🎬 Führen sie diesen Code aus:
+
+```py
+print('%s ist %d Jahre alt.' % ('Matthias', 11))
+print('1/7 mit drei Nachkommastellen: %.3f' % (1/7))
+```
 
 ---
 ### Formatierung mit format-Methode
 
+🎬 Führen sie diesen Code aus:
+
+```py
+print('{} ist {} Jahre alt.'.format('Sebastian', 13))
+print('{name} ist {alter} Jahre alt.'.format(alter=13, name='Sebastian'))
+```
+
 ---
 ### Formatierung mit format-Kurzschreibweise
 
----
-### Lokalisierung
+🎬 Führen sie diesen Code aus:
+
+```py
+alter=13
+name='Sebastian'
+print(f'{name} ist {alter} Jahre alt.')
+```
+
+ℹ️ Diese Formatierung ist ab Python 3.6 verfügbar.
 
 ---
 ### Aufgaben 1
@@ -353,9 +416,9 @@ Ziel: Aufgabe 3.3 und 3.4 gelöst.
 ### Review
 
 🎯 Ziele erreicht?
-* 
-* 
-* 
+* Gesetze der boolschen Algebra sind bekannt
+* Zeichenketten können erstellt, bearbeitet und formatiert werden
+* Das Erstellen von Skripten ist inzwischen kein Problem
 
 ---
 ### Abschluss

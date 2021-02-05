@@ -6,7 +6,7 @@ Aufwand: 8-16 Stunden
 
 Resultat:
 * Pyhton-Progrmam (gezippter Ordner mit Skripten): `Code.zip`
-* Dokumentation zum Programm (4-8 Seiten, ohne Cover, Dateityp PDF oder ePub): `Dokumentation.pdf`
+* Dokumentation zum Programm (4-8 Seiten, ohne Cover, Dateityp Markdown, PDF oder ePub): `Dokumentation.{md,pdf,epub}`
 
 ## Termine
 
@@ -15,7 +15,7 @@ Resultat:
 
 ## Themenwahl
 
-Hier eine Beispiele:
+Hier einige Ideen für Projekte:
 
 * Suche nach Begriff in Log-Dateien
 * Unterstützung mathematische Berechnungen
@@ -27,6 +27,8 @@ Hier eine Beispiele:
 * Wetter-Informationen abrufen und darstellen
 * Tweet von Twitter-Account anzeigen lassen
 * Datei auf Dropbox speichern
+* Grafischer Notenrechner
+* Textbasiertes Game
 
 ## Vorlagen
 
@@ -59,20 +61,22 @@ Gewichtung: 5
 Leitfragen:
 * Ist die Struktur des Codes verständlich?
 * Sind die Anweisungen kommentiert?
-* Kann ein Laie die Funktion des Programs nachvollziehen?
+* Kann ein Laie die Funktion des Programms nachvollziehen?
+* Wurde der Procammcode selbst erfasst oder kopiert?
 
 **Herausforderung**
 
 Gewichtung: 2
 
-* Kann das definiere Problem  auch wirklich nur mit einem Program glelöst werden?
-* Ist die Herausforderung dem HF-Niveau entsprechend?
+* Kann das definiere Problem  auch wirklich nur mit einem Programm glelöst werden?
+* Ist die Herausforderung dem HF-Niveau gerecht?
 * Ist in der Reflexion ein Lerneffekt sichtbar?
 
 **Inhalt**
 
 Gewichtung: 4
 
-* Wurden die Inhalte aus den Lektionen korrekt angewendet?
+* Wurden gelernten Strukturen aus den Lektionen sinvoll eingesetzt?
 * Liegt die Dokumentation in einem angemessen Umfang vor?
 * Wurde der Code mit einem Flowchart sachgemäss visualisiert?
+* Wurden alle Dateien in einer sinnvollen Ordnerstruktur abgelegt?
