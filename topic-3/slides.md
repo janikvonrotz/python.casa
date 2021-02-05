@@ -199,7 +199,7 @@ s = """Das ist
 print(s)
 ```
 
-ℹ️ Zeilenumbrüche werden mit der Escape-Sequen `\n` gespeichert.
+ℹ️ Zeilenumbrüche werden mit der Escape-Sequenzen `\n` gespeichert.
 
 ---
 ### Zeichenketten kombinieren
