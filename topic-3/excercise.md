@@ -44,7 +44,7 @@ Wir möchten herausfinden, ob diese Sequenz auch wirklich DNA enthält. Zählen 
 
 Rechnen sie die Summe geteilt durch die Anzahl Zeichen der Sequenz. Das Ergebnis ist eine Prozentzahl. Formatiert die Ausgabe so, dass die Zahl zwei Stellen nach dem Komma und mit Prozentzeichen ausgegeben wird.
 
-### Aufgabe 3.5 Unicode
+### Aufgabe 3.5 Geheim
 
 Wir haben eine geheime Zeichensequenz erhalten:
 
