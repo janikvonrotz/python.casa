@@ -155,7 +155,7 @@ Evaluation wird abgebrochen sobald Ergebnis feststeht.
 x = True
 y = False
 y and (x and y) or (y and x) # Evaluation wird nach y abgebrochen
-y and (x and y) or (y and x) # Evaluation vollständig geprüft
+x and (x and y) or (y and x) # Evaluation vollständig geprüft
 ```
 
 ---
@@ -166,13 +166,6 @@ Lösen sie die ersten zwei Aufgaben.
 ⚡Aufteilung in Breakout-Rooms ⏱️ 10 Minuten
 
 Ziel: Aufgabe 3.1 und 3.2 gelöst.
-
----
-### Pause
-
-⚡Wir machen eine Pause ⏱️ 10 Minuten
-
-<iframe src="https://giphy.com/embed/pp6pC4XgyDOiQ" width="280" height="280" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 
 ---
 ### Grundregeln Zeichenketten
@@ -230,6 +223,13 @@ s1 = 'abc'
 s2 = s1*3 + 'x'*2
 print(s2) # Ergebnis 'abcabcabcxx'
 ```
+
+---
+### Pause
+
+⚡Wir machen eine Pause ⏱️ 10 Minuten
+
+<iframe src="https://giphy.com/embed/pp6pC4XgyDOiQ" width="280" height="280" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 
 ---
 ### Sonderzeichen
