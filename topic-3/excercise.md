@@ -35,7 +35,7 @@ b = True
 Eine Analyse hat eine DNA-Sequenz zurückgeben. 
 
 ```
-ATAGCTGATCGTAGCTACGTACGATCG
+ACTNGTGCTYGATRGTAGC
 ```
 
 Wir möchten herausfinden, ob diese Sequenz auch wirklich DNA enthält. Zählen sie die Buchstaben A, T, G und C in der Sequenz zu einer Summe.
