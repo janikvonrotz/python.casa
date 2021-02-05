@@ -404,7 +404,7 @@ print(f'{name} ist {alter:.3} Jahre alt.')
 ℹ️ Diese Formatierung ist ab Python 3.6 verfügbar.
 
 ---
-### Aufgaben 1
+### Aufgaben 2
 
 Lösen sie die nächsten zwei Aufgaben.
 
