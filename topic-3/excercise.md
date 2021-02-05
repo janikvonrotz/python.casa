@@ -32,21 +32,38 @@ b = True
 
 ### Aufgabe 3.3 DNA
 
+Eine Analyse hat eine DNA-Sequenz zurückgeben. 
+
 ```
 ATAGCTGATCGTAGCTACGTACGATCG
 ```
 
-### Aufgabe 3.4 CRISPR
+Wir möchten herausfinden, ob diese Sequenz auch wirklich DNA enthält. Zählt die Buchstaben A, T, G und C in der Sequenz zu einer Summe.
 
-### Aufgabe 3.5
+### Aufgabe 3.4 DNA 2
 
-### Aufgabe 3.6 
+Rechnet die Summe geteilt durch die Anzahl Zeichen der Sequenz. Das Ergebnis ist eine Prozentzahl. Formatiert die Ausgabe so, dass die Zahl zwei Stellen nach dem Komma und mit Prozentzeichen ausgegeben wird.
 
-oHg5SJYRHA0
+### Aufgabe 3.5 Unicode
 
-### Aufgabe 3.7 Bonusaufgabe
+Wir haben eine geheime Zeichensequenz erhalten:
 
-https://www.youtube.com/watch?v=
+```
+xAHRYJS5gHo
+```
+
+Zum entschlüsseln, müssen wir die Reihenfolge umkehren, jedes zweite Zeichen lesen und `x` mit `0` ersetzen.
+
+### Aufgabe 3.6 Bonusaufgabe
+
+Die Nachricht verrät nicht viel. Der Internet-Kenner weiss aber, dass es sich um eine Youtube-ID handelt. Vervollständigen sie den folgenden Code und führen sie ihn aus:
+
+```py
+import webbrowser
+
+youtube_id = 
+webbrowser.open('https://www.youtube.com/watch?v=%s' % ())
+```
 
 ## Wiederholungsfragen
 
@@ -65,5 +82,3 @@ https://www.youtube.com/watch?v=
 
 * W5: Fordern Sie den Anwender eines Scripts auf, seinen Namen einzugeben, und entfernen Sie dann alle Leerzeichen am Beginn und Ende der Eingabe.
 * W6: Geben Sie Hello, World! in umgekehrter Reihenfolge aus.
-
-## Mehr zum Thema

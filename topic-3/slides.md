@@ -396,9 +396,9 @@ print('{name} ist {alter} Jahre alt.'.format(alter=13, name='Sebastian'))
 🎬 Führen sie diesen Code aus:
 
 ```py
-alter=13
+alter=26/3
 name='Sebastian'
-print(f'{name} ist {alter} Jahre alt.')
+print(f'{name} ist {alter:.3} Jahre alt.')
 ```
 
 ℹ️ Diese Formatierung ist ab Python 3.6 verfügbar.

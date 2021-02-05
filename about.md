@@ -25,7 +25,7 @@ Fachlich baut der Kurs auf dem Buch "Python - Der Grundkurs" von Michael Kofler 
 
 Das Buch kann als eBook bei [Orell-Flüssli](https://www.orellfuessli.ch/shop/home/artikeldetails/ID128412897.html) gekauft werden.
 
-Zur Vorschau kann [hier](https://janikv.cloud/s/x362ERYZp6kL3Gb) heruntergeladen werden. Das Passwort wird auf Anfrage vom Dozenten zur Verfügung gestellt.
+Zur Vorschau kann es [hier](https://janikv.cloud/s/x362ERYZp6kL3Gb) heruntergeladen werden. Das Passwort wird auf Anfrage vom Dozenten zur Verfügung gestellt.
 
 **Kommunikation**
 
