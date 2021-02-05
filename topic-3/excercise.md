@@ -14,7 +14,7 @@ not (not (a or (a and b))) and (b and (b or a))
 
 ### Aufgabe 3.2 Kurzschluss
 
-Nehmen sie den logischen Ausdruck von Aufgabe 3.1 und bestimmten sie ob dieser unter den folgenden Bedinungen vollständig ausgeführt wird oder nicht:
+Nehmen sie den logischen Ausdruck von Aufgabe 3.1 und bestimmen sie, ob dieser unter den folgenden Bedinungen vollständig evaluiert wird oder nicht:
 
 Bedingung 1:
 
@@ -38,18 +38,18 @@ Eine Analyse hat eine DNA-Sequenz zurückgeben.
 ATAGCTGATCGTAGCTACGTACGATCG
 ```
 
-Wir möchten herausfinden, ob diese Sequenz auch wirklich DNA enthält. Zählt die Buchstaben A, T, G und C in der Sequenz zu einer Summe.
+Wir möchten herausfinden, ob diese Sequenz auch wirklich DNA enthält. Zählen sie die Buchstaben A, T, G und C in der Sequenz zu einer Summe.
 
 ### Aufgabe 3.4 DNA 2
 
-Rechnet die Summe geteilt durch die Anzahl Zeichen der Sequenz. Das Ergebnis ist eine Prozentzahl. Formatiert die Ausgabe so, dass die Zahl zwei Stellen nach dem Komma und mit Prozentzeichen ausgegeben wird.
+Rechnen sie die Summe geteilt durch die Anzahl Zeichen der Sequenz. Das Ergebnis ist eine Prozentzahl. Formatiert die Ausgabe so, dass die Zahl zwei Stellen nach dem Komma und mit Prozentzeichen ausgegeben wird.
 
 ### Aufgabe 3.5 Unicode
 
 Wir haben eine geheime Zeichensequenz erhalten:
 
 ```
-xAHRYJS5gHo
+1x1A1H1R1Y1J1S151g1H1o
 ```
 
 Zum entschlüsseln, müssen wir die Reihenfolge umkehren, jedes zweite Zeichen lesen und `x` mit `0` ersetzen.
