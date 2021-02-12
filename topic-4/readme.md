@@ -1,6 +1,20 @@
 # Thema 4 - Kontrollstrukturen
 ## [Slides](slides.md)  
 ## [Übungen](excercise.md)  
+## Ankündigung
+
+**Projektvorschlag**
+
+Hallo Miteinander
+
+Im letzten Unterrichtsblock habe ich euch den Leistungsnachweis erläutert. Die ersten Eingaben habe ich bereits erhalten. Bitte ladet euren Projektvorschlag bis am 28.02.2021 auf [Moodle](https://moodle.medizintechnik-hf.ch/mod/assign/view.php?id=4680) hoch.
+
+Bei Fragen bitte melden.
+
+Freundlicher Gruss
+
+Janik
+
 ## Meta
 
 Ziele:

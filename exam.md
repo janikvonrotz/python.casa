@@ -10,8 +10,8 @@ Resultat:
 
 ## Termine
 
-27.02.2021: Eingabe Projektvorschlag für Leistungsnachweis  
-27.03.2021: Deadline Hochladen Leistungsnachweis
+28.02.2021: Eingabe Projektvorschlag für Leistungsnachweis  
+28.03.2021: Deadline Hochladen Leistungsnachweis
 
 ## Themenwahl
 
