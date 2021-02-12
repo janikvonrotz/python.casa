@@ -5,7 +5,7 @@ Ziel: Eine Problem definieren und dieses mithilfe eines selbstgeschriebenen Prog
 Aufwand: 8-16 Stunden
 
 Resultat:
-* Pyhton-Progrmam (gezippter Ordner mit Skripten): `Code.zip`
+* Python-Programm (gezippter Ordner mit Skripten): `Code.zip`
 * Dokumentation zum Programm (4-8 Seiten, ohne Cover, Dateityp Markdown, PDF oder ePub): `Dokumentation.{md,pdf,epub}`
 
 ## Termine
@@ -38,7 +38,7 @@ Der Projektvorschlag wird auf Moodle mitgeteilt und besteht im wesentlichen aus 
 
 ### Dokumentation
 
-Kapitelübeschriften der Dokumentation:
+Kapitelüberschriften der Dokumentation:
 
 * **Problemstellung**: Beschreibung des Problems.
 * **Vorgehen**: Vorgehen um das Problem zu lösen. Visualisierung mittels Flowchart.
@@ -62,13 +62,13 @@ Leitfragen:
 * Ist die Struktur des Codes verständlich?
 * Sind die Anweisungen kommentiert?
 * Kann ein Laie die Funktion des Programms nachvollziehen?
-* Wurde der Procammcode selbst erfasst oder kopiert?
+* Wurde der Programmcode selbst erfasst oder kopiert?
 
 **Herausforderung**
 
 Gewichtung: 2
 
-* Kann das definiere Problem  auch wirklich nur mit einem Programm glelöst werden?
+* Kann das definierte Problem auch wirklich nur mit einem Programm gelöst werden?
 * Ist die Herausforderung dem HF-Niveau gerecht?
 * Ist in der Reflexion ein Lerneffekt sichtbar?
 
@@ -76,7 +76,7 @@ Gewichtung: 2
 
 Gewichtung: 4
 
-* Wurden gelernten Strukturen aus den Lektionen sinvoll eingesetzt?
+* Wurden gelernte Strukturen aus den Lektionen sinnvoll eingesetzt?
 * Liegt die Dokumentation in einem angemessen Umfang vor?
 * Wurde der Code mit einem Flowchart sachgemäss visualisiert?
 * Wurden alle Dateien in einer sinnvollen Ordnerstruktur abgelegt?
