@@ -1,4 +1,4 @@
-# Thema 4 - Kontrollstrukturen
+# Thema 4 - Kontrollstrukturen und Listen
 ## [Slides](slides.md)  
 ## [Übungen](excercise.md)  
 ## Ankündigung
