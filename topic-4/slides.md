@@ -15,13 +15,13 @@ Besprechung der Wiederholungsfragen.
 ---
 ### Überblick
 
-Slides 1:
-* Lektion 1: Listen, Tupel, Sets und Dictionaries
-* Lektion 2: Python in der Praxis
+Thema 4:
+* Listen, Tupel, Sets und Dictionaries
+* Verzweigungen und Schleifen
 
-Slides 2:
-* Lektion 3: Verzweigungen und Schleifen
-* Lektion 4: Übungen
+Thema 5:
+* Funktionen
+* Python in der Praxis
 
 ---
 ### Listen, Tupel, Sets und Dictionaries
@@ -58,16 +58,6 @@ Slides 2:
 ### Pause
 
 ### Übungen 1
-
-### Python in der Praxis
-
-### Odoo ERP-System
-
-### 3-tier Architektur
-
-### Abstraktion mit Klassen
-
-### Erweiterung einer Klasse
 
 ![](../try-and-error.png)
 
