@@ -44,20 +44,115 @@ Thema 5:
 * Formulierung mit `[]`-Klammern
 
 ---
+### Thonny vorbereiten
+
+🎬 Führen sie diese Aktionen aus:
+* Neuer Ordner `Thema4` erstellen
+* Neue Datei in Ordner `Listen.py` erstellen
+
+---
 ### Liste deklarieren
+
+Wir erstellen eine einfache Liste und geben das dritte Element aus.
+
+🎬 In der IDE ausführen:
+
+```py
+lst =[1, 2.3, 'abc', 'efg', 12]
+print(lst[2]) # Ausgabe: abc
+```
 
 ---
 ### range-Funktion
 
+Mit der Slicing-Syntax Reihenfolgen definieren.
+
+🎬 In der IDE ausführen:
+
+```py
+lst = list(range(10, 101, 10))
+print(lst) # Ausgabe: [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+```
+
 ---
 ### Umwandlung Zeichenkette
+
+
 
 ---
 ### List Comprehension
 
+---
+### Funktionen zur Verarbeitung
+
+
+---
+### map-Funktion
+
+---
+### reduce-Funktion
+
+---
+### filter-Funktion
+
+---
+### Listen sortieren
+
+---
 ### Pause
 
-### Übungen 1
+---
+### Tupel
 
-![](../try-and-error.png)
+* 
+
+---
+### Tupel deklarieren
+
+---
+### Tupel Anwendungsfälle
+
+---
+### Sets
+
+* 
+
+---
+### Sets deklarieren
+
+---
+### set-Methode
+
+---
+### Dictionaries
+
+* 
+
+---
+### Dictionaries deklarieren
+
+
+---
+### keys und values Methoden
+
+
+---
+### Arrays
+
+---
+### Aufgaben 1
+
+Lösen sie die ersten zwei Aufgaben.
+
+⚡Aufteilung in Breakout-Rooms ⏱️ 10 Minuten
+
+Ziel: Aufgabe 4.1 und 4.2 gelöst.
+
+---
+### Verzweigungen und Schleifen
+
+
+### Review
+
+
 
