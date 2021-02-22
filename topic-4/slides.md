@@ -297,8 +297,130 @@ Ziel: Aufgabe 4.1 und 4.2 gelöst.
 ---
 ### Verzweigungen und Schleifen
 
+* **Verzweigungen**: Abhängig von Bedinungen Codeteile ausführen
+* **Schleifen**: Code mehrfach ausführen solange Bedinung erfüllt ist
 
+---
+### if-Verzweigung
 
+Syntax sollte leicht verständlich sein:
+
+```
+if bedingung1:
+    block1
+elif bedingung2:
+    block2
+elif bedingung3:
+    block3
+else:
+    block4
+```
+
+---
+### if-Kurzschreibweise
+
+Die if-Anweisung kann auf einer Zeile definiert werden.
+
+```
+x = wert1 if bedingung else wert2
+```
+
+ℹ️ In anderen Programmiersprachen gibt es dafür den [*Ternary Operator*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator)
+
+---
+### if-Beispiel
+
+🎬 Erstellen und führen sie die Datei `if.py` mit diesem Inhalt aus:
+
+```py
+antwort = input("Möchtest du Feierabend: ")
+
+if antwort in ["Ja", "ja", "jep"]:
+    print("Sehr gut!")
+else:
+    print("Ich glaube dir nicht!")
+```
+
+---
+### for-Schleife
+
+Die Syntax:
+
+```
+for var in elemente:
+    anweisungen
+```
+
+---
+### for mit Zeichenkette
+
+🎬 Erstellen und führen sie die Datei `for.py` mit diesem Inhalt aus:
+
+```
+for c in 'abc':
+    print(c)
+```
+
+---
+### for mit Listen, Tupel und Sets
+
+🎬 Fügen sie diesen Code hinzu:
+
+```
+for c in 'abc':
+    print(c)
+    
+for i in (17, 87, 4): 
+    print(i, end=' ') # end Paramter verhindert Zeilenumbruch
+```
+---
+### for mit Dictionaries
+
+Bei Schleifen mit Dictionaries entählt die Variable den Schlüssel.
+
+🎬 Fügen sie diesen Code hinzu:
+
+```
+dict = {'a':12, 'c':78, 'b':3, 'd':43}
+for k in dict:
+    print(k,dict[k])
+for k,v in dict.items():
+    print(k,v)
+```
+
+---
+### while-Schleife
+
+Die Syntax:
+
+```
+while bedingung:
+    anweisungen
+```
+
+---
+### while-Beispiel
+
+🎬 Erstellen und führen sie die Datei `while.py` mit diesem Inhalt aus:
+
+```py
+i=1
+while i<5:
+    print(i)
+    i+=1
+# Ausgabe: 1 2 3 4
+```
+
+---
+### Aufgaben 2
+
+Lösen sie die nächsten zwei Aufgaben.
+
+⚡Aufteilung in Breakout-Rooms ⏱️ 10 Minuten
+
+Ziel: Aufgabe 4.3 und 4.4 gelöst.
+
+---
 ### Review
 
 

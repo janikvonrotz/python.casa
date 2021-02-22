@@ -1,17 +1,54 @@
-9 Funktion
+## Funktionen
 
-## Flowcharts
+[Thema 5](readme.md)
 
-## In der Praxis
+⚡[Anwesenheit bestätigen](https://moodle.medizintechnik-hf.ch/mod/attendance/manage.php?id=4479) und Webcam einschalten.
 
-Dokumentation
+📖 Kapitel 9 Funktion
 
+---
+### Funktionen
+
+### Eigene Funktion definieren
+
+---
+### Lokale und globale Variablen
+
+---
+### Globale Variablen
+
+---
+### Parameter
+
+---
+### Rekursion
+
+---
+### Lambda-Funktionen
+
+---
+### Generatoren
+
+---
+### Flowcharts
+
+---
+### Python In der Praxis
+
+---
 ### Python in der Praxis
 
+---
 ### Odoo ERP-System
 
+---
 ### 3-tier Architektur
 
+---
 ### Abstraktion mit Klassen
 
+---
 ### Erweiterung einer Klasse
+
+---
+### 
