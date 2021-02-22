@@ -3,6 +3,14 @@
 ## [Übungen](excercise.md)  
 ## Ankündigung
 
+**Videos und Projektthemen**
+
+Videos:
+* [Python3-Einstieg #7 - if-Verzweigung](https://www.youtube.com/watch?v=eWRTSdLF_4Y)
+* [Python3-Einstieg #8 - Listen](https://www.youtube.com/watch?v=LFC7P24G5Tw)
+* [Python3-Einstieg #9 - Dictionary](https://www.youtube.com/watch?v=q_545AUYYiY)
+
+
 **Projektvorschlag**
 
 Hallo Miteinander

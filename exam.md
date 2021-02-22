@@ -17,18 +17,15 @@ Resultat:
 
 Hier einige Ideen für Projekte:
 
-* Suche nach Begriff in Log-Dateien
-* Unterstützung mathematische Berechnungen
-* Raspberry Pi LED-Morsecode
-* Temperaturdaten lesen und als Kurve darstellen
-* LED auf Raspberry Pi ein- und ausschalten
-* Daten aus Datenbank lesen und schreiben
-* Auf Linux einen Vorgang automatisieren
-* Wetter-Informationen abrufen und darstellen
+* Suche nach bestimmten Begriffen in [Log-Dateien](https://raw.githubusercontent.com/elastic/examples/master/Common%20Data%20Formats/nginx_logs/nginx_logs)
+* Wort mit LED und Raspberry Pi als Morsecode ausgeben
+* Daten aus Postgres Datenbank lesen und schreiben
+* Wetter-Informationen abrufen und ausgeben
 * Tweet von Twitter-Account anzeigen lassen
 * Datei auf Dropbox speichern
-* Grafischer Notenrechner
-* Textbasiertes Game
+* Textbasiertes Hangman
+* Detektion von Herzfrequenz anhand [EKG-Daten](data.csv)
+* Temperaturdaten ploten und Min/Max bestimmen. Daten von  [https://sarneraa.huetstock.ch](https://sarneraa.huetstock.ch) können auf Anfrage bereitgestellt werden.
 
 ## Vorlagen
 
