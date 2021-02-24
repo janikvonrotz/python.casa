@@ -4,7 +4,7 @@
 
 Aufgaben zum Thema.
 
-### Aufgabe 4.1 Listenkonfusion
+### Aufgabe 4.1: Listenkonfusion
 
 Lies das folgende Programm und versuche zu erraten, was die Ausgabe ist. Probiere es anschliessend aus und suche nach einer Erklärung des Verhaltens.
 
@@ -19,7 +19,7 @@ print(liste_a[0], liste_a[1], liste_a[2])
 
 Das Verhalten dieses Programms ist der Grund, warum wir uns in Python Variablen nicht als Speicherplätze sondern als Namensschilder für Objekte vorstellen. Kannst du dies erklären?
 
-### Aufgabe 4.2 Listen verstehen
+### Aufgabe 4.2: Listen verstehen
 
 Speichere die Elemente `'Schwalbe'`, `'Kokosnuss'`, `13`, `'Spam'` und `3.14` in einer Liste mit dem Namen `liste` ab und versuche herauszufinden, was die folgenden Methoden machen.
 
@@ -37,11 +37,11 @@ liste.reverse()
 sum([1,3,5])
 ```
 
-### Aufgabe 4.3 Minimum und Maximum
+### Aufgabe 4.3: Minimum und Maximum
 
 Schreibe ein Programm, welches vom Benutzer 10 Zahlen einliest und diese in einer Liste speichert. Anschliessend soll das Minimum und das Maximum der Zahlen aus der liste bestimmt und ausgegeben werden.
 
-### Aufgabe 4.4 Zoo
+### Aufgabe 4.4: Zoo
 
 Gegeben ist der folgende Anfang eines Programms:
 
@@ -51,11 +51,11 @@ animals = ["tiger", "mouse", "bird", "python", "elephant", "monkey"]
 
 Ergänze das Programm so, dass für jedes Tier aus der Liste animals der Satz "… ist ein Tier" in der Konsole ausgegeben wird. Benutze dafür die print() Funktion.
 
-### Aufgabe 4.5 Ohne for-Schleife
+### Aufgabe 4.5: Ohne for-Schleife
 
 Schreibe ein Programm, welches alle Zahlen von 1 bis 100 auf den Bildschirm schreibt, ohne dafür eine for Schleife zu verwenden.
 
-### Aufgabe 4.6 Euklid
+### Aufgabe 4.6: Euklid
 
 Schreibe ein Programm, welches mit `input()` zwei Zahlen vom Benutzer einliest und den grössten gemeinsamen Teiler der beiden Zahlen mit`print()` ausgibt.
     

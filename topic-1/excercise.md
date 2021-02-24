@@ -38,7 +38,7 @@ Wiederholungsfragen zum Thema.
 * W8: Wie werden in Python Kommentare formuliert?
 
 ::: tip
-Um Frage 7 zu beantworten folgende Hinweis: `help('print')`
+Um Frage 7 zu beantworten folgender Hinweis: `help('print')`
 :::
 
 ## Mehr zum Thema
