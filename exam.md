@@ -24,9 +24,9 @@ Hier einige Ideen für Projekte:
 * Tweet von Twitter-Account anzeigen lassen
 * Datei auf Dropbox speichern
 * Textbasiertes Hangman
-* Detektion von Herzfrequenz anhand [EKG-Daten](data.csv)
+* Detektion von Herzfrequenz anhand [EKG-Daten](https://github.com/janikvonrotz/python.casa/blob/main/examples/exam/ekg/data..csv)
 * Temperaturdaten ploten und Min/Max bestimmen. Daten von  [https://sarneraa.huetstock.ch](https://sarneraa.huetstock.ch) können auf Anfrage bereitgestellt werden.
-
+py
 ## Vorlagen
 
 ### Projektvorschlag

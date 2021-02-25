@@ -3,13 +3,22 @@
 ## [Übungen](excercise.md)  
 ## Ankündigung
 
-**Videos und Projektthemen**
+**Vorbereitung und Projektthemen**
 
-Videos:
+Hallo Zusammen
+
+Am Samstag Morgen werden wir uns in die Verzweigung und Verschleifung der Programmierung vertiefen. Zur Vorbereitung habe ich diese Inputs:
 * [Python3-Einstieg #7 - if-Verzweigung](https://www.youtube.com/watch?v=eWRTSdLF_4Y)
 * [Python3-Einstieg #8 - Listen](https://www.youtube.com/watch?v=LFC7P24G5Tw)
 * [Python3-Einstieg #9 - Dictionary](https://www.youtube.com/watch?v=q_545AUYYiY)
 
+Am Sonntag wäre dann der Eingabeschluss für den Projektvorschlag. Die [Themenwahl](https://python.casa/exam.html#themenwahl) habe ich noch aktualisiert.
+
+Ich freue mich.
+
+Freundlicher Gruss
+
+Janik
 
 **Projektvorschlag**
 
