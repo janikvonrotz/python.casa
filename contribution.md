@@ -43,7 +43,7 @@ Referenz zum Buch ist mit 📖 markiert.
 
 **Ziele**
 
-Ziele werden mit 🎯  markiert.
+Ziele werden mit 🎯 markiert.
 
 **Hausaufgaben**
 

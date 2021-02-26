@@ -4,7 +4,7 @@
 
 ⚡[Anwesenheit bestätigen](https://moodle.medizintechnik-hf.ch/mod/attendance/manage.php?id=4479) und Webcam einschalten.
 
-📖 Kapitel 9 Funktion
+📖 Kapitel 9 Funktionen
 
 ---
 ### Funktionen
@@ -45,28 +45,124 @@ def funktionsname(para1, para2, para3):
 * Neue Datei in Ordner `Funktion.py` erstellen
 
 ---
-### Eigene Funktion definieren
+### Funktion ohne Ergebnis
 
 🎬 Diesen Code eingeben:
 
 ```py
+# Funktion ohne Ergebnis
+def f1(x, y):
+    print('Parameter 1:', x)
+    print('Parameter 2:', y)
+```
 
+---
+### Funktion mit Ergebnis
+
+🎬 Diesen Code anfügen:
+
+```py
+# Funktion mit Ergebnis
+def f2(x, y):
+  return x+y
+```
+
+---
+### Funktion ausführen
+
+🎬 Diesen Code anfügen:
+
+```py
+# Hier beginnt die Programmausführung
+f1(2, 3)
+# Ausgabe: Parameter 1: 2
+#          Parameter 2: 3
+
+n = f2(4, 5)
+print(n) # Ausgabe: 9
 ```
 
 ---
 ### Lokale und globale Variablen
 
+Variablen haben unterschiediche Gültigkeitsbereiche: Lokal und Global.
+
+Variablen können innerhalb und ausserhalb einer Funktion deklariert werden.
+
 ---
-### Globale Variablen
+### Variable Ausserhalb
+
+🎬 Datei `Ausserhalb.py` erstellen und ausführen:
+
+```py
+def f1():
+    print(x)
+
+x=3
+f1() # Ausgabe 3
+```
+
+---
+### Lokale Variablen
+
+🎬 Datei `Lokal.py` erstellen und ausführen:
+
+```py
+def f1():
+    z=5
+    print(z)
+
+z=3
+f1() # Ausgabe 5
+print(z) # Ausgabe 3
+```
+
+---
+### Globale Variable
+
+Variablen mit der Kennzeichung `global` sind ausserhalb der Funktion verfügbar.
+
+```py
+def f1():
+    global z
+    z=z+3
+    print(z) # Ausgabe 6
+
+z=3
+f1()
+print(z) # Ausgabe 6
+```
+
+ℹ️ Das ist nice-to-know. In der Praxis gilt es globale Variablen zu vermeiden
 
 ---
 ### Parameter
+
+* Mit Prameter können Daten an Funktion übergeben werden
+* Bei der Parameterdefinition besteht viel Gestaltungsraum
+
+---
+### Funktion mit Parameter
+
+---
+### Optionale Parameter
+
+---
+### Variable Parameteranzahl
+
+---
+### Parameter überprüfen
+
+
 
 ---
 ### Rekursion
 
 ---
 ### Lambda-Funktionen
+
+---
+### map mit Lambda
 
 ---
 ### Generatoren
@@ -89,6 +185,12 @@ Ziel: Aufgabe 5.1 und 5.2 gelöst.
 
 ---
 ### Flowcharts
+
+Mit Flowcharts kann man einen Vorgang oder Prozess visualisieren.
+
+![](../flowchart.png)
+
+Zur Darstellung gibt es verschiedene Symbole. Hier die wichtigsten:
 
 ---
 ### Symbol Pfeil
@@ -131,3 +233,27 @@ Used for decision making between two or more alternatives.
 Represents a group of statements performing one processing task.
 
 ![symbol-vordefiniert](../symbol-vordefiniert.svg)
+
+---
+### Flowchart Anwendung
+
+* Mit Flowcharts kann einen Algorithmus dokumentieren
+* Mit Flowcharts kann man Pseudo-Code visualisieren
+
+ℹ️ Pseudocode ist schriftliche Beschreibung eines Algorithmus
+
+---
+### Aufgaben 2
+
+Lösen sie die ersten zwei Aufgaben.
+
+⚡Aufteilung in Breakout-Rooms ⏱️ 10 Minuten
+
+Ziel: Aufgabe 5.3 und 5.4 gelöst.
+
+---
+### Review
+
+---
+### Abschluss
+
