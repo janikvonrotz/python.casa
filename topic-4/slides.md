@@ -13,7 +13,7 @@
 Besprechung der Wiederholungsfragen.
 
 ---
-### Überblick
+### Ausblick
 
 Thema 4:
 * Listen, Tupel, Sets und Dictionaries
@@ -30,7 +30,7 @@ Thema 5:
 * Aufzählungen verarbeiten
 
 ---
-### Übersicht Aufzählungsypen
+### Übersicht Aufzählungstypen
 
 * **Listen**: Wichtigster und flexibelster Datentyp
 * **Tupel**: Verwendung für zusammengehörende Daten
@@ -87,7 +87,7 @@ print(lst) # ['H', 'e', 'l', 'l', 'o', ',', ' ', 'W', 'o', 'r', 'l', 'd', '!'
 ---
 ### List Comprehension
 
-* Eine elegantes Konzpet zum verarbeiten von Listen.
+* Ein elegantes Konzpet zum verarbeiten von Listen.
 * Form: `[ausdruck for x in liste]`
 
 🎬 Fügen sie diesen Code an:
@@ -188,7 +188,7 @@ print(lst) # [' ', '!', ',', 'H', 'W', 'd', 'e', 'l', 'l', 'l', 'o', 'o', 'r']
 ---
 ### Tupel
 
-*  Ist eine unveränderliste liste
+*  Ist eine unveränderliche liste
 *  Formulierung mit `()`-Klammern
 
 ---
@@ -297,8 +297,8 @@ Ziel: Aufgabe 4.1 und 4.2 gelöst.
 ---
 ### Verzweigungen und Schleifen
 
-* **Verzweigungen**: Abhängig von Bedinungen Codeteile ausführen
-* **Schleifen**: Code mehrfach ausführen solange Bedinung erfüllt ist
+* **Verzweigungen**: Abhängig von Bedingungen Codeteile ausführen
+* **Schleifen**: Code mehrfach ausführen solange Bedingung erfüllt ist
 
 ---
 ### if-Verzweigung
@@ -356,7 +356,7 @@ for var in elemente:
 
 🎬 Erstellen und führen sie die Datei `for.py` mit diesem Inhalt aus:
 
-```
+```py
 for c in 'abc':
     print(c)
 ```
@@ -366,7 +366,7 @@ for c in 'abc':
 
 🎬 Fügen sie diesen Code hinzu:
 
-```
+```py
 for c in 'abc':
     print(c)
     
@@ -376,11 +376,11 @@ for i in (17, 87, 4):
 ---
 ### for mit Dictionaries
 
-Bei Schleifen mit Dictionaries entählt die Variable den Schlüssel.
+Bei Schleifen mit Dictionaries enthält die Variable den Schlüssel.
 
 🎬 Fügen sie diesen Code hinzu:
 
-```
+```py
 dict = {'a':12, 'c':78, 'b':3, 'd':43}
 for k in dict:
     print(k,dict[k])

@@ -140,7 +140,7 @@ print(z) # Ausgabe 6
 ---
 ### Parameter
 
-* Mit Prameter können Daten an Funktion übergeben werden
+* Mit Prameter können Daten an eine Funktion übergeben werden
 * Bei der Parameterdefinition besteht viel Gestaltungsraum
 
 ---
