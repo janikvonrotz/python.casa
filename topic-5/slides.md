@@ -334,7 +334,7 @@ Repräsentiert eine andere Funktion/Prozess.
 ---
 ### Flowchart Anwendung
 
-* Mit Flowcharts kann einen Algorithmus dokumentieren
+* Mit Flowcharts kann man einen Algorithmus dokumentieren
 * Mit Flowcharts kann man Pseudo-Code visualisieren
 
 ℹ️ Pseudocode ist schriftliche Beschreibung eines Algorithmus
