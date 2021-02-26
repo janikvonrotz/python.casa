@@ -21,7 +21,7 @@ Thema 4:
 
 Thema 5:
 * Funktionen
-* Python in der Praxis
+* Flow-Charts
 
 ---
 ### Listen, Tupel, Sets und Dictionaries
@@ -421,7 +421,15 @@ Lösen sie die nächsten zwei Aufgaben.
 Ziel: Aufgabe 4.3 und 4.4 gelöst.
 
 ---
+### Pause
+
+⚡Wir machen eine Pause ⏱️ 10 Minuten
+
+<iframe src="https://giphy.com/embed/Q6joirtIBHUsw" width="280" height="280" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+
+---
 ### Review
 
-
-
+*  Verschiedene Aufzählungstypen sind bekannt
+*  Die Anwendung von Verzweigungen und Schleifen ist verstanden
+*  Listen und Schleifen können kombiniert werden

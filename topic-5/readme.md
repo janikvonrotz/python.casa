@@ -1,4 +1,4 @@
-# Thema 5 - Funktionen
+# Thema 5 - Funktionen und Flowcharts
 ## [Slides](slides.md)  
 ## [Übungen](excercise.md)  
 ## Meta

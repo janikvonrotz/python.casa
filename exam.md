@@ -26,7 +26,8 @@ Hier einige Ideen für Projekte:
 * Textbasiertes Hangman
 * Detektion von Herzfrequenz anhand [EKG-Daten](https://github.com/janikvonrotz/python.casa/blob/main/examples/exam/ekg/data..csv)
 * Temperaturdaten ploten und Min/Max bestimmen. Daten von  [https://sarneraa.huetstock.ch](https://sarneraa.huetstock.ch) können auf Anfrage bereitgestellt werden.
-py
+* Passwortgenerator gemäss [xkcd-Comic](https://xkcd.com/936/). 
+
 ## Vorlagen
 
 ### Projektvorschlag
@@ -45,6 +46,8 @@ Kapitelüberschriften der Dokumentation:
 
 ::: tip
 Auf <https://carbon.now.sh/> kann man seinen Code einfügen und als Bild darstellen lassen.
+
+Mit [draw.io](https://draw.io) kann man Flowcharts erstellen und so den Code dokumentieren.
 :::
 
 ## Kriterien
