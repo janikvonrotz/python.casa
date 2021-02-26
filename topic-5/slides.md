@@ -9,10 +9,12 @@
 ---
 ### Funktionen
 
-Wir haben Funktionen bereits kennengelernt: `len`. Nun erstellen wir eigene Funktionen.
+Wir haben Funktionen bereits kennengelernt, beispielsweise `len`. 
 
-* Rendundanz vermeiden
-* Code übersichtlicher gestalten
+Funktionen helfen uns:
+
+* Rendundanz zu vermeiden
+* Code übersichtlicher zu gestalten
 
 ---
 ### Achtung Funktion
@@ -25,7 +27,7 @@ Bei der Anwendung von Funktionen gelten einige Regeln:
 * Mehrere Funktionen dürfen nicht den gleichen Namen haben
 
 ---
-### Definition Funktion
+### Definition einer Funktion
 
 Die Syntax einer Funktion sieht wie folgt aus:
 
@@ -144,28 +146,123 @@ print(z) # Ausgabe 6
 ---
 ### Funktion mit Parameter
 
+🎬 Datei `Parameter.py` erstellen und ausführen:
+
+```py
+def f1(x):
+    print(x)
+
+f1([1, 2]) # Ausgabe [1, 2]
+```
+
 ---
 ### Optionale Parameter
+
+Mit `para=default` definieren sie für einen Parameter einen Standardwert. Dieser ist damit gleichzeitig optional.
 
 ---
 ### Variable Parameteranzahl
 
+Es können mehrere Parameter mit Standardwerten definiert werden.
+
+🎬 Diesen Code anfügen:
+
+```py
+def f(a,b,c=-1,d=0):
+    print(a,b,c,d)
+
+f(6,7,8,9) # Ausgabe 6 7 8 9
+f(6,7,8) # Ausgabe 6 7 8 0
+f() # Fehler a und b werden vermisst
+```
+
+---
+### Parameter mit mehreren Werten
+
+Wenn man einen Parameter mit `*para` oder `**para` definiert kann man beliebig viele Werte übertragen.
+
+* `*para` ist ein Tupel
+* `**para` ist ein Dictionary
+
+Das funktioniert auch beim Funktionsaufruf.
+
+---
+### Beispiel mehrere Werte
+
+🎬 Datei `Mehrere.py` mit diesem Code erstellen:
+
+```py
+def f(a,*b):
+    print(a,b,type(b))
+    
+l = range(0,6)
+f(1,l) # Ausgabe 1 (range(0, 6),) <class 'tuple'>
+f(*l) # 0 (1, 2, 3, 4, 5) <class 'tuple'>
+```
+
+ℹ️ Keep it simple! Verwenden sie einfache Parameter.
+
 ---
 ### Parameter überprüfen
 
+> Im Vergleich zu anderen Programmiersprachen kann bei Python der Typ einer Variable nicht explizit festgelegt werden.
 
+---
+### Parameter dennoch überprüfen
+
+🎬 Datei `Ungültig.py` mit diesem Code erstellen:
+
+```py
+def f(n):
+    if isinstance(n,int):
+        return 2*n
+    else:
+        print('Ungültig')
+
+print(f(1))
+```
 
 ---
 ### Rekursion
 
+Funktionen können sich selber aufrufen.
+
+🎬 Datei `Rekursion.py` mit diesem Code erstellen:
+
+```py
+def f(n):
+    if n < 20:
+        print(n)
+        n += 1
+        f(n)
+
+f(0)
+```
+
 ---
 ### Lambda-Funktionen
 
----
-### map mit Lambda
+Die Lambda-Funktion spart Platz.
+
+```
+lambda var1, var2, var3, ...: ausdruck
+```
+
+Sofern alles auf einer Zeile Platz hat.
 
 ---
-### Generatoren
+### filter mit Lambda
+
+Wir erinnern uns an die filter-Funktion? `filter(function,list)`
+
+🎬 Datei `Lambda.py` mit diesem Code erstellen:
+
+```py
+l1 = [1,2,3,9,345,36,33]
+
+l2 = list(filter(lambda x: x%3==0, l1))
+print(l2) # Ausgabe [3, 9, 345, 36, 33]
+```
 
 ---
 ### Aufgaben 1
@@ -254,6 +351,17 @@ Ziel: Aufgabe 5.3 und 5.4 gelöst.
 ---
 ### Review
 
+🎯 Ziele erreicht?
+* Eigene Funktionen schreiben
+* Parameter für Funktionen definieren
+* Code mit Flowchart visualisieren
+
 ---
 ### Abschluss
+
+Ich hoffe das war nicht viel! Nun habt ihr die wichtigsten Element der Programmierung mit Python.
+
+Jetzt heisst es anwenden!
+
+---
 

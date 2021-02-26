@@ -430,6 +430,7 @@ Ziel: Aufgabe 4.3 und 4.4 gelöst.
 ---
 ### Review
 
-*  Verschiedene Aufzählungstypen sind bekannt
+🎯 Ziele erreicht?
+*  Aufzählungstypen `[]`, `()`, `{}` und `{key: value}` sind bekannt
 *  Die Anwendung von Verzweigungen und Schleifen ist verstanden
 *  Listen und Schleifen können kombiniert werden
