@@ -359,7 +359,7 @@ Ziel: Aufgabe 5.3 und 5.4 gelöst.
 ---
 ### Abschluss
 
-Ich hoffe das war nicht viel! Nun habt ihr die wichtigsten Element der Programmierung mit Python.
+Ich hoffe das war nicht viel! Nun habt ihr die wichtigsten Element der Programmierung mit Python gelernt.
 
 Jetzt heisst es anwenden!
 
