@@ -179,7 +179,7 @@ f() # Fehler a und b werden vermisst
 ---
 ### Parameter mit mehreren Werten
 
-Wenn man einen Parameter mit `*para` oder `**para` definiert kann man beliebig viele Werte übertragen.
+Wenn man einen Parameter mit `*para` oder `**para` definiert ,kann man beliebig viele Werte übertragen.
 
 * `*para` ist ein Tupel
 * `**para` ist ein Dictionary
@@ -299,35 +299,35 @@ Zeigt den logischen Fluss mit der Verbindung der Symbole.
 ---
 ### Symbol Start/Stop
 
-Used for input and output operation.
+Start und Ende des Prozesses.
 
 ![symbol-start](../symbol-start.svg)
 
 ---
 ### Symbol Eingabe/Ausgabe
 
-Used for input and output operation.
+Ein- und Ausgabe von Daten.
 
 ![symbol-eingabe](../symbol-eingabe.svg)
 
 ---
 ### Symbol Prozess
 
-Used for arithmetic operations and data-manipulations.
+Arithmetische Operationen und Datenverarbeitung.
 
 ![symbol-prozess](../symbol-prozess.svg)
 
 ---
 ### Symbol Enscheidung
 
-Used for decision making between two or more alternatives.
+Enscheidungsfindung für ein oder mehrere Alternativen.
 
 ![symbol-entscheidung](../symbol-entscheidung.svg)
 
 ---
 ### Symbol Vorddefinierte Funktion/Prozess
 
-Represents a group of statements performing one processing task.
+Repräsentiert eine andere Funktion/Prozess.
 
 ![symbol-vordefiniert](../symbol-vordefiniert.svg)
 
