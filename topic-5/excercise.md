@@ -14,10 +14,18 @@ Wenn man die Zahl in einen String umwandelt kann man sie in einer Schleife verar
 
 ### Aufgabe 5.2: Rekursion auf der Festplatte
 
+Schreiben sie eine rekursive Funktion, die als Parameter einen Ordnerpfad erwartet und alle Unterordner ausgibt.
+
+Dazu eine Hilfestellung:
+
 ```py
-
+import os
+# List all files in a directory using os.listdir
+basepath = 'my_directory/'
+for entry in os.listdir(basepath):
+    if os.path.isfile(os.path.join(basepath, entry)):
+        print(entry)
 ```
-
 
 ### Aufgabe 5.3: Chart to Code
 
