@@ -41,6 +41,22 @@ sum([1,3,5])
 
 Schreibe ein Programm, welches vom Benutzer 10 Zahlen einliest und diese in einer Liste speichert. Anschliessend soll das Minimum und das Maximum der Zahlen aus der liste bestimmt und ausgegeben werden.
 
+::: tip
+Die folgenden Elemente sollten weiterhelfen:
+
+```py
+# Zahl eingeben
+zahl = input("Eingabe: ")
+
+# Schleife von 1 bis 4
+for i in range(1,5):
+    print(i)
+
+# Kleinste Zahl aus Liste ausgeben
+min([1,3,2])
+```
+:::
+
 ### Aufgabe 4.4: Zoo
 
 Gegeben ist der folgende Anfang eines Programms:

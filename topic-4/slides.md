@@ -4,7 +4,7 @@
 
 ⚡[Anwesenheit bestätigen](https://moodle.medizintechnik-hf.ch/mod/attendance/manage.php?id=4479) und Webcam einschalten.
 
-📖 Kapitel 7 Listen, Tupel, Sets und Dictionairies
+📖 Kapitel 7 Listen, Tupel, Sets und Dictionairies  
 📖 Kapitel 8 Verzweigungen und Schleifen
 
 ---
