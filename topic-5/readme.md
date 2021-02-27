@@ -12,7 +12,7 @@ Kompetenzen: Die Studierenden ...
 * können die Systematik von ähnlichen Anweisungen in Programmcode erkennen
 * können mithilfe von Variablen Anweisungen in Programmcode generalisieren
 * können Anweisungen in Programmcode in Funktionen isolieren
-* können Flow-Charts entsprechend mit Subroutinene erweitern
+* können Flowcharts entsprechend mit Subroutinene erweitern
 
 Didaktische Umsetzung:
 * Einführung Modularisierung mit Live-Beispiel

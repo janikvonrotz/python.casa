@@ -21,7 +21,7 @@ Thema 4:
 
 Thema 5:
 * Funktionen
-* Flow-Charts
+* Flowcharts
 
 ---
 ### Listen, Tupel, Sets und Dictionaries

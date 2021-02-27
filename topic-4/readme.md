@@ -35,7 +35,7 @@ Janik
 ## Meta
 
 Ziele:
-* Flow-Charts
+* Flowcharts
 * if-Anweisung
 * if-else-Anweisung
 * while-Schleife
@@ -43,13 +43,13 @@ Ziele:
 
 Kompetenzen: Die Studierenden ...
 * können Probleme als sequentielle Abläufe erkennen
-* können repetetive Aufgaben als Kombination von Verzweigungen und Schlaufen erkennen, Programmabläufe entwerfen und als Flow-Charts darstellen
+* können repetetive Aufgaben als Kombination von Verzweigungen und Schlaufen erkennen, Programmabläufe entwerfen und als Flowcharts darstellen
 * können die Probleme mithilfe von Kontrollstrukturen in der Software abbilden
 
 Didaktische Umsetzung:
-* Einführung Flow-Chart mit Live-Beispiel
+* Einführung Flowchart mit Live-Beispiel
 * Frontalunterricht Theorie
-* In Projektarbeiten aus Alltagssituationen Flow-Charts erstellen
+* In Projektarbeiten aus Alltagssituationen Flowcharts erstellen
 * Selbständige Programmier-Aufgaben
 
 Vernetzung:
