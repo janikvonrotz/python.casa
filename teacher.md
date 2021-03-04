@@ -29,3 +29,25 @@ Gestaltung:
 ## Resourcen
 
 - [# Einführung ins Programmieren mit Python](https://pythonbuch.com/index.html)
+
+## Vorlagen
+
+**Fehlender Projektvorschlag EP 4S**
+
+Guten Tag VORNAME
+  
+Die Abgabefrist zur Eingabe des Projektvorschlags ist verstrichen. Ich habe leider keinen Projektvorschlag zum Modul "Einführung in die Programmierung" von dir erhalten.  
+  
+Ohne Projektabgabe, kann ich keine Benotung machen. Kannst du den Projektvorschlag nachreichen?
+
+Die Details dazu findest du hier: https://python.casa/exam.html#leistungsnachweis  
+
+Falls es Probleme mit dem Prozess gibt oder du Unterstützung brauchst, bitte ich dich mit mir Konakt aufzunehmen.  
+  
+Freundlicher Gruss
+  
+Lieber Gruss  
+  
+Janik  
+  
+Tel: + XX XX XXX XX XX

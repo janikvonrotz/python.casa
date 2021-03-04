@@ -1,6 +1,20 @@
 # Thema  6 - Ein- und Ausgabe
 ## [Slides](slides.md)  
 ## [Übungen](../topic-1/excercise.md)  
+## Ankündigung
+
+**Feedback Projektvorschlag**
+
+Hallo Zusammen
+
+Vielen Dank für eure Projektvorschläge. Ich habe zu jedem Dokument ein Feedback erstellt. Ihr solltet diesen auf Moodle ansehen können. Jene welche die Eingabefrist verpasst haben, wurden von mir über das weitere Vorgehen informiert.
+
+Die Vorschläge sind alle freigeben. Falls ihr zur Umsetzung Fragen habt, besteht im nächsten und letzten Unterrichtblock die Möglichkeit diese zu stellen.
+
+Ich wünsche einen schönen Abend.
+
+Janik
+
 ## Meta
 
 Ziele:
