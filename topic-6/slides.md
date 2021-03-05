@@ -133,8 +133,14 @@ except BaseException as err:
 ---
 ### JSON-Datenformat
 
+*  JavaScript Object Notation (JSON) 
+*  Beliebtestes Format für hierarchische Datenstrukturen
+*  Syntax Nahezug Deckungsgleich mit Listen und Dictionaries
+
 ---
 ### JSON-Beispieldatei
+
+🎬 Erstellen sie die Datei `Bücher.json` mit diesem Inhalt:
 
 ```json
 [
@@ -159,13 +165,49 @@ except BaseException as err:
 ```
 
 ---
-
 ### JSON-Dateien verarbeiten
 
+🎬 Datei `JSON.py` mit diesem Code ausführen:
+
+```py
+import json
+with open('Bücher.json', 'r') as f:
+    data = json.load(f)
+print(data)
+```
+
+ℹ️ Mit der Anweisung `with ausdruck1 as var1, ausdruck2 as var2, ...: Code`  werden Ressourcen automatisch geschlossen. 
+
+---
+### JSON verabeiten
+
+Der JSON-Inhalt kann ganz einfach verarbeitet werden.
+
+🎬 Fügen sie diesen Code an.
+
+```py
+import json
+with open('Bücher.json', 'r') as f:
+    data = json.load(f)
+print(data)
+
+for book in data:
+    print(f"Titel: {book['title']}")
+    for author in book['authors']:
+        print(f"Author: {author}")
+    print('')
+```
+
+---
+### CSV-Dateiformat
 
 
 ---
-### CSV-Dateien lesen und schreiben
+
+### CSV-Datei schreiben
+
+---
+### CSV-Datei lesen
 
 ---
 ### HTTP
@@ -180,3 +222,10 @@ except BaseException as err:
 ### Balkendiagram
 
 ---
+### Review
+
+
+
+---
+### Abschluss
+
