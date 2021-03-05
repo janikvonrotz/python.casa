@@ -1,4 +1,6 @@
 # Thema 0 - Über diesen Kurs
+[Alle Unterlagen anzeigen](https://github.com/janikvonrotz/python.casa/tree/main/topic-0)
+
 ## [Slides](slides.md)  
 ## Ankündigungen
 

@@ -1,4 +1,6 @@
 # Thema  6 - Ein- und Ausgabe
+[Alle Unterlagen anzeigen](https://github.com/janikvonrotz/python.casa/tree/main/topic-6)
+
 ## [Slides](slides.md)  
 ## [Übungen](../topic-1/excercise.md)  
 ## Ankündigung

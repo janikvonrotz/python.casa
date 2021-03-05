@@ -21,7 +21,7 @@ An der [Höheren Fachschule Medizintechnik Sarnen](https://www.medizintechnik-hf
 
 **Fachliteratur**
 
-Fachlich baut der Kurs auf dem Buch "Python - Der Grundkurs" von Michael Kofler auf.  Der Erwerb des Buches ist optional. Die Code-Beispiele werden unter [Beispiele](examples/readme.md) gespeichert.
+Fachlich baut der Kurs auf dem Buch "Python - Der Grundkurs" von Michael Kofler auf.  Der Erwerb des Buches ist optional.
 
 Das Buch kann als eBook bei [Orell-Flüssli](https://www.orellfuessli.ch/shop/home/artikeldetails/ID128412897.html) gekauft werden.
 
