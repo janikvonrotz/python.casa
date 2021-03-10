@@ -50,6 +50,7 @@ Rückmeldung zu den Kursunterlagen können direkt an den Dozenten oder über Moo
 Für das Selbststudium und Vorbereitung werden die folgenden Video-Playlists verwendet:
 * [Python 3 installieren](https://www.youtube.com/watch?v=hr1P_F7Vp9Y&list=PLuPM-9zavO4dtmqwrYdckFtfNFNXLCl5u)
 * [Einstieg in Python 3](https://www.youtube.com/watch?v=f5__UDmTk8c&list=PLuPM-9zavO4fUjO-5gMS6CHHVCWsKGE51&index=1)
+* [Python GUI Programmierung mit PyQT](https://www.youtube.com/watch?v=FiaPzdWKhJU&list=PLNmsVeXQZj7ruNQIfS8NRpjzZIRq0A8QP)
 
 **Quellen**
 

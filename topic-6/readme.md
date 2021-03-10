@@ -2,6 +2,7 @@
 [Alle Unterlagen anzeigen](https://github.com/janikvonrotz/python.casa/tree/main/topic-6)
 
 ## [Slides](slides.md)  
+## [Übungen](excercise.md)  
 ## Ankündigung
 
 **Vorbereitung Thema 6**

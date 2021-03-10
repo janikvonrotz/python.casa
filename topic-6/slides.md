@@ -19,14 +19,14 @@ Fragen zum Leistungsnachweis?
 
 Die ersten drei Lektionen:
 * Verschiedene Dateiformate lesen und schreiben
-* Objekt und Klassen
-* Netzerkfunktionen
+* Objekte und Klassen
+* Netzwerkfunktionen
 * Grafische Benutzeroberflächen
 
-In der letzten Lektion bleibt Zeit für den Leistungsnachweis
+In der letzten Lektion bleibt Arbeitszeit für den Leistungsnachweis.
 
 ---
-### Warnung
+### Acchtung
 
 Es werden einige neue Themen angeschnitten.\
 Unbedingt melden, bevor es eine Crash gibt!
@@ -60,7 +60,14 @@ Das Objektorientierte Programmieren ist eine eigene Disziplin.
 
 Ganz kurz:
 * Klasse: Bauplan oder wie soll das Objekt aussehen
-* Objekt: Alles ist ein Objekt,  beispielsweise Personen, Autos, Bäume, Häuser, Länder, Werkzeuge und Schuhe.
+* Objekt: Alles ist ein Objekt,  beispielsweise Personen, Autos, Bäume, Häuser, Länder, Werkzeuge und Schuhe
+
+---
+### Beispiel Auto
+
+Eine Veranschaulichung anhand des Objekts Auto.
+
+![](../car-example.png)
 
 ---
 ### Eine Klasse definieren
@@ -135,7 +142,7 @@ except BaseException as err:
 
 *  JavaScript Object Notation (JSON) 
 *  Beliebtestes Format für hierarchische Datenstrukturen
-*  Syntax Nahezug Deckungsgleich mit Listen und Dictionaries
+*  Syntax nahezu Deckungsgleich mit Listen und Dictionaries
 
 ---
 ### JSON-Beispieldatei
@@ -223,7 +230,7 @@ with open('Mitarbeiter.csv', mode='w') as file:
 
 🎬 Fügen sie diesen Code an:
 
-```
+```py
 with open('Mitarbeiter.csv', newline='') as file:
     file_reader = csv.reader(file, delimiter=',', quotechar='"')
     line_count = 0
@@ -237,6 +244,13 @@ with open('Mitarbeiter.csv', newline='') as file:
             line_count += 1
     print(f'{line_count} Zeilen wurden verarbeitet.')
 ```
+
+---
+### Pause
+
+⚡Wir machen eine Pause ⏱️ 20 Minuten
+
+<iframe src="https://giphy.com/embed/iigcSmBaMUC5FoSUlu" width="280" height="280" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 
 ---
 ### HTTP-Protokoll
@@ -286,19 +300,80 @@ f.close
 ℹ️ Öffnen sie die Datei `index.html` im Browser.
 
 --- 
-### Download und Upload
+### Benutzeroberfläche
+
+Bisher haben wir nur Programme im Terminalfenster ausgeführt.  
+Mit Python können aber auch grafische Oberflächen entwickelt werden.  
+Damit wir ein Graphical User Interface (GUI) entwickeln können, müssen Softwarepakete aus der Python-Bibliothek installiert werden.
 
 ---
-### Qt
+
+### Qt-Packet installieren
+
+🎬 Führen sie diese Anweisungen in Thonny aus:
+* Navigation nach *Extras > Manage packages ...*
+* `PyQt5` eingeben und auf *Paket von PyPI suchen* klicken
+* Das Paket installieren
 
 ---
-### Balkendiagram
+### Hello World mit Qt
+
+🎬 Erstellen sie die Datei `GUI.py` mit diesem Code:
+
+```py
+import sys
+from PyQt5 import QtCore, QtWidgets
+from PyQt5.QtWidgets import QMainWindow, QLabel, QWidget             
+from PyQt5.QtCore import QSize
+
+class MeinFenster(QMainWindow):
+    def __init__(self):
+        super().__init__()
+
+        self.setMinimumSize(QSize(300, 100)) # Fenstergröße und Titel einstellen
+        self.setWindowTitle('Hello, Qt!') # Fenstertitel festlegen
+
+        title = QLabel('Hello, Qt!', self) # Label definieren
+        title.setAlignment(QtCore.Qt.AlignCenter) # Label mittig in Fenster anzeigen
+        self.setCentralWidget(title)
+
+App = QtWidgets.QApplication(sys.argv) 
+Fenster = MeinFenster() 
+Fenster.show() # Fenster anzeigen
+sys.exit(App.exec_())
+```
+
+---
+### GUIs sind komplex
+
+GUIs entwickeln ist aufwändig!\
+Wer sich weiter einarbeiten möchte kann diese Tutorial-Reihe schauen: [Python GUI Programmierung mit PyQT](https://www.youtube.com/watch?v=FiaPzdWKhJU&list=PLNmsVeXQZj7ruNQIfS8NRpjzZIRq0A8QP)
+
+ℹ️ Mit dem [Qt-Designer](https://doc.qt.io/qt-5/qtdesigner-manual.html) kann Oberflächen mit einem what-you-see-is-what-you-get (WYSIWYG) Editor erstellen.
+
+---
+### Entscheidung
+
+Die restliche Zeit steht für diese Optionen zur Verfügung:
+
+* Frage und Antwort Dozent
+* Aufgabe 6.1 erledigen
+* Arbeit an Leistungsnachweis
+* Repetition von vergangenen Themen
 
 ---
 ### Review
 
-
+🎯 Ziele erreicht?
+* Dateien schreiben, lesen und verarbeiten
+* HTTP-Request ausführen
+* Benutzeroberfläche erstellen
 
 ---
 ### Abschluss
 
+Ich wünsche gutes gelingen bei den Projekten ☘️.
+
+Bei Fragen oder Problemen dürft ihr euch jederzeit melden!
+
+---
