@@ -2,10 +2,20 @@
 [Alle Unterlagen anzeigen](https://github.com/janikvonrotz/python.casa/tree/main/topic-6)
 
 ## [Slides](slides.md)  
-## [Übungen](excercise.md)  
+## [Übungen](exercise.md)
 ## Ankündigung
 
-**Vorbereitung Thema 6**
+**Thema 6**
+
+Hallo Miteinander
+
+Übermorgen findet der letzte Unterrichtsblock statt. Ich werde euch präsentieren wie Python konkret angewendet werden kann. In den restlichen Lektionen bleibt Zeit um am Leistungsnachweis zu arbeiten und Fragen zu klären.
+
+Die Unterlagen für den Block habe ich bereits erstellt: <https://python.casa/topic-6/>
+
+Freundlicher Gruss
+
+Janik
 
 **Feedback Projektvorschlag**
 
