@@ -239,9 +239,51 @@ with open('Mitarbeiter.csv', newline='') as file:
 ```
 
 ---
-### HTTP
+### HTTP-Protokoll
 
-http://example.com/
+* Hypertext Transfer Protocol (HTTP)
+* Kommunikationsprotokol für das WWW
+* Browser rufen Webseiten über HTTP auf
+
+![](../http.png)
+
+---
+### HTTP-Request anzeigen
+
+🎬 Zur Betrachtung eines HTTP-Requests führen sie folgende Aktionen aus:
+* Browser und einen leeren Tab öffnen
+* Mit `F12` die Entwicklerkonsole aufrufen
+* In der Konsole die Ansicht *Netzwerk* öffnen
+* In der Adressleiste `https://example.com` eingeben
+* Den HTTP-Request mit Status `200` und Methode `GET` anklicken
+
+---
+### HTTP-Request Beispiel
+
+Der HTML-Code der Webseite wird als HTTP-Response zurückgegeben.
+
+![](../http-response.png)
+
+---
+### HTTP-Request mit Python
+
+Dasselbe kann nun mit Python machen.
+
+🎬 Erstellen sie die Datei `HTTP.py` und fügen sie diesen Code ein:
+
+```py
+import urllib.request
+url = 'https://example.com'
+response = urllib.request.urlopen(url)
+binary = response.read() # Download durchführen
+html = binary.decode('utf-8')
+
+f = open('index.html', 'wt')
+f.write(html)
+f.close
+```
+
+ℹ️ Öffnen sie die Datei `index.html` im Browser.
 
 --- 
 ### Download und Upload
