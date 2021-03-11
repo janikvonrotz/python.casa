@@ -26,7 +26,7 @@ Die ersten drei Lektionen:
 In der letzten Lektion bleibt Arbeitszeit für den Leistungsnachweis.
 
 ---
-### Acchtung
+### Achtung
 
 Es werden einige neue Themen angeschnitten.\
 Unbedingt melden, bevor es eine Crash gibt!
