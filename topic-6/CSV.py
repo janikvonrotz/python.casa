@@ -1,7 +1,7 @@
 import csv
 
 with open('Mitarbeiter.csv', mode='w') as file:
-    file_writer = csv.writer(file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+    file_writer = csv.writer(file, delimiter=',', quotechar='"')
 
     # Erste Zeile enthält die Tabellenüberschriften
     file_writer.writerow(['Name', 'Abteilung', 'Geboren im'])

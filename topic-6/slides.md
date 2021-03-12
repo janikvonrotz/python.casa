@@ -216,7 +216,7 @@ for book in data:
 import csv
 
 with open('Mitarbeiter.csv', mode='w') as file:
-    file_writer = csv.writer(file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+    file_writer = csv.writer(file, delimiter=',', quotechar='"')
 
     # Erste Zeile enthält die Tabellenüberschriften
     file_writer.writerow(['Name', 'Abteilung', 'Geboren im'])
@@ -426,7 +426,7 @@ Die restliche Zeit steht für diese Optionen zur Verfügung:
 
 Habt ihr Feedbacks zum Kurs?\
 Was hat euch gefallen und was nicht?\
-Wurden die Erwartungen erfüllt?\
+Wurden die Erwartungen erfüllt?
 
 ---
 ### Abschluss
