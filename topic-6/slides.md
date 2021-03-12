@@ -295,7 +295,7 @@ html = binary.decode('utf-8')
 
 f = open('index.html', 'wt')
 f.write(html)
-f.close
+f.close()
 ```
 
 ℹ️ Öffnen sie die Datei `index.html` im Browser.
@@ -389,6 +389,9 @@ with tag('html'): # HTML-Dokumente mit den Elementen zusammenstellen
             text('Linktext')
 
 html = doc.getvalue() # HTML-Code generieren
+
+with open('example.html', 'wt') as file:
+    file.write(html)
 ```
 
 ---

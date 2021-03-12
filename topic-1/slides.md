@@ -7,7 +7,7 @@
 ---
 ### Python
 
-<iframe src="https://giphy.com/embed/Wvfq2yFumK61W" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+<iframe src="https://giphy.com/embed/Wvfq2yFumK61W" width="280" height="280" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 
 * 1991 entwickelt
 * Einfache Syntax und gute Lesbarkeit
