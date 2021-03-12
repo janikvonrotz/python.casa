@@ -6,4 +6,6 @@ import urllib.request
 
 response = urllib.request.urlopen(url)
 data = json.loads(response.read().decode('utf-8'))
-print(data)
+
+for book in data:
+    print("Title: ", book['title'])

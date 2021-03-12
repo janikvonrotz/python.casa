@@ -81,3 +81,22 @@ html = doc.getvalue() # HTML-Code generieren
 with open('example.html', 'wt') as file:
     file.write(html)
 ```
+
+### JSON-HTTP-Response verarbeiten
+
+Frage: Wie kann eine HTTP-Response mit JSON-Inhalt verarbeiten?
+
+Antwort:
+
+```py
+url = 'https://raw.githubusercontent.com/janikvonrotz/python.casa/main/topic-6/B%C3%BCcher.json'
+
+import json
+import urllib.request
+
+response = urllib.request.urlopen(url)
+data = json.loads(response.read().decode('utf-8'))
+
+for book in data:
+    print("Title: ", book['title'])
+```
