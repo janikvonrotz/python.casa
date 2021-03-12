@@ -22,6 +22,7 @@ Die ersten drei Lektionen:
 * Objekte und Klassen
 * Netzwerkfunktionen
 * Grafische Benutzeroberflächen
+* Erstellen HTML-Bericht
 
 In der letzten Lektion bleibt Arbeitszeit für den Leistungsnachweis.
 
@@ -308,12 +309,14 @@ Damit wir ein Graphical User Interface (GUI) entwickeln können, müssen Softwar
 
 ---
 
-### Qt-Packet installieren
+### Qt-Paket installieren
 
 🎬 Führen sie diese Anweisungen in Thonny aus:
 * Navigation nach *Extras > Manage packages ...*
 * `PyQt5` eingeben und auf *Paket von PyPI suchen* klicken
-* Das Paket installieren
+* Das Paket mit `installiere` installieren
+
+ℹ️ Es kann sein, dass das Softwarepaket bereits vorinstalliert ist.
 
 ---
 ### Hello World mit Qt
@@ -352,11 +355,60 @@ Wer sich weiter einarbeiten möchte kann diese Tutorial-Reihe schauen: [Python G
 ℹ️ Mit dem [Qt-Designer](https://doc.qt.io/qt-5/qtdesigner-manual.html) kann Oberflächen mit einem what-you-see-is-what-you-get (WYSIWYG) Editor erstellen.
 
 ---
+### HTML
+
+* Hypertext Markup Language (HTML)
+* Auszeichnungssprache für strukturierte Dokumente
+* Wird von Browser visuell dargestellt
+* Grundlage des WWW
+
+---
+### HTML-Paket installieren
+
+Damit man mit Python ein HTML-Dokument erstellen kann, braucht es ein zusätzliches Python-Paket.
+
+🎬  Öffnet den Thonny Paketmmanager und installiert das Paket `yattag`.
+
+Mehr zu [Yattag](https://www.yattag.org/).
+
+---
+### HTML-Dokument erstellen
+
+🎬 Erstellen sie die Datei `HTML.py` und fügen sie diesen Code ein:
+
+```py
+from yattag import Doc
+
+doc, tag, text = Doc().tagtext() # HTML-Funktionen abrufen
+
+with tag('html'): # HTML-Dokumente mit den Elementen zusammenstellen
+    with tag('body'): # Mit with werden Funktionsaufrufe aneinander gereiht
+        with tag('p', id = 'main'):
+            text('Beispiel')
+        with tag('a', href='https://example.com'):
+            text('Linktext')
+
+html = doc.getvalue() # HTML-Code generieren
+```
+
+---
+### HTML-Dokument im Browser öffnen
+
+🎬 Fügen sie diesen Code an um die Datei direkt im Browser zu öffnen:
+
+```py
+# Die HTML-Datei im Browser aufrufen
+import webbrowser
+from pathlib import Path
+webbrowser.open('file://' + str(Path('example.html').absolute()))
+```
+
+---
 ### Entscheidung
 
 Die restliche Zeit steht für diese Optionen zur Verfügung:
 
-* Frage und Antwort Dozent
+* Frage und Antwort
 * Aufgabe 6.1 erledigen
 * Arbeit an Leistungsnachweis
 * Repetition von vergangenen Themen
@@ -368,6 +420,13 @@ Die restliche Zeit steht für diese Optionen zur Verfügung:
 * Dateien schreiben, lesen und verarbeiten
 * HTTP-Request ausführen
 * Benutzeroberfläche erstellen
+
+---
+### Feedback
+
+Habt ihr Feedbacks zum Kurs?\
+Was hat euch gefallen und was nicht?\
+Wurden die Erwartungen erfüllt?\
 
 ---
 ### Abschluss
