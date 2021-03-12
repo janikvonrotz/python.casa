@@ -50,3 +50,34 @@ Gab es Problem bei der Umsetzung? Was lief gut und was nicht?
 
 Wie kann man das Program ausführen? Welche Vorbereitungen müssen getroffen werden?
 ```
+
+### HTML-Dokument erweitern
+
+Frage: Wie kann ich das HTML-Dokument erweitern?
+
+Antwort:
+
+```py
+from yattag import Doc
+
+doc, tag, text = Doc().tagtext() # HTML-Funktionen abrufen
+
+liste = ['Banane', 'Apfel', 'Orange']
+
+with tag('html'): # HTML-Dokumente mit den Elementen zusammenstellen
+    with tag('body'): # Mit with werden Funktionsaufrufe aneinander gereiht
+        with tag('p', id = 'main'):
+            text('Beispiel')
+        with tag('a', href='https://example.com'):
+            text('Linktext')
+        with tag('ul'):
+            for fruit in liste:
+                with tag('li'):
+                        text(fruit)
+        doc.stag('img', src='https://raw.githubusercontent.com/janikvonrotz/python.casa/main/buch.png')
+
+html = doc.getvalue() # HTML-Code generieren
+
+with open('example.html', 'wt') as file:
+    file.write(html)
+```
