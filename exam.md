@@ -4,9 +4,9 @@ Ziel: Eine Problem definieren und dieses mithilfe eines selbstgeschriebenen Prog
 
 Aufwand: 8-16 Stunden
 
-Resultat:
-* Python-Programm (gezippter Ordner mit Skripten): `Code.zip`
-* Dokumentation zum Programm (4-8 Seiten, ohne Cover, Dateityp Markdown, PDF oder ePub): `Dokumentation.{md,pdf,epub}`
+Resultat sind zwei Dateien:
+* `Code.zip`: Python-Programm (gezippter Ordner mit Pyton-Dateien)
+* `Dokumentation.{pdf,epub,docx}:` Dokumentation zum Programm (4-8 Seiten, ohne Cover)
 
 ## Termine
 
