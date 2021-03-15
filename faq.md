@@ -100,3 +100,11 @@ data = json.loads(response.read().decode('utf-8'))
 for book in data:
     print("Title: ", book['title'])
 ```
+
+### PyQt5 mit Visual Studio Code
+
+Frage: Wie kann `PyQt5` für Visual Studio Code installiert werden?
+
+Antwort:
+
+![install-pyqt5-vscode](install-pyqt5-vscode.gif)
