@@ -52,7 +52,7 @@ Auf <https://carbon.now.sh/> kann man seinen Code einfügen und als Bild darstel
 Mit [draw.io](https://draw.io) kann man Flowcharts erstellen und so den Code dokumentieren.
 :::
 
-Eine Vorlage für ein `.docx` kann [hier heruntergeladen](./Dokumentation.docx) werden.
+Eine Vorlage für ein `.docx` kann [hier heruntergeladen](https://janikv.cloud/s/KaJ7zTdETxr8HAK) werden.
 
 ## Kriterien
 
