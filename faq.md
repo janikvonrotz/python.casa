@@ -107,4 +107,4 @@ Frage: Wie kann `PyQt5` für Visual Studio Code installiert werden?
 
 Antwort:
 
-![install-pyqt5-vscode](install-pyqt5-vscode.gif)
+[Anmitation Installation PyQt5 auf Visual Studio Code](install-pyqt5-vscode.gif)
