@@ -58,7 +58,7 @@ Eine Vorlage für ein `.docx` kann [hier heruntergeladen](https://janikv.cloud/s
 
 ## Kriterien
 
-Für jedes Kriterium werden Punkte von 1-10 vergeben. Jedes Kriterium wird mit 1-5 gewichtet.
+Für jedes Kriterium werden Punkte von 0-9 vergeben. Jedes Kriterium wird mit 1-5 gewichtet.
 
 **Qualität**
 
