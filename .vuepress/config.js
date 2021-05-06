@@ -6,7 +6,6 @@ module.exports = {
         repo: 'janikvonrotz/python.casa',
         docsBranch: 'main',
         editLinks: true,
-
         nav: [
             { text: 'Home', link: '/' },
             {
@@ -30,6 +29,12 @@ module.exports = {
         'vuepress-plugin-mermaidjs',
         'plausible-analytics',
         '@vuepress/back-to-top',
-        '@vuepress/last-updated'
+        '@vuepress/last-updated',
+        [
+          'vuepress-plugin-sitemap',
+          {
+              hostname: 'https://encrypt.casa/'
+          }
+      ]
     ]
 }
