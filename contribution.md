@@ -1,13 +1,13 @@
 
 # Mitarbeit
 
-Was beim Erstellen von Inhalten beachtet werden muss ist hier erläutert.
+Was beim Erstellen von Inhalten beachtet werden muss, ist hier erläutert.
 
-## Form
+## Sprache
 
-Der Besucher wird mit sie angesprochen.
+Der Studen wird mit sie angesprochen.
 
-## Markierungen
+## Formatierung
 
 **Auflistung**
 
