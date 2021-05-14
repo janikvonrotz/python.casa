@@ -4,6 +4,8 @@
 
 Einführung in die Programmierung.
 
+Unterrichtsmaterial erstellt von [Janik von Rotz](https://janikvonrotz.ch/).
+
 [Über diesen Kurs](about.md)  
 [Stundenplan](timetable.md)  
 [Leistungsnachweis](exam.md)  
