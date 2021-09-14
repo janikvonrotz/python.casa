@@ -1,4 +1,4 @@
-# Thema 2 - Variablen und Datentypen
+# Thema 2 * Variablen und Datentypen
 [Alle Unterlagen anzeigen](https://github.com/janikvonrotz/python.casa/tree/main/topic-2)
 
 ## [Slides](slides.md)
@@ -17,7 +17,7 @@ Für das Thema 2 möchte ich an der Unterrichtsform eine Anpassung vornehmen. Es
 
 Zoom wäre dann lediglich dazu da, dass ihr meine Stimmen bzw. Anweisungen hört. Ich begleite auch durch die Slides und wir geben fortlaufend unseren Python-Code ein.
 
-Als Vorbereitung könnt ihr das Video [Python3-Einstieg #2 - Variablen](https://youtu.be/X_g7TheTouM) anschauen.
+Als Vorbereitung könnt ihr das Video [Python3-Einstieg #2 * Variablen](https://youtu.be/X_g7TheTouM) anschauen.
 
 Ich werde das ganze am Freitag nochmals erläutern. Bis dann.
 
@@ -28,25 +28,25 @@ Janik
 ## Meta
 
 Ziele:
-- Variablen
-- Basisdatentypen
+* Variablen
+* Basisdatentypen
 
 Kompetenzen: Die Studierenden ...
-- können die Notwendigkeit von Variablen erkennen
-- können Variablen sinnvoll einsetzen
-- kennen die Eigenschaften der verschiedenen Basisdatentypen
-	- Numerischen Datentypen
-	- Sequentielle Datentypen
-	- Zuordnende Datentypen
+* können die Notwendigkeit von Variablen erkennen
+* können Variablen sinnvoll einsetzen
+* kennen die Eigenschaften der verschiedenen Basisdatentypen
+	* Numerischen Datentypen
+	* Sequentielle Datentypen
+	* Zuordnende Datentypen
 
 Didaktische Umsetzung:
-- Einführung Variablen Deklaration und Initialisierung
-- Selbständige Übungen
+* Einführung Variablen Deklaration und Initialisierung
+* Selbständige Übungen
 
 Vernetzung:
-- Labview
-- Eingebette Systeme
-- Computernetzwerke
+* Labview
+* Eingebette Systeme
+* Computernetzwerke
 
 Querverweis Rahmenlehrplan:
 * Prozess 11: Systems Engineering Entwurf eines Konzeptes

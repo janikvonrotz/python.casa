@@ -1,0 +1,8 @@
+{
+  "strictLineBreaks": true,
+  "alwaysUpdateLinks": true,
+  "useMarkdownLinks": true,
+  "newLinkFormat": "relative",
+  "promptDelete": false,
+  "trashOption": "local"
+}

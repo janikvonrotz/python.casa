@@ -1,4 +1,4 @@
-# Thema 1 - Einführung Programmiersprache
+# Thema 1 * Einführung Programmiersprache
 [Alle Unterlagen anzeigen](https://github.com/janikvonrotz/python.casa/tree/main/topic-1)
 
 ## [Slides](slides.md)
@@ -18,15 +18,15 @@ Die Studierenden ...
 
 Didaktische Umsetzung:
 
-- Einführung Frontalunterricht
-- Live-Vorführung «Hello World» in C (Kompilieren)
-- Live-Vorführung «Hello World» in Python (Interpretieren)
-- Selbständige Übungen mit einfachen Programmieraufgaben
+* Einführung Frontalunterricht
+* Live-Vorführung «Hello World» in C (Kompilieren)
+* Live-Vorführung «Hello World» in Python (Interpretieren)
+* Selbständige Übungen mit einfachen Programmieraufgaben
 
 Vernetzung:
-- Labview
-- Eingebette Systeme
-- Computernetzwerke
+* Labview
+* Eingebette Systeme
+* Computernetzwerke
 
 Querverweis Rahmenlehrplan:
 * Prozess 11: Systems Engineering Entwurf eines Konzeptes

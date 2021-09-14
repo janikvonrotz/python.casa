@@ -1,6 +1,6 @@
 ## Funktionen und Flowchart
 
-[Thema 5](readme.md)
+[Thema 5](../readme.md)
 
 ⚡[Anwesenheit bestätigen](https://moodle.medizintechnik-hf.ch/mod/attendance/manage.php?id=4479) und Webcam einschalten.
 

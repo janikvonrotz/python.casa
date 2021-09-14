@@ -1,6 +1,6 @@
 ## Boolsche Algebra  und Zeichenketten
 
-[Thema 3](readme.md)
+[Thema 3](../readme.md)
 
 ⚡[Anwesenheit bestätigen](https://moodle.medizintechnik-hf.ch/mod/attendance/manage.php?id=4479) und Webcam einschalten.
 
