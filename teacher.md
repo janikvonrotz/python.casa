@@ -1,7 +1,7 @@
 # Notizen
 
 Online Unterricht:
-* Nicht vor eine Viertelstunde vor Beginn bei Zoom einloggen
+* Nicht eine Viertelstunde vor Beginn bei Zoom einloggen
 * Termine für Anwesenheit eintragen
 
 Zeitplanung:
@@ -28,7 +28,10 @@ Gestaltung:
 
 ## Resourcen
 
-- [# Einführung ins Programmieren mit Python](https://pythonbuch.com/index.html)
+Ressourcen für die Unterrichtsgestaltung.
+
+* [Einführung ins Programmieren mit Python](https://pythonbuch.com/index.html)
+* [Interaktiv Python-Code ausführen](https://trinket.io/)
 
 ## Vorlagen
 

@@ -58,7 +58,7 @@ Zu Erarbeitung der Aufgaben wurden weitere Webseiten miteinbezogen.
 
 * [Einführung ins Programmieren mit Python](https://pythonbuch.com)
 
-## Administration
+## Technisches
 
 Die Kursunterlagen wurden mit [Obsidian](https://obsidian.md/) erstellt und mit [Vuepress](https://vuepress.vuejs.org/) veröffentlicht.
 
