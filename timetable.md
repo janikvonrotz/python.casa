@@ -21,4 +21,4 @@ Unterricht 4. Semester.
 ## Ferien
 
 Weihnachtsferien: 24.12 bis 06.01\
-Fasnachtsferien: 21.02 bis 06.03  
+Fasnachtsferien: 21.02 bis 06.03
