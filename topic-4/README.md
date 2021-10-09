@@ -1,4 +1,7 @@
 # Thema 4 - Kontrollstrukturen und Listen
+
+Umfang ⏱️: 3 Lektionen
+
 [Alle Unterlagen anzeigen](https://github.com/janikvonrotz/python.casa/tree/main/topic-4)
 
 ## [Slides](slides.md)  

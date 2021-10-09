@@ -12,10 +12,10 @@ Resultat sind zwei Dateien:
 
 ## Termine
 
-28.02.2021: Eingabe Projektvorschlag für Leistungsnachweis  
-02.03.2021: Rückmeldung zu Verbesserung zu Projektvorschlag  
-28.03.2021: Deadline Hochladen Leistungsnachweis  
-03.04.2021: Bewertung der Abgaben
+**21.01.2021: Eingabe Projektvorschlag für Leistungsnachweis  **
+05.02.2021: Rückmeldung zum Projektvorschlag  
+**12.03.2021: Deadline Hochladen Leistungsnachweis  **
+28.01.2021: Bewertung der Nachweise
 
 ## Themenwahl
 

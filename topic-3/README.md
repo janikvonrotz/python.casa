@@ -1,4 +1,7 @@
-# Thema 3 * Boolsche Algebra und Zeichenketten
+# Thema 3 - Boolsche Algebra und Zeichenketten
+
+Umfang ⏱️: 2 Lektionen
+
 [Alle Unterlagen anzeigen](https://github.com/janikvonrotz/python.casa/tree/main/topic-3)
 
 ## [Slides](slides.md)  

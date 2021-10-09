@@ -1,4 +1,7 @@
-# Thema 2 * Variablen und Datentypen
+# Thema 2 - Variablen und Datentypen
+
+Umfang ⏱️: 2 Lektionen
+
 [Alle Unterlagen anzeigen](https://github.com/janikvonrotz/python.casa/tree/main/topic-2)
 
 ## [Slides](slides.md)

@@ -1,4 +1,7 @@
 # Thema 5 - Funktionen und Flowcharts
+
+Umfang ⏱️: 3 Lektionen
+
 [Alle Unterlagen anzeigen](https://github.com/janikvonrotz/python.casa/tree/main/topic-5)
 
 ## [Slides](slides.md)  

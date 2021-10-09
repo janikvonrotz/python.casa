@@ -1,6 +1,6 @@
 ## Einführung Programmiersprache
 
-[Thema 1](topic-1/readme.md)
+[Thema 1](README.md)
 
 📖 Kapitel 1 Hello, World!
 
