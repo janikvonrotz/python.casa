@@ -11,8 +11,8 @@ Unterricht 4. Semester.
 | 2         | FR 14.01 | 13:00 | 14:30 | 2         | [5.5](topic-5-5/README.md)                         |
 | 3         | FR 21.01 | 14:45 | 18:00 | 4         | [6](topic-6/README.md)                             |
 | 4         | FR 28.01 | 14:45 | 18:00 | 4         | [7](topic-7/README.md)                             |
-| 5         | SA 05.02 | 08:00 | 11:15 | 4         | [8](topic-9/README.md)                             |
-| 6         | FR 11.02 | 13:00 | 16:15 | 4         | [9](topic-8/README.md)                             |
+| 5         | SA 05.02 | 08:00 | 11:15 | 4         | [8](topic-8/README.md)                             |
+| 6         | FR 11.02 | 13:00 | 16:15 | 4         | [9](topic-9/README.md)                             |
 | 10        | SA 12.03 | 08:00 | 11:15 | 4         | [10](topic-10/README.md)                           |
 | 11        | FR 28.01 | 16:30 | 18:00 | 2         | [99](topic-99/readme.md)                           |
 | **Total** |          |       |       | 39        |                                                    |
