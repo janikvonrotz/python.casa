@@ -36,5 +36,8 @@ module.exports = {
               hostname: 'https://encrypt.casa/'
           }
       ]
-    ]
+    ],
+    extendMarkdown: (md) => {
+        md.use(require('markdown-it-include'))
+    }
 }

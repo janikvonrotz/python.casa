@@ -9,7 +9,7 @@ Unterrichtsmaterial erstellt von [Janik von Rotz](https://janikvonrotz.ch/).
 [Über diesen Kurs](about.md)  
 [Stundenplan](timetable.md)  
 [Leistungsnachweis](exam.md)  
-[Moodle](https://moodle.medizintechnik-hf.ch/course/view.php?id=183)  
+[Moodle Kurs](https://moodle.medizintechnik-hf.ch/course/view.php?id=243)  
 [Fragen und Antworten](faq.md)
 
 ## Lektionen
@@ -30,7 +30,7 @@ Zum Teilnehmen diesen [Zoom-Link](https://us02web.zoom.us/j/89458566531?pwd=OXVF
 * [Thema 8 - Jupiter-Notebooks, SciPy und Matplotlib](topic-8/README.md) ⭕
 * [Thema 9 - Webapplikation mit Python Flask](topic-9/README.md) ⭕
 * [Thema 10 - Webapplikation mit Odoo](topic-10/README.md) ⭕
-* [Thema 99 - Abschluss](topic-99/readme.md) ⭕
+* [Thema 99 - Abschluss](topic-99/README.md) ⭕
 
 ## Anderes
 
