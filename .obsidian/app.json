@@ -4,5 +4,6 @@
   "useMarkdownLinks": true,
   "newLinkFormat": "relative",
   "promptDelete": false,
-  "trashOption": "local"
+  "trashOption": "local",
+  "showUnsupportedFiles": true
 }

@@ -2,6 +2,8 @@
 
 [Thema 1](README.md)
 
+⚡[Anwesenheit bestätigen](https://moodle.medizintechnik-hf.ch/mod/attendance/manage.php?id=4479) und Webcam einschalten.
+
 📖 Kapitel 1 Hello, World!
 
 ---

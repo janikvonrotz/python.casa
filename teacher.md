@@ -30,7 +30,7 @@ Gestaltung:
 
 Ressourcen für die Unterrichtsgestaltung.
 
-* [Einführung ins Programmieren mit Python](https://pythonbuch.com/index.html)
+* [Einführung ins Programmieren mit Python](https://pythonbuch.com)
 * [Interaktiv Python-Code ausführen](https://trinket.io/)
 
 ## Vorlagen

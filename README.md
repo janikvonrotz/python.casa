@@ -1,8 +1,9 @@
 # python.casa
-
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/768px-Python-logo-notext.svg.png" width="150px" />
+![](./logo.png)
 
 Einführung in die Programmierung.
+
+---
 
 Unterrichtsmaterial erstellt von [Janik von Rotz](https://janikvonrotz.ch/).
 
@@ -14,7 +15,7 @@ Unterrichtsmaterial erstellt von [Janik von Rotz](https://janikvonrotz.ch/).
 
 ## Lektionen
 
-Zum Teilnehmen diesen [Zoom-Link](https://us02web.zoom.us/j/89458566531?pwd=OXVFeG1lKy9TRUFJQnNiYm9ibGpvZz09) öffnen.
+Zum Teilnehmen diesen [Zoom-Link](https://us02web.zoom.us/j/5020793116?pwd=cGhqOFJpV3JjNUdtSjJ6OFpGSmZDUT09) öffnen.
 
 * [Thema 0 - Über diesen Kurs](topic-0/README.md) ✅
 * [Thema 1 - Einführung Programmiersprache](topic-1/README.md) ✅
@@ -31,6 +32,10 @@ Zum Teilnehmen diesen [Zoom-Link](https://us02web.zoom.us/j/89458566531?pwd=OXVF
 * [Thema 9 - Webapplikation mit Python Flask](topic-9/README.md) ⭕
 * [Thema 10 - Webapplikation mit Odoo](topic-10/README.md) ⭕
 * [Thema 99 - Abschluss](topic-99/README.md) ⭕
+
+✅ = Bereit\
+🟠 = Wird revidiert\
+⭕ = Zur Erledigung
 
 ## Anderes
 
