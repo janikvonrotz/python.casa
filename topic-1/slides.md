@@ -25,7 +25,7 @@ Videos:
 * [Python3 auf Windows 10 installieren](https://www.youtube.com/watch?v=hr1P_F7Vp9Y)  
 * [Python3 auf MacOS installieren](https://www.youtube.com/watch?v=1xMT1Tzskrg)
 
-⚡Aufteilung in Breakout-Rooms ⏱️ 10 Minuten
+⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 10 Minuten
 
 Ziel: Jeder hat Python installiert.
 
@@ -41,7 +41,7 @@ Wir machen unsere erste Schritte in der Python-Shell.
 
 🎬 Auf MacOS: <kbd>cmd</kbd> + <kbd>leertaste</kbd> drücken, `Terminal` eingeben und `enter` drücken
 
-🎬 Windows: <kbd>windows</kbd> + <kbd>r</kbd> drücken, `cmd.exe` eingeben und `enter` drücken
+🎬 Windows: <kbd>windows</kbd> + <kbd>r</kbd> drücken, `powershell.exe` eingeben und `enter` drücken
 
 ---
 ### Python-Shell starten
@@ -51,6 +51,8 @@ Wir starten nun die Python-Shell.
 🎬 `python` im Terminal eingeben.
 
 > Wir arbeiten mit Python 3.6 und höher.
+
+Alternativ `C:\Program Files\Python\python.exe` öffnen.
 
 ---
 ### Hello World
@@ -87,7 +89,7 @@ Im Unterordner das Terminal starten.
 🎬 Folgende Punkte erledigen:
 
 * Ordner im Explorer/Finder öffnen
-* Windows: In Adressleiste `cmd.exe` eingeben und mit `enter` bestätigen
+* Windows: In Adressleiste `powershell.exe` eingeben und mit `enter` bestätigen
 * MacOS: In Finder Rechtsklick auf den Ordner machen und Terminal in Ordner starten.
 
 ---
@@ -123,7 +125,7 @@ IDE=Integrierte Entwicklungsumgebung
 
 IDE-Editor [Thonny](https://thonny.org/) installieren. Wählt als Sprache `English` und Einstellung `Standard`.
 
-⚡Aufteilung in Breakout-Rooms ⏱️ 10 Minuten
+⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 10 Minuten
 
 Ziel: Jeder kann die IDE starten.
 
@@ -203,7 +205,7 @@ print('abc')  # noch ein Kommentar
 
 Lösen sie die Aufgaben und besprechen sie die Wiederholungsfragen.
 
-⚡Aufteilung in Breakout-Rooms ⏱️ 10 Minuten
+⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 10 Minuten
 
 Ziel: Aufgabe 1.1 gelöst.
 
@@ -222,3 +224,12 @@ Ziele erreicht?
 
 * Was lief gut?
 * Was kann ich verbessern?
+
+---
+### 
+
+Wir haben noch Zeit für:
+
+* Besprechung von Aufgaben und Wiederholungsfragen
+* Fragen zum Thema
+* Direkte Unterstützung Studierende

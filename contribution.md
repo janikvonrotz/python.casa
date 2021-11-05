@@ -1,11 +1,11 @@
 
 # Mitarbeit
 
-Was beim Erstellen von Inhalten beachtet werden muss, ist hier erläutert.
+Was beim Erstellen von Inhalten beachtet werden muss, wird hier erläutert.
 
 ## Sprache
 
-Der Studen wird mit sie angesprochen.
+Die Studierenden werden mit sie angesprochen.
 
 ## Formatierung
 
@@ -48,3 +48,7 @@ Ziele werden mit 🎯 markiert.
 **Hausaufgaben**
 
 Hausaufgaben werden mit 📝 markiert.
+
+## Emojies
+
+Eine Übersicht zu den Emoies gibt es hier [😉](😉.md).

@@ -7,29 +7,30 @@
 
 * Wirtschaftsinformatiker
 * Systemtechniker (Informatik)
-* <http://janikvonrotz.ch>
+* <http://janikvonrotz.ch/cv>
 
 ---
 ### Geschäftlich
 
 * <https://www.mint-system.ch/>
-* Odoo ist eine Python-Software
+* Softwwareentwicklung mit Python für ERP-System Odoo
 * Die Brücke zwischen Technik und Geschäft schlagen
 
 ---
-### Privat
+### Gemeinnützig
 
-* Open Source
-* <https://www.engage.ch/>
-* Sport
+* Open Source Software
+* [CH Open](https://www.ch-open.ch/)
+* [engage.ch](https://www.engage.ch)
+* [Civic Tech](https://www.demokratie-toolbox.ch/)
 
 ---
 ### Warum unterrichte ich?
 
 * Interesse an Erwachsenenbildung
 * Ideen und Konzepte vermitteln
-* Verständnis für IT fördern
-* [Systemtheorie](https://de.wikipedia.org/wiki/Systemtheorie) für Systemtechniker
+* Verständnis für komplexe IT fördern
+* [Systemtheorie](https://de.wikipedia.org/wiki/Systemtheorie)
 
 ---
 ### Ziele
@@ -53,18 +54,15 @@ Ihr findet alles unter <https://python.casa/>.
 
 [![](../buch.png)](https://kofler.info/buecher/python/)
 
-Teil 1 es Buches wird im Unterricht behandelt.
-
 ---
 ### Leistungsnachweis
 
-* Teil 2 des Buches ist der Leistungsnachweis
-* 14 Lektionen sind nicht viel
+* "Proof of Work" statt "Proof of Knowledge"
 * Details unter [Leistungsnachweis](exam.md)
 
 ---
 ### Feedback
 
-Das ist die erste Durchführung!
+Das ist die zweite Durchführung.
 
 Feedback immer am Ende des Unterrichts oder per mail an <hi@janikv.ch>.
