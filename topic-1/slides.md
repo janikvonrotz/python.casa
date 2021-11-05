@@ -226,7 +226,7 @@ Ziele erreicht?
 * Was kann ich verbessern?
 
 ---
-### 
+### Zum Schluss
 
 Wir haben noch Zeit für:
 
