@@ -11,7 +11,7 @@ Erstellen sie ein Programm, das nach ihrem Namen fragt und diesen in Grossbuchst
 > Kopieren sie den Code nicht! Schreiben sie jedes Zeichen und Anweisung, nur so finden sie auch die Zeichen auf der Tastatur. 
 
 :::tip
-Im interaktiven Modus eine String-Variable deklarieren, den Variablenamen mit einem `.` am Ende eingeben und mit der Tabulator-Taste die verfügbaren Methoden anzeigen lassen.
+Setzen sie nach `name` die folgende Funktion an `.upper()`. 
 :::
 
 ### Aufgabe 1.2: Kommentieren
