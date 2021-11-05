@@ -1,8 +1,9 @@
 ## Variablen und Datentypen
 
-[Thema 2](../README.md)
+[Thema 2](../README.md)\
+Umfang ⏱️: 2 Lektionen
 
-⚡[Anwesenheit bestätigen]https://moodle.medizintechnik-hf.ch/mod/attendance/manage.php?id=6139)
+⚡[Anwesenheit bestätigen](https://moodle.medizintechnik-hf.ch/mod/attendance/manage.php?id=6139)
 
 📖 Kapitel 2 Variablen, 3 Operatoren und 4 Zahlen
 
@@ -237,9 +238,10 @@ Ziel: Aufgabe 2.1 gelöst.
 * Datentypen verstanden
 * Einfach Berechnungen ausführen
 
----
+<!-- ---
 ### Abschluss
 
 📝 Ich bitte euch die restlichen Aufgaben und Wiederholungsfragen im Selbststudium durchzugehen.
 
 👋 Bis zum nächsten Mal.
+-->

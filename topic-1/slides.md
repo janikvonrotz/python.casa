@@ -1,13 +1,35 @@
 ## Einführung Programmiersprache
 
-[Thema 1](README.md)
+[Thema 1](README.md)\
+Umfang ⏱️: 3 Lektionen
 
 ⚡[Anwesenheit bestätigen](https://moodle.medizintechnik-hf.ch/mod/attendance/manage.php?id=6139) und Webcam einschalten.
 
 📖 Kapitel 1 Hello, World!
 
 ---
-### Python
+### Begriffe der Programmierung
+
+* Programmiersprache
+* Syntax
+* Anweisung
+* Programmcode / Quellcode
+* Deklarieren
+* Variable
+* IDE
+
+---
+### Programmiersprache
+
+> Eine Programmiersprache ist eine formale Sprache zur Formulierung von Datenstrukturen und Algorithmen, d. h. von Rechenvorschriften, die von einem Computer ausgeführt werden können
+
+---
+### Anteile der Programmiersprachen
+
+![](../anteile-programmiersprachen.png)
+
+---
+### Programmiersprache Python
 
 <iframe src="https://giphy.com/embed/Wvfq2yFumK61W" width="280" height="280" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 
@@ -55,13 +77,18 @@ Wir starten nun die Python-Shell.
 Alternativ `C:\Program Files\Python\python.exe` öffnen.
 
 ---
-### Hello World
+### Anweistung interaktiv ausführen
 
-🎬 Anweisung eingeben:
+🎬 Anweisung eingeben und mit <kbd>enter</kbd> bestätigen:
 
 ```py
 print('Hello, World!')
 ```
+
+---
+### Anweisung
+
+> Programmzeile mit Instruktionen, die vom Computer ausgeführt werden.
 
 ---
 ### Weitere Shell-Befehle
@@ -74,15 +101,38 @@ print('Hallo ' + name + '!')
 ```
 
 ---
-### Skript herunterladen
+### Variable deklarieren
 
-Wir laden ein Skript herunter und speichern es in einem Ordner.
+Links Name des Speichers und Rechts der Wert.
+
+```py
+irgendwas = 'Ein Text'
+```
+
+Hier wird die Variable `irgendwas` mit dem Wert `'Ein Text'` deklariert.
+
+---
+### Syntax
+
+> Unter Syntax versteht man allgemein ein Regelsystem zur Kombination elementarer Zeichen zu zusammengesetzten Zeichen in natürlichen oder künstlichen Zeichensystemen.
+
+---
+### Programmcode herunterladen
+
+Wir laden ein Programmcode herunter und speichern ihn in einem Ordner.
 
 🎬 Folgende Punkte erledigen:
 * Projektordner und Unterordner `Thema1` erstellen
-* Datei [HelloWorld.py](https://raw.githubusercontent.com/janikvonrotz/python.casa/main/topic-1/HelloWorld.py) im Ordner speichern
+* Datei-Link [HelloWorld.py](https://raw.githubusercontent.com/janikvonrotz/python.casa/main/topic-1/HelloWorld.py) öffnen
+* Speichern als `HelloWorld.py` im neuen Ordner.
+
 ---
-### Skript ausführen
+### Programmcode
+
+> Quelltext, auch Quellcode oder unscharf Programmcode genannt, ist in der Informatik der für Menschen lesbare, in einer Programmiersprache geschriebene Text eines Computerprogrammes.
+
+---
+### Programmcode ausführen
 
 Im Unterordner das Terminal starten.
 
@@ -90,12 +140,15 @@ Im Unterordner das Terminal starten.
 
 * Ordner im Explorer/Finder öffnen
 * Windows: In Adressleiste `powershell.exe` eingeben und mit `enter` bestätigen
+
+![open-powershell](../open-powershell.gif)
+
 * MacOS: In Finder Rechtsklick auf den Ordner machen und Terminal in Ordner starten.
 
 ---
-### Skript ausführen
+### Programmcode ausführen
 
-🎬 Skript in Terminal ausführen 
+🎬 Programm in Terminal ausführen 
 
 ```bash
 python ./HelloWorld.py
@@ -106,17 +159,15 @@ python ./HelloWorld.py
 ---
 ### Shebang
 
-Was hat es mit der ersten Zeile auf sich?
-
-GNU/Linux und MacOS:
-
 ```py
 #!/usr/bin/env python3
 ```
 
-Windows:
+Was hat es mit der ersten Zeile auf sich?
 
-`.py` -> `python.exe`
+GNU/Linux und MacOS: -> `python`
+
+Windows: `.py` -> `python.exe`
 
 ---
 ### Installation IDE
@@ -150,13 +201,13 @@ Ziel: Jeder kann die IDE starten.
 ![](../python-datei-kompilieren.png)
 
 ---
-### Anweisungen
+### Anweisungen ein- und mehrzeilig
 
 Ist normalerweise Einzeilig.
 
 ```py
-print('abc',
-      'efg')
+print('abc')
+print('efg')
 ```
 
 Mehre Anweisungen auf einer Zeile:
@@ -233,3 +284,8 @@ Wir haben noch Zeit für:
 * Besprechung von Aufgaben und Wiederholungsfragen
 * Fragen zum Thema
 * Direkte Unterstützung Studierende
+
+---
+### Quellen
+
+[^1]: <https://de.statista.com/infografik/16544/anteile-der-populaersten-programmiersprachen-weltweit/>

@@ -6,7 +6,7 @@ Aufgaben zum Thema.
 
 ### Aufgabe 1.1: Input, Process and Output
 
-Erstellen sie ein Programm, das nach ihrem Namen fragt und diesen in Grossbuchstaben wieder ausgibt.
+Erstellen sie ein Programm, das nach ihrem Namen fragt und diesen in Grossbuchstaben wieder ausgibt. Suchen sie im Internet nach `Python Grossbuchstaben` um eine HIlfestellung zu finden.
 
 > Kopieren sie den Code nicht! Schreiben sie jedes Zeichen und Anweisung, nur so finden sie auch die Zeichen auf der Tastatur. 
 
