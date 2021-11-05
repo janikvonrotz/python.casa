@@ -5,9 +5,11 @@
 ---
 ### Wer bin ich?
 
-* Wirtschaftsinformatiker
-* Systemtechniker (Informatik)
-* <http://janikvonrotz.ch/cv>
+* Aktuell: Wirtschaftsinformatiker
+* Vorher:
+	* System Integrator
+	* Web Entwickler / Designer
+	* Systemtechniker
 
 ---
 ### Geschäftlich
