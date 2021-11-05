@@ -2,7 +2,7 @@
 
 [Thema 1](README.md)
 
-⚡[Anwesenheit bestätigen]https://moodle.medizintechnik-hf.ch/mod/attendance/manage.php?id=6139) und Webcam einschalten.
+⚡[Anwesenheit bestätigen](https://moodle.medizintechnik-hf.ch/mod/attendance/manage.php?id=6139) und Webcam einschalten.
 
 📖 Kapitel 1 Hello, World!
 
@@ -70,7 +70,7 @@ print('Hello, World!')
 
 ```py
 name='Michael'
-'Hallo ' + name + '!'
+print('Hallo ' + name + '!')
 ```
 
 ---
