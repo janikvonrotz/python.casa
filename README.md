@@ -30,7 +30,7 @@ Zum Teilnehmen diesen [Zoom-Link](https://us02web.zoom.us/j/5020793116?pwd=cGhqO
 * [Thema 5.5 - Objektorientierte Programmierung](topic-5-5/README.md) 🚧
 * [Thema 6 - Ein- und Ausgabe](topic-6/README.md) ✅
 
-### Teil 3
+### Teil 2
 
 * [Thema 7 - Module](topic-7/README.md) 🚧
 * [Thema 7.5 - Datenbanken](topic-7-5/README.md) 🚧
