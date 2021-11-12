@@ -59,8 +59,9 @@ Ihr findet alles unter <https://python.casa/>.
 ---
 ### Leistungsnachweis
 
-* "Proof of Work" statt "Proof of Knowledge"
-* Details unter [Leistungsnachweis](exam.md)
+* "Proof of Knowledge"
+* "Proof of Work"
+* Details unter [Prüfung](exam.md)
 
 ---
 ### Feedback

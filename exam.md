@@ -1,20 +1,42 @@
-# Leistungsnachweis
+# Prüfung
+
+Der Kurs erfordert zwei Semesternoten um die Abschlussnote zu bilden. Es wurde entschieden, dass erste (theoretische) Teil des Kurses mit einer [Wissensprüfung](#Wissensprüfung) bewertet wird und der zweite (praktische) Teil des Kurses mit einem [Leistungsnachweis](#Leistungsnachweis) benotet wird.
+
+## Termine
+
+Dazu die Termine der Wissenprüfung und des Leistungsnachweises.
+
+!!!include(exam-timetable.md)!!!
+
+## Wissensprüfung
+*Proof of Knowledge*
+
+Ziel: Die Stundierenden verstehen die elemmentaren Bausteine der Programmierung und können die Python-Programmiersprache lesen und interpretieren.
+
+Aufwand: 1-2 Stunden
+
+### Abgrenzung
+
+Die Inhaltliche Abgrenzung sind die Folien, Aufgaben und Wiederholungsfragen von [Teil 1](README.md#Teil%201).
+
+### Durchführung
+
+Am Ende von Lektion 6 absolvieren die Studierenden eine online Moodle-Prfüng unter Aufsicht des Dozenten.
+
+## Leistungsnachweis
+*Proof of Work*
 
 Ziel: Eine Problem definieren und dieses mithilfe eines selbstgeschriebenen Programms lösen.
 
 Aufwand: 8-16 Stunden
 
-## Resultat
+### Resultat
 
 Resultat sind zwei Dateien:
 * `Code.zip`: Python-Programm (gezippter Ordner mit Pyton-Dateien)
 * `Dokumentation.{pdf,epub,docx}:` Dokumentation zum Programm (4-8 Seiten, ohne Cover)
 
-## Termine
-
-!!!include(exam-timetable.md)!!!
-
-## Themenwahl
+### Themenwahl
 
 Hier einige Ideen für Projekte:
 
@@ -28,8 +50,6 @@ Hier einige Ideen für Projekte:
 * Detektion von Herzfrequenz anhand [EKG-Daten](https://github.com/janikvonrotz/python.casa/blob/main/ekg-data..csv)
 * Temperaturdaten ploten und Min/Max bestimmen. Daten von  [https://sarneraa.huetstock.ch](https://sarneraa.huetstock.ch) können auf Anfrage bereitgestellt werden.
 * Passwortgenerator gemäss [xkcd-Comic](https://xkcd.com/936/). 
-
-## Vorlagen
 
 ### Projektvorschlag
 
@@ -54,7 +74,7 @@ Mit [draw.io](https://draw.io) kann man Flowcharts erstellen und so den Code dok
 
 Eine Vorlage für ein `.docx` kann [hier heruntergeladen](https://janikv.cloud/s/KaJ7zTdETxr8HAK) werden.
 
-## Kriterien
+### Kriterien
 
 Für jedes Kriterium werden Punkte von 0-9 vergeben. Jedes Kriterium wird mit 1-5 gewichtet.
 
