@@ -28,14 +28,14 @@ Video: [Visual Studio Code für Windows installieren](https://www.youtube.com/wa
 
 Wiederholungsfragen zum Thema.
 
-* W1: Python-Scripts werden durch einen Interpreter ausgeführt. Was bedeutet das?
-* W2: Welche Voraussetzungen müssen erfüllt sein, damit Python-Programme unter Windows gestartet werden können?
-* W3: Welche Voraussetzungen müssen erfüllt sein, damit Python-Programme unter Linux oder macOS gestartet werden können?
-* W4: Sind in Python mehrzeilige Anweisungen möglich?
-* W5: Wie können Sie mehrere Anweisungen in einer Zeile durchführen?
-* W6: Welche Bedeutung hat eingerückter Code?
-* W7: Wie können Sie bei print den Zeilenumbruch nach der Ausgabe verhindern?
-* W8: Wie werden in Python Kommentare formuliert?
+* **W1**: Python-Scripts werden durch einen Interpreter ausgeführt. Was bedeutet das?
+* **W2**: Welche Voraussetzungen müssen erfüllt sein, damit Python-Programme unter Windows gestartet werden können?
+* **W3**: Welche Voraussetzungen müssen erfüllt sein, damit Python-Programme unter Linux oder macOS gestartet werden können?
+* **W4**: Sind in Python mehrzeilige Anweisungen möglich?
+* **W5**: Wie können Sie mehrere Anweisungen in einer Zeile durchführen?
+* **W6**: Welche Bedeutung hat eingerückter Code?
+* **W7**: Wie können Sie bei print den Zeilenumbruch nach der Ausgabe verhindern?
+* **W8**: Wie werden in Python Kommentare formuliert?
 
 ::: tip
 Um Frage 7 zu beantworten folgender Hinweis: `help('print')`

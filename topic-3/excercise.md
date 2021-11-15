@@ -67,21 +67,21 @@ webbrowser.open('https://www.youtube.com/watch?v=%s' % ())
 
 ## Wiederholungsfragen
 
-* W1: Wie bilden Sie eine Zeichenkette, die selbst ein Anführungszeichen enthält?
+* **W1**: Wie bilden Sie eine Zeichenkette, die selbst ein Anführungszeichen enthält?
 
 ℹ️ Anführungszeichen sind Zeichen aus der Programmier-Syntax.
 
-* W2: Wie bilden Sie Zeichenketten, die das Zeichen \\ enthalten?
-* W3: Extrahieren Sie aus der folgenden Zeichenkette das Tag zwischen den eckigen Klammern:
+* **W2**: Wie bilden Sie Zeichenketten, die das Zeichen \\ enthalten?
+* **W3**: Extrahieren Sie aus der folgenden Zeichenkette das Tag zwischen den eckigen Klammern:
 
 `bla [wichtig] mehr bla`
 
-* W4: Zerlegen Sie den folgenden Dateinamen in Linux-Notation in die Verzeichnisangabe (bis zum letzten /-Zeichen) und den eigentlichen Dateinamen (ab dieser Position):
+* **W4**: Zerlegen Sie den folgenden Dateinamen in Linux-Notation in die Verzeichnisangabe (bis zum letzten /-Zeichen) und den eigentlichen Dateinamen (ab dieser Position):
 
 `/home/kofler/Bilder/foto1.jpg`
 
-* W5: Fordern Sie den Anwender eines Scripts auf, seinen Namen einzugeben, und entfernen Sie dann alle Leerzeichen am Beginn und Ende der Eingabe.
-* W6: Geben Sie Hello, World! in umgekehrter Reihenfolge aus.
+* **W5**: Fordern Sie den Anwender eines Scripts auf, seinen Namen einzugeben, und entfernen Sie dann alle Leerzeichen am Beginn und Ende der Eingabe.
+* **W6**: Geben Sie Hello, World! in umgekehrter Reihenfolge aus.
 
 ## Referenzen
 

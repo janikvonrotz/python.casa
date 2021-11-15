@@ -39,15 +39,15 @@ Warum sind sind die Werte im ersten Fall gleich und im zweiten Fall nicht?
 
 ## Wiederholungsfragen
 
-* W1: Der folgende Code löst einen Fehler aus. Warum?
+* **W1**: Der folgende Code löst einen Fehler aus. Warum?
 
 ```py
 x=1; y=2
 print(x+y+z)
 ```
 
-* W2: Welchen Typ hat die Variable i nach der Zuweisung `i=3`?
-* W3: Welche Werte gibt das folgende Programm aus?
+* **W2**: Welchen Typ hat die Variable i nach der Zuweisung `i=3`?
+* **W3**: Welche Werte gibt das folgende Programm aus?
 
 ```py
 a = 'abcde'
@@ -56,17 +56,17 @@ a = a+'fg'
 print(b)
 ```
 
-* W4: Der folgende Code ist fehlerhaft. Warum? Wie könnte eine Lösung aussehen?
+* **W4**: Der folgende Code ist fehlerhaft. Warum? Wie könnte eine Lösung aussehen?
 
 ```py
 n=22.7
 msg='Die Temperatur beträgt ' + n + ' Grad.'
 ```
 
-* W5: Wie führen Sie eine ganzzahlige Division durch?
-* W6: Welchem Zahlenwert ist True zugeordnet?
-* W7: Sie wollen den Rest der Division 225 / 17 ermitteln. Wie gehen Sie vor?
-* W8: Was ist die *Short-Circuit-Evaluation*? Nennen Sie ein Beispiel!
+* **W5**: Wie führen Sie eine ganzzahlige Division durch?
+* **W6**: Welchem Zahlenwert ist True zugeordnet?
+* **W7**: Sie wollen den Rest der Division 225 / 17 ermitteln. Wie gehen Sie vor?
+* **W8**: Was ist die *Short-Circuit-Evaluation*? Nennen Sie ein Beispiel!
 
 ## Mehr zum Thema
 
