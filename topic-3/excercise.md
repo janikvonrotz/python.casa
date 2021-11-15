@@ -9,7 +9,7 @@ Aufgaben zum Thema.
 Vereinfachen sie den folgenden Ausdruck:
 
 ```py
-not (not (a or (a and b))) and (b and (b or a))
+not (not (a)) and (b and (b or a))
 ```
 
 ### Aufgabe 3.2: Kurzschluss
@@ -38,7 +38,7 @@ Eine Analyse hat eine DNA-Sequenz zurückgeben.
 ACTNGTGCTYGATRGTAGC
 ```
 
-Wir möchten herausfinden, ob diese Sequenz auch wirklich DNA enthält. Zählen sie die Buchstaben A, T, G und C in der Sequenz zu einer Summe.
+Wir möchten herausfinden, ob diese Sequenz auch wirklich DNA enthält [^1]. Zählen sie die Buchstaben A, T, G und C in der Sequenz zu einer Summe.
 
 ### Aufgabe 3.4: DNA 2
 
@@ -82,3 +82,7 @@ webbrowser.open('https://www.youtube.com/watch?v=%s' % ())
 
 * W5: Fordern Sie den Anwender eines Scripts auf, seinen Namen einzugeben, und entfernen Sie dann alle Leerzeichen am Beginn und Ende der Eingabe.
 * W6: Geben Sie Hello, World! in umgekehrter Reihenfolge aus.
+
+## Referenzen
+
+[^1]: [How to count non-DNA bases in a sequence using Python](https://pythonforbiologists.com/counting-non-dna-bases-in-a-sequence.html)

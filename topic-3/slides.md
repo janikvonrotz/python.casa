@@ -1,6 +1,6 @@
 ## Boolsche Algebra  und Zeichenketten
 
-[Thema 3](../README.md)\
+[Thema 3](README.md)\
 Umfang ⏱️: 2 Lektionen
 
 ⚡[Anwesenheit bestätigen](https://moodle.medizintechnik-hf.ch/mod/attendance/manage.php?id=4479) und Webcam einschalten.
@@ -68,77 +68,6 @@ not b
 ```
 
 ---
-### Kommutativ
-
-🎬 In der Python-Shell ausführen:
-
-```py
-(a and b) == (b and a)
-(a or b) == (b or a)
-```
-
----
-### Assoziativ
-
-🎬 In der Python-Shell ausführen:
-
-```py
-c = True
-((a and b) and c) == (a and (b and c))
-((a or b) or c) == (a or (b or c))
-```
-
----
-### Absorption
-
-🎬 In der Python-Shell ausführen:
-
-```py
-(a or (a and b)) == a
-(a and (a or b)) == a
-```
-
----
-### Distributiv
-
-🎬 In der Python-Shell ausführen:
-
-```py
-a or (b and c) == (a or b) and (a or c)
-a and (b or c) == (a and b) or (a and c)
-```
-
----
-### Komplentär / Idempotenz
-
-🎬 In der Python-Shell ausführen:
-
-```py
-(a or not a) == 1
-(a and not a) == 0
-```
-
----
-### de Morgan
-
-🎬 In der Python-Shell ausführen:
-
-```py
-not (a or b) == (not a and not b)
-not (a and b) == (not a or not b)
-```
-
----
-### Neutralität / Extremal
-
-🎬 In der Python-Shell ausführen:
-
-```py
-(a or 0) == a
-(a and 1) == a
-```
-
----
 ### Doppelte Negation
 
 🎬 In der Python-Shell ausführen:
@@ -146,6 +75,8 @@ not (a and b) == (not a or not b)
 ```py
 (not not a) == a
 ```
+
+Es gibt noch [viele weitere Gesetze](../topic-2/archive.md).
 
 ---
 ### Short-Circuit-Evaluation
@@ -160,11 +91,37 @@ x and (x and y) or (y and x) # Evaluation vollständig geprüft
 ```
 
 ---
+### Wahre Werte
+
+Die meisten Werte sind wahr.
+
+```py
+bool("abc")
+bool(123)
+bool(["apple", "cherry", "banana"])
+```
+
+---
+### Falsche Werte
+
+Andere Werte sind falsch.
+
+```py
+bool(False)
+bool(None)
+bool(0)
+bool("")
+bool(())
+bool([])
+bool({})
+```
+
+---
 ### Aufgaben 1
 
-Lösen sie die ersten zwei Aufgaben.
+Lösen sie die ersten zwei [Aufgaben](excercise.md#Aufgaben).
 
-⚡Aufteilung in Breakout-Rooms ⏱️ 10 Minuten
+⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 10 Minuten
 
 Ziel: Aufgabe 3.1 und 3.2 gelöst.
 
@@ -407,9 +364,9 @@ print(f'{name} ist {alter:.3} Jahre alt.')
 ---
 ### Aufgaben 2
 
-Lösen sie die nächsten zwei Aufgaben.
+Lösen sie die nächsten zwei [Aufgaben](excercise.md#Aufgaben).
 
-⚡Aufteilung in Breakout-Rooms ⏱️ 10 Minuten
+⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 10 Minuten
 
 Ziel: Aufgabe 3.3 und 3.4 gelöst.
 
@@ -432,4 +389,3 @@ Ziel: Aufgabe 3.3 und 3.4 gelöst.
 ### Referenzen
 
 [^1]: [Wikipedia - Boolesche Algebra](https://de.wikipedia.org/wiki/Boolesche_Algebra#Definition)
-[^2]: [# How to count non-DNA bases in a sequence using Python](https://pythonforbiologists.com/counting-bases-in-a-sequence)

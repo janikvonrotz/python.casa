@@ -1,6 +1,6 @@
 ## Variablen und Datentypen
 
-[Thema 2](../README.md)\
+[Thema 2](README.md)\
 Umfang ⏱️: 2 Lektionen
 
 ⚡[Anwesenheit bestätigen](https://moodle.medizintechnik-hf.ch/mod/attendance/manage.php?id=6139)
@@ -14,6 +14,12 @@ Umfang ⏱️: 2 Lektionen
 * Aufgaben und Wiederholungsfragen
 
 ---
+### Variable
+
+> Eine Variable ist ein Name für eine Leerstelle in einem logischen oder mathematischen Ausdruck.
+
+---
+
 ### Variablen
 
 Programm speichert vorübergehend Werte, Zeichenketten und andere Informationen.
@@ -24,6 +30,11 @@ Variable deklarieren:
 a = 1
 b = 'abc'
 ```
+
+---
+### Datentyp
+
+> Der Datentyp gibt an, von welcher Art die Daten sind, die mit ihm beschrieben werden (Datenvereinbarung), und welche Operationen auf diesen ausgeführt werden können.
 
 ---
 ### Datentypen
@@ -59,7 +70,7 @@ Für den weiteren Verlauf des Unterrichts arbeiten wir mit Thonny und der Websit
 🎬 Folgende Aktion ausführen:
 * Thonny öffnen und das Fenster auf die linke Seite schieben
 	* Windows: <kbd>windows</kbd> + <kbd>←</kbd> drücken
-* [ptyhon.casa - Thema 2 Slides](https://python.casa/topic-2/slides.html) öffnen und auf die rechte Seite schieben
+* [ptyhon.casa - Thema 2 Slides](https://python.casa/topic-2/slides.html#fensterdarstellung-wechseln-1) öffnen und auf die rechte Seite schieben
 	* Windows: <kbd>windows</kbd> + <kbd>→</kbd> drücken
 
 ---
@@ -163,6 +174,30 @@ Python ...
 ![](../operatoren.png)
 
 ---
+### Gleichhiet
+
+Mit dem Gleich mach man eine Zuweisung. Für Gleicheit braucht es zwei.
+
+```py
+print(1 == 1) # Ausgabe: True
+```
+
+---
+### Zuweisung mit Operation
+
+Bestimmte Operatoren kann man zusammennehmen.
+
+```py
+a = 1
+a = a + 1
+```
+
+```py
+a = 1
+a =+ 1
+```
+
+---
 ### Division
 
 Gewöhnliche Division liefert immer Fliesskommazahlen.
@@ -221,14 +256,13 @@ print(a,b,c,d)
 ```
 
 ---
-
 ### Aufgaben
 
-Lösen sie die Aufgabe 2.1 und besprechen sie die Wiederholungsfragen.
+Lösen sie die [Aufgaben](excercise.md#Aufgaben) und besprechen sie die [Wiederholungsfragen](excercise.md#Wiederholungsfragen).
 
-⚡Aufteilung in Breakout-Rooms ⏱️ 10 Minuten
+⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 10 Minuten
 
-Ziel: Aufgabe 2.1 gelöst.
+Ziel: Alle Aufgaben gelöst.
 
 ---
 ### Review
@@ -236,7 +270,7 @@ Ziel: Aufgabe 2.1 gelöst.
 🎯 Ziele erreicht?
 * Variablen deklarieren und verwenden
 * Datentypen verstanden
-* Einfach Berechnungen ausführen
+* Einfache Berechnungen ausführen
 
 <!-- ---
 ### Abschluss

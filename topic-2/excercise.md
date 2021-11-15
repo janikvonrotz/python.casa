@@ -16,13 +16,26 @@ Die Python Dokumentation bietet zu allen Module Informationen. Hier der Link zum
 
 Runden sie die generierte Zahl auf 3 Stellen nach dem Komma.
 
-### Augabe 2.3: Modulo
+### Aufgabe 2.3: Modulo
 
 Fragen sie den Benutzer nach einer ersten und einer zweiten Zahl. Geben sie den Restwert einer Division der ersten durch die zweite Zahl aus.
 
 ::: warning
 Wenn die Heap-Ansicht noch aktiviert ist, kann es sein, das Python nicht den Wert der Zahl liefert, sondern deren Referenz. Deaktivieren sie die Heap-Ansicht um sicher zu gehen.
 :::
+
+### Aufgabe 2.4: Ungleich
+
+Führen sie das folgende Programm aus:
+
+```py
+a = True
+b = 1
+print(a == b) # Ausgabe: True
+print(a is b) # Ausgabe: False
+```
+
+Warum sind sind die Werte im ersten Fall gleich und im zweiten Fall nicht?
 
 ## Wiederholungsfragen
 
@@ -53,6 +66,7 @@ msg='Die Temperatur beträgt ' + n + ' Grad.'
 * W5: Wie führen Sie eine ganzzahlige Division durch?
 * W6: Welchem Zahlenwert ist True zugeordnet?
 * W7: Sie wollen den Rest der Division 225 / 17 ermitteln. Wie gehen Sie vor?
+* W8: Was ist die *Short-Circuit-Evaluation*? Nennen Sie ein Beispiel!
 
 ## Mehr zum Thema
 

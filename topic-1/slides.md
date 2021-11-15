@@ -8,8 +8,14 @@ Umfang ⏱️: 3 Lektionen
 📖 Kapitel 1 Hello, World!
 
 ---
+### Der Computer ist einfach
+
+![](../elments-of-computer-system.png)
+
+---
 ### Begriffe der Programmierung
 
+Umso schwieriger die Begriffe:
 * Programmiersprache
 * Syntax
 * Anweisung

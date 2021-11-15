@@ -7,10 +7,10 @@ Einführung in die Programmierung.
 
 Unterrichtsmaterial erstellt von [Janik von Rotz](https://janikvonrotz.ch/).
 
-[Über diesen Kurs](about.md)  
-[Stundenplan](timetable.md)  
-[Prüfung](exam.md)  
-[Moodle Kurs](https://moodle.medizintechnik-hf.ch/course/view.php?id=243)  
+[Über diesen Kurs](about.md)\
+[Stundenplan](timetable.md)\
+[Prüfung](exam.md)\
+[Moodle Kurs](https://moodle.medizintechnik-hf.ch/course/view.php?id=243)\
 [Fragen und Antworten](faq.md)
 
 ## Lektionen
