@@ -18,16 +18,17 @@ Umfang ⏱️: 2 Lektionen
 
 Liebe Studentinnen und Studenten
 
-Am letzten Freitag haben wir zusammen Python installiert und die ersten Schritte im Programmieren gemacht. Auch wenn die Übung mit dem Terminal nicht funktioniert hat, konnten am Ende alle mit Thonny ein Pthyon-Skript ausführen. Wir haben unsere Ziele erreicht.
+Am vorletzten Freitag haben wir zusammen Python installiert und die ersten Schritte im Programmieren gemacht. Auch wenn die Übung mit dem Terminal nicht funktioniert hat, konnten am Ende alle mit Thonny ein Pthyon-Skript ausführen. Wir haben unsere Ziele erreicht.
 
 Damit eine Abschlussnote zum Kurs erstellt werden kann, braucht es zwei Semesternoten. Ich habe deshalb geplant eine Wissensprüfung durchzuführen und eine Leistungsnachweis einzufordern. Die Details dazu findet hier: <https://python.casa/exam.html>. Ich werde alles am Freitag erläutern.
 
-Als Vorbereitung könnt ihr das Video [Python3-Einstieg #2 - Variablen](https://youtu.be/X_g7TheTouM) anschauen.
+Wir sehen uns am Freitag. Als Vorbereitung könnt ihr das Video [Python3-Einstieg #2 - Variablen](https://youtu.be/X_g7TheTouM) anschauen.
 
 Lieber Gruss
 
 Janik
 
+<!--
 **Rückblick + Unterrichtsform + Vorbereitung**
 
 Liebe Studentinnen und Studenten
@@ -47,6 +48,7 @@ Ich werde das ganze am Freitag nochmals erläutern. Bis dann.
 Lieber Gruss
 
 Janik
+-->
 
 ## Meta
 
