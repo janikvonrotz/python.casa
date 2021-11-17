@@ -1,6 +1,6 @@
 # Prüfung
 
-Der Kurs erfordert zwei Semesternoten um die Abschlussnote zu bilden. Es wurde entschieden, dass erste (theoretische) Teil des Kurses mit einer [Wissensprüfung](#Wissensprüfung) bewertet wird und der zweite (praktische) Teil des Kurses mit einem [Leistungsnachweis](#Leistungsnachweis) benotet wird.
+Der Kurs erfordert zwei Semesternoten um die Abschlussnote zu bilden. Es wurde entschieden, dass erste (theoretische) Teil des Kurses mit einer [Wissensprüfung](#wissensprufung) bewertet wird und der zweite (praktische) Teil des Kurses mit einem [Leistungsnachweis](#leistungsnachweis) benotet wird.
 
 ## Termine
 
