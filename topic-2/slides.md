@@ -258,7 +258,7 @@ print(a,b,c,d)
 ---
 ### Aufgaben
 
-Lösen sie die [Aufgaben](excercise.md#Aufgaben) und besprechen sie die [Wiederholungsfragen](excercise.md#Wiederholungsfragen).
+Lösen sie die [Aufgaben](excercise.md#aufgaben) und besprechen sie die [Wiederholungsfragen](excercise.md#wiederholungsfragen).
 
 ⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 10 Minuten
 

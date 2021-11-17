@@ -17,7 +17,7 @@ Aufwand: 1-2 Stunden
 
 ### Abgrenzung
 
-Die Inhaltliche Abgrenzung sind die Folien, Aufgaben und Wiederholungsfragen von [Teil 1](README.md#Teil%201).
+Die Inhaltliche Abgrenzung sind die Folien, Aufgaben und Wiederholungsfragen von [Teil 1](README.md#teil-1).
 
 ### Durchführung
 

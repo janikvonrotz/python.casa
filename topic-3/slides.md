@@ -119,7 +119,7 @@ bool({})
 ---
 ### Aufgaben 1
 
-Lösen sie die ersten zwei [Aufgaben](excercise.md#Aufgaben).
+Lösen sie die ersten zwei [Aufgaben](excercise.md#aufgaben).
 
 ⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 10 Minuten
 
@@ -364,7 +364,7 @@ print(f'{name} ist {alter:.3} Jahre alt.')
 ---
 ### Aufgaben 2
 
-Lösen sie die nächsten zwei [Aufgaben](excercise.md#Aufgaben).
+Lösen sie die nächsten zwei [Aufgaben](excercise.md#aufgaben).
 
 ⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 10 Minuten
 
