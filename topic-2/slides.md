@@ -136,15 +136,6 @@ s = s + str(x)
 print(s) # Ergebnis 'abc3'
 ```
 
-<!--
----
-### Pause
-
-⚡Wir machen eine Pause ⏱️ 10 Minuten
-
-<iframe src="https://giphy.com/embed/RicRd3dDNQJM3fmkzt" width="280" height="280" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
--->
-
 ---
 ### Gültigkeitsbereich
 
