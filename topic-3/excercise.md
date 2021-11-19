@@ -62,7 +62,7 @@ Die Nachricht verrät nicht viel. Der Internet-Kenner weiss aber, dass es sich u
 import webbrowser
 
 youtube_id = 
-webbrowser.open('https://www.youtube.com/watch?v=%s' % ())
+webbrowser.open('https://www.youtube.com/watch?v=%s' % (youtube_id))
 ```
 
 ## Wiederholungsfragen
