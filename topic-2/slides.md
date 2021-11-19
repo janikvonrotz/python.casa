@@ -31,6 +31,15 @@ a = 1
 b = 'abc'
 ```
 
+
+---
+### Gültige Variablennamen 🚧
+
+
+```
+
+```
+
 ---
 ### Datentyp
 
@@ -198,7 +207,7 @@ a = a + 1
 
 ```py
 a = 1
-a =+ 1
+a += 1
 ```
 
 ---
@@ -276,8 +285,8 @@ Ziel: Alle Aufgaben gelöst.
 * Datentypen verstanden
 * Einfache Berechnungen ausführen
 
-<!-- ---
 ---
+<!--
 ### Abschluss
 
 📝 Ich bitte euch die restlichen Aufgaben und Wiederholungsfragen im Selbststudium durchzugehen.

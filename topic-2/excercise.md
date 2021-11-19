@@ -10,6 +10,12 @@ Generieren sie eine Zufallszahl vom Typ `float` im Bereich von 1.0 bis 10.0.
 
 ::: tip
 Die Python Dokumentation bietet zu allen Module Informationen. Hier der Link zum Random-Modul: [random / Generate pseudo-random numbers](https://docs.python.org/3/library/random.html#module-random)
+
+Verwenden sie die `uniform`-Funktion für diese Aufgabe.
+
+```py
+from random import uniform
+```
 :::
 
 ### Aufgabe 2.2: Runden
@@ -66,7 +72,6 @@ msg='Die Temperatur beträgt ' + n + ' Grad.'
 * **W5**: Wie führen Sie eine ganzzahlige Division durch?
 * **W6**: Welchem Zahlenwert ist True zugeordnet?
 * **W7**: Sie wollen den Rest der Division 225 / 17 ermitteln. Wie gehen Sie vor?
-* **W8**: Was ist die *Short-Circuit-Evaluation*? Nennen Sie ein Beispiel!
 
 ## Mehr zum Thema
 

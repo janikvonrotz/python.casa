@@ -38,13 +38,13 @@ Eine Analyse hat eine DNA-Sequenz zurückgeben.
 ACTNGTGCTYGATRGTAGC
 ```
 
-Wir möchten herausfinden, ob diese Sequenz auch wirklich DNA enthält [^1]. Zählen sie die Buchstaben A, T, G und C in der Sequenz zu einer Summe.
+Wir möchten herausfinden, ob diese Sequenz auch wirklich DNA enthält [^1]. Zählen sie die Anzahl der Buchstaben A, T, G und C in der Sequenz zu einer Summe.
 
 ### Aufgabe 3.4: DNA 2
 
 Rechnen sie die Summe geteilt durch die Anzahl Zeichen der Sequenz. Das Ergebnis ist eine Prozentzahl. Formatiert die Ausgabe so, dass die Zahl zwei Stellen nach dem Komma und mit Prozentzeichen ausgegeben wird.
 
-### Aufgabe 3.5: Geheim
+### Aufgabe 3.5: Geheim 🚧
 
 Wir haben eine geheime Zeichensequenz erhalten:
 
@@ -54,7 +54,7 @@ Wir haben eine geheime Zeichensequenz erhalten:
 
 Zum entschlüsseln, müssen wir die Reihenfolge umkehren, jedes zweite Zeichen lesen und `x` mit `0` ersetzen.
 
-### Aufgabe 3.6: Bonusaufgabe
+### Aufgabe 3.6: Bonusaufgabe 🚧
 
 Die Nachricht verrät nicht viel. Der Internet-Kenner weiss aber, dass es sich um eine Youtube-ID handelt. Vervollständigen sie den folgenden Code und führen sie ihn aus:
 
@@ -82,6 +82,7 @@ webbrowser.open('https://www.youtube.com/watch?v=%s' % ())
 
 * **W5**: Fordern Sie den Anwender eines Scripts auf, seinen Namen einzugeben, und entfernen Sie dann alle Leerzeichen am Beginn und Ende der Eingabe.
 * **W6**: Geben Sie Hello, World! in umgekehrter Reihenfolge aus.
+* **W7**: Was ist die *Short-Circuit-Evaluation*? Nennen Sie ein Beispiel!
 
 ## Referenzen
 

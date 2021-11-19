@@ -251,6 +251,9 @@ Mit dem dritten Parameter kann die Schrittweite angegeben werden.
 print(s[::2]) # jedes zweite Zeichen
 ```
 
+---
+### Zeichenketten umkehren
+
 Mit negativen Schrittweite kehrt die Reihenfolge:
 
 ```py
