@@ -22,16 +22,6 @@ c = True
 ```
 
 ---
-### Absorption
-
-🎬 In der Python-Shell ausführen:
-
-```py
-(a or (a and b)) == a
-(a and (a or b)) == a
-```
-
----
 ### Distributiv
 
 🎬 In der Python-Shell ausführen:

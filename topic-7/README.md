@@ -1,11 +1,11 @@
-# Thema 7 - Module
+# Thema 7 - Server und Module
 
 Umfang ⏱️: 2 Lektionen
 
-## [Slides](../topic-0/slides.md)
+## [Slides](slides.md)
 
-[Hier](../topic-0/slides.md) geht es zu den Slides.
+[Hier](slides.md) geht es zu den Slides.
 
-## [Übungen](../topic-1/excercise.md)
+## [Übungen](excercise.md)
 
-[Hier](../topic-1/excercise.md) geht es zu den Übungen.
+[Hier](excercise.md) geht es zu den Übungen.

@@ -283,7 +283,7 @@ Ziele erreicht?
 * Was kann ich verbessern?
 
 ---
-### Zum Schluss
+### Abschluss
 
 Wir haben noch Zeit für:
 

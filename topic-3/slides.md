@@ -68,6 +68,16 @@ not b
 ```
 
 ---
+### Absorption
+
+🎬 In der Python-Shell ausführen:
+
+```py
+(a or (a and b)) == a
+(a and (a or b)) == a
+```
+
+---
 ### Doppelte Negation
 
 🎬 In der Python-Shell ausführen:
@@ -383,7 +393,7 @@ Ziel: Aufgabe 3.3 und 3.4 gelöst.
 
 📝 Ich bitte euch die restlichen Aufgaben und Wiederholungsfragen im Selbststudium durchzugehen.
 
-👋 Auf Wiedersehen (zumindest virtuel)
+👋 Bis zum nächsten Mal.
 
 ---
 ### Referenzen

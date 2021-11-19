@@ -14,7 +14,7 @@ not (not (a)) and (b and (b or a))
 
 ### Aufgabe 3.2: Kurzschluss
 
-Nehmen sie den logischen Ausdruck von Aufgabe 3.1 und bestimmen sie, ob dieser unter den folgenden Bedinungen vollständig evaluiert wird oder nicht:
+Nehmen sie den logischen Ausdruck von **Aufgabe 3.1** und bestimmen sie, ob dieser unter den folgenden Bedinungen vollständig evaluiert wird oder nicht:
 
 Bedingung 1:
 

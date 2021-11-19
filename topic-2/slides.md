@@ -136,12 +136,14 @@ s = s + str(x)
 print(s) # Ergebnis 'abc3'
 ```
 
+<!--
 ---
 ### Pause
 
 ⚡Wir machen eine Pause ⏱️ 10 Minuten
 
 <iframe src="https://giphy.com/embed/RicRd3dDNQJM3fmkzt" width="280" height="280" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+-->
 
 ---
 ### Gültigkeitsbereich
@@ -174,13 +176,24 @@ Python ...
 ![](../operatoren.png)
 
 ---
-### Gleichhiet
+### Gleicheit
 
-Mit dem Gleich mach man eine Zuweisung. Für Gleicheit braucht es zwei.
+Mit dem `=` macht man eine Zuweisung. Zur Prüfung der Gleicheit braucht es `==`.
 
 ```py
 print(1 == 1) # Ausgabe: True
 ```
+
+---
+### Restwert
+
+Der `%`-Operator macht eine Division und gibt es Restwert zurück.
+
+```py
+7 % 3 # Ausgabe: 1
+```
+
+ℹ️  Der Modulo-Operator ist in jeder Programmiersprache verfügbar.
 
 ---
 ### Zuweisung mit Operation
@@ -273,6 +286,7 @@ Ziel: Alle Aufgaben gelöst.
 * Einfache Berechnungen ausführen
 
 <!-- ---
+---
 ### Abschluss
 
 📝 Ich bitte euch die restlichen Aufgaben und Wiederholungsfragen im Selbststudium durchzugehen.
