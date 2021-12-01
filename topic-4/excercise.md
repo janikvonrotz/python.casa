@@ -79,20 +79,20 @@ Dazu kannst du den Euklidischen Algorithmus benutzen, welchen du entweder aus de
 
 ## Wiederholungsfragen
 
-* W1: Versuchen Sie, drei unterschiedliche Wege zu finden, eine Liste mit den Vielfachen von 7 zu bilden, die kleiner als 100 sind (also [7, 14, ..., 98]).
-* W2: Extrahieren Sie aus der Zeichenkette Hello, World! alle Vokale und verbinden Sie diese zu einer neuen Zeichenkette.
-* W3: Welchen Datentyp verwenden Sie, um Lottozahlen zu speichern?
-* W4: Entfernen Sie die Doppelgänger aus einer Liste von Zahlen, z. B. aus [1, 2, 3, 2, 7, 3, 9]. Die Ergebnisliste soll aufsteigend sortiert sein.
-* W5: Erstellen Sie ein kleines Deutsch-Englisch-Wörterbuch für Zahlen. Beispielsweise soll woerter['eins'] die englische Bezeichnung 'one' liefern.
-* W6: Ermitteln Sie die maximale Wortlänge in der folgenden Zeichenkette (siehe http://www.loremipsum.de):
+* **W1**: Versuchen Sie, drei unterschiedliche Wege zu finden, eine Liste mit den Vielfachen von 7 zu bilden, die kleiner als 100 sind (also [7, 14, ..., 98]).
+* **W2**: Extrahieren Sie aus der Zeichenkette Hello, World! alle Vokale und verbinden Sie diese zu einer neuen Zeichenkette.
+* **W3**: Welchen Datentyp verwenden Sie, um Lottozahlen zu speichern?
+* **W4**: Entfernen Sie die Doppelgänger aus einer Liste von Zahlen, z. B. aus [1, 2, 3, 2, 7, 3, 9]. Die Ergebnisliste soll aufsteigend sortiert sein.
+* **W5**: Erstellen Sie ein kleines Deutsch-Englisch-Wörterbuch für Zahlen. Beispielsweise soll woerter['eins'] die englische Bezeichnung 'one' liefern.
+* **W6**: Ermitteln Sie die maximale Wortlänge in der folgenden Zeichenkette (siehe http://www.loremipsum.de):
 
 ```
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, ...
 ```
 
-* W7: Berechnen Sie die Fakultät der Zahlen von 1 bis 20. (Die Fakultät ist als das Produkt aller Zahlen bis n definiert. Die Fakultät von 6 ist also 1×2×3×4×5×6 = 720.)
-* W8: Berechnen Sie die Summe der Funktion 1/x^2, wenn Sie für x alle Zahlen zwischen 2 und 30 einsetzen.
-* W9: Was wird bei der Ausführung des folgenden Codes ausgegeben?
+* **W7**: Berechnen Sie die Fakultät der Zahlen von 1 bis 20. (Die Fakultät ist als das Produkt aller Zahlen bis n definiert. Die Fakultät von 6 ist also 1×2×3×4×5×6 = 720.)
+* **W8**: Berechnen Sie die Summe der Funktion 1/x^2, wenn Sie für x alle Zahlen zwischen 2 und 30 einsetzen.
+* **W9**: Was wird bei der Ausführung des folgenden Codes ausgegeben?
 
 ```py
 for i in range(1, 3):
@@ -100,5 +100,5 @@ for i in range(1, 3):
         print(i+j)
 ```
 
-* W10: Schreiben Sie eine while-Schleife, die in 5er-Schritten von 100 bis 0 zählt.
-* W11: Formulieren Sie eine Schleife, um den Wertebereich zwischen 125 und 160 in elf Schritten zu durchlaufen. Das Programm soll alle elf Zahlen ausgeben, beginnend mit 125,0 und endend mit 160,0.
+* **W10**: Schreiben Sie eine while-Schleife, die in 5er-Schritten von 100 bis 0 zählt.
+* **W11**: Formulieren Sie eine Schleife, um den Wertebereich zwischen 125 und 160 in elf Schritten zu durchlaufen. Das Programm soll alle elf Zahlen ausgeben, beginnend mit 125,0 und endend mit 160,0.
