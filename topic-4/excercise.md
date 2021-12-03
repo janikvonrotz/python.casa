@@ -21,7 +21,7 @@ Das Verhalten dieses Programms ist der Grund, warum wir uns in Python Variablen 
 
 ### Aufgabe 4.2: Listen verstehen
 
-Speichere die Elemente `'Schwalbe'`, `'Kokosnuss'`, `13`, `'Spam'` und `3.14` in einer Liste mit dem Namen `liste` ab und versuche herauszufinden, was die folgenden Methoden machen.
+Speichere die Elemente `'Schwalbe'`, `'Kokosnuss'`, `13`, `'Spam'` und `3.14` in einer Liste mit dem Namen `liste` ab und versuche zu verstehen was die folgenden Methoden machen.
 
 ```py
 liste[2] = 666
@@ -69,13 +69,13 @@ Ergänze das Programm so, dass für jedes Tier aus der Liste animals der Satz "�
 
 ### Aufgabe 4.5: Ohne for-Schleife
 
-Schreibe ein Programm, welches alle Zahlen von 1 bis 100 auf den Bildschirm schreibt, ohne dafür eine for Schleife zu verwenden.
+Schreibe ein Programm, welches alle Zahlen von 1 bis 100 auf den Bildschirm schreibt, ohne dafür eine for-Schleife zu verwenden.
 
 ### Aufgabe 4.6: Euklid
 
 Schreibe ein Programm, welches mit `input()` zwei Zahlen vom Benutzer einliest und den grössten gemeinsamen Teiler der beiden Zahlen mit`print()` ausgibt.
     
-Dazu kannst du den Euklidischen Algorithmus benutzen, welchen du entweder aus dem Mathematikunterricht kennst oder sonst sicher im Internet findest.
+Dazu kannst du den Euklidischen Algorithmus benutzen. Mehr dazu findest du hier: <https://de.wikipedia.org/wiki/Euklidischer_Algorithmus>.
 
 ## Wiederholungsfragen
 

@@ -12,3 +12,10 @@ Umfang ⏱️: 1 Lektion
 
 [Hier](excercise.md) geht es zu den Übungen.
 
+## Meta
+
+Ziele:
+* Variabeln für Datum und Uhrzeit erstellen
+* Datum und Uhrzeit formatieren
+* Mit Datum und Zeit rechnen
+* Einordung von Zeitzonen

@@ -23,6 +23,8 @@ Thema 5:
 * Funktionen
 * Flowcharts
 
+ℹ️ In diesem Thema werden Funktionen gezeigt.
+
 ---
 ### Listen, Tupel, Sets und Dictionaries
 
@@ -65,7 +67,7 @@ print(lst[2]) # Ausgabe: abc
 ---
 ### range-Funktion
 
-Mit der Slicing-Syntax Reihenfolgen definieren.
+Mit der Range-Syntax Reihenfolgen definieren.
 
 🎬 In der IDE ausführen:
 
@@ -416,7 +418,7 @@ while i<5:
 
 Lösen sie die nächsten zwei Aufgaben.
 
-⚡Aufteilung in Breakout-Rooms ⏱️ 10 Minuten
+⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 10 Minuten
 
 Ziel: Aufgabe 4.3 und 4.4 gelöst.
 

@@ -18,7 +18,7 @@ differenz = date.today() - gebutsdatum.date()
 ```
 :::
 
-### Aufgabe 3.5.1: Tage bis Geburtstag
+### Aufgabe 3.5.2: Tage bis Geburtstag
 
 Erweitern das Programme mit einer Berechnung der Anzahl Tage bis zum nächsten Geburstag aus. 
 
@@ -26,7 +26,7 @@ Geben sie sie folgenden Text aus: `'Sie haben in {differenz.days} Tagen an einem
 
 ### Aufgabe 3.5.3: Schnellschreiber
 
-Schreiben sie ein Programm, dass zuerst diesen Text ausgibt:
+Schreiben sie ein Programm, dass diesen Text ausgibt:
 
 ```
 Am 19. Januar 2038 haben 32-Bit Computer ein Problem.
@@ -34,11 +34,11 @@ Am 19. Januar 2038 haben 32-Bit Computer ein Problem.
 
 Anschliessend soll man den Text wieder eingeben.
 
-Vergleichen sie den originalen String und den Eingegebenen. Geben sie den Vergleichswert (Boolean) aus.
+Vergleichen sie den originalen String und die Eingabe. Geben sie den Vergleichswert (Boolean) aus.
 
 Messen sie die Zeit der ganzen Programmausführung und geben sie diese in Sekunden aus.
 
-ℹ️ Ausgeben heisst immer `print()` und eingeben immer `input()`
+ℹ️ Ausgabe heisst immer `print()` und Eingabe immer `input()`
 
 ## Wiederholungsfragen
 
