@@ -1,6 +1,6 @@
 # Übungen Thema 3.5
 
-## Augaben
+## Aufgaben
 
 Augaben zum Thema.
 
