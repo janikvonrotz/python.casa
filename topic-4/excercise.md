@@ -45,13 +45,22 @@ Schreibe ein Programm, welches vom Benutzer 10 Zahlen einliest und diese in eine
 Die folgenden Elemente sollten weiterhelfen:
 
 ```py
+# Eine leere Listeerstellen
+liste = []
+```
+
+```py
 # Zahl eingeben
 zahl = input("Eingabe: ")
+```
 
+```py
 # Schleife von 1 bis 4
 for i in range(1,5):
     print(i)
+```
 
+```py
 # Kleinste Zahl aus Liste ausgeben
 min([1,3,2])
 ```

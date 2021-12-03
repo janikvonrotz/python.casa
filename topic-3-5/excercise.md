@@ -14,7 +14,7 @@ Berechne sie die Anzahl Tage, die seit dem Geburtsdatum vergangen sind und geben
 Damit die Differenz berechent werden kann, muss das heutige Datum und das Geburtsdatum Format ohne Zeit sein.
 
 ```
-differenz = date.today() - gebutsdatum.date()
+differenz = date.today() - geburtsdatum.date()
 ```
 :::
 
