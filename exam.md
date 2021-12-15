@@ -21,7 +21,20 @@ Die Inhaltliche Abgrenzung sind die Folien, Aufgaben und Wiederholungsfragen von
 
 ### Durchführung
 
-Am Ende von Lektion 6 absolvieren die Studierenden eine online Moodle-Prfüng unter Aufsicht des Dozenten.
+Am Ende von Lektion 6 absolvieren die Studierenden eine online Moodle-Prüfung unter Aufsicht des Dozenten.
+
+### Beispielfragen
+
+Zur Orientierung werden 5 Beispiele für Augabenstellungen und Wissenfragen zur Verfügung gestellt:
+
+1. Der folgende Code ist fehlerhaft. Warum? Wie könnte eine Lösung aussehen?
+
+```py
+n=22.7
+msg='Die Temperatur beträgt ' + n + ' Grad.'
+```
+
+2. 
 
 ## Leistungsnachweis
 *Proof of Work*
