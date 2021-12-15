@@ -39,11 +39,11 @@ Wiederholungsfragen zum Thema.
 * **W5**: Wie können Sie mehrere Anweisungen in einer Zeile durchführen?
 <!-- Um mehrere Anweisungen in einer Zeile auszuführen, trennen Sie sie durch Semikola – also z. B. a=3; print(a). -->
 * **W6**: Welche Bedeutung hat eingerückter Code?
-<!--  -->
+<!-- In Python wird die Struktur von Code in Verzweigungen, Schleifen und Funktionen nicht durch geschwungene Klammern definiert, sondern durch Einrückungen. Die Einrückungen sind daher zwingend erforderlich. Die übliche Einrücktiefe beträgt vier Zeichen pro Ebene. -->
 * **W7**: Wie können Sie bei print den Zeilenumbruch nach der Ausgabe verhindern?
 <!--  -->
 * **W8**: Wie werden in Python Kommentare formuliert?
-<!--  -->
+<!-- Kommentare werden in Python mit dem Zeichen # eingeleitet und gelten bis zum Ende der Zeile. Mehrzeilige Kommentare beginnen wie mehrzeilige Zeichenketten mit """ und enden mit """. -->
 
 ::: tip
 Um Frage 7 zu beantworten folgender Hinweis: `help('print')`
