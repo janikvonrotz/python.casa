@@ -71,15 +71,11 @@ webbrowser.open('https://www.youtube.com/watch?v=%s' % (youtube_id))
 
 ℹ️ Anführungszeichen sind Zeichen aus der Programmier-Syntax.
 <details>
-	Eine Möglichkeit besteht, zur Abgrenzung von Zeichenketten das jeweils andere Zeichen zu verwenden, also:
-	```
-	s1="O'Reilly"  
-	s2='<a href="https://kofler.info">Link</a>'
-	```
-	Eine zweite Möglichkeit bieten die Spezialcodes \' und \":
-	```
-	s3='abc \" def \' ghi'  # ergibt: abc " def ' ghi
-```
+Eine Möglichkeit besteht, zur Abgrenzung von Zeichenketten das jeweils andere Zeichen zu verwenden, also:
+s1="O'Reilly"  
+s2='<a href="https://kofler.info">Link</a>'
+Eine zweite Möglichkeit bieten die Spezialcodes \' und \":
+s3='abc \" def \' ghi'  # ergibt: abc " def ' ghi
 </details>
 
 * **W2**: Wie bilden Sie Zeichenketten, die das Zeichen \\ enthalten?
