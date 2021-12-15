@@ -29,13 +29,21 @@ Video: [Visual Studio Code für Windows installieren](https://www.youtube.com/wa
 Wiederholungsfragen zum Thema.
 
 * **W1**: Python-Scripts werden durch einen Interpreter ausgeführt. Was bedeutet das?
+<!--Python-Scripts müssen vor der Ausführung nicht kompiliert werden. Stattdessen liest python.exe bzw. python3 den Code (also gewissermaßen einen Text mit Python-Anweisungen) direkt aus der Script-Datei und führt ihn aus. python.exe bzw. python3 werden deswegen als Interpreter bezeichnet.-->
 * **W2**: Welche Voraussetzungen müssen erfüllt sein, damit Python-Programme unter Windows gestartet werden können?
+<!-- Das Python-Script muss die Endung *.py aufweisen. Außerdem muss natürlich Python (also das Programm python.exe) installiert sein. -->
 * **W3**: Welche Voraussetzungen müssen erfüllt sein, damit Python-Programme unter Linux oder macOS gestartet werden können?
+<!-- shebank + chmod +x + python installiert -->
 * **W4**: Sind in Python mehrzeilige Anweisungen möglich?
+<!-- Mehrzeilige Anweisungen sind möglich. Bei offenen Klammern ist in mehrzeiligen Anweisungen nicht einmal eine Kennzeichnung notwendig. Wenn aus der Struktur des Codes hingegen nicht klar hervorgeht, dass die aktuelle Zeile unvollständig ist und in der nächsten Zeile fortgesetzt wird, dann müssen Sie das Zeichen \ als Indikator für die mehrzeilige Konstruktion verwenden. -->
 * **W5**: Wie können Sie mehrere Anweisungen in einer Zeile durchführen?
+<!-- Um mehrere Anweisungen in einer Zeile auszuführen, trennen Sie sie durch Semikola – also z. B. a=3; print(a). -->
 * **W6**: Welche Bedeutung hat eingerückter Code?
+<!--  -->
 * **W7**: Wie können Sie bei print den Zeilenumbruch nach der Ausgabe verhindern?
+<!--  -->
 * **W8**: Wie werden in Python Kommentare formuliert?
+<!--  -->
 
 ::: tip
 Um Frage 7 zu beantworten folgender Hinweis: `help('print')`

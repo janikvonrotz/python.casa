@@ -52,7 +52,10 @@ x=1; y=2
 print(x+y+z)
 ```
 
+<!--  -->
+
 * **W2**: Welchen Typ hat die Variable i nach der Zuweisung `i=3`?
+<!--  -->
 * **W3**: Welche Werte gibt das folgende Programm aus?
 
 ```py
