@@ -70,20 +70,38 @@ webbrowser.open('https://www.youtube.com/watch?v=%s' % (youtube_id))
 * **W1**: Wie bilden Sie eine Zeichenkette, die selbst ein Anführungszeichen enthält?
 
 ℹ️ Anführungszeichen sind Zeichen aus der Programmier-Syntax.
+<details>
+	Eine Möglichkeit besteht, zur Abgrenzung von Zeichenketten das jeweils andere Zeichen zu verwenden, also:
+	```
+	s1="O'Reilly"  
+	s2='<a href="https://kofler.info">Link</a>'
+	```
+	Eine zweite Möglichkeit bieten die Spezialcodes \' und \":
+	```
+	s3='abc \" def \' ghi'  # ergibt: abc " def ' ghi
+```
+</details>
 
 * **W2**: Wie bilden Sie Zeichenketten, die das Zeichen \\ enthalten?
+<!--  -->
 * **W3**: Extrahieren Sie aus der folgenden Zeichenkette das Tag zwischen den eckigen Klammern:
 
 `bla [wichtig] mehr bla`
+
+<!--  -->
 
 * **W4**: Zerlegen Sie den folgenden Dateinamen in Linux-Notation in die Verzeichnisangabe (bis zum letzten /-Zeichen) und den eigentlichen Dateinamen (ab dieser Position):
 
 `/home/kofler/Bilder/foto1.jpg`
 
-* **W5**: Fordern Sie den Anwender eines Scripts auf, seinen Namen einzugeben, und entfernen Sie dann alle Leerzeichen am Beginn und Ende der Eingabe.
-* **W6**: Geben Sie Hello, World! in umgekehrter Reihenfolge aus.
-* **W7**: Was ist die *Short-Circuit-Evaluation*? Nennen Sie ein Beispiel!
+<!--  -->
 
+* **W5**: Fordern Sie den Anwender eines Scripts auf, seinen Namen einzugeben, und entfernen Sie dann alle Leerzeichen am Beginn und Ende der Eingabe.
+<!--  -->
+* **W6**: Geben Sie Hello, World! in umgekehrter Reihenfolge aus.
+<!--  -->
+* **W7**: Was ist die *Short-Circuit-Evaluation*? Nennen Sie ein Beispiel!
+<!--  -->
 ## Referenzen
 
 [^1]: [How to count non-DNA bases in a sequence using Python](https://pythonforbiologists.com/counting-non-dna-bases-in-a-sequence.html)

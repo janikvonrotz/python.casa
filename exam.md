@@ -23,7 +23,7 @@ Die Inhaltliche Abgrenzung sind die Folien, Aufgaben und Wiederholungsfragen von
 
 Am Ende von Lektion 6 absolvieren die Studierenden eine online Moodle-Prüfung unter Aufsicht des Dozenten.
 
-### Beispielfragen
+### Beispielfragen 🚧
 
 Zur Orientierung werden 5 Beispiele für Augabenstellungen und Wissenfragen zur Verfügung gestellt:
 
