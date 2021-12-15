@@ -70,6 +70,7 @@ webbrowser.open('https://www.youtube.com/watch?v=%s' % (youtube_id))
 * **W1**: Wie bilden Sie eine Zeichenkette, die selbst ein Anführungszeichen enthält?
 
 ℹ️ Anführungszeichen sind Zeichen aus der Programmier-Syntax.
+
 <details>
 Eine Möglichkeit besteht, zur Abgrenzung von Zeichenketten das jeweils andere Zeichen zu verwenden, also:
 s1="O'Reilly"  
@@ -79,25 +80,62 @@ s3='abc \" def \' ghi'  # ergibt: abc " def ' ghi
 </details>
 
 * **W2**: Wie bilden Sie Zeichenketten, die das Zeichen \\ enthalten?
-<!--  -->
+
+<details>
+Wenn der Backslash nicht zur Kennzeichnung von Sonderzeichen verwendet werden soll, formulieren Sie Zeichenketten am besten in der Raw-Syntax mit vorangestelltem r:
+s=r'C:\verzeichnis\readme.txt'
+</details>
+
 * **W3**: Extrahieren Sie aus der folgenden Zeichenkette das Tag zwischen den eckigen Klammern:
 
 `bla [wichtig] mehr bla`
 
-<!--  -->
+<details>
+s='bla [wichtig] mehr bla'  
+start=s.find('[')+1    # Startposition  
+end=s.rfind(']')       # Endposition  
+print(s[start:end])    # Teilzeichenkette auslesen  
+  'wichtig'
+</details>
 
 * **W4**: Zerlegen Sie den folgenden Dateinamen in Linux-Notation in die Verzeichnisangabe (bis zum letzten /-Zeichen) und den eigentlichen Dateinamen (ab dieser Position):
 
 `/home/kofler/Bilder/foto1.jpg`
 
-<!--  -->
+<details>
+s='/home/kofler/Bilder/foto1.jpg'  
+pos=s.rfind('/')+1  
+pfad=s[:pos]  
+datei=s[pos:]  
+print('Pfad:', pfad, 'Datei:', datei)  
+  Pfad: /home/kofler/Bilder/   Datei: foto1.jpg
+</details>
 
 * **W5**: Fordern Sie den Anwender eines Scripts auf, seinen Namen einzugeben, und entfernen Sie dann alle Leerzeichen am Beginn und Ende der Eingabe.
-<!--  -->
+
+<details>
+name = input('Geben Sie Ihren Namen an: ')  
+name = name.strip()
+</details>
+
 * **W6**: Geben Sie Hello, World! in umgekehrter Reihenfolge aus.
-<!--  -->
+
+<details>
+hello = 'Hello, World!'  
+print(hello[::-1])  
+  !dlroW ,olleH
+</details>
+
 * **W7**: Was ist die *Short-Circuit-Evaluation*? Nennen Sie ein Beispiel!
-<!--  -->
+
+<details>
+Die logischen Operatoren and und or verzichten auf die Auswertung des zweiten Operanden, wenn der erste Operand bereits zum Ergebnis führt. Wenn im folgenden Beispiel rechenfunktion(x) den Wert 0 oder eine negative Zahl liefert, dann wird rechenfunktion(y) nicht aufgerufen. Das ist nicht notwendig, weil and nur dann True liefern kann, wenn beide Teilergebnisse True sind.
+x=2  
+y=3  
+if rechenfunktion(x)>0 and rechenfunktion(y)>0:   
+    # Code ...
+</details>
+
 ## Referenzen
 
 [^1]: [How to count non-DNA bases in a sequence using Python](https://pythonforbiologists.com/counting-non-dna-bases-in-a-sequence.html)
