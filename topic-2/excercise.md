@@ -90,13 +90,10 @@ msg='Die Temperatur beträgt ' + str(n) + ' Grad.' -->
 * **W5**: Wie führen Sie eine ganzzahlige Division durch?
 <!-- Ganzzahlige Divisionen werden mit dem Operator // durchgeführt. 12//7 ergibt 1. -->
 * **W6**: Welchem Zahlenwert ist True zugeordnet?
-<!-- Wenn True in eine ganze Zahl umgewandelt wird, hat der Zustand den Wert 1:
-
-print(int(True))  
-  1 -->
+<!-- Wenn True in eine ganze Zahl umgewandelt wird, hat der Zustand den Wert 1: print(int(True))  
+1 -->
 * **W7**: Sie wollen den Rest der Division 225 / 17 ermitteln. Wie gehen Sie vor?
 <!-- Den Rest der Division 225 / 17 ermitteln Sie mit dem %-Operator:
-
 print(225 % 17) # Ergebnis 4 -->
 
 ## Mehr zum Thema
