@@ -1,6 +1,6 @@
 ## Kontrollstrukturen und Listen
 
-[Thema 4](../README.md)
+[Thema 4](README.md)
 
 ⚡[Anwesenheit bestätigen](https://moodle.medizintechnik-hf.ch/mod/attendance/manage.php?id=4479) und Webcam einschalten.
 
