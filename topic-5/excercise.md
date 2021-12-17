@@ -120,6 +120,55 @@ if spicyfood == "False":
     print("The user hates spicy food!")
 ```
 
+### Aufgabe 5.9: Hangman
+
+Entwickeln sie das Spiel *Hangman*. Implementierung sie dazu folgende Punkte:
+* Zu Finden des Worts hat man 5 Versuche
+* Das zu suchende Wort wird in Grossbuchstaben umgewandelt
+* Der eingegebene Buchstabe wird in Grossbuchstaben umgewandelt
+* Das zu suchende Wort wird als Liste gespeichert
+
+::: tip
+
+Als Anschub haben wir die folgenden Bausteine:
+
+```py
+wort = list("python".upper())
+laenge = len(wort)
+zensiert = list(laenge * '_')
+versuche = 5
+gefunden = []
+gewonnen = False
+```
+
+```py
+if eingabe in wort:
+        gefunden.extend([eingabe])
+```
+
+```py
+while versuche > 0  and not gewonnen:
+    eingabe = input("Geben sie einen Buchstaben ein: ").upper()
+```
+
+```py
+for i in range(0, laenge):
+	if wort[i] in gefunden:
+		zensiert[i] = wort[i]
+```
+
+```py
+if '_' not in zensiert:
+	gewonnen = True
+	print("Du hast gewonnen!")
+```
+
+```py
+if not gewonnen:
+    print("Du hast verloren!")
+```
+:::
+
 ## Wiederholungsfragen
 
 * **W1**: Die in Python vordefinierten Funktionen min und max ermitteln das kleinste bzw. größte Element einer Liste. Programmieren Sie die Funktion minmax, die die beiden entsprechenden Elemente als Tupel zurückgibt – natürlich, ohne auf min und max zurückzugreifen.
