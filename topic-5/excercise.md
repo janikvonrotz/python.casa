@@ -31,11 +31,11 @@ print(ansage("Chur"))
 
 ### Aufgabe 5.2: Vereinfachen mit Schleife
 
-Unser Programm kann noch verbessert werden. 
+Unser Programm kann noch verbessert werden. Erstellen sie eine Liste der Orte und übergeben sie diese Parameter and die Ansage-Funktion.
 
 ### Aufgabe 5.3: Parameter validieren
 
-
+Wir möchten sicherstellen, dass die Ansage-Funktion nur Variablen vom Typ `str` verarbeitet. Erstellen sie eine entsprechende Prüfung vor der Ausgabe.
 
 ### Aufgabe 5.4: Quersumme berechhen
 

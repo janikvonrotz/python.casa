@@ -224,12 +224,23 @@ Ziel: Aufgabe 5.1 und 5.2 gelöst.
 
 ### Parameter mit mehreren Werten
 
-Wenn man einen Parameter mit `*para` oder `**para` definiert ,kann man beliebig viele Werte übertragen.
+Wenn man einen Parameter mit `*para` oder `**para` definiert, kann man beliebig viele Werte übertragen.
 
 * `*para` ist ein Tupel
 * `**para` ist ein Dictionary
 
 Das funktioniert auch beim Funktionsaufruf.
+
+### Beispiel mit Liste
+
+```py
+liste = ['a','b','c']
+
+print(liste) # Ausgabe ['a', 'b', 'c']
+print(*liste) # a b c
+```
+
+ℹ️ Der `*` nimmt die Struktur einer oder mehreren Variablen auseinander oder vereinigt diesen.
 
 ---
 
