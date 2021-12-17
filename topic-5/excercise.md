@@ -81,19 +81,19 @@ Filter sind alle Benutzer aus der Liste, die eine Telefonnumer haben, die mit ei
 ::: tip
 Verwenden sie die folgende Bausteine:
 
-```
+```py
 print(user.get('email'))
 ```
 
-```
+```py
 for user in users:
 ```
 
-```
+```py
 filter(lambda user: user["name"] == "Leanne Graham", data)
 ```
 
-```
+```py
 users = list(filter)
 ```
 :::
