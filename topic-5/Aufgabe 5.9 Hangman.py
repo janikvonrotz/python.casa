@@ -1,6 +1,6 @@
 
 # Einstellungen
-wort = list("python".upper())
+wort = list("ingwer".upper())
 laenge = len(wort)
 zensiert = list(laenge * '_')
 versuche = 5
@@ -17,8 +17,8 @@ while versuche > 0  and not gewonnen:
             if wort[i] in gefunden:
                 zensiert[i] = wort[i]
         
-        print(f"Treffer! Der aktuelle Stand: {zensiert}.")
-        print(f"Treffer! Deine Treffer: {gefunden}.")
+        print(f"Treffer! Der aktuelle Stand: {' '.join(zensiert)}.")
+        print(f"Deine Treffer: {' '.join(gefunden)}.")
         
         if '_' not in zensiert:
             gewonnen = True

@@ -167,6 +167,11 @@ if '_' not in zensiert:
 if not gewonnen:
     print("Du hast verloren!")
 ```
+
+```py
+print(f"Treffer! Der aktuelle Stand: {' '.join(zensiert)}.")
+print(f"Deine Treffer: {' '.join(gefunden)}.")
+```
 :::
 
 ## Wiederholungsfragen
