@@ -14,6 +14,8 @@ Mit `if` kann man nur bestimmte Teile im Code ausführen.
 
 Mit `while` und `for` können wir Anweisungen im Code wiederholen.
 
+Wie können wir Code-Teile mehrfach verwenden?
+
 ---
 
 ### Funktionen
@@ -87,7 +89,7 @@ def f2(x, y):
 ---
 ### Funktion ausführen
 
-Die Funktionen führen wir nun aus.
+Diese Funktionen führen wir nun aus.
 
 🎬 Diesen Code anfügen:
 
@@ -313,7 +315,7 @@ Sofern alles auf einer Zeile Platz hat.
 
 ---
 
-### Lambda-Funktionen
+### Deklaration Lambda-Funktion
 
 Eine Kurzschreibweise für Funktionen.
 
@@ -432,7 +434,7 @@ Lösen sie die ersten zwei Aufgaben.
 
 ⚡Aufteilung in Breakout-Rooms ⏱️ 10 Minuten
 
-Ziel: Aufgaben 5.6 bis 5.8 sind gelöst.
+Ziel: Aufgaben 5.7 und 5.8 sind gelöst.
 
 ---
 

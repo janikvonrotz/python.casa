@@ -20,7 +20,8 @@ Es wird immer der gleiche Satz verwendet, nur der Name des Zuges ändert. Versuc
 
 ::: tip
 Erstelle sie eine Funktion `ansage`, die als Parameter den Ort erhält und rufen sie die Funktion wie folgt auf:
-```
+
+```py
 print(ansage("Bern"))
 print(ansage("Luzern"))
 print(ansage("Zürich"))
@@ -31,7 +32,7 @@ print(ansage("Chur"))
 
 ### Aufgabe 5.2: Vereinfachen mit Schleife
 
-Unser Programm kann noch verbessert werden. Erstellen sie eine Liste der Orte und übergeben sie diese Parameter and die Ansage-Funktion.
+Unser Programm kann noch verbessert werden. Erstellen sie eine Liste der Orte und übergeben sie diese Parameter an die Ansage-Funktion.
 
 ### Aufgabe 5.3: Parameter validieren
 
@@ -49,16 +50,25 @@ Wenn man die Zahl in einen String umwandelt kann man sie in einer Schleife verar
 
 Schreiben sie eine rekursive Funktion, die als Parameter einen Ordnerpfad erwartet und alle Unterordner ausgibt.
 
-Dazu eine Hilfestellung:
+::: tip
+Dazu eine Hilfestellung. Das folgende Programm gibt alle Dateien und Ordner unterhalb eines bestimmten Ordnerpfads aus:
 
 ```py
 import os
-# List all files in a directory using os.listdir
-basepath = 'my_directory/'
+
+basepath = '/pfad/to/my/directory'
+
 for entry in os.listdir(basepath):
-    if os.path.isfile(os.path.join(basepath, entry)):
-        print(entry)
+
+	fullpath = os.path.join(path, entry)
+
+    if os.path.isfile(fullpath):
+        print("Datei: ", entry)
+		
+    if os.path.isdir(fullpath):
+        print("Ordner:", entry)
 ```
+:::
 
 ### Aufgabe 5.6: Filtern mit Lambda
 
