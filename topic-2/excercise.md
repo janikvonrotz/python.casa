@@ -52,13 +52,20 @@ x=1; y=2
 print(x+y+z)
 ```
 
-<details>Jeder Python-Variablen muss ein Wert zugewiesen werden, bevor sie ausgewertet werden kann. Das war bei z nicht der Fall. Es gibt keinen Defaultzustand (etwa 0). So funktioniert der Code:
+<details>
+Jeder Python-Variablen muss ein Wert zugewiesen werden, bevor sie ausgewertet werden kann. Das war bei z nicht der Fall. Es gibt keinen Defaultzustand (etwa 0). So funktioniert der Code:
+<pre>
 x=1; y=2; z=0  
 print(x+y+z)
+</pre>
 </details>
 
 * **W2**: Welchen Typ hat die Variable i nach der Zuweisung `i=3`?
-<!-- In Python haben Variablen keinen Typ! Nach i=3 zeigt i auf ein Objekt mit der ganzen Zahl 3. Dieses Objekt (nicht die Variable) hat also den Typ int. Dementsprechend liefert type(i) das Ergebnis <class 'int'>. Allerdings kann bereits in der nächsten Anweisung i='abc' ausgeführt werden. Dann zeigt i auf ein Objekt mit einer Zeichenkette. -->
+
+<details>
+In Python haben Variablen keinen Typ! Nach i=3 zeigt i auf ein Objekt mit der ganzen Zahl 3. Dieses Objekt (nicht die Variable) hat also den Typ int. Dementsprechend liefert type(i) das Ergebnis class 'int'. Allerdings kann bereits in der nächsten Anweisung i='abc' ausgeführt werden. Dann zeigt i auf ein Objekt mit einer Zeichenkette.
+</details>
+
 * **W3**: Welche Werte gibt das folgende Programm aus?
 
 ```py
@@ -70,11 +77,13 @@ print(b)
 
 <details>
 Das folgende Programm endet mit der Ausgabe abcde. Die Zeichenketten, auf die a und b verweisen, sind voneinander unabhängig, weil es sich beim str-Typ um einen unveränderlichen Datentyp handelt (immutable). Die Veränderung von a hat daher keinen Einfluss auf b.
+<pre>
 a='abcde'  
 b=a  
 a=a+'fg'  
 print(b)  
   abcde
+</pre>
 </details>
 
 * **W4**: Der folgende Code ist fehlerhaft. Warum? Wie könnte eine Lösung aussehen?
@@ -86,7 +95,9 @@ msg='Die Temperatur beträgt ' + n + ' Grad.'
 
 <details>
 Python führt nur in Ausnahmefällen eine automatische Typumwandlung durch. Der Code aus der Wiederholungsfrage versucht, eine Zeichenkette und eine Zahl zu verbinden. Das ist in Python nicht zulässig. Die Fehlermeldung lautet unsupported operand, weil der Operator + nicht eine Zahl und eine Zeichenkette verarbeiten kann. Eine mögliche Lösung besteht darin, die Zahl mit der str-Funktion explizit in eine Zeichenkette umzuwandeln:
+<pre>
 msg='Die Temperatur beträgt ' + str(n) + ' Grad.'
+</pre>
 </details>
 
 * **W5**: Wie führen Sie eine ganzzahlige Division durch?
@@ -98,15 +109,19 @@ Ganzzahlige Divisionen werden mit dem Operator // durchgeführt. 12//7 ergibt 1.
 * **W6**: Welchem Zahlenwert ist True zugeordnet?
 
 <details>
-Wenn True in eine ganze Zahl umgewandelt wird, hat der Zustand den Wert 1: print(int(True))  
-1
+Wenn True in eine ganze Zahl umgewandelt wird, hat der Zustand den Wert 1: <pre>
+print(int(True))  
+  1
+</pre>
 </details>
 
 * **W7**: Sie wollen den Rest der Division 225 / 17 ermitteln. Wie gehen Sie vor?
 
 <details>
+<pre>
 Den Rest der Division 225 / 17 ermitteln Sie mit dem %-Operator:
 print(225 % 17) # Ergebnis 4
+</pre>
 </details>
 
 ## Mehr zum Thema

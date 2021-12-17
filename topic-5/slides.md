@@ -7,6 +7,15 @@
 📖 Kapitel 9 Funktionen
 
 ---
+
+### Code gestalten
+
+Mit `if` kann man nur bestimmte Teile im Code ausführen.
+
+Mit `while` und `for` können wir Anweisungen im Code wiederholen.
+
+---
+
 ### Funktionen
 
 Wir haben Funktionen bereits kennengelernt, beispielsweise `len`. 
@@ -17,6 +26,7 @@ Funktionen helfen uns:
 * Code übersichtlicher zu gestalten
 
 ---
+
 ### Achtung Funktion
 
 Bei der Anwendung von Funktionen gelten einige Regeln:
@@ -27,7 +37,8 @@ Bei der Anwendung von Funktionen gelten einige Regeln:
 * Mehrere Funktionen dürfen nicht den gleichen Namen haben
 
 ---
-### Definition einer Funktion
+
+### Syntax einer Funktion
 
 Die Syntax einer Funktion sieht wie folgt aus:
 
@@ -49,6 +60,8 @@ def funktionsname(para1, para2, para3):
 ---
 ### Funktion ohne Ergebnis
 
+Wir erstellen eine Funktion.
+
 🎬 Diesen Code eingeben:
 
 ```py
@@ -61,6 +74,8 @@ def f1(x, y):
 ---
 ### Funktion mit Ergebnis
 
+Und fügen eine zweite Funktion hinzu
+
 🎬 Diesen Code anfügen:
 
 ```py
@@ -71,6 +86,8 @@ def f2(x, y):
 
 ---
 ### Funktion ausführen
+
+Die Funktionen führen wir nun aus.
 
 🎬 Diesen Code anfügen:
 
@@ -85,6 +102,13 @@ print(n) # Ausgabe: 9
 ```
 
 ---
+
+### Gültigkeitsbereiche
+
+![](../python-scope.png)
+
+---
+
 ### Lokale und globale Variablen
 
 Variablen haben unterschiediche Gültigkeitsbereiche: Lokal und Global.
@@ -138,12 +162,20 @@ print(z) # Ausgabe 6
 ℹ️ Das ist nice-to-know. In der Praxis gilt es globale Variablen zu vermeiden
 
 ---
+
+### Parameter und Argumente
+
+![](../parameters-and-arguments.png)
+
+---
+
 ### Parameter
 
 * Mit Prameter können Daten an eine Funktion übergeben werden
 * Bei der Parameterdefinition besteht viel Gestaltungsraum
 
 ---
+
 ### Funktion mit Parameter
 
 🎬 Datei `Parameter.py` erstellen und ausführen:
@@ -156,11 +188,13 @@ f1([1, 2]) # Ausgabe [1, 2]
 ```
 
 ---
+
 ### Optionale Parameter
 
 Mit `para=default` definieren sie für einen Parameter einen Standardwert. Dieser ist damit gleichzeitig optional.
 
 ---
+
 ### Variable Parameteranzahl
 
 Es können mehrere Parameter mit Standardwerten definiert werden.
@@ -177,6 +211,17 @@ f() # Fehler a und b werden vermisst
 ```
 
 ---
+
+### Aufgaben 1
+
+Lösen sie die ersten zwei Aufgaben.
+
+⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 10 Minuten
+
+Ziel: Aufgabe 5.1 und 5.2 gelöst.
+
+---
+
 ### Parameter mit mehreren Werten
 
 Wenn man einen Parameter mit `*para` oder `**para` definiert ,kann man beliebig viele Werte übertragen.
@@ -187,6 +232,7 @@ Wenn man einen Parameter mit `*para` oder `**para` definiert ,kann man beliebig 
 Das funktioniert auch beim Funktionsaufruf.
 
 ---
+
 ### Beispiel mehrere Werte
 
 🎬 Datei `Mehrere.py` mit diesem Code erstellen:
@@ -203,11 +249,13 @@ f(*l) # 0 (1, 2, 3, 4, 5) <class 'tuple'>
 ℹ️ Keep it simple! Verwenden sie einfache Parameter.
 
 ---
+
 ### Parameter überprüfen
 
 > Im Vergleich zu anderen Programmiersprachen kann bei Python der Typ einer Variable nicht explizit festgelegt werden.
 
 ---
+
 ### Parameter dennoch überprüfen
 
 🎬 Datei `Ungültig.py` mit diesem Code erstellen:
@@ -223,6 +271,7 @@ print(f(1))
 ```
 
 ---
+
 ### Rekursion
 
 Funktionen können sich selber aufrufen.
@@ -240,6 +289,7 @@ f(0)
 ```
 
 ---
+
 ### Lambda-Funktionen
 
 Die Lambda-Funktion spart Platz.
@@ -251,29 +301,45 @@ lambda var1, var2, var3, ...: ausdruck
 Sofern alles auf einer Zeile Platz hat.
 
 ---
-### filter mit Lambda
 
-Wir erinnern uns an die filter-Funktion? `filter(function,list)`
+### Lambda-Funktionen
+
+Eine Kurzschreibweise für Funktionen.
 
 🎬 Datei `Lambda.py` mit diesem Code erstellen:
 
 ```py
-l1 = [1,2,3,9,345,36,33]
-
-l2 = list(filter(lambda x: x%3==0, l1))
-print(l2) # Ausgabe [3, 9, 345, 36, 33]
+x = lambda a : a + 10  
+print(x(5)) # Ausgabe: 15
 ```
 
 ---
-### Aufgaben 1
+
+### Filter mit Lambda
+
+Wir erinnern uns an die filter-Funktion? `filter(function,list)`
+
+🎬 Datei `Lambda.py` mit diesem Code erweitern:
+
+```py
+data = [1,2,3,9,345,36,33]
+
+filtered = list(filter(lambda x: x%3==0, data))
+print(filtered) # Ausgabe [3, 9, 345, 36, 33]
+```
+
+---
+
+### Aufgaben 2
 
 Lösen sie die ersten zwei Aufgaben.
 
-⚡Aufteilung in Breakout-Rooms ⏱️ 10 Minuten
+⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 10 Minuten
 
-Ziel: Aufgabe 5.1 und 5.2 gelöst.
+Ziel: Aufgaben 5.3 bis 5.6 sind gelöst.
 
 ---
+
 ### Pause
 
 ⚡Wir machen eine Pause ⏱️ 10 Minuten
@@ -281,6 +347,7 @@ Ziel: Aufgabe 5.1 und 5.2 gelöst.
 <iframe src="https://giphy.com/embed/3o7aCVTfelG4XSbv3y" width="280" height="280" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 
 ---
+
 ### Flowcharts
 
 Mit Flowcharts kann man einen Vorgang oder Prozess visualisieren.
@@ -290,6 +357,7 @@ Mit Flowcharts kann man einen Vorgang oder Prozess visualisieren.
 Zur Darstellung gibt es verschiedene Symbole. Hier die wichtigsten:
 
 ---
+
 ### Symbol Pfeil
 
 Zeigt den logischen Fluss mit der Verbindung der Symbole.
@@ -297,6 +365,7 @@ Zeigt den logischen Fluss mit der Verbindung der Symbole.
 ![symbol-pfeil](../symbol-pfeil.svg)
 
 ---
+
 ### Symbol Start/Stop
 
 Start und Ende des Prozesses.
@@ -304,6 +373,7 @@ Start und Ende des Prozesses.
 ![symbol-start](../symbol-start.svg)
 
 ---
+
 ### Symbol Eingabe/Ausgabe
 
 Ein- und Ausgabe von Daten.
@@ -311,6 +381,7 @@ Ein- und Ausgabe von Daten.
 ![symbol-eingabe](../symbol-eingabe.svg)
 
 ---
+
 ### Symbol Prozess
 
 Arithmetische Operationen und Datenverarbeitung.
@@ -318,6 +389,7 @@ Arithmetische Operationen und Datenverarbeitung.
 ![symbol-prozess](../symbol-prozess.svg)
 
 ---
+
 ### Symbol Enscheidung
 
 Enscheidungsfindung für ein oder mehrere Alternativen.
@@ -325,6 +397,7 @@ Enscheidungsfindung für ein oder mehrere Alternativen.
 ![symbol-entscheidung](../symbol-entscheidung.svg)
 
 ---
+
 ### Symbol Vorddefinierte Funktion/Prozess
 
 Repräsentiert eine andere Funktion/Prozess.
@@ -332,6 +405,7 @@ Repräsentiert eine andere Funktion/Prozess.
 ![symbol-vordefiniert](../symbol-vordefiniert.svg)
 
 ---
+
 ### Flowchart Anwendung
 
 * Mit Flowcharts kann man einen Algorithmus dokumentieren
@@ -340,15 +414,17 @@ Repräsentiert eine andere Funktion/Prozess.
 ℹ️ Pseudocode ist schriftliche Beschreibung eines Algorithmus
 
 ---
-### Aufgaben 2
+
+### Aufgaben 3
 
 Lösen sie die ersten zwei Aufgaben.
 
 ⚡Aufteilung in Breakout-Rooms ⏱️ 10 Minuten
 
-Ziel: Aufgabe 5.3 und 5.4 gelöst.
+Ziel: Aufgaben 5.6 bis 5.8 sind gelöst.
 
 ---
+
 ### Review
 
 🎯 Ziele erreicht?
@@ -357,11 +433,3 @@ Ziel: Aufgabe 5.3 und 5.4 gelöst.
 * Code mit Flowchart visualisieren
 
 ---
-### Abschluss
-
-Ich hoffe das war nicht viel! Nun habt ihr die wichtigsten Element der Programmierung mit Python gelernt.
-
-Jetzt heisst es anwenden!
-
----
-

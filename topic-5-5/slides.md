@@ -57,3 +57,13 @@ kaffeemaschine = Kaffeemaschine('Nespresso', 3)
 kaffeemaschine.Bestellen(2)
 kaffeemaschine.Zustand()
 ```
+
+---
+
+### Abschluss
+
+Ich hoffe das war nicht viel! Nun habt ihr die wichtigsten Element der Programmierung mit Python gelernt.
+
+Jetzt heisst es anwenden!
+
+---
