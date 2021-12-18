@@ -1,11 +1,13 @@
 
 # Einstellungen
-wort = list("ingwer".upper())
+wort = list("esel".upper())
 laenge = len(wort)
 zensiert = list(laenge * '_')
 versuche = 5
 gefunden = []
 gewonnen = False
+
+print(wort, laenge, zensiert, versuche, gewonnen)
 
 while versuche > 0  and not gewonnen:
     eingabe = input("Geben sie einen Buchstaben ein: ").upper()

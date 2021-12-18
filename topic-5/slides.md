@@ -2,7 +2,7 @@
 
 [Thema 5](README.md)
 
-⚡[Anwesenheit bestätigen](https://moodle.medizintechnik-hf.ch/mod/attendance/manage.php?id=4479) und Webcam einschalten.
+⚡[Anwesenheit bestätigen](https://moodle.medizintechnik-hf.ch/mod/attendance/manage.php?id=6139) und Webcam einschalten.
 
 📖 Kapitel 9 Funktionen
 
@@ -324,6 +324,14 @@ Eine Kurzschreibweise für Funktionen.
 ```py
 x = lambda a : a + 10  
 print(x(5)) # Ausgabe: 15
+```
+
+ℹ️ Die Lambda-Funktion macht das gleiche wie:
+
+```py
+def x(a)
+	return a + 10
+print(5
 ```
 
 ---

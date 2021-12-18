@@ -22,11 +22,11 @@ Es wird immer der gleiche Satz verwendet, nur der Name des Zuges ändert. Versuc
 Erstelle sie eine Funktion `ansage`, die als Parameter den Ort erhält und rufen sie die Funktion wie folgt auf:
 
 ```py
-print(ansage("Bern"))
-print(ansage("Luzern"))
-print(ansage("Zürich"))
-print(ansage("Genf"))
-print(ansage("Chur"))
+ansage("Bern")
+ansage("Luzern")
+ansage("Zürich")
+ansage("Genf")
+ansage("Chur")
 ```
 :::
 
@@ -38,7 +38,7 @@ Unser Programm kann noch verbessert werden. Erstellen sie eine Liste der Orte un
 
 Wir möchten sicherstellen, dass die Ansage-Funktion nur Variablen vom Typ `str` verarbeitet. Erstellen sie eine entsprechende Prüfung vor der Ausgabe.
 
-### Aufgabe 5.4: Quersumme berechhen
+### Aufgabe 5.4: Quersumme berechnen
 
 Schreibe eine Funktion `quersumme(zahl)`, welche die Quersumme von `zahl` berechnet und zurückgibt.
 
