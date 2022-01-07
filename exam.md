@@ -34,7 +34,29 @@ n=22.7
 msg='Die Temperatur beträgt ' + n + ' Grad.'
 ```
 
-2. 
+2. Wie führen Sie eine ganzzahlige Division durch?
+
+3. Ist die folgende Bedingung Wahr oder Falsch?
+
+```py
+true == 1
+```
+
+4. Wir haben eine Liste und möchte das dritte Element ausgeben. Was geben sie für `X` ein?
+
+```py
+liste = ['Bern', 'Luzern', 'Zürich', 'Genf']
+print(list[X])
+```
+
+5. Ordnen sie Syntrax den Aufzählungstypen zu:
+
+1\. `[]` 2. `()` 3. `{}` 4. `{key: vlaue}`
+
+Tupel: \_\_\
+Set:  \_\_\
+Dictionary:  \_\_\
+Liste:  \_\_
 
 ## Leistungsnachweis
 *Proof of Work*
