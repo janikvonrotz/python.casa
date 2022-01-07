@@ -165,6 +165,15 @@ Ziel: Aufgabe 5.5.1 und 5.5.2 gelöst.
 
 ### Hierarchie
 
+---
+
+### Aufgaben 2
+
+Lösen sie die nächsten zwei Aufgaben.
+
+⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 10 Minuten
+
+Ziel: Aufgabe 5.5.3 und 5.5.4 gelöst.
 
 ---
 

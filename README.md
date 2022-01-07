@@ -41,7 +41,7 @@ Zum Teilnehmen diesen [Zoom-Link](https://us02web.zoom.us/j/5020793116?pwd=cGhqO
 
 ✅ = Bereit\
 🟠 = Wird revidiert\
-🚧 = Zur Erledigung
+🚧 = In Bearbeitung
 
 ## Anderes
 
