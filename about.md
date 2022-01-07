@@ -51,6 +51,7 @@ Für das Selbststudium und Vorbereitung werden die folgenden Video-Playlists ver
 * [Python 3 installieren](https://www.youtube.com/watch?v=hr1P_F7Vp9Y&list=PLuPM-9zavO4dtmqwrYdckFtfNFNXLCl5u)
 * [Einstieg in Python 3](https://www.youtube.com/watch?v=f5__UDmTk8c&list=PLuPM-9zavO4fUjO-5gMS6CHHVCWsKGE51&index=1)
 * [Python GUI Programmierung mit PyQT](https://www.youtube.com/watch?v=FiaPzdWKhJU&list=PLNmsVeXQZj7ruNQIfS8NRpjzZIRq0A8QP)
+* [Python Tutorial deutsch /german (Crashkurs)](https://www.youtube.com/playlist?list=PL_pqkvxZ6ho3u8PJAsUU-rOAQ74D0TqZB)
 
 **Quellen**
 
