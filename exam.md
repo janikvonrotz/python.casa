@@ -27,29 +27,29 @@ Am Ende von Lektion 6 absolvieren die Studierenden eine online Moodle-Prüfung u
 
 Zur Orientierung werden 5 Beispiele für Augabenstellungen und Wissenfragen zur Verfügung gestellt:
 
-1. Der folgende Code ist fehlerhaft. Warum? Wie könnte eine Lösung aussehen?
+1\. Der folgende Code ist fehlerhaft. Warum? Wie könnte eine Lösung aussehen?
 
 ```py
 n=22.7
 msg='Die Temperatur beträgt ' + n + ' Grad.'
 ```
 
-2. Wie führen Sie eine ganzzahlige Division durch?
+2\. Wie führen Sie eine ganzzahlige Division durch? Schreiben sie den Python-Code auf.
 
-3. Ist die folgende Bedingung Wahr oder Falsch?
+3\. Ist die folgende Bedingung Wahr oder Falsch?
 
 ```py
 true == 1
 ```
 
-4. Wir haben eine Liste und möchte das dritte Element ausgeben. Was geben sie für `X` ein?
+4\. Wir haben eine Liste und möchte das dritte Element ausgeben. Was geben sie für `X` ein?
 
 ```py
 liste = ['Bern', 'Luzern', 'Zürich', 'Genf']
 print(list[X])
 ```
 
-5. Ordnen sie Syntrax den Aufzählungstypen zu:
+5\. Ordnen sie Syntax den Aufzählungstypen zu:
 
 1\. `[]` 2. `()` 3. `{}` 4. `{key: vlaue}`
 
