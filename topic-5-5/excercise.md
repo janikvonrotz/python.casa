@@ -16,8 +16,7 @@ Der Getränkeautomat hat diese Instanzvariablen:
 produkte = { 1: "Apfelsaft", 2: "Wasser", 1: "Redbull"}
 ```
 
-* Ein Dictionary mit dem Bestand:
-
+- Ein Dictionary mit dem Bestand:  
 
 ```py
 bestand = { "Apfelsaft": 3, "Wasser": "4", "Redbull": 0}
