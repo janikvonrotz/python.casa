@@ -67,7 +67,7 @@ webbrowser.open('https://www.youtube.com/watch?v=%s' % (youtube_id))
 
 ## Wiederholungsfragen
 
-* **W1**: Wie bilden Sie eine Zeichenkette, die selbst ein Anführungszeichen enthält?
+**W1**: Wie bilden Sie eine Zeichenkette, die selbst ein Anführungszeichen enthält?
 
 ℹ️ Anführungszeichen sind Zeichen aus der Programmier-Syntax.
 
@@ -83,7 +83,7 @@ s3='abc \" def \' ghi'  # ergibt: abc " def ' ghi
 </pre>
 </details>
 
-* **W2**: Wie bilden Sie Zeichenketten, die das Zeichen \\ enthalten?
+**W2**: Wie bilden Sie Zeichenketten, die das Zeichen \\ enthalten?
 
 <details>
 Wenn der Backslash nicht zur Kennzeichnung von Sonderzeichen verwendet werden soll, formulieren Sie Zeichenketten am besten in der Raw-Syntax mit vorangestelltem r:
@@ -92,7 +92,7 @@ s=r'C:\verzeichnis\readme.txt'
 </pre>
 </details>
 
-* **W3**: Extrahieren Sie aus der folgenden Zeichenkette das Tag zwischen den eckigen Klammern:
+**W3**: Extrahieren Sie aus der folgenden Zeichenkette das Tag zwischen den eckigen Klammern:
 
 `bla [wichtig] mehr bla`
 
@@ -106,7 +106,7 @@ print(s[start:end])    # Teilzeichenkette auslesen
 </pre>
 </details>
 
-* **W4**: Zerlegen Sie den folgenden Dateinamen in Linux-Notation in die Verzeichnisangabe (bis zum letzten /-Zeichen) und den eigentlichen Dateinamen (ab dieser Position):
+**W4**: Zerlegen Sie den folgenden Dateinamen in Linux-Notation in die Verzeichnisangabe (bis zum letzten /-Zeichen) und den eigentlichen Dateinamen (ab dieser Position):
 
 `/home/kofler/Bilder/foto1.jpg`
 
@@ -121,7 +121,7 @@ print('Pfad:', pfad, 'Datei:', datei)
 </pre>
 </details>
 
-* **W5**: Fordern Sie den Anwender eines Scripts auf, seinen Namen einzugeben, und entfernen Sie dann alle Leerzeichen am Beginn und Ende der Eingabe.
+**W5**: Fordern Sie den Anwender eines Scripts auf, seinen Namen einzugeben, und entfernen Sie dann alle Leerzeichen am Beginn und Ende der Eingabe.
 
 <details>
 <pre>
@@ -130,7 +130,7 @@ name = name.strip()
 </pre>
 </details>
 
-* **W6**: Geben Sie Hello, World! in umgekehrter Reihenfolge aus.
+**W6**: Geben Sie Hello, World! in umgekehrter Reihenfolge aus.
 
 <details>
 <pre>hello = 'Hello, World!'  
@@ -139,7 +139,7 @@ print(hello[::-1])
 </pre>
 </details>
 
-* **W7**: Was ist die *Short-Circuit-Evaluation*? Nennen Sie ein Beispiel!
+**W7**: Was ist die *Short-Circuit-Evaluation*? Nennen Sie ein Beispiel!
 
 <details>
 Die logischen Operatoren and und or verzichten auf die Auswertung des zweiten Operanden, wenn der erste Operand bereits zum Ergebnis führt. Wenn im folgenden Beispiel rechenfunktion(x) den Wert 0 oder eine negative Zahl liefert, dann wird rechenfunktion(y) nicht aufgerufen. Das ist nicht notwendig, weil and nur dann True liefern kann, wenn beide Teilergebnisse True sind.

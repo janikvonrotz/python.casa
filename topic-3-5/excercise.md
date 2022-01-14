@@ -42,7 +42,7 @@ Messen sie die Zeit der ganzen Programmausführung und geben sie diese in Sekund
 
 ## Wiederholungsfragen
 
-* **W1**: Geben Sie das heutige Datum in der Form Montag, 31. 12. aus, also mit Wochentag, aber ohne Jahreszahl.
+**W1**: Geben Sie das heutige Datum in der Form Montag, 31. 12. aus, also mit Wochentag, aber ohne Jahreszahl.
 
 <details>
 Die folgende Lösung erfüllt die Fragestellung weitgehend. Ein wenig störend ist aber die Null beim Monat (also 06. anstelle von 6.).
@@ -64,7 +64,7 @@ print(s.replace('.0', '.'))
 </pre>
 </details>
 
-* **W2**: Ein Kinofilm beginnt um 19:30 Uhr und dauert 132 Minuten. Wann ist die Vorstellung zu Ende?
+**W2**: Ein Kinofilm beginnt um 19:30 Uhr und dauert 132 Minuten. Wann ist die Vorstellung zu Ende?
 
 <details>
 Python kann zu time-Objekten keine Zeitspannen addieren. Deswegen bildet das folgende Script aus dem time-Objekt (Variable start) zuerst ein entsprechendes datetime-Objekt (Variable starttoday) und führt die Zeitrechnung dann durch:
@@ -79,7 +79,7 @@ print(end.time())
 </pre>
 </details>
 
-* **W3**: Ermitteln Sie, wie viele Sekunden seit Mitternacht vergangen sind.
+**W3**: Ermitteln Sie, wie viele Sekunden seit Mitternacht vergangen sind.
 
 <details>
 Um die Anzahl der Sekunden seit Mitternacht zu berechnen, wird in midnight ein neues datetime-Objekt gespeichert, das sich aus dem aktuellen Datum ohne Stunden, Minuten und Sekunden zusammensetzt. Damit kann die Differenz zur aktuellen Zeit berechnet werden.

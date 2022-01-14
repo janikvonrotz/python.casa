@@ -45,7 +45,7 @@ Warum sind sind die Werte im ersten Fall gleich und im zweiten Fall nicht?
 
 ## Wiederholungsfragen
 
-* **W1**: Der folgende Code löst einen Fehler aus. Warum?
+**W1**: Der folgende Code löst einen Fehler aus. Warum?
 
 ```py
 x=1; y=2
@@ -60,13 +60,13 @@ print(x+y+z)
 </pre>
 </details>
 
-* **W2**: Welchen Typ hat die Variable i nach der Zuweisung `i=3`?
+**W2**: Welchen Typ hat die Variable i nach der Zuweisung `i=3`?
 
 <details>
 In Python haben Variablen keinen Typ! Nach i=3 zeigt i auf ein Objekt mit der ganzen Zahl 3. Dieses Objekt (nicht die Variable) hat also den Typ int. Dementsprechend liefert type(i) das Ergebnis class 'int'. Allerdings kann bereits in der nächsten Anweisung i='abc' ausgeführt werden. Dann zeigt i auf ein Objekt mit einer Zeichenkette.
 </details>
 
-* **W3**: Welche Werte gibt das folgende Programm aus?
+**W3**: Welche Werte gibt das folgende Programm aus?
 
 ```py
 a = 'abcde'
@@ -86,7 +86,7 @@ print(b)
 </pre>
 </details>
 
-* **W4**: Der folgende Code ist fehlerhaft. Warum? Wie könnte eine Lösung aussehen?
+**W4**: Der folgende Code ist fehlerhaft. Warum? Wie könnte eine Lösung aussehen?
 
 ```py
 n=22.7
@@ -100,13 +100,13 @@ msg='Die Temperatur beträgt ' + str(n) + ' Grad.'
 </pre>
 </details>
 
-* **W5**: Wie führen Sie eine ganzzahlige Division durch?
+**W5**: Wie führen Sie eine ganzzahlige Division durch?
 
 <details>
 Ganzzahlige Divisionen werden mit dem Operator // durchgeführt. 12//7 ergibt 1.
 </details>
 
-* **W6**: Welchem Zahlenwert ist True zugeordnet?
+**W6**: Welchem Zahlenwert ist True zugeordnet?
 
 <details>
 Wenn True in eine ganze Zahl umgewandelt wird, hat der Zustand den Wert 1: <pre>
@@ -115,7 +115,7 @@ print(int(True))
 </pre>
 </details>
 
-* **W7**: Sie wollen den Rest der Division 225 / 17 ermitteln. Wie gehen Sie vor?
+**W7**: Sie wollen den Rest der Division 225 / 17 ermitteln. Wie gehen Sie vor?
 
 <details>
 <pre>

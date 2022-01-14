@@ -88,7 +88,7 @@ Dazu kannst du den Euklidischen Algorithmus benutzen. Mehr dazu findest du hier:
 
 ## Wiederholungsfragen
 
-* **W1**: Versuchen Sie, drei unterschiedliche Wege zu finden, eine Liste mit den Vielfachen von 7 zu bilden, die kleiner als 100 sind (also [7, 14, ..., 98]).
+**W1**: Versuchen Sie, drei unterschiedliche Wege zu finden, eine Liste mit den Vielfachen von 7 zu bilden, die kleiner als 100 sind (also [7, 14, ..., 98]).
 
 <details>
 Der einfachste und effizienteste Weg, eine Liste mit Vielfachen von 7 kleiner 100 zu generieren, bietet die range-Funktion:
@@ -113,7 +113,7 @@ lst = list(map(lambda x: x*7, fourteen))
 </pre>
 </details>
 
-* **W2**: Extrahieren Sie aus der Zeichenkette Hello, World! alle Vokale und verbinden Sie diese zu einer neuen Zeichenkette.
+**W2**: Extrahieren Sie aus der Zeichenkette Hello, World! alle Vokale und verbinden Sie diese zu einer neuen Zeichenkette.
 
 <details>
 Diese Übung ist schon etwas schwieriger! list bildet aus der Zeichenkette eine Liste. list(filter(...)) bildet daraus eine neue Liste, die nur Vokale enthält. Den dabei eingesetzten in-Operator haben Sie bereits im Kapitel 3, »Operatoren«, kennengelernt. join fügt diese Liste wieder zu einer Zeichenkette zusammen.
@@ -134,7 +134,7 @@ vocals = list(filter(
 </pre>
 </details>
 
-* **W3**: Welchen Datentyp verwenden Sie, um Lottozahlen zu speichern?
+**W3**: Welchen Datentyp verwenden Sie, um Lottozahlen zu speichern?
 
 <details>
 Hier gibt es keine eindeutige Antwort: Eine Grundregel bei Lottozahlen ist, dass sie eindeutig sein müssen. Es darf also keine Zahl mehrfach vorkommen. Aus diesem Grund bieten sich Sets an.
@@ -147,7 +147,7 @@ print(geordnet)
 </pre>
 </details>
 
-* **W4**: Entfernen Sie die Doppelgänger aus einer Liste von Zahlen, z. B. aus [1, 2, 3, 2, 7, 3, 9]. Die Ergebnisliste soll aufsteigend sortiert sein.
+**W4**: Entfernen Sie die Doppelgänger aus einer Liste von Zahlen, z. B. aus [1, 2, 3, 2, 7, 3, 9]. Die Ergebnisliste soll aufsteigend sortiert sein.
 
 <details>
 Durch die Umwandlung in ein set werden alle Doppelgänger eliminiert. sorted macht aus dem Set eine geordnete Liste.
@@ -159,7 +159,7 @@ print(result)
 </pre>
 </details>
 
-* **W5**: Erstellen Sie ein kleines Deutsch-Englisch-Wörterbuch für Zahlen. Beispielsweise soll woerter['eins'] die englische Bezeichnung 'one' liefern.
+**W5**: Erstellen Sie ein kleines Deutsch-Englisch-Wörterbuch für Zahlen. Beispielsweise soll woerter['eins'] die englische Bezeichnung 'one' liefern.
 
 <details>
 Wie die Aufgabenstellung schon andeutet, ist hier ein Dictionary die optimale Datenstruktur. Beachten Sie aber, dass das Wörterbuch nur in eine Richtung funktioniert! woerter['three'] würde einen Key Error liefern, weil ja ausschließlich deutsche Wörter als Schlüssel verwendet wurden.
@@ -170,7 +170,7 @@ woerter['zwei']
 </pre>
 </details>
 
-* **W6**: Berechnen Sie die Fakultät der Zahlen von 1 bis 20. (Die Fakultät ist als das Produkt aller Zahlen bis n definiert. Die Fakultät von 6 ist also 1×2×3×4×5×6 = 720.)
+**W6**: Berechnen Sie die Fakultät der Zahlen von 1 bis 20. (Die Fakultät ist als das Produkt aller Zahlen bis n definiert. Die Fakultät von 6 ist also 1×2×3×4×5×6 = 720.)
 
 <details>
 <pre>
@@ -181,7 +181,7 @@ for i in range(1, 21):
 </pre>
 </details>
 
-* **W7**: Berechnen Sie die Summe der Funktion 1/x^2, wenn Sie für x alle Zahlen zwischen 2 und 30 einsetzen.
+**W7**: Berechnen Sie die Summe der Funktion 1/x^2, wenn Sie für x alle Zahlen zwischen 2 und 30 einsetzen.
 
 <details>
 <pre>
@@ -192,7 +192,7 @@ for i in range(2, 31): 
 </pre>
 </details>
 
-*  **W8**: Was wird bei der Ausführung des folgenden Codes ausgegeben?
+**W8**: Was wird bei der Ausführung des folgenden Codes ausgegeben?
 
 ```py
 for i in range(1, 3):
@@ -205,7 +205,7 @@ Das Programm gibt die Zahlen 1, 2 und 3 aus. Die Begründung lautet: In der äu�
 In der äußeren Schleife erhält i nun den Wert 2. Die j-Schleife durchläuft mit range(2) (entspricht range(0, 2)) die Werte 0 und 1. Damit werden die Zahlen 2 und 3 ausgegeben.
 </details>
 
-* **W9**: Schreiben Sie eine while-Schleife, die in 5er-Schritten von 100 bis 0 zählt.
+**W9**: Schreiben Sie eine while-Schleife, die in 5er-Schritten von 100 bis 0 zählt.
 
 <details>
 <pre>
@@ -216,7 +216,7 @@ while i>=0:
 </pre>
 </details>
 
-* **W10**: Formulieren Sie eine Schleife, um den Wertebereich zwischen 125 und 160 in elf Schritten zu durchlaufen. Das Programm soll alle elf Zahlen ausgeben, beginnend mit 125,0 und endend mit 160,0.
+**W10**: Formulieren Sie eine Schleife, um den Wertebereich zwischen 125 und 160 in elf Schritten zu durchlaufen. Das Programm soll alle elf Zahlen ausgeben, beginnend mit 125,0 und endend mit 160,0.
 
 <details>
 Der Lösungscode beginnt mit der Definition von vier Variablen: min und max legen die obere und untere Grenze des Zahlenbereichs fest. nmax bestimmt die Anzahl der Schleifendurchläufe. delta gibt an, wie stark sich die Zielvariable x mit jedem Durchlauf ändern soll. In der Schleife durchläuft i die Werte von 0 bis einschließlich nmax.
