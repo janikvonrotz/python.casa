@@ -150,7 +150,7 @@ def __init__(self, a, b):
     self.b = b
 ```
 
-* Welche Ausgaben liefern die beiden folgenden print-Funktionen?
+Welche Ausgaben liefern die beiden folgenden print-Funktionen?
 
 ```py
 obj = MyClass(3, 4)
@@ -158,7 +158,7 @@ print(MyClass.a)
 print(obj.a)
 ```
 
--  Ist der folgende Code zulässig?
+Ist der folgende Code zulässig?
 
 ```py
 obj.c = 7
