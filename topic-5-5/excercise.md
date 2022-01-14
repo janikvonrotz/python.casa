@@ -10,19 +10,19 @@ Sie wurden beauftragt eine Software zur Steuerung eines Getränkeautomats zu sch
 
 Der Getränkeautomat hat diese Instanzvariablen:
 
-- Ein Dictionary mit den verfügbaren Produkten:
+Ein Dictionary mit den verfügbaren Produkten:
 
 ```py
 produkte = { 1: "Apfelsaft", 2: "Wasser", 1: "Redbull"}
 ```
 
-- Ein Dictionary mit dem Bestand:  
+Ein Dictionary mit dem Bestand:  
 
 ```py
 bestand = { "Apfelsaft": 3, "Wasser": "4", "Redbull": 0}
 ```
 
-- Ein String mit dem Automatennamen:
+Ein String mit dem Automatennamen:
 
 ```
 name = "Gratis"
@@ -30,14 +30,14 @@ name = "Gratis"
 
 Im Weiteren hat der Automat diese Methoden:
 
-- Die Methode `Auflisten` listet die Produkte auf
+Die Methode `Auflisten` listet die Produkte auf
 
 ```py
 for key,value in self.produkte.items():
 	print(f"Auswal {key}: {value}")
 ```
 
-- Die Methode `Ausgeben` erwartet eine Nummer, prüft den Bestand und simuliert eine Ausgabe des Produkts
+Die Methode `Ausgeben` erwartet eine Nummer, prüft den Bestand und simuliert eine Ausgabe des Produkts
 
 ```py
 bestand = self.bestand[nummer]
