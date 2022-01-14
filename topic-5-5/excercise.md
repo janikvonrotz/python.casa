@@ -96,6 +96,8 @@ def name(self, name):
 	self._name = name
 ```
 
+Bennen sie die Instanzvariable von `name` zu `_name`.
+
 ### Aufgabe 5.5.4: Getränkeautomat ausführen
 
 Erweitern sie die Ausgabe der Methode `Auflisten` mit folgendem Code:
