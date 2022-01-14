@@ -42,7 +42,7 @@ Bis am 28.01.2022 werde ich eine Rückmeldung zum Projektvorschlag geben. Alle D
 
 * Die Wissensprüfung wird auf den **28.01.2022** verschoben.
 
-Teil 1 soll zuerst abgeschlossen werden und bisschen mehr Zeit für Repetition ist sicher gut. Alle Details findet ihr [hier](https://python.casa/exam.html#wissensprufung).
+Teil 1 soll zuerst abgeschlossen werden und ein bisschen mehr Zeit für Repetition schadet sicher nicht. Alle Details findet ihr [hier](https://python.casa/exam.html#wissensprufung).
 
 Bei Fragen bitte direkt melden.
 
