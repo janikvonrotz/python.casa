@@ -51,4 +51,4 @@ Hausaufgaben werden mit 📝 markiert.
 
 ## Emojies
 
-Eine Übersicht zu den Emoies gibt es hier [😉](😉.md).
+Eine Übersicht zu den Emojies gibt es hier [😉](😉%20Emojies.md).

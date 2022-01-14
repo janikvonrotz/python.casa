@@ -4,7 +4,7 @@
 
 Aufgaben zum Thema.
 
-### Aufgabe 6.1: Balkendiagramm
+### Aufgabe 6.1: Balkendiagramm 🚧
 
 Das folgende Programm liest Temperaturdaten aus einer Textdatei aus und stellt diese als Balkendiagramm dar. Versuchen sie den Code des Programms zu versehen.
 

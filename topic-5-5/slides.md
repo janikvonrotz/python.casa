@@ -30,7 +30,7 @@ Sie Idee von OOP ist die Bündelung von Daten (Variablen) und Code (Methoden)
 
 Es gibt neue Begriffe.
 
-* **Klasse**: Bauplan oder wie soll das Objekt aussehen
+* **Klasse**: Bauplan oder wie das Objekt aussehen soll
 * **Objekt**: Alles ist ein Objekt, beispielsweise Personen, Autos, Bäume, Häuser, Länder, Werkzeuge und Schuhe
 
 ---
@@ -47,7 +47,7 @@ Eine Veranschaulichung anhand des Objekts Auto.
 
 Mit OOP versucht man reale Objekte in Code auszudrücken.
 
-Im folgenden wollen wir eine Kaffeemaschine programmieren.
+Im Folgenden wollen wir die Funktionsweise einer Kaffeemaschine mit Code ausdrücken.
 
 ---
 
@@ -68,6 +68,8 @@ class Kaffeemaschine:
     def Bestellen(self, anzahl):
         self.anzahl -= anzahl
 ```
+
+ℹ️ Wir haben hier den Bauplan für eine Kaffeemaschine. Nun können wir beliebig viele Kaffeemaschinen erstellen.
 
 ---
 
@@ -93,11 +95,11 @@ kaffeemaschine.Zustand()
 1. Objekt instanzieren
 	1. Konstruktor `__init__` aufrufen
 2. Objektmethoden aufrufen
-3. Objekt löschen
+3. Objekt löschen (Progamm Ende)
 
 ---
 
-### Konstruktor
+### Initialisierung / Konstruktor
 
 Die Initialisierung übernimmt der Konstruktor. Der Konstruktor ist eine Funktion mit dem Namen `__init__`.
 
@@ -107,7 +109,7 @@ def __init__(self, marke, anzahl):
 
 ---
 
-### Selbstbezug
+### Selbstbezug / Instanzvariablen
 
 `self` bezieht sich auf das Objekt (die Instanz) selbst. Die self-Variablen nennt man Instanzvariablen.
 
@@ -118,7 +120,7 @@ self.anzahl = anzahl
 
 ---
 
-### Interaktion
+### Interaktion / Methoden
 
 Mittels Methoden interagiert man mit dem Objekt.
 
@@ -213,11 +215,13 @@ def name():
 name()
 ```
 
+ℹ️ Durch das "dekorieren" einer Methode ändert man die "Wirkung".
+
 ---
 
 ### Getter- und Setter-Methoden
 
-Der Konstruktor wird nur einmal ausgeführt. Bestimmte Variabeln kann man nicht mehr ändern. Mit Getter- und Setter-Methoden ermöglicht den Zugriff auf diese Variablen.
+Der Konstruktor wird nur einmal ausgeführt. Bestimmte Variabeln kann man nicht mehr ändern. Mit Getter- und Setter-Methoden ermöglicht man den Zugriff auf diese Variablen.
 
 ```py
 class Kaffeemaschine:
@@ -233,7 +237,7 @@ class Kaffeemaschine:
         self._name = name
 ```
 
-ℹ️ Hier kommen nun Dekoratoren zum Einsatz.
+ℹ️ Offensichtlich kommen hier Dekoratoren zum Einsatz.
 
 ---
 
