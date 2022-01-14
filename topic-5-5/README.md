@@ -34,3 +34,8 @@ Janik
 
 Hallo Zusammen
 
+Ich möchte nochmals die wichtigsten Informationen von heute mitteilen:
+
+* Bis nächsten Freitag 21.01.2022 bitte ich euch einen Projektvorschlag auf Moodle hochzuladen.
+
+Bis am 28.01.2022 werde ich eine Rückmeldung zum Projektvorschlag geben. Alle Details findet ihr [hier]().

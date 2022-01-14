@@ -90,7 +90,7 @@ Hier einige Ideen für Projekte:
 
 Der Projektvorschlag wird auf Moodle mitgeteilt und besteht im wesentlichen aus einem Titel und einer kurzen Beschreibung (~100 Wörter).
 
-![](moodle-kurs.png)
+![](./moodle-kurs.png)
 
 ### Dokumentation
 
