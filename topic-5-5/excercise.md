@@ -11,17 +11,21 @@ Sie wurden beauftragt eine Software zur Steuerung eines Getränkeautomats zu sch
 Der Getränkeautomat hat diese Instanzvariablen:
 
 * Ein Dictionary mit den verfügbaren Produkten:
+
+
 ```py
 produkte = { 1: "Apfelsaft", 2: "Wasser", 1: "Redbull"}
 ```
 
 * Ein Dictionary mit dem Bestand:
 
+
 ```py
 bestand = { "Apfelsaft": 3, "Wasser": "4", "Redbull": 0}
 ```
 
 * Ein String mit dem Automatennamen:
+
 
 ```
 name = "Gratis"
@@ -31,12 +35,14 @@ Im Weiteren hat der Automat diese Methoden:
 
 * Die Methode `Auflisten` listet die Produkte auf
 
+
 ```py
 for key,value in self.produkte.items():
 	print(f"Auswal {key}: {value}")
 ```
 
 * Die Methode `Ausgeben` erwartet eine Nummer, prüft den Bestand und simuliert eine Ausgabe des Produkts
+
 
 ```py
 bestand = self.bestand[nummer]
@@ -142,6 +148,7 @@ Zum Aufruf des Konstruktors kommt es, wenn Sie ein Objekt erzeugen, also var = M
 
 * **W3**: Die folgende Klasse sei gegeben:
 
+
 ```py
 class MyClass():
 def __init__(self, a, b):
@@ -151,6 +158,7 @@ def __init__(self, a, b):
 
 * Welche Ausgaben liefern die beiden folgenden print-Funktionen?
 
+
 ```py
 obj = MyClass(3, 4)
 print(MyClass.a)
@@ -158,6 +166,7 @@ print(obj.a)
 ```
 
 -  Ist der folgende Code zulässig?
+
 
 ```py
 obj.c = 7
@@ -180,6 +189,7 @@ print(obj.c)       # Ausgabe 7
 </details>
 
 **W4**: Entwerfen Sie den Code für eine Bankkontoklasse, die sich wie folgt nutzen lässt:
+
 
 ```py
 k1 = Konto('Michael', 200, 0)
