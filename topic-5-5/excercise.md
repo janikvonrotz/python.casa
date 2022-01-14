@@ -22,8 +22,7 @@ produkte = { 1: "Apfelsaft", 2: "Wasser", 1: "Redbull"}
 bestand = { "Apfelsaft": 3, "Wasser": "4", "Redbull": 0}
 ```
 
-* Ein String mit dem Automatennamen:
-
+- Ein String mit dem Automatennamen:
 
 ```
 name = "Gratis"
@@ -31,16 +30,14 @@ name = "Gratis"
 
 Im Weiteren hat der Automat diese Methoden:
 
-* Die Methode `Auflisten` listet die Produkte auf
-
+- Die Methode `Auflisten` listet die Produkte auf
 
 ```py
 for key,value in self.produkte.items():
 	print(f"Auswal {key}: {value}")
 ```
 
-* Die Methode `Ausgeben` erwartet eine Nummer, prüft den Bestand und simuliert eine Ausgabe des Produkts
-
+- Die Methode `Ausgeben` erwartet eine Nummer, prüft den Bestand und simuliert eine Ausgabe des Produkts
 
 ```py
 bestand = self.bestand[nummer]
@@ -124,7 +121,7 @@ Als zusätzliche Aufgaben können sie Getter- und Setter-Methoden für die Insta
 
 ## Wiederholungsfragen
 
-* **W1**: W1: Erklären Sie den Unterschied zwischen Klasse und Objekt.
+**W1**: W1: Erklären Sie den Unterschied zwischen Klasse und Objekt.
 
 <details>
 Grundsätzlich gibt der Code einer Klasse vor, welche Funktionen die Klasse erfüllt, das heißt, welche Variablen und Methoden es gibt. Wenn Sie so wollen, ist die Klasse ein Bauplan.
@@ -134,7 +131,7 @@ Objekte werden von der Klasse abgeleitet. Wenn Sie also eine Auto-Klasse program
 Python ist insofern ein Sonderfall, als auch die Klasse an sich als Objekt gilt.
 </details>
 
-* **W2**: Wozu dient der Konstruktor? Wie lautet sein interner Name, wie wird er aufgerufen?
+**W2**: Wozu dient der Konstruktor? Wie lautet sein interner Name, wie wird er aufgerufen?
 
 <details>
 Die Aufgabe des Konstruktors besteht darin, die Daten (Instanzvariablen) eines neuen Objekts zu initialisieren. Oft werden im Konstruktor auch die übergebenen Parameter daraufhin überprüft, ob es sich um sinnvolle Daten handelt. Ist das nicht der Fall, kann ein Fehler ausgelöst werden.
@@ -144,8 +141,7 @@ Innerhalb der Klasse wird der Konstruktor als spezielle Methode mit dem Namen __
 Zum Aufruf des Konstruktors kommt es, wenn Sie ein Objekt erzeugen, also var = MyClass(parameter) aufrufen.
 </details>
 
-* **W3**: Die folgende Klasse sei gegeben:
-
+**W3**: Die folgende Klasse sei gegeben:
 
 ```py
 class MyClass():
@@ -156,7 +152,6 @@ def __init__(self, a, b):
 
 * Welche Ausgaben liefern die beiden folgenden print-Funktionen?
 
-
 ```py
 obj = MyClass(3, 4)
 print(MyClass.a)
@@ -164,7 +159,6 @@ print(obj.a)
 ```
 
 -  Ist der folgende Code zulässig?
-
 
 ```py
 obj.c = 7
@@ -187,7 +181,6 @@ print(obj.c)       # Ausgabe 7
 </details>
 
 **W4**: Entwerfen Sie den Code für eine Bankkontoklasse, die sich wie folgt nutzen lässt:
-
 
 ```py
 k1 = Konto('Michael', 200, 0)
