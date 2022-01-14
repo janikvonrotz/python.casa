@@ -4,10 +4,9 @@ class Getränkeautomat:
         self.bestand = bestand
         self.name = name
         
-        
     def Auflisten(self):
         for key,value in self.produkte.items():
-            print(f"Auswal {key}: {value}")
+            print(f"Auswahl {key}: {value}")
     
     def Ausgabe(self, nummer):
         bestand = self.bestand[nummer]
