@@ -10,8 +10,7 @@ Sie wurden beauftragt eine Software zur Steuerung eines Getränkeautomats zu sch
 
 Der Getränkeautomat hat diese Instanzvariablen:
 
-* Ein Dictionary mit den verfügbaren Produkten:\
-
+- Ein Dictionary mit den verfügbaren Produkten:
 
 ```py
 produkte = { 1: "Apfelsaft", 2: "Wasser", 1: "Redbull"}
