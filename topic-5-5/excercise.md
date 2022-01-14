@@ -10,7 +10,7 @@ Sie wurden beauftragt eine Software zur Steuerung eines Getränkeautomats zu sch
 
 Der Getränkeautomat hat diese Instanzvariablen:
 
-* Ein Dictionary mit den verfügbaren Produkten:
+* Ein Dictionary mit den verfügbaren Produkten:\
 
 
 ```py
@@ -68,7 +68,7 @@ class Getränkeautomat:
 	...
 ```
 
-## Aufgabe 5.5.2: Getränkeautomat ausführen
+### Aufgabe 5.5.2: Getränkeautomat ausführen
 
 Sie haben die Python-Klasse für den Getränkeautomat entworf und können nun die Software ausführen. Instanzieren sie die Getränkeautomat-Klasse mit den benötigen Parameter. Rufen sie die beiden Methoden auf und testen sie den Automaten.
 
@@ -85,7 +85,7 @@ automat.Ausgabe(2)
 automat.Ausgabe(3)
 ```
 
-## Aufgabe 5.5.3: Klasse Getränkeautomat erweitern
+### Aufgabe 5.5.3: Klasse Getränkeautomat erweitern
 
 Wir möchten den Namen des Getränkeautomats auch nach der Instanzierung ändern können. Erstellen sie eine Getter- und Setter-Methode für die Instanzvariable `name`.
 
@@ -101,7 +101,7 @@ def name(self, name):
 	self._name = name
 ```
 
-## Aufgabe 5.5.4: Getränkeautomat ausführen
+### Aufgabe 5.5.4: Getränkeautomat ausführen
 
 Erweitern sie die Ausgabe der Methode `Auflisten` mit folgendem Code:
 
