@@ -107,28 +107,28 @@ def __init__(self, marke, anzahl):
 
 ---
 
-### Selbst
+### Selbstbezug
 
-`self` bezieht sich auf das Objekt (die Instanz) selbst.
+`self` bezieht sich auf das Objekt (die Instanz) selbst. Die self-Variablen nennt man Instanzvariablen.
 
 ```py
-		self.marke = marke
-		self.anzahl = anzahl
+self.marke = marke
+self.anzahl = anzahl
 ```
 
 ---
 
-### Methoden
+### Interaktion
 
-Mit den Methoden, kann man mit dem Objekt interagieren.
+Mittels Methoden interagiert man mit dem Objekt.
 
 ```py
-    def Zustand(self):
-        print(f"Ich bin eine {self.marke} Maschine")
-        print(f"Es sind noch {self.anzahl} Kaffee(s) verfügbar")
-    
-    def Bestellen(self, anzahl):
-        self.anzahl -= anzahl
+def Zustand(self):
+	print(f"Ich bin eine {self.marke} Maschine")
+	print(f"Es sind noch {self.anzahl} Kaffee(s) verfügbar")
+
+def Bestellen(self, anzahl):
+	self.anzahl -= anzahl
 ```
 
 ---
@@ -145,25 +145,147 @@ Ziel: Aufgabe 5.5.1 und 5.5.2 gelöst.
 
 ### Bestehende Python-Klassen
 
+Sie haben bereits bestehende Python-Klassen verwendet. Beispielsweise die Klasse `date`.
+
+```py
+from datetime import date
+today = date.today()  
+```
+
+Dazu der [Klassen-Code in der Python-Bibliothek](https://github.com/python/cpython/blob/86d18019e96167c5ab6f5157fa90598202849904/Lib/datetime.py#L762).
+
 ---
 
 ### Klassen- und Instanzvariablen
+
+Man unterscheidet zwischen Klassen- und Instanvariablen.
+
+**Instanzvariablen**:  Alle Variablen, denen `self` vorangestellt wird, sind Instanzvariablen.
+
+**Klassenvariablen**: Variablen, die auf Klassenebene definiert werden, gehören zur Klasse, nicht zu einzelnen Objekten
+
+---
+
+### Beispiel Klassen- und Instanzvariablen
+
+```py
+class MyClass():  
+    magicNumber = 42 # Klassenvariable
+    def __init__(self, somedata, otherdata):
+        somevar = 123 # lokale Variable
+        self.data = somedata # Instanzvariablen
+        self.other = otherdata
+```
+
+ℹ️ Attribute ist ein Sammelbegriff für Variablen und Methoden von Klassen bzw. Objekten.
 
 ---
 
 ### Dekoratoren
 
+Dekoratoren werden mit `@` eingeleitet und dienen als Zusatzattribute für Funktionen, Methoden oder Klassen. Sie können die Intention von Code verdeutlichen und Informationen an den Python-Interpreter bzw. -Compiler weitergeben.
+
+```
+@hello
+def name():                                                                                                 
+    print("Alice")  
+```
+
+---
+
+### Beispiel Dekoraten
+
+🎬  Erstellen sie eine Datei `Dekoraten.py`, fügen sie den Code von unten ein.
+
+```py
+# Dekoraten-Funktion
+def hello(func):                                                                                            
+    def inner():                                                                                            
+        print("Hello ")                                                                                     
+        func()                                                                                              
+    return inner                                                                                 
+
+# Funktion wird mit Dekorator erweitert
+@hello
+def name():                                                                                                 
+    print("Alice")                                                                                          
+                                                                                                                                                                                
+name()
+```
+
 ---
 
 ### Getter- und Setter-Methoden
+
+Der Konstruktor wird nur einmal ausgeführt. Bestimmte Variabeln kann man nicht mehr ändern. Mit Getter- und Setter-Methoden ermöglicht den Zugriff auf diese Variablen.
+
+```py
+class Kaffeemaschine:
+    def __init__(self, name):
+        self._name = name
+    
+    @property
+    def name(self):
+        return self._name
+    
+    @name.setter
+    def name(self, name):
+        self._name = name
+```
+
+ℹ️ Hier kommen nun Dekoratoren zum Einsatz.
+
+---
+
+### Beispiel Getter und Setter
+
+🎬  Erstellen sie eine Datei `Getter-Setter.py` und instanzieren sie die Klasse von vorhin wie folgt:
+
+```py
+maschine = Kaffeemaschine("Jura")
+print(maschine.name)
+maschine.name = "Gaccia"
+print(maschine.name)
+```
 
 ---
 
 ### Vererbung
 
+Dieses Thema werden wir nur anschneiden.
+
+Klassen können vererbt werden. Das heisst sie erhalten einen neuen Namen und zusätzliche Attribute.
+
+![](../vererbung-tier.png)
+
+---
+
+### Beispiel Vererbung
+
+In der Definition der Klasse kann die darüberliegende Superklasse angegeben werden. Bei der Initialisierung ruft man den Konstruktor der Superklasse auf.
+
+```py
+class Tier():
+    def __init__(self, name, farbe, alter):
+        self.rufname = name
+        self.farbe   = farbe
+        self.alter   = alter
+
+class Katze(Tier): # Katze ist ein Tier
+    def __init__(self, rufname, farbe, alter):
+        super().__init__(rufname, farbe, alter) # Aufruf Konstruktor von Tier
+
+katze = Katze("Sammy", "orange", 3)
+print(katze.farbe)
+```
+
 ---
 
 ### Hierarchie
+
+Beim Vererben der Klassen entsteht eine Hierarchie.
+
+![](../hierarchie.png)
 
 ---
 

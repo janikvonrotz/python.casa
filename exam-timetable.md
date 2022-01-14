@@ -1,6 +1,6 @@
 **14.01.2022 bis 21.01.2022: Eingabe Projektvorschlag für [Leistungsnachweis](exam.md#leistungsnachweis).**
 
-**21.01.2022: Durchführung [Wissensprüfung](exam.md#wissensprufung).**
+**28.01.2022: Durchführung [Wissensprüfung](exam.md#wissensprufung).**
 
 28.01.2022: Rückmeldung zum Projektvorschlag.
 
