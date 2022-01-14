@@ -63,7 +63,7 @@ Liste:  \_\_
 
 Ziel: Eine Problem definieren und dieses mithilfe eines selbstgeschriebenen Programms lösen.
 
-Aufwand: 8-16 Stunden
+Aufwand: 12-20 Stunden
 
 ### Resultat
 
@@ -120,16 +120,16 @@ Für jedes Kriterium werden Punkte von 0-9 vergeben. Jedes Kriterium wird mit 1-
 Gewichtung: 5
 
 Leitfragen:
-* Ist die Struktur des Codes verständlich?
+* Wurden der Code in Funktionen gruppiert?
 * Sind die Anweisungen kommentiert?
 * Kann ein Laie die Funktion des Programms nachvollziehen?
-* Wurde der Programmcode selbst erfasst oder kopiert?
+* Wurden Programmteile selbst verfasst oder kopiert?
 
 **Herausforderung**
 
 Gewichtung: 2
 
-* Kann das definierte Problem auch wirklich nur mit einem Programm gelöst werden?
+* Wurden Elemente wie Schleifen und Verzweigungen sinnvoll eingesetzt?
 * Ist die Herausforderung dem HF-Niveau gerecht?
 * Ist in der Reflexion ein Lerneffekt sichtbar?
 
@@ -137,7 +137,6 @@ Gewichtung: 2
 
 Gewichtung: 4
 
-* Wurden gelernte Strukturen aus den Lektionen sinnvoll eingesetzt?
+* Wurden Strukturen aus den Lektionen sinnvoll eingesetzt?
 * Liegt die Dokumentation in einem angemessen Umfang vor?
 * Wurde der Code mit einem Flowchart sachgemäss visualisiert?
-* Wurden alle Dateien in einer sinnvollen Ordnerstruktur abgelegt?

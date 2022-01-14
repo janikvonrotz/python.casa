@@ -36,6 +36,18 @@ Hallo Zusammen
 
 Ich möchte nochmals die wichtigsten Informationen von heute mitteilen:
 
-* Bis nächsten Freitag 21.01.2022 bitte ich euch einen Projektvorschlag auf Moodle hochzuladen.
+* Bis nächsten Freitag **21.01.2022** bitte ich euch einen Projektvorschlag auf Moodle hochzuladen.
 
-Bis am 28.01.2022 werde ich eine Rückmeldung zum Projektvorschlag geben. Alle Details findet ihr [hier]().
+Bis am 28.01.2022 werde ich eine Rückmeldung zum Projektvorschlag geben. Alle Details findet ihr [hier](https://python.casa/exam.html#leistungsnachweis).
+
+* Die Wissensprüfung wird auf den **28.01.2022** verschoben.
+
+Teil 1 soll zuerst abgeschlossen werden und bisschen mehr Zeit für Repetition ist sicher gut. Alle Details findet ihr [hier](https://python.casa/exam.html#wissensprufung).
+
+Bei Fragen bitte direkt melden.
+
+Ich wünsche ein schönes Wochende.
+
+Freundlicher Gruss
+
+Janik
