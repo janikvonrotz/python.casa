@@ -30,7 +30,7 @@ Freundlicher Gruss
 
 Janik
 
-**Termin Wissenprüfung und Eingabe Projektvorschlag**
+**Termin Wissensprüfung und Eingabe Projektvorschlag**
 
 Hallo Zusammen
 

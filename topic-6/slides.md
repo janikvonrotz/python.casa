@@ -4,29 +4,31 @@
 
 ⚡[Anwesenheit bestätigen](https://moodle.medizintechnik-hf.ch/mod/attendance/manage.php?id=6139) und Webcam einschalten.
 
+📖 Kapitel 10 Umgang mit Fehlern (Exceptions)
 📖 Kapitel 14 Dateien lesen und schreiben  
 📖 Kapitel 15 Netzwerkfunktionen
 
 ---
+
 ### Rückblick
 
 Besprechung der Wiederholungsfragen.  
-Fragen zum Leistungsnachweis?
+Fragen zum Wissensprüfung/Leistungsnachweis?
 
 ---
 
 ### Ausblick
 
-Die ersten drei Lektionen:
+Die Lektionen heute:
+* Fehlerbehandlung mit Python
 * Verschiedene Dateiformate lesen und schreiben
-* Objekte und Klassen
 * Netzwerkfunktionen
-* Grafische Benutzeroberflächen
 * Erstellen HTML-Bericht
 
-In der letzten Lektion bleibt Arbeitszeit für den Leistungsnachweis.
+In der letzten Lektion bleibt Arbeitszeit für die Wissenprüfung/Leistungsnachweis.
 
 ---
+
 ### Achtung
 
 Es werden einige neue Themen angeschnitten.\
@@ -35,6 +37,32 @@ Unbedingt melden, bevor es eine Crash gibt!
 <iframe src="https://giphy.com/embed/5xrkJe3IJKSze" width="280" height="280" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 
 ---
+
+### Dateisystem
+
+Auf dem Computer gibt es Dateien, Ordner und Metadaten.
+
+Eine Datei liegt in einem Ordner und hat Metdaten.
+
+Das Dateisystem ist hierarchisch aufgebaut.
+
+---
+
+### Hierarchie Linux
+
+![](../linux-fs.png)
+ℹ️ Auf Linux ist der oberste Ordner der `/` *Root* und bei Windows das `C:` Laufwerk
+
+---
+
+### Python Pathlib
+
+In der Python-Biblitothek finden wir [`pathlib`](https://docs.python.org/3/library/pathlib.html). Mit Pathlib können wir mit dem Dateisystem interagieren.
+
+![](../python-pathlib-cheatsheet.png)
+
+---
+
 ### Thonny Vorbereiten
 
 🎬 Führen sie diese Aktionen aus:
@@ -48,13 +76,82 @@ Unbedingt melden, bevor es eine Crash gibt!
 
 ```py
 from pathlib import Path
-current = str(Path.cwd().absolute())    
-print('Aktuelles Verzeichnis:', current)
+current = Path.cwd() # Gibt das aktuelle Verzichnis wo das Skript ausgeführt wird
+print('Aktuelles Verzeichnis:', current.absolute())
 ```
 
 ℹ️ Der Rückgabewert von `Path.cwd().absolute()` ist ein Objekt.
 
 ---
+
+### Name des aktuellen Verzeichnis ausgeben
+
+Erweitern sie das Beispiel mit:
+
+```py
+print(type(current))
+print('Aktueller Verzeichnisname:', current.name)
+```
+
+---
+
+### Fehlerbehandlung
+
+Wenn eine Python-Anweisung einen Fehler generiert, kann man darau reagieren ohne dass das Programm abstürtzt.
+
+🎬 Erstellen sie die Datei `Error.py` mit diesem Code:
+
+```
+ergebnis = 1/0
+print(ergebnis)
+```
+
+Zeile zwei wird nicht erreicht. Python gibt des Fehlertyp `ZeroDivisionError` aus.
+
+---
+
+### try and except
+
+Mit den Befehlen `try` und `except` kann man versuchen eine Code-Block auszuführen und sobald dieser fehlschlägt darauf reagieren.
+
+🎬 Ersetzen sie den vorhergehenden Inhalt mit:
+
+```py
+try:
+    ergebnis = 1/0
+    print(ergebnis)
+except ZeroDivisionError:
+    print("Man kann nicht durch Null teilen.")
+```
+
+---
+
+### Except als Variable
+
+🎬 Erstellen sie die Datei `Except.py` mit diesem Code:
+
+```py
+try:
+    print(z)
+except NameError as error:
+    print(error)
+    
+try:
+    print(z)
+except:
+    print("Ein Fehler im Code.")
+```
+
+---
+
+### Fehler beim Zugriff auf Dateisystem
+
+Der Umgang mit Fehler ist beim Zugriff auf das Dateisystem besonders wichtig.
+
+Es gibt viele Fehlerquellen: ungültiger Pfad, Schreibschutz, ungültiger Dateiname, ...
+
+---
+
 ### Textdatei schreiben
 
 🎬 Erstellen sie die Datei `Schreiben.py` mit diesem Code:
@@ -63,18 +160,18 @@ print('Aktuelles Verzeichnis:', current)
 try:
     f = open('test.txt', 'wt')
     f.write('Lorem ipsum dolor sit amet, ...\n')
-    f.write('Unicode äöüß\n')
+    f.write('Unicode äöüß✅ \n')
     f.close()
   
 except BaseException as err:
     print('Fehler:', err)
 ```
 
-ℹ️ Wenn der Code `try`-Block nicht funktioniert, wird der `except`-Block aufgerufen.
+ℹ️ Der Fehlertyp `BaseException` ist die Superklasse aller Fehlertypen.
 
 ---
 ### Textdatei lesen
-🎬 Erstellen sie die Datei `Schreiben.py` mit diesem Code:
+🎬 Erstellen sie die Datei `Lesen.py` mit diesem Code:
 
 ```py
 try:
@@ -88,6 +185,15 @@ except BaseException as err:
 ```
 
 ---
+
+### Unstrukturiert vs. Strukturiert
+
+Wir haben eine unstrukturierte Textdatei erstellt. Im Umgang mit Daten und Kalkulationen brauchen wir ein besseres Format.
+
+![](../word-vs-excel.png)
+
+---
+
 ### JSON-Datenformat
 
 *  JavaScript Object Notation (JSON) 
@@ -122,6 +228,7 @@ except BaseException as err:
 ```
 
 ---
+
 ### JSON-Dateien verarbeiten
 
 🎬 Datei `JSON.py` mit diesem Code ausführen:
@@ -136,6 +243,7 @@ print(data)
 ℹ️ Mit der Anweisung `with ausdruck1 as var1, ausdruck2 as var2, ...: Code`  werden Ressourcen automatisch geschlossen. 
 
 ---
+
 ### JSON verabeiten
 
 Der JSON-Inhalt kann ganz einfach verarbeitet werden.
@@ -151,6 +259,13 @@ for book in data:
 ```
 
 ---
+
+### Dateiformate
+
+Möchte man die Datei `Bücher.json` in einem anderen Programm bearbeiten wird es schwierig. Wir brauchen ein einheitliches Dateiformat.
+
+---
+
 ### CSV-Dateiformat
 * Comma-separated values (CSV)
 * Textdatei zur Speicherung strukturierter Daten
@@ -176,6 +291,7 @@ with open('Mitarbeiter.csv', mode='w') as file:
 ℹ️ Die erstellte Datei `Mitarbeiter.csv` kann mit einem Texteditor geöffnet werden.
 
 ---
+
 ### CSV-Datei lesen
 
 🎬 Fügen sie diesen Code an:
@@ -196,13 +312,26 @@ with open('Mitarbeiter.csv', newline='') as file:
 ```
 
 ---
+
 ### Pause
 
 ⚡Wir machen eine Pause ⏱️ 20 Minuten
 
 <iframe src="https://giphy.com/embed/iigcSmBaMUC5FoSUlu" width="280" height="280" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 
+
 ---
+
+### Aufgaben 1
+
+Lösen sie die ersten zwei Aufgaben.
+
+⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 10 Minuten
+
+Ziel: Aufgabe 6.1 und 6.2 gelöst.
+
+---
+
 ### HTTP-Protokoll
 
 * Hypertext Transfer Protocol (HTTP)
@@ -250,60 +379,7 @@ f.close()
 ℹ️ Öffnen sie die Datei `index.html` im Browser.
 
 --- 
-### Benutzeroberfläche
 
-Bisher haben wir nur Programme im Terminalfenster ausgeführt.  
-Mit Python können aber auch grafische Oberflächen entwickelt werden.  
-Damit wir ein Graphical User Interface (GUI) entwickeln können, müssen Softwarepakete aus der Python-Bibliothek installiert werden.
-
----
-
-### Qt-Paket installieren
-
-🎬 Führen sie diese Anweisungen in Thonny aus:
-* Navigation nach *Extras > Manage packages ...*
-* `PyQt5` eingeben und auf *Paket von PyPI suchen* klicken
-* Das Paket mit `installiere` installieren
-
-ℹ️ Es kann sein, dass das Softwarepaket bereits vorinstalliert ist.
-
----
-### Hello World mit Qt
-
-🎬 Erstellen sie die Datei `GUI.py` mit diesem Code:
-
-```py
-import sys
-from PyQt5 import QtCore, QtWidgets
-from PyQt5.QtWidgets import QMainWindow, QLabel, QWidget             
-from PyQt5.QtCore import QSize
-
-class MeinFenster(QMainWindow):
-    def __init__(self):
-        super().__init__()
-
-        self.setMinimumSize(QSize(300, 100)) # Fenstergröße und Titel einstellen
-        self.setWindowTitle('Hello, Qt!') # Fenstertitel festlegen
-
-        title = QLabel('Hello, Qt!', self) # Label definieren
-        title.setAlignment(QtCore.Qt.AlignCenter) # Label mittig in Fenster anzeigen
-        self.setCentralWidget(title)
-
-App = QtWidgets.QApplication(sys.argv) 
-Fenster = MeinFenster() 
-Fenster.show() # Fenster anzeigen
-sys.exit(App.exec_())
-```
-
----
-### GUIs sind komplex
-
-GUIs entwickeln ist aufwändig!\
-Wer sich weiter einarbeiten möchte kann diese Tutorial-Reihe schauen: [Python GUI Programmierung mit PyQT](https://www.youtube.com/watch?v=FiaPzdWKhJU&list=PLNmsVeXQZj7ruNQIfS8NRpjzZIRq0A8QP)
-
-ℹ️ Mit dem [Qt-Designer](https://doc.qt.io/qt-5/qtdesigner-manual.html) kann Oberflächen mit einem what-you-see-is-what-you-get (WYSIWYG) Editor erstellen.
-
----
 ### HTML
 
 * Hypertext Markup Language (HTML)

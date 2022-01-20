@@ -1,2 +1,2 @@
 Lorem ipsum dolor sit amet, ...
-Unicode äöüß
+Unicode äöüß✅
