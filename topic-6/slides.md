@@ -332,15 +332,32 @@ Ziel: Aufgabe 6.1 und 6.2 gelöst.
 
 ---
 
+### Dateien übertragen
+
+Dateien wie wir sie gerade erstellt und gelesen haben, können über ein Netzwerk zwischen Computer übertragen werden.
+
+Das Internet ist ein weltumspannendes Netzwerk von Computern.
+
+---
+
+### Dokumente im WWW
+
+Eine Website ist nur ein Dokument. Das World Wide Web (WWW) bezeichnet alle Websites.
+
+Mit einem Kommunikationsprotokoll übertragen Computer Websites als Dokumente.
+
+---
+
 ### HTTP-Protokoll
 
 * Hypertext Transfer Protocol (HTTP)
-* Kommunikationsprotokol für das WWW
+* Kommunikationsprotokoll für das WWW
 * Browser rufen Webseiten über HTTP auf
 
 ![](../http.png)
 
 ---
+
 ### HTTP-Request anzeigen
 
 🎬 Zur Betrachtung eines HTTP-Requests führen sie folgende Aktionen aus:
@@ -358,6 +375,19 @@ Der HTML-Code der Webseite wird als HTTP-Response zurückgegeben.
 ![](../http-response.png)
 
 ---
+
+### HTML-Dokument
+
+---
+
+### HTML-Dokument erstellen
+
+---
+
+### HTML-Tags
+
+---
+
 ### HTTP-Request mit Python
 
 Dasselbe kann nun mit Python machen.
@@ -366,6 +396,7 @@ Dasselbe kann nun mit Python machen.
 
 ```py
 import urllib.request
+
 url = 'https://example.com'
 response = urllib.request.urlopen(url)
 binary = response.read() # Download durchführen
@@ -376,7 +407,7 @@ f.write(html)
 f.close()
 ```
 
-ℹ️ Öffnen sie die Datei `index.html` im Browser.
+🎬 Öffnen sie die Datei `index.html` im Browser.
 
 --- 
 
@@ -432,16 +463,17 @@ webbrowser.open('file://' + str(Path('example.html').absolute()))
 ```
 
 ---
-### Entscheidung
 
-Die restliche Zeit steht für diese Optionen zur Verfügung:
+### Aufgaben 1
 
-* Frage und Antwort
-* Aufgabe 6.1 erledigen
-* Arbeit an Leistungsnachweis
-* Repetition von vergangenen Themen
+Lösen sie die ersten zwei Aufgaben.
+
+⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 10 Minuten
+
+Ziel: Aufgabe 6.3 und 6. gelöst.
 
 ---
+
 ### Review
 
 🎯 Ziele erreicht?
@@ -450,6 +482,18 @@ Die restliche Zeit steht für diese Optionen zur Verfügung:
 * Benutzeroberfläche erstellen
 
 ---
+
+### Entscheidung
+
+Die restliche Zeit steht für diese Optionen zur Verfügung:
+
+* Frage n zu Wissensprüfung
+* Arbeit an Leistungsnachweis
+* Repetition von vergangenen Themen
+
+---
+
+<!--
 ### Feedback
 
 Habt ihr Feedbacks zum Kurs?\
@@ -457,10 +501,12 @@ Was hat euch gefallen und was nicht?\
 Wurden die Erwartungen erfüllt?
 
 ---
+
 ### Abschluss
 
-Ich wünsche gutes gelingen bei den Projekten ☘️.
+Ich wünsche gutes Gelingen bei den Projekten ☘️.
 
 Bei Fragen oder Problemen dürft ihr euch jederzeit melden!
 
 ---
+-->
