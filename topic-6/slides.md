@@ -534,11 +534,11 @@ Ziel: Aufgabe 6.3 und 6.4 gelöst. Wenn möglich Aufgabe 6.5.
 
 ---
 
-### Entscheidung
+### Freie Zeit
 
 Die restliche Zeit steht für diese Optionen zur Verfügung:
 
-* Frage n zu Wissensprüfung
+* Fragen zu Wissensprüfung
 * Arbeit an Leistungsnachweis
 * Repetition von vergangenen Themen
 
