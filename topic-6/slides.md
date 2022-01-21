@@ -12,8 +12,8 @@
 
 ### Rückblick
 
-Besprechung der Wiederholungsfragen.  
-Fragen zum Wissensprüfung/Leistungsnachweis?
+Besprechung der Wiederholungsfragen.\
+Fragen zur Wissensprüfung/Leistungsnachweis?
 
 ---
 
@@ -40,9 +40,9 @@ Unbedingt melden, bevor es eine Crash gibt!
 
 ### Dateisystem
 
-Auf dem Computer gibt es Dateien, Ordner und Metadaten.
+Auf dem Computer gibt es Dateien, Ordner und Metadaten (Erstellt am, Berechtigungen, ...).
 
-Eine Datei liegt in einem Ordner und hat Metdaten.
+Eine Datei liegt in einem Ordner. Die Datei und Ordner haben Metdaten.
 
 Das Dateisystem ist hierarchisch aufgebaut.
 
@@ -101,7 +101,7 @@ Wenn eine Python-Anweisung einen Fehler generiert, kann man darau reagieren ohne
 
 🎬 Erstellen sie die Datei `Error.py` mit diesem Code:
 
-```
+```py
 ergebnis = 1/0
 print(ergebnis)
 ```
@@ -251,11 +251,11 @@ Der JSON-Inhalt kann ganz einfach verarbeitet werden.
 🎬 Fügen sie diesen Code an:
 
 ```py
-for book in data:
-    print(f"Titel: {book['title']}")
-    for author in book['authors']:
-        print(f"Author: {author}")
-    print('')
+	for book in data:
+	    print(f"Titel: {book['title']}")
+	    for author in book['authors']:
+	        print(f"Author: {author}")
+	    print('')
 ```
 
 ---
@@ -363,7 +363,7 @@ Mit einem Kommunikationsprotokoll übertragen Computer Websites als Dokumente.
 🎬 Zur Betrachtung eines HTTP-Requests führen sie folgende Aktionen aus:
 * Browser und einen leeren Tab öffnen
 * Mit `F12` die Entwicklerkonsole aufrufen
-* In der Konsole die Ansicht *Netzwerk* öffnen
+* In der Konsole die Ansicht *Netzwerk* anzeigen
 * In der Adressleiste `https://example.com` eingeben
 * Den HTTP-Request mit Status `200` und Methode `GET` anklicken
 
@@ -378,19 +378,79 @@ Der HTML-Code der Webseite wird als HTTP-Response zurückgegeben.
 
 ### HTML-Dokument
 
+Wird eine Website aufgerufen erhalten wir ein HTML-Dokument.
+
+```html
+<!doctype html>
+<html>
+	<head></head>
+	<body>
+		<div>
+		    <h1>Example Domain</h1>
+		    <p>This domain is for use in illustrative examples in documents. You may use this
+		    domain in literature without prior coordination or asking for permission.</p>
+		    <p><a href="https://www.iana.org/domains/example">More information...</a></p>
+		</div>
+	</body>
+</html>
+```
+
+ℹ️ Bei HTML handelt es sich um eine Markup-Sprache.
+
+--- 
+
+### HTML
+
+* Hypertext Markup Language (HTML)
+* Auszeichnungssprache für strukturierte Dokumente
+* Wird von Browser visuell dargestellt
+* Grundlage des WWW
+
+---
+
+### Browser rendert HTML
+
+HTML beschreibt wie ein Dokument aussieht und der Browser stellt es entsprechend dar. Diesen Vorgang nennt man *Rendern*.
+
+![browser-rendern](../browser-rendern.gif)
+
 ---
 
 ### HTML-Dokument erstellen
 
+🎬 Erstellen sie selber ein HTML-Dokument `Dokument.html` mit diesem Inhalt:
+
+```html
+<!doctype html>
+<html>
+	<body>
+		<div>
+		    <h1>Meine Website</h1>
+		    <p>Das ist ein Paragraph</p>
+		    <p><a href="https://python.casa">Hier lernst du aller über Python.</a></p>
+		</div>
+	</body>
+</html>
+```
+
 ---
 
-### HTML-Tags
+### HTML-Tag
+
+![](../html-tag.png)
+
+* **html**: Zeigt an, dass es sich um ein HTML-Dokument handelt
+* **body**: Hier beginnt der Seiteninhalt
+* **div**: Ein Block zum platzieren der Inhalte
+* **h1**: Überschrift auf Stufe 1
+* **p**: Ein Textabsatz
+* **a**: Ein Link
 
 ---
 
 ### HTTP-Request mit Python
 
-Dasselbe kann nun mit Python machen.
+HTML-Dokument kann man mit Ptyhon herunterladen.
 
 🎬 Erstellen sie die Datei `HTTP.py` und fügen sie diesen Code ein:
 
@@ -401,22 +461,13 @@ url = 'https://example.com'
 response = urllib.request.urlopen(url)
 binary = response.read() # Download durchführen
 html = binary.decode('utf-8')
-
 f = open('index.html', 'wt')
 f.write(html)
 f.close()
+
 ```
 
 🎬 Öffnen sie die Datei `index.html` im Browser.
-
---- 
-
-### HTML
-
-* Hypertext Markup Language (HTML)
-* Auszeichnungssprache für strukturierte Dokumente
-* Wird von Browser visuell dargestellt
-* Grundlage des WWW
 
 ---
 ### HTML-Paket installieren
@@ -464,13 +515,13 @@ webbrowser.open('file://' + str(Path('example.html').absolute()))
 
 ---
 
-### Aufgaben 1
+### Aufgaben 2
 
 Lösen sie die ersten zwei Aufgaben.
 
 ⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 10 Minuten
 
-Ziel: Aufgabe 6.3 und 6. gelöst.
+Ziel: Aufgabe 6.3 und 6.4 gelöst. Wenn möglich Aufgabe 6.5.
 
 ---
 
@@ -483,7 +534,7 @@ Ziel: Aufgabe 6.3 und 6. gelöst.
 
 ---
 
-### Entscheidung
+### Entscheidung****
 
 Die restliche Zeit steht für diese Optionen zur Verfügung:
 
