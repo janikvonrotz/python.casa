@@ -1,4 +1,4 @@
-# Thema 7 - Server und Module
+# Thema 7 - Module und Import
 
 Umfang ⏱️: 2 Lektionen
 

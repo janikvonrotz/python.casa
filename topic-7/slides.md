@@ -1,8 +1,8 @@
 
 
-Erstellen Server mit TCP listener. (wie netcat)
+Ordnerstruktur für komplexes Python-Programm erstellen.
 
-Versenden Nachrichten mit TCP.
+Analyse externe Python-Bibliotheken.
 
-Erstellen HTTP Server.
+Installation mit pip.
 
