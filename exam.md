@@ -21,7 +21,7 @@ Die Inhaltliche Abgrenzung sind die Folien, Aufgaben und Wiederholungsfragen von
 
 ### Durchführung
 
-Am Ende von Lektion 6 absolvieren die Studierenden eine online Moodle-Prüfung unter Aufsicht des Dozenten.
+Am Ende von Lektion 6 absolvieren die Studierenden eine Papier-Prüfung unter Aufsicht des Dozenten.
 
 ### Beispielfragen
 
@@ -61,7 +61,7 @@ Liste:  \_\_
 ## Leistungsnachweis
 *Proof of Work*
 
-Ziel: Eine Problem definieren und dieses mithilfe eines selbstgeschriebenen Programms lösen.
+Ziel: Die Studierenden definieren ein Problem oder Projekt und lösen dieses mithilfe eines selbstgeschriebenen Programms.
 
 Aufwand: 12-20 Stunden
 
