@@ -65,6 +65,17 @@ Ziel: Eine Problem definieren und dieses mithilfe eines selbstgeschriebenen Prog
 
 Aufwand: 12-20 Stunden
 
+### Durchführung
+
+Der Prozess für den Leistungsnachweis sieht wie folgt aus:
+1. Studieren such sich eine Problemstellung oder Thema, dass sie mit einem Ptyhon-Programm lösen möchten
+2. Die Studierenden formulieren dazu einen Projektvorschlag und laden diesen auf Moodle
+3. Der Dozierende gibt eine Feedback und teilt mir, ob der Projektvorschlag den Erwartungen gerecht wird
+4. Die Studieren haben Zeit um den Leistungsnachweis zu erarbeiten und eine Dokumentation zu erstellen
+5. Der Dozierende gibt Inputs und kann bei Problemen kontaktiert werden
+6. Die Studierenden laden das Resultat auf Moodle hoch
+7. Der Dozierende macht eine Berwertung anhand der [Kriterien](#Kriterien)
+
 ### Resultat
 
 Resultat sind zwei Dateien:
@@ -78,13 +89,14 @@ Hier einige Ideen für Projekte:
 * Suche nach bestimmten Begriffen in [Log-Dateien](https://raw.githubusercontent.com/elastic/examples/master/Common%20Data%20Formats/nginx_logs/nginx_logs)
 * Wort mit LED und Raspberry Pi als Morsecode ausgeben
 * Daten aus Postgres Datenbank lesen und schreiben
-* Wetter-Informationen abrufen und ausgeben
+* Wetter-Informationen abrufen und als HTML-Dokument ausgeben
 * Tweet von Twitter-Account anzeigen lassen
 * Datei auf Dropbox speichern
 * Textbasiertes Hangman
 * Detektion von Herzfrequenz anhand [EKG-Daten](https://github.com/janikvonrotz/python.casa/blob/main/ekg-data..csv)
-* Temperaturdaten ploten und Min/Max bestimmen. Daten von  [https://sarneraa.huetstock.ch](https://sarneraa.huetstock.ch) können auf Anfrage bereitgestellt werden.
-* Passwortgenerator gemäss [xkcd-Comic](https://xkcd.com/936/). 
+* Temperaturdaten ploten und Min/Max bestimmen. Daten von  [https://sarneraa.huetstock.ch](https://sarneraa.huetstock.ch) können auf Anfrage bereitgestellt werden
+* Passwortgenerator gemäss [xkcd-Comic](https://xkcd.com/936/)
+* Covid-Daten mit Python verarbeiten und als HTML-Bericht präsentieren
 
 ### Projektvorschlag
 
