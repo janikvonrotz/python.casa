@@ -57,7 +57,7 @@ Das Dateisystem ist hierarchisch aufgebaut.
 
 ### Python Pathlib
 
-In der Python-Biblitothek finden wir [`pathlib`](https://docs.python.org/3/library/pathlib.html). Mit Pathlib können wir mit dem Dateisystem interagieren.
+In der Python-Biblitothek findet man [`pathlib`](https://docs.python.org/3/library/pathlib.html). Mit Pathlib kan man mit dem Dateisystem interagieren.
 
 ![](../python-pathlib-cheatsheet.png)
 
@@ -386,7 +386,7 @@ Wird eine Website aufgerufen erhalten wir ein HTML-Dokument.
 	<head></head>
 	<body>
 		<div>
-		    <h1>Example Domain</h1>
+		 `absolute`   <h1>Example Domain</h1>
 		    <p>This domain is for use in illustrative examples in documents. You may use this
 		    domain in literature without prior coordination or asking for permission.</p>
 		    <p><a href="https://www.iana.org/domains/example">More information...</a></p>
