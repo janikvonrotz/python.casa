@@ -8,9 +8,9 @@ Umfang ⏱️: 4 Lektionen
 
 [Hier](slides.md) geht es zu den Slides.
 
-## [Übungen](excercise.md)
+## [Übungen](../topic-1/excercise.md)
 
-[Hier](excercise.md) geht es zu den Übungen.
+[Hier](../topic-1/excercise.md) geht es zu den Übungen.
 
 ## Videos
 
