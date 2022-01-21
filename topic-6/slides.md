@@ -4,8 +4,8 @@
 
 ⚡[Anwesenheit bestätigen](https://moodle.medizintechnik-hf.ch/mod/attendance/manage.php?id=6139) und Webcam einschalten.
 
-📖 Kapitel 10 Umgang mit Fehlern (Exceptions)
-📖 Kapitel 14 Dateien lesen und schreiben  
+📖 Kapitel 10 Umgang mit Fehlern (Exceptions)\
+📖 Kapitel 14 Dateien lesen und schreiben\
 📖 Kapitel 15 Netzwerkfunktionen
 
 ---
@@ -534,7 +534,7 @@ Ziel: Aufgabe 6.3 und 6.4 gelöst. Wenn möglich Aufgabe 6.5.
 
 ---
 
-### Entscheidung****
+### Entscheidung
 
 Die restliche Zeit steht für diese Optionen zur Verfügung:
 
