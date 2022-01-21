@@ -63,7 +63,7 @@ In der Python-Biblitothek findet man [`pathlib`](https://docs.python.org/3/libra
 
 ---
 
-### Thonny Vorbereiten
+### Thonny vorbereiten
 
 🎬 Führen sie diese Aktionen aus:
 * Neuer Ordner `Thema6` erstellen
@@ -439,7 +439,7 @@ HTML beschreibt wie ein Dokument aussieht und der Browser stellt es entsprechend
 
 ![](../html-tag.png)
 
-* **html**: Zeigt an, dass es sich um ein HTML-Dokument handelt
+* **html**: Zeigt den Beginnt des HTML-Dokument an
 * **body**: Hier beginnt der Seiteninhalt
 * **div**: Ein Block zum platzieren der Inhalte
 * **h1**: Überschrift auf Stufe 1
