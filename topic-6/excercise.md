@@ -106,7 +106,7 @@ print(data)
 
 Die erstellte Website wollen wir nun publizieren. Dazu erstellen wir einen HTTP-Server. Dieser lädt unsere Website und stellt sie für andere Computer bereit.
 
-Führen sie das folgende Programm aus.
+Führen sie das folgende Programm `Server.py` aus.
 
 ```py
 import http.server
@@ -118,12 +118,12 @@ class HttpRequestHandler(http.server.SimpleHTTPRequestHandler):
             self.path = 'mypage.html'
         return http.server.SimpleHTTPRequestHandler.do_GET(self)
 
-# Create an object of the above class
+# Erstelle ein Objekt anhand der obigen Klasse
 handler = HttpRequestHandler
 
 server = socketserver.TCPServer(("", 8000), handler)
 
-# Start the server
+# Starte den Server
 server.serve_forever()
 ```
 
@@ -133,11 +133,13 @@ In der Python-Konsole sehen sie nun die Website-Aufrufe.
 
 Nun möchten wir das Programm anpassen. Ändern sie den Port von `8000` auf den HTTP-Standardport `80` und zeigen sie die Website unter der richtigen Adresse an.
 
+::: warning
 Falls sie beim Starten des Webservers aufgrund der Portänderung einen Fehler erhalten, belassen sie den Port bei `8000`
+:::
 
 ### Aufgabe 6.5: Intranet
 
-Wenn ihr Computer und der ihren Pultnachbaren im selben WLAN bzw. Netzwerk sind, sind die Voraussetzungen für ein Intranet gegeben.
+Wenn ihr Computer und der ihrer Nachbaren im selben WLAN bzw. Netzwerk sind, sind die Voraussetzungen für ein Intranet gegeben.
 
 Haben ihre Nachbaren die Website gestartet können sie anhand der IP-Adresse darauf zugreifen.
 

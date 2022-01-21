@@ -251,11 +251,11 @@ Der JSON-Inhalt kann ganz einfach verarbeitet werden.
 🎬 Fügen sie diesen Code an:
 
 ```py
-	for book in data:
-	    print(f"Titel: {book['title']}")
-	    for author in book['authors']:
-	        print(f"Author: {author}")
-	    print('')
+for book in data:
+	print(f"Titel: {book['title']}")
+	for author in book['authors']:
+		print(f"Author: {author}")
+	print('')
 ```
 
 ---
@@ -290,6 +290,8 @@ with open('Mitarbeiter.csv', mode='w') as file:
 
 ℹ️ Die erstellte Datei `Mitarbeiter.csv` kann mit einem Texteditor geöffnet werden.
 
+ℹ️ Achtung wenn man `csv.py` schreibt, versucht 
+
 ---
 
 ### CSV-Datei lesen
@@ -315,7 +317,7 @@ with open('Mitarbeiter.csv', newline='') as file:
 
 ### Pause
 
-⚡Wir machen eine Pause ⏱️ 20 Minuten
+⚡Wir machen eine Pause ⏱️ 15 Minuten
 
 <iframe src="https://giphy.com/embed/iigcSmBaMUC5FoSUlu" width="280" height="280" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 
@@ -386,7 +388,7 @@ Wird eine Website aufgerufen erhalten wir ein HTML-Dokument.
 	<head></head>
 	<body>
 		<div>
-		 `absolute`   <h1>Example Domain</h1>
+			<h1>Example Domain</h1>
 		    <p>This domain is for use in illustrative examples in documents. You may use this
 		    domain in literature without prior coordination or asking for permission.</p>
 		    <p><a href="https://www.iana.org/domains/example">More information...</a></p>

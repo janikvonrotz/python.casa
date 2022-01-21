@@ -7,10 +7,10 @@ class HttpRequestHandler(http.server.SimpleHTTPRequestHandler):
             self.path = 'mypage.html'
         return http.server.SimpleHTTPRequestHandler.do_GET(self)
 
-# Create an object of the above class
+# Erstelle ein Objekt anhand der obigen Klasse
 handler = HttpRequestHandler
 
 server = socketserver.TCPServer(("", 8000), handler)
 
-# Start the server
+# Starte den Server
 server.serve_forever()
