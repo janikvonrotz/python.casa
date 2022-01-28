@@ -226,7 +226,7 @@ Mit dem modularen Ansatz können komplexe Projektstrukturen erzeugt werden.
 
 ---
 
-## Python-Pakete
+### Python-Pakete
 
 Bis anhin haben wir nur vorhandene Python-Pakete verwenden. Zusätzliche Python-Pakete können vom Internet mit dem Python-Packet-Manager `pip` installiert werden.
 
