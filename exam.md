@@ -39,7 +39,7 @@ msg='Die Temperatur beträgt ' + n + ' Grad.'
 3\. Ist die folgende Bedingung Wahr oder Falsch?
 
 ```py
-true == 1
+True == 1
 ```
 
 4\. Wir haben eine Liste und möchte das dritte Element ausgeben. Was geben sie für `X` ein?
