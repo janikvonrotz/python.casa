@@ -102,7 +102,7 @@ Der Output des Skript wird im *Terminal* angezeigt.
 
 Falls sie ein Linux-Computer haben, kann es gut sein, dass sie eine andere Shell verwenden müssen.
 
-![](../Pasted%20image%2020220127192628.png)
+![](../vscode-linux-shell.png)
 
 ---
 
@@ -228,7 +228,7 @@ Mit dem modularen Ansatz können komplexe Projektstrukturen erzeugt werden.
 
 ## Python-Pakete
 
-Bis anhain haben wir vorhandene Python-Pakete verwenden. Zusätzliche Python-Pakete können mit dem Python-Packet-Manager `pip` installiert werden.
+Bis anhin haben wir nur vorhandene Python-Pakete verwenden. Zusätzliche Python-Pakete können vom Internet mit dem Python-Packet-Manager `pip` installiert werden.
 
 ---
 
@@ -251,9 +251,9 @@ import cowsay
 cowsay.cow('pip is great.')
 ```
 
-Führen sie das Programm aus.
+Und führen sie das Programm aus.
 
-![](../Pasted%20image%2020220128114449.png)
+![](../cowsay.png)
 
 ---
 
