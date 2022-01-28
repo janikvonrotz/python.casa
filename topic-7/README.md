@@ -2,6 +2,8 @@
 
 Umfang ⏱️: 2 Lektionen
 
+[Alle Unterlagen anzeigen](https://github.com/janikvonrotz/python.casa/tree/main/topic-7)
+
 ## [Slides](slides.md)
 
 [Hier](slides.md) geht es zu den Slides.
