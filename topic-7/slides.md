@@ -40,7 +40,7 @@ Wir werden selber Python-Module erstellen und deshalb brauchen wir ein IDE-Upgra
 
 Visual Studio Code (VSCode) unterstützt verschiedene Programmiersprachen. Damit Python verwendet werden kann, muss eine Erweiterung installiert werden.
 
-🎬 Installatieren sie die [Python extension for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=ms-python.python).
+🎬 Installieren sie die [Python extension for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=ms-python.python).
 
 Je nach dem müssen sie noch [Python](https://www.python.org/downloads/) installieren.
 
@@ -232,9 +232,21 @@ Bis anhin haben wir nur vorhandene Python-Pakete verwenden. Zusätzliche Python-
 
 ---
 
-### Python-Paket installieren
+### pip-Erweiterung in VSCode installieren
 
-Wir möchten das Python-Paket [`cowsay`](https://pypi.org/project/cowsay/) installieren.
+Es gibt für alles eine VSCode-Erweiterung, so auch für pip.
+
+🎬 Installieren sie die Erweiterung *Pip Manager* mit VSCode:
+
+![vscode-pip](../vscode-pip.gif)
+
+🎬 Installieren sie die Erweiterung  [`cowsay`](https://pypi.org/project/cowsay/) mit *Pip Manager*.
+
+---
+
+### Alternative Installation mit Terminal
+
+Wir möchten das Python-Paket [`cowsay`](https://pypi.org/project/cowsay/) mit dem Terminal installieren.
 
 🎬 Öffnen sie das Terminal in VSCode und führen sie den Befehl `pip install cowsay` aus.
 

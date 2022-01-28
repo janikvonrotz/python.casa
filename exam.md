@@ -58,6 +58,8 @@ Set:  \_\_\
 Dictionary:  \_\_\
 Liste:  \_\_
 
+6\. Was bedeutet "Instanzieren". Erläutern sie in eigenen Worten.
+
 ## Leistungsnachweis
 *Proof of Work*
 
