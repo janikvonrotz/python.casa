@@ -1,6 +1,6 @@
 ## Module und Import
 
-[Thema 7](../README.md)
+[Thema 7](./README.md)
 
 ⚡[Anwesenheit bestätigen](https://moodle.medizintechnik-hf.ch/mod/attendance/manage.php?id=6139) und Webcam einschalten.
 

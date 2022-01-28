@@ -6,7 +6,7 @@ Aufgaben zum Thema.
 
 ### Aufgabe 7.1: Programm aufteilen
 
-Wir erinnern uns an das Kaffeemaschine-Programm bzw. deren Klasse?
+Wir erinnern uns an das Kaffeemaschinen-Programm bzw. deren Klasse?
 
 ```py
 class Kaffeemaschine:
@@ -29,7 +29,9 @@ kaffeemaschine.Bestellen(2)
 kaffeemaschine.Zustand()
 ```
 
-Zerlegen sie das Program in  `Kaffeemaschine.py` und ein `main.py`. Ersteres enthält den Klassen-Code und die zweite Datei importiert den Klassen-Code und instanziert das Objekt.
+Zerlegen sie das Programm in  ein `Kaffeemaschine.py` und ein `main.py`. Erstere soll den Klassen-Code enthalten und die zweite Datei importiert den Klassen-Code und instanziert das Objekt.
+
+Führen sie das Programm `main.py` ohne Fehler aus.
 
 ## Aufgabe 7.2: Python-Paket verwenden
 
@@ -51,7 +53,7 @@ txt = "hello world"
 print(c.hump(txt))
 ```
 
-Die *requirements* Datei enhählt eine Liste der Pakete, die sie zusätzlich installieren müssen.
+Die *requirements* Datei enhählt eine Liste der pip-Pakete, die sie zusätzlich installieren müssen.
 
 Erstellen sie einen Ordner mit den Dateien und führen sie auf dem VSCode-Terminal den Befehl `pip install -r requirements.txt` aus. Anschliessend führen sie das Programm aus.
 

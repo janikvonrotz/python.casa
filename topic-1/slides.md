@@ -1,7 +1,6 @@
 ## Einführung Programmiersprache
 
-[Thema 1](README.md)\
-Umfang ⏱️: 3 Lektionen
+[Thema 1](./README.md)
 
 ⚡[Anwesenheit bestätigen](https://moodle.medizintechnik-hf.ch/mod/attendance/manage.php?id=6139) und Webcam einschalten.
 

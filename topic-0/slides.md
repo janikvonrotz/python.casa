@@ -1,6 +1,6 @@
 # Über diesen Kurs
 
-[Thema 0](README.md)
+[Thema 0](./README.md)
 
 ---
 ### Wer bin ich?

@@ -1,6 +1,6 @@
-Ins## Objektorientierte Programmierung
+## Objektorientierte Programmierung
 
-[Thema 5.5](README.md)
+[Thema 5.5](./README.md)
 
 ⚡[Anwesenheit bestätigen](https://moodle.medizintechnik-hf.ch/mod/attendance/manage.php?id=6139) und Webcam einschalten.
 
