@@ -2,7 +2,7 @@
 
 [Thema 7](./README.md)
 
-⚡[Anwesenheit bestätigen](https://moodle.medizintechnik-hf.ch/mod/attendance/manage.php?id=6139).
+⚡[Anwesenheit bestätigen](https://moodle.medizintechnik-hf.ch/mod/attendance/manage.php?id=6139)
 
 📖 Kapitel 12 Module
 
@@ -14,11 +14,13 @@
 
  Sie importieren damit Python-Module.
 
- Dieser modulare Ansatz von Python schauen wir genauer an.
+ Dieser modulare Ansatz von Python schauen wir uns genauer an.
 
 ---
 
 ### Python-Module auflisten
+
+Welche Python-Module sind vorhanden?
 
 🎬 In der Python-Konsole geben sie den Befehl `help('modules')` ein und erhalten so eine Liste der verfügbaren Module.
 
@@ -36,7 +38,7 @@ Wir werden selber Python-Module erstellen und deshalb brauchen wir ein IDE-Upgra
 
 ### VSCode Python-Erweiterung installieren
 
-Visual Studio Code (VSCode) unterstützt verschiedene Programmiersprachen. Damit Python verwendet werden kann, braucht es eine Erweiterung.
+Visual Studio Code (VSCode) unterstützt verschiedene Programmiersprachen. Damit Python verwendet werden kann, muss eine Erweiterung installiert werden.
 
 🎬 Installatieren sie die [Python extension for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=ms-python.python).
 
@@ -46,7 +48,7 @@ Je nach dem müssen sie noch [Python](https://www.python.org/downloads/) install
 
 ### Projektordner erstellen
 
-VSCode stellt nicht nur einzelne Dateien dar, sonderrn ganze Ordner.
+VSCode stellt nicht nur einzelne Dateien dar, sondern ganze Verzeichnisse.
 
 🎬 Führen sie diese Aktionen aus:
 * Neuer Ordner `Thema7` erstellen
@@ -56,7 +58,7 @@ VSCode stellt nicht nur einzelne Dateien dar, sonderrn ganze Ordner.
 
 ### Ordner mit VSCode öffnen
 
-Wenn sie VSCode starten, sollten sie die Aktion *Open Folder ...* sehen.
+Wenn sie VSCode starten, können sie die Aktion *Open Folder...* anwählen.
 
 ![](../vscode-start.png)
 
@@ -71,7 +73,7 @@ msg = "Hello World"
 print(msg)
 ```
 
-Es sollte dann so aussehen:
+In VSCode sollte das so aussehen:
 
 ![](../vscode-hello.png)
 
@@ -80,7 +82,7 @@ Es sollte dann so aussehen:
 
 ### Python Interpreter bestimmen
 
-Stellen sie sicher, dass VSCode den Python-Interpreter erkannt hat.
+Stellen sie sicher, dass VSCode den Python-Interpreter erkannt hat (siehe blaube Leiste).
 
 ![](../vscode-python.png)
 
@@ -88,11 +90,11 @@ Stellen sie sicher, dass VSCode den Python-Interpreter erkannt hat.
 
 ### Python-Code ausführen
 
-🎬 Führen sie das Skript `Hello.py` mit dem dem Knopf oben rechts aus.
+🎬 Führen sie das Skript `Hello.py` mit dem dem *Run*-Knopf oben rechts aus.
 
 ![](../vscode-execute.png)
 
-Der Output des Skript wird unterhalb im *Terminal* angezeigt.
+Der Output des Skript wird im *Terminal* angezeigt.
 
 ---
 
@@ -112,13 +114,15 @@ Mit der Tastatur ist man immer schneller.
 
 <kbd>ctrl</kbd> + <kbd>p</kbd>: Datei anzeigen
 
+<kbd>ctrl</kbd> + <kbd>,</kbd>: Einstellungen öffnen
+
 ---
 
 ### Modul mit Funktion erstellen
 
 Nun erstellen wir unser erstes Python-Modul.
 
-🎬 Erstellen sie die Datei `lib.py` im geöffneten Ordner mit diesem Inhalt:
+🎬 Erzeugen sie die Datei `lib.py` im geöffneten Ordner mit diesem Code:
 
 ```py
 def world():
