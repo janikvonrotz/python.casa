@@ -32,7 +32,7 @@ Zum Teilnehmen diesen [Zoom-Link](https://us02web.zoom.us/j/5020793116?pwd=cGhqO
 
 ### Teil 2
 
-* [Thema 7 - Module und Import](topic-7/README.md) 🚧
+* [Thema 7 - Module und Import](topic-7/README.md) ✅
 * [Thema 7.5 - Datenbanken](topic-7-5/README.md) 🚧
 * [Thema 8 - Jupiter-Notebooks, SciPy und Matplotlib](topic-8/README.md) 🚧
 * [Thema 9 - Webapplikation mit Python Flask](topic-9/README.md) 🚧
