@@ -1,9 +1,8 @@
 ## Datum und Zeit
 
-[Thema 3.5](README.md)\
-Umfang ⏱️: 1 Lektion
+[Thema 3.5](./README.md)
 
-⚡[Anwesenheit bestätigen](https://moodle.medizintechnik-hf.ch/mod/attendance/manage.php?id=6139) und Webcam einschalten.
+⚡[Anwesenheit bestätigen](https://moodle.medizintechnik-hf.ch/mod/attendance/manage.php?id=6139)
 
 📖 Kapitel 6 Datum und Zeit
 

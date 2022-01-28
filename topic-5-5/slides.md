@@ -2,7 +2,7 @@
 
 [Thema 5.5](./README.md)
 
-⚡[Anwesenheit bestätigen](https://moodle.medizintechnik-hf.ch/mod/attendance/manage.php?id=6139) und Webcam einschalten.
+⚡[Anwesenheit bestätigen](https://moodle.medizintechnik-hf.ch/mod/attendance/manage.php?id=6139)
 
 📖 Kapitel 11 Funktionen
 

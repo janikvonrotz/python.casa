@@ -2,7 +2,7 @@
 
 [Thema 4](./README.md)
 
-⚡[Anwesenheit bestätigen](https://moodle.medizintechnik-hf.ch/mod/attendance/manage.php?id=6139) und Webcam einschalten.
+⚡[Anwesenheit bestätigen](https://moodle.medizintechnik-hf.ch/mod/attendance/manage.php?id=6139)
 
 📖 Kapitel 7 Listen, Tupel, Sets und Dictionairies  
 📖 Kapitel 8 Verzweigungen und Schleifen

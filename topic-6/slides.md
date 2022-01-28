@@ -2,7 +2,7 @@
 
 [Thema 6](./README.md)
 
-⚡[Anwesenheit bestätigen](https://moodle.medizintechnik-hf.ch/mod/attendance/manage.php?id=6139) und Webcam einschalten.
+⚡[Anwesenheit bestätigen](https://moodle.medizintechnik-hf.ch/mod/attendance/manage.php?id=6139)
 
 📖 Kapitel 10 Umgang mit Fehlern (Exceptions)\
 📖 Kapitel 14 Dateien lesen und schreiben\
