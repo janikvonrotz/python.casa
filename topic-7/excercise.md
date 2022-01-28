@@ -37,7 +37,7 @@ Sie haben ein Programm `camel.py` und eine `requirements.txt` Datei erhalten.
 
 **requirements.txt**
 
-```txt
+```
 camelcase
 ```
 
