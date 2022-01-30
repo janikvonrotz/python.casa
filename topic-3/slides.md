@@ -184,6 +184,8 @@ s3 = s1 + s2 + s1
 print(s3) # Ergebnis 'abcefgabc'
 ```
 
+t
+
 ---
 ### Zeichenketten vervielfältigen
 
