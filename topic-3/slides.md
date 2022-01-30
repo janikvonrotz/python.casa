@@ -177,14 +177,14 @@ print(s)
 * Ordner `Thema3` und Datei `Zeichenketten.py` erstellen
 * Geben sie den folgenden Code ein:
 
+**Zeichenkette.py**
+
 ```py
 s1 = 'abc'
 s2 = 'efg'
 s3 = s1 + s2 + s1
 print(s3) # Ergebnis 'abcefgabc'
 ```
-
-t
 
 ---
 ### Zeichenketten vervielfältigen
