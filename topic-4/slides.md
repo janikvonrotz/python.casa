@@ -200,6 +200,8 @@ print(lst) # [' ', '!', ',', 'H', 'W', 'd', 'e', 'l', 'l', 'l', 'o', 'o', 'r']
 * Erstellen sie die Datei `Tupel.py`
 * Schreiben sie diesen Code:
 
+**Tupel.py**
+
 ```py
 t = (12, 73, 3)
 print(t)
@@ -230,6 +232,8 @@ if (a, b, c) == (1, 2, 3):
 🎬 Führen sie diese Aktionen aus:
 * Erstellen sie die Datei `Sets.py`
 * Schreiben sie diesen Code:
+
+**Sets.py**
 
 ```py
 s = {1,2,3,3}
@@ -262,6 +266,8 @@ print(s)
 🎬 Führen sie diese Aktionen aus:
 * Erstellen sie die Datei `Dict.py`
 * Schreiben sie diesen Code:
+
+**Dict.py**
 
 ```py
 key = "Blau"
