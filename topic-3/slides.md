@@ -316,6 +316,8 @@ print(str.islower('abcD')) # False
 * Datei `Suchen.py` erstellen
 * Diesen Code einfügen und ausführen:
 
+**Suchen.py**
+
 ```py
 s="abcdefghijklmnopqrstuvwxyz"
 print(s.find("hij")) # Ergebnis: 7
