@@ -139,7 +139,8 @@ Ziel: Aufgabe 3.1 und 3.2 gelöst.
 
 * Wichtigkeit: Zeichenketten > Zahlen
 * Python macht den Umgang mit Zeichenketten relativ leicht
-<!-- list -->
+
+Beispiel:
 
 ```py
 s='abc'
