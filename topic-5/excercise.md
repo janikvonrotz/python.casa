@@ -244,7 +244,7 @@ def prod(*f):
 </pre>
 </details>
 
-*W4**: Schreiben Sie eine Funktion, die eine Zeichenkette nach allen Vorkommen einer anderen Zeichenkette durchsucht und die Startpositionen als Liste zurückgibt. Beispiel:
+**W4**: Schreiben Sie eine Funktion, die eine Zeichenkette nach allen Vorkommen einer anderen Zeichenkette durchsucht und die Startpositionen als Liste zurückgibt. Beispiel:
 
 ```py
 print(findAll('abcefgabcxyzabcd', 'abc'))
