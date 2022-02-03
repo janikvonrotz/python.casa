@@ -12,10 +12,14 @@ pip install plotly-express
 ## ExerciseNotebook.ipynb
 Um im Jupyter Notebook fortzufahren müssen folgende Dateien aus dem Python.casa Kurs heruntergeladen werden. Diese Dateien müssen in einem Beliebiegen Ordner gespeicher werden, welcher dann in Visual Studio Code geöffnet werden kann.
 * ExerciseNotebook.ipynb
-* heart.jpg
+* *.jpg (also alle Bilder mit der Dateiendung .jpg)
 * heart.csv
 
 ## Backuplösung bei Installationsproblemen
 Falls es nicht möglich ist die Programmierumgebung aufzusetzen kann das ExerciseNotebook.ipynb in einer Browser basierten Jupyter Umgebung ausgeführt werden. Das Notebook kann unter folgendem Link geöffnet werden.
+
+https://www.kaggle.com/code
+
+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
 
 
