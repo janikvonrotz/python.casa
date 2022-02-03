@@ -1,6 +1,6 @@
 # Thema 7.5 - Datenbanken
 
-Umfang ⏱️: 2 Lektionen
+Umfang ⏱️: 4 Lektionen
 
 ## [Slides](slides.md)
 
