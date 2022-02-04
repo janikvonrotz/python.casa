@@ -19,11 +19,8 @@ Befolgen Sie die nächsten Schritte um die Programmierumgebung zu erweitern.
 * Pip Manager Installieren
 * Pip Manager öffnen (Neues Symbol auf der linken Seite in Visual Studio)
 * Das in der Sidebar ersichtliche "+" Symbol klicken, "pandas" eingeben und mit Enter-Taste installiren
-
-
-pip install pandas
-pip install plotly-express
-pip install sklearn
+* Das in der Sidebar ersichtliche "+" Symbol klicken, "plotly-express" eingeben und mit Enter-Taste installiren
+* Das in der Sidebar ersichtliche "+" Symbol klicken, "scikit-learn" eingeben und mit Enter-Taste installiren
 
 ## ExerciseNotebook.ipynb
 Um im Jupyter Notebook fortzufahren müssen folgende Dateien aus dem Python.casa Kurs heruntergeladen werden. Diese Dateien müssen in einem Beliebiegen Ordner gespeicher werden, welcher dann in Visual Studio Code geöffnet werden kann.
@@ -36,14 +33,12 @@ Um im Jupyter Notebook fortzufahren müssen folgende Dateien aus dem Python.casa
 Falls es nicht möglich ist die Programmierumgebung aufzusetzen, kann das ExerciseNotebook.ipynb in einer Browser basierten Jupyter Umgebung ausgeführt werden.
 
 Dabei muss folgendermassen vorgegangen werden
-
 * Öffne: https://www.kaggle.com/code
 * Klicke "+ New Notebook" 
 * Klicke auf "+ Add Data" 
 * Suche nach "Heart Attack Analysis & Prediction Dataset Heart Attack Analysis & Prediction Dataset" im Suchfenster oben rechts
 * Klick "ADD" um das Datenset hinzuzufügen, dabei schliesst sich das Fenster
-*
+* Kicken sie "File" -> "Import Notebook" -> "Browse File" und wählen sie die "ExerciseNotebook.ipynb" Datei aus (Dies muss vorher heruntergeladen werden)
+* Anschliessend "Import" klicken
 
-
-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
-
+🎬 Nun können Sie dem gemäss dem Inhalt des Jupyter Notebooks fortfahren
