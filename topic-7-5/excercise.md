@@ -6,7 +6,7 @@ Aufgaben zum Thema.
 
 ### Aufgabe 7.5.1: Datenbank auslesen und sortieren
 
-Laden sie als erstes die Datei [`quiz.db`](https://raw.githubusercontent.com/janikvonrotz/python.casa/main/topic-7-5/quiz.db) herunter und speichern sie es in einem Ordner. Erstellen sie die Datei `lager.py` im selben Ordner.
+Laden sie als erstes die Datei [`quiz.db`](https://raw.githubusercontent.com/janikvonrotz/python.casa/main/topic-7-5/quiz.db) herunter und speichern sie es in einem Ordner. Erstellen sie die Datei `quiz.py` im selben Ordner.
 
 Schauen sie sich die Datenbank mit VSCode an und beantworten sie diese Fragen:
 * Wieviele Datensätze gibt es?
