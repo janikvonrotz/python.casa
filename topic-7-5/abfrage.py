@@ -4,20 +4,26 @@ import sqlite3
 connection = sqlite3.connect("lager.db")
 cursor = connection.cursor()
 
+# Datensatz aktualisieren
+sql = "UPDATE lager SET preis = 71 WHERE id = 2"
+cursor.execute(sql)
+connection.commit()
+
+# Datensatz löschen
+sql = "DELETE FROM lager WHERE id = 3"
+cursor.execute(sql)
+connection.commit()
+
 # SQL-Abfrage
 sql = "SELECT * FROM lager"
 
-# Kontrollausgabe der SQL-Abfrage
-# print(sql)
-
-# Absenden der SQL-Abfrage
-# Empfang des Ergebnisses
+# Absenden der SQL-Abfrage und Empfang des Ergebnis
 cursor.execute(sql)
 
-# Ausgabe des Ergebnisses
-for dsatz in cursor:
-    print(dsatz[0], dsatz[1], dsatz[2],
-          dsatz[3], dsatz[4])
+# Ausgabe des Ergebnis
+for datensatz in cursor:
+    print(datensatz[1])
+    print(datensatz)
 
 # Verbindung beenden
 connection.close()

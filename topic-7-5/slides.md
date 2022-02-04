@@ -145,10 +145,9 @@ Aktualisiert die Datei `lager.py` mit diesem Code:
 ```py
 import os, sys, sqlite3
 
-# Existenz feststellen
+# Datei entfernen wenn existiert
 if os.path.exists("lager.db"):
-    print("Datei bereits vorhanden")
-    sys.exit(0)
+    os.remove("lager.db")
 
 # Verbindung zur Datenbank erzeugen
 connection = sqlite3.connect("lager.db")
@@ -191,6 +190,8 @@ connection.commit()
 connection.close()
 ```
 
+🎬 Führt das Programm `lager.py` aus. Es wird nun eine `lager.db` Datei erstellt.
+
 ---
 
 ### Datenbank anschauen
@@ -199,27 +200,144 @@ Mit dieser VSCode-Erweiterung können wir die Datenbank-Datei anschauen:
 
 ![](../vscode-sqlite.png)
 
----
-
-###
-
-
+🎬 Installiert diese Erweiterung.
 
 ---
 
-### Datensatz einfügen
+### SQLite Datenbank anschauen
+
+🎬 Zeigt den Inhalt von `lager.db` wie folgt an:
+
+![sqlite-browse](../sqlite-browse.gif)
 
 ---
 
-### Daten anzeigen
+### Weitere Datensätze einfügen
+
+🎬 Fügt weiteren Datensätze hinzu, indem ihr den Code unten an der richtigen Stelle einfügt.
+
+```py
+# Datensatz erzeugen
+sql = "INSERT INTO lager VALUES(1, 'Holztisch', 'E-COM06', '601647855633', 3, 147)"
+cursor.execute(sql)
+sql = "INSERT INTO lager VALUES(2, 'Bürostuhl', 'E-COM06', '601647855634', 1, 70.50)"
+cursor.execute(sql)
+sql = "INSERT INTO lager VALUES(3, 'Abfalleimer', 'E-COM06', '601647855649', 5, 43)"
+cursor.execute(sql)
+connection.commit()
+```
+
+---
+
+### Daten abfragen
+
+Wir möchten die Daten nun mit SQL/Python auslesen.
+
+🎬 Erstellt eine neue Datei `abfragen.py`.
+
+---
+
+### Alle Datensätze anzeigen
+
+🎬 Ergänzt `abfragen.py` und führt den Code aus.
+
+```py
+import sqlite3
+
+# Verbindung, Cursor
+connection = sqlite3.connect("lager.db")
+cursor = connection.cursor()
+
+# SQL-Abfrage
+sql = "SELECT * FROM lager"
+
+# Absenden der SQL-Abfrage und Empfang des Ergebnis
+cursor.execute(sql)
+
+# Ausgabe des Ergebnis
+for datensatz in cursor:
+    print(datensatz[1])
+    print(datensatz)
+
+# Verbindung beenden
+connection.close()
+```
+
+🤔 Wie kann man nur bestimmte Datensätze ausgeben?
 
 ---
 
 ### Daten filtern
 
+Das Schlüsselwort heisst `WHERE`.
+
+🎬 Ersetzt die SQL-Abfrage mit:
+
+```py
+sql = "SELECT * FROM lager WHERE id = 1"
+```
+
+ℹ️ SQL hat eine andere Syntax als Python.
+
+🤔 Wie kann man bestimmte Datensätze verändern?
+
+---
+
+### Datensatz verändern
+
+Das Schlüsselwort heisst `UPDATE`.
+
+🎬 Ersetzt die SQL-Abfrage mit:
+
+```py
+# Datensatz aktualisieren
+sql = "UPDATE lager SET preis = 71 WHERE id = 2"
+cursor.execute(sql)
+connection.commit()
+
+# SQL-Abfrage
+sql = "SELECT * FROM lager WHERE id = 2"
+```
+
+
+🤔 Wie kann man bestimmte Datensätze löschen?
+
 ---
 
 ### Datensatz löschen
+
+Das Schlüsselwort heisst `DELETE`.
+
+🎬 Ersetzt die SQL-Abfrage mit:
+
+```py
+# Datensatz löschen
+sql = "DELETE FROM lager WHERE id = 3"
+cursor.execute(sql)
+connection.commit()
+
+# SQL-Abfrage
+sql = "SELECT * FROM lager"
+```
+
+---
+
+### CRUD
+
+Wir haben gerade die CRUD-Operationen angwendet:
+
+* **C**: Create
+* **R**: Read
+* **U**: Update
+* **D**: Delete
+
+---
+
+### Mehr zu SQL
+
+SQL wird von verschiedenen Datenbanksystemen unterstützt.
+
+Wer mehr zu SQL wissen wollt, besucht das [SQL Tutorial](https://www.w3schools.com/sql/).
 
 ---
 
@@ -235,7 +353,7 @@ Ziel: Aufgabe 7.5.1 und 7.5.2 gelöst.
 
 ### Ausblick
 
-* Data Science mit Python
+* Bioinformatik mit Python
 * Experte eingeladen 🙏 Alle anwesend
 
 ---

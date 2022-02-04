@@ -1,9 +1,8 @@
 import os, sys, sqlite3
 
-# Existenz feststellen
+# Datei entfernen wenn existiert
 if os.path.exists("lager.db"):
-    print("Datei bereits vorhanden")
-    sys.exit(0)
+    os.remove("lager.db")
 
 # Verbindung zur Datenbank erzeugen
 connection = sqlite3.connect("lager.db")
@@ -12,7 +11,7 @@ connection = sqlite3.connect("lager.db")
 cursor = connection.cursor()
 
 # Datenbanktabelle erzeugen
-sql = """CREATE TABLE lager(
+sql = """CREATE TABLE IF NOT EXISTS lager(
     id INTEGER PRIMARY KEY,
     name TEXT,
     referenz TEXT ,
@@ -23,6 +22,10 @@ cursor.execute(sql)
 
 # Datensatz erzeugen
 sql = "INSERT INTO lager VALUES(1, 'Holztisch', 'E-COM06', '601647855633', 3, 147)"
+cursor.execute(sql)
+sql = "INSERT INTO lager VALUES(2, 'Bürostuhl', 'E-COM06', '601647855634', 1, 70.50)"
+cursor.execute(sql)
+sql = "INSERT INTO lager VALUES(3, 'Abfalleimer', 'E-COM06', '601647855649', 5, 43)"
 cursor.execute(sql)
 connection.commit()
 
