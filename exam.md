@@ -65,7 +65,7 @@ Liste:  \_\_
 
 Ziel: Die Studierenden definieren ein Problem oder Projekt und lösen dieses mithilfe eines selbstgeschriebenen Programms.
 
-Aufwand: 12-20 Stunden
+Aufwand: 8-16 Stunden
 
 ### Durchführung
 
