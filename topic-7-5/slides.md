@@ -362,7 +362,7 @@ Ziel: Aufgabe 7.5.1 und 7.5.2 gelöst.
 ### Restliche Zeit
 
 * Arbeit an Leistungsnachweis
-* Fragen zu Prüfung klären
+* Fragen zur Prüfung klären
 
 ---
 
