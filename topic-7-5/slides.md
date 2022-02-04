@@ -161,15 +161,49 @@ cursor = connection.cursor()
 
 ### Tabelle erstellen
 
+🎬 Mit SQL erstellen wir nun eine Tabelle. Fügt diesen Code hinzu:
+
+```py
+# Datenbanktabelle erzeugen
+sql = """CREATE TABLE lager(
+    id INTEGER PRIMARY KEY,
+    name TEXT,
+    referenz TEXT ,
+    barcode TEXT,
+    lager INTEGER,
+    preis REAL)"""
+cursor.execute(sql)
+```
+
 ---
 
-### Spalte hinzufügen
+### Datensatz hinzufügen
+
+🎬 Fügt diesen Code an um einen Datensatz zu erzeugen:
+
+```py
+# Datensatz erzeugen
+sql = "INSERT INTO lager VALUES(1, 'Holztisch', 'E-COM06', '601647855633', 3, 147)"
+cursor.execute(sql)
+connection.commit()
+
+# Verbindung beenden
+connection.close()
+```
 
 ---
 
 ### Datenbank anschauen
 
+Mit dieser VSCode-Erweiterung können wir die Datenbank-Datei anschauen:
+
 ![](../vscode-sqlite.png)
+
+---
+
+###
+
+
 
 ---
 
