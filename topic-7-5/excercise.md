@@ -66,3 +66,5 @@ sql = "SELECT * FROM questions WHERE questionID = " + frage
 **Zusatzaufgabe**
 
 Können sie das Programm in einer Schleife schalten, bis man die richtige Antwort gefunden hat?
+
+Erstellen sie eine eine Frage-ID nach Zufall und filtern sie verfügbaren Fragen anhand des Schwierigkeits-Grades.
