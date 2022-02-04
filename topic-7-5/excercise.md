@@ -4,7 +4,7 @@
 
 Aufgaben zum Thema.
 
-Danke an Hari Thavachchelvam für die Idee zur Aufgabenstellung.
+Danke an Hari Thavachchelvam für die Idee zur Aufgabenstellung. 
 
 ### Aufgabe 7.5.1: Datenbank auslesen und sortieren
 
