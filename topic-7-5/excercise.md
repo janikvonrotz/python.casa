@@ -4,6 +4,8 @@
 
 Aufgaben zum Thema.
 
+Danke an Hari Thavachchelvam für die Idee zur Aufgabenstellung.
+
 ### Aufgabe 7.5.1: Datenbank auslesen und sortieren
 
 Laden sie als erstes die Datei [`quiz.db`](https://raw.githubusercontent.com/janikvonrotz/python.casa/main/topic-7-5/quiz.db) herunter und speichern sie es in einem Ordner. Erstellen sie die Datei `quiz.py` im selben Ordner.
