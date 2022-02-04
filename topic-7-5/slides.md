@@ -8,11 +8,11 @@
 
 ---
 
-### Rückblick
+### Program
 
+- Unterricht durchführen
 - Besprechen Wissensprüfung / Feedback
 - Rückmeldung Projektvorschläge
-- Beispiel Leistungsnachweis
 
 ---
 
@@ -24,12 +24,11 @@ Mit ver VSCode-Erweiterung *Pip Manager* können sie *pip* Pakete verwalten.
 
 ![vscode-pip](../vscode-pip.gif)
 
-
 ---
 
 ### Grosse Datenmengen
 
-Wie man Text-Daten liest und speichert, wissen wir inzwischen. Im Umgang mit vielen Daten ergeben sie neue Fragen:
+Wie man Text-Daten liest und speichert, wissen wir. Im Umgang mit grossen Datenmengen ergeben sie neue Fragen:
 * Wie speichert man grosse Datenmengen?
 * Wie stellt man sicher, dass in den Daten keine Fehler sind?
 * Wie ermöglicht man den Zugriff für mehrere Programme auf dieselben Daten?
@@ -49,7 +48,7 @@ Daten in einer Datenbank an einem Ort speichern.
 
 >  Eine Datenbank ist ein System zur **elektronischen Verwaltung von Daten**. Die Kernaufgabe von Datenbanken liegt in der effizienten, dauerhaften und fehlerfreien Speicherung großer Datenmengen sowie in der bedarfsgerechten Bereitstellung benötigter Informationen.
 
-ℹ️ Das Gegenteil einer Datenbank ist sozusagen Excel.
+ℹ️ Das Gegenteil einer Datenbank ist Excel.
 
 ---
 
@@ -65,10 +64,13 @@ Auf dem Desktop kann man direkt auf die Datenbank zugreifen.
 
 ### Welche Datenbanktypen gibt es?
 
-Grundtypen
+Grundtypen:
+* **Relational**: Definierte Tabellen und Spalten, Abfragen und Manipulation von Daten nur in diesem Raster möglich.
+* **NoSQL/Non-Relational**: Schema ist freiher, dafür Datenkonsistenz nicht gegeben.
 
-* **Relation**: Definierte Tabellen und Spalten, Abfragen und Manipulation von Daten nur in diesem Raster möglich.
-* **NoSQL**: Schema ist freiher, dafür Datenkonsistenz nicht gegeben.
+---
+
+### Beispiel Relational/Non-Relational
 
 ![](../relational-non-relatonal.png)
 
@@ -81,27 +83,26 @@ Es gibt verschiedene RDBMS. Wir interessieren uns für *PostgreSQL* und *SQLite*
 * **PostgreSQL**: Komplexes Datenbanksystem, dass auf Server installiert wird.
 * **SQLite**: Ist im wesentlichen eine Datenbankdatei, die überall installiert werden kann.
 
-
 ---
 
 ### SQLite
 
-Ist die meist verbreitete Datenbank-Engine[^1]. Sie ist auf jedem Smartphone installiert.
+Ist die meist verbreitete Datenbank-Engine[^1]. Sie ist auf jedem Smartphone vorhanden.
 
 ![](../sqlite.png)
 
-Wie viele andere Datenbanksysteme ist es SQL-basiert. Bei SQL (Structured Query Language) handelt es sich um die am meisten verwendete Datenbanksprache.
+Wie viele andere Datenbanksysteme ist SQLite SQL-basiert. Bei SQL (Structured Query Language) handelt es sich um die am meisten verwendete Datenbanksprache.
 
 ---
 
 ### Python und SQLite
 
-Mit Python können wir eine SQLite-Datenbank erstellen und bearbeiten. Wir erstellen diese Lager-Tabelle:
+Mit Python können wir eine SQLite-Datenbank erstellen und bearbeiten. Wir wollen diese Lager-Tabelle erstellen:
 
 | ID  | Name        | Referenz  | Barcode      | Lager | Preis |
 | --- | ----------- | --------- | ------------ | ----- | ----- |
 | 1   | Holztisch   | E-COM06   | 601647855633 | 3     | 147   |
-| 2   | Bürostuhl   | FURN_7777 | 601647855634 | 1     | 70.50    |
+| 2   | Bürostuhl   | FURN_7777 | 601647855634 | 1     | 70.50 |
 | 3   | Abfalleimer | E-COM10   | 601647855649 | 5     | 43    |
 
 ---
@@ -111,13 +112,13 @@ Mit Python können wir eine SQLite-Datenbank erstellen und bearbeiten. Wir erste
 Eine Datenbank wird in den folgenden Schritten erzeugt:
 -   Anlegen der Datenbank
 -   Anlegen von Datenbanktabellen durch Angabe der Struktur
--   Eingeben der Datensätze in die Datenbanktabellen
+-   Eingabe der Datensätze in die Datenbanktabellen
 
 ---
 
 ### Modul und Datentypen
 
-SQLite wird über das Modul _sqlite3_ direkt in Python eingebunden. Es bietet standardmäßig die folgenden Datentypen:
+SQLite wird über das Modul `sqlite3` direkt in Python eingebunden. Es bietet standardmäßig die folgenden Datentypen:
 
 -   **TEXT**: Für Zeichenketten
 -   **INTEGER**: Für ganze Zahlen
@@ -125,7 +126,7 @@ SQLite wird über das Modul _sqlite3_ direkt in Python eingebunden. Es bietet st
 -   **BLOB**: Für _binary large objects_, also große binäre Datenmengen
 -   **NULL**: Entspricht _None_ in Python
 
-🤔  Wie ordnen sie die Datentypen der Lager-Tabelle zu?
+🤔  Wie ordnen sie die Datentypen der Spalten der Lager-Tabelle zu?
 
 ---
 
@@ -160,7 +161,7 @@ cursor = connection.cursor()
 
 ### Tabelle erstellen
 
-🎬 Mit SQL erstellen wir nun eine Tabelle. Fügt diesen Code hinzu:
+🎬 Mit SQL erstellen wir nun eine Tabelle. Fügen sie diesen Code hinzu:
 
 ```py
 # Datenbanktabelle erzeugen
@@ -178,7 +179,7 @@ cursor.execute(sql)
 
 ### Datensatz hinzufügen
 
-🎬 Fügt diesen Code an um einen Datensatz zu erzeugen:
+🎬 Fügen sie diesen Code an, um einen Datensatz zu erzeugen:
 
 ```py
 # Datensatz erzeugen
@@ -190,23 +191,23 @@ connection.commit()
 connection.close()
 ```
 
-🎬 Führt das Programm `lager.py` aus. Es wird nun eine `lager.db` Datei erstellt.
+🎬 Führen sie das Programm `lager.py` aus. Es wird nun eine `lager.db` Datei erstellt.
 
 ---
 
 ### Datenbank anschauen
 
-Mit dieser VSCode-Erweiterung können wir die Datenbank-Datei anschauen:
+Mit dieser VSCode-Erweiterung können sie die Datenbank-Datei anschauen:
 
 ![](../vscode-sqlite.png)
 
-🎬 Installiert diese Erweiterung.
+🎬 Installieren sie diese Erweiterung.
 
 ---
 
 ### SQLite Datenbank anschauen
 
-🎬 Zeigt den Inhalt von `lager.db` wie folgt an:
+🎬 Zeigen sie den Inhalt von `lager.db` wie folgt an:
 
 ![sqlite-browse](../sqlite-browse.gif)
 
@@ -214,7 +215,7 @@ Mit dieser VSCode-Erweiterung können wir die Datenbank-Datei anschauen:
 
 ### Weitere Datensätze einfügen
 
-🎬 Fügt weiteren Datensätze hinzu, indem ihr den Code unten an der richtigen Stelle einfügt.
+🎬 Fügen wie weitere Datensätze hinzu, indem sie den Code unten an der richtigen Stelle einfügen.
 
 ```py
 # Datensatz erzeugen
@@ -231,15 +232,15 @@ connection.commit()
 
 ### Daten abfragen
 
-Wir möchten die Daten nun mit SQL/Python auslesen.
+Wir möchten die Daten mit SQL/Python auslesen.
 
-🎬 Erstellt eine neue Datei `abfragen.py`.
+🎬 Erstellen sie eine neue Datei `abfragen.py`.
 
 ---
 
 ### Alle Datensätze anzeigen
 
-🎬 Ergänzt `abfragen.py` und führt den Code aus.
+🎬 Ergänzen sie `abfragen.py` und führen sie den Code aus.
 
 ```py
 import sqlite3
@@ -271,7 +272,7 @@ connection.close()
 
 Das Schlüsselwort heisst `WHERE`.
 
-🎬 Ersetzt die SQL-Abfrage mit:
+🎬 Ersetzen sie die SQL-Abfrage mit:
 
 ```py
 sql = "SELECT * FROM lager WHERE id = 1"
@@ -287,7 +288,7 @@ sql = "SELECT * FROM lager WHERE id = 1"
 
 Das Schlüsselwort heisst `UPDATE`.
 
-🎬 Ersetzt die SQL-Abfrage mit:
+🎬 Ersetzen sie die SQL-Abfrage mit:
 
 ```py
 # Datensatz aktualisieren
@@ -308,7 +309,7 @@ sql = "SELECT * FROM lager WHERE id = 2"
 
 Das Schlüsselwort heisst `DELETE`.
 
-🎬 Ersetzt die SQL-Abfrage mit:
+🎬 Ersetzen sie die SQL-Abfrage mit:
 
 ```py
 # Datensatz löschen
@@ -324,7 +325,7 @@ sql = "SELECT * FROM lager"
 
 ### CRUD
 
-Wir haben gerade die CRUD-Operationen angwendet:
+Wir haben gerade die CRUD-Operationen angewendet:
 
 * **C**: Create
 * **R**: Read
@@ -355,6 +356,13 @@ Ziel: Aufgabe 7.5.1 und 7.5.2 gelöst.
 
 * Bioinformatik mit Python
 * Experte eingeladen 🙏 Alle anwesend
+
+---
+
+### Restliche Zeit
+
+* Arbeit an Leistungsnachweis
+* Fragen zu Prüfung klären
 
 ---
 

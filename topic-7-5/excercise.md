@@ -37,7 +37,7 @@ for datensatz in cursor:
 connection.close()
 ```
 
-## Aufgabe 7.5.2: Abfrage mit Input
+### Aufgabe 7.5.2: Abfrage mit Input
 
 Mit dem `input` Befehl können wir nach einer bestimmten Frage-ID und Antwort-Nummer fragen. Erweitern sie das Skript aus der vorhergehenden Aufgabe mit dem Befehl.
 
