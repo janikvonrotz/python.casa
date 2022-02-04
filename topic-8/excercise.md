@@ -47,4 +47,3 @@ Dabei muss folgendermassen vorgegangen werden
 
 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
 
-
