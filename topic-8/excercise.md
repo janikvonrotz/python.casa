@@ -1,9 +1,14 @@
-# Intro
+# Übungen Thema 8
+
+## Aufgaben
+
+Aufgaben zum Thema.
+
 Alle Erklährungen und Aufgaben sind im [ExerciseNotebook.ipynb](ExerciseNotebook.ipynb) Jupyter Notebook. Um dieses Notebook zu öffnen und den Inhalt auszuführen wird einerseits die Visual Studio Code Jupyter Notebook Extension, sowie zwei weitere Python Pakete benötigt. 
 
 Befolgen Sie die nächsten Schritte um die Programmierumgebung zu erweitern.
 
-## Programmierumgebung aufsetzen
+### Aufgabe 8.1:  Programmierumgebung aufsetzen
 
 **Jupyter Notebook installieren**
 * Öffne Visual Studio Code
@@ -22,14 +27,21 @@ Befolgen Sie die nächsten Schritte um die Programmierumgebung zu erweitern.
 * Das in der Sidebar ersichtliche "+" Symbol klicken, "plotly-express" eingeben und mit Enter-Taste installiren
 * Das in der Sidebar ersichtliche "+" Symbol klicken, "scikit-learn" eingeben und mit Enter-Taste installiren
 
-## ExerciseNotebook.ipynb
+### Aufgabe 8.2:  ExerciseNotebook.ipynb
+
 Um im Jupyter Notebook fortzufahren müssen folgende Dateien aus dem Python.casa Kurs heruntergeladen werden. Diese Dateien müssen in einem Beliebiegen Ordner gespeicher werden, welcher dann in Visual Studio Code geöffnet werden kann.
 * ExerciseNotebook.ipynb
 * heart.csv
 
 🎬 Nun können Sie dem gemäss dem Inhalt des Jupyter Notebooks fortfahren
 
-## Backuplösung bei Installationsproblemen
+::: tip
+Falls VSCode nach der Erweiterung `ipykernel` fragt, kann man den Dialog mit *Installieren* bestätigen.
+![](../ipykernel.png)
+:::
+
+### Alternative bei Installationsproblemen
+
 Falls es nicht möglich ist die Programmierumgebung aufzusetzen, kann das ExerciseNotebook.ipynb in einer Browser basierten Jupyter Umgebung ausgeführt werden.
 
 Dabei muss folgendermassen vorgegangen werden
