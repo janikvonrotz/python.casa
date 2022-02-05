@@ -11,21 +11,23 @@ Befolgen Sie die nächsten Schritte um die Programmierumgebung zu erweitern.
 ### Aufgabe 8.1:  Programmierumgebung aufsetzen
 
 **Jupyter Notebook installieren**
+
 * Öffne Visual Studio Code
 * Öffne den Extension Manager (ctrl+shift+x)
-* Suche nach "Jupyter" im Suchfeld
+* Suche nach `Jupyter` im Suchfeld
 * Jupyter Installieren
 * Visuals Studio Code neustarten
 
 **Pandas, plotly.express und skelarn Paket installieren**
+
 * Öffne Visual Studio Code
 * Öffne den Extension Manager (ctrl+shift+x)
-* Suche nach "Pip Manager" im Suchfeld
+* Suche nach `Pip Manager` im Suchfeld
 * Pip Manager Installieren
 * Pip Manager öffnen (Neues Symbol auf der linken Seite in Visual Studio)
-* Das in der Sidebar ersichtliche "+" Symbol klicken, "pandas" eingeben und mit Enter-Taste installiren
-* Das in der Sidebar ersichtliche "+" Symbol klicken, "plotly-express" eingeben und mit Enter-Taste installiren
-* Das in der Sidebar ersichtliche "+" Symbol klicken, "scikit-learn" eingeben und mit Enter-Taste installiren
+* Das in der Sidebar ersichtliche "+" Symbol klicken, `pandas` eingeben und mit Enter-Taste installiren
+* Das in der Sidebar ersichtliche "+" Symbol klicken, `plotly-express` eingeben und mit Enter-Taste installiren
+* Das in der Sidebar ersichtliche "+" Symbol klicken, `scikit-learn` eingeben und mit Enter-Taste installiren
 
 ### Aufgabe 8.2:  ExerciseNotebook.ipynb
 
