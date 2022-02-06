@@ -96,7 +96,7 @@ Datenwissenschaft (Data Science) ist ein interdisplinäres Fachgebiet zwischen I
 Dabei werden wissenschaftliche Methoden, Algorithmen und Prozesse verwendet um Wissen und Einglick aus strukturierten und unstrukturierten Daten zu gewinnen. Verwertbare Erkenntnisse werden dann wieder als Produkt angewandt
 
 
-![](../Pasted%20image%2020220204090428.png)
+![](../data-science-field.png)
 
 ---
 
@@ -119,7 +119,7 @@ Neuronales Netzerk (Modell) trainieren mit Bilder von handgeschriebenen Zahlen (
 * Bilder mit der korrekten Zahl "labeln"
 * Model trainieren (Ziel korrektes Label voraussagen)
 * Model optimieren
-![](../Pasted%20image%2020220204093811.png)
+![](../machine-learning.png)
 
 ---
 
@@ -134,7 +134,7 @@ Der Datensatz erlaubt es ein Modell auf automatische weise zu trainieren, das Mo
 ## Werkzeuge im Data Science Bereich
 Es gibt eine schier unüberblickbare Anzahl an Werkzeugen im Data Science Bereich.
 
-![](../Pasted%20image%2020220204094505.png)
+![](../ml-ai-infrastructure.png)
 Grundlegend werden aber meistens Werkzeuge in den folgenden Kategorien verwendet:
 * **Datenverarbeitung**: Daten Datensatz speichern und manipulieren
 * **Machine Learning Modell**: Modell trainieren und optimieren
