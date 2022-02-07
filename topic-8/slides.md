@@ -6,12 +6,12 @@
 
 ---
 
-## Sebastian von Rotz
+### Sebastian von Rotz
+
 **Hintergrund**:
 * Gelernter Chemielaborant
 * Bacherlor in Biotechnologie
 * Master in Data Science
-
 
 **Aktuelle Tätigkeiten**:
 Securecell AG (Medtech / Biotech)
@@ -23,11 +23,8 @@ ZHAW LSFM
 
 ---
 
-## Rückblick
+### Ausblick
 
----
-
-## Ausblick
 Themen für die heutigen Lektonen:
 * Relevanz "Data Science" Werkzeuge in der Medizintechnik
 * Aufsetzen, Bearbeitung und Ausführung von Jupyter Notebooks
@@ -38,8 +35,9 @@ Themen für die heutigen Lektonen:
 
 ---
 
-## Daten im Gesundheitsbereich
-Die meisten Daten im Gesundheitsbereich werden natürlich rund um einen Patienten erfasst. Dabei können die art der Daten sehr divers sein [^1] :
+### Daten im Gesundheitsbereich
+
+Die meisten Daten im Gesundheitsbereich werden natürlich rund um einen Patienten erfasst. Dabei können die art der Daten sehr divers sein[^1] :
 * Physiologisch (Butdruck, Sauerstoffsättigung,...)
 * Omics-Big Data (Genom Sequenzierung, Protein Analysen,...)
 * Bildgebend (Mikroskopie, MRI, X-Ray,...)
@@ -47,8 +45,9 @@ Die meisten Daten im Gesundheitsbereich werden natürlich rund um einen Patiente
 
 ---
 
-## Quelle der Daten
-Nicht nur sind die Daten Typen sind divers, so auch sind die Quellen welche diese erfassen [^2] :
+### Quelle der Daten
+
+Nicht nur sind die Daten Typen sind divers, so auch sind die Quellen welche diese erfassen[^2] :
 * Medizintechnische Geräte
 * Wearables (Sensoren am Patienten, Smartwatches,...)
 * IoT Sensoren (Temperatur, Gaszusammensetzung,...)
@@ -56,7 +55,8 @@ Nicht nur sind die Daten Typen sind divers, so auch sind die Quellen welche dies
 
 ---
 
-## Ziele der Datenwissenschaften im Gesundheitsbereich
+### Ziele der Datenwissenschaften im Gesundheitsbereich
+
 Besonders anfallende Daten rund um den Patienten sind von Interesse, da diese es erlauben patientenspezifische Voraussagen Im Kontext der Diagnoistik, Krankheitsverläufe und personalisierter Medizin zu etablieren.
 
 Dabei sollen Softwareprodukte und Geräte entwickelt werden welche es erlauben Krankheiten zu detektieren und Krankheitsveräufe vorauszusagen.
@@ -64,21 +64,23 @@ Dabei sollen Softwareprodukte und Geräte entwickelt werden welche es erlauben K
 Neue Innovationen vorallem im Bereich computergestützte Modelle zur Predikitiven Diagnostik (Bsp. Herzinfarkt Risiko abschätzen, Automatisches Screenen von Tumoren)
 
 ---
-## Relevanz in der Medizintechnik
-Trend zu Datengetriebenen Diagnose und Monitoring Systemen. Heisst Geräte werden vernetzter und "smarter" und die Hauptkomponente ist ein Modell welches automatisch Daten auswertet.  [^2]
+### Relevanz in der Medizintechnik
+
+Trend zu Datengetriebenen Diagnose und Monitoring Systemen. Heisst Geräte werden vernetzter und "smarter" und die Hauptkomponente ist ein Modell welches automatisch Daten auswertet.
 
 Beispiele für datengetriebene medizintechnische Systeme
 * IoT in Healthcare
 * Remote Monitoring von Patienten
 * Automatisches Auswerten von CT-Scans
 
-ℹ️ Ein datengetriebenes Produkt kann sowohl eine Software sein wie auch ein Gerät welches Daten aufzeichnet und diese mittels eines Algorithmus auswertet [^5]
+ℹ️ Ein datengetriebenes Produkt kann sowohl eine Software sein wie auch ein Gerät welches Daten aufzeichnet und diese mittels eines Algorithmus auswertet[^5].
 * Software -> Automatische Bildauswertung (Screenen von Lebererkrankung)
 * Gerät -> Sensor für physiologische Daten welcher Wahrscheinlichkeit und Verlauf einer Krankheit prediktiert (Smartwatch)
 
 ---
 
-## Herausforderungen für datengetriebene Medizintechnik Produkte
+### Herausforderungen für datengetriebene Medizintechnik Produkte
+
 Um datengestützte Modelle und datengetriebene Medizinaltechnische Produkte zu etablieren müssen einige Herausforderungen überwunden werden.
 * Hohe regulatorische Anforderungen
 * Aufreinigung von Daten ist mit grossem Aufwand verbunden
@@ -86,11 +88,12 @@ Um datengestützte Modelle und datengetriebene Medizinaltechnische Produkte zu e
 * Verschiedene Patientendatenbanken (Kantonal)
 * Big Data Handhabung
 
-ℹ️ Besonders regulatorische Anforderungen bilden eine grosse Hürde für Datengetriebene Produkte [^3] (Bsp. Black Box Modell wie neuronale Netzwerke)
+ℹ️ Besonders regulatorische Anforderungen bilden eine grosse Hürde für Datengetriebene Produkte[^3] (Bsp. Black Box Modell wie neuronale Netzwerke)
 
 ---
 
-## Data Science im Allgemeinen
+### Data Science im Allgemeinen
+
 Datenwissenschaft (Data Science) ist ein interdisplinäres Fachgebiet zwischen Informatik, Mathematik und einer weiteren Domäne (Biologie, Medizin, Elektronik).
 
 Dabei werden wissenschaftliche Methoden, Algorithmen und Prozesse verwendet um Wissen und Einglick aus strukturierten und unstrukturierten Daten zu gewinnen. Verwertbare Erkenntnisse werden dann wieder als Produkt angewandt
@@ -100,7 +103,8 @@ Dabei werden wissenschaftliche Methoden, Algorithmen und Prozesse verwendet um W
 
 ---
 
-## Herangehensweise im Data Science Bereich
+### Herangehensweise im Data Science Bereich
+
 ![](../topic8_ml_procedure.jpg)
 Das grundlegende vorgehen ist immer gleich[^4] :
 * Daten erfassen
@@ -113,8 +117,9 @@ Das grundlegende vorgehen ist immer gleich[^4] :
 
 ---
 
-## Beispiel: Erkennung von handgeschriebenen Zahlen
-Neuronales Netzerk (Modell) trainieren mit Bilder von handgeschriebenen Zahlen (Daten) [^6] : 
+### Beispiel: Erkennung von handgeschriebenen Zahlen
+
+Neuronales Netzerk (Modell) trainieren mit Bilder von handgeschriebenen Zahlen (Daten)[^6] : 
 * Bilder von handgeschribenen Zahlen erfassen
 * Bilder mit der korrekten Zahl "labeln"
 * Model trainieren (Ziel korrektes Label voraussagen)
@@ -123,7 +128,8 @@ Neuronales Netzerk (Modell) trainieren mit Bilder von handgeschriebenen Zahlen (
 
 ---
 
-## Datensatz und Modell
+### Datensatz und Modell
+
 Grundsätzlich benötigt man 2 Komponenten:
 * **Datensatz**
 * **Modell**
@@ -131,27 +137,34 @@ Grundsätzlich benötigt man 2 Komponenten:
 Der Datensatz erlaubt es ein Modell auf automatische weise zu trainieren, das Modell erlaubt es dann aufgrund der Daten voraussagen und Prediktionen zu treffen.
 
 ---
-## Werkzeuge im Data Science Bereich
+
+### Werkzeuge im Data Science Bereich
+
 Es gibt eine schier unüberblickbare Anzahl an Werkzeugen im Data Science Bereich.
 
 ![](../ml-ai-infrastructure.png)
+
 Grundlegend werden aber meistens Werkzeuge in den folgenden Kategorien verwendet:
 * **Datenverarbeitung**: Daten Datensatz speichern und manipulieren
 * **Machine Learning Modell**: Modell trainieren und optimieren
 * **Visualisierungen**: Daten und Modell visualisieren
+
 ---
 
-## Werkzeuge welche in diesem Kurs verwendet werden
+### Werkzeuge welche in diesem Kurs verwendet werden
+
 * Programmierumgebung -> Jupyter Notebook
 * Datenverarbeitung -> Pandas
 * Visualiseirungen -> Pandas und Plotly.express
 * Machine Learning Modell -> sklearn
-* Datensatz -> Heart-Attack von Kaggle.com [^7]
+* Datensatz -> Heart-Attack von Kaggle.com[^7]
 
 ---
 
-## Jupyter Notebooks [^8]
-* Sind "Python Skripte" mit der Datei Endung .ipynb
+### Jupyter Notebooks
+Quelle[^9]
+
+* Sind "Python Skripte" mit der Datei Endung `.ipynb`
 * Kann als ein Dokument angesehen werden welches Text und Codezeilen beinhaltet
 * Ein Notebook ist in 2 verwschiedene Zellen aufgebaut
 	* Text Zelle: Text kann in Markdown Syntax geschrieben werden
@@ -161,7 +174,9 @@ Grundlegend werden aber meistens Werkzeuge in den folgenden Kategorien verwendet
 
 ---
 
-## Pandas [^10]
+### Pandas 
+Quelle[^10]
+
 Um Datensätze einfacher zu handhaben werden diese mittels eines Datenalanlyse und Manipulations Werkzeugs bearbeitet. Eines der bekanntesten Werkzeuge is Pandas.
 * Daten werde in Dataframes gespeichert
 * Das Dataframe kann auf einfache weise manipuliert werden
@@ -171,7 +186,9 @@ Um Datensätze einfacher zu handhaben werden diese mittels eines Datenalanlyse u
 
 ---
 
-## Plotly-express [^11]
+### Plotly-express 
+Quelle[^11]
+
 Das plotly.express python module beinhaltet Funjtkoinen um Grafiken und Visualisierungen zu erstellen und ist teil der Plotly Bibliothek
 * Es können über 30 verschieden Arten von Visualisierungstyper erstellt werden
 * Die struktur erlaubt aus auf einfache weise zwischen den typer zu wechseln (Bsp. Line Plot zu Scatter Plot)
@@ -179,28 +196,35 @@ Das plotly.express python module beinhaltet Funjtkoinen um Grafiken und Visualis
 ℹ️ Es gibt eine Vielzahl and Visualisierungsprogrammen in Python, jede mit entsprechenden Vor-und Nachteilen.
 
 ---
-## Datensatz [^12]
+
+### Datensatz
+Quelle[^12]
+
 In der nachfolgenden Übung wir das "Heart Attack Analysis & Prediction Dataset" verwendet. Dies ist ein Trainingsdatenset um Modelle zu entwickeln welche es erlauben aufgrund physiologischen Daten (13 Parameter) das Risiko eines Herzinfarktes zu klassifizieren (1 Output).
 
-ℹ️ Das Datenset wurde von der Universität California Irwine aggregiert und bereitgestellt. Die UCI hat eine grosse Sammlung and Datensets [^13]
+ℹ️ Das Datenset wurde von der Universität California Irwine aggregiert und bereitgestellt. Die UCI hat eine grosse Sammlung and Datensets[^13]
 
 ---
 
-## Exercise
-📖 Nun geht es weiter mit den [Übungen](excercise.md)
+### Aufgaben 1
+
+Lösen sie die ersten zwei Aufgaben.
+
+⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 10 Minuten
+
+Ziel: Aufgabe 8.1 und 8.2 gelöst.
 
 ---
 
 [^1]: [Integrating Data Science into Medical Device Development](https://www.medtechintelligence.com/feature_article/integrating-data-science-into-medical-device-development/)
-[^2]: [IoT in Healthcare Market Worth $534.3 Billion By 2025 | CAGR: 19.9%]https://www.grandviewresearch.com/press-release/global-iot-in-healthcare-market
-[^3]:[Regulatorische Anforderungen an Medizinprodukte mit Machine Learning]https://www.johner-institut.de/blog/regulatory-affairs/regulatorische-anforderungen-an-medizinprodukte-mit-machine-learning/
-[^4]:[ML Vorgehen]https://www.langton.cloud/machine-learning-model-training-over-time/
-[^5]:[Software und Gerät]http://starfishmedical.com/blog/medical-device-artificial-intelligence/
-[^6]:[MNIST]https://towardsdatascience.com/image-classification-in-10-minutes-with-mnist-dataset-54c35b77a38d
-[^7]:[Heart Attack Data]:https://towardsdatascience.com/26-datasets-for-your-data-science-projects-658601590a4c
-[^9]:[JupyterNotebook]https://jupyter.org/
-[^10]:[Pandas]https://pandas.pydata.org/
-[^11]:[Plotly-express]https://plotly.com/python/plotly-express/
-[^12]:[Dataset Heart Attack]https://www.kaggle.com/rashikrahmanpritom/heart-attack-analysis-prediction-dataset
-[^13]:[UCI]https://archive.ics.uci.edu/ml/datasets/Heart+Disease
-
+[^2]: [IoT in Healthcare Market Worth $534.3 Billion By 2025 | CAGR: 19.9%](https://www.grandviewresearch.com/press-release/global-iot-in-healthcare-market)
+[^3]: [Regulatorische Anforderungen an Medizinprodukte mit Machine Learning](https://www.johner-institut.de/blog/regulatory-affairs/regulatorische-anforderungen-an-medizinprodukte-mit-machine-learning/)
+[^4]: [ML Vorgehen](https://www.langton.cloud/machine-learning-model-training-over-time/)
+[^5]: [Software und Gerät](http://starfishmedical.com/blog/medical-device-artificial-intelligence/)
+[^6]: [MNIST](https://towardsdatascience.com/image-classification-in-10-minutes-with-mnist-dataset-54c35b77a38d)
+[^7]: [Heart Attack Data](https://towardsdatascience.com/26-datasets-for-your-data-science-projects-658601590a4c)
+[^9]: [JupyterNotebook](https://jupyter.org/)
+[^10]: [Pandas](https://pandas.pydata.org/)
+[^11]: [Plotly-express](https://plotly.com/python/plotly-express/)
+[^12]: [Dataset Heart Attack](https://www.kaggle.com/rashikrahmanpritom/heart-attack-analysis-prediction-dataset)
+[^13]: [UCI](https://archive.ics.uci.edu/ml/datasets/Heart+Disease)
