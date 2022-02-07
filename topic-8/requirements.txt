@@ -2,3 +2,4 @@ pandas
 plotly-express
 scikit-learn
 ipykernel
+matplotlib
