@@ -4,7 +4,7 @@
 
 Aufgaben zum Thema.
 
-Alle Erklährungen und Aufgaben sind im [ExerciseNotebook.ipynb](ExerciseNotebook.ipynb) Jupyter Notebook. Um dieses Notebook zu öffnen und den Inhalt auszuführen wird einerseits die Visual Studio Code Jupyter Notebook Extension, sowie zwei weitere Python Pakete benötigt. 
+Alle Erklährungen und Aufgaben sind im [`ExerciseNotebook.ipynb`](https://raw.githubusercontent.com/janikvonrotz/python.casa/main/topic-8/ExerciseNotebook.ipynb) Jupyter Notebook. Um dieses Notebook zu öffnen und den Inhalt auszuführen wird einerseits die Visual Studio Code Jupyter Notebook Extension, sowie zwei weitere Python Pakete benötigt. 
 
 Befolgen Sie die nächsten Schritte um die Programmierumgebung zu erweitern.
 
@@ -32,8 +32,8 @@ Befolgen Sie die nächsten Schritte um die Programmierumgebung zu erweitern.
 ### Aufgabe 8.2:  ExerciseNotebook.ipynb
 
 Um im Jupyter Notebook fortzufahren müssen folgende Dateien aus dem Python.casa Kurs heruntergeladen werden. Diese Dateien müssen in einem Beliebiegen Ordner gespeicher werden, welcher dann in Visual Studio Code geöffnet werden kann.
-* ExerciseNotebook.ipynb
-* heart.csv
+* [`ExerciseNotebook.ipynb`](https://raw.githubusercontent.com/janikvonrotz/python.casa/main/topic-8/ExerciseNotebook.ipynb)
+* [`heart.csv`](https://raw.githubusercontent.com/janikvonrotz/python.casa/main/topic-8/heart.csv)
 
 🎬 Nun können Sie dem gemäss dem Inhalt des Jupyter Notebooks fortfahren
 

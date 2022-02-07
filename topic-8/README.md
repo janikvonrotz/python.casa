@@ -1,6 +1,8 @@
 # Thema 8 - Jupiter-Notebooks, SciPy und Matplotlib
 
-Umfang ⏱️: 4 Lektionen
+Umfang ⏱️: 3 Lektionen
+
+[Alle Unterlagen anzeigen](https://github.com/janikvonrotz/python.casa/tree/main/topic-8)
 
 ## [Slides](slides.md)
 
