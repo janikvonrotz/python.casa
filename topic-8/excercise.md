@@ -26,8 +26,8 @@ Befolgen Sie die nächsten Schritte um die Programmierumgebung zu erweitern.
 * Pip Manager Installieren
 * Pip Manager öffnen (Neues Symbol auf der linken Seite in Visual Studio)
 * Das in der Sidebar ersichtliche "+" Symbol klicken, `pandas` eingeben und mit Enter-Taste installiren
-* Das in der Sidebar ersichtliche "+" Symbol klicken, `plotly-express` eingeben und mit Enter-Taste installiren
-* Das in der Sidebar ersichtliche "+" Symbol klicken, `scikit-learn` eingeben und mit Enter-Taste installiren
+* Das in der Sidebar ersichtliche "+" Symbol klicken, `plotly-express` eingeben und mit Enter-Taste installieren
+* Das in der Sidebar ersichtliche "+" Symbol klicken, `scikit-learn` eingeben und mit Enter-Taste installieren
 
 ### Aufgabe 8.2:  ExerciseNotebook.ipynb
 
@@ -55,4 +55,4 @@ Dabei muss folgendermassen vorgegangen werden
 * Kicken sie "File" -> "Import Notebook" -> "Browse File" und wählen sie die "ExerciseNotebook.ipynb" Datei aus (Dies muss vorher heruntergeladen werden)
 * Anschliessend "Import" klicken
 
-🎬 Nun können Sie dem gemäss dem Inhalt des Jupyter Notebooks fortfahren
+🎬 Nun können Sie dem gemäss dem Inhalt des Jupyter Notebooks fortfahren.
