@@ -9,11 +9,13 @@
 ### Sebastian von Rotz
 
 **Hintergrund**:
+
 * Gelernter Chemielaborant
-* Bacherlor in Biotechnologie
+* Bachelor in Biotechnologie
 * Master in Data Science
 
 **Aktuelle Tätigkeiten**:
+
 Securecell AG (Medtech / Biotech)
 * 60% Applikationsspezialist für Software im Biotechnologie Bereich
 ZHAW LSFM
@@ -26,11 +28,11 @@ ZHAW LSFM
 ### Ausblick
 
 Themen für die heutigen Lektonen:
-* Relevanz "Data Science" Werkzeuge in der Medizintechnik
+* Relevanz *Data Science* Werkzeuge in der Medizintechnik
 * Aufsetzen, Bearbeitung und Ausführung von Jupyter Notebooks
 * Implementierung der Pandas und Plotly-express Python Pakete
 * Laden, Inspizierung, Visualisierung von Daten
-* Machine Learning Modell ("AI") anwenden auf Medizin Technik relevantes Datenset
+* Machine Learning Modell (*AI*) anwenden auf Medizin Technik relevantes Datenset
 🎯 Überblick über Anwendung von Datenwissenschaften im Gesundheitsbereich. Jupyter Notebook als Programmierumgebung kennenlernen
 
 ---
@@ -38,35 +40,41 @@ Themen für die heutigen Lektonen:
 ### Daten im Gesundheitsbereich
 
 Die meisten Daten im Gesundheitsbereich werden natürlich rund um einen Patienten erfasst. Dabei können die art der Daten sehr divers sein[^1] :
-* Physiologisch (Butdruck, Sauerstoffsättigung,...)
-* Omics-Big Data (Genom Sequenzierung, Protein Analysen,...)
-* Bildgebend (Mikroskopie, MRI, X-Ray,...)
-* Logistik (Spital Mngmt, Temperatur Sensoren)
+* **Physiologisch** (Butdruck, Sauerstoffsättigung,...)
+* **Omics-Big Data** (Genom Sequenzierung, Protein Analysen,...)
+* **Bildgebend** (Mikroskopie, MRI, X-Ray,...)
+* **Logistik** (Spital Mngmt, Temperatur Sensoren)
 
 ---
 
 ### Quelle der Daten
 
 Nicht nur sind die Daten Typen sind divers, so auch sind die Quellen welche diese erfassen[^2] :
-* Medizintechnische Geräte
-* Wearables (Sensoren am Patienten, Smartwatches,...)
-* IoT Sensoren (Temperatur, Gaszusammensetzung,...)
-* Datenerfassung von Spitalpersonal
+* **Medizintechnische Geräte**
+* **Wearables** (Sensoren am Patienten, Smartwatches,...)
+* **IoT Sensoren** (Temperatur, Gaszusammensetzung,...)
+* **Datenerfassung** von Spitalpersonal
 
 ---
 
 ### Ziele der Datenwissenschaften im Gesundheitsbereich
 
+**Personalisierung**
+
 Besonders anfallende Daten rund um den Patienten sind von Interesse, da diese es erlauben patientenspezifische Voraussagen Im Kontext der Diagnoistik, Krankheitsverläufe und personalisierter Medizin zu etablieren.
 
+**Voraussage**
+
 Dabei sollen Softwareprodukte und Geräte entwickelt werden welche es erlauben Krankheiten zu detektieren und Krankheitsveräufe vorauszusagen.
+
+**Innovation**
 
 Neue Innovationen vorallem im Bereich computergestützte Modelle zur Predikitiven Diagnostik (Bsp. Herzinfarkt Risiko abschätzen, Automatisches Screenen von Tumoren)
 
 ---
 ### Relevanz in der Medizintechnik
 
-Trend zu Datengetriebenen Diagnose und Monitoring Systemen. Heisst Geräte werden vernetzter und "smarter" und die Hauptkomponente ist ein Modell welches automatisch Daten auswertet.
+Trend zu Datengetriebenen Diagnose und Monitoring Systemen. Heisst Geräte werden vernetzter und *smarter* und die Hauptkomponente ist ein Modell welches automatisch Daten auswertet.
 
 Beispiele für datengetriebene medizintechnische Systeme
 * IoT in Healthcare
@@ -106,7 +114,7 @@ Dabei werden wissenschaftliche Methoden, Algorithmen und Prozesse verwendet um W
 ### Herangehensweise im Data Science Bereich
 
 ![](../topic8_ml_procedure.jpg)
-Das grundlegende vorgehen ist immer gleich[^4] :
+Das grundlegende Vorgehen ist immer gleich[^4] :
 * Daten erfassen
 * Daten bereinigen und vorbereiten
 * Ein Modell trainieren
@@ -121,7 +129,7 @@ Das grundlegende vorgehen ist immer gleich[^4] :
 
 Neuronales Netzerk (Modell) trainieren mit Bilder von handgeschriebenen Zahlen (Daten)[^6] : 
 * Bilder von handgeschribenen Zahlen erfassen
-* Bilder mit der korrekten Zahl "labeln"
+* Bilder mit der korrekten Zahl *labeln*
 * Model trainieren (Ziel korrektes Label voraussagen)
 * Model optimieren
 ![](../machine-learning.png)
@@ -155,7 +163,7 @@ Grundlegend werden aber meistens Werkzeuge in den folgenden Kategorien verwendet
 
 * Programmierumgebung -> Jupyter Notebook
 * Datenverarbeitung -> Pandas
-* Visualiseirungen -> Pandas und Plotly.express
+* Visualisierungen -> Pandas und Plotly.express
 * Machine Learning Modell -> sklearn
 * Datensatz -> Heart-Attack von Kaggle.com[^7]
 
@@ -164,7 +172,7 @@ Grundlegend werden aber meistens Werkzeuge in den folgenden Kategorien verwendet
 ### Jupyter Notebooks
 Quelle[^9]
 
-* Sind "Python Skripte" mit der Datei Endung `.ipynb`
+* Sind *Python Skripte* mit der Datei Endung `.ipynb`
 * Kann als ein Dokument angesehen werden welches Text und Codezeilen beinhaltet
 * Ein Notebook ist in 2 verwschiedene Zellen aufgebaut
 	* Text Zelle: Text kann in Markdown Syntax geschrieben werden
@@ -177,7 +185,7 @@ Quelle[^9]
 ### Pandas 
 Quelle[^10]
 
-Um Datensätze einfacher zu handhaben werden diese mittels eines Datenalanlyse und Manipulations Werkzeugs bearbeitet. Eines der bekanntesten Werkzeuge is Pandas.
+Um Datensätze einfacher zu handhaben werden diese mittels eines Datenanalyse und Manipulations Werkzeugs bearbeitet. Eines der bekanntesten Werkzeuge is Pandas.
 * Daten werde in Dataframes gespeichert
 * Das Dataframe kann auf einfache weise manipuliert werden
 * Weiter sind diese Dataframes of ein strukturierter Datenbaustein für weitere Applikationen
@@ -189,9 +197,9 @@ Um Datensätze einfacher zu handhaben werden diese mittels eines Datenalanlyse u
 ### Plotly-express 
 Quelle[^11]
 
-Das plotly.express python module beinhaltet Funjtkoinen um Grafiken und Visualisierungen zu erstellen und ist teil der Plotly Bibliothek
-* Es können über 30 verschieden Arten von Visualisierungstyper erstellt werden
-* Die struktur erlaubt aus auf einfache weise zwischen den typer zu wechseln (Bsp. Line Plot zu Scatter Plot)
+Das `plotly.express` Python Paket beinhaltet Funktionen um Grafiken und Visualisierungen zu erstellen und ist Teil der Plotly Bibliothek
+* Es können über 30 verschieden Arten von Visualisierungstypen erstellt werden
+* Die struktur erlaubt aus auf einfache weise zwischen den typer zu wechseln (Bsp. *Line Plot* zu *Scatter Plot*)
 
 ℹ️ Es gibt eine Vielzahl and Visualisierungsprogrammen in Python, jede mit entsprechenden Vor-und Nachteilen.
 
@@ -200,9 +208,9 @@ Das plotly.express python module beinhaltet Funjtkoinen um Grafiken und Visualis
 ### Datensatz
 Quelle[^12]
 
-In der nachfolgenden Übung wir das "Heart Attack Analysis & Prediction Dataset" verwendet. Dies ist ein Trainingsdatenset um Modelle zu entwickeln welche es erlauben aufgrund physiologischen Daten (13 Parameter) das Risiko eines Herzinfarktes zu klassifizieren (1 Output).
+In der nachfolgenden Übung wir das *Heart Attack Analysis & Prediction Dataset* verwendet. Dies ist ein Trainingsdatenset um Modelle zu entwickeln welche es erlauben aufgrund physiologischen Daten (**13 Parameter**) das Risiko eines Herzinfarktes zu klassifizieren (**1 Output**).
 
-ℹ️ Das Datenset wurde von der Universität California Irwine aggregiert und bereitgestellt. Die UCI hat eine grosse Sammlung and Datensets[^13]
+ℹ️ Das Datenset wurde von der Universität California Irwine aggregiert und bereitgestellt. Die UCI hat eine grosse Sammlung an Datensets[^13]
 
 ---
 

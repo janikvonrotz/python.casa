@@ -28,10 +28,11 @@ Befolgen Sie die nächsten Schritte um die Programmierumgebung zu erweitern.
 * Das in der Sidebar ersichtliche "+" Symbol klicken, `pandas` eingeben und mit Enter-Taste installiren
 * Das in der Sidebar ersichtliche "+" Symbol klicken, `plotly-express` eingeben und mit Enter-Taste installieren
 * Das in der Sidebar ersichtliche "+" Symbol klicken, `scikit-learn` eingeben und mit Enter-Taste installieren
+* Das in der Sidebar ersichtliche "+" Symbol klicken, `matplotlib` eingeben und mit Enter-Taste installieren
 
 ### Aufgabe 8.2:  ExerciseNotebook.ipynb
 
-Um im Jupyter Notebook fortzufahren müssen folgende Dateien aus dem Python.casa Kurs heruntergeladen werden. Diese Dateien müssen in einem Beliebiegen Ordner gespeicher werden, welcher dann in Visual Studio Code geöffnet werden kann.
+Um im Jupyter Notebook fortzufahren müssen folgende Dateien aus dem Python.casa Kurs heruntergeladen werden. Diese Dateien müssen in einem beliebiegen Ordner gespeicher werden, dieser wird dann in Visual Studio Code geöffnet.
 * [`ExerciseNotebook.ipynb`](https://raw.githubusercontent.com/janikvonrotz/python.casa/main/topic-8/ExerciseNotebook.ipynb)
 * [`heart.csv`](https://raw.githubusercontent.com/janikvonrotz/python.casa/main/topic-8/heart.csv)
 
@@ -47,12 +48,15 @@ Falls VSCode nach der Erweiterung `ipykernel` fragt, kann man den Dialog mit *In
 Falls es nicht möglich ist die Programmierumgebung aufzusetzen, kann das ExerciseNotebook.ipynb in einer Browser basierten Jupyter Umgebung ausgeführt werden.
 
 Dabei muss folgendermassen vorgegangen werden
-* Öffne: https://www.kaggle.com/code
-* Klicke "+ New Notebook" 
-* Klicke auf "+ Add Data" 
-* Suche nach "Heart Attack Analysis & Prediction Dataset Heart Attack Analysis & Prediction Dataset" im Suchfenster oben rechts
-* Klick "ADD" um das Datenset hinzuzufügen, dabei schliesst sich das Fenster
-* Kicken sie "File" -> "Import Notebook" -> "Browse File" und wählen sie die "ExerciseNotebook.ipynb" Datei aus (Dies muss vorher heruntergeladen werden)
-* Anschliessend "Import" klicken
+* Öffne: [https://www.kaggle.com/code](https://www.kaggle.com/code)
+* Klicke *+ New Notebook*
+* Klicke auf *+ Add Data* oben rechts
+* Suche nach `Heart Attack Analysis & Prediction Dataset` im Suchfenster oben rechts
+
+![](../kaggle-heart-attack-data.png)
+
+* Klicke auf *Add* um das Datenset hinzuzufügen, dabei schliesst sich das Fenster
+* Kicken sie *File > Import Notebook > Browse File* und wählen sie die `` Datei aus (Diese muss vorher heruntergeladen werden)
+* Anschliessend *Import* klicken
 
 🎬 Nun können Sie dem gemäss dem Inhalt des Jupyter Notebooks fortfahren.
