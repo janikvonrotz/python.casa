@@ -224,6 +224,8 @@ Ziel: Aufgabe 8.1 und 8.2 gelöst.
 
 ---
 
+### Quellen
+
 [^1]: [Integrating Data Science into Medical Device Development](https://www.medtechintelligence.com/feature_article/integrating-data-science-into-medical-device-development/)\
 [^2]: [IoT in Healthcare Market Worth $534.3 Billion By 2025 | CAGR: 19.9%](https://www.grandviewresearch.com/press-release/global-iot-in-healthcare-market)\
 [^3]: [Regulatorische Anforderungen an Medizinprodukte mit Machine Learning](https://www.johner-institut.de/blog/regulatory-affairs/regulatorische-anforderungen-an-medizinprodukte-mit-machine-learning/)\
