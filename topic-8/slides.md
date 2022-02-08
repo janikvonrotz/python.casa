@@ -224,15 +224,15 @@ Ziel: Aufgabe 8.1 und 8.2 gelöst.
 
 ---
 
-[^1]: [Integrating Data Science into Medical Device Development](https://www.medtechintelligence.com/feature_article/integrating-data-science-into-medical-device-development/)
-[^2]: [IoT in Healthcare Market Worth $534.3 Billion By 2025 | CAGR: 19.9%](https://www.grandviewresearch.com/press-release/global-iot-in-healthcare-market)
-[^3]: [Regulatorische Anforderungen an Medizinprodukte mit Machine Learning](https://www.johner-institut.de/blog/regulatory-affairs/regulatorische-anforderungen-an-medizinprodukte-mit-machine-learning/)
-[^4]: [ML Vorgehen](https://www.langton.cloud/machine-learning-model-training-over-time/)
-[^5]: [Software und Gerät](http://starfishmedical.com/blog/medical-device-artificial-intelligence/)
-[^6]: [MNIST](https://towardsdatascience.com/image-classification-in-10-minutes-with-mnist-dataset-54c35b77a38d)
-[^7]: [Heart Attack Data](https://towardsdatascience.com/26-datasets-for-your-data-science-projects-658601590a4c)
-[^9]: [JupyterNotebook](https://jupyter.org/)
-[^10]: [Pandas](https://pandas.pydata.org/)
-[^11]: [Plotly-express](https://plotly.com/python/plotly-express/)
-[^12]: [Dataset Heart Attack](https://www.kaggle.com/rashikrahmanpritom/heart-attack-analysis-prediction-dataset)
+[^1]: [Integrating Data Science into Medical Device Development](https://www.medtechintelligence.com/feature_article/integrating-data-science-into-medical-device-development/)\
+[^2]: [IoT in Healthcare Market Worth $534.3 Billion By 2025 | CAGR: 19.9%](https://www.grandviewresearch.com/press-release/global-iot-in-healthcare-market)\
+[^3]: [Regulatorische Anforderungen an Medizinprodukte mit Machine Learning](https://www.johner-institut.de/blog/regulatory-affairs/regulatorische-anforderungen-an-medizinprodukte-mit-machine-learning/)\
+[^4]: [ML Vorgehen](https://www.langton.cloud/machine-learning-model-training-over-time/)\
+[^5]: [Software und Gerät](http://starfishmedical.com/blog/medical-device-artificial-intelligence/)\
+[^6]: [MNIST](https://towardsdatascience.com/image-classification-in-10-minutes-with-mnist-dataset-54c35b77a38d)\
+[^7]: [Heart Attack Data](https://towardsdatascience.com/26-datasets-for-your-data-science-projects-658601590a4c)\
+[^9]: [JupyterNotebook](https://jupyter.org/)\
+[^10]: [Pandas](https://pandas.pydata.org/)\
+[^11]: [Plotly-express](https://plotly.com/python/plotly-express/)\
+[^12]: [Dataset Heart Attack](https://www.kaggle.com/rashikrahmanpritom/heart-attack-analysis-prediction-dataset)\
 [^13]: [UCI](https://archive.ics.uci.edu/ml/datasets/Heart+Disease)

@@ -4,7 +4,7 @@
 
 ⚡[Anwesenheit bestätigen](https://moodle.medizintechnik-hf.ch/mod/attendance/manage.php?id=6139)
 
-📖 Kapitel 16.3 MySQL/MariaDB-Datenbankzugriff
+📖 Kapitel 20 Wissenschaftliche Anwendung
 
 ---
 
