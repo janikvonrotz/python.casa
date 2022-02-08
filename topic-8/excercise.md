@@ -4,9 +4,9 @@
 
 Aufgaben zum Thema.
 
-Alle Erklährungen und Aufgaben sind im [`ExerciseNotebook.ipynb`](https://raw.githubusercontent.com/janikvonrotz/python.casa/main/topic-8/ExerciseNotebook.ipynb) Jupyter Notebook. Um dieses Notebook zu öffnen und den Inhalt auszuführen wird einerseits die Visual Studio Code Jupyter Notebook Extension, sowie zwei weitere Python Pakete benötigt. 
+Alle Erklährungen und Aufgaben sind im [`ExerciseNotebook.ipynb`](https://raw.githubusercontent.com/janikvonrotz/python.casa/main/topic-8/ExerciseNotebook.ipynb) Jupyter Notebook. Um dieses Notebook zu öffnen und den Inhalt auszuführen wird die Visual Studio Code Jupyter Notebook Extension sowie weitere Python Pakete benötigt. 
 
-Befolgen Sie die nächsten Schritte um die Programmierumgebung zu erweitern.
+Befolgen Sie die nächsten Schritte um die Programmierumgebung bereitzustellen.
 
 ### Aufgabe 8.1:  Programmierumgebung aufsetzen
 
@@ -25,18 +25,21 @@ Befolgen Sie die nächsten Schritte um die Programmierumgebung zu erweitern.
 * Suche nach `Pip Manager` im Suchfeld
 * Pip Manager Installieren
 * Pip Manager öffnen (Neues Symbol auf der linken Seite in Visual Studio)
-* Das in der Sidebar ersichtliche "+" Symbol klicken, `pandas` eingeben und mit Enter-Taste installiren
+* Das in der Sidebar ersichtliche "+" Symbol klicken, `pandas` eingeben und mit Enter-Taste installieren
 * Das in der Sidebar ersichtliche "+" Symbol klicken, `plotly-express` eingeben und mit Enter-Taste installieren
 * Das in der Sidebar ersichtliche "+" Symbol klicken, `scikit-learn` eingeben und mit Enter-Taste installieren
 * Das in der Sidebar ersichtliche "+" Symbol klicken, `matplotlib` eingeben und mit Enter-Taste installieren
 
-### Aufgabe 8.2:  ExerciseNotebook.ipynb
+### Aufgabe 8.2:  Dateien herunterladen und ausführen
 
-Um im Jupyter Notebook fortzufahren müssen folgende Dateien aus dem Python.casa Kurs heruntergeladen werden. Diese Dateien müssen in einem beliebiegen Ordner gespeicher werden, dieser wird dann in Visual Studio Code geöffnet.
+Um im Jupyter Notebook fortzufahren müssen folgende Dateien aus dem Python.casa Kurs heruntergeladen werden:
+
 * [`ExerciseNotebook.ipynb`](https://raw.githubusercontent.com/janikvonrotz/python.casa/main/topic-8/ExerciseNotebook.ipynb)
 * [`heart.csv`](https://raw.githubusercontent.com/janikvonrotz/python.casa/main/topic-8/heart.csv)
 
-🎬 Nun können Sie dem gemäss dem Inhalt des Jupyter Notebooks fortfahren
+Speichern sie Dateien mit <kbd>ctrl</kbd> + <kbd>s</kbd>, wenn sie im Browser angezeigt werden.  Legen sie die Dateien in einem Ordner ab und öffnen sie diesen Visual Studio Code.
+
+🎬 Nun können Sie dem gemäss dem Inhalt des Jupyter Notebooks fortfahren.
 
 ::: tip
 Falls VSCode nach der Erweiterung `ipykernel` fragt, kann man den Dialog mit *Installieren* bestätigen.
