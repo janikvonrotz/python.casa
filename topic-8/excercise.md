@@ -8,12 +8,25 @@ Alle Erklährungen und Aufgaben sind im [`ExerciseNotebook.ipynb`](https://raw.g
 
 Befolgen Sie die nächsten Schritte um die Programmierumgebung bereitzustellen.
 
+### Aufgabe 8.0: pip installieren
+
+Dieser Teil ist optional. Um Ptyhon-Pakete zu installieren, verwenden wir die VSCode-Erweiterung *Pip Manager*. Besser aber wäre die eigenständige Installation von pip. Führen sie die folgenden Aktionen aus, wenn sie pip für die Kommandozeile installieren möchten.
+
+* Laden sie die Datei `get-pip.py` unter diesem Link <https://bootstrap.pypa.io/get-pip.py> herunter
+* Speichern sie die Datei in einem Ordner und öffnen sie diesen mit VSCode
+* Starten sie ein Terminal im Ordner
+* Geben sie `python get-pip.py` ein und installieren sie pip mit Enter
+
+![](../pip-install.png)
+
+* War die Installation erfolgreich, können sie mit dem Befehl `pip install cowsay` die Installation von Python Paketen testen.
+
 ### Aufgabe 8.1:  Programmierumgebung aufsetzen
 
 **Jupyter Notebook installieren**
 
 * Öffne Visual Studio Code
-* Öffne den Extension Manager (ctrl+shift+x)
+* Öffne den Extension Manager (<kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>x</kbd>)
 * Suche nach `Jupyter` im Suchfeld
 * Jupyter Installieren
 * Visuals Studio Code neustarten
@@ -21,7 +34,7 @@ Befolgen Sie die nächsten Schritte um die Programmierumgebung bereitzustellen.
 **Pandas, plotly.express und skelarn Paket installieren**
 
 * Öffne Visual Studio Code
-* Öffne den Extension Manager (ctrl+shift+x)
+* Öffne den Extension Manager (<kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>x</kbd>)
 * Suche nach `Pip Manager` im Suchfeld
 * Pip Manager Installieren
 * Pip Manager öffnen (Neues Symbol auf der linken Seite in Visual Studio)
