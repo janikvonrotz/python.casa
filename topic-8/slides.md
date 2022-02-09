@@ -76,7 +76,7 @@ Neue Innovationen vorallem im Bereich computergestützte Modelle zur Predikitive
 
 Trend zu Datengetriebenen Diagnose und Monitoring Systemen. Heisst Geräte werden vernetzter und *smarter* und die Hauptkomponente ist ein Modell welches automatisch Daten auswertet.
 
-Beispiele für datengetriebene medizintechnische Systeme
+Beispiele für datengetriebene medizintechnische Systeme:
 * IoT in Healthcare
 * Remote Monitoring von Patienten
 * Automatisches Auswerten von CT-Scans
@@ -90,6 +90,7 @@ Beispiele für datengetriebene medizintechnische Systeme
 ### Herausforderungen für datengetriebene Medizintechnik Produkte
 
 Um datengestützte Modelle und datengetriebene Medizinaltechnische Produkte zu etablieren müssen einige Herausforderungen überwunden werden.
+
 * Hohe regulatorische Anforderungen
 * Aufreinigung von Daten ist mit grossem Aufwand verbunden
 * Kombination von verschiedenen Datenquellen
@@ -161,11 +162,11 @@ Grundlegend werden aber meistens Werkzeuge in den folgenden Kategorien verwendet
 
 ### Werkzeuge welche in diesem Kurs verwendet werden
 
-* Programmierumgebung -> Jupyter Notebook
-* Datenverarbeitung -> Pandas
-* Visualisierungen -> Pandas und Plotly.express
-* Machine Learning Modell -> sklearn
-* Datensatz -> Heart-Attack von Kaggle.com[^7]
+* **Programmierumgebung**: Jupyter Notebook
+* **Datenverarbeitung**: Pandas
+* **Visualisierungen**: Pandas und Plotly.express
+* **Machine Learning Modell**: sklearn
+* **Datensatz**: Heart-Attack von Kaggle.com[^7]
 
 ---
 
@@ -174,7 +175,7 @@ Quelle[^9]
 
 * Sind *Python Skripte* mit der Datei Endung `.ipynb`
 * Kann als ein Dokument angesehen werden welches Text und Codezeilen beinhaltet
-* Ein Notebook ist in 2 verwschiedene Zellen aufgebaut
+* Ein Notebook ist in 2 verwschiedene Zellen aufgebaut:
 	* Text Zelle: Text kann in Markdown Syntax geschrieben werden
 	* Code Zelle: Code kann in einer Programmiersprache wie Python geschrieben werden
 
@@ -186,6 +187,7 @@ Quelle[^9]
 Quelle[^10]
 
 Um Datensätze einfacher zu handhaben werden diese mittels eines Datenanalyse und Manipulations Werkzeugs bearbeitet. Eines der bekanntesten Werkzeuge is Pandas.
+
 * Daten werde in Dataframes gespeichert
 * Das Dataframe kann auf einfache weise manipuliert werden
 * Weiter sind diese Dataframes of ein strukturierter Datenbaustein für weitere Applikationen
@@ -198,6 +200,7 @@ Um Datensätze einfacher zu handhaben werden diese mittels eines Datenanalyse un
 Quelle[^11]
 
 Das `plotly.express` Python Paket beinhaltet Funktionen um Grafiken und Visualisierungen zu erstellen und ist Teil der Plotly Bibliothek
+
 * Es können über 30 verschieden Arten von Visualisierungstypen erstellt werden
 * Die struktur erlaubt aus auf einfache weise zwischen den typer zu wechseln (Bsp. *Line Plot* zu *Scatter Plot*)
 
@@ -218,7 +221,7 @@ In der nachfolgenden Übung wir das *Heart Attack Analysis & Prediction Dataset*
 
 Lösen sie die ersten zwei Aufgaben.
 
-⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 10 Minuten
+⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 30 Minuten
 
 Ziel: Aufgabe 8.1 und 8.2 gelöst.
 
