@@ -64,7 +64,7 @@ Falls VSCode nach der Erweiterung `ipykernel` fragt, kann man den Dialog mit *In
 Falls es nicht möglich ist die Programmierumgebung aufzusetzen, kann das ExerciseNotebook.ipynb in einer Browser basierten Jupyter Umgebung ausgeführt werden.
 
 Dabei muss folgendermassen vorgegangen werden
-* Öffne: [https://www.kaggle.com/code](https://www.kaggle.com/code)
+* Öffne [https://www.kaggle.com/code](https://www.kaggle.com/code)
 * Klicke *+ New Notebook*
 * Klicke auf *+ Add Data* oben rechts
 * Suche nach `Heart Attack Analysis & Prediction Dataset` im Suchfenster oben rechts
