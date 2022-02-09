@@ -1,6 +1,6 @@
-# Thema 10 - Webapplikation mit Odoo
+# Thema 10 - ERP mit Odoo
 
-Umfang ⏱️: 4 Lektionen
+Umfang ⏱️: 2 Lektionen
 
 ## [Slides](slides.md)
 

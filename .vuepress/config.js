@@ -24,7 +24,7 @@ module.exports = {
                 { text: 'Thema 7.5 - Datenbanken', link: '/topic-7-5/' },
                 { text: 'Thema 8 - Jupiter-Notebooks, SciPy und Matplotlib', link: '/topic-8/' },
                 { text: 'Thema 9 - Webapplikation mit Python Flask', link: '/topic-9/' },
-                { text: 'Thema 10 - Webapplikation mit Odoo', link: '/topic-10/' },
+                { text: 'Thema 10 - ERP mit Odoo', link: '/topic-10/' },
               ]
             }
           ]
