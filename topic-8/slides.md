@@ -18,6 +18,7 @@
 
 Securecell AG (Medtech / Biotech)
 * 60% Applikationsspezialist für Software im Biotechnologie Bereich
+
 ZHAW LSFM
 * 40% Wissenschaftlicher Assistent in Fachgruppe Bioprozesstechnologie
 
@@ -28,11 +29,13 @@ ZHAW LSFM
 ### Ausblick
 
 Themen für die heutigen Lektonen:
+
 * Relevanz *Data Science* Werkzeuge in der Medizintechnik
 * Aufsetzen, Bearbeitung und Ausführung von Jupyter Notebooks
 * Implementierung der Pandas und Plotly-express Python Pakete
 * Laden, Inspizierung, Visualisierung von Daten
 * Machine Learning Modell (*AI*) anwenden auf Medizin Technik relevantes Datenset
+
 🎯 Überblick über Anwendung von Datenwissenschaften im Gesundheitsbereich. Jupyter Notebook als Programmierumgebung kennenlernen
 
 ---
@@ -40,6 +43,7 @@ Themen für die heutigen Lektonen:
 ### Daten im Gesundheitsbereich
 
 Die meisten Daten im Gesundheitsbereich werden natürlich rund um einen Patienten erfasst. Dabei können die art der Daten sehr divers sein[^1] :
+
 * **Physiologisch** (Butdruck, Sauerstoffsättigung,...)
 * **Omics-Big Data** (Genom Sequenzierung, Protein Analysen,...)
 * **Bildgebend** (Mikroskopie, MRI, X-Ray,...)
@@ -49,7 +53,8 @@ Die meisten Daten im Gesundheitsbereich werden natürlich rund um einen Patiente
 
 ### Quelle der Daten
 
-Nicht nur sind die Daten Typen sind divers, so auch sind die Quellen welche diese erfassen[^2] :
+Nicht nur sind die Daten Typen sind divers, so auch sind die Quellen welche diese erfassen[^2]:
+
 * **Medizintechnische Geräte**
 * **Wearables** (Sensoren am Patienten, Smartwatches,...)
 * **IoT Sensoren** (Temperatur, Gaszusammensetzung,...)
