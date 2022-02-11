@@ -21,6 +21,10 @@ Dieser Teil ist optional. Um Ptyhon-Pakete zu installieren, verwenden wir die VS
 
 * War die Installation erfolgreich, können sie mit dem Befehl `pip install cowsay` die Installation von Python Paketen testen.
 
+::: tip
+Falls der `pip`-Befehl im Terminal nicht funktioniert, versuchen sie es mit `pip3`
+:::
+
 ### Aufgabe 8.1:  Programmierumgebung aufsetzen
 
 **Jupyter Notebook installieren**
