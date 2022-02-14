@@ -60,6 +60,7 @@ Speichern sie Dateien mit <kbd>ctrl</kbd> + <kbd>s</kbd>, wenn sie im Browser an
 
 ::: tip
 Falls VSCode nach der Erweiterung `ipykernel` fragt, kann man den Dialog mit *Installieren* bestätigen.
+![](../ipykernel-prompt.png)
 ![](../ipykernel.png)
 :::
 
