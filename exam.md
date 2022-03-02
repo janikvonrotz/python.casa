@@ -80,7 +80,7 @@ Der Prozess für den Leistungsnachweis sieht wie folgt aus:
 
 ### Resultat
 
-Resultat sind zwei Dateien:
+Auf [Moodle](https://moodle.medizintechnik-hf.ch/mod/assign/view.php?id=6716) geben sie zwei Dateien ab:
 * `Code.zip`: Python-Programm (gezippter Ordner mit Pyton-Dateien)
 * `Dokumentation.{pdf,epub,docx}:` Dokumentation zum Programm (4-8 Seiten, ohne Cover)
 
@@ -141,7 +141,7 @@ Leitfragen:
 
 **Herausforderung**
 
-Gewichtung: 2
+Gewichtung: 3
 
 * Wurden Elemente wie Schleifen und Verzweigungen sinnvoll eingesetzt?
 * Ist die Herausforderung dem HF-Niveau gerecht?

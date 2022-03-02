@@ -48,16 +48,17 @@ Rückmeldung zu den Kursunterlagen können direkt an den Dozenten oder über Moo
 **Videos**
 
 Für das Selbststudium und Vorbereitung werden die folgenden Video-Playlists verwendet:
-* [Python 3 installieren](https://www.youtube.com/watch?v=hr1P_F7Vp9Y&list=PLuPM-9zavO4dtmqwrYdckFtfNFNXLCl5u)
-* [Einstieg in Python 3](https://www.youtube.com/watch?v=f5__UDmTk8c&list=PLuPM-9zavO4fUjO-5gMS6CHHVCWsKGE51&index=1)
-* [Python GUI Programmierung mit PyQT](https://www.youtube.com/watch?v=FiaPzdWKhJU&list=PLNmsVeXQZj7ruNQIfS8NRpjzZIRq0A8QP)
-* [Python Tutorial deutsch /german (Crashkurs)](https://www.youtube.com/playlist?list=PL_pqkvxZ6ho3u8PJAsUU-rOAQ74D0TqZB)
+* [Bodo Schönefeld - Python3-Tutorial](https://www.youtube.com/watch?v=hr1P_F7Vp9Y&list=PLuPM-9zavO4dtmqwrYdckFtfNFNXLCl5u)
+* [Bodo Schönefeld - Einstieg in Python 3](https://www.youtube.com/watch?v=f5__UDmTk8c&list=PLuPM-9zavO4fUjO-5gMS6CHHVCWsKGE51&index=1)
+* [The Morpheus Tutorials - Python GUI Programmierung mit PyQT](https://www.youtube.com/watch?v=FiaPzdWKhJU&list=PLNmsVeXQZj7ruNQIfS8NRpjzZIRq0A8QP)
+* [Programmieren Starten - Python Tutorial deutsch](https://www.youtube.com/playlist?list=PL_pqkvxZ6ho3u8PJAsUU-rOAQ74D0TqZB)
 
 **Quellen**
 
 Zu Erarbeitung der Aufgaben wurden weitere Webseiten miteinbezogen.
 
-* [Einführung ins Programmieren mit Python](https://pythonbuch.com)
+* [pythonbuch.com - Einführung ins Programmieren mit Python](https://pythonbuch.com)
+* [pythonbasics.org - Learn Python Programming](https://pythonbasics.org)
 
 ## Technisches
 
