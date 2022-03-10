@@ -6,6 +6,6 @@
 
 05.02.2022: Note Wissensprüfung erstellt.
 
-**15.03.2022: Deadline Hochladen Leistungsnachweis.**
+**20.03.2022: Deadline Hochladen Leistungsnachweis.**
 
-19.03.2022: Bewertung der Leistungsnachweise und Abschlussnote erstellt.
+21.03.2022: Bewertung der Leistungsnachweise und Abschlussnote erstellt.
