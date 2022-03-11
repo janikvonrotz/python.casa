@@ -54,7 +54,7 @@ Für Python Flask sieht die Architektur so aus:
 
 ---
 
-### Studentendatenbank erstellen
+### Datenbank erstellen
 
 🎬 Ergänzen sie `db.py` und führen sie das Skript aus.
 
