@@ -33,6 +33,7 @@ Die Architektur von Webapps in 3 Schichten:
 ### Architektur Flask
 
 Für Python Flask sieht die Architektur so aus:
+
 ![webapp-architecture](../webapp-architecture.svg)
 
 ---
