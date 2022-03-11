@@ -112,10 +112,12 @@ Wir verwenden Jinja um die Ansicht der Webapp zu generieren.
 </head>
 
 <body>
-    <h1>Webapplikation Lager</h1>
-    <nav>
-        <a href="/">Home</a>
-    </nav>
+    <header>
+        <h1>Webapplikation Lager</h1>
+        <nav>
+            <a href="/">Home</a>
+        </nav>
+    </header>
 
     {% block content %}{% endblock %}
 </body>
