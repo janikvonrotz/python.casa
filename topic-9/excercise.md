@@ -18,6 +18,8 @@ thead {
 </style>
 ```
 
+Sie möchten in der Navigation der Webapp neuen Link hinzu. Fügen die den a-Tag `<a href="https://python.casa">python.casa</a>` an der richtien Stelle im `layout.html` ein.
+
 ### Aufgabe 9.2: Aktion Löschen hinzufügen
 
 Sie möchten eine neue Funktion in der Webapplikation einbauen. Benutzer sollen Produkte löschen können. Dazu haben diese Code-Teile erstellt:
