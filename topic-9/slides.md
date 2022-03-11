@@ -233,7 +233,7 @@ Mit diesem Formular erstellen sie neue Inhalte in der Datenbank.
 
 ```python
 from distutils.log import error
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, redirect, url_for
 import sqlite3
 app = Flask(__name__)
 

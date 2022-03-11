@@ -1,5 +1,5 @@
 from distutils.log import error
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, redirect, url_for
 import sqlite3
 app = Flask(__name__)
 
@@ -35,6 +35,15 @@ def list():
     data = cursor.fetchall()
     print(data)
     return render_template("list.html", data=data)
+
+@app.route('/delete', methods=['POST'])
+def delete():
+    connection = sqlite3.connect("lager.db")
+    cursor = connection.cursor()
+    sql = "DELETE FROM lager WHERE id = %s" % (request.form['productID'])
+    cursor.execute(sql)
+    connection.commit()
+    return redirect(url_for('list'))
 
 if __name__ == '__main__':
    app.run(debug = True)
