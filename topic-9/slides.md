@@ -6,4 +6,23 @@
 
 ---
 
+### Was ist eine Webapplikation?
+
+* Applikation im Browser
+* Verwendet HTML, CSS und JavaScript
+* 
+
+### 3-Tier Architektur
+
+Die Architektur von Webapps erfolgt in 3 Schichten:
+
+1. Präsentation (Client)
+2. Logik (Anwendung)
+3. Datenhaltung (Datenbank)
+
+## Architektur Flask
+
+![webapp-architecture](../webapp-architecture.md)
+
+
 https://pythonbasics.org/flask-sqlite/
