@@ -1,0 +1,24 @@
+{% extends "layout.html" %}
+{% block content %}
+<h1>Produktliste</h1>
+<table>
+  <thead>
+    <td>ID</td>
+    <td>Name</td>
+    <td>Referenz</td>
+    <td>Barcode</td>
+    <td>Lager</td>
+    <td>Preis</td>
+  </thead>
+  {% for row in data %}
+  <tr>
+    <td>{{row[0]}}</td>
+    <td>{{row[1]}}</td>
+    <td>{{row[2]}}</td>
+    <td>{{row[3]}}</td>
+    <td>{{row[4]}}</td>
+    <td>{{row[5]}}</td>
+  </tr>
+  {% endfor %}
+</table>
+{% endblock %}

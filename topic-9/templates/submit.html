@@ -1,0 +1,24 @@
+{% extends "layout.html" %}
+{% block content %}
+<h1>Produkt hinzufügen</h1>
+{% if message %}
+<blockquote>
+    Nachricht: {{ message }}
+</blockquote>
+{% endif %}
+<form action="{{ url_for('insert') }}" method="POST">
+    <fieldset>
+        <label for="name">Name:</label>
+        <input required type="text" name="name"/><br><br>
+        <label for="referenz">Referenz:</label>
+        <input required type="text" name="referenz"/><br><br>
+        <label for="barcode">Barcode:</label>
+        <input required type="text" name="barcode"/><br><br>
+        <label for="lager">Lager:</label>
+        <input required type="number" name="lager"/><br><br>
+        <label for="preis">preis:</label>
+        <input required type="number" name="preis"/>
+    </fieldset>
+    <input type="submit" value="Abschicken" />
+</form>
+{% endblock %}
