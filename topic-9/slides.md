@@ -21,8 +21,8 @@ Die Architektur von Webapps erfolgt in 3 Schichten:
 3. Datenhaltung (Datenbank)
 
 ## Architektur Flask
+![webapp-architecture](../webapp-architecture.svg)
 
-![webapp-architecture](../webapp-architecture.md)
-
+## 
 
 https://pythonbasics.org/flask-sqlite/
