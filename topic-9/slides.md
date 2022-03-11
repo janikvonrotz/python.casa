@@ -81,7 +81,7 @@ connection.close()
 * `list.html`
 * `submit.html`
 
-![](../Pasted%20image%2020220311101450.png)
+![](../topic-9-folders.png)
 
 ---
 
@@ -333,7 +333,7 @@ Wenn sie folgenden Ausschnitt im Browser sehen, haben sie erfolgreich einen Pyth
 
 🎬 Klicken sie auf *Produkt hinzufügen*, füllen sie das Formular aus und klicken auf *submit*
 
-![](../Pasted%20image%2020220311100910.png)
+![](../topic-9-add-product.png)
 
 ---
 
