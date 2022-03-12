@@ -48,7 +48,7 @@ def delete():
 
 
 @app.route('/file')
-def return_files_tut():
+def file():
     export.xlsx()
     return send_file('output.xlsx', attachment_filename='output.xlsx')
 
