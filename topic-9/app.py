@@ -1,6 +1,7 @@
 from distutils.log import error
-from flask import Flask, render_template, request, redirect, url_for
+from flask import Flask, render_template, request, redirect, url_for, send_file
 import sqlite3
+import export
 app = Flask(__name__)
 
 @app.route('/')
@@ -44,6 +45,12 @@ def delete():
     cursor.execute(sql)
     connection.commit()
     return redirect(url_for('list'))
+
+
+@app.route('/file')
+def return_files_tut():
+    export.xlsx()
+    return send_file('output.xlsx', attachment_filename='output.xlsx')
 
 if __name__ == '__main__':
    app.run(debug = True)
