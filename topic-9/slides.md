@@ -97,7 +97,7 @@ Wir verwenden Jinja um die Ansicht der Webapp zu generieren.
 
 ### Layout Template erstellen
 
-🎬 Füllen sie das `layout.index` mit diesem Inhalt aus:
+🎬 Füllen sie das `layout.html` mit diesem Inhalt aus:
 
 ```html
 <!doctype html>
