@@ -41,7 +41,7 @@ Für Python Flask sieht die Architektur so aus:
 ### VSCode vorbereiten
 
 🎬 Führen sie diese Aktionen aus:
-* Neuer Ordner `Thema 9 erstellen
+* Neuer Ordner `Thema 9` erstellen
 * Ordner mit VSCode öffnen
 * Datei `db.py` anlegen
 ---
@@ -60,11 +60,11 @@ Für Python Flask sieht die Architektur so aus:
 
 ```python
 import sqlite3
-connection = sqlite3.connect('database.db')
+connection = sqlite3.connect('lager.db')
 sql = """CREATE TABLE lager(
     id INTEGER PRIMARY KEY,
     name TEXT,
-    referenz TEXT ,
+    referenz TEXT,
     barcode TEXT,
     lager INTEGER,
     preis REAL)"""
@@ -125,7 +125,7 @@ Wir verwenden Jinja um die Ansicht der Webapp zu generieren.
 </html>
 ```
 
-Es handelt sich hierbei um ein einfaches HTML-Dokument.
+Es handelt sich hierbei um ein einfaches HTML-Dokument. Sie können die Datei `layout.html` im Browser öffnen.
 
 --- 
 
@@ -137,7 +137,7 @@ Ihnen ist sicher der Inhalt `{% block content %}{% endblock %}` aufgefallen. All
 
 ### Index Template erstellen
 
-🎬 Füllen sie das `layout.index` mit diesem Inhalt aus:
+🎬 Füllen sie das `layout.html` mit diesem Inhalt aus:
 
 ```html
 {% extends "layout.html" %}
@@ -154,7 +154,7 @@ Dieses Template verwendet das `layout.html` als Vorlage.
 
 ### List Template erstellen
 
-🎬 Füllen sie das `layout.index` mit diesem Inhalt aus:
+🎬 Füllen sie das `list.html` mit diesem Inhalt aus:
 
 ```html
 {% extends "layout.html" %}
@@ -189,7 +189,7 @@ Damit werden die Inhalte aus der Datenbank in einer Tabelle aufgelistet.
 
 ### Submit Template erstellen
 
-🎬 Füllen sie das `submit.index` mit diesem Inhalt aus:
+🎬 Füllen sie das `submit.html` mit diesem Inhalt aus:
 
 ```html
 {% extends "layout.html" %}
