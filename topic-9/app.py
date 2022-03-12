@@ -20,7 +20,6 @@ def insert():
         connection = sqlite3.connect("lager.db")
         cursor = connection.cursor()
         sql = "INSERT INTO lager(name,referenz,barcode,lager,preis) VALUES('%s', '%s', '%s', %s, %s)" % (name,referenz,barcode,lager,preis)
-        print(sql)
         cursor.execute(sql)
         connection.commit()
         connection.close()
@@ -34,7 +33,6 @@ def list():
     sql = "SELECT * FROM lager"
     cursor.execute(sql)
     data = cursor.fetchall()
-    print(data)
     return render_template("list.html", data=data)
 
 @app.route('/delete', methods=['POST'])
@@ -45,7 +43,6 @@ def delete():
     cursor.execute(sql)
     connection.commit()
     return redirect(url_for('list'))
-
 
 @app.route('/file')
 def file():
