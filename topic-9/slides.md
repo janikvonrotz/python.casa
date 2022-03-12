@@ -210,7 +210,7 @@ Damit werden die Inhalte aus der Datenbank in einer Tabelle aufgelistet.
         <input required type="text" name="barcode"/><br><br>
         <label for="lager">Lager:</label>
         <input required type="number" name="lager"/><br><br>
-        <label for="preis">preis:</label>
+        <label for="preis">Preis:</label>
         <input required type="number" name="preis"/>
     </fieldset>
     <input type="submit" value="submit" />
@@ -291,7 +291,7 @@ def index():
     return render_template('index.html')
 ```
 
-Schickt der Browser ein HTT-Request für `/` auf wird das Template `index.html` verarbeitet und zurückgegeben.
+Schickt der Browser ein HTTP-Request für `/` auf wird das Template `index.html` verarbeitet und zurückgegeben.
 
 ![http](../http.png)
 
