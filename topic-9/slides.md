@@ -137,7 +137,7 @@ Ihnen ist sicher der Inhalt `{% block content %}{% endblock %}` aufgefallen. All
 
 ### Index Template erstellen
 
-🎬 Füllen sie das `layout.html` mit diesem Inhalt aus:
+🎬 Füllen sie das `index.html` mit diesem Inhalt aus:
 
 ```html
 {% extends "layout.html" %}
