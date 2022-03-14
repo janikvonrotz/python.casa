@@ -108,3 +108,9 @@ Frage: Wie kann `PyQt5` für Visual Studio Code installiert werden?
 Antwort:
 
 ![Animation Installation PyQt5 auf Visual Studio Code](install-pyqt5-vscode.gif)
+
+### CSV nach SQLite importieren
+
+Frage: Ich konnte für mein Projekt "Ersatzteilverwaltung" eine Datenbank erstellen (wie im Unterricht) und über die Webapplikation mit Python Flask (wie im Unterricht) aufrufen. Jetzt möchte ich noch unsere bestehende Ersatzteilliste in diese Datenbank importieren, damit nicht alle Positionen (ca. 1800) von Hand eingetragen werden müssen. Nach einigen Stunden suchen und ausprobieren (SQL, CSV, ..., habe ich das Gefühl nicht wirklich zum Ziel zu gelangen. Wie würdest du so etwas lösen?
+
+Antwort: Ich nehme an, dass die Spalten im CSV und im der SQLite Tabelle die gleichen Namen haben. Der einfachste Weg um das CSV zu importieren ist wohl mit dem SQLiteStudio [https://sqlitestudio.pl/](https://sqlitestudio.pl/). Dazu ein Link mit einem Beispiel (weiter unten): [https://www.sqlitetutorial.net/sqlite-import-csv/](https://www.sqlitetutorial.net/sqlite-import-csv/). Mit dem SQLiteStudio kannst du die Datenbankdatei direkt bearbeiten. Natürlich geht das auch über die Kommandozeile, dazu musst du die SQLite Tools installieren: [https://www.sqlite.org/index.html](https://www.sqlite.org/index.html). Dieser Vorgang ist aber etwas schwieriger und ist ebenfall in meinem Beispiel-Link vorhanden.
