@@ -33,4 +33,4 @@ Wie wechseln sie zwischen dem Branch `master` und `my-example`?
 
 Wechseln sie zum `master` Branch und *mergen* sie den `my-example` branch. Geben sie dazu diesem Befehl auf dem Terminal ein: `git merge my-example -m "merge my example"`.
 
-Schauen sie sich die Datei `bus.py` an. Sind ihre Änderungen jetzt auf dem `masster` Branch vorhanden?
+Schauen sie sich die Datei `bus.py` an. Sind ihre Änderungen jetzt auf dem `master` Branch vorhanden?
