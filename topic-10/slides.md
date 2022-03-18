@@ -42,7 +42,7 @@ Die bekannteste und meistverwendete Versionskontrolle ist **git**.
 
 ![](../git.png)
 
-🤔  Wer ist diese Person?
+🤔 Wer ist diese Person?
 
 ---
 
