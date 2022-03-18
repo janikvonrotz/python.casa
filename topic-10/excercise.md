@@ -8,7 +8,7 @@ Aufgaben zum Thema.
 
 Auf GitHub haben sie das vielversprechende Repository <https://github.com/fluentpython/example-code> entdeckt und möchten nun den Code lokal ausführen. Kopieren sie die HTTPS-Url und klonen sie das Projekt mit VSCode.
 
-![git-clone](git-clone.gif)
+![git-clone](../git-clone.gif)
 
 Suchen sie das Programm `bus.py` mithilfe der Suchfunktion <kbd>ctrl</kbd> + <kbd>p</kbd>. Fügen sie dem Programm den Code unten an und führen sie das Beispiel aus:
 
@@ -25,7 +25,7 @@ Haben sie das Programm verstanden?
 
 Erstellen sie einen Branch `my-example` und comitten sie die gemachten Änderungen.
 
-![git-branch](git-branch.gif)
+![git-branch](../git-branch.gif)
 
 Wie wechseln sie zwischen dem Branch `master` und `my-example`?
 

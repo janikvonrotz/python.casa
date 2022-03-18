@@ -256,7 +256,7 @@ Nun möchten wir die Änderungen auf GitHub publizieren.
 
 🎬 Fügen sie gemäss Vorschlag auf GitHub die Datei `README.md` hinzu:
 
-![github-readme](github-readme.gif)
+![github-readme](../github-readme.gif)
 
 ---
 
@@ -266,7 +266,7 @@ Damit die Änderung lokal verfügbar wird, muss zuerst *gefetched* und anschlies
 
 🎬 Führen sie diese Aktion aus:
 
-![git-fetch-and-pull](git-fetch-and-pull.gif)
+![git-fetch-and-pull](../git-fetch-and-pull.gif)
 
 ℹ️ Die Terminal-Befehl sind `git fetch` und `git pull`
 
@@ -276,7 +276,7 @@ Damit die Änderung lokal verfügbar wird, muss zuerst *gefetched* und anschlies
 
 🎬 Passen sie den Text im `README.md`, committen und pushen sie die Änderung:
 
-![git-push](git-push.gif)
+![git-push](../git-push.gif)
 
 ℹ️ Der Terminal-Befehl ist `git push`.
 
