@@ -19,7 +19,7 @@
 
 ### Begriffe / Baumstruktur
 
-Der verwaltete Code entwickelt sich wie die Äste eines Baumes. Dazu ein paar Begriffe:
+Das Schreiben von versioniertem Code kann man sich wie das Wachstum eines Baumes vorstellen. Dazu ein paar Begriffe:
 
 * **Branch**: Verzweigung eines Astes
 * **Merge**: Äste die zusammenwachsen
@@ -90,8 +90,8 @@ Bei der Arbeit mit gibt, gibt es verschiedene Arbeitsbereiche:
 Auf <https://github.com/> kann man das *Remote Repository* verwalten. Hier ein paar Beispiele:
 
 * <https://github.com/torvalds/linux>: Linux Betriebssystem
-* https://github.com/pallets/flask: Python Flask
-* https://github.com/nasa: Organisation der NASA
+* <https://github.com/pallets/flask>: Python Flask
+* <https://github.com/nasa>: Organisation der NASA
 
 Es gibt weitere Plattformen wie <https://gitlab.com/> oder selber hosten <https://gitea.io/>.
 
@@ -139,6 +139,19 @@ print('Hello git!')
 Die folgenden Beispielen zeigt wie man mithilfe von VSCode mit git arbeitet. Dabei gilt es zu beachten, dass im Hintergrund immer auf der Kommandozeile die git-Befehle abgesetzt werden.
 
 VSCode macht die Arbeit mit git "einfacher". Zu jedem Beispiel wird wenn möglich der entsprechende git-Befehl aufgeführt.
+
+---
+
+### Git konfigurieren
+
+🎬 Starten sie ein neues Terminal und geben sie die folgenden Befehle ein. Natürlich müssen sie einen eigenen Benutzernamen und E-Mail defineiren.
+
+```bash
+git config --global user.name "janikvonrotz"
+git config --global user.email "contact@janikvonrotz.ch"
+```
+
+![](../git-config.png)
 
 ---
 
@@ -190,7 +203,7 @@ Git hat die Datei `main.py` erkannt und bietet an die Datei zu stagen.
 
 🎬 Stagen und comitten sie die Änderung mit der Nachricht `changed output`.
 
-ℹ️ Der Terminal-Befehl ist `git commit -a -m "init main"`
+ℹ️ Der Terminal-Befehl ist `git commit -a -m "changed output"`
 
 ---
 
