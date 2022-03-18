@@ -29,7 +29,7 @@ Erstellen sie einen Branch `my-example` und comitten sie die gemachten Änderung
 
 Wie wechseln sie zwischen dem Branch `master` und `my-example`?
 
-## Aufgabe 10.3: Branch zusammenführen
+### Aufgabe 10.3: Branch zusammenführen
 
 Wechseln sie zum `master` Branch und *mergen* sie den `my-example` branch. Geben sie dazu diesem Befehl auf dem Terminal ein: `git merge my-example -m "merge my example"`.
 
