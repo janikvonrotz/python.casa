@@ -6,7 +6,7 @@
 
 ---
 
-### Versionskontrolle was?
+### Was ist Versionskontrolle?
 
 > Eine Versionskontrolle ist ein System, das zur Erfassung von Änderungen an Dokumenten oder Dateien verwendet wird.
 
@@ -19,12 +19,12 @@
 
 ### Begriffe / Baumstruktur
 
-Verwalteter Code entwickelt sich wie die Äste eines Baumes.
+Der verwaltete Code entwickelt sich wie die Äste eines Baumes. Dazu ein paar Begriffe:
 
 * **Branch**: Verzweigung eines Astes
 * **Merge**: Äste die zusammenwachsen
 * **Commits**: Abschnitt im Baum
-* **Tags**: Markerierungen in den Ästen
+* **Tags**: Markierungen in den Ästen
 * **Fork**: Kopie des gesamten Baumes
 * **Master**: Der Hauptstamm
 * **Head**: Die Baumkrohne
@@ -42,18 +42,19 @@ Die bekannteste und meistverwendete Versionskontrolle ist **git**.
 
 ![](../git.png)
 
-🤔  Wer ist die Person?
+🤔  Wer ist diese Person?
 
 ---
 
 ### It's going to hurt
 
-Git zu lernen ist nicht schwierig. Git zu verstehen ist äusserst schwierig.
+Git zu lernen ist nicht schwierig. Git zu verstehen aber schon.
 
 ---
 
 ### Arbeit mit git
 
+Was man mit git normalerweise macht:
 1. **Inititalisierung**: Git Projekt erstellen
 2. **Stagen**: Dateien in den Index aufnehmen
 3. **Committen**: Zustand der Dateien festhalten
@@ -65,16 +66,18 @@ Git zu lernen ist nicht schwierig. Git zu verstehen ist äusserst schwierig.
 
 ### Ziel von git
 
-Versionsstand von Software-Code mit mehreren Mitarbeitenden synchron halten.
+Versionsstand von Software-Code mit mehreren Mitarbeitenden (Contributors) synchron halten.
 
 ![](../git-goal.png)
 
 ---
 
-### Git Bereiche
+### Git Arbeitsbereiche
 
+Bei der Arbeit mit gibt, gibt es verschiedene Arbeitsbereiche:
 * **Workspace**: Lokaler Ordner mit Code
 * **Index**: Interne Liste mit Dateien die verfolgt werden
+* **Stage**: Erfasste Änderungen in Dateien
 * **Local Repository**: Zustand des lokalen Codes
 * **Remote Repository**: Zustand des gesamten Codes
 
@@ -84,13 +87,13 @@ Versionsstand von Software-Code mit mehreren Mitarbeitenden synchron halten.
 
 ### GitHub
 
-Auf <https://github.com/> kann man das *Remote Repository* verwalten. 
+Auf <https://github.com/> kann man das *Remote Repository* verwalten. Hier ein paar Beispiele:
 
 * <https://github.com/torvalds/linux>: Linux Betriebssystem
 * https://github.com/pallets/flask: Python Flask
 * https://github.com/nasa: Organisation der NASA
 
-Es gibt weitere Plattformen wie <https://gitlab.com/> oder <https://gitea.io/>.
+Es gibt weitere Plattformen wie <https://gitlab.com/> oder selber hosten <https://gitea.io/>.
 
 ---
 
@@ -106,7 +109,7 @@ Wir werden den Account zu einem späteren Zeitpunkt brauchen.
 
 Nun installieren wir git auf dem Computer.
 
-🎬 Öffnen sie <https://git-scm.com/>, laden sie git herunter und installieren sie die Software.
+🎬 Öffnen sie <https://git-scm.com/>, laden sie git herunter und installieren sie die Software. Verwenden sie die empfohlenen Einstellungen.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/hPNs2x6zsPY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -114,7 +117,7 @@ Nun installieren wir git auf dem Computer.
 
 ### Git und VSCode
 
-VSCode sollte automatisch erkennen, dass git installiert wurde.
+VSCode sollte git automatisch erkennen.
 
 ---
 
@@ -135,7 +138,7 @@ print('Hello git!')
 
 Die folgenden Beispielen zeigt wie man mithilfe von VSCode mit git arbeitet. Dabei gilt es zu beachten, dass im Hintergrund immer auf der Kommandozeile die git-Befehle abgesetzt werden.
 
-VSCode macht die Arbeit mit git "einfacher". Zu jedem Beispiel wird der git-Befehl aufgeführt.
+VSCode macht die Arbeit mit git "einfacher". Zu jedem Beispiel wird wenn möglich der entsprechende git-Befehl aufgeführt.
 
 ---
 
@@ -175,7 +178,7 @@ Git hat die Datei `main.py` erkannt und bietet an die Datei zu stagen.
 
 ### Datei ändern und vergleichen
 
-🎬 Ändern sie die Ausgabe in `main.py` mit `'Git is great!'`.
+🎬 Ändern sie die Ausgabe in `main.py` zu `'Git is great!'` und vergleichen sie die Datei:
 
 ![git-diff](../git-diff.gif)
 
@@ -216,6 +219,8 @@ In diesem Beispiel hat der Commit mit Nachricht `init main` den Hash `14b3b432a7
 🎬 Kopieren sie den Hash ihres `init main` Commits und geben sie im Terminal `git checkout $HASH` ein:
 
 ![git-checkout](../git-checkout.gif)
+
+Nun sollte die vorhergehende Version der Datei `main.py` angezeigt werden.
 
 ---
 
@@ -298,3 +303,11 @@ Ziel: Aufgabe 10.1 und 10.2 gelöst.
 ### Restliche Zeit
 
 * Arbeit an Leistungsnachweis
+
+---
+
+### Abschluss
+
+Ich möchte mich herzlich für Teilnahme am Kurs und tolle Mitarbeit bedanken.
+
+Für Feedback bin ich dankbar und bin zu Python-Fragen immer erreichbar.
