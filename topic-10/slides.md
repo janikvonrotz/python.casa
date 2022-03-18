@@ -308,6 +308,6 @@ Ziel: Aufgabe 10.1 und 10.2 gelöst.
 
 ### Abschluss
 
-Ich möchte mich herzlich für Teilnahme am Kurs und tolle Mitarbeit bedanken.
+Ich möchte mich herzlich für die Teilnahme am Kurs und tolle Mitarbeit bedanken.
 
-Für Feedback bin ich dankbar und bin zu Python-Fragen immer erreichbar.
+Für Feedback bin ich dankbar und zu Python-Fragen immer erreichbar.
