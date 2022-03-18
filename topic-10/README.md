@@ -1,6 +1,8 @@
-# Thema 10 - ERP mit Odoo
+# Thema 10 - Versionskontrolle mit Git
 
 Umfang ⏱️: 2 Lektionen
+
+[Alle Unterlagen anzeigen](https://github.com/janikvonrotz/python.casa/tree/main/topic-10)
 
 ## [Slides](slides.md)
 
