@@ -246,7 +246,7 @@ Nun möchten wir die Änderungen auf GitHub publizieren.
 
 🎬 Drücken sie <kbd>ctrl</kbd>+ <kbd>shift</kbd> + <kbd>p</kbd> wählen `Publish to GitHub`. Anschliessend befolgen sie den Dialog:
 
-![git-publish](git-publish.gif)
+![git-publish](../git-publish.gif)
 
 ℹ️ Die Aktion kann auf dem Terminal nur bedingt ausgeführt werden.
 
