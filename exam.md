@@ -127,30 +127,28 @@ Eine Vorlage für ein `.docx` kann [hier heruntergeladen](https://janikv.cloud/s
 
 ### Kriterien
 
-Für jedes Kriterium werden Punkte von 0-9 vergeben. Jedes Kriterium wird mit 1-5 gewichtet.
+Für jedes Kriterium werden Punkte von 0-4 vergeben. Jedes Kriterium wird mit 1-5 gewichtet.
 
-**Qualität**
+#### Qualität
 
 Gewichtung: 5
 
-Leitfragen:
-* Wurden der Code in Funktionen gruppiert?
-* Sind die Anweisungen kommentiert?
-* Kann ein Laie die Funktion des Programms nachvollziehen?
-* Wurden Programmteile selbst verfasst oder kopiert?
+* **Struktur**: Wurden der Code in Funktionen oder Module gruppiert? Sind die Dateien korrekt benannt?
+* **Nachvollziehbarkeit**: Kann ein Laie die Funktion des Programms nachvollziehen? Sind variablen sinnvoll benannt? Sind die Anweisungen kommentiert?
+* **Authentizität**: Wurden Programmteile selbst verfasst oder nur kopiert?
 
-**Herausforderung**
+#### Herausforderung
 
 Gewichtung: 3
 
-* Wurden Elemente wie Schleifen und Verzweigungen sinnvoll eingesetzt?
-* Ist die Herausforderung dem HF-Niveau gerecht?
-* Ist in der Reflexion ein Lerneffekt sichtbar?
+* **Konstrukte**: Wurden Elemente wie Schleifen und Verzweigungen sinnvoll eingesetzt?
+* **Niveau**: Ist die Herausforderung dem HF-Niveau gerecht? War es für den Studierenden eine Herausforderung?
+* **Reflexion**: Ist in der Reflexion ein Lerneffekt sichtbar?
 
-**Inhalt**
+#### Inhalt
 
 Gewichtung: 4
 
-* Wurden Strukturen aus den Lektionen sinnvoll eingesetzt?
-* Liegt die Dokumentation in einem angemessen Umfang vor?
-* Wurde der Code mit einem Flowchart sachgemäss visualisiert?
+* **Anwendung**: Wurden Themen aus den Lektionen sinnvoll eingesetzt?
+* **Umfang**: Liegt die Dokumentation in erwarteten Umfang vor?
+* **Visualisierung**: Wurde der Code mit einem Flowchart sachgemäss visualisiert? Wurden Code-Teile hervorgehoben und dokumentiert?
