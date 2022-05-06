@@ -36,7 +36,7 @@ Ressourcen für die Unterrichtsgestaltung.
 
 ## Vorlagen
 
-**Fehlender Projektvorschlag EP 4S**
+### Fehlender Projektvorschlag EP 4S
 
 Guten Tag VORNAME
 
@@ -55,3 +55,15 @@ Lieber Gruss
 Janik  
 
 Tel: + XX XX XXX XX XX
+
+### EidP: Abgabefrist verstrichen
+
+Lieber VORNAME
+
+**Die Abgabefrist für die Programmierübung war am 20. März 2022.** Von dir ist ohne Begründung nichts eingegangen.
+
+Ich erwarte dazu eine Erklärung sowie eine verbindliche Angabe über den definitiven Abgabetermin der Übung (spätestens 28.03.2022). Sollte dieser wiederum nicht eingehalten werden, wird die Übung mit der Note 1 bewertet.
+
+Liebe Grüsse
+
+Janik

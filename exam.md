@@ -149,6 +149,6 @@ Gewichtung: 3
 
 Gewichtung: 4
 
-* **Anwendung**: Wurden Themen aus den Lektionen sinnvoll eingesetzt?
-* **Umfang**: Liegt die Dokumentation in erwarteten Umfang vor?
+* **Input**: Wurden Themen aus den Lektionen sinnvoll eingesetzt?
+* **Umfang**: Liegt die Dokumentation in erwarteten Umfang vor? Sind alle Kapitel vorhanden?
 * **Visualisierung**: Wurde der Code mit einem Flowchart sachgemäss visualisiert? Wurden Code-Teile hervorgehoben und dokumentiert?
