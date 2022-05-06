@@ -137,7 +137,7 @@ vocals = list(filter(
 **W3**: Welchen Datentyp verwenden Sie, um Lottozahlen zu speichern?
 
 <details>
-Hier gibt es keine eindeutige Antwort: Eine Grundregel bei Lottozahlen ist, dass sie eindeutig sein müssen. Es darf also keine Zahl mehrfach vorkommen. Aus diesem Grund bieten sich Sets an.
+Hier gibt es keine eindeutige Antwort: Eine Grundregel bei Lottozahlen ist, dass Sie eindeutig sein müssen. Es darf also keine Zahl mehrfach vorkommen. Aus diesem Grund bieten sich Sets an.
 Oft sollen Lottozahlen aber geordnet dargestellt werden – und das können nur Listen. Die folgenden Zeilen zeigen, wie Sie Lottozahlen zuerst als Set speichern und daraus bei Bedarf eine geordnete Liste machen.
 <pre>
 lotto = {34, 12, 25, 26, 3, 40}  

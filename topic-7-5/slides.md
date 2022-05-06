@@ -18,9 +18,9 @@
 
 ### Pip Manager installieren
 
-Mit ver VSCode-Erweiterung *Pip Manager* können sie *pip* Pakete verwalten.
+Mit ver VSCode-Erweiterung *Pip Manager* können Sie *pip* Pakete verwalten.
 
-🎬 Installieren sie die Erweiterung *Pip Manager* mit VSCode:
+🎬 Installieren Sie die Erweiterung *Pip Manager* mit VSCode:
 
 ![vscode-pip](../vscode-pip.gif)
 
@@ -28,7 +28,7 @@ Mit ver VSCode-Erweiterung *Pip Manager* können sie *pip* Pakete verwalten.
 
 ### Grosse Datenmengen
 
-Wie man Text-Daten liest und speichert, wissen wir. Im Umgang mit grossen Datenmengen ergeben sie neue Fragen:
+Wie man Text-Daten liest und speichert, wissen wir. Im Umgang mit grossen Datenmengen ergeben Sie neue Fragen:
 * Wie speichert man grosse Datenmengen?
 * Wie stellt man sicher, dass in den Daten keine Fehler sind?
 * Wie ermöglicht man den Zugriff für mehrere Programme auf dieselben Daten?
@@ -126,13 +126,13 @@ SQLite wird über das Modul `sqlite3` direkt in Python eingebunden. Es bietet st
 -   **BLOB**: Für _binary large objects_, also große binäre Datenmengen
 -   **NULL**: Entspricht _None_ in Python
 
-🤔  Wie ordnen sie die Datentypen der Spalten der Lager-Tabelle zu?
+🤔  Wie ordnen Sie die Datentypen der Spalten der Lager-Tabelle zu?
 
 ---
 
 ### VSCode vorbereiten
 
-🎬 Führen sie diese Aktionen aus:
+🎬 Führen Sie diese Aktionen aus:
 * Neuer Ordner `Thema7.5` erstellen
 * Ordner mit VSCode öffnen
 * Datei `lager.py` anlegen
@@ -161,7 +161,7 @@ cursor = connection.cursor()
 
 ### Tabelle erstellen
 
-🎬 Mit SQL erstellen wir nun eine Tabelle. Fügen sie diesen Code hinzu:
+🎬 Mit SQL erstellen wir nun eine Tabelle. Fügen Sie diesen Code hinzu:
 
 ```py
 # Datenbanktabelle erzeugen
@@ -179,7 +179,7 @@ cursor.execute(sql)
 
 ### Datensatz hinzufügen
 
-🎬 Fügen sie diesen Code an, um einen Datensatz zu erzeugen:
+🎬 Fügen Sie diesen Code an, um einen Datensatz zu erzeugen:
 
 ```py
 # Datensatz erzeugen
@@ -191,23 +191,23 @@ connection.commit()
 connection.close()
 ```
 
-🎬 Führen sie das Programm `lager.py` aus. Es wird nun eine `lager.db` Datei erstellt.
+🎬 Führen Sie das Programm `lager.py` aus. Es wird nun eine `lager.db` Datei erstellt.
 
 ---
 
 ### Datenbank anschauen
 
-Mit dieser VSCode-Erweiterung können sie die Datenbank-Datei anschauen:
+Mit dieser VSCode-Erweiterung können Sie die Datenbank-Datei anschauen:
 
 ![](../vscode-sqlite.png)
 
-🎬 Installieren sie diese Erweiterung.
+🎬 Installieren Sie diese Erweiterung.
 
 ---
 
 ### SQLite Datenbank anschauen
 
-🎬 Zeigen sie den Inhalt von `lager.db` wie folgt an:
+🎬 Zeigen Sie den Inhalt von `lager.db` wie folgt an:
 
 ![sqlite-browse](../sqlite-browse.gif)
 
@@ -215,7 +215,7 @@ Mit dieser VSCode-Erweiterung können sie die Datenbank-Datei anschauen:
 
 ### Weitere Datensätze einfügen
 
-🎬 Fügen wie weitere Datensätze hinzu, indem sie den Code unten an der richtigen Stelle einfügen.
+🎬 Fügen wie weitere Datensätze hinzu, indem Sie den Code unten an der richtigen Stelle einfügen.
 
 ```py
 # Datensatz erzeugen
@@ -234,13 +234,13 @@ connection.commit()
 
 Wir möchten die Daten mit SQL/Python auslesen.
 
-🎬 Erstellen sie eine neue Datei `abfragen.py`.
+🎬 Erstellen Sie eine neue Datei `abfragen.py`.
 
 ---
 
 ### Alle Datensätze anzeigen
 
-🎬 Ergänzen sie `abfragen.py` und führen sie den Code aus.
+🎬 Ergänzen Sie `abfragen.py` und führen Sie den Code aus.
 
 ```py
 import sqlite3
@@ -272,7 +272,7 @@ connection.close()
 
 Das Schlüsselwort heisst `WHERE`.
 
-🎬 Ersetzen sie die SQL-Abfrage mit:
+🎬 Ersetzen Sie die SQL-Abfrage mit:
 
 ```py
 sql = "SELECT * FROM lager WHERE id = 1"
@@ -288,7 +288,7 @@ sql = "SELECT * FROM lager WHERE id = 1"
 
 Das Schlüsselwort heisst `UPDATE`.
 
-🎬 Ersetzen sie die SQL-Abfrage mit:
+🎬 Ersetzen Sie die SQL-Abfrage mit:
 
 ```py
 # Datensatz aktualisieren
@@ -309,7 +309,7 @@ sql = "SELECT * FROM lager WHERE id = 2"
 
 Das Schlüsselwort heisst `DELETE`.
 
-🎬 Ersetzen sie die SQL-Abfrage mit:
+🎬 Ersetzen Sie die SQL-Abfrage mit:
 
 ```py
 # Datensatz löschen
@@ -344,7 +344,7 @@ Wer mehr zu SQL wissen wollt, besucht das [SQL Tutorial](https://www.w3schools.c
 
 ### Aufgaben 1
 
-Lösen sie die ersten zwei Aufgaben.
+Lösen Sie die ersten zwei Aufgaben.
 
 ⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 10 Minuten
 

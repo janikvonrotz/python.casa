@@ -99,7 +99,7 @@ Es gibt weitere Plattformen wie <https://gitlab.com/> oder selber hosten <https:
 
 ### GitHub Account erstellen
 
-🎬 Erstellen sie einen Account auf [GitHub](https://github.com/signup).
+🎬 Erstellen Sie einen Account auf [GitHub](https://github.com/signup).
 
 Wir werden den Account zu einem späteren Zeitpunkt brauchen.
 
@@ -109,7 +109,7 @@ Wir werden den Account zu einem späteren Zeitpunkt brauchen.
 
 Nun installieren wir git auf dem Computer.
 
-🎬 Öffnen sie <https://git-scm.com/>, laden sie git herunter und installieren sie die Software. Verwenden sie die empfohlenen Einstellungen.
+🎬 Öffnen Sie <https://git-scm.com/>, laden Sie git herunter und installieren Sie die Software. Verwenden Sie die empfohlenen Einstellungen.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/hPNs2x6zsPY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -123,7 +123,7 @@ VSCode sollte git automatisch erkennen.
 
 ### VSCode vorbereiten
 
-🎬 Führen sie diese Aktionen aus:
+🎬 Führen Sie diese Aktionen aus:
 * Neuer Ordner `Thema 10` erstellen
 * Ordner mit VSCode öffnen
 * Datei `main.py` mit diesem Code anlegen:
@@ -144,7 +144,7 @@ VSCode macht die Arbeit mit git "einfacher". Zu jedem Beispiel wird wenn möglic
 
 ### Git konfigurieren
 
-🎬 Starten sie ein neues Terminal und geben sie die folgenden Befehle ein. Natürlich müssen sie einen eigenen Benutzernamen und E-Mail defineiren.
+🎬 Starten Sie ein neues Terminal und geben Sie die folgenden Befehle ein. Natürlich müssen Sie einen eigenen Benutzernamen und E-Mail defineiren.
 
 ```bash
 git config --global user.name "janikvonrotz"
@@ -157,7 +157,7 @@ git config --global user.email "contact@janikvonrotz.ch"
 
 ### Repository initialisieren
 
-🎬 In VSCode klicken sie auf die Versionskontrolle und initialisieren das Repo.
+🎬 In VSCode klicken Sie auf die Versionskontrolle und initialisieren das Repo.
 
 ![](../repo-init.png)
 
@@ -169,7 +169,7 @@ git config --global user.email "contact@janikvonrotz.ch"
 
 Git hat die Datei `main.py` erkannt und bietet an die Datei zu stagen.
 
-🎬 Stagen sie die Datei `main.py` wie folgt:
+🎬 Stagen Sie die Datei `main.py` wie folgt:
 
 ![git-stagen](../git-stagen.gif)
 
@@ -181,7 +181,7 @@ Git hat die Datei `main.py` erkannt und bietet an die Datei zu stagen.
 
 Änderungen in der Stage kann man comitten. Dazu braucht es eine Nachricht.
 
-🎬 Comitten sie die Änderungen wie folgt:
+🎬 Comitten Sie die Änderungen wie folgt:
 
 ![git-commit](../git-commit.gif)
 
@@ -191,7 +191,7 @@ Git hat die Datei `main.py` erkannt und bietet an die Datei zu stagen.
 
 ### Datei ändern und vergleichen
 
-🎬 Ändern sie die Ausgabe in `main.py` zu `'Git is great!'` und vergleichen sie die Datei:
+🎬 Ändern Sie die Ausgabe in `main.py` zu `'Git is great!'` und vergleichen Sie die Datei:
 
 ![git-diff](../git-diff.gif)
 
@@ -201,7 +201,7 @@ Git hat die Datei `main.py` erkannt und bietet an die Datei zu stagen.
 
 ### Änderung committen
 
-🎬 Stagen und comitten sie die Änderung mit der Nachricht `changed output`.
+🎬 Stagen und comitten Sie die Änderung mit der Nachricht `changed output`.
 
 ℹ️ Der Terminal-Befehl ist `git commit -a -m "changed output"`
 
@@ -211,11 +211,11 @@ Git hat die Datei `main.py` erkannt und bietet an die Datei zu stagen.
 
 Die History umfasst alle Commits.
 
-🎬 Öffnen sie ein Terminal und geben sie `git log` ein.
+🎬 Öffnen Sie ein Terminal und geben Sie `git log` ein.
 
 ![git-log](../git-log.gif)
 
-ℹ️ Zum schliessen der Ansicht drücken sie `q`.
+ℹ️ Zum schliessen der Ansicht drücken Sie `q`.
 
 ---
 
@@ -229,7 +229,7 @@ In diesem Beispiel hat der Commit mit Nachricht `init main` den Hash `14b3b432a7
 
 ### Commit auschecken
 
-🎬 Kopieren sie den Hash ihres `init main` Commits und geben sie im Terminal `git checkout $HASH` ein:
+🎬 Kopieren Sie den Hash ihres `init main` Commits und geben Sie im Terminal `git checkout $HASH` ein:
 
 ![git-checkout](../git-checkout.gif)
 
@@ -239,7 +239,7 @@ Nun sollte die vorhergehende Version der Datei `main.py` angezeigt werden.
 
 ### Master auschecken
 
-🎬 Wechseln sie wieder zurück zum `master`:
+🎬 Wechseln Sie wieder zurück zum `master`:
 
 ![git-checkout-master](../git-checkout-master.gif)
 
@@ -257,7 +257,7 @@ Nun sollte die vorhergehende Version der Datei `main.py` angezeigt werden.
 
 Nun möchten wir die Änderungen auf GitHub publizieren.
 
-🎬 Drücken sie <kbd>ctrl</kbd>+ <kbd>shift</kbd> + <kbd>p</kbd> wählen `Publish to GitHub`. Anschliessend befolgen sie den Dialog:
+🎬 Drücken Sie <kbd>ctrl</kbd>+ <kbd>shift</kbd> + <kbd>p</kbd> wählen `Publish to GitHub`. Anschliessend befolgen Sie den Dialog:
 
 ![git-publish](../git-publish.gif)
 
@@ -267,7 +267,7 @@ Nun möchten wir die Änderungen auf GitHub publizieren.
 
 ### Änderung auf GitHub erstellen
 
-🎬 Fügen sie gemäss Vorschlag auf GitHub die Datei `README.md` hinzu:
+🎬 Fügen Sie gemäss Vorschlag auf GitHub die Datei `README.md` hinzu:
 
 ![github-readme](../github-readme.gif)
 
@@ -277,7 +277,7 @@ Nun möchten wir die Änderungen auf GitHub publizieren.
 
 Damit die Änderung lokal verfügbar wird, muss zuerst *gefetched* und anschliessend *gepullt* werden.
 
-🎬 Führen sie diese Aktion aus:
+🎬 Führen Sie diese Aktion aus:
 
 ![git-fetch-and-pull](../git-fetch-and-pull.gif)
 
@@ -287,7 +287,7 @@ Damit die Änderung lokal verfügbar wird, muss zuerst *gefetched* und anschlies
 
 ### Änderung pushen
 
-🎬 Passen sie den Text im `README.md`, committen und pushen sie die Änderung:
+🎬 Passen Sie den Text im `README.md`, committen und pushen Sie die Änderung:
 
 ![git-push](../git-push.gif)
 
@@ -305,7 +305,7 @@ Hier nochmals der git Workflow:
 
 ### Aufgaben 1
 
-Lösen sie die ersten zwei Aufgaben.
+Lösen Sie die ersten zwei Aufgaben.
 
 ⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 10 Minuten
 

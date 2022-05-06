@@ -6,21 +6,21 @@ Aufgaben zum Thema.
 
 ### Aufgabe 1.1: Input, Process and Output
 
-Erstellen sie ein Programm, das nach ihrem Namen fragt und diesen in Grossbuchstaben wieder ausgibt. Suchen sie im Internet nach `Python Grossbuchstaben` um eine HIlfestellung zu finden.
+Erstellen Sie ein Programm, das nach ihrem Namen fragt und diesen in Grossbuchstaben wieder ausgibt. Suchen Sie im Internet nach `Python Grossbuchstaben` um eine HIlfestellung zu finden.
 
-> Kopieren sie den Code nicht! Schreiben sie jedes Zeichen und Anweisung, nur so finden sie auch die Zeichen auf der Tastatur. 
+> Kopieren Sie den Code nicht! Schreiben Sie jedes Zeichen und Anweisung, nur so finden Sie auch die Zeichen auf der Tastatur. 
 
 :::tip
-Setzen sie nach `name` die folgende Funktion an `.upper()`. 
+Setzen Sie nach `name` die folgende Funktion an `.upper()`. 
 :::
 
 ### Aufgabe 1.2: Kommentieren
 
-Fügen sie zu jeder Anweisung des Programs aus Aufgabe 1 einen Kommentar hinzu.
+Fügen Sie zu jeder Anweisung des Programs aus Aufgabe 1 einen Kommentar hinzu.
 
 ### Aufgabe 1.3: VS Code IDE
 
-Installieren sie den IDE-Editor [VS Code](https://code.visualstudio.com/). Öffnen sie ein Skript führen sie es mit VS Code aus.
+Installieren Sie den IDE-Editor [VS Code](https://code.visualstudio.com/). Öffnen Sie ein Skript führen Sie es mit VS Code aus.
 
 Video: [Visual Studio Code für Windows installieren](https://www.youtube.com/watch?v=og51Lo5uKBA)
 
@@ -57,7 +57,7 @@ Mehrzeilige Anweisungen sind möglich. Bei offenen Klammern ist in mehrzeiligen 
 **W5**: Wie können Sie mehrere Anweisungen in einer Zeile durchführen?
 
 <details>
-Um mehrere Anweisungen in einer Zeile auszuführen, trennen Sie sie durch Semikola – also z. B. a=3; print(a).
+Um mehrere Anweisungen in einer Zeile auszuführen, trennen Sie Sie durch Semikola – also z. B. a=3; print(a).
 </details>
 
 **W6**: Welche Bedeutung hat eingerückter Code?

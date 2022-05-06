@@ -184,7 +184,7 @@ Quelle[^9]
 	* Text Zelle: Text kann in Markdown Syntax geschrieben werden
 	* Code Zelle: Code kann in einer Programmiersprache wie Python geschrieben werden
 
-ℹ️ Jupyter Notebooks eignes sich besonder für Data Science Projekte, da sie eine geordnete Liste an Ein-und Ausgangs Zellen beihnalten, welche Text wie auch Code beinhalten können. Dies wiederspiegelt die Struktur eine typischen Data Science Prozesses.
+ℹ️ Jupyter Notebooks eignes sich besonder für Data Science Projekte, da Sie eine geordnete Liste an Ein-und Ausgangs Zellen beihnalten, welche Text wie auch Code beinhalten können. Dies wiederspiegelt die Struktur eine typischen Data Science Prozesses.
 
 ---
 
@@ -224,7 +224,7 @@ In der nachfolgenden Übung wir das *Heart Attack Analysis & Prediction Dataset*
 
 ### Aufgaben 1
 
-Lösen sie die ersten zwei Aufgaben.
+Lösen Sie die ersten zwei Aufgaben.
 
 ⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 30 Minuten
 

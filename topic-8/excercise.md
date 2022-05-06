@@ -10,19 +10,19 @@ Befolgen Sie die nächsten Schritte um die Programmierumgebung bereitzustellen.
 
 ### Aufgabe 8.0: pip installieren
 
-Dieser Teil ist optional. Um Ptyhon-Pakete zu installieren, verwenden wir die VSCode-Erweiterung *Pip Manager*. Besser aber wäre die eigenständige Installation von pip. Führen sie die folgenden Aktionen aus, wenn sie pip für die Kommandozeile installieren möchten.
+Dieser Teil ist optional. Um Ptyhon-Pakete zu installieren, verwenden wir die VSCode-Erweiterung *Pip Manager*. Besser aber wäre die eigenständige Installation von pip. Führen Sie die folgenden Aktionen aus, wenn Sie pip für die Kommandozeile installieren möchten.
 
-* Laden sie die Datei `get-pip.py` unter diesem Link <https://bootstrap.pypa.io/get-pip.py> herunter
-* Speichern sie die Datei in einem Ordner und öffnen sie diesen mit VSCode
-* Starten sie ein Terminal im Ordner
-* Geben sie `python get-pip.py` ein und installieren sie pip mit Enter
+* Laden Sie die Datei `get-pip.py` unter diesem Link <https://bootstrap.pypa.io/get-pip.py> herunter
+* Speichern Sie die Datei in einem Ordner und öffnen Sie diesen mit VSCode
+* Starten Sie ein Terminal im Ordner
+* Geben Sie `python get-pip.py` ein und installieren Sie pip mit Enter
 
 ![](../pip-install.png)
 
-* War die Installation erfolgreich, können sie mit dem Befehl `pip install cowsay` die Installation von Python Paketen testen.
+* War die Installation erfolgreich, können Sie mit dem Befehl `pip install cowsay` die Installation von Python Paketen testen.
 
 ::: tip
-Falls der `pip`-Befehl im Terminal nicht funktioniert, versuchen sie es mit `pip3`
+Falls der `pip`-Befehl im Terminal nicht funktioniert, versuchen Sie es mit `pip3`
 :::
 
 ### Aufgabe 8.1:  Programmierumgebung aufsetzen
@@ -54,7 +54,7 @@ Um im Jupyter Notebook fortzufahren müssen folgende Dateien aus dem Python.casa
 * [`ExerciseNotebook.ipynb`](https://raw.githubusercontent.com/janikvonrotz/python.casa/main/topic-8/ExerciseNotebook.ipynb)
 * [`heart.csv`](https://raw.githubusercontent.com/janikvonrotz/python.casa/main/topic-8/heart.csv)
 
-Speichern sie Dateien mit <kbd>ctrl</kbd> + <kbd>s</kbd>, wenn sie im Browser angezeigt werden.  Legen sie die Dateien in einem Ordner ab und öffnen sie diesen Visual Studio Code.
+Speichern Sie Dateien mit <kbd>ctrl</kbd> + <kbd>s</kbd>, wenn Sie im Browser angezeigt werden.  Legen Sie die Dateien in einem Ordner ab und öffnen Sie diesen Visual Studio Code.
 
 🎬 Nun können Sie dem gemäss dem Inhalt des Jupyter Notebooks fortfahren.
 
@@ -77,7 +77,7 @@ Dabei muss folgendermassen vorgegangen werden
 ![](../kaggle-heart-attack-data.png)
 
 * Klicke auf *Add* um das Datenset hinzuzufügen, dabei schliesst sich das Fenster
-* Kicken sie *File > Import Notebook > Browse File* und wählen sie die `` Datei aus (Diese muss vorher heruntergeladen werden)
+* Kicken Sie *File > Import Notebook > Browse File* und wählen Sie die `` Datei aus (Diese muss vorher heruntergeladen werden)
 * Anschliessend *Import* klicken
 
 🎬 Nun können Sie dem gemäss dem Inhalt des Jupyter Notebooks fortfahren.

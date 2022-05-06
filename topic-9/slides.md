@@ -40,7 +40,7 @@ Für Python Flask sieht die Architektur so aus:
 
 ### VSCode vorbereiten
 
-🎬 Führen sie diese Aktionen aus:
+🎬 Führen Sie diese Aktionen aus:
 * Neuer Ordner `Thema 9` erstellen
 * Ordner mit VSCode öffnen
 * Datei `db.py` anlegen
@@ -48,7 +48,7 @@ Für Python Flask sieht die Architektur so aus:
 
 ### Flask installieren
 
-🎬 Installieren sie das Package `flask` mit dem *Pip Manager*.
+🎬 Installieren Sie das Package `flask` mit dem *Pip Manager*.
 
 ![](../vscode-install-flask.png)
 
@@ -56,7 +56,7 @@ Für Python Flask sieht die Architektur so aus:
 
 ### Datenbank erstellen
 
-🎬 Ergänzen sie `db.py` und führen sie das Skript aus.
+🎬 Ergänzen Sie `db.py` und führen Sie das Skript aus.
 
 ```python
 import sqlite3
@@ -97,7 +97,7 @@ Wir verwenden Jinja um die Ansicht der Webapp zu generieren.
 
 ### Layout Template erstellen
 
-🎬 Füllen sie das `layout.html` mit diesem Inhalt aus:
+🎬 Füllen Sie das `layout.html` mit diesem Inhalt aus:
 
 ```html
 <!doctype html>
@@ -131,13 +131,13 @@ Es handelt sich hierbei um ein einfaches HTML-Dokument. Sie können die Datei `l
 
 ### Jinja Blockelemente
 
-Ihnen ist sicher der Inhalt `{% block content %}{% endblock %}` aufgefallen. Alles was mit `{%` oder `{{` beginnt und mit `%}` oder `}}` endet sind Jinja-Variablen. Damit steuern sie die Verarbeitungslogik der Daten.
+Ihnen ist sicher der Inhalt `{% block content %}{% endblock %}` aufgefallen. Alles was mit `{%` oder `{{` beginnt und mit `%}` oder `}}` endet sind Jinja-Variablen. Damit steuern Sie die Verarbeitungslogik der Daten.
 
 ---
 
 ### Index Template erstellen
 
-🎬 Füllen sie das `index.html` mit diesem Inhalt aus:
+🎬 Füllen Sie das `index.html` mit diesem Inhalt aus:
 
 ```html
 {% extends "layout.html" %}
@@ -154,7 +154,7 @@ Dieses Template verwendet das `layout.html` als Vorlage.
 
 ### List Template erstellen
 
-🎬 Füllen sie das `list.html` mit diesem Inhalt aus:
+🎬 Füllen Sie das `list.html` mit diesem Inhalt aus:
 
 ```html
 {% extends "layout.html" %}
@@ -189,7 +189,7 @@ Damit werden die Inhalte aus der Datenbank in einer Tabelle aufgelistet.
 
 ### Submit Template erstellen
 
-🎬 Füllen sie das `submit.html` mit diesem Inhalt aus:
+🎬 Füllen Sie das `submit.html` mit diesem Inhalt aus:
 
 ```html
 {% extends "layout.html" %}
@@ -218,7 +218,7 @@ Damit werden die Inhalte aus der Datenbank in einer Tabelle aufgelistet.
 {% endblock %}
 ```
 
-Mit diesem Formular erstellen sie neue Inhalte in der Datenbank.
+Mit diesem Formular erstellen Sie neue Inhalte in der Datenbank.
 
 ---
 
@@ -232,7 +232,7 @@ Mit diesem Formular erstellen sie neue Inhalte in der Datenbank.
 
 ### Python-Flask App erstellen
 
-🎬 Erstellen sie die Datei `app.py` mit diesem Inhalt:
+🎬 Erstellen Sie die Datei `app.py` mit diesem Inhalt:
 
 ```python
 from distutils.log import error
@@ -316,17 +316,17 @@ Bei GET liefert man ein HTML-Dokument als Antwort und bei POST nimmt man Daten e
 
 Nun sind wir bereit um die Python Flask Webapplikation zu starten.
 
-🎬 Führen sie die Datei `app.py` aus.
+🎬 Führen Sie die Datei `app.py` aus.
 
 ![](../flask-start.png)
 
-Öffnen sie die Adresse <http://127.0.0.1:5000/> in ihrem Browser.
+Öffnen Sie die Adresse <http://127.0.0.1:5000/> in ihrem Browser.
 
 ---
 
 ### Webserver gestartet
 
-Wenn sie folgenden Ausschnitt im Browser sehen, haben sie erfolgreich einen Python Flask Webserver gestartet und eine Webapplikation bereitgestellt.
+Wenn Sie folgenden Ausschnitt im Browser sehen, haben Sie erfolgreich einen Python Flask Webserver gestartet und eine Webapplikation bereitgestellt.
 
 ![](../flask-server.png)
 
@@ -334,7 +334,7 @@ Wenn sie folgenden Ausschnitt im Browser sehen, haben sie erfolgreich einen Pyth
 
 ### Produkt hinzufügen
 
-🎬 Klicken sie auf *Produkt hinzufügen*, füllen sie das Formular aus und klicken auf *submit*
+🎬 Klicken Sie auf *Produkt hinzufügen*, füllen Sie das Formular aus und klicken auf *submit*
 
 ![](../topic-9-add-product.png)
 
@@ -342,7 +342,7 @@ Wenn sie folgenden Ausschnitt im Browser sehen, haben sie erfolgreich einen Pyth
 
 ### Produkte auflisten
 
-🎬 Navigieren sie auf die Starteseite und wählen sie *Produkte auflisten*.
+🎬 Navigieren Sie auf die Starteseite und wählen Sie *Produkte auflisten*.
 
 Wird das erfasste Produkt angezeigt?
 
@@ -350,7 +350,7 @@ Wird das erfasste Produkt angezeigt?
 
 ### Aufgaben 1
 
-Lösen sie die ersten zwei Aufgaben.
+Lösen Sie die ersten zwei Aufgaben.
 
 ⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 30 Minuten
 

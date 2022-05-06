@@ -5,7 +5,7 @@ connection = sqlite3.connect("quiz.db")
 cursor = connection.cursor()
 
 # SQL-Abfrage mit Eingabe
-frage = input("Bitte geben sie eine Frage-ID ein: ")
+frage = input("Bitte geben Sie eine Frage-ID ein: ")
 sql = "SELECT * FROM questions WHERE questionID = " + frage
 
 # SQL-Abfrage

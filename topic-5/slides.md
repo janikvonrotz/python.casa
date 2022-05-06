@@ -55,7 +55,7 @@ def funktionsname(para1, para2, para3):
 
 ### Thonny starten und einrichten
 
-🎬 Führen sie diese Aktionen aus:
+🎬 Führen Sie diese Aktionen aus:
 * Neuer Ordner `Thema5` erstellen
 * Neue Datei in Ordner `Funktion.py` erstellen
 
@@ -193,7 +193,7 @@ f1([1, 2]) # Ausgabe [1, 2]
 
 ### Optionale Parameter
 
-Mit `para=default` definieren sie für einen Parameter einen Standardwert. Dieser ist damit gleichzeitig optional.
+Mit `para=default` definieren Sie für einen Parameter einen Standardwert. Dieser ist damit gleichzeitig optional.
 
 ---
 
@@ -216,7 +216,7 @@ f() # Fehler a und b werden vermisst
 
 ### Aufgaben 1
 
-Lösen sie die ersten zwei Aufgaben.
+Lösen Sie die ersten zwei Aufgaben.
 
 ⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 10 Minuten
 
@@ -259,7 +259,7 @@ f(1,l) # Ausgabe 1 (range(0, 6),) <class 'tuple'>
 f(*l) # 0 (1, 2, 3, 4, 5) <class 'tuple'>
 ```
 
-ℹ️ Keep it simple! Verwenden sie einfache Parameter.
+ℹ️ Keep it simple! Verwenden Sie einfache Parameter.
 
 ---
 
@@ -353,7 +353,7 @@ print(filtered) # Ausgabe [3, 9, 345, 36, 33]
 
 ### Aufgaben 2
 
-Lösen sie die ersten zwei Aufgaben.
+Lösen Sie die ersten zwei Aufgaben.
 
 ⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 10 Minuten
 
@@ -438,7 +438,7 @@ Repräsentiert eine andere Funktion/Prozess.
 
 ### Aufgaben 3
 
-Lösen sie die ersten zwei Aufgaben.
+Lösen Sie die ersten zwei Aufgaben.
 
 ⚡Aufteilung in Breakout-Rooms ⏱️ 10 Minuten
 

@@ -6,12 +6,12 @@ Aufgaben zum Thema.
 
 ### Aufgabe 2.1: Zufall
 
-Generieren sie eine Zufallszahl vom Typ `float` im Bereich von 1.0 bis 10.0.
+Generieren Sie eine Zufallszahl vom Typ `float` im Bereich von 1.0 bis 10.0.
 
 ::: tip
 Die Python Dokumentation bietet zu allen Module Informationen. Hier der Link zum Random-Modul: [random / Generate pseudo-random numbers](https://docs.python.org/3/library/random.html#module-random)
 
-Verwenden sie die `uniform`-Funktion für diese Aufgabe.
+Verwenden Sie die `uniform`-Funktion für diese Aufgabe.
 
 ```py
 from random import uniform
@@ -20,19 +20,19 @@ from random import uniform
 
 ### Aufgabe 2.2: Runden
 
-Runden sie die generierte Zahl auf 3 Stellen nach dem Komma.
+Runden Sie die generierte Zahl auf 3 Stellen nach dem Komma.
 
 ### Aufgabe 2.3: Modulo
 
-Fragen sie den Benutzer nach einer ersten und einer zweiten Zahl. Geben sie den Restwert einer Division der ersten durch die zweite Zahl aus.
+Fragen Sie den Benutzer nach einer ersten und einer zweiten Zahl. Geben Sie den Restwert einer Division der ersten durch die zweite Zahl aus.
 
 ::: warning
-Wenn die Heap-Ansicht noch aktiviert ist, kann es sein, das Python nicht den Wert der Zahl liefert, sondern deren Referenz. Deaktivieren sie die Heap-Ansicht um sicher zu gehen.
+Wenn die Heap-Ansicht noch aktiviert ist, kann es sein, das Python nicht den Wert der Zahl liefert, sondern deren Referenz. Deaktivieren Sie die Heap-Ansicht um sicher zu gehen.
 :::
 
 ### Aufgabe 2.4: Ungleich
 
-Führen sie das folgende Programm aus:
+Führen Sie das folgende Programm aus:
 
 ```py
 a = True
@@ -53,7 +53,7 @@ print(x+y+z)
 ```
 
 <details>
-Jeder Python-Variablen muss ein Wert zugewiesen werden, bevor sie ausgewertet werden kann. Das war bei z nicht der Fall. Es gibt keinen Defaultzustand (etwa 0). So funktioniert der Code:
+Jeder Python-Variablen muss ein Wert zugewiesen werden, bevor Sie ausgewertet werden kann. Das war bei z nicht der Fall. Es gibt keinen Defaultzustand (etwa 0). So funktioniert der Code:
 <pre>
 x=1; y=2; z=0  
 print(x+y+z)

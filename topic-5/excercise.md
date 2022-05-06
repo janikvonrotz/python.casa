@@ -16,10 +16,10 @@ print("Der nächste Zug fährt nach Genf.")
 print("Der nächste Zug fährt nach Chur.")
 ```
 
-Es wird immer der gleiche Satz verwendet, nur der Name des Zuges ändert. Versuchen sie dieses Programm mit einer Funktion zu vereinfachen.
+Es wird immer der gleiche Satz verwendet, nur der Name des Zuges ändert. Versuchen Sie dieses Programm mit einer Funktion zu vereinfachen.
 
 ::: tip
-Erstelle sie eine Funktion `ansage`, die als Parameter den Ort erhält und rufen sie die Funktion wie folgt auf:
+Erstelle Sie eine Funktion `ansage`, die als Parameter den Ort erhält und rufen Sie die Funktion wie folgt auf:
 
 ```py
 ansage("Bern")
@@ -32,23 +32,23 @@ ansage("Chur")
 
 ### Aufgabe 5.2: Vereinfachen mit Schleife
 
-Unser Programm kann noch verbessert werden. Erstellen sie eine Liste der Orte und übergeben sie diese Parameter an die Ansage-Funktion.
+Unser Programm kann noch verbessert werden. Erstellen Sie eine Liste der Orte und übergeben Sie diese Parameter an die Ansage-Funktion.
 
 ### Aufgabe 5.3: Parameter validieren
 
-Wir möchten sicherstellen, dass die Ansage-Funktion nur Variablen vom Typ `str` verarbeitet. Erstellen sie eine entsprechende Prüfung vor der Ausgabe.
+Wir möchten sicherstellen, dass die Ansage-Funktion nur Variablen vom Typ `str` verarbeitet. Erstellen Sie eine entsprechende Prüfung vor der Ausgabe.
 
 ### Aufgabe 5.4: Quersumme berechnen
 
 Schreibe eine Funktion `quersumme(zahl)`, welche die Quersumme von `zahl` berechnet und zurückgibt.
 
 ::: tip
-Wenn man die Zahl in einen String umwandelt kann man sie in einer Schleife verarbeiten.
+Wenn man die Zahl in einen String umwandelt kann man Sie in einer Schleife verarbeiten.
 :::
 
 ### Aufgabe 5.5: Rekursion auf der Festplatte
 
-Schreiben sie eine rekursive Funktion, die als Parameter einen Ordnerpfad erwartet und alle Unterordner ausgibt.
+Schreiben Sie eine rekursive Funktion, die als Parameter einen Ordnerpfad erwartet und alle Unterordner ausgibt.
 
 ::: tip
 Dazu eine Hilfestellung. Das folgende Programm gibt alle Dateien und Ordner unterhalb eines bestimmten Ordnerpfads aus:
@@ -72,14 +72,14 @@ for entry in os.listdir(basepath):
 
 ### Aufgabe 5.6: Filtern mit Lambda
 
-Kopieren sie die Datenstruktur von <https://jsonplaceholder.typicode.com/users> nach Python.
+Kopieren Sie die Datenstruktur von <https://jsonplaceholder.typicode.com/users> nach Python.
 
 ![kopieren-daten-jsonplaceholder](../kopieren-daten-jsonplaceholder.gif)
 
-Filter sind alle Benutzer aus der Liste, die eine Telefonnumer haben, die mit einer `1` beginnt. Verwenden sie dazu eine Lambda-Funktion.
+Filter sind alle Benutzer aus der Liste, die eine Telefonnumer haben, die mit einer `1` beginnt. Verwenden Sie dazu eine Lambda-Funktion.
 
 ::: tip
-Verwenden sie die folgende Bausteine:
+Verwenden Sie die folgende Bausteine:
 
 ```py
 print(user.get('email'))
@@ -100,13 +100,13 @@ users = list(filter)
 
 ### Aufgabe 5.7: Chart to Code
 
-Schreiben sie diese Flowchart als Code:
+Schreiben Sie diese Flowchart als Code:
 
 ![diagram](../diagram.svg)
 
 ### Aufgabe 5.8: Code to Chart
 
-Erstellen sie einen Flowchart mit [draw.io](https://draw.io) anhand dieses Codes:
+Erstellen Sie einen Flowchart mit [draw.io](https://draw.io) anhand dieses Codes:
 
 ```py
 spicyfood = input("Do you like spicy food? True or False?")
@@ -122,7 +122,7 @@ if spicyfood == "False":
 
 ### Aufgabe 5.9: Hangman
 
-Entwickeln sie das Spiel *Hangman*. Implementierung sie dazu folgende Punkte:
+Entwickeln Sie das Spiel *Hangman*. Implementierung Sie dazu folgende Punkte:
 * Zu Finden des Worts hat man 5 Versuche
 * Das zu suchende Wort wird in Grossbuchstaben umgewandelt
 * Der eingegebene Buchstabe wird in Grossbuchstaben umgewandelt
@@ -148,7 +148,7 @@ if eingabe in wort:
 
 ```py
 while versuche > 0  and not gewonnen:
-    eingabe = input("Geben sie einen Buchstaben ein: ").upper()
+    eingabe = input("Geben Sie einen Buchstaben ein: ").upper()
 ```
 
 ```py
@@ -203,7 +203,7 @@ def minmax(lst): 
 **W2**: Ein Palindrom ist ein Text, der von vorn und hinten gelesen den gleichen Inhalt hat – z. B. "Lagerregal" oder "Trug Tim eine so helle Hose nie mit Gurt?"". Leer- und Satzzeichen werden dabei ignoriert. Weitere Beispiele finden Sie hier: <https://de.wikipedia.org/wiki/Palindrom>. Schreiben Sie eine Funktion, die testet, ob eine Zeichenkette ein Palindrom ist. Tipp: Verwenden Sie die Funktion str.isalpha, um zu testen, ob ein Zeichen ein Buchstabe ist.
 
 <details>
-Die Lösungsfunktion wandelt die übergebene Zeichenkette zuerst in Kleinbuchstaben um und bildet daraus eine Liste. Aus dieser Liste filtert sie nun mit isalpha alle Buchstaben heraus und eliminiert so Leer- und Satzzeichen. join bildet aus den verbliebenen Listenelementen wieder eine Zeichenkette. Als Rückgabeergebnis gilt der Test, ob diese Zeichenkette identisch ist mit einer Zeichenkette in umgekehrter Reihenfolge (Slicing-Notation [::-1]).
+Die Lösungsfunktion wandelt die übergebene Zeichenkette zuerst in Kleinbuchstaben um und bildet daraus eine Liste. Aus dieser Liste filtert Sie nun mit isalpha alle Buchstaben heraus und eliminiert so Leer- und Satzzeichen. join bildet aus den verbliebenen Listenelementen wieder eine Zeichenkette. Als Rückgabeergebnis gilt der Test, ob diese Zeichenkette identisch ist mit einer Zeichenkette in umgekehrter Reihenfolge (Slicing-Notation [::-1]).
 <pre>
 # Beispieldatei palindrom.py  
 def palindrom(s):          
@@ -234,7 +234,7 @@ def prod(*f):
         return f[0]  
     else:  
         return reduce(lambda x, y: x*y, f)
-Auf die Lambda-Funktion können Sie verzichten, wenn Sie wissen, dass sie alle Python-Operatoren im operator-Modul auch als Funktionen zur Verfügung stehen:
+Auf die Lambda-Funktion können Sie verzichten, wenn Sie wissen, dass Sie alle Python-Operatoren im operator-Modul auch als Funktionen zur Verfügung stehen:
 import operator  
 def prod(*f):  
     if len(f)<2:  

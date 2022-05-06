@@ -12,7 +12,7 @@ Damit wir ein Graphical User Interface (GUI) entwickeln können, müssen Softwar
 
 ### Qt-Paket installieren
 
-🎬 Führen sie diese Anweisungen in Thonny aus:
+🎬 Führen Sie diese Anweisungen in Thonny aus:
 * Navigation nach *Extras > Manage packages ...*
 * `PyQt5` eingeben und auf *Paket von PyPI suchen* klicken
 * Das Paket mit `installiere` installieren
@@ -23,7 +23,7 @@ Damit wir ein Graphical User Interface (GUI) entwickeln können, müssen Softwar
 
 ### Hello World mit Qt
 
-🎬 Erstellen sie die Datei `GUI.py` mit diesem Code:
+🎬 Erstellen Sie die Datei `GUI.py` mit diesem Code:
 
 ```py
 import sys
@@ -61,7 +61,7 @@ Wer sich weiter einarbeiten möchte kann diese Tutorial-Reihe schauen: [Python G
 
 ### Aufgabe 6.1: Balkendiagramm 🚧
 
-Das folgende Programm liest Temperaturdaten aus einer Textdatei aus und stellt diese als Balkendiagramm dar. Versuchen sie den Code des Programms zu versehen.
+Das folgende Programm liest Temperaturdaten aus einer Textdatei aus und stellt diese als Balkendiagramm dar. Versuchen Sie den Code des Programms zu versehen.
 
 ```py
 from datetime import datetime

@@ -49,7 +49,7 @@ else:
 	print("Das gewählte Produkt ist nicht verfügbar.")
 ```
 
-Fügen sie die Eigenschaften und Methoden zu einer fertigen Python-Klasse zusammen.
+Fügen Sie die Eigenschaften und Methoden zu einer fertigen Python-Klasse zusammen.
 
 ```py
 class Getränkeautomat:
@@ -65,7 +65,7 @@ class Getränkeautomat:
 
 ### Aufgabe 5.5.2: Getränkeautomat ausführen
 
-Sie haben die Python-Klasse für den Getränkeautomat entworf und können nun die Software ausführen. Instanzieren sie die Getränkeautomat-Klasse mit den benötigen Parameter. Rufen sie die beiden Methoden auf und testen sie den Automaten.
+Sie haben die Python-Klasse für den Getränkeautomat entworf und können nun die Software ausführen. Instanzieren Sie die Getränkeautomat-Klasse mit den benötigen Parameter. Rufen Sie die beiden Methoden auf und testen Sie den Automaten.
 
 Dazu folgende Inputs:
 
@@ -82,7 +82,7 @@ automat.Ausgeben(3)
 
 ### Aufgabe 5.5.3: Klasse Getränkeautomat erweitern
 
-Wir möchten den Namen des Getränkeautomats auch nach der Instanzierung ändern können. Erstellen sie eine Getter- und Setter-Methode für die Instanzvariable `name`.
+Wir möchten den Namen des Getränkeautomats auch nach der Instanzierung ändern können. Erstellen Sie eine Getter- und Setter-Methode für die Instanzvariable `name`.
 
 ```py
 @property
@@ -96,17 +96,17 @@ def name(self, name):
 	self._name = name
 ```
 
-Bennen sie die Instanzvariable von `name` zu `_name`.
+Bennen Sie die Instanzvariable von `name` zu `_name`.
 
 ### Aufgabe 5.5.4: Getränkeautomat ausführen
 
-Erweitern sie die Ausgabe der Methode `Auflisten` mit folgendem Code:
+Erweitern Sie die Ausgabe der Methode `Auflisten` mit folgendem Code:
 
 ```py
 print(f"Der Geränkeautomat {self._name} hat dieses Angebot:")
 ```
 
-Instanzieren sie die Klasse und rufen sie die neue Setter-Methode auf.
+Instanzieren Sie die Klasse und rufen Sie die neue Setter-Methode auf.
 
 ```py
 produkte = { 1: "Redbull", 2: "Redbull", 3: "Redbull"}
@@ -119,7 +119,7 @@ automat.name = "Redbull-o-mat"
 automat.Auflisten()
 ```
 
-Als zusätzliche Aufgaben können sie Getter- und Setter-Methoden für die Instanzvariablen `produkte` und `bestand` hinzufügen.
+Als zusätzliche Aufgaben können Sie Getter- und Setter-Methoden für die Instanzvariablen `produkte` und `bestand` hinzufügen.
 
 ## Wiederholungsfragen
 

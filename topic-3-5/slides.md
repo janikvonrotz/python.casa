@@ -18,7 +18,7 @@
 
 ### Thonny vorbereiten
 
-🎬 Führen sie diese Aktionen aus:
+🎬 Führen Sie diese Aktionen aus:
 * Neuer Ordner `Thema3.5` erstellen
 * Neue Datei `Datum und Zeit.py` erstellen
 
@@ -95,7 +95,7 @@ print(now.strftime('%d.%m.%Y %H:%M'))
 
 Liste der Platzhalter: <https://docs.python.org/3/library/time.html#time.strftime>
 
-🎬 Erstellen sie eine eigene Formatierung.
+🎬 Erstellen Sie eine eigene Formatierung.
 
 ```py
 print(now.strftime('%A, %d. %B %Y'))
@@ -158,7 +158,7 @@ print(datetime.now().time())
 
 ### Mit Zeiten rechnen
 
-🎬 Mit `timedelta` können sie Zeit dazu rechnen.
+🎬 Mit `timedelta` können Sie Zeit dazu rechnen.
 
 ```py
 from datetime import datetime, timedelta
@@ -185,7 +185,7 @@ print('Noch', warten.days, 'Tage bis Weihnachten.')
 ---
 ### Aufgaben 1
 
-Lösen sie die ersten zwei [Aufgaben](excercise.md#aufgaben).
+Lösen Sie die ersten zwei [Aufgaben](excercise.md#aufgaben).
 
 ⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 10 Minuten
 
@@ -230,7 +230,7 @@ print(berlintime)
 
 Wie lange braucht der Computer für eine Berechnung?
 
-🎬 Führen sie dieses Programm aus.
+🎬 Führen Sie dieses Programm aus.
 
 ```py
 import time, math
@@ -244,7 +244,7 @@ end = time.process_time()
 print(end - start, 'Sekunden')
 ```
 
-ℹ️  Mit `import math` erhalten sie Zugriff auf mathematische Funktionen.
+ℹ️  Mit `import math` erhalten Sie Zugriff auf mathematische Funktionen.
 
 ---
 
@@ -252,7 +252,7 @@ print(end - start, 'Sekunden')
 
 Wie lange wird das Programm ausgeführt?
 
-🎬 Führen sie dieses Programm aus.
+🎬 Führen Sie dieses Programm aus.
 
 ```
 from datetime import datetime
@@ -267,7 +267,7 @@ print(end - start, 'Sekunden')
 ---
 ### Aufgaben 2
 
-Lösen sie die dritte [Aufgabe](excercise.md#aufgaben).
+Lösen Sie die dritte [Aufgabe](excercise.md#aufgaben).
 
 ⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 10 Minuten
 

@@ -1,5 +1,5 @@
 from datetime import datetime, date
-geburtsdatum = input('Geben sie ihr Geburtsdatum (DD.MM.YYYY) ein: ')
+geburtsdatum = input('Geben Sie ihr Geburtsdatum (DD.MM.YYYY) ein: ')
 geburtsdatum = datetime.strptime(geburtsdatum, '%d.%m.%Y')
 heute = date.today()
 

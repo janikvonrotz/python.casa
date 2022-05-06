@@ -147,7 +147,7 @@ print(s) # Ergebnis 'abc3'
 ---
 ### Gültigkeitsbereich
 
-Ist eine Variable einmal definiert, kann sie weiterverwendet werden.
+Ist eine Variable einmal definiert, kann Sie weiterverwendet werden.
 
 ```py
 if 1: # das ist immer erfüllt
@@ -224,7 +224,7 @@ Für ganzzahlige Division `//` verwenden.
 print(2//3, 6//3) # Ausgabe: 0 2
 ```
 
-🎬  Führen sie die Divisionen aus.
+🎬  Führen Sie die Divisionen aus.
 
 ---
 ### Runden
@@ -236,7 +236,7 @@ print(round(1.5)) # Ausgabe: 2
 print(round(1.4)) # Ausgabe: 1
 ```
 
-ℹ️ Mit `help(round)` erfahren sie mehr zur Funktion.
+ℹ️ Mit `help(round)` erfahren Sie mehr zur Funktion.
 
 ---
 ### Zufallszahl generieren
@@ -250,7 +250,7 @@ from random import randint
 print(randint(0, 7))
 ```
 
-🎬  Generieren sie eine Zufallszahl von 1 bis 10.
+🎬  Generieren Sie eine Zufallszahl von 1 bis 10.
 
 ---
 ### Boolsche Werte
@@ -270,7 +270,7 @@ print(a,b,c,d)
 ---
 ### Aufgaben
 
-Lösen sie die [Aufgaben](excercise.md#aufgaben) und besprechen sie die [Wiederholungsfragen](excercise.md#wiederholungsfragen).
+Lösen Sie die [Aufgaben](excercise.md#aufgaben) und besprechen Sie die [Wiederholungsfragen](excercise.md#wiederholungsfragen).
 
 ⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 10 Minuten
 

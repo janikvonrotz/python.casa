@@ -34,7 +34,7 @@ n=22.7
 msg='Die Temperatur beträgt ' + n + ' Grad.'
 ```
 
-2\. Wie führen Sie eine ganzzahlige Division durch? Schreiben sie den Python-Code auf.
+2\. Wie führen Sie eine ganzzahlige Division durch? Schreiben Sie den Python-Code auf.
 
 3\. Ist die folgende Bedingung Wahr oder Falsch?
 
@@ -42,14 +42,14 @@ msg='Die Temperatur beträgt ' + n + ' Grad.'
 True == 1
 ```
 
-4\. Wir haben eine Liste und möchte das dritte Element ausgeben. Was geben sie für `X` ein?
+4\. Wir haben eine Liste und möchte das dritte Element ausgeben. Was geben Sie für `X` ein?
 
 ```py
 liste = ['Bern', 'Luzern', 'Zürich', 'Genf']
 print(list[X])
 ```
 
-5\. Ordnen sie Syntax den Aufzählungstypen zu:
+5\. Ordnen Sie Syntax den Aufzählungstypen zu:
 
 1\. `[]` 2. `()` 3. `{}` 4. `{key: vlaue}`
 
@@ -58,7 +58,7 @@ Set:  \_\_\
 Dictionary:  \_\_\
 Liste:  \_\_
 
-6\. Was bedeutet "Instanzieren". Erläutern sie in eigenen Worten.
+6\. Was bedeutet "Instanzieren". Erläutern Sie in eigenen Worten.
 
 ## Leistungsnachweis
 *Proof of Work*
@@ -70,7 +70,7 @@ Aufwand: 8-16 Stunden
 ### Durchführung
 
 Der Prozess für den Leistungsnachweis sieht wie folgt aus:
-1. Studieren such sich eine Problemstellung oder Thema, dass sie mit einem Ptyhon-Programm lösen möchten
+1. Studieren such sich eine Problemstellung oder Thema, dass Sie mit einem Ptyhon-Programm lösen möchten
 2. Die Studierenden formulieren dazu einen Projektvorschlag und laden diesen auf Moodle
 3. Der Dozierende gibt eine Feedback und teilt mir, ob der Projektvorschlag den Erwartungen gerecht wird
 4. Die Studieren haben Zeit um den Leistungsnachweis zu erarbeiten und eine Dokumentation zu erstellen
@@ -80,7 +80,7 @@ Der Prozess für den Leistungsnachweis sieht wie folgt aus:
 
 ### Resultat
 
-Auf [Moodle](https://moodle.medizintechnik-hf.ch/mod/assign/view.php?id=6716) geben sie zwei Dateien ab:
+Auf [Moodle](https://moodle.medizintechnik-hf.ch/mod/assign/view.php?id=6716) geben Sie zwei Dateien ab:
 * `Code.zip`: Python-Programm (gezippter Ordner mit Pyton-Dateien)
 * `Dokumentation.{pdf,epub,docx}:` Dokumentation zum Programm (4-8 Seiten, ohne Cover)
 

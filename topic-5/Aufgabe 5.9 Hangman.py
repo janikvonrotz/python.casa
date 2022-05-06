@@ -10,7 +10,7 @@ gewonnen = False
 print(wort, laenge, zensiert, versuche, gewonnen)
 
 while versuche > 0  and not gewonnen:
-    eingabe = input("Geben sie einen Buchstaben ein: ").upper()
+    eingabe = input("Geben Sie einen Buchstaben ein: ").upper()
 
     if eingabe in wort:
         gefunden.extend([eingabe])

@@ -6,9 +6,9 @@ Aufgaben zum Thema.
 
 ### Aufgabe 9.1: Template anpassen
 
-Auf dem Formular für *Produkt hinzufügen* steht auf dem Knopf `submit`. Benennen sie die Text auf `Abschicken` um.
+Auf dem Formular für *Produkt hinzufügen* steht auf dem Knopf `submit`. Benennen Sie die Text auf `Abschicken` um.
 
-Sie wollen das die Kopfzeilen der Tabelle *Produkte* fett markiert werden. Fügen sie den folgenden style-Tag am richtigen Ort im `layout.html` ein.
+Sie wollen das die Kopfzeilen der Tabelle *Produkte* fett markiert werden. Fügen Sie den folgenden style-Tag am richtigen Ort im `layout.html` ein.
 
 ```html
 <style>  
@@ -73,4 +73,4 @@ def delete():
 {% endblock %}
 ```
 
-Aktualisieren sie die entsprechenden Dateien und starten sie Webapplikation.
+Aktualisieren Sie die entsprechenden Dateien und starten Sie Webapplikation.

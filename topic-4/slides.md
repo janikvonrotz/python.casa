@@ -48,7 +48,7 @@ Thema 5:
 ---
 ### Thonny vorbereiten
 
-🎬 Führen sie diese Aktionen aus:
+🎬 Führen Sie diese Aktionen aus:
 * Neuer Ordner `Thema4` erstellen
 * Neue Datei in Ordner `Listen.py` erstellen
 
@@ -92,7 +92,7 @@ print(lst) # ['H', 'e', 'l', 'l', 'o', ',', ' ', 'W', 'o', 'r', 'l', 'd', '!'
 * Ein elegantes Konzpet zum verarbeiten von Listen.
 * Form: `[ausdruck for x in liste]`
 
-🎬 Fügen sie diesen Code an:
+🎬 Fügen Sie diesen Code an:
 
 ```py
 [print(s) for s in lst]
@@ -110,9 +110,9 @@ Die wichtigsten Funktionen und Methoden zur Bearbeitung von Liste:
 ---
 ### Listenelemente hinzufügen
 
-🎬 Führen sie diese Aktionen aus:
-* Erstellen sie die Datei `Funktionen.py`
-* Schreiben sie diesen Code:
+🎬 Führen Sie diese Aktionen aus:
+* Erstellen Sie die Datei `Funktionen.py`
+* Schreiben Sie diesen Code:
 
 ```py
 lst = list(range(10, 101, 10))
@@ -127,7 +127,7 @@ print(lst)
 
 Mit `map` kann eine Funktion auf jedes Listenelement angewendet werden.
 
-🎬 Fügen sie diesen Code an:
+🎬 Fügen Sie diesen Code an:
 
 ```py
 def double(x):
@@ -143,7 +143,7 @@ print(list(map(double,lst)))
 
 Mit `reduce` wird eine Funktion auf jedes Listenelement (x) und auf das Resultat des Vorgänger (y) angewendet. 
 
-🎬 Fügen sie diesen Code an:
+🎬 Fügen Sie diesen Code an:
 
 ```py
 from functools import reduce
@@ -158,7 +158,7 @@ print(reduce(sum,lst))
 
 Mit `filter` werden alle Listenelemente zurückgegeben, die eine Bedingung erfüllen. 
 
-🎬 Fügen sie diesen Code an:
+🎬 Fügen Sie diesen Code an:
 
 ```py
 def IstGrösserAls(x,y=100):
@@ -172,7 +172,7 @@ print(list(filter(IstGrösserAls, lst)))
 
 Elemente einer Liste werden nicht automatisch sortiert.
 
-🎬 Führen sie diesen Code aus:
+🎬 Führen Sie diesen Code aus:
 
 ```py
 lst = list('Hello, World!')
@@ -196,9 +196,9 @@ print(lst) # [' ', '!', ',', 'H', 'W', 'd', 'e', 'l', 'l', 'l', 'o', 'o', 'r']
 ---
 ### Tupel deklarieren
 
-🎬 Führen sie diese Aktionen aus:
-* Erstellen sie die Datei `Tupel.py`
-* Schreiben sie diesen Code:
+🎬 Führen Sie diese Aktionen aus:
+* Erstellen Sie die Datei `Tupel.py`
+* Schreiben Sie diesen Code:
 
 **Tupel.py**
 
@@ -212,7 +212,7 @@ print(t)
 
 Mit Tupel sind Zuweisungen und Vergleiche mit mehreren Variablen möglich.
 
-🎬 Fügen sie diesen Code an:
+🎬 Fügen Sie diesen Code an:
 
 ```py
 (a, b, c) = (1, 2, 3)
@@ -229,9 +229,9 @@ if (a, b, c) == (1, 2, 3):
 ---
 ### Sets deklarieren
 
-🎬 Führen sie diese Aktionen aus:
-* Erstellen sie die Datei `Sets.py`
-* Schreiben sie diesen Code:
+🎬 Führen Sie diese Aktionen aus:
+* Erstellen Sie die Datei `Sets.py`
+* Schreiben Sie diesen Code:
 
 **Sets.py**
 
@@ -245,7 +245,7 @@ print(s)
 
 Im Vergleich zu Listen gibt es weitere Methoden zur Bearbeitung eines Sets.
 
-🎬 Fügen sie diesen Code hinzu:
+🎬 Fügen Sie diesen Code hinzu:
 
 ```py
 s.add(4)
@@ -263,9 +263,9 @@ print(s)
 ---
 ### Dictionaries deklarieren
 
-🎬 Führen sie diese Aktionen aus:
-* Erstellen sie die Datei `Dict.py`
-* Schreiben sie diesen Code:
+🎬 Führen Sie diese Aktionen aus:
+* Erstellen Sie die Datei `Dict.py`
+* Schreiben Sie diesen Code:
 
 **Dict.py**
 
@@ -279,7 +279,7 @@ print(d)
 ---
 ### keys und values Methoden
 
-🎬 Fügen sie diesen Code hinzu:
+🎬 Fügen Sie diesen Code hinzu:
 
 ```py
 print(d.get('Gelb')) # Ausgabe: #FFFF00
@@ -296,7 +296,7 @@ print(d.keys()) # dict_keys(['Rot', 'Blau', 'Gelb'])
 ---
 ### Aufgaben 1
 
-Lösen sie die ersten zwei Aufgaben.
+Lösen Sie die ersten zwei Aufgaben.
 
 ⚡Aufteilung in Breakout-Rooms ⏱️ 10 Minuten
 
@@ -338,7 +338,7 @@ x = wert1 if bedingung else wert2
 ---
 ### if-Beispiel
 
-🎬 Erstellen und führen sie die Datei `if.py` mit diesem Inhalt aus:
+🎬 Erstellen und führen Sie die Datei `if.py` mit diesem Inhalt aus:
 
 ```py
 antwort = input("Möchtest du Feierabend: ")
@@ -362,7 +362,7 @@ for var in elemente:
 ---
 ### for mit Zeichenkette
 
-🎬 Erstellen und führen sie die Datei `for.py` mit diesem Inhalt aus:
+🎬 Erstellen und führen Sie die Datei `for.py` mit diesem Inhalt aus:
 
 ```py
 for c in 'abc':
@@ -372,7 +372,7 @@ for c in 'abc':
 ---
 ### for mit Listen, Tupel und Sets
 
-🎬 Fügen sie diesen Code hinzu:
+🎬 Fügen Sie diesen Code hinzu:
 
 ```py
 for c in 'abc':
@@ -386,7 +386,7 @@ for i in (17, 87, 4):
 
 Bei Schleifen mit Dictionaries enthält die Variable den Schlüssel.
 
-🎬 Fügen sie diesen Code hinzu:
+🎬 Fügen Sie diesen Code hinzu:
 
 ```py
 dict = {'a':12, 'c':78, 'b':3, 'd':43}
@@ -409,7 +409,7 @@ while bedingung:
 ---
 ### while-Beispiel
 
-🎬 Erstellen und führen sie die Datei `while.py` mit diesem Inhalt aus:
+🎬 Erstellen und führen Sie die Datei `while.py` mit diesem Inhalt aus:
 
 ```py
 i=1
@@ -422,7 +422,7 @@ while i<5:
 ---
 ### Aufgaben 2
 
-Lösen sie die nächsten zwei Aufgaben.
+Lösen Sie die nächsten zwei Aufgaben.
 
 ⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 10 Minuten
 

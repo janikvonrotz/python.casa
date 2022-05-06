@@ -22,9 +22,9 @@
 
 Welche Python-Module sind vorhanden?
 
-🎬 In der Python-Konsole geben sie den Befehl `help('modules')` ein und erhalten so eine Liste der verfügbaren Module.
+🎬 In der Python-Konsole geben Sie den Befehl `help('modules')` ein und erhalten so eine Liste der verfügbaren Module.
 
-🎬 Details zu den Modulen erhalten sie beispielsweise mit `help('glob')`.
+🎬 Details zu den Modulen erhalten Sie beispielsweise mit `help('glob')`.
 
 ---
 
@@ -32,7 +32,7 @@ Welche Python-Module sind vorhanden?
 
 Wir werden selber Python-Module erstellen und deshalb brauchen wir ein IDE-Upgrade.
 
-🎬 Installatieren sie [Visual Studio Code](https://code.visualstudio.com/) auf ihrem Computer.
+🎬 Installatieren Sie [Visual Studio Code](https://code.visualstudio.com/) auf ihrem Computer.
 
 ---
 
@@ -40,9 +40,9 @@ Wir werden selber Python-Module erstellen und deshalb brauchen wir ein IDE-Upgra
 
 Visual Studio Code (VSCode) unterstützt verschiedene Programmiersprachen. Damit Python verwendet werden kann, muss eine Erweiterung installiert werden.
 
-🎬 Installieren sie die [Python extension for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=ms-python.python).
+🎬 Installieren Sie die [Python extension for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=ms-python.python).
 
-Je nach dem müssen sie noch [Python](https://www.python.org/downloads/) installieren.
+Je nach dem müssen Sie noch [Python](https://www.python.org/downloads/) installieren.
 
 ---
 
@@ -50,7 +50,7 @@ Je nach dem müssen sie noch [Python](https://www.python.org/downloads/) install
 
 VSCode stellt nicht nur einzelne Dateien dar, sondern ganze Verzeichnisse.
 
-🎬 Führen sie diese Aktionen aus:
+🎬 Führen Sie diese Aktionen aus:
 * Neuer Ordner `Thema7` erstellen
 * Ordner mit VSCode öffnen
 
@@ -58,7 +58,7 @@ VSCode stellt nicht nur einzelne Dateien dar, sondern ganze Verzeichnisse.
 
 ### Ordner mit VSCode öffnen
 
-Wenn sie VSCode starten, können sie die Aktion *Open Folder...* anwählen.
+Wenn Sie VSCode starten, können Sie die Aktion *Open Folder...* anwählen.
 
 ![](../vscode-start.png)
 
@@ -66,7 +66,7 @@ Wenn sie VSCode starten, können sie die Aktion *Open Folder...* anwählen.
 
 ### Hello.py erstellen
 
-🎬 Erstellen sie im Ordner die Datei `Hello.py`
+🎬 Erstellen Sie im Ordner die Datei `Hello.py`
 
 ```
 msg = "Hello World"
@@ -82,7 +82,7 @@ In VSCode sollte das so aussehen:
 
 ### Python Interpreter bestimmen
 
-Stellen sie sicher, dass VSCode den Python-Interpreter erkannt hat (siehe blaube Leiste).
+Stellen Sie sicher, dass VSCode den Python-Interpreter erkannt hat (siehe blaube Leiste).
 
 ![](../vscode-python.png)
 
@@ -90,7 +90,7 @@ Stellen sie sicher, dass VSCode den Python-Interpreter erkannt hat (siehe blaube
 
 ### Python-Code ausführen
 
-🎬 Führen sie das Skript `Hello.py` mit dem dem *Run*-Knopf oben rechts aus.
+🎬 Führen Sie das Skript `Hello.py` mit dem dem *Run*-Knopf oben rechts aus.
 
 ![](../vscode-execute.png)
 
@@ -100,7 +100,7 @@ Der Output des Skript wird im *Terminal* angezeigt.
 
 ### Linx-Probleme beheben
 
-Falls sie ein Linux-Computer haben, kann es gut sein, dass sie eine andere Shell verwenden müssen.
+Falls Sie ein Linux-Computer haben, kann es gut sein, dass Sie eine andere Shell verwenden müssen.
 
 ![](../vscode-linux-shell.png)
 
@@ -122,7 +122,7 @@ Mit der Tastatur ist man immer schneller.
 
 Nun erstellen wir unser erstes Python-Modul.
 
-🎬 Erzeugen sie die Datei `lib.py` im geöffneten Ordner mit diesem Code:
+🎬 Erzeugen Sie die Datei `lib.py` im geöffneten Ordner mit diesem Code:
 
 ```py
 def world():
@@ -133,7 +133,7 @@ def world():
 
 ### Modul importieren
 
-🎬 Aktualisieren sie `Hello.py` mit diesem Inhalt und führen sie das Skript aus.
+🎬 Aktualisieren Sie `Hello.py` mit diesem Inhalt und führen Sie das Skript aus.
 
 ```py
 import lib
@@ -151,7 +151,7 @@ lib.world()
 
 Dasselbe funktioniert für mehrere Funktionen.
 
-🎬 Aktualisieren sie `lib.py` mit diesem Inhalt:
+🎬 Aktualisieren Sie `lib.py` mit diesem Inhalt:
 
 ```py
 def world():
@@ -167,7 +167,7 @@ def hello():
 
 ### Nur Funktionen/Klassen importieren
 
-🎬 Und so importieren sie mehre Funktionen in `Hello.py`:
+🎬 Und so importieren Sie mehre Funktionen in `Hello.py`:
 
 ```py
 from lib import world,hello
@@ -182,7 +182,7 @@ world()
 
 Mehre Module können in einem Paket-Ordner gebündelt werden.
 
-🎬 Erstellen sie im Projektordner ein Ordner `paket` mit zwei Dateien:
+🎬 Erstellen Sie im Projektordner ein Ordner `paket` mit zwei Dateien:
 
 **paket/hello.py**
 
@@ -206,7 +206,7 @@ Datei leer lassen.
 
 ### Module aus Bündel importieren
 
-🎬 Erstellen sie eine neue Datei `main.py` mit diesem Inhalt:
+🎬 Erstellen Sie eine neue Datei `main.py` mit diesem Inhalt:
 
 ```py
 from paket import hello, world
@@ -236,11 +236,11 @@ Bis anhin haben wir nur vorhandene Python-Pakete verwenden. Zusätzliche Python-
 
 Es gibt für alles eine VSCode-Erweiterung, so auch für pip.
 
-🎬 Installieren sie die Erweiterung *Pip Manager* mit VSCode:
+🎬 Installieren Sie die Erweiterung *Pip Manager* mit VSCode:
 
 ![vscode-pip](../vscode-pip.gif)
 
-🎬 Installieren sie die Erweiterung  [`cowsay`](https://pypi.org/project/cowsay/) mit *Pip Manager*.
+🎬 Installieren Sie die Erweiterung  [`cowsay`](https://pypi.org/project/cowsay/) mit *Pip Manager*.
 
 ---
 
@@ -248,7 +248,7 @@ Es gibt für alles eine VSCode-Erweiterung, so auch für pip.
 
 Wir möchten das Python-Paket [`cowsay`](https://pypi.org/project/cowsay/) mit dem Terminal installieren.
 
-🎬 Öffnen sie das Terminal in VSCode und führen sie den Befehl `pip install cowsay` aus.
+🎬 Öffnen Sie das Terminal in VSCode und führen Sie den Befehl `pip install cowsay` aus.
 
 ![](../pip-install-cowsay.png)
 
@@ -256,14 +256,14 @@ Wir möchten das Python-Paket [`cowsay`](https://pypi.org/project/cowsay/) mit d
 
 ### Python-Paket importieren
 
-🎬 Erweitern sie `main.py` mit:
+🎬 Erweitern Sie `main.py` mit:
 
 ```py
 import cowsay
 cowsay.cow('pip is great.')
 ```
 
-Und führen sie das Programm aus.
+Und führen Sie das Programm aus.
 
 ![](../cowsay.png)
 
@@ -279,7 +279,7 @@ Wo Pakete von pip instaliert werden, kann je nach Entwicklungsumgebung unterschi
 
 ### Aufgaben 1
 
-Lösen sie die ersten zwei Aufgaben.
+Lösen Sie die ersten zwei Aufgaben.
 
 ⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 10 Minuten
 

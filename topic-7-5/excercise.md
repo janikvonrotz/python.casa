@@ -8,14 +8,14 @@ Danke an Hari Thavachchelvam für die Idee zur Aufgabenstellung.
 
 ### Aufgabe 7.5.1: Datenbank auslesen und sortieren
 
-Laden sie als erstes die Datei [`quiz.db`](https://raw.githubusercontent.com/janikvonrotz/python.casa/main/topic-7-5/quiz.db) herunter und speichern sie es in einem Ordner. Erstellen sie die Datei `quiz.py` im selben Ordner.
+Laden Sie als erstes die Datei [`quiz.db`](https://raw.githubusercontent.com/janikvonrotz/python.casa/main/topic-7-5/quiz.db) herunter und speichern Sie es in einem Ordner. Erstellen Sie die Datei `quiz.py` im selben Ordner.
 
-Schauen sie sich die Datenbank mit VSCode an und beantworten sie diese Fragen:
+Schauen Sie sich die Datenbank mit VSCode an und beantworten Sie diese Fragen:
 * Wieviele Datensätze gibt es?
 * Welche Spalte identifiziert die Datensätze eindeutig und wie heisst diese?
 * Welcher Datentyp hat diese Spalte?
 
-Erstellen sie nun ein Progamm um einen bestimmten Datensatz auszulesen. Ergänzen sie dazu die Markierungen `?????` im folgenden Code:
+Erstellen Sie nun ein Progamm um einen bestimmten Datensatz auszulesen. Ergänzen Sie dazu die Markierungen `?????` im folgenden Code:
 
 ```py
 import sqlite3
@@ -41,13 +41,13 @@ connection.close()
 
 ### Aufgabe 7.5.2: Abfrage mit Input
 
-Mit dem `input` Befehl können wir nach einer bestimmten Frage-ID und Antwort-Nummer fragen. Erweitern sie das Skript aus der vorhergehenden Aufgabe mit dem Befehl.
+Mit dem `input` Befehl können wir nach einer bestimmten Frage-ID und Antwort-Nummer fragen. Erweitern Sie das Skript aus der vorhergehenden Aufgabe mit dem Befehl.
 
 Dazu diese Inputs:
 
 ```py
 # SQL-Abfrage mit Eingabe
-frage = input("Bitte geben sie eine Frage-ID ein: ")
+frage = input("Bitte geben Sie eine Frage-ID ein: ")
 sql = "SELECT * FROM questions WHERE questionID = " + frage
 ```
 
@@ -67,6 +67,6 @@ sql = "SELECT * FROM questions WHERE questionID = " + frage
 
 **Zusatzaufgabe**
 
-Können sie das Programm in einer Schleife schalten, bis man die richtige Antwort gefunden hat?
+Können Sie das Programm in einer Schleife schalten, bis man die richtige Antwort gefunden hat?
 
-Erstellen sie eine eine Frage-ID nach Zufall und filtern sie verfügbaren Fragen anhand des Schwierigkeits-Grades.
+Erstellen Sie eine eine Frage-ID nach Zufall und filtern Sie verfügbaren Fragen anhand des Schwierigkeits-Grades.

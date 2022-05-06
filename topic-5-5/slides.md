@@ -53,7 +53,7 @@ Im Folgenden wollen wir die Funktionsweise einer Kaffeemaschine mit Code ausdrü
 
 ### Eine Klasse definieren
 
-🎬 Erstellen sie die Datei `Kaffeemaschine.py` mit diesem Inhalt:
+🎬 Erstellen Sie die Datei `Kaffeemaschine.py` mit diesem Inhalt:
 
 ```py
 class Kaffeemaschine:
@@ -77,7 +77,7 @@ class Kaffeemaschine:
 
 Nun erstellen wir anhand des Bauplans eine Kaffeemaschine.
 
-🎬 Fügen sie diesen Code an:
+🎬 Fügen Sie diesen Code an:
 
 ```py
 # Instanzieren
@@ -137,7 +137,7 @@ def Bestellen(self, anzahl):
 
 ### Aufgaben 1
 
-Lösen sie die ersten zwei Aufgaben.
+Lösen Sie die ersten zwei Aufgaben.
 
 ⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 10 Minuten
 
@@ -197,7 +197,7 @@ def name():
 
 ### Beispiel Dekoraten
 
-🎬  Erstellen sie eine Datei `Dekoraten.py`, fügen sie den Code von unten ein.
+🎬  Erstellen Sie eine Datei `Dekoraten.py`, fügen Sie den Code von unten ein.
 
 ```py
 # Dekoraten-Funktion
@@ -243,7 +243,7 @@ class Kaffeemaschine:
 
 ### Beispiel Getter und Setter
 
-🎬  Erstellen sie eine Datei `Getter-Setter.py` und instanzieren sie die Klasse von vorhin wie folgt:
+🎬  Erstellen Sie eine Datei `Getter-Setter.py` und instanzieren Sie die Klasse von vorhin wie folgt:
 
 ```py
 maschine = Kaffeemaschine("Jura")
@@ -258,7 +258,7 @@ print(maschine.name)
 
 Dieses Thema werden wir nur anschneiden.
 
-Klassen können vererbt werden. Das heisst sie erhalten einen neuen Namen und zusätzliche Attribute.
+Klassen können vererbt werden. Das heisst Sie erhalten einen neuen Namen und zusätzliche Attribute.
 
 ![](../vererbung-tier.png)
 
@@ -295,7 +295,7 @@ Beim Vererben der Klassen entsteht eine Hierarchie.
 
 ### Aufgaben 2
 
-Lösen sie die nächsten zwei Aufgaben.
+Lösen Sie die nächsten zwei Aufgaben.
 
 ⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 10 Minuten
 

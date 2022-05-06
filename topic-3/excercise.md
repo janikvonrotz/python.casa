@@ -6,7 +6,7 @@ Aufgaben zum Thema.
 
 ### Aufgabe 3.1: Vereinfachen
 
-Vereinfachen sie den folgenden Ausdruck:
+Vereinfachen Sie den folgenden Ausdruck:
 
 ```py
 not (not (a)) and (b and (b or a))
@@ -14,7 +14,7 @@ not (not (a)) and (b and (b or a))
 
 ### Aufgabe 3.2: Kurzschluss
 
-Nehmen sie den logischen Ausdruck von **Aufgabe 3.1** und bestimmen sie, ob dieser unter den folgenden Bedinungen vollständig evaluiert wird oder nicht:
+Nehmen Sie den logischen Ausdruck von **Aufgabe 3.1** und bestimmen sie, ob dieser unter den folgenden Bedinungen vollständig evaluiert wird oder nicht:
 
 Bedingung 1:
 
@@ -38,11 +38,11 @@ Eine Analyse hat eine DNA-Sequenz zurückgeben.
 ACTNGTGCTYGATRGTAGC
 ```
 
-Wir möchten herausfinden, ob diese Sequenz auch wirklich DNA enthält [^1]. Zählen sie die Anzahl der Buchstaben A, T, G und C in der Sequenz zu einer Summe.
+Wir möchten herausfinden, ob diese Sequenz auch wirklich DNA enthält [^1]. Zählen Sie die Anzahl der Buchstaben A, T, G und C in der Sequenz zu einer Summe.
 
 ### Aufgabe 3.4: DNA 2
 
-Rechnen sie die Summe geteilt durch die Anzahl Zeichen der Sequenz. Das Ergebnis ist eine Prozentzahl. Formatiert die Ausgabe so, dass die Zahl zwei Stellen nach dem Komma und mit Prozentzeichen ausgegeben wird.
+Rechnen Sie die Summe geteilt durch die Anzahl Zeichen der Sequenz. Das Ergebnis ist eine Prozentzahl. Formatiert die Ausgabe so, dass die Zahl zwei Stellen nach dem Komma und mit Prozentzeichen ausgegeben wird.
 
 ### Aufgabe 3.5: Geheim 🚧
 
@@ -56,7 +56,7 @@ Zum entschlüsseln, müssen wir die Reihenfolge umkehren, jedes zweite Zeichen l
 
 ### Aufgabe 3.6: Bonusaufgabe 🚧
 
-Die Nachricht verrät nicht viel. Der Internet-Kenner weiss aber, dass es sich um eine Youtube-ID handelt. Vervollständigen sie den folgenden Code und führen sie ihn aus:
+Die Nachricht verrät nicht viel. Der Internet-Kenner weiss aber, dass es sich um eine Youtube-ID handelt. Vervollständigen Sie den folgenden Code und führen Sie ihn aus:
 
 ```py
 import webbrowser

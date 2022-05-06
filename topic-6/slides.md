@@ -65,7 +65,7 @@ In der Python-Biblitothek findet man [`pathlib`](https://docs.python.org/3/libra
 
 ### Thonny vorbereiten
 
-🎬 Führen sie diese Aktionen aus:
+🎬 Führen Sie diese Aktionen aus:
 * Neuer Ordner `Thema6` erstellen
 * Neue Datei `Verzeichnisse.py` in Ordner erstellen
 
@@ -86,7 +86,7 @@ print('Aktuelles Verzeichnis:', current.absolute())
 
 ### Name des aktuellen Verzeichnis ausgeben
 
-Erweitern sie das Beispiel mit:
+Erweitern Sie das Beispiel mit:
 
 ```py
 print(type(current))
@@ -99,7 +99,7 @@ print('Aktueller Verzeichnisname:', current.name)
 
 Wenn eine Python-Anweisung einen Fehler generiert, kann man darau reagieren ohne dass das Programm abstürtzt.
 
-🎬 Erstellen sie die Datei `Error.py` mit diesem Code:
+🎬 Erstellen Sie die Datei `Error.py` mit diesem Code:
 
 ```py
 ergebnis = 1/0
@@ -114,7 +114,7 @@ Zeile zwei wird nicht erreicht. Python gibt des Fehlertyp `ZeroDivisionError` au
 
 Mit den Befehlen `try` und `except` kann man versuchen eine Code-Block auszuführen und sobald dieser fehlschlägt darauf reagieren.
 
-🎬 Ersetzen sie den vorhergehenden Inhalt mit:
+🎬 Ersetzen Sie den vorhergehenden Inhalt mit:
 
 ```py
 try:
@@ -128,7 +128,7 @@ except ZeroDivisionError:
 
 ### Except als Variable
 
-🎬 Erstellen sie die Datei `Except.py` mit diesem Code:
+🎬 Erstellen Sie die Datei `Except.py` mit diesem Code:
 
 ```py
 try:
@@ -154,7 +154,7 @@ Es gibt viele Fehlerquellen: ungültiger Pfad, Schreibschutz, ungültiger Datein
 
 ### Textdatei schreiben
 
-🎬 Erstellen sie die Datei `Schreiben.py` mit diesem Code:
+🎬 Erstellen Sie die Datei `Schreiben.py` mit diesem Code:
 
 ```py
 try:
@@ -171,7 +171,7 @@ except BaseException as err:
 
 ---
 ### Textdatei lesen
-🎬 Erstellen sie die Datei `Lesen.py` mit diesem Code:
+🎬 Erstellen Sie die Datei `Lesen.py` mit diesem Code:
 
 ```py
 try:
@@ -203,7 +203,7 @@ Wir haben eine unstrukturierte Textdatei erstellt. Im Umgang mit Daten und Kalku
 ---
 ### JSON-Beispieldatei
 
-🎬 Erstellen sie die Datei `Bücher.json` mit diesem Inhalt:
+🎬 Erstellen Sie die Datei `Bücher.json` mit diesem Inhalt:
 
 ```json
 [
@@ -248,7 +248,7 @@ print(data)
 
 Der JSON-Inhalt kann ganz einfach verarbeitet werden.
 
-🎬 Fügen sie diesen Code an:
+🎬 Fügen Sie diesen Code an:
 
 ```py
 for book in data:
@@ -274,7 +274,7 @@ Möchte man die Datei `Bücher.json` in einem anderen Programm bearbeiten wird e
 ---
 
 ### CSV-Datei schreiben
-🎬 Erstellen sie die Datei `CSV.py` und fügen sie diesen Code ein:
+🎬 Erstellen Sie die Datei `CSV.py` und fügen Sie diesen Code ein:
 
 ```py
 import csv
@@ -296,7 +296,7 @@ with open('Mitarbeiter.csv', mode='w') as file:
 
 ### CSV-Datei lesen
 
-🎬 Fügen sie diesen Code an:
+🎬 Fügen Sie diesen Code an:
 
 ```py
 with open('Mitarbeiter.csv', newline='') as file:
@@ -326,7 +326,7 @@ with open('Mitarbeiter.csv', newline='') as file:
 
 ### Aufgaben 1
 
-Lösen sie die ersten zwei Aufgaben.
+Lösen Sie die ersten zwei Aufgaben.
 
 ⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 10 Minuten
 
@@ -336,7 +336,7 @@ Ziel: Aufgabe 6.1 und 6.2 gelöst.
 
 ### Dateien übertragen
 
-Dateien wie wir sie gerade erstellt und gelesen haben, können über ein Netzwerk zwischen Computer übertragen werden.
+Dateien wie wir Sie gerade erstellt und gelesen haben, können über ein Netzwerk zwischen Computer übertragen werden.
 
 Das Internet ist ein weltumspannendes Netzwerk von Computern.
 
@@ -362,7 +362,7 @@ Mit einem Kommunikationsprotokoll übertragen Computer Websites als Dokumente.
 
 ### HTTP-Request anzeigen
 
-🎬 Zur Betrachtung eines HTTP-Requests führen sie folgende Aktionen aus:
+🎬 Zur Betrachtung eines HTTP-Requests führen Sie folgende Aktionen aus:
 * Browser und einen leeren Tab öffnen
 * Mit `F12` die Entwicklerkonsole aufrufen
 * In der Konsole die Ansicht *Netzwerk* anzeigen
@@ -420,7 +420,7 @@ HTML beschreibt wie ein Dokument aussieht und der Browser stellt es entsprechend
 
 ### HTML-Dokument erstellen
 
-🎬 Erstellen sie selber ein HTML-Dokument `Dokument.html` mit diesem Inhalt:
+🎬 Erstellen Sie selber ein HTML-Dokument `Dokument.html` mit diesem Inhalt:
 
 ```html
 <!doctype html>
@@ -454,7 +454,7 @@ HTML beschreibt wie ein Dokument aussieht und der Browser stellt es entsprechend
 
 HTML-Dokument kann man mit Ptyhon herunterladen.
 
-🎬 Erstellen sie die Datei `HTTP.py` und fügen sie diesen Code ein:
+🎬 Erstellen Sie die Datei `HTTP.py` und fügen Sie diesen Code ein:
 
 ```py
 import urllib.request
@@ -469,7 +469,7 @@ f.close()
 
 ```
 
-🎬 Öffnen sie die Datei `index.html` im Browser.
+🎬 Öffnen Sie die Datei `index.html` im Browser.
 
 ---
 ### HTML-Paket installieren
@@ -483,7 +483,7 @@ Mehr zu [Yattag](https://www.yattag.org/).
 ---
 ### HTML-Dokument erstellen
 
-🎬 Erstellen sie die Datei `HTML.py` und fügen sie diesen Code ein:
+🎬 Erstellen Sie die Datei `HTML.py` und fügen Sie diesen Code ein:
 
 ```py
 from yattag import Doc
@@ -506,7 +506,7 @@ with open('example.html', 'wt') as file:
 ---
 ### HTML-Dokument im Browser öffnen
 
-🎬 Fügen sie diesen Code an um die Datei direkt im Browser zu öffnen:
+🎬 Fügen Sie diesen Code an um die Datei direkt im Browser zu öffnen:
 
 ```py
 # Die HTML-Datei im Browser aufrufen
@@ -519,7 +519,7 @@ webbrowser.open('file://' + str(Path('example.html').absolute()))
 
 ### Aufgaben 2
 
-Lösen sie die ersten zwei Aufgaben.
+Lösen Sie die ersten zwei Aufgaben.
 
 ⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 10 Minuten
 

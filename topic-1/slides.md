@@ -259,7 +259,7 @@ print('abc')  # noch ein Kommentar
 ---
 ### Aufgaben
 
-Lösen sie die Aufgaben und besprechen sie die Wiederholungsfragen.
+Lösen Sie die Aufgaben und besprechen Sie die Wiederholungsfragen.
 
 ⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 10 Minuten
 

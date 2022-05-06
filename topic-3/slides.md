@@ -128,7 +128,7 @@ bool({})
 ---
 ### Aufgaben 1
 
-Lösen sie die ersten zwei [Aufgaben](excercise.md#aufgaben).
+Lösen Sie die ersten zwei [Aufgaben](excercise.md#aufgaben).
 
 ⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 10 Minuten
 
@@ -159,7 +159,7 @@ Einfache oder doppelte Apostrophe sind gleichwertig.
 ---
 ### Mehrzeilige Zeichenketten
 
-🎬 Erstellen sie eine mehrzeilige Zeichenkette:
+🎬 Erstellen Sie eine mehrzeilige Zeichenkette:
 
 ```py
 s = """Das ist
@@ -175,7 +175,7 @@ print(s)
 
 🎬 Folgende Aktionen ausführen:
 * Ordner `Thema3` und Datei `Zeichenketten.py` erstellen
-* Geben sie den folgenden Code ein:
+* Geben Sie den folgenden Code ein:
 
 **Zeichenkette.py**
 
@@ -216,7 +216,7 @@ print("Hallo\nWelt")
 ---
 ### Raw-Zeichenketten
 
-Python interpretiert \\-Sequenzen als Sonderzeichen, um das zu vermeiden, stellen sie den Buchstaben r (raw) voran:
+Python interpretiert \\-Sequenzen als Sonderzeichen, um das zu vermeiden, stellen Sie den Buchstaben r (raw) voran:
 
 ```py
 latexcode = r'\section{Überschrift}'
@@ -227,12 +227,12 @@ latexcode = r'\section{Überschrift}'
 
 Mit der Slicing-Syntax `s[start:ende]` kann auf Teile einer Zeichenkette zugegriffen werden.
 
-🎬  Erstellen sie die Datei `Teilzeichenketten.py`
+🎬  Erstellen Sie die Datei `Teilzeichenketten.py`
 
 ---
 ### Zugriff Teilzeichenketten
 
-🎬  Führen sie die folgenden Zeilen aus:
+🎬  Führen Sie die folgenden Zeilen aus:
 
 ```py
 s='abcdefghijklmnopqrstuvwxyz'
@@ -248,7 +248,7 @@ print(s[-4:]) # Alles ab dem iertletzten Zeichen
 
 Mit dem dritten Parameter kann die Schrittweite angegeben werden.
 
-🎬  Fügen sie diese Zeilen an:
+🎬  Fügen Sie diese Zeilen an:
 
 ```py
 print(s[::2]) # jedes zweite Zeichen
@@ -274,7 +274,7 @@ Zeichenketten können mit vielen Funktionen und Methoden bearbeitet werden.
 ---
 ### ℹ️ Funktionen versus Methoden
 
-Methoden sind etwas Ähnliches wie Funktionen, sie werden aber direkt auf die zugrundeliegenden Daten (Objekte) angewendet.
+Methoden sind etwas Ähnliches wie Funktionen, Sie werden aber direkt auf die zugrundeliegenden Daten (Objekte) angewendet.
 
 ```py
 funktion(daten)
@@ -284,7 +284,7 @@ daten.methode(weitere, daten)
 ---
 ### Anwendungsbeispiele Methoden
 
-🎬  Erstellen sie die Datei `Methoden.py` mit diesem Inhalt:
+🎬  Erstellen Sie die Datei `Methoden.py` mit diesem Inhalt:
 
 ```py
 s='abcdefghijklmnopqrstuvwxyz'
@@ -295,9 +295,9 @@ print(s.count('efg'))
 ---
 ### Eigenschaften ermitteln
 
-Mit `str.isxxx`-Funktionen können sie Zeichenketten nach bestimmten Eigenschaften testen.
+Mit `str.isxxx`-Funktionen können Sie Zeichenketten nach bestimmten Eigenschaften testen.
 
-🎬  Erstellen sie die Datei `Eigenschaften.py` mit diesem Inhalt:
+🎬  Erstellen Sie die Datei `Eigenschaften.py` mit diesem Inhalt:
 
 ```py
 print(len('abc')) # 3
@@ -312,7 +312,7 @@ print(str.islower('abcD')) # False
 ---
 ### Suchen
 
-🎬 Führen sie diese Aktionen aus:
+🎬 Führen Sie diese Aktionen aus:
 * Datei `Suchen.py` erstellen
 * Diesen Code einfügen und ausführen:
 
@@ -330,7 +330,7 @@ print(s.rfind("hij")) # Suche von Rechts nach Links
 ---
 ### Ersetzen
 
-🎬 Fügen sie diesen Code an die letzte Datei:
+🎬 Fügen Sie diesen Code an die letzte Datei:
 
 ```py
 print(s.replace('e', 'X'))
@@ -344,12 +344,12 @@ Es gibt mehrere Ansätze zum Formatieren von Zeichenketten:
 * format-Methode
 * format-Kurzschreibweise
 
-🎬 Erstellen sie eine Datei `Formatierung.py`
+🎬 Erstellen Sie eine Datei `Formatierung.py`
 
 ---
 ### Formatierung mit %-Operator
 
-🎬 Führen sie diesen Code aus:
+🎬 Führen Sie diesen Code aus:
 
 ```py
 print('%s ist %d Jahre alt.' % ('Matthias', 11))
@@ -359,7 +359,7 @@ print('1/7 mit drei Nachkommastellen: %.3f' % (1/7))
 ---
 ### Formatierung mit format-Methode
 
-🎬 Führen sie diesen Code aus:
+🎬 Führen Sie diesen Code aus:
 
 ```py
 print('{} ist {} Jahre alt.'.format('Sebastian', 13))
@@ -369,7 +369,7 @@ print('{name} ist {alter} Jahre alt.'.format(alter=13, name='Sebastian'))
 ---
 ### Formatierung mit format-Kurzschreibweise
 
-🎬 Führen sie diesen Code aus:
+🎬 Führen Sie diesen Code aus:
 
 ```py
 alter=26/3
@@ -382,7 +382,7 @@ print(f'{name} ist {alter:.3} Jahre alt.')
 ---
 ### Aufgaben 2
 
-Lösen sie die nächsten zwei [Aufgaben](excercise.md#aufgaben).
+Lösen Sie die nächsten zwei [Aufgaben](excercise.md#aufgaben).
 
 ⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 10 Minuten
 

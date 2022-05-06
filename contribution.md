@@ -5,7 +5,7 @@ Was beim Erstellen von Inhalten beachtet werden muss, wird hier erläutert.
 
 ## Sprache
 
-Die Studierenden werden mit sie angesprochen.
+Die Studierenden werden mit Sie angesprochen.
 
 ## Formatierung
 
