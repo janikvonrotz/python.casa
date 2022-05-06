@@ -2,7 +2,7 @@ module.exports = {
     title: 'python.casa',
     description: 'Einführung in die Programmierung.',
     themeConfig: {
-        logo: 'logo.png',
+        logo: '/logo.png',
         sidebar: 'auto',
         repo: 'janikvonrotz/python.casa',
         docsBranch: 'main',
