@@ -1,30 +1,39 @@
 # Notizen
 
-Online Unterricht:
+Wichtige Punkte zur Gestatlung des Unterrichts:
+
+**Online Unterricht**
 * Nicht eine Viertelstunde vor Beginn bei Zoom einloggen
 * Termine für Anwesenheit eintragen
 
-Zeitplanung:
+**Zeitplanung**
 * Maximale Zeit für die Slides festlegen
 * 50% von Unterrichtszeit für Hausaufgaben
 
-Kontaktunterricht:
+**Kontaktunterricht**
 * Individueller Support am Ende
 * Slides kurz halten
 * Fragen und Unklarheiten klären
 
-Fokus:
+**Fokus**
 * Einstieg bei Programmierung wichitg, Studenten sollen nicht den Anschluss verlieren
 
-Leistungsnachweis:
+**Leistungsnachweis**
 * Coaching-Zeit für Leistungsnachweis in den letzten Lektion
 * Termin für Eingabe Projektvorschlag mit Moodle Aufgabe
 * 2 Wochen nach letzten Unterichtsblock Projektabgabe
 
-Gestaltung:
+**Gestaltung**
 * Video zur Vorbereitung schicken
 * Alle Kursinhalte zerlegen
 * Weiterführende Materialien bieten
+
+**Vorgehen Korrektur**
+- Der/die Studierende schaut sich die Bewertungskriterien und seine/ihre Bewertung genau an.
+- Er/sie wählt die Bewertungskriterien aus, welche aus seiner/ihrer Sicht nicht stimmen.
+- Dazu notiert er/sie die gewünschte Punktzahl und erläutert warum ihr/ihm diese Punktzahl zusteht.
+- Der/die Dozent/in schaut sich Korrektur an und gibt dazu eine Rückmeldung.
+- Machen die Korrekturen Sinn und haben sie keinen Einfluss auf die Bewertung anderer, wird die Korrektur geltend gemacht.
 
 ## Resourcen
 
