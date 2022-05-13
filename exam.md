@@ -131,7 +131,7 @@ Für jedes Kriterium werden Punkte von 0-4 vergeben. Jedes Kriterium wird mit 1-
 
 #### Qualität
 
-Gewichtung: 5
+Gewichtung: 5/5
 
 * **Struktur**: Wurden der Code in Funktionen oder Module gruppiert? Sind die Dateien korrekt benannt?
 * **Nachvollziehbarkeit**: Kann ein Laie die Funktion des Programms nachvollziehen? Sind variablen sinnvoll benannt? Sind die Anweisungen kommentiert?
@@ -139,7 +139,7 @@ Gewichtung: 5
 
 #### Herausforderung
 
-Gewichtung: 3
+Gewichtung: 3/5
 
 * **Konstrukte**: Wurden Elemente wie Schleifen und Verzweigungen sinnvoll eingesetzt?
 * **Niveau**: Ist die Herausforderung dem HF-Niveau gerecht? War es für den Studierenden eine Herausforderung?
@@ -147,7 +147,7 @@ Gewichtung: 3
 
 #### Inhalt
 
-Gewichtung: 4
+Gewichtung: 4/5
 
 * **Input**: Wurden Themen aus den Lektionen sinnvoll eingesetzt?
 * **Umfang**: Liegt die Dokumentation in erwarteten Umfang vor? Sind alle Kapitel vorhanden?
