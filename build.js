@@ -12,19 +12,6 @@ const hostname = 'python.casa'
 const basePath = '/'
 const uriSuffix = '.html'
 
-// function sanitizeName(name) {
-//     return name.toLocaleLowerCase()
-//         .replace(/\s+/g, '-')
-//         .replace(/%20/g, '-')
-//         .replace('---', '-')
-//         .replace('--', '-')
-//         .replace(/%c3%84/g, 'ä')
-//         .replace(/%c3%bc/g, 'ü')
-//         .replace(/%c3%a4/g, 'ä')
-//         .replace(/%c3%9c/g, 'ü')
-//         .replace(/%c3%b6/g, 'ö')
-// }
-
 // Build vars
 var args = process.argv.slice(2);
 var firstArg = args[0]
