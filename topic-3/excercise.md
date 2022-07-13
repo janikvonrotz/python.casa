@@ -75,7 +75,7 @@ webbrowser.open('https://www.youtube.com/watch?v=%s' % (youtube_id))
 Eine Möglichkeit besteht, zur Abgrenzung von Zeichenketten das jeweils andere Zeichen zu verwenden, also:
 <pre>
 s1="O'Reilly"  
-s2='<a href="https://kofler.info">Link</a>'
+s2='It is "O Reilly"'
 </pre>
 Eine zweite Möglichkeit bieten die Spezialcodes \' und \":
 <pre>

@@ -192,7 +192,7 @@ def minmax(lst): 
     min = lst[0]   
     max = lst[0]      
     for itm in lst:   
-        if itm < min:   
+        if itm &lt; min:   
             min = itm   
         if itm > max:   
             max = itm   
@@ -230,14 +230,14 @@ def prod(*f):
 <pre>
 from functools import reduce  
 def prod(*f):  
-    if len(f)<2:  
+    if len(f)&lt;2:  
         return f[0]  
     else:  
         return reduce(lambda x, y: x*y, f)
 Auf die Lambda-Funktion können Sie verzichten, wenn Sie wissen, dass Sie alle Python-Operatoren im operator-Modul auch als Funktionen zur Verfügung stehen:
 import operator  
 def prod(*f):  
-    if len(f)<2:  
+    if len(f)&lt;2:  
         return f[0]  
     else:  
         return reduce(operator.mul, f)

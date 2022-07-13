@@ -2,3 +2,6 @@
 default.vim
 node_modules
 .vuepress/dist
+.temp
+.cache
+sitemap.txt
