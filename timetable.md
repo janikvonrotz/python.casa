@@ -25,4 +25,4 @@ Fasnachtsferien: **21.02 bis 06.03**
 
 ## Prüfung
 
-!!!include(exam-timetable.md)!!!
+Siehe [Termine](exam.md#Termine).

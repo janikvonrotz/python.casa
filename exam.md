@@ -6,7 +6,17 @@ Der Kurs erfordert zwei Semesternoten um die Abschlussnote zu bilden. Es wurde e
 
 Dazu die Termine der Wissenprüfung und des Leistungsnachweises.
 
-!!!include(exam-timetable.md)!!!
+**14.01.2022 bis 21.01.2022: Eingabe Projektvorschlag für [Leistungsnachweis](exam.md#leistungsnachweis).**
+
+**28.01.2022: Durchführung [Wissensprüfung](exam.md#wissensprufung).**
+
+28.01.2022: Rückmeldung zum Projektvorschlag.
+
+05.02.2022: Note Wissensprüfung erstellt.
+
+**20.03.2022: Deadline Hochladen Leistungsnachweis.**
+
+21.03.2022: Bewertung der Leistungsnachweise und Abschlussnote erstellt.
 
 ## Wissensprüfung
 *Proof of Knowledge*
