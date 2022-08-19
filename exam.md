@@ -80,13 +80,13 @@ Aufwand: 8-16 Stunden
 ### Durchführung
 
 Der Prozess für den Leistungsnachweis sieht wie folgt aus:
-1. Studieren such sich eine Problemstellung oder Thema, dass Sie mit einem Ptyhon-Programm lösen möchten
+1. Studierende suchen sich eine Problemstellung oder Thema, dass Sie mit einem Python-Programm lösen möchten
 2. Die Studierenden formulieren dazu einen Projektvorschlag und laden diesen auf Moodle
-3. Der Dozierende gibt eine Feedback und teilt mir, ob der Projektvorschlag den Erwartungen gerecht wird
-4. Die Studieren haben Zeit um den Leistungsnachweis zu erarbeiten und eine Dokumentation zu erstellen
+3. Der Dozierende gibt ein Feedback und teilt mir, ob der Projektvorschlag den Erwartungen gerecht wird
+4. Die Studierenden haben Zeit um den Leistungsnachweis zu erarbeiten und eine Dokumentation zu erstellen
 5. Der Dozierende gibt Inputs und kann bei Problemen kontaktiert werden
 6. Die Studierenden laden das Resultat auf Moodle hoch
-7. Der Dozierende macht eine Berwertung anhand der [Kriterien](#Kriterien)
+7. Der Dozierende macht eine Bewertung anhand der [Kriterien](#Kriterien)
 
 ### Resultat
 
@@ -137,28 +137,28 @@ Eine Vorlage für ein `.docx` kann [hier heruntergeladen](https://janikv.cloud/s
 
 ### Kriterien
 
-Für jedes Kriterium werden Punkte von 0-4 vergeben. Jedes Kriterium wird mit 1-5 gewichtet.
+Punkte in eckigen Klammern.
 
-#### Qualität
+#### Dokumentation
 
-Gewichtung: 5/5
+Punkte: 9
 
-* **Struktur**: Wurden der Code in Funktionen oder Module gruppiert? Sind die Dateien korrekt benannt?
-* **Nachvollziehbarkeit**: Kann ein Laie die Funktion des Programms nachvollziehen? Sind variablen sinnvoll benannt? Sind die Anweisungen kommentiert?
-* **Authentizität**: Wurden Programmteile selbst verfasst oder nur kopiert?
+* **Vollständigkeit \[1\]**: Alle Kapitel gemäss Vorgaben sind enthalten.
+* **Formatierung \[1\]**: Die Formatierung des Dokuments enspricht einem professionellen Standard.
+* **Sprache \[2\]**: Die Dokumentation ist in korrektem Deutsch formuliert und Fachwörter werden korrekt verwendet.
+* **Visualisierung \[3\]**: Der Code ist mithilfe einem Flowchart visualisiert. (Formatierung, Vollständigkeit, Logik)
+* **Reflexion \[2\]**: Die konfrontierten Herausforderungen und der entsprechende Lerneffekt sind reflektiert.
 
-#### Herausforderung
+#### Code
 
-Gewichtung: 3/5
+Punkte: 17
 
-* **Konstrukte**: Wurden Elemente wie Schleifen und Verzweigungen sinnvoll eingesetzt?
-* **Niveau**: Ist die Herausforderung dem HF-Niveau gerecht? War es für den Studierenden eine Herausforderung?
-* **Reflexion**: Ist in der Reflexion ein Lerneffekt sichtbar?
-
-#### Inhalt
-
-Gewichtung: 4/5
-
-* **Input**: Wurden Themen aus den Lektionen sinnvoll eingesetzt?
-* **Umfang**: Liegt die Dokumentation in erwarteten Umfang vor? Sind alle Kapitel vorhanden?
-* **Visualisierung**: Wurde der Code mit einem Flowchart sachgemäss visualisiert? Wurden Code-Teile hervorgehoben und dokumentiert?
+* **Kommentare \[2\]**: Die Code-Anweisungen und Blöcke sind sinnvoll und vollständig kommentiert.
+* **Struktur \[6\]**: 
+	* Der Code ist sinnvoll strukturiert (Module und Funktionen).
+	* Die Variablen, Dateien und Ordner sind gemäss ihrer Funktion benannt.
+	* Die Formatierung des Codes unterstützt die Lesbarkeit.
+* **Authentizität \[2\]**: Der Code ist selber verfasst. Code-Teile von Dritten werden als solche deklariert.
+* **Ausführbar \[2\]**: Der Code kann gemäss "Technische Anleitung" ausgeführt werden.
+* **Optimierung \[2\]**: Schleifen und Funktionen werden genutzt.
+* **Komplexität \[3\]**: Die Problemstellung entspricht HF-Niveau.

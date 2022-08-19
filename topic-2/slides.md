@@ -1,4 +1,4 @@
-## Variablen und Datentypen
+v## Variablen und Datentypen
 
 [Thema 2](./README.md)
 
@@ -7,6 +7,16 @@
 📖 Kapitel 2 Variablen, 3 Operatoren und 4 Zahlen
 
 ---
+### Lernziele
+
+Ich kann ...
+* Variablen deklarieren und verwenden.
+* verschiedene Datentypen und ihre Eigenschaften erläutern.
+* je nach Situation den optimalen Datentypen wählen.
+* grundlegende mathematische Berechnungen ausführen.
+
+---
+
 ### Besprechung Thema 1
 
 * Ziele erreicht?
@@ -78,7 +88,7 @@ Für den weiteren Verlauf des Unterrichts arbeiten wir mit Thonny und der Websit
 🎬 Folgende Aktion ausführen:
 * Thonny öffnen und das Fenster auf die linke Seite schieben
 	* Windows: <kbd>windows</kbd> + <kbd>←</kbd> drücken
-* [ptyhon.casa - Thema 2 Slides](https://python.casa/topic-2/slides.html#fensterdarstellung-wechseln-1) öffnen und auf die rechte Seite schieben
+* [python.casa - Thema 2 Slides](https://python.casa/topic-2/slides.html#fensterdarstellung-wechseln-1) öffnen und auf die rechte Seite schieben
 	* Windows: <kbd>windows</kbd> + <kbd>→</kbd> drücken
 
 ---
@@ -279,10 +289,9 @@ Ziel: Alle Aufgaben gelöst.
 ---
 ### Review
 
-🎯 Ziele erreicht?
-* Variablen deklarieren und verwenden
-* Datentypen verstanden
-* Einfache Berechnungen ausführen
+🎯 Wurden die [Lernziele](#Lernziele) erreicht?
+
+⚡ Feedback zu den Zielen einholen.
 
 ---
 <!--

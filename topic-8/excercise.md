@@ -10,7 +10,7 @@ Befolgen Sie die nächsten Schritte um die Programmierumgebung bereitzustellen.
 
 ### Aufgabe 8.0: pip installieren
 
-Dieser Teil ist optional. Um Ptyhon-Pakete zu installieren, verwenden wir die VSCode-Erweiterung *Pip Manager*. Besser aber wäre die eigenständige Installation von pip. Führen Sie die folgenden Aktionen aus, wenn Sie pip für die Kommandozeile installieren möchten.
+Dieser Teil ist optional. Um Python-Pakete zu installieren, verwenden wir die VSCode-Erweiterung *Pip Manager*. Besser aber wäre die eigenständige Installation von pip. Führen Sie die folgenden Aktionen aus, wenn Sie pip für die Kommandozeile installieren möchten.
 
 * Laden Sie die Datei `get-pip.py` unter diesem Link <https://bootstrap.pypa.io/get-pip.py> herunter
 * Speichern Sie die Datei in einem Ordner und öffnen Sie diesen mit VSCode

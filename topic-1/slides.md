@@ -7,6 +7,14 @@
 📖 Kapitel 1 Hello, World!
 
 ---
+### Lernziele
+
+Ich kann ...
+* Python installieren und aufrufen.
+* Srkipte erstellen und ausführen.
+* den Vorgang der Kompilierung an einem Beispiel erklären.
+
+---
 ### Der Computer ist einfach
 
 ![](../elments-of-computer-system.png)
@@ -82,7 +90,7 @@ Wir starten nun die Python-Shell.
 Alternativ `C:\Program Files\Python\python.exe` öffnen.
 
 ---
-### Anweistung interaktiv ausführen
+### Anweisung interaktiv ausführen
 
 🎬 Anweisung eingeben und mit <kbd>enter</kbd> bestätigen:
 
@@ -268,10 +276,9 @@ Ziel: Aufgabe 1.1 gelöst.
 ---
 ### Review
 
-Ziele erreicht?
-* Python ist installiert und interaktiv verfügbar
-* Erstellen und Ausführen von Skripten funktioniert
-* Vorgang Kompilierung verstanden
+🎯 Wurden die [Lernziele](#Lernziele) erreicht?
+
+⚡ Feedback zu den Zielen einholen.
 
 ---
 ### Feedback

@@ -452,7 +452,7 @@ HTML beschreibt wie ein Dokument aussieht und der Browser stellt es entsprechend
 
 ### HTTP-Request mit Python
 
-HTML-Dokument kann man mit Ptyhon herunterladen.
+HTML-Dokument kann man mit Python herunterladen.
 
 🎬 Erstellen Sie die Datei `HTTP.py` und fügen Sie diesen Code ein:
 
