@@ -1,150 +1,266 @@
-# Übungen Thema 6
+# Übungen Thema 5
 
 ## Aufgaben
 
 Aufgaben zum Thema.
 
-### Aufgabe 6.1: Fehler abfangen
+### Aufgabe 5.1: Vereinfachen mit Funktion
 
-Angenommen Sie erhalten diese Python-Funktion.
-
-```py
-def pluszwei(zahl):
-	return (zahl + 2)
-```
-
-Und verwenden Sie in ihrem Programm.
+Für die Ansage von Zugabfahren wurde ein Programm erstellt.
 
 ```py
-print(pluszwei(2))
-print(pluszwei('3'))
+print("Der nächste Zug fährt nach Bern.")
+print("Der nächste Zug fährt nach Luzern.")
+print("Der nächste Zug fährt nach Zürch.")
+print("Der nächste Zug fährt nach Genf.")
+print("Der nächste Zug fährt nach Chur.")
 ```
 
-Bei der Ausführung erhalten Sie einen Fehler vom Typ `TypeError`. Fangen Sie diesen Fehler in ihrem Programm mithilfe von `try` and `except` ab.
+Es wird immer der gleiche Satz verwendet, nur der Name des Zuges ändert. Versuchen Sie dieses Programm mit einer Funktion zu vereinfachen.
 
-### Aufgabe 6.2: JSON to CSV konvertieren
-
-Sie erhalten das folgende JSON-Dokument `people.json`:
-
-```json
-[
-    {
-        "name": "Jason",
-        "gender": "M",
-        "age": 27
-    },
-    {
-        "name": "Rosita",
-        "gender": "F",
-        "age": 23
-    },
-    {
-        "name": "Leo",
-        "gender": "M",
-        "age": 19
-    }
-]
-```
-
-Damit Sie es verarbeiten können brauche Sie es im CSV-Format.
-
-Entwickeln Sie ein Programm, dass dieses JSON-Dokuments zu einem CSV konvertiert.
-
-Dazu diese Inputs:
+::: tip
+Erstelle Sie eine Funktion `ansage`, die als Parameter den Ort erhält und rufen Sie die Funktion wie folgt auf:
 
 ```py
-import json
-import csv
+ansage("Bern")
+ansage("Luzern")
+ansage("Zürich")
+ansage("Genf")
+ansage("Chur")
 ```
-
-```py
-with open('people.json', 'r') as f:
-    data = json.load(f)
-print(data)
-```
-
-```py
-for person in data:
-    print(f"name: {person['name']}")
-```
-
-```py
-with open('people.csv', mode='w') as file:
-    csv_writer = csv.writer(file, delimiter=',', quotechar='"')
-```
-
-```py
-    csv_writer.writerow(['Name', 'Gender', 'Age'])
-    for person in data:
-        csv_writer.writerow(person.values())
-```
-
-### Aufgabe 6.3: Erste Website
-
-Erstellen Sie eine persönliche Website mit einem HTML-Dokument. Nennen Sie das Dokument `mypage.html`.
-
-Fügen Sie in der Website mithilfe des `<pre>` HTML-Tag Python-Code ein.
-
-```html
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Python-Code in HTML</title>
-</head>
-<body>
-  <h2>Python-Code in HTML</h2>
-  <pre>
-with open('people.json', 'r') as f:
-	data = json.load(f)
-print(data)
-  </pre>
-</body>
-</html>
-```
-
-### Aufgabe 6.4: Webserver
-
-Die erstellte Website wollen wir nun publizieren. Dazu erstellen wir einen HTTP-Server. Dieser lädt unsere Website und stellt Sie für andere Computer bereit.
-
-Führen Sie das folgende Programm `Server.py` aus.
-
-```py
-import http.server
-import socketserver
-
-class HttpRequestHandler(http.server.SimpleHTTPRequestHandler):
-    def do_GET(self):
-        if self.path == '/':
-            self.path = 'mypage.html'
-        return http.server.SimpleHTTPRequestHandler.do_GET(self)
-
-# Erstelle ein Objekt anhand der obigen Klasse
-handler = HttpRequestHandler
-
-server = socketserver.TCPServer(("", 8000), handler)
-
-# Starte den Server
-server.serve_forever()
-```
-
-Und öffnen Sie diesen Link <http://localhost:8000/>.
-
-In der Python-Konsole sehen Sie nun die Website-Aufrufe.
-
-Nun möchten wir das Programm anpassen. Ändern Sie den Port von `8000` auf den HTTP-Standardport `80` und zeigen Sie die Website unter der richtigen Adresse an.
-
-::: warning
-Falls Sie beim Starten des Webservers aufgrund der Portänderung einen Fehler erhalten, belassen Sie den Port bei `8000`
 :::
 
-### Aufgabe 6.5: Intranet
+### Aufgabe 5.2: Vereinfachen mit Schleife
 
-Wenn ihr Computer und der ihrer Nachbaren im selben WLAN bzw. Netzwerk sind, sind die Voraussetzungen für ein Intranet gegeben.
+Unser Programm kann noch verbessert werden. Erstellen Sie eine Liste der Orte und übergeben Sie diese Parameter an die Ansage-Funktion.
 
-Haben ihre Nachbaren die Website gestartet können Sie anhand der IP-Adresse darauf zugreifen.
+### Aufgabe 5.3: Parameter validieren
 
-Zeigen Sie ihre lokale IPv4-Adresse über die Netzwerkeinstellungen des Computers an. Dazu ein Beispiel wie das auf einem Linux-Computer aussieht:
+Wir möchten sicherstellen, dass die Ansage-Funktion nur Variablen vom Typ `str` verarbeitet. Erstellen Sie eine entsprechende Prüfung vor der Ausgabe.
 
-![](../linux-ipv4.png)
+### Aufgabe 5.4: Quersumme berechnen
 
-Tauschen Sie die IP-Adresse mit ihrem Nachbarn aus und rufen Sie die Website im Browser damit auf. Beispiel: <http://192.168.1.104:8000>.
+Schreibe eine Funktion `quersumme(zahl)`, welche die Quersumme von `zahl` berechnet und zurückgibt.
+
+::: tip
+Wenn man die Zahl in einen String umwandelt kann man Sie in einer Schleife verarbeiten.
+:::
+
+### Aufgabe 5.5: Rekursion auf der Festplatte
+
+Schreiben Sie eine rekursive Funktion, die als Parameter einen Ordnerpfad erwartet und alle Unterordner ausgibt.
+
+::: tip
+Dazu eine Hilfestellung. Das folgende Programm gibt alle Dateien und Ordner unterhalb eines bestimmten Ordnerpfads aus:
+
+```py
+import os
+
+basepath = '/pfad/to/my/directory'
+
+for entry in os.listdir(basepath):
+
+	fullpath = os.path.join(path, entry)
+
+    if os.path.isfile(fullpath):
+        print("Datei: ", entry)
+		
+    if os.path.isdir(fullpath):
+        print("Ordner:", entry)
+```
+:::
+
+### Aufgabe 5.6: Filtern mit Lambda
+
+Kopieren Sie die Datenstruktur von <https://jsonplaceholder.typicode.com/users> nach Python.
+
+![kopieren-daten-jsonplaceholder](../kopieren-daten-jsonplaceholder.gif)
+
+Filter sind alle Benutzer aus der Liste, die eine Telefonnumer haben, die mit einer `1` beginnt. Verwenden Sie dazu eine Lambda-Funktion.
+
+::: tip
+Verwenden Sie die folgende Bausteine:
+
+```py
+print(user.get('email'))
+```
+
+```py
+for user in users:
+```
+
+```py
+filter(lambda user: user["name"] == "Leanne Graham", data)
+```
+
+```py
+users = list(filter)
+```
+:::
+
+### Aufgabe 5.7: Chart to Code
+
+Schreiben Sie diese Flowchart als Code:
+
+![diagram](../diagram.svg)
+
+### Aufgabe 5.8: Code to Chart
+
+Erstellen Sie einen Flowchart mit [draw.io](https://draw.io) anhand dieses Codes:
+
+```py
+spicyfood = input("Do you like spicy food? True or False?")
+if spicyfood == "True":
+    level = input("How spicy do you like it? hot, very hot, super hot ?")
+    if level == "super hot":
+        print(f"The user likes {level} spicy food!")
+    else:
+        print("The user likes spicy food!")
+if spicyfood == "False":
+    print("The user hates spicy food!")
+```
+
+### Aufgabe 5.9: Hangman
+
+Entwickeln Sie das Spiel *Hangman*. Implementierung Sie dazu folgende Punkte:
+* Zu Finden des Worts hat man 5 Versuche
+* Das zu suchende Wort wird in Grossbuchstaben umgewandelt
+* Der eingegebene Buchstabe wird in Grossbuchstaben umgewandelt
+* Das zu suchende Wort wird als Liste gespeichert
+
+::: tip
+
+Als Anschub haben wir die folgenden Bausteine:
+
+```py
+wort = list("python".upper())
+laenge = len(wort)
+zensiert = list(laenge * '_')
+versuche = 5
+gefunden = []
+gewonnen = False
+```
+
+```py
+if eingabe in wort:
+        gefunden.extend([eingabe])
+```
+
+```py
+while versuche > 0  and not gewonnen:
+    eingabe = input("Geben Sie einen Buchstaben ein: ").upper()
+```
+
+```py
+for i in range(0, laenge):
+	if wort[i] in gefunden:
+		zensiert[i] = wort[i]
+```
+
+```py
+if '_' not in zensiert:
+	gewonnen = True
+	print("Du hast gewonnen!")
+```
+
+```py
+if not gewonnen:
+    print("Du hast verloren!")
+```
+
+```py
+print(f"Treffer! Der aktuelle Stand: {' '.join(zensiert)}.")
+print(f"Deine Treffer: {' '.join(gefunden)}.")
+```
+:::
+
+## Wiederholungsfragen
+
+**W1**: Die in Python vordefinierten Funktionen min und max ermitteln das kleinste bzw. größte Element einer Liste. Programmieren Sie die Funktion minmax, die die beiden entsprechenden Elemente als Tupel zurückgibt – natürlich, ohne auf min und max zurückzugreifen.
+
+<details>
+Die triviale Lösung zur Aufgabenstellung greift auf die vorgegebenen min- und max-Funktionen zurück und gibt die beiden Ergebnisse als Tupel zurück:
+<pre>
+def minmax(lst):   
+    return min(lst), max(lst)
+</pre>
+Wenn Sie die Funktion selbst implementieren, müssen Sie in einer Schleife alle Elemente der Liste durchlaufen – das ist Ihnen vermutlich klar. Schwierig ist es, Startwerte für die beiden Ergebnisvariablen min und max zu wählen. Sie könnten für min eine sehr große und für max eine sehr kleine Zahl nehmen (min=100000 und max=-100000). Wenn die Liste dann allerdings noch kleinere oder noch größere Werte enthält, erhalten Sie ein falsches Ergebnis.
+Auf der sicheren Seite sind Sie, wenn Sie als Startwerte einfach das jeweils erste Element der Liste verwenden. Wenn Sie Glück haben, ist das schon das Endergebnis. Wenn nicht, werden min bzw. max in der for-Schleife immer wieder korrigiert, bis die beiden Variablen schließlich den kleinsten bzw. größten Wert enthalten.
+<pre>
+# Beispieldatei minmax.py  
+def minmax(lst):   
+    min = lst[0]   
+    max = lst[0]      
+    for itm in lst:   
+        if itm &lt; min:   
+            min = itm   
+        if itm > max:   
+            max = itm   
+    return (min, max)  # Tupel zurückgeben
+</pre>
+</details>
+
+**W2**: Ein Palindrom ist ein Text, der von vorn und hinten gelesen den gleichen Inhalt hat – z. B. "Lagerregal" oder "Trug Tim eine so helle Hose nie mit Gurt?"". Leer- und Satzzeichen werden dabei ignoriert. Weitere Beispiele finden Sie hier: <https://de.wikipedia.org/wiki/Palindrom>. Schreiben Sie eine Funktion, die testet, ob eine Zeichenkette ein Palindrom ist. Tipp: Verwenden Sie die Funktion str.isalpha, um zu testen, ob ein Zeichen ein Buchstabe ist.
+
+<details>
+Die Lösungsfunktion wandelt die übergebene Zeichenkette zuerst in Kleinbuchstaben um und bildet daraus eine Liste. Aus dieser Liste filtert Sie nun mit isalpha alle Buchstaben heraus und eliminiert so Leer- und Satzzeichen. join bildet aus den verbliebenen Listenelementen wieder eine Zeichenkette. Als Rückgabeergebnis gilt der Test, ob diese Zeichenkette identisch ist mit einer Zeichenkette in umgekehrter Reihenfolge (Slicing-Notation [::-1]).
+<pre>
+# Beispieldatei palindrom.py  
+def palindrom(s):          
+    lst = list(s.lower())  
+    plainlst = filter(str.isalpha, lst)        
+    plain = ''.join(plainlst)     
+    return plain == plain[::-1]
+</pre>
+</details>
+
+**W3**: Die Python-Funktion sum(a, b, c) berechnet die Summe aller übergebenen Parameter. Schreiben Sie eine äquivalente Funktion prod, die alle Parameter multipliziert.
+
+<details>
+Der entscheidende Punkt bei dieser Aufgabe ist die variable Parameteranzahl, die Sie in der Schreibweise *para realisieren. Innerhalb der Funktion können Sie auf die übergebenen Elemente in Form einer Liste zugreifen. Davon ausgehend gibt es mehrere Lösungsvarianten. Am naheliegendsten ist die Programmierung einer Schleife. Dabei wird der erste Parameter in der lokalen Variablen result gespeichert und in der Folge mit allen weiteren Parametern (Slicing-Notation [:1]) multipliziert.
+<pre>
+# Beispieldatei prod.py  
+def prod(*f):  
+    result = f[0]  
+    for factor in f[1:]:  
+        result = result * factor  
+    return result
+</pre>
+»Schöner« wird der Code (zumindest in Python-Denkweise), wenn Sie die reduce-Funktion anwenden. An reduce müssen Sie eine Lambda-Funktion übergeben, die die Multiplikation durchführt:
+<pre>
+from functools import reduce  
+def prod(*f):  
+    if len(f)&lt;2:  
+        return f[0]  
+    else:  
+        return reduce(lambda x, y: x*y, f)
+Auf die Lambda-Funktion können Sie verzichten, wenn Sie wissen, dass Sie alle Python-Operatoren im operator-Modul auch als Funktionen zur Verfügung stehen:
+import operator  
+def prod(*f):  
+    if len(f)&lt;2:  
+        return f[0]  
+    else:  
+        return reduce(operator.mul, f)
+</pre>
+</details>
+
+**W4**: Schreiben Sie eine Funktion, die eine Zeichenkette nach allen Vorkommen einer anderen Zeichenkette durchsucht und die Startpositionen als Liste zurückgibt. Beispiel:
+
+```py
+print(findAll('abcefgabcxyzabcd', 'abc'))
+# Ausgabe: [0, 6, 12]
+```
+
+<details>
+findAll sucht zuerst nach dem ersten Vorkommen von pattern in s. Wenn es eines gibt, also pos einen Wert ungleich –1 enthält, wird dieser Wert in der while-Schleife dem Ergebnis hinzugefügt. Danach wird die Suche an der Stelle pos+1 fortgesetzt.
+<pre>
+# Beispieldatei findall.py  
+def findAll(s, pattern):  
+    matches = []  
+    pos = s.find(pattern)  
+    while pos != -1:  
+        matches += [pos]  
+        pos = s.find(pattern, pos+1)  
+    return matches
+</pre>
+</details>

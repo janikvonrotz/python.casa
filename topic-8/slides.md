@@ -1,224 +1,326 @@
-## Jupiter-Notebooks, Pandas und Plotly
+## Ein- und Ausgabe
 
-[Thema 8](./README.md)
+[◀️ Thema 8](README.md)
 
 ⚡[Anwesenheit bestätigen](https://moodle.medizintechnik-hf.ch/mod/attendance/manage.php?id=6139)
 
+📖 Kapitel 10 Umgang mit Fehlern (Exceptions)\
+📖 Kapitel 14 Dateien lesen und schreiben\
+📖 Kapitel 15 Netzwerkfunktionen
+
 ---
 
-### Sebastian von Rotz
+### Rückblick
 
-**Hintergrund**:
-
-* Gelernter Chemielaborant
-* Bachelor in Biotechnologie
-* Master in Data Science
-
-**Aktuelle Tätigkeiten**:
-
-Securecell AG (Medtech / Biotech)
-* 60% Applikationsspezialist für Software im Biotechnologie Bereich
-
-ZHAW LSFM
-* 40% Wissenschaftlicher Assistent in Fachgruppe Bioprozesstechnologie
-
-♻️ Bioinformatik, Bioprozesstechnologie, Data Science, Software
+Besprechung der Wiederholungsfragen.\
+Fragen zur Wissensprüfung/Leistungsnachweis?
 
 ---
 
 ### Ausblick
 
-Themen für die heutigen Lektonen:
+Die Lektionen heute:
+* Fehlerbehandlung mit Python
+* Verschiedene Dateiformate lesen und schreiben
+* Netzwerkfunktionen
+* Erstellen HTML-Bericht
 
-* Relevanz *Data Science* Werkzeuge in der Medizintechnik
-* Aufsetzen, Bearbeitung und Ausführung von Jupyter Notebooks
-* Implementierung der Pandas und Plotly-express Python Pakete
-* Laden, Inspizierung, Visualisierung von Daten
-* Machine Learning Modell (*AI*) anwenden auf Medizin Technik relevantes Datenset
-
-🎯 Überblick über Anwendung von Datenwissenschaften im Gesundheitsbereich. Jupyter Notebook als Programmierumgebung kennenlernen
+In der letzten Lektion bleibt Arbeitszeit für die Wissenprüfung/Leistungsnachweis.
 
 ---
 
-### Daten im Gesundheitsbereich
+### Achtung
 
-Die meisten Daten im Gesundheitsbereich werden natürlich rund um einen Patienten erfasst. Dabei können die art der Daten sehr divers sein[^1] :
+Es werden einige neue Themen angeschnitten.\
+Unbedingt melden, bevor es eine Crash gibt!
 
-* **Physiologisch** (Butdruck, Sauerstoffsättigung,...)
-* **Omics-Big Data** (Genom Sequenzierung, Protein Analysen,...)
-* **Bildgebend** (Mikroskopie, MRI, X-Ray,...)
-* **Logistik** (Spital Mngmt, Temperatur Sensoren)
+<iframe src="https://giphy.com/embed/5xrkJe3IJKSze" width="280" height="280" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 
 ---
 
-### Quelle der Daten
+### Dateisystem
 
-Nicht nur sind die Daten Typen sind divers, so auch sind die Quellen welche diese erfassen[^2]:
+Auf dem Computer gibt es Dateien, Ordner und Metadaten (Erstellt am, Berechtigungen, ...).
 
-* **Medizintechnische Geräte**
-* **Wearables** (Sensoren am Patienten, Smartwatches,...)
-* **IoT Sensoren** (Temperatur, Gaszusammensetzung,...)
-* **Datenerfassung** von Spitalpersonal
+Eine Datei liegt in einem Ordner. Die Datei und Ordner haben Metdaten.
 
----
-
-### Ziele der Datenwissenschaften im Gesundheitsbereich
-
-**Personalisierung**
-
-Besonders anfallende Daten rund um den Patienten sind von Interesse, da diese es erlauben patientenspezifische Voraussagen Im Kontext der Diagnoistik, Krankheitsverläufe und personalisierter Medizin zu etablieren.
-
-**Voraussage**
-
-Dabei sollen Softwareprodukte und Geräte entwickelt werden welche es erlauben Krankheiten zu detektieren und Krankheitsveräufe vorauszusagen.
-
-**Innovation**
-
-Neue Innovationen vorallem im Bereich computergestützte Modelle zur Predikitiven Diagnostik (Bsp. Herzinfarkt Risiko abschätzen, Automatisches Screenen von Tumoren)
-
----
-### Relevanz in der Medizintechnik
-
-Trend zu Datengetriebenen Diagnose und Monitoring Systemen. Heisst Geräte werden vernetzter und *smarter* und die Hauptkomponente ist ein Modell welches automatisch Daten auswertet.
-
-Beispiele für datengetriebene medizintechnische Systeme:
-* IoT in Healthcare
-* Remote Monitoring von Patienten
-* Automatisches Auswerten von CT-Scans
-
-ℹ️ Ein datengetriebenes Produkt kann sowohl eine Software sein wie auch ein Gerät welches Daten aufzeichnet und diese mittels eines Algorithmus auswertet[^5].
-* Software -> Automatische Bildauswertung (Screenen von Lebererkrankung)
-* Gerät -> Sensor für physiologische Daten welcher Wahrscheinlichkeit und Verlauf einer Krankheit prediktiert (Smartwatch)
+Das Dateisystem ist hierarchisch aufgebaut.
 
 ---
 
-### Herausforderungen für datengetriebene Medizintechnik Produkte
+### Hierarchie Linux
 
-Um datengestützte Modelle und datengetriebene Medizinaltechnische Produkte zu etablieren müssen einige Herausforderungen überwunden werden.
-
-* Hohe regulatorische Anforderungen
-* Aufreinigung von Daten ist mit grossem Aufwand verbunden
-* Kombination von verschiedenen Datenquellen
-* Verschiedene Patientendatenbanken (Kantonal)
-* Big Data Handhabung
-
-ℹ️ Besonders regulatorische Anforderungen bilden eine grosse Hürde für Datengetriebene Produkte[^3] (Bsp. Black Box Modell wie neuronale Netzwerke)
+![](../linux-fs.png)
+ℹ️ Auf Linux ist der oberste Ordner der `/` *Root* und bei Windows das `C:` Laufwerk
 
 ---
 
-### Data Science im Allgemeinen
+### Python Pathlib
 
-Datenwissenschaft (Data Science) ist ein interdisplinäres Fachgebiet zwischen Informatik, Mathematik und einer weiteren Domäne (Biologie, Medizin, Elektronik).
+In der Python-Biblitothek findet man [`pathlib`](https://docs.python.org/3/library/pathlib.html). Mit Pathlib kan man mit dem Dateisystem interagieren.
 
-Dabei werden wissenschaftliche Methoden, Algorithmen und Prozesse verwendet um Wissen und Einglick aus strukturierten und unstrukturierten Daten zu gewinnen. Verwertbare Erkenntnisse werden dann wieder als Produkt angewandt
-
-
-![](../data-science-field.png)
+![](../python-pathlib-cheatsheet.png)
 
 ---
 
-### Herangehensweise im Data Science Bereich
+### Thonny vorbereiten
 
-![](../topic8_ml_procedure.jpg)
-Das grundlegende Vorgehen ist immer gleich[^4] :
-* Daten erfassen
-* Daten bereinigen und vorbereiten
-* Ein Modell trainieren
-* Das Modell auswerten
-* Das Modell weiter optimieren und einsetzen
+🎬 Führen Sie diese Aktionen aus:
+* Neuer Ordner `Thema6` erstellen
+* Neue Datei `Verzeichnisse.py` in Ordner erstellen
 
-ℹ️ Grösster Teil der Arbeit findet in der Aggregation und Aufarbeitung statt
+---
+### Aktuelles Verzeichnis ausgeben
+
+🎬 Diesen Code einfügen uns ausgeben.
+
+```py
+from pathlib import Path
+current = Path.cwd() # Gibt das aktuelle Verzichnis wo das Skript ausgeführt wird
+print('Aktuelles Verzeichnis:', current.absolute())
+```
+
+ℹ️ Der Rückgabewert von `Path.cwd().absolute()` ist ein Objekt.
 
 ---
 
-### Beispiel: Erkennung von handgeschriebenen Zahlen
+### Name des aktuellen Verzeichnis ausgeben
 
-Neuronales Netzerk (Modell) trainieren mit Bilder von handgeschriebenen Zahlen (Daten)[^6] : 
-* Bilder von handgeschribenen Zahlen erfassen
-* Bilder mit der korrekten Zahl *labeln*
-* Model trainieren (Ziel korrektes Label voraussagen)
-* Model optimieren
-![](../machine-learning.png)
+Erweitern Sie das Beispiel mit:
 
----
-
-### Datensatz und Modell
-
-Grundsätzlich benötigt man 2 Komponenten:
-* **Datensatz**
-* **Modell**
-
-Der Datensatz erlaubt es ein Modell auf automatische weise zu trainieren, das Modell erlaubt es dann aufgrund der Daten voraussagen und Prediktionen zu treffen.
+```py
+print(type(current))
+print('Aktueller Verzeichnisname:', current.name)
+```
 
 ---
 
-### Werkzeuge im Data Science Bereich
+### Fehlerbehandlung
 
-Es gibt eine schier unüberblickbare Anzahl an Werkzeugen im Data Science Bereich.
+Wenn eine Python-Anweisung einen Fehler generiert, kann man darau reagieren ohne dass das Programm abstürtzt.
 
-![](../ml-ai-infrastructure.png)
+🎬 Erstellen Sie die Datei `Error.py` mit diesem Code:
 
-Grundlegend werden aber meistens Werkzeuge in den folgenden Kategorien verwendet:
-* **Datenverarbeitung**: Daten Datensatz speichern und manipulieren
-* **Machine Learning Modell**: Modell trainieren und optimieren
-* **Visualisierungen**: Daten und Modell visualisieren
+```py
+ergebnis = 1/0
+print(ergebnis)
+```
 
----
-
-### Werkzeuge welche in diesem Kurs verwendet werden
-
-* **Programmierumgebung**: Jupyter Notebook
-* **Datenverarbeitung**: Pandas
-* **Visualisierungen**: Pandas und Plotly.express
-* **Machine Learning Modell**: sklearn
-* **Datensatz**: Heart-Attack von Kaggle.com[^7]
+Zeile zwei wird nicht erreicht. Python gibt des Fehlertyp `ZeroDivisionError` aus.
 
 ---
 
-### Jupyter Notebooks
-Quelle[^9]
+### try and except
 
-* Sind *Python Skripte* mit der Datei Endung `.ipynb`
-* Kann als ein Dokument angesehen werden welches Text und Codezeilen beinhaltet
-* Ein Notebook ist in 2 verwschiedene Zellen aufgebaut:
-	* Text Zelle: Text kann in Markdown Syntax geschrieben werden
-	* Code Zelle: Code kann in einer Programmiersprache wie Python geschrieben werden
+Mit den Befehlen `try` und `except` kann man versuchen eine Code-Block auszuführen und sobald dieser fehlschlägt darauf reagieren.
 
-ℹ️ Jupyter Notebooks eignes sich besonder für Data Science Projekte, da Sie eine geordnete Liste an Ein-und Ausgangs Zellen beihnalten, welche Text wie auch Code beinhalten können. Dies wiederspiegelt die Struktur eine typischen Data Science Prozesses.
+🎬 Ersetzen Sie den vorhergehenden Inhalt mit:
 
----
-
-### Pandas 
-Quelle[^10]
-
-Um Datensätze einfacher zu handhaben werden diese mittels eines Datenanalyse und Manipulations Werkzeugs bearbeitet. Eines der bekanntesten Werkzeuge is Pandas.
-
-* Daten werde in Dataframes gespeichert
-* Das Dataframe kann auf einfache weise manipuliert werden
-* Weiter sind diese Dataframes of ein strukturierter Datenbaustein für weitere Applikationen
-
-ℹ️ Ein Dataframe kann man sich wie eine Excel Tabelle vorstellen, also mit Zeilen, Kolonnen und entsprechenden Werte in den jeweiligen Zellen.
+```py
+try:
+    ergebnis = 1/0
+    print(ergebnis)
+except ZeroDivisionError:
+    print("Man kann nicht durch Null teilen.")
+```
 
 ---
 
-### Plotly-express 
-Quelle[^11]
+### Except als Variable
 
-Das `plotly.express` Python Paket beinhaltet Funktionen um Grafiken und Visualisierungen zu erstellen und ist Teil der Plotly Bibliothek
+🎬 Erstellen Sie die Datei `Except.py` mit diesem Code:
 
-* Es können über 30 verschieden Arten von Visualisierungstypen erstellt werden
-* Die struktur erlaubt aus auf einfache weise zwischen den typer zu wechseln (Bsp. *Line Plot* zu *Scatter Plot*)
-
-ℹ️ Es gibt eine Vielzahl and Visualisierungsprogrammen in Python, jede mit entsprechenden Vor-und Nachteilen.
+```py
+try:
+    print(z)
+except NameError as error:
+    print(error)
+    
+try:
+    print(z)
+except:
+    print("Ein Fehler im Code.")
+```
 
 ---
 
-### Datensatz
-Quelle[^12]
+### Fehler beim Zugriff auf Dateisystem
 
-In der nachfolgenden Übung wir das *Heart Attack Analysis & Prediction Dataset* verwendet. Dies ist ein Trainingsdatenset um Modelle zu entwickeln welche es erlauben aufgrund physiologischen Daten (**13 Parameter**) das Risiko eines Herzinfarktes zu klassifizieren (**1 Output**).
+Der Umgang mit Fehler ist beim Zugriff auf das Dateisystem besonders wichtig.
 
-ℹ️ Das Datenset wurde von der Universität California Irwine aggregiert und bereitgestellt. Die UCI hat eine grosse Sammlung an Datensets[^13]
+Es gibt viele Fehlerquellen: ungültiger Pfad, Schreibschutz, ungültiger Dateiname, ...
+
+---
+
+### Textdatei schreiben
+
+🎬 Erstellen Sie die Datei `Schreiben.py` mit diesem Code:
+
+```py
+try:
+    f = open('test.txt', 'wt')
+    f.write('Lorem ipsum dolor sit amet, ...\n')
+    f.write('Unicode äöüß✅ \n')
+    f.close()
+  
+except BaseException as err:
+    print('Fehler:', err)
+```
+
+ℹ️ Der Fehlertyp `BaseException` ist die Superklasse aller Fehlertypen.
+
+---
+### Textdatei lesen
+🎬 Erstellen Sie die Datei `Lesen.py` mit diesem Code:
+
+```py
+try:
+    f = open('test.txt', 'rt')
+    for line in f:
+        print(line, end='')
+    f.close() 
+  
+except BaseException as err:
+    print('Fehler:', err)
+```
+
+---
+
+### Unstrukturiert vs. Strukturiert
+
+Wir haben eine unstrukturierte Textdatei erstellt. Im Umgang mit Daten und Kalkulationen brauchen wir ein besseres Format.
+
+![](../word-vs-excel.png)
+
+---
+
+### JSON-Datenformat
+
+*  JavaScript Object Notation (JSON) 
+*  Beliebtestes Format für hierarchische Datenstrukturen
+*  Syntax nahezu Deckungsgleich mit Listen und Dictionaries
+
+---
+### JSON-Beispieldatei
+
+🎬 Erstellen Sie die Datei `Bücher.json` mit diesem Inhalt:
+
+```json
+[
+    {
+        "title": "Raspberry Pi",
+        "isbn": "978-3836265195",
+        "authors": [
+            "Kofler",
+            "Scherbeck",
+            "Kühnast"
+        ]
+    },
+    {
+        "title": "Docker",
+        "isbn": "978-3836261760",
+        "authors": [
+            "Öggl",
+            "Kofler"
+        ]
+    }
+]
+```
+
+---
+
+### JSON-Dateien verarbeiten
+
+🎬 Datei `JSON.py` mit diesem Code ausführen:
+
+```py
+import json
+with open('Bücher.json', 'r') as f:
+    data = json.load(f)
+print(data)
+```
+
+ℹ️ Mit der Anweisung `with ausdruck1 as var1, ausdruck2 as var2, ...: Code`  werden Ressourcen automatisch geschlossen. 
+
+---
+
+### JSON verabeiten
+
+Der JSON-Inhalt kann ganz einfach verarbeitet werden.
+
+🎬 Fügen Sie diesen Code an:
+
+```py
+for book in data:
+	print(f"Titel: {book['title']}")
+	for author in book['authors']:
+		print(f"Author: {author}")
+	print('')
+```
+
+---
+
+### Dateiformate
+
+Möchte man die Datei `Bücher.json` in einem anderen Programm bearbeiten wird es schwierig. Wir brauchen ein einheitliches Dateiformat.
+
+---
+
+### CSV-Dateiformat
+* Comma-separated values (CSV)
+* Textdatei zur Speicherung strukturierter Daten
+* Kann mit jeder Tabellekalkulations-Software bearbeitet werden
+
+---
+
+### CSV-Datei schreiben
+🎬 Erstellen Sie die Datei `CSV.py` und fügen Sie diesen Code ein:
+
+```py
+import csv
+
+with open('Mitarbeiter.csv', mode='w') as file:
+    file_writer = csv.writer(file, delimiter=',', quotechar='"')
+
+    # Erste Zeile enthält die Tabellenüberschriften
+    file_writer.writerow(['Name', 'Abteilung', 'Geboren im'])
+    file_writer.writerow(['Peter Lustig', 'Buchhaltung', 'November'])
+    file_writer.writerow(['Erika Meier', 'IT', 'März'])
+```
+
+ℹ️ Die erstellte Datei `Mitarbeiter.csv` kann mit einem Texteditor geöffnet werden.
+
+ℹ️ Achtung wenn man `csv.py` schreibt, versucht 
+
+---
+
+### CSV-Datei lesen
+
+🎬 Fügen Sie diesen Code an:
+
+```py
+with open('Mitarbeiter.csv', newline='') as file:
+    file_reader = csv.reader(file, delimiter=',', quotechar='"')
+    line_count = 0
+    for row in file_reader:
+        # Erste Zeile enthält Tabellenüberschriften
+        if line_count == 0:
+            print(f'Spaltennamen sind {", ".join(row)}')
+            line_count += 1
+        else:
+            print(f'{row[0]} arbeitet in der Abteilung {row[1]} und ist geboren im {row[2]}.')
+            line_count += 1
+    print(f'{line_count} Zeilen wurden verarbeitet.')
+```
+
+---
+
+### Pause
+
+⚡Wir machen eine Pause ⏱️ 15 Minuten
+
+<iframe src="https://giphy.com/embed/iigcSmBaMUC5FoSUlu" width="280" height="280" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+
 
 ---
 
@@ -226,23 +328,238 @@ In der nachfolgenden Übung wir das *Heart Attack Analysis & Prediction Dataset*
 
 Lösen Sie die ersten zwei Aufgaben.
 
-⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 30 Minuten
+⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 10 Minuten
 
-Ziel: Aufgabe 8.1 und 8.2 gelöst.
+Ziel: Aufgabe 6.1 und 6.2 gelöst.
 
 ---
 
-### Quellen
+### Dateien übertragen
 
-[^1]: [Integrating Data Science into Medical Device Development](https://www.medtechintelligence.com/feature_article/integrating-data-science-into-medical-device-development/)\
-[^2]: [IoT in Healthcare Market Worth $534.3 Billion By 2025 | CAGR: 19.9%](https://www.grandviewresearch.com/press-release/global-iot-in-healthcare-market)\
-[^3]: [Regulatorische Anforderungen an Medizinprodukte mit Machine Learning](https://www.johner-institut.de/blog/regulatory-affairs/regulatorische-anforderungen-an-medizinprodukte-mit-machine-learning/)\
-[^4]: [ML Vorgehen](https://www.langton.cloud/machine-learning-model-training-over-time/)\
-[^5]: [Software und Gerät](http://starfishmedical.com/blog/medical-device-artificial-intelligence/)\
-[^6]: [MNIST](https://towardsdatascience.com/image-classification-in-10-minutes-with-mnist-dataset-54c35b77a38d)\
-[^7]: [Heart Attack Data](https://towardsdatascience.com/26-datasets-for-your-data-science-projects-658601590a4c)\
-[^9]: [JupyterNotebook](https://jupyter.org/)\
-[^10]: [Pandas](https://pandas.pydata.org/)\
-[^11]: [Plotly-express](https://plotly.com/python/plotly-express/)\
-[^12]: [Dataset Heart Attack](https://www.kaggle.com/rashikrahmanpritom/heart-attack-analysis-prediction-dataset)\
-[^13]: [UCI](https://archive.ics.uci.edu/ml/datasets/Heart+Disease)
+Dateien wie wir Sie gerade erstellt und gelesen haben, können über ein Netzwerk zwischen Computer übertragen werden.
+
+Das Internet ist ein weltumspannendes Netzwerk von Computern.
+
+---
+
+### Dokumente im WWW
+
+Eine Website ist nur ein Dokument. Das World Wide Web (WWW) bezeichnet alle Websites.
+
+Mit einem Kommunikationsprotokoll übertragen Computer Websites als Dokumente.
+
+---
+
+### HTTP-Protokoll
+
+* Hypertext Transfer Protocol (HTTP)
+* Kommunikationsprotokoll für das WWW
+* Browser rufen Webseiten über HTTP auf
+
+![](../http.png)
+
+---
+
+### HTTP-Request anzeigen
+
+🎬 Zur Betrachtung eines HTTP-Requests führen Sie folgende Aktionen aus:
+* Browser und einen leeren Tab öffnen
+* Mit `F12` die Entwicklerkonsole aufrufen
+* In der Konsole die Ansicht *Netzwerk* anzeigen
+* In der Adressleiste `https://example.com` eingeben
+* Den HTTP-Request mit Status `200` und Methode `GET` anklicken
+
+---
+### HTTP-Request Beispiel
+
+Der HTML-Code der Webseite wird als HTTP-Response zurückgegeben.
+
+![](../http-response.png)
+
+---
+
+### HTML-Dokument
+
+Wird eine Website aufgerufen erhalten wir ein HTML-Dokument.
+
+```html
+<!doctype html>
+<html>
+	<head></head>
+	<body>
+		<div>
+			<h1>Example Domain</h1>
+		    <p>This domain is for use in illustrative examples in documents. You may use this
+		    domain in literature without prior coordination or asking for permission.</p>
+		    <p><a href="https://www.iana.org/domains/example">More information...</a></p>
+		</div>
+	</body>
+</html>
+```
+
+ℹ️ Bei HTML handelt es sich um eine Markup-Sprache.
+
+--- 
+
+### HTML
+
+* Hypertext Markup Language (HTML)
+* Auszeichnungssprache für strukturierte Dokumente
+* Wird von Browser visuell dargestellt
+* Grundlage des WWW
+
+---
+
+### Browser rendert HTML
+
+HTML beschreibt wie ein Dokument aussieht und der Browser stellt es entsprechend dar. Diesen Vorgang nennt man *Rendern*.
+
+![browser-rendern](../browser-rendern.gif)
+
+---
+
+### HTML-Dokument erstellen
+
+🎬 Erstellen Sie selber ein HTML-Dokument `Dokument.html` mit diesem Inhalt:
+
+```html
+<!doctype html>
+<html>
+	<body>
+		<div>
+		    <h1>Meine Website</h1>
+		    <p>Das ist ein Paragraph</p>
+		    <p><a href="https://python.casa">Hier lernst du aller über Python.</a></p>
+		</div>
+	</body>
+</html>
+```
+
+---
+
+### HTML-Tag
+
+![](../html-tag.png)
+
+* **html**: Zeigt den Beginnt des HTML-Dokument an
+* **body**: Hier beginnt der Seiteninhalt
+* **div**: Ein Block zum platzieren der Inhalte
+* **h1**: Überschrift auf Stufe 1
+* **p**: Ein Textabsatz
+* **a**: Ein Link
+
+---
+
+### HTTP-Request mit Python
+
+HTML-Dokument kann man mit Python herunterladen.
+
+🎬 Erstellen Sie die Datei `HTTP.py` und fügen Sie diesen Code ein:
+
+```py
+import urllib.request
+
+url = 'https://example.com'
+response = urllib.request.urlopen(url)
+binary = response.read() # Download durchführen
+html = binary.decode('utf-8')
+f = open('index.html', 'wt')
+f.write(html)
+f.close()
+
+```
+
+🎬 Öffnen Sie die Datei `index.html` im Browser.
+
+---
+### HTML-Paket installieren
+
+Damit man mit Python ein HTML-Dokument erstellen kann, braucht es ein zusätzliches Python-Paket.
+
+🎬  Öffnet den Thonny Paketmmanager und installiert das Paket `yattag`.
+
+Mehr zu [Yattag](https://www.yattag.org/).
+
+---
+### HTML-Dokument erstellen
+
+🎬 Erstellen Sie die Datei `HTML.py` und fügen Sie diesen Code ein:
+
+```py
+from yattag import Doc
+
+doc, tag, text = Doc().tagtext() # HTML-Funktionen abrufen
+
+with tag('html'): # HTML-Dokumente mit den Elementen zusammenstellen
+    with tag('body'): # Mit with werden Funktionsaufrufe aneinander gereiht
+        with tag('p', id = 'main'):
+            text('Beispiel')
+        with tag('a', href='https://example.com'):
+            text('Linktext')
+
+html = doc.getvalue() # HTML-Code generieren
+
+with open('example.html', 'wt') as file:
+    file.write(html)
+```
+
+---
+### HTML-Dokument im Browser öffnen
+
+🎬 Fügen Sie diesen Code an um die Datei direkt im Browser zu öffnen:
+
+```py
+# Die HTML-Datei im Browser aufrufen
+import webbrowser
+from pathlib import Path
+webbrowser.open('file://' + str(Path('example.html').absolute()))
+```
+
+---
+
+### Aufgaben 2
+
+Lösen Sie die ersten zwei Aufgaben.
+
+⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 10 Minuten
+
+Ziel: Aufgabe 6.3 und 6.4 gelöst. Wenn möglich Aufgabe 6.5.
+
+---
+
+### Review
+
+🎯 Ziele erreicht?
+* Dateien schreiben, lesen und verarbeiten
+* HTTP-Request ausführen
+* Benutzeroberfläche erstellen
+
+---
+
+### Freie Zeit
+
+Die restliche Zeit steht für diese Optionen zur Verfügung:
+
+* Fragen zu Wissensprüfung
+* Arbeit an Leistungsnachweis
+* Repetition von vergangenen Themen
+
+---
+
+<!--
+### Feedback
+
+Habt ihr Feedbacks zum Kurs?\
+Was hat euch gefallen und was nicht?\
+Wurden die Erwartungen erfüllt?
+
+---
+
+### Abschluss
+
+Ich wünsche gutes Gelingen bei den Projekten ☘️.
+
+Bei Fragen oder Problemen dürft ihr euch jederzeit melden!
+
+---
+-->

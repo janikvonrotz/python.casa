@@ -1,76 +1,60 @@
-# Übungen Thema 9
+# Übungen Thema 7
 
 ## Aufgaben
 
 Aufgaben zum Thema.
 
-### Aufgabe 9.1: Template anpassen
+### Aufgabe 7.1: Programm aufteilen
 
-Auf dem Formular für *Produkt hinzufügen* steht auf dem Knopf `submit`. Benennen Sie die Text auf `Abschicken` um.
+Wir erinnern uns an das Kaffeemaschinen-Programm bzw. deren Klasse?
 
-Sie wollen das die Kopfzeilen der Tabelle *Produkte* fett markiert werden. Fügen Sie den folgenden style-Tag am richtigen Ort im `layout.html` ein.
+```py
+class Kaffeemaschine:
+    def __init__(self, marke, anzahl):
+        self.marke = marke
+        self.anzahl = anzahl
+    
+    def Zustand(self):
+        print(f"Ich bin eine {self.marke} Maschine")
+        print(f"Es sind noch {self.anzahl} Kaffee(s) verfügbar")
+    
+    def Bestellen(self, anzahl):
+        self.anzahl -= anzahl
 
-```html
-<style>  
-thead {
-	font-weight: bold;
-}
-</style>
+# Instanzieren
+kaffeemaschine = Kaffeemaschine('Nespresso', 3)
+
+# Methoden aufrufen
+kaffeemaschine.Bestellen(2)
+kaffeemaschine.Zustand()
 ```
 
-Sie möchten in der Navigation der Webapp neuen Link hinzu. Fügen die den a-Tag `<a href="https://python.casa">python.casa</a>` an der richtien Stelle im `layout.html` ein.
+Zerlegen Sie das Programm in  ein `Kaffeemaschine.py` und ein `main.py`. Erstere soll den Klassen-Code enthalten und die zweite Datei importiert den Klassen-Code und instanziert das Objekt.
 
-### Aufgabe 9.2: Aktion Löschen hinzufügen
+Führen Sie das Programm `main.py` ohne Fehler aus.
 
-Sie möchten eine neue Funktion in der Webapplikation einbauen. Benutzer sollen Produkte löschen können. Dazu haben diese Code-Teile erstellt:
+## Aufgabe 7.2: Python-Paket verwenden
 
-**app.py**
+Sie haben ein Programm `camel.py` und eine `requirements.txt` Datei erhalten.
 
-```python
-@app.route('/delete', methods=['POST'])
-def delete():
-    connection = sqlite3.connect("lager.db")
-    cursor = connection.cursor()
-    sql = "DELETE FROM lager WHERE id = %s" % (request.form['productID'])
-    cursor.execute(sql)
-    connection.commit()
-    return redirect(url_for('list'))
+**requirements.txt**
+
+```
+camelcase
 ```
 
-**list.index**
+**camel.py**
 
-```html
-{% extends "layout.html" %}
-{% block content %}
-<h1>Produktliste</h1>
-<table>
-  <thead>
-    <td>ID</td>
-    <td>Name</td>
-    <td>Referenz</td>
-    <td>Barcode</td>
-    <td>Lager</td>
-    <td>Preis</td>
-    <td>Aktion</td>
-  </thead>
-  {% for row in data %}
-  <tr>
-    <td>{{row[0]}}</td>
-    <td>{{row[1]}}</td>
-    <td>{{row[2]}}</td>
-    <td>{{row[3]}}</td>
-    <td>{{row[4]}}</td>
-    <td>{{row[5]}}</td>
-    <td>
-      <form action="{{ url_for('delete') }}" method="post">
-        <input type="hidden" name="productID" value="{{row[0]}}">
-        <input type="submit" value="Löschen" />
-      </form>
-    </td>
-  </tr>
-  {% endfor %}
-</table>
-{% endblock %}
+```py
+import camelcase  
+  
+c = camelcase.CamelCase()  
+txt = "hello world"  
+print(c.hump(txt))
 ```
 
-Aktualisieren Sie die entsprechenden Dateien und starten Sie Webapplikation.
+Die *requirements* Datei enhählt eine Liste der pip-Pakete, die Sie zusätzlich installieren müssen.
+
+Erstellen Sie einen Ordner mit den Dateien und führen Sie auf dem VSCode-Terminal den Befehl `pip install -r requirements.txt` aus. Anschliessend führen Sie das Programm aus.
+
+Was macht die Methode `hump` mit dem Text-Parameter?

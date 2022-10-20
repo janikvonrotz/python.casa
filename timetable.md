@@ -1,28 +1,23 @@
-# Stundenplan 2021
+# Stundenplan 2022
 
 Unterricht 4. Semester.
 
-| KW        | Datum    | Von   | Bis   | Lektionen | Thema                                                                    |
-| --------- | -------- | ----- | ----- | --------- | ------------------------------------------------------------------------ |
-| 44        | FR 05.11 | 13:00 | 16:15 | 4         | [0](topic-0/README.md), [1](topic-1/README.md)                           |
-| 46        | FR 19.11 | 13:00 | 16:15 | 4         | [2](topic-2/README.md), [3](topic-3/README.md)                           |
-| 48        | FR 03.12 | 14:45 | 18:00 | 4         | [3.5](topic-3-5/README.md), [4](topic-4/README.md)                       |
-| 50        | SA 18.12 | 08:45 | 11:15 | 3         | [5](topic-5/README.md)                                                   |
-| 2         | FR 14.01 | 13:00 | 14:30 | 2         | [5.5](topic-5-5/README.md)                                               |
-| 3         | FR 21.01 | 14:45 | 18:00 | 4         | [6](topic-6/README.md)                                                   |
-| 4         | FR 28.01 | 14:45 | 18:00 | 4         | [Wissensprüfung](exam.md#wissensprufung), [7](topic-7/README.md)         |
-| 5         | SA 05.02 | 08:00 | 11:15 | 4         | [7.5](topic-7-5/README.md)                                                   |
-| 6         | FR 11.02 | 13:00 | 16:15 | 4         | [8](topic-8/README.md)                                                   |
-| 10        | SA 12.03 | 08:00 | 11:15 | 4         | [9](topic-9/README.md)                                                   |
-| 11        | FR 18.03 | 16:30 | 18:00 | 2         | [Leistungsnachweis](exam.md#leistungsnachweis), [10](topic-10/README.md) |
-| **Total** |          |       |       | 39        |                                                                          |
+| KW        | Datum    | Von   | Bis   | Lektionen | Thema                                                                          |
+| --------- | -------- | ----- | ----- | --------- | ------------------------------------------------------------------------------ |
+| 42        | SA 22.10 | 08:00 | 11:15 | 4         | [T0](topic-0/README.md), [T1](topic-1/README.md)                               |
+| 43        | SA 29.10 | 08:00 | 11:15 | 4         | [T2](topic-2/README.md), [T3](topic-3/README.md)                               |
+| 47        | FR 25.11 | 14:45 | 18:00 | 4         | [T4](topic-4/README.md), [T5](topic-5/README.md), [Wissensprüfung 1](exam1.md) |
+| 48        | FR 02.12 | 10:30 | 14:30 | 4         | [T6](topic-6/README.md), [T7](topic-7/README.md)                              |
+| 2         | FR 13.01 | 13:00 | 16:15 | 4         | [T8](topic-8/README.md), [Themenwahl](exam3.md#Themenwahl)                   |
+| 3         | SA 20.01 | 08:00 | 11:15 | 4         | [Wissensprüfung 2](exam2.md), [T9](topic-9/README.md)                          |
+| 4         | SA 27.01 | 08:00 | 11:15 | 4         | [T10](topic-10/README.md), [T11](topic-11/README.md)                           |
+| 6         | FR 10.02 | 13:00 | 16:15 | 4         | [T12](topic-12/README.md), [T13](topic-13/README.md)                         |
+| 9         | FR 03.03 | 13:00 | 16:15 | 4         | [Leistungsnachweis](exam.md#leistungsnachweis)                                 |
+| 11        | FR 17.03 | 13:00 | 16:15 | 4         | [Leistungsnachweis](exam.md#leistungsnachweis)                                 |
+| **Total** |          |       |       | 40        |                                                                                |
 <!-- TBLFM: @>$5=sum(@I..@-1) -->
 
 ## Ferien
 
-Weihnachtsferien: **24.12 bis 06.01**\
-Fasnachtsferien: **21.02 bis 06.03**
-
-## Prüfung
-
-Siehe [Termine](exam.md#Termine).
+Weihnachtsferien: **23.12.2022 - 05.01.2023**\
+Fasnachtsferien: **13.02. - 26.02.2023**

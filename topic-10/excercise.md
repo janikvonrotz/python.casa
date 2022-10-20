@@ -1,36 +1,72 @@
-# Übungen Thema 10
+# Übungen Thema 7.5
 
 ## Aufgaben
 
 Aufgaben zum Thema.
 
-### Aufgabe 10.1: Projekt auschecken
+Danke an Hari Thavachchelvam für die Idee zur Aufgabenstellung. 
 
-Auf GitHub haben Sie das vielversprechende Repository <https://github.com/fluentpython/example-code> entdeckt und möchten nun den Code lokal ausführen. Kopieren Sie die HTTPS-Url und klonen Sie das Projekt mit VSCode.
+### Aufgabe 7.5.1: Datenbank auslesen und sortieren
 
-![git-clone](../git-clone.gif)
+Laden Sie als erstes die Datei [`quiz.db`](https://raw.githubusercontent.com/janikvonrotz/python.casa/main/topic-7-5/quiz.db) herunter und speichern Sie es in einem Ordner. Erstellen Sie die Datei `quiz.py` im selben Ordner.
 
-Suchen Sie das Programm `bus.py` mithilfe der Suchfunktion <kbd>ctrl</kbd> + <kbd>p</kbd>. Fügen Sie dem Programm den Code unten an und führen Sie das Beispiel aus:
+Schauen Sie sich die Datenbank mit VSCode an und beantworten Sie diese Fragen:
+* Wieviele Datensätze gibt es?
+* Welche Spalte identifiziert die Datensätze eindeutig und wie heisst diese?
+* Welcher Datentyp hat diese Spalte?
+
+Erstellen Sie nun ein Progamm um einen bestimmten Datensatz auszulesen. Ergänzen Sie dazu die Markierungen `?????` im folgenden Code:
 
 ```py
-bus1 = Bus(['Alice', 'Bill', 'Claire', 'David'])
-print(bus1.passengers)
-bus1.pick('Bob')
-print(bus1.passengers)
+import sqlite3
+
+# Verbindung, Cursor
+connection = sqlite3.connect("?????.db")
+cursor = connection.cursor()
+
+# SQL-Abfrage
+sql = "SELECT * FROM questions WHERE ????? = 403"
+
+# Absenden der SQL-Abfrage und Empfang des Ergebnis
+cursor.execute(sql)
+
+# Ausgabe des Ergebnis
+for datensatz in cursor:
+    print("Frage: ", datensatz[1])
+    print("Antworten: ", datensatz[2:6])
+
+# Verbindung beenden
+connection.close()
 ```
 
-Haben Sie das Programm verstanden?
+### Aufgabe 7.5.2: Abfrage mit Input
 
-### Aufgabe 10.2: Branch erstellen
+Mit dem `input` Befehl können wir nach einer bestimmten Frage-ID und Antwort-Nummer fragen. Erweitern Sie das Skript aus der vorhergehenden Aufgabe mit dem Befehl.
 
-Erstellen Sie einen Branch `my-example` und comitten Sie die gemachten Änderungen.
+Dazu diese Inputs:
 
-![git-branch](../git-branch.gif)
+```py
+# SQL-Abfrage mit Eingabe
+frage = input("Bitte geben Sie eine Frage-ID ein: ")
+sql = "SELECT * FROM questions WHERE questionID = " + frage
+```
 
-Wie wechseln Sie zwischen dem Branch `master` und `my-example`?
+```py
+	# Eingabe Antwort
+    antwort = input("Ihre Antwort 1-4: ")
+```
 
-### Aufgabe 10.3: Branch zusammenführen
+```py
+    # Ausgabe korrekt/falsch
+    korrekt = str(datensatz[6])
+    if korrekt == antwort:
+        print("\nDie Antwort ist korrekt!\n")
+    else:
+        print("\nDie Antwort ist falsch!\n")
+```
 
-Wechseln Sie zum `master` Branch und *mergen* Sie den `my-example` branch. Geben Sie dazu diesem Befehl auf dem Terminal ein: `git merge my-example -m "merge my example"`.
+**Zusatzaufgabe**
 
-Schauen Sie sich die Datei `bus.py` an. Sind ihre Änderungen jetzt auf dem `master` Branch vorhanden?
+Können Sie das Programm in einer Schleife schalten, bis man die richtige Antwort gefunden hat?
+
+Erstellen Sie eine eine Frage-ID nach Zufall und filtern Sie verfügbaren Fragen anhand des Schwierigkeits-Grades.

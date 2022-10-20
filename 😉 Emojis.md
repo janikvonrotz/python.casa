@@ -12,3 +12,4 @@ Emojis für den Schnellzugriff:
 🤔 
 🙋 
 🙏
+◀️

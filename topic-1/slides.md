@@ -1,6 +1,6 @@
 ## Einführung Programmiersprache
 
-[Thema 1](./README.md)
+[◀️ Thema 1](./README.md)
 
 ⚡[Anwesenheit bestätigen](https://moodle.medizintechnik-hf.ch/mod/attendance/manage.php?id=6139)
 
@@ -55,6 +55,8 @@ Umso schwieriger die Begriffe:
 ### Installation Python
 
 Installation via [Python Download](https://www.python.org/downloads).
+
+![](../windows-python-installer-path.png)
 
 Videos:
 * [Python3 auf Windows 10 installieren](https://www.youtube.com/watch?v=hr1P_F7Vp9Y)  
@@ -135,9 +137,14 @@ Hier wird die Variable `irgendwas` mit dem Wert `'Ein Text'` deklariert.
 Wir laden ein Programmcode herunter und speichern ihn in einem Ordner.
 
 🎬 Folgende Punkte erledigen:
+
 * Projektordner und Unterordner `Thema1` erstellen
 * Datei-Link [HelloWorld.py](https://raw.githubusercontent.com/janikvonrotz/python.casa/main/topic-1/HelloWorld.py) öffnen
-* Speichern als `HelloWorld.py` im neuen Ordner.
+
+![](../firefox-save-page-as.png)
+
+* Rechtsklick auf die Seite machen und *Seite speichern unter...* wählen
+* Speichern als `HelloWorld.py` im neuen Ordner
 
 ---
 ### Programmcode
@@ -187,7 +194,7 @@ Windows: `.py` -> `python.exe`
 
 IDE=Integrierte Entwicklungsumgebung  
 
-IDE-Editor [Thonny](https://thonny.org/) installieren. Wählt als Sprache `English` und Einstellung `Standard`.
+🎬 Installieren Sie [Visual Studio Code](https://code.visualstudio.com/) auf ihrem Computer.
 
 ⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 10 Minuten
 
@@ -271,7 +278,7 @@ Lösen Sie die Aufgaben und besprechen Sie die Wiederholungsfragen.
 
 ⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 10 Minuten
 
-Ziel: Aufgabe 1.1 gelöst.
+Ziel: [Aufgabe](./excercise.md) 1.1 gelöst.
 
 ---
 ### Review

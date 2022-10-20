@@ -1,326 +1,216 @@
-## Ein- und Ausgabe
+## Funktionen und Flowchart
 
-[Thema 6](./README.md)
+[◀️ Thema 6](README.md)
 
 ⚡[Anwesenheit bestätigen](https://moodle.medizintechnik-hf.ch/mod/attendance/manage.php?id=6139)
 
-📖 Kapitel 10 Umgang mit Fehlern (Exceptions)\
-📖 Kapitel 14 Dateien lesen und schreiben\
-📖 Kapitel 15 Netzwerkfunktionen
+📖 Kapitel 9 Funktionen
 
 ---
 
-### Rückblick
+### Code gestalten
 
-Besprechung der Wiederholungsfragen.\
-Fragen zur Wissensprüfung/Leistungsnachweis?
+Mit `if` kann man nur bestimmte Teile im Code ausführen.
 
----
+Mit `while` und `for` können wir Anweisungen im Code wiederholen.
 
-### Ausblick
-
-Die Lektionen heute:
-* Fehlerbehandlung mit Python
-* Verschiedene Dateiformate lesen und schreiben
-* Netzwerkfunktionen
-* Erstellen HTML-Bericht
-
-In der letzten Lektion bleibt Arbeitszeit für die Wissenprüfung/Leistungsnachweis.
+Wie können wir Code-Teile mehrfach verwenden?
 
 ---
 
-### Achtung
+### Funktionen
 
-Es werden einige neue Themen angeschnitten.\
-Unbedingt melden, bevor es eine Crash gibt!
+Wir haben Funktionen bereits kennengelernt, beispielsweise `len`. 
 
-<iframe src="https://giphy.com/embed/5xrkJe3IJKSze" width="280" height="280" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+Funktionen helfen uns:
 
----
-
-### Dateisystem
-
-Auf dem Computer gibt es Dateien, Ordner und Metadaten (Erstellt am, Berechtigungen, ...).
-
-Eine Datei liegt in einem Ordner. Die Datei und Ordner haben Metdaten.
-
-Das Dateisystem ist hierarchisch aufgebaut.
+* Rendundanz zu vermeiden
+* Code übersichtlicher zu gestalten
 
 ---
 
-### Hierarchie Linux
+### Achtung Funktion
 
-![](../linux-fs.png)
-ℹ️ Auf Linux ist der oberste Ordner der `/` *Root* und bei Windows das `C:` Laufwerk
-
----
-
-### Python Pathlib
-
-In der Python-Biblitothek findet man [`pathlib`](https://docs.python.org/3/library/pathlib.html). Mit Pathlib kan man mit dem Dateisystem interagieren.
-
-![](../python-pathlib-cheatsheet.png)
+Bei der Anwendung von Funktionen gelten einige Regeln:
+* Zuerst definieren dann verwenden
+* Funktionen ohne Parameter ist erlaubt
+* Alle Datentypen sind als Rückgabewerte erlaubt
+* Funktionen können verschachtelt werden
+* Mehrere Funktionen dürfen nicht den gleichen Namen haben
 
 ---
 
-### Thonny vorbereiten
+### Syntax einer Funktion
+
+Die Syntax einer Funktion sieht wie folgt aus:
+
+```
+def funktionsname(para1, para2, para3):
+    code
+    mehr code
+    noch mehr code
+```
+
+----
+
+### Thonny starten und einrichten
 
 🎬 Führen Sie diese Aktionen aus:
-* Neuer Ordner `Thema6` erstellen
-* Neue Datei `Verzeichnisse.py` in Ordner erstellen
+* Neuer Ordner `Thema5` erstellen
+* Neue Datei in Ordner `Funktion.py` erstellen
 
 ---
-### Aktuelles Verzeichnis ausgeben
+### Funktion ohne Ergebnis
 
-🎬 Diesen Code einfügen uns ausgeben.
+Wir erstellen eine Funktion.
 
-```py
-from pathlib import Path
-current = Path.cwd() # Gibt das aktuelle Verzichnis wo das Skript ausgeführt wird
-print('Aktuelles Verzeichnis:', current.absolute())
-```
-
-ℹ️ Der Rückgabewert von `Path.cwd().absolute()` ist ein Objekt.
-
----
-
-### Name des aktuellen Verzeichnis ausgeben
-
-Erweitern Sie das Beispiel mit:
+🎬 Diesen Code eingeben:
 
 ```py
-print(type(current))
-print('Aktueller Verzeichnisname:', current.name)
+# Funktion ohne Ergebnis
+def f1(x, y):
+    print('Parameter 1:', x)
+    print('Parameter 2:', y)
 ```
 
 ---
+### Funktion mit Ergebnis
 
-### Fehlerbehandlung
+Und fügen eine zweite Funktion hinzu
 
-Wenn eine Python-Anweisung einen Fehler generiert, kann man darau reagieren ohne dass das Programm abstürtzt.
-
-🎬 Erstellen Sie die Datei `Error.py` mit diesem Code:
+🎬 Diesen Code anfügen:
 
 ```py
-ergebnis = 1/0
-print(ergebnis)
+# Funktion mit Ergebnis
+def f2(x, y):
+  return x+y
 ```
 
-Zeile zwei wird nicht erreicht. Python gibt des Fehlertyp `ZeroDivisionError` aus.
-
 ---
+### Funktion ausführen
 
-### try and except
+Diese Funktionen führen wir nun aus.
 
-Mit den Befehlen `try` und `except` kann man versuchen eine Code-Block auszuführen und sobald dieser fehlschlägt darauf reagieren.
-
-🎬 Ersetzen Sie den vorhergehenden Inhalt mit:
+🎬 Diesen Code anfügen:
 
 ```py
-try:
-    ergebnis = 1/0
-    print(ergebnis)
-except ZeroDivisionError:
-    print("Man kann nicht durch Null teilen.")
+# Hier beginnt die Programmausführung
+f1(2, 3)
+# Ausgabe: Parameter 1: 2
+#          Parameter 2: 3
+
+n = f2(4, 5)
+print(n) # Ausgabe: 9
 ```
 
 ---
 
-### Except als Variable
+### Gültigkeitsbereiche
 
-🎬 Erstellen Sie die Datei `Except.py` mit diesem Code:
+![](../python-scope.png)
+
+---
+
+### Lokale und globale Variablen
+
+Variablen haben unterschiediche Gültigkeitsbereiche: Lokal und Global.
+
+Variablen können innerhalb und ausserhalb einer Funktion deklariert werden.
+
+---
+### Variable Ausserhalb
+
+🎬 Datei `Ausserhalb.py` erstellen und ausführen:
 
 ```py
-try:
+def f1():
+    print(x)
+
+x=3
+f1() # Ausgabe 3
+```
+
+---
+### Lokale Variablen
+
+🎬 Datei `Lokal.py` erstellen und ausführen:
+
+```py
+def f1():
+    z=5
     print(z)
-except NameError as error:
-    print(error)
-    
-try:
-    print(z)
-except:
-    print("Ein Fehler im Code.")
+
+z=3
+f1() # Ausgabe 5
+print(z) # Ausgabe 3
 ```
 
 ---
+### Globale Variable
 
-### Fehler beim Zugriff auf Dateisystem
-
-Der Umgang mit Fehler ist beim Zugriff auf das Dateisystem besonders wichtig.
-
-Es gibt viele Fehlerquellen: ungültiger Pfad, Schreibschutz, ungültiger Dateiname, ...
-
----
-
-### Textdatei schreiben
-
-🎬 Erstellen Sie die Datei `Schreiben.py` mit diesem Code:
+Variablen mit der Kennzeichung `global` sind ausserhalb der Funktion verfügbar.
 
 ```py
-try:
-    f = open('test.txt', 'wt')
-    f.write('Lorem ipsum dolor sit amet, ...\n')
-    f.write('Unicode äöüß✅ \n')
-    f.close()
-  
-except BaseException as err:
-    print('Fehler:', err)
+def f1():
+    global z
+    z=z+3
+    print(z) # Ausgabe 6
+
+z=3
+f1()
+print(z) # Ausgabe 6
 ```
 
-ℹ️ Der Fehlertyp `BaseException` ist die Superklasse aller Fehlertypen.
+ℹ️ Das ist nice-to-know. In der Praxis gilt es globale Variablen zu vermeiden
 
 ---
-### Textdatei lesen
-🎬 Erstellen Sie die Datei `Lesen.py` mit diesem Code:
+
+### Parameter und Argumente
+
+![](../parameters-and-arguments.png)
+
+---
+
+### Parameter
+
+* Mit Prameter können Daten an eine Funktion übergeben werden
+* Bei der Parameterdefinition besteht viel Gestaltungsraum
+
+---
+
+### Funktion mit Parameter
+
+🎬 Datei `Parameter.py` erstellen und ausführen:
 
 ```py
-try:
-    f = open('test.txt', 'rt')
-    for line in f:
-        print(line, end='')
-    f.close() 
-  
-except BaseException as err:
-    print('Fehler:', err)
+def f1(x):
+    print(x)
+
+f1([1, 2]) # Ausgabe [1, 2]
 ```
 
 ---
 
-### Unstrukturiert vs. Strukturiert
+### Optionale Parameter
 
-Wir haben eine unstrukturierte Textdatei erstellt. Im Umgang mit Daten und Kalkulationen brauchen wir ein besseres Format.
-
-![](../word-vs-excel.png)
+Mit `para=default` definieren Sie für einen Parameter einen Standardwert. Dieser ist damit gleichzeitig optional.
 
 ---
 
-### JSON-Datenformat
+### Variable Parameteranzahl
 
-*  JavaScript Object Notation (JSON) 
-*  Beliebtestes Format für hierarchische Datenstrukturen
-*  Syntax nahezu Deckungsgleich mit Listen und Dictionaries
+Es können mehrere Parameter mit Standardwerten definiert werden.
 
----
-### JSON-Beispieldatei
-
-🎬 Erstellen Sie die Datei `Bücher.json` mit diesem Inhalt:
-
-```json
-[
-    {
-        "title": "Raspberry Pi",
-        "isbn": "978-3836265195",
-        "authors": [
-            "Kofler",
-            "Scherbeck",
-            "Kühnast"
-        ]
-    },
-    {
-        "title": "Docker",
-        "isbn": "978-3836261760",
-        "authors": [
-            "Öggl",
-            "Kofler"
-        ]
-    }
-]
-```
-
----
-
-### JSON-Dateien verarbeiten
-
-🎬 Datei `JSON.py` mit diesem Code ausführen:
+🎬 Diesen Code anfügen:
 
 ```py
-import json
-with open('Bücher.json', 'r') as f:
-    data = json.load(f)
-print(data)
+def f(a,b,c=-1,d=0):
+    print(a,b,c,d)
+
+f(6,7,8,9) # Ausgabe 6 7 8 9
+f(6,7,8) # Ausgabe 6 7 8 0
+f() # Fehler a und b werden vermisst
 ```
-
-ℹ️ Mit der Anweisung `with ausdruck1 as var1, ausdruck2 as var2, ...: Code`  werden Ressourcen automatisch geschlossen. 
-
----
-
-### JSON verabeiten
-
-Der JSON-Inhalt kann ganz einfach verarbeitet werden.
-
-🎬 Fügen Sie diesen Code an:
-
-```py
-for book in data:
-	print(f"Titel: {book['title']}")
-	for author in book['authors']:
-		print(f"Author: {author}")
-	print('')
-```
-
----
-
-### Dateiformate
-
-Möchte man die Datei `Bücher.json` in einem anderen Programm bearbeiten wird es schwierig. Wir brauchen ein einheitliches Dateiformat.
-
----
-
-### CSV-Dateiformat
-* Comma-separated values (CSV)
-* Textdatei zur Speicherung strukturierter Daten
-* Kann mit jeder Tabellekalkulations-Software bearbeitet werden
-
----
-
-### CSV-Datei schreiben
-🎬 Erstellen Sie die Datei `CSV.py` und fügen Sie diesen Code ein:
-
-```py
-import csv
-
-with open('Mitarbeiter.csv', mode='w') as file:
-    file_writer = csv.writer(file, delimiter=',', quotechar='"')
-
-    # Erste Zeile enthält die Tabellenüberschriften
-    file_writer.writerow(['Name', 'Abteilung', 'Geboren im'])
-    file_writer.writerow(['Peter Lustig', 'Buchhaltung', 'November'])
-    file_writer.writerow(['Erika Meier', 'IT', 'März'])
-```
-
-ℹ️ Die erstellte Datei `Mitarbeiter.csv` kann mit einem Texteditor geöffnet werden.
-
-ℹ️ Achtung wenn man `csv.py` schreibt, versucht 
-
----
-
-### CSV-Datei lesen
-
-🎬 Fügen Sie diesen Code an:
-
-```py
-with open('Mitarbeiter.csv', newline='') as file:
-    file_reader = csv.reader(file, delimiter=',', quotechar='"')
-    line_count = 0
-    for row in file_reader:
-        # Erste Zeile enthält Tabellenüberschriften
-        if line_count == 0:
-            print(f'Spaltennamen sind {", ".join(row)}')
-            line_count += 1
-        else:
-            print(f'{row[0]} arbeitet in der Abteilung {row[1]} und ist geboren im {row[2]}.')
-            line_count += 1
-    print(f'{line_count} Zeilen wurden verarbeitet.')
-```
-
----
-
-### Pause
-
-⚡Wir machen eine Pause ⏱️ 15 Minuten
-
-<iframe src="https://giphy.com/embed/iigcSmBaMUC5FoSUlu" width="280" height="280" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-
 
 ---
 
@@ -330,189 +220,133 @@ Lösen Sie die ersten zwei Aufgaben.
 
 ⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 10 Minuten
 
-Ziel: Aufgabe 6.1 und 6.2 gelöst.
+Ziel: Aufgabe 5.1 und 5.2 gelöst.
 
 ---
 
-### Dateien übertragen
+### Parameter mit mehreren Werten
 
-Dateien wie wir Sie gerade erstellt und gelesen haben, können über ein Netzwerk zwischen Computer übertragen werden.
+Wenn man einen Parameter mit `*para` oder `**para` definiert, kann man beliebig viele Werte übertragen.
 
-Das Internet ist ein weltumspannendes Netzwerk von Computern.
+* `*para` ist ein Tupel
+* `**para` ist ein Dictionary
 
----
+Das funktioniert auch beim Funktionsaufruf.
 
-### Dokumente im WWW
-
-Eine Website ist nur ein Dokument. Das World Wide Web (WWW) bezeichnet alle Websites.
-
-Mit einem Kommunikationsprotokoll übertragen Computer Websites als Dokumente.
-
----
-
-### HTTP-Protokoll
-
-* Hypertext Transfer Protocol (HTTP)
-* Kommunikationsprotokoll für das WWW
-* Browser rufen Webseiten über HTTP auf
-
-![](../http.png)
-
----
-
-### HTTP-Request anzeigen
-
-🎬 Zur Betrachtung eines HTTP-Requests führen Sie folgende Aktionen aus:
-* Browser und einen leeren Tab öffnen
-* Mit `F12` die Entwicklerkonsole aufrufen
-* In der Konsole die Ansicht *Netzwerk* anzeigen
-* In der Adressleiste `https://example.com` eingeben
-* Den HTTP-Request mit Status `200` und Methode `GET` anklicken
-
----
-### HTTP-Request Beispiel
-
-Der HTML-Code der Webseite wird als HTTP-Response zurückgegeben.
-
-![](../http-response.png)
-
----
-
-### HTML-Dokument
-
-Wird eine Website aufgerufen erhalten wir ein HTML-Dokument.
-
-```html
-<!doctype html>
-<html>
-	<head></head>
-	<body>
-		<div>
-			<h1>Example Domain</h1>
-		    <p>This domain is for use in illustrative examples in documents. You may use this
-		    domain in literature without prior coordination or asking for permission.</p>
-		    <p><a href="https://www.iana.org/domains/example">More information...</a></p>
-		</div>
-	</body>
-</html>
-```
-
-ℹ️ Bei HTML handelt es sich um eine Markup-Sprache.
-
---- 
-
-### HTML
-
-* Hypertext Markup Language (HTML)
-* Auszeichnungssprache für strukturierte Dokumente
-* Wird von Browser visuell dargestellt
-* Grundlage des WWW
-
----
-
-### Browser rendert HTML
-
-HTML beschreibt wie ein Dokument aussieht und der Browser stellt es entsprechend dar. Diesen Vorgang nennt man *Rendern*.
-
-![browser-rendern](../browser-rendern.gif)
-
----
-
-### HTML-Dokument erstellen
-
-🎬 Erstellen Sie selber ein HTML-Dokument `Dokument.html` mit diesem Inhalt:
-
-```html
-<!doctype html>
-<html>
-	<body>
-		<div>
-		    <h1>Meine Website</h1>
-		    <p>Das ist ein Paragraph</p>
-		    <p><a href="https://python.casa">Hier lernst du aller über Python.</a></p>
-		</div>
-	</body>
-</html>
-```
-
----
-
-### HTML-Tag
-
-![](../html-tag.png)
-
-* **html**: Zeigt den Beginnt des HTML-Dokument an
-* **body**: Hier beginnt der Seiteninhalt
-* **div**: Ein Block zum platzieren der Inhalte
-* **h1**: Überschrift auf Stufe 1
-* **p**: Ein Textabsatz
-* **a**: Ein Link
-
----
-
-### HTTP-Request mit Python
-
-HTML-Dokument kann man mit Python herunterladen.
-
-🎬 Erstellen Sie die Datei `HTTP.py` und fügen Sie diesen Code ein:
+### Beispiel mit Liste
 
 ```py
-import urllib.request
+liste = ['a','b','c']
 
-url = 'https://example.com'
-response = urllib.request.urlopen(url)
-binary = response.read() # Download durchführen
-html = binary.decode('utf-8')
-f = open('index.html', 'wt')
-f.write(html)
-f.close()
-
+print(liste) # Ausgabe ['a', 'b', 'c']
+print(*liste) # a b c
 ```
 
-🎬 Öffnen Sie die Datei `index.html` im Browser.
+ℹ️ Der `*` nimmt die Struktur einer oder mehreren Variablen auseinander oder vereinigt diesen.
 
 ---
-### HTML-Paket installieren
 
-Damit man mit Python ein HTML-Dokument erstellen kann, braucht es ein zusätzliches Python-Paket.
+### Beispiel mehrere Werte
 
-🎬  Öffnet den Thonny Paketmmanager und installiert das Paket `yattag`.
-
-Mehr zu [Yattag](https://www.yattag.org/).
-
----
-### HTML-Dokument erstellen
-
-🎬 Erstellen Sie die Datei `HTML.py` und fügen Sie diesen Code ein:
+🎬 Datei `Mehrere.py` mit diesem Code erstellen:
 
 ```py
-from yattag import Doc
+def f(a,*b):
+    print(a,b,type(b))
+    
+l = range(0,6)
+f(1,l) # Ausgabe 1 (range(0, 6),) <class 'tuple'>
+f(*l) # 0 (1, 2, 3, 4, 5) <class 'tuple'>
+```
 
-doc, tag, text = Doc().tagtext() # HTML-Funktionen abrufen
+ℹ️ Keep it simple! Verwenden Sie einfache Parameter.
 
-with tag('html'): # HTML-Dokumente mit den Elementen zusammenstellen
-    with tag('body'): # Mit with werden Funktionsaufrufe aneinander gereiht
-        with tag('p', id = 'main'):
-            text('Beispiel')
-        with tag('a', href='https://example.com'):
-            text('Linktext')
+---
 
-html = doc.getvalue() # HTML-Code generieren
+### Parameter überprüfen
 
-with open('example.html', 'wt') as file:
-    file.write(html)
+> Im Vergleich zu anderen Programmiersprachen kann bei Python der Typ einer Variable nicht explizit festgelegt werden.
+
+---
+
+### Parameter dennoch überprüfen
+
+🎬 Datei `Ungültig.py` mit diesem Code erstellen:
+
+```py
+def f(n):
+    if isinstance(n,int):
+        return 2*n
+    else:
+        print('Ungültig')
+
+print(f(1))
 ```
 
 ---
-### HTML-Dokument im Browser öffnen
 
-🎬 Fügen Sie diesen Code an um die Datei direkt im Browser zu öffnen:
+### Rekursion
+
+Funktionen können sich selber aufrufen.
+
+🎬 Datei `Rekursion.py` mit diesem Code erstellen:
 
 ```py
-# Die HTML-Datei im Browser aufrufen
-import webbrowser
-from pathlib import Path
-webbrowser.open('file://' + str(Path('example.html').absolute()))
+def f(n):
+    if n < 20:
+        print(n)
+        n += 1
+        f(n)
+
+f(0)
+```
+
+---
+
+### Lambda-Funktionen
+
+Die Lambda-Funktion spart Platz.
+
+```
+lambda var1, var2, var3, ...: ausdruck
+```
+
+Sofern alles auf einer Zeile Platz hat.
+
+---
+
+### Deklaration Lambda-Funktion
+
+Eine Kurzschreibweise für Funktionen.
+
+🎬 Datei `Lambda.py` mit diesem Code erstellen:
+
+```py
+x = lambda a : a + 10  
+print(x(5)) # Ausgabe: 15
+```
+
+ℹ️ Die Lambda-Funktion macht das gleiche wie:
+
+```py
+def x(a)
+	return a + 10
+print(5
+```
+
+---
+
+### Filter mit Lambda
+
+Wir erinnern uns an die filter-Funktion? `filter(function,list)`
+
+🎬 Datei `Lambda.py` mit diesem Code erweitern:
+
+```py
+data = [1,2,3,9,345,36,33]
+
+filtered = list(filter(lambda x: x%3==0, data))
+print(filtered) # Ausgabe [3, 9, 345, 36, 33]
 ```
 
 ---
@@ -523,43 +357,100 @@ Lösen Sie die ersten zwei Aufgaben.
 
 ⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 10 Minuten
 
-Ziel: Aufgabe 6.3 und 6.4 gelöst. Wenn möglich Aufgabe 6.5.
+Ziel: Aufgaben 5.3 bis 5.6 sind gelöst.
+
+---
+
+### Pause
+
+⚡Wir machen eine Pause ⏱️ 10 Minuten
+
+<iframe src="https://giphy.com/embed/3o7aCVTfelG4XSbv3y" width="280" height="280" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+
+---
+
+### Flowcharts
+
+Mit Flowcharts kann man einen Vorgang oder Prozess visualisieren.
+
+![](../flowchart.png)
+
+Zur Darstellung gibt es verschiedene Symbole. Hier die wichtigsten:
+
+---
+
+### Symbol Pfeil
+
+Zeigt den logischen Fluss mit der Verbindung der Symbole.
+
+![symbol-pfeil](../symbol-pfeil.svg)
+
+---
+
+### Symbol Start/Stop
+
+Start und Ende des Prozesses.
+
+![symbol-start](../symbol-start.svg)
+
+---
+
+### Symbol Eingabe/Ausgabe
+
+Ein- und Ausgabe von Daten.
+
+![symbol-eingabe](../symbol-eingabe.svg)
+
+---
+
+### Symbol Prozess
+
+Arithmetische Operationen und Datenverarbeitung.
+
+![symbol-prozess](../symbol-prozess.svg)
+
+---
+
+### Symbol Enscheidung
+
+Enscheidungsfindung für ein oder mehrere Alternativen.
+
+![symbol-entscheidung](../symbol-entscheidung.svg)
+
+---
+
+### Symbol Vorddefinierte Funktion/Prozess
+
+Repräsentiert eine andere Funktion/Prozess.
+
+![symbol-vordefiniert](../symbol-vordefiniert.svg)
+
+---
+
+### Flowchart Anwendung
+
+* Mit Flowcharts kann man einen Algorithmus dokumentieren
+* Mit Flowcharts kann man Pseudo-Code visualisieren
+
+ℹ️ Pseudocode ist schriftliche Beschreibung eines Algorithmus
+
+---
+
+### Aufgaben 3
+
+Lösen Sie die ersten zwei Aufgaben.
+
+⚡Aufteilung in Breakout-Rooms ⏱️ 10 Minuten
+
+Ziel: Aufgaben 5.7 und 5.8 sind gelöst.
 
 ---
 
 ### Review
 
 🎯 Ziele erreicht?
-* Dateien schreiben, lesen und verarbeiten
-* HTTP-Request ausführen
-* Benutzeroberfläche erstellen
+* Eigene Funktionen schreiben
+* Parameter für Funktionen definieren
+* Code mit Flowchart visualisieren
 
 ---
-
-### Freie Zeit
-
-Die restliche Zeit steht für diese Optionen zur Verfügung:
-
-* Fragen zu Wissensprüfung
-* Arbeit an Leistungsnachweis
-* Repetition von vergangenen Themen
-
----
-
-<!--
-### Feedback
-
-Habt ihr Feedbacks zum Kurs?\
-Was hat euch gefallen und was nicht?\
-Wurden die Erwartungen erfüllt?
-
----
-
-### Abschluss
-
-Ich wünsche gutes Gelingen bei den Projekten ☘️.
-
-Bei Fragen oder Problemen dürft ihr euch jederzeit melden!
-
----
--->

@@ -1,444 +1,283 @@
-## Kontrollstrukturen und Listen
+## Datum und Zeit
 
-[Thema 4](./README.md)
+[◀️ Thema 4](README.md)
 
 ⚡[Anwesenheit bestätigen](https://moodle.medizintechnik-hf.ch/mod/attendance/manage.php?id=6139)
 
-📖 Kapitel 7 Listen, Tupel, Sets und Dictionairies  
-📖 Kapitel 8 Verzweigungen und Schleifen
+📖 Kapitel 6 Datum und Zeit
 
 ---
-### Rückblick
 
-Besprechung der Wiederholungsfragen.
+### Timestamp
 
----
-### Ausblick
+🤔 Wie speichert der Computer eine Uhrzeit?
 
-Thema 4:
-* Listen, Tupel, Sets und Dictionaries
-* Verzweigungen und Schleifen
-
-Thema 5:
-* Funktionen
-* Flowcharts
-
-ℹ️ In diesem Thema werden Funktionen gezeigt.
+🙋 <https://www.unixtimestamp.com/>
 
 ---
-### Listen, Tupel, Sets und Dictionaries
 
-* Mehrere Variablen als Daten speichern
-* Aufzählungen verarbeiten
-
----
-### Übersicht Aufzählungstypen
-
-* **Listen**: Wichtigster und flexibelster Datentyp
-* **Tupel**: Verwendung für zusammengehörende Daten
-* **Sets**: Ungeordnete Menge ohne Doppelgänger
-* **Arrays**: Spielt eine untergeordnete Rolle
-
----
-### Listen
-
-* Kann einen bliebigen Datentyp aufnehmen
-* Formulierung mit `[]`-Klammern
-
----
 ### Thonny vorbereiten
 
 🎬 Führen Sie diese Aktionen aus:
 * Neuer Ordner `Thema4` erstellen
-* Neue Datei in Ordner `Listen.py` erstellen
+* Neue Datei `Datum und Zeit.py` erstellen
 
 ---
-### Liste deklarieren
 
-Wir erstellen eine einfache Liste und geben das dritte Element aus.
+### Aktuelles Datum und Uhrzeit
 
-🎬 In der IDE ausführen:
+🎬 Das aktuelle Datum und Uhrzeit ausgeben.
 
 ```py
-lst = [1, 2.3, 'abc', 'efg', 12]
-print(lst[2]) # Ausgabe: abc
+from datetime import datetime
+now = datetime.now()
+print(now) # Ausgabe: YYYY-MM-DD HH:MM:SS
 ```
 
 ---
-### range-Funktion
 
-Mit der Range-Syntax Reihenfolgen definieren.
+### Unix Timestamp ausgeben
 
-🎬 In der IDE ausführen:
+🎬 Anzahl Sekunden seit 01.01.1970
+
+```
+print(now.timestamp())
+```
+
+ℹ️ Im Jahr 2038 haben 32-Bit Computer ein Problem.
+
+---
+
+### Jahr 2038
+
+Wann haben 32-Bit Computer ein Problem?
 
 ```py
-lst = list(range(10, 101, 10))
-print(lst) # Ausgabe: [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+from datetime import datetime
+sekunden = int(datetime.now().timestamp())
+sekunden_binär = bin(sekunden)
+anzahl_bits = len(str(sekunden_binär))-2 # Ist 31
+
+print(f'Maximales Datum: {2**anzahl_bits}')
+```
+
+Output eingeben unter: <https://www.unixtimestamp.com/>
+
+ℹ️ Mehr dazu <https://de.wikipedia.org/wiki/Unixzeit#Jahr-2038-Problem>.
+
+---
+
+### Einzelne Zeitkomponten ausgeben
+
+🎬 Jahr oder Monat ausgeben.
+
+```py
+print(now.year)
+print(now.month)
 ```
 
 ---
-### Umwandlung Zeichenkette
 
-🎬 Zeichenketten können einfach in Listen umgewandelt werden.
+### Datum und Zeit formatieren
+
+🎬 Datum und Zeit können formatiert werden.
 
 ```py
-lst = list('Hello, World!')
-print(lst) # ['H', 'e', 'l', 'l', 'o', ',', ' ', 'W', 'o', 'r', 'l', 'd', '!'
+print(now.isoformat())
+print(now.strftime('%d.%m.%Y %H:%M'))
+```
+
+ℹ️ Dateinamen am besten mit ISO-Format bennen. Dann stimmt die Sortierung.
+
+---
+
+### Eigenes Datumsformat
+
+Liste der Platzhalter: <https://docs.python.org/3/library/time.html#time.strftime>
+
+🎬 Erstellen Sie eine eigene Formatierung.
+
+```py
+print(now.strftime('%A, %d. %B %Y'))
 ```
 
 ---
-### List Comprehension
 
-* Ein elegantes Konzpet zum verarbeiten von Listen.
-* Form: `[ausdruck for x in liste]`
+### Datum und Zeit lokalisieren
 
-🎬 Fügen Sie diesen Code an:
+🎬 Ausgabe in der lokalen Sprache.
 
 ```py
-[print(s) for s in lst]
-```
+import locale  
+locale.setlocale(locale.LC_ALL, 'de_DE.utf8')  # Linux    
+locale.setlocale(locale.LC_ALL, 'de_DE.UTF-8') # macOS  
+locale.setlocale(locale.LC_ALL, 'german')      # Windows  
 
-ℹ️ Schleifen sind Verarbeitungsmethoden für Listen.
-
----
-### Funktionen zur Verarbeitung
-
-Die wichtigsten Funktionen und Methoden zur Bearbeitung von Liste:
-
-![](../list-functions-and-methods.png)
-
----
-### Listenelemente hinzufügen
-
-🎬 Führen Sie diese Aktionen aus:
-* Erstellen Sie die Datei `Funktionen.py`
-* Schreiben Sie diesen Code:
-
-```py
-lst = list(range(10, 101, 10))
-lst.extend([110]) # Fügt eins oder mehre Elemente hinzu
-lst.pop(2) # Entfernt element an der zweiten Position
-lst.remove(80) # Entfern einen bestimmten Eintrag
-print(lst)
+from datetime import datetime
+print(datetime.now.strftime('%A, %d. %B %Y'))
 ```
 
 ---
-### map-Funktion
 
-Mit `map` kann eine Funktion auf jedes Listenelement angewendet werden.
+### Datum einlesen
 
-🎬 Fügen Sie diesen Code an:
-
-```py
-def double(x):
-    return x*2
-
-print(list(map(double,lst)))
-```
-
-ℹ️ Der Rückgabewert von `map` ist ein Iterator und muss zur Ausgabe in eine Liste umgewandelt werden.
-
----
-### reduce-Funktion
-
-Mit `reduce` wird eine Funktion auf jedes Listenelement (x) und auf das Resultat des Vorgänger (y) angewendet. 
-
-🎬 Fügen Sie diesen Code an:
+🎬 Bei der Eingabe eines Datum ist das Format entscheidend.
 
 ```py
-from functools import reduce
-def sum(x,y):
-    return x+y
-
-print(reduce(sum,lst))
+from datetime import datetime
+s = '2018-08-01 18:47'  
+dt = datetime.strptime(s, '%Y-%m-%d %H:%M')
+print(dt)
 ```
 
 ---
-### filter-Funktion
 
-Mit `filter` werden alle Listenelemente zurückgegeben, die eine Bedingung erfüllen. 
+### Datum ohne Zeit
 
-🎬 Fügen Sie diesen Code an:
+Wir haben keine Zeit.
 
 ```py
-def IstGrösserAls(x,y=100):
-    return (x > y)
+from datetime import date
+print(date.today())
+```
 
-print(list(filter(IstGrösserAls, lst)))
+ℹ️ Wir importieren `date` und verwendent `today`.
+
+---
+
+### Zeit ohne Datum
+
+Wir haben kein Datum.
+
+```py
+from datetime import datetime
+print(datetime.now().time())
 ```
 
 ---
-### Listen sortieren
 
-Elemente einer Liste werden nicht automatisch sortiert.
+### Mit Zeiten rechnen
 
-🎬 Führen Sie diesen Code aus:
+🎬 Mit `timedelta` können Sie Zeit dazu rechnen.
 
 ```py
-lst = list('Hello, World!')
-lst.sort()
-print(lst) # [' ', '!', ',', 'H', 'W', 'd', 'e', 'l', 'l', 'l', 'o', 'o', 'r']
+from datetime import datetime, timedelta
+today = datetime.now()
+week = timedelta(weeks=1)
+print(today)
+print(week)
+print(today + week)
 ```
 
 ---
-### Pause
+### Zeitdifferenz berechnen
 
-⚡Wir machen eine Pause ⏱️ 10 Minuten
-
-<iframe src="https://giphy.com/embed/Q6joirtIBHUsw" width="280" height="280" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-
----
-### Tupel
-
-*  Ist eine unveränderliche liste
-*  Formulierung mit `()`-Klammern
-
----
-### Tupel deklarieren
-
-🎬 Führen Sie diese Aktionen aus:
-* Erstellen Sie die Datei `Tupel.py`
-* Schreiben Sie diesen Code:
-
-**Tupel.py**
+🎬 Verwendet man `today()` kann die Differenz in Tagen berechnen.
 
 ```py
-t = (12, 73, 3)
-print(t)
+from datetime import date, timedelta  
+today = date.today()  
+weihnachten = date(today.year, 12, 24)  
+warten = weihnachten - today  
+print('Noch', warten.days, 'Tage bis Weihnachten.')
 ```
-
----
-### Tupel Anwendungsfälle
-
-Mit Tupel sind Zuweisungen und Vergleiche mit mehreren Variablen möglich.
-
-🎬 Fügen Sie diesen Code an:
-
-```py
-(a, b, c) = (1, 2, 3)
-if (a, b, c) == (1, 2, 3):
-    print('Vollständige Übereinstimmung')
-```
-
----
-### Sets
-
-*  Ungeordnete Liste ohne Doppelgänger
-*  Formulierung mit `{}`-Klammern
-
----
-### Sets deklarieren
-
-🎬 Führen Sie diese Aktionen aus:
-* Erstellen Sie die Datei `Sets.py`
-* Schreiben Sie diesen Code:
-
-**Sets.py**
-
-```py
-s = {1,2,3,3}
-print(s)
-```
-
----
-### set-Methoden
-
-Im Vergleich zu Listen gibt es weitere Methoden zur Bearbeitung eines Sets.
-
-🎬 Fügen Sie diesen Code hinzu:
-
-```py
-s.add(4)
-s.remove(2) # Entfernt Element
-s.discard(2) # Gibt keinen Fehler aus, auch wenn Element bereits entfernt ist.
-print(s)
-```
-
----
-### Dictionaries
-
-* Elementaufzählungen mit einem Schlüssel zur Verwaltung
-*  Formulierung mit `{key: value}`
-
----
-### Dictionaries deklarieren
-
-🎬 Führen Sie diese Aktionen aus:
-* Erstellen Sie die Datei `Dict.py`
-* Schreiben Sie diesen Code:
-
-**Dict.py**
-
-```py
-key = "Blau"
-value = '#FFFF00'
-d = {'Rot': '#FF0000', key: '#0000FF', "Gelb": value}
-print(d)
-```
-
----
-### keys und values Methoden
-
-🎬 Fügen Sie diesen Code hinzu:
-
-```py
-print(d.get('Gelb')) # Ausgabe: #FFFF00
-print(d.values()) # dict_values(['#FF0000', '#0000FF', '#FFFF00'])
-print(d.keys()) # dict_keys(['Rot', 'Blau', 'Gelb'])
-```
-
----
-### Arrays
-
-* Bei vielen Programmiersprachen haben Arrays eine zentrale Bedeutung
-* Arrays sind nicht so flexibel wie Listen, Sets und Dictionairies
 
 ---
 ### Aufgaben 1
 
-Lösen Sie die ersten zwei Aufgaben.
+Lösen Sie die ersten zwei [Aufgaben](excercise.md#aufgaben).
 
-⚡Aufteilung in Breakout-Rooms ⏱️ 10 Minuten
+⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 10 Minuten
 
-Ziel: Aufgabe 4.1 und 4.2 gelöst.
-
----
-### Verzweigungen und Schleifen
-
-* **Verzweigungen**: Abhängig von Bedingungen Codeteile ausführen
-* **Schleifen**: Code mehrfach ausführen solange Bedingung erfüllt ist
+Ziel: Aufgabe 3.5.1 und 3.5.2 sind gelöst.
 
 ---
-### if-Verzweigung
 
-Syntax sollte leicht verständlich sein:
+### Zeitzonen
 
-```
-if bedingung1:
-    block1
-elif bedingung2:
-    block2
-elif bedingung3:
-    block3
-else:
-    block4
-```
+Wir leben in verschiedenen Zeitzonen.
+
+![](../zeitzonen.png)
 
 ---
-### if-Kurzschreibweise
 
-Die if-Anweisung kann auf einer Zeile definiert werden.
+### Datum UTC
 
-```
-x = wert1 if bedingung else wert2
-```
-
-ℹ️ In anderen Programmiersprachen gibt es dafür den [*Ternary Operator*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator)
-
----
-### if-Beispiel
-
-🎬 Erstellen und führen Sie die Datei `if.py` mit diesem Inhalt aus:
+🎬 Wir geben das Datum in der Zeitzone Coordinated Universal Time (UTC) aus.
 
 ```py
-antwort = input("Möchtest du Feierabend: ")
-
-if antwort in ["Ja", "ja", "jep"]:
-    print("Sehr gut!")
-else:
-    print("Ich glaube dir nicht!")
+from datetime import datetime  
+import pytz  
+utc = datetime.now(pytz.utc)  
+print(utc)
 ```
 
 ---
-### for-Schleife
 
-Die Syntax:
+### Datum bestimmte Zeitzone
 
-```
-for var in elemente:
-    anweisungen
-```
-
----
-### for mit Zeichenkette
-
-🎬 Erstellen und führen Sie die Datei `for.py` mit diesem Inhalt aus:
+🎬 Wir können ein Datum einer bestimmten Zeitzone zuordnen.
 
 ```py
-for c in 'abc':
-    print(c)
+berlin = pytz.timezone('Europe/Berlin')
+berlintime = berlin.localize(datetime.now())
+print(berlintime)
 ```
 
 ---
-### for mit Listen, Tupel und Sets
 
-🎬 Fügen Sie diesen Code hinzu:
+### Laufzeit von Code messen
+
+Wie lange braucht der Computer für eine Berechnung?
+
+🎬 Führen Sie dieses Programm aus.
 
 ```py
-for c in 'abc':
-    print(c)
-    
-for i in (17, 87, 4): 
-    print(i, end=' ') # end Paramter verhindert Zeilenumbruch
+import time, math
+start = time.process_time()
+
+# Sinnlos Zeit totschlagen  
+for i in range(1, 1000000):    
+  x=math.sin(i)
+
+end = time.process_time()    
+print(end - start, 'Sekunden')
 ```
----
-### for mit Dictionaries
 
-Bei Schleifen mit Dictionaries enthält die Variable den Schlüssel.
-
-🎬 Fügen Sie diesen Code hinzu:
-
-```py
-dict = {'a':12, 'c':78, 'b':3, 'd':43}
-for k in dict:
-    print(k,dict[k])
-for k,v in dict.items():
-    print(k,v)
-```
+ℹ️  Mit `import math` erhalten Sie Zugriff auf mathematische Funktionen.
 
 ---
-### while-Schleife
 
-Die Syntax:
+### Laufzeit der Programmausführung messen
+
+Wie lange wird das Programm ausgeführt?
+
+🎬 Führen Sie dieses Programm aus.
 
 ```
-while bedingung:
-    anweisungen
-```
+from datetime import datetime
+start = int(datetime.now().timestamp())
 
----
-### while-Beispiel
+s = input()
 
-🎬 Erstellen und führen Sie die Datei `while.py` mit diesem Inhalt aus:
-
-```py
-i=1
-while i<5:
-    print(i)
-    i+=1
-# Ausgabe: 1 2 3 4
+end = int(datetime.now().timestamp())
+print(end - start, 'Sekunden')
 ```
 
 ---
 ### Aufgaben 2
 
-Lösen Sie die nächsten zwei Aufgaben.
+Lösen Sie die dritte [Aufgabe](excercise.md#aufgaben).
 
 ⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 10 Minuten
 
-Ziel: Aufgabe 4.3 und 4.4 gelöst.
+Ziel: Aufgabe 3.5.3 ist gelöst.
 
 ---
-### Pause
 
-⚡Wir machen eine Pause ⏱️ 10 Minuten
-
-<iframe src="https://giphy.com/embed/Q6joirtIBHUsw" width="280" height="280" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-
----
 ### Review
 
 🎯 Ziele erreicht?
-*  Aufzählungstypen `[]`, `()`, `{}` und `{key: value}` sind bekannt
-*  Die Anwendung von Verzweigungen und Schleifen ist verstanden
-*  Listen und Schleifen können kombiniert werden
+* Datum und Uhrzeit einlesen und ausgeben
+* Datum und Uhrzeit formatieren
+* Mit Datum und Uhrzeit rechnen

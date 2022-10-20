@@ -1,8 +1,8 @@
-# Thema 9 - Module und Import
+# Thema 13 - Versionskontrolle mit Git
 
 Umfang ⏱️: 2 Lektionen
 
-[Alle Unterlagen anzeigen](https://github.com/janikvonrotz/python.casa/tree/main/topic-7)
+[Alle Unterlagen anzeigen](https://github.com/janikvonrotz/python.casa/tree/main/topic-10)
 
 ## [Slides](slides.md)
 

@@ -1,305 +1,344 @@
-## Versionskontrolle mit Git
+## Datenbanken
 
-[Thema 10](./README.md)
+[◀️ Thema 10](README.md)
 
 ⚡[Anwesenheit bestätigen](https://moodle.medizintechnik-hf.ch/mod/attendance/manage.php?id=6139)
 
----
-
-### Was ist Versionskontrolle?
-
-> Eine Versionskontrolle ist ein System, das zur Erfassung von Änderungen an Dokumenten oder Dateien verwendet wird.
-
-- Verwaltet viele Code-Zeilen
-- Dokumentiert jede Änderung im Code
-- Synchronisiert mit anderen Entwicklern
-- Führt Änderungen im Code zusammen
+📖 Kapitel 20 Wissenschaftliche Anwendung
 
 ---
 
-### Begriffe / Baumstruktur
+### Program
 
-Das Schreiben von versioniertem Code kann man sich wie das Wachstum eines Baumes vorstellen. Dazu ein paar Begriffe:
-
-* **Branch**: Verzweigung eines Astes
-* **Merge**: Äste die zusammenwachsen
-* **Commits**: Abschnitt im Baum
-* **Tags**: Markierungen in den Ästen
-* **Fork**: Kopie des gesamten Baumes
-* **Master**: Der Hauptstamm
-* **Head**: Die Baumkrohne
-* **History**: Verlauf des Wachstum
-
-
-
-![](../svn-tree.png)
+- Unterricht durchführen
+- Besprechen Wissensprüfung / Feedback
+- Rückmeldung Projektvorschläge
 
 ---
 
-### Git
+### Pip Manager installieren
 
-Die bekannteste und meistverwendete Versionskontrolle ist **git**.
+Mit ver VSCode-Erweiterung *Pip Manager* können Sie *pip* Pakete verwalten.
 
-![](../git.png)
+🎬 Installieren Sie die Erweiterung *Pip Manager* mit VSCode:
 
-🤔 Wer ist diese Person?
-
----
-
-### It's going to hurt
-
-Git zu lernen ist nicht schwierig. Git zu verstehen aber schon.
+![vscode-pip](../vscode-pip.gif)
 
 ---
 
-### Arbeit mit git
+### Grosse Datenmengen
 
-Was man mit git normalerweise macht:
-1. **Inititalisierung**: Git Projekt erstellen
-2. **Stagen**: Dateien in den Index aufnehmen
-3. **Committen**: Zustand der Dateien festhalten
-4. **Pushen**: Änderungen hochladen
-5. **Pullen**: Änderungen herunterladen
-6. **Mergen**: Änderungen zusammenführen
+Wie man Text-Daten liest und speichert, wissen wir. Im Umgang mit grossen Datenmengen ergeben Sie neue Fragen:
+* Wie speichert man grosse Datenmengen?
+* Wie stellt man sicher, dass in den Daten keine Fehler sind?
+* Wie ermöglicht man den Zugriff für mehrere Programme auf dieselben Daten?
 
 ---
 
-### Ziel von git
+### Daten zentral speichern
 
-Versionsstand von Software-Code mit mehreren Mitarbeitenden (Contributors) synchron halten.
+Daten in einer Datenbank an einem Ort speichern.
 
-![](../git-goal.png)
+![](../data-central.png)
 
----
-
-### Git Arbeitsbereiche
-
-Bei der Arbeit mit gibt, gibt es verschiedene Arbeitsbereiche:
-* **Workspace**: Lokaler Ordner mit Code
-* **Index**: Interne Liste mit Dateien die verfolgt werden
-* **Stage**: Erfasste Änderungen in Dateien
-* **Local Repository**: Zustand des lokalen Codes
-* **Remote Repository**: Zustand des gesamten Codes
-
-![](../git-workflow.png)
 
 ---
 
-### GitHub
+### Was ist eine Datenbank?
 
-Auf <https://github.com/> kann man das *Remote Repository* verwalten. Hier ein paar Beispiele:
+>  Eine Datenbank ist ein System zur **elektronischen Verwaltung von Daten**. Die Kernaufgabe von Datenbanken liegt in der effizienten, dauerhaften und fehlerfreien Speicherung großer Datenmengen sowie in der bedarfsgerechten Bereitstellung benötigter Informationen.
 
-* <https://github.com/torvalds/linux>: Linux Betriebssystem
-* <https://github.com/pallets/flask>: Python Flask
-* <https://github.com/nasa>: Organisation der NASA
-
-Es gibt weitere Plattformen wie <https://gitlab.com/> oder selber hosten <https://gitea.io/>.
+ℹ️ Das Gegenteil einer Datenbank ist Excel.
 
 ---
 
-### GitHub Account erstellen
+### Datenbanken bereitstellen
 
-🎬 Erstellen Sie einen Account auf [GitHub](https://github.com/signup).
+Auf einem Server installiert man ein Datenbankmanagementsystem.
 
-Wir werden den Account zu einem späteren Zeitpunkt brauchen.
+![](../datenbanksystem.png)
 
----
-
-### Git installieren
-
-Nun installieren wir git auf dem Computer.
-
-🎬 Öffnen Sie <https://git-scm.com/>, laden Sie git herunter und installieren Sie die Software. Verwenden Sie die empfohlenen Einstellungen.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/hPNs2x6zsPY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Auf dem Desktop kann man direkt auf die Datenbank zugreifen.
 
 ---
 
-### Git und VSCode
+### Welche Datenbanktypen gibt es?
 
-VSCode sollte git automatisch erkennen.
+Grundtypen:
+* **Relational**: Definierte Tabellen und Spalten, Abfragen und Manipulation von Daten nur in diesem Raster möglich.
+* **NoSQL/Non-Relational**: Schema ist freiher, dafür Datenkonsistenz nicht gegeben.
+
+---
+
+### Beispiel Relational/Non-Relational
+
+![](../relational-non-relatonal.png)
+
+---
+
+### Relationales Datenbankmanagementsystem
+
+Es gibt verschiedene RDBMS. Wir interessieren uns für *PostgreSQL* und *SQLite*.
+
+* **PostgreSQL**: Komplexes Datenbanksystem, dass auf Server installiert wird.
+* **SQLite**: Ist im wesentlichen eine Datenbankdatei, die überall installiert werden kann.
+
+---
+
+### SQLite
+
+Ist die meist verbreitete Datenbank-Engine[^1]. Sie ist auf jedem Smartphone vorhanden.
+
+![](../sqlite.png)
+
+Wie viele andere Datenbanksysteme ist SQLite SQL-basiert. Bei SQL (Structured Query Language) handelt es sich um die am meisten verwendete Datenbanksprache.
+
+---
+
+### Python und SQLite
+
+Mit Python können wir eine SQLite-Datenbank erstellen und bearbeiten. Wir wollen diese Lager-Tabelle erstellen:
+
+| ID  | Name        | Referenz  | Barcode      | Lager | Preis |
+| --- | ----------- | --------- | ------------ | ----- | ----- |
+| 1   | Holztisch   | E-COM06   | 601647855633 | 3     | 147   |
+| 2   | Bürostuhl   | FURN_7777 | 601647855634 | 1     | 70.50 |
+| 3   | Abfalleimer | E-COM10   | 601647855649 | 5     | 43    |
+
+---
+
+### Vorgehen
+
+Eine Datenbank wird in den folgenden Schritten erzeugt:
+-   Anlegen der Datenbank
+-   Anlegen von Datenbanktabellen durch Angabe der Struktur
+-   Eingabe der Datensätze in die Datenbanktabellen
+
+---
+
+### Modul und Datentypen
+
+SQLite wird über das Modul `sqlite3` direkt in Python eingebunden. Es bietet standardmäßig die folgenden Datentypen:
+
+-   **TEXT**: Für Zeichenketten
+-   **INTEGER**: Für ganze Zahlen
+-   **REAL**: Für Zahlen mit Nachkommastellen
+-   **BLOB**: Für _binary large objects_, also große binäre Datenmengen
+-   **NULL**: Entspricht _None_ in Python
+
+🤔  Wie ordnen Sie die Datentypen der Spalten der Lager-Tabelle zu?
 
 ---
 
 ### VSCode vorbereiten
 
 🎬 Führen Sie diese Aktionen aus:
-* Neuer Ordner `Thema 10` erstellen
+* Neuer Ordner `Thema7.5` erstellen
 * Ordner mit VSCode öffnen
-* Datei `main.py` mit diesem Code anlegen:
+* Datei `lager.py` anlegen
 
-```python
-print('Hello git!')
+---
+
+### Datenbank-Datei erzeugen
+
+Aktualisiert die Datei `lager.py` mit diesem Code:
+
+```py
+import os, sys, sqlite3
+
+# Datei entfernen wenn existiert
+if os.path.exists("lager.db"):
+    os.remove("lager.db")
+
+# Verbindung zur Datenbank erzeugen
+connection = sqlite3.connect("lager.db")
+
+# Datensatz-Cursor erzeugen
+cursor = connection.cursor()
 ```
 
 ---
 
-### Beispiel mit VSCode und git
+### Tabelle erstellen
 
-Die folgenden Beispielen zeigt wie man mithilfe von VSCode mit git arbeitet. Dabei gilt es zu beachten, dass im Hintergrund immer auf der Kommandozeile die git-Befehle abgesetzt werden.
+🎬 Mit SQL erstellen wir nun eine Tabelle. Fügen Sie diesen Code hinzu:
 
-VSCode macht die Arbeit mit git "einfacher". Zu jedem Beispiel wird wenn möglich der entsprechende git-Befehl aufgeführt.
-
----
-
-### Git konfigurieren
-
-🎬 Starten Sie ein neues Terminal und geben Sie die folgenden Befehle ein. Natürlich müssen Sie einen eigenen Benutzernamen und E-Mail defineiren.
-
-```bash
-git config --global user.name "janikvonrotz"
-git config --global user.email "contact@janikvonrotz.ch"
+```py
+# Datenbanktabelle erzeugen
+sql = """CREATE TABLE lager(
+    id INTEGER PRIMARY KEY,
+    name TEXT,
+    referenz TEXT ,
+    barcode TEXT,
+    lager INTEGER,
+    preis REAL)"""
+cursor.execute(sql)
 ```
 
-![](../git-config.png)
+---
+
+### Datensatz hinzufügen
+
+🎬 Fügen Sie diesen Code an, um einen Datensatz zu erzeugen:
+
+```py
+# Datensatz erzeugen
+sql = "INSERT INTO lager VALUES(1, 'Holztisch', 'E-COM06', '601647855633', 3, 147)"
+cursor.execute(sql)
+connection.commit()
+
+# Verbindung beenden
+connection.close()
+```
+
+🎬 Führen Sie das Programm `lager.py` aus. Es wird nun eine `lager.db` Datei erstellt.
 
 ---
 
-### Repository initialisieren
+### Datenbank anschauen
 
-🎬 In VSCode klicken Sie auf die Versionskontrolle und initialisieren das Repo.
+Mit dieser VSCode-Erweiterung können Sie die Datenbank-Datei anschauen:
 
-![](../repo-init.png)
+![](../vscode-sqlite.png)
 
-ℹ️ Der Terminal-Befehl ist `git init`
-
----
-
-### Datei stagen
-
-Git hat die Datei `main.py` erkannt und bietet an die Datei zu stagen.
-
-🎬 Stagen Sie die Datei `main.py` wie folgt:
-
-![git-stagen](../git-stagen.gif)
-
-ℹ️ Der Terminal-Befehl ist `git add main.py`
+🎬 Installieren Sie diese Erweiterung.
 
 ---
 
-### Datei comitten
+### SQLite Datenbank anschauen
 
-Änderungen in der Stage kann man comitten. Dazu braucht es eine Nachricht.
+🎬 Zeigen Sie den Inhalt von `lager.db` wie folgt an:
 
-🎬 Comitten Sie die Änderungen wie folgt:
-
-![git-commit](../git-commit.gif)
-
-ℹ️ Der Terminal-Befehl ist `git commit -m "init main"`
+![sqlite-browse](../sqlite-browse.gif)
 
 ---
 
-### Datei ändern und vergleichen
+### Weitere Datensätze einfügen
 
-🎬 Ändern Sie die Ausgabe in `main.py` zu `'Git is great!'` und vergleichen Sie die Datei:
+🎬 Fügen wie weitere Datensätze hinzu, indem Sie den Code unten an der richtigen Stelle einfügen.
 
-![git-diff](../git-diff.gif)
-
-ℹ️ Der Terminal-Befehl ist `git diff`
-
----
-
-### Änderung committen
-
-🎬 Stagen und comitten Sie die Änderung mit der Nachricht `changed output`.
-
-ℹ️ Der Terminal-Befehl ist `git commit -a -m "changed output"`
-
----
-
-### History anzeigen
-
-Die History umfasst alle Commits.
-
-🎬 Öffnen Sie ein Terminal und geben Sie `git log` ein.
-
-![git-log](../git-log.gif)
-
-ℹ️ Zum schliessen der Ansicht drücken Sie `q`.
+```py
+# Datensatz erzeugen
+sql = "INSERT INTO lager VALUES(1, 'Holztisch', 'E-COM06', '601647855633', 3, 147)"
+cursor.execute(sql)
+sql = "INSERT INTO lager VALUES(2, 'Bürostuhl', 'E-COM06', '601647855634', 1, 70.50)"
+cursor.execute(sql)
+sql = "INSERT INTO lager VALUES(3, 'Abfalleimer', 'E-COM06', '601647855649', 5, 43)"
+cursor.execute(sql)
+connection.commit()
+```
 
 ---
 
-### Referenz eines Commits
+### Daten abfragen
 
-Jeder Commit ist über einen Hash referenziert.
+Wir möchten die Daten mit SQL/Python auslesen.
 
-In diesem Beispiel hat der Commit mit Nachricht `init main` den Hash `14b3b432a7318eede6d09e3aad62b2f417a28b37`.
-
----
-
-### Commit auschecken
-
-🎬 Kopieren Sie den Hash ihres `init main` Commits und geben Sie im Terminal `git checkout $HASH` ein:
-
-![git-checkout](../git-checkout.gif)
-
-Nun sollte die vorhergehende Version der Datei `main.py` angezeigt werden.
+🎬 Erstellen Sie eine neue Datei `abfragen.py`.
 
 ---
 
-### Master auschecken
+### Alle Datensätze anzeigen
 
-🎬 Wechseln Sie wieder zurück zum `master`:
+🎬 Ergänzen Sie `abfragen.py` und führen Sie den Code aus.
 
-![git-checkout-master](../git-checkout-master.gif)
+```py
+import sqlite3
 
-ℹ️ Der Terminal-Befehl ist `git checkout master`
+# Verbindung, Cursor
+connection = sqlite3.connect("lager.db")
+cursor = connection.cursor()
 
----
+# SQL-Abfrage
+sql = "SELECT * FROM lager"
 
-### Pause
+# Absenden der SQL-Abfrage und Empfang des Ergebnis
+cursor.execute(sql)
 
-⚡Wir machen eine Pause ⏱️ 15 Minuten
+# Ausgabe des Ergebnis
+for datensatz in cursor:
+    print(datensatz[1])
+    print(datensatz)
 
----
+# Verbindung beenden
+connection.close()
+```
 
-### Repository veröffentlichen
-
-Nun möchten wir die Änderungen auf GitHub publizieren.
-
-🎬 Drücken Sie <kbd>ctrl</kbd>+ <kbd>shift</kbd> + <kbd>p</kbd> wählen `Publish to GitHub`. Anschliessend befolgen Sie den Dialog:
-
-![git-publish](../git-publish.gif)
-
-ℹ️ Die Aktion kann auf dem Terminal nur bedingt ausgeführt werden.
-
----
-
-### Änderung auf GitHub erstellen
-
-🎬 Fügen Sie gemäss Vorschlag auf GitHub die Datei `README.md` hinzu:
-
-![github-readme](../github-readme.gif)
+🤔 Wie kann man nur bestimmte Datensätze ausgeben?
 
 ---
 
-### Fetchen und pullen
+### Daten filtern
 
-Damit die Änderung lokal verfügbar wird, muss zuerst *gefetched* und anschliessend *gepullt* werden.
+Das Schlüsselwort heisst `WHERE`.
 
-🎬 Führen Sie diese Aktion aus:
+🎬 Ersetzen Sie die SQL-Abfrage mit:
 
-![git-fetch-and-pull](../git-fetch-and-pull.gif)
+```py
+sql = "SELECT * FROM lager WHERE id = 1"
+```
 
-ℹ️ Die Terminal-Befehl sind `git fetch` und `git pull`
+ℹ️ SQL hat eine andere Syntax als Python.
 
----
-
-### Änderung pushen
-
-🎬 Passen Sie den Text im `README.md`, committen und pushen Sie die Änderung:
-
-![git-push](../git-push.gif)
-
-ℹ️ Der Terminal-Befehl ist `git push`.
+🤔 Wie kann man bestimmte Datensätze verändern?
 
 ---
 
-### Zur Erinnerung
+### Datensatz verändern
 
-Hier nochmals der git Workflow:
+Das Schlüsselwort heisst `UPDATE`.
 
-![](../git-workflow.png)
+🎬 Ersetzen Sie die SQL-Abfrage mit:
+
+```py
+# Datensatz aktualisieren
+sql = "UPDATE lager SET preis = 71 WHERE id = 2"
+cursor.execute(sql)
+connection.commit()
+
+# SQL-Abfrage
+sql = "SELECT * FROM lager WHERE id = 2"
+```
+
+
+🤔 Wie kann man bestimmte Datensätze löschen?
+
+---
+
+### Datensatz löschen
+
+Das Schlüsselwort heisst `DELETE`.
+
+🎬 Ersetzen Sie die SQL-Abfrage mit:
+
+```py
+# Datensatz löschen
+sql = "DELETE FROM lager WHERE id = 3"
+cursor.execute(sql)
+connection.commit()
+
+# SQL-Abfrage
+sql = "SELECT * FROM lager"
+```
+
+---
+
+### CRUD
+
+Wir haben gerade die CRUD-Operationen angewendet:
+
+* **C**: Create
+* **R**: Read
+* **U**: Update
+* **D**: Delete
+
+---
+
+### Mehr zu SQL
+
+SQL wird von verschiedenen Datenbanksystemen unterstützt.
+
+Wer mehr zu SQL wissen wollt, besucht das [SQL Tutorial](https://www.w3schools.com/sql/).
 
 ---
 
@@ -309,18 +348,24 @@ Lösen Sie die ersten zwei Aufgaben.
 
 ⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 10 Minuten
 
-Ziel: Aufgabe 10.1 und 10.2 gelöst.
+Ziel: Aufgabe 7.5.1 und 7.5.2 gelöst.
+
+---
+
+### Ausblick
+
+* Bioinformatik mit Python
+* Experte eingeladen 🙏 Alle anwesend
 
 ---
 
 ### Restliche Zeit
 
 * Arbeit an Leistungsnachweis
+* Fragen zur Prüfung klären
 
 ---
 
-### Abschluss
+### Referenzen
 
-Ich möchte mich herzlich für die Teilnahme am Kurs und tolle Mitarbeit bedanken.
-
-Für Feedback bin ich dankbar und zu Python-Fragen immer erreichbar.
+[^1]: https://www.sqlite.org/mostdeployed.html

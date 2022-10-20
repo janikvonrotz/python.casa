@@ -55,8 +55,7 @@ Für das Selbststudium und Vorbereitung werden die folgenden Video-Playlists ver
 
 **Quellen**
 
-Zu Erarbeitung der Aufgaben wurden weitere Webseiten miteinbezogen.
-
+Zu Erarbeitung der Aufgaben wurden weitere Webseiten miteinbezogen:
 * [pythonbuch.com - Einführung ins Programmieren mit Python](https://pythonbuch.com)
 * [pythonbasics.org - Learn Python Programming](https://pythonbasics.org)
 

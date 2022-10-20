@@ -4,6 +4,12 @@
 
 Aufgaben zum Thema.
 
+### Aufgabe 1.1: Hello World!
+
+Erstellen Sie ein Programm, dass als erstes `Hello` und anschliessend `World!` ausgiebt. Speichern Sie die Datei als `Hello_World.py` ab.
+
+⭐ [Hello_World.py](./Hello_World.py)
+
 ### Aufgabe 1.1: Input, Process and Output
 
 Erstellen Sie ein Programm, das nach ihrem Namen fragt und diesen in Grossbuchstaben wieder ausgibt. Suchen Sie im Internet nach `Python Grossbuchstaben` um eine HIlfestellung zu finden.
@@ -17,12 +23,6 @@ Setzen Sie nach `name` die folgende Funktion an `.upper()`.
 ### Aufgabe 1.2: Kommentieren
 
 Fügen Sie zu jeder Anweisung des Programs aus Aufgabe 1 einen Kommentar hinzu.
-
-### Aufgabe 1.3: VS Code IDE
-
-Installieren Sie den IDE-Editor [VS Code](https://code.visualstudio.com/). Öffnen Sie ein Skript führen Sie es mit VS Code aus.
-
-Video: [Visual Studio Code für Windows installieren](https://www.youtube.com/watch?v=og51Lo5uKBA)
 
 ## Wiederholungsfragen
 

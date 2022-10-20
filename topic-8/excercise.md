@@ -1,83 +1,150 @@
-# Übungen Thema 8
+# Übungen Thema 6
 
 ## Aufgaben
 
 Aufgaben zum Thema.
 
-Alle Erklährungen und Aufgaben sind im [`ExerciseNotebook.ipynb`](https://raw.githubusercontent.com/janikvonrotz/python.casa/main/topic-8/ExerciseNotebook.ipynb) Jupyter Notebook. Um dieses Notebook zu öffnen und den Inhalt auszuführen wird die Visual Studio Code Jupyter Notebook Extension sowie weitere Python Pakete benötigt. 
+### Aufgabe 6.1: Fehler abfangen
 
-Befolgen Sie die nächsten Schritte um die Programmierumgebung bereitzustellen.
+Angenommen Sie erhalten diese Python-Funktion.
 
-### Aufgabe 8.0: pip installieren
+```py
+def pluszwei(zahl):
+	return (zahl + 2)
+```
 
-Dieser Teil ist optional. Um Python-Pakete zu installieren, verwenden wir die VSCode-Erweiterung *Pip Manager*. Besser aber wäre die eigenständige Installation von pip. Führen Sie die folgenden Aktionen aus, wenn Sie pip für die Kommandozeile installieren möchten.
+Und verwenden Sie in ihrem Programm.
 
-* Laden Sie die Datei `get-pip.py` unter diesem Link <https://bootstrap.pypa.io/get-pip.py> herunter
-* Speichern Sie die Datei in einem Ordner und öffnen Sie diesen mit VSCode
-* Starten Sie ein Terminal im Ordner
-* Geben Sie `python get-pip.py` ein und installieren Sie pip mit Enter
+```py
+print(pluszwei(2))
+print(pluszwei('3'))
+```
 
-![](../pip-install.png)
+Bei der Ausführung erhalten Sie einen Fehler vom Typ `TypeError`. Fangen Sie diesen Fehler in ihrem Programm mithilfe von `try` and `except` ab.
 
-* War die Installation erfolgreich, können Sie mit dem Befehl `pip install cowsay` die Installation von Python Paketen testen.
+### Aufgabe 6.2: JSON to CSV konvertieren
 
-::: tip
-Falls der `pip`-Befehl im Terminal nicht funktioniert, versuchen Sie es mit `pip3`
+Sie erhalten das folgende JSON-Dokument `people.json`:
+
+```json
+[
+    {
+        "name": "Jason",
+        "gender": "M",
+        "age": 27
+    },
+    {
+        "name": "Rosita",
+        "gender": "F",
+        "age": 23
+    },
+    {
+        "name": "Leo",
+        "gender": "M",
+        "age": 19
+    }
+]
+```
+
+Damit Sie es verarbeiten können brauche Sie es im CSV-Format.
+
+Entwickeln Sie ein Programm, dass dieses JSON-Dokuments zu einem CSV konvertiert.
+
+Dazu diese Inputs:
+
+```py
+import json
+import csv
+```
+
+```py
+with open('people.json', 'r') as f:
+    data = json.load(f)
+print(data)
+```
+
+```py
+for person in data:
+    print(f"name: {person['name']}")
+```
+
+```py
+with open('people.csv', mode='w') as file:
+    csv_writer = csv.writer(file, delimiter=',', quotechar='"')
+```
+
+```py
+    csv_writer.writerow(['Name', 'Gender', 'Age'])
+    for person in data:
+        csv_writer.writerow(person.values())
+```
+
+### Aufgabe 6.3: Erste Website
+
+Erstellen Sie eine persönliche Website mit einem HTML-Dokument. Nennen Sie das Dokument `mypage.html`.
+
+Fügen Sie in der Website mithilfe des `<pre>` HTML-Tag Python-Code ein.
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Python-Code in HTML</title>
+</head>
+<body>
+  <h2>Python-Code in HTML</h2>
+  <pre>
+with open('people.json', 'r') as f:
+	data = json.load(f)
+print(data)
+  </pre>
+</body>
+</html>
+```
+
+### Aufgabe 6.4: Webserver
+
+Die erstellte Website wollen wir nun publizieren. Dazu erstellen wir einen HTTP-Server. Dieser lädt unsere Website und stellt Sie für andere Computer bereit.
+
+Führen Sie das folgende Programm `Server.py` aus.
+
+```py
+import http.server
+import socketserver
+
+class HttpRequestHandler(http.server.SimpleHTTPRequestHandler):
+    def do_GET(self):
+        if self.path == '/':
+            self.path = 'mypage.html'
+        return http.server.SimpleHTTPRequestHandler.do_GET(self)
+
+# Erstelle ein Objekt anhand der obigen Klasse
+handler = HttpRequestHandler
+
+server = socketserver.TCPServer(("", 8000), handler)
+
+# Starte den Server
+server.serve_forever()
+```
+
+Und öffnen Sie diesen Link <http://localhost:8000/>.
+
+In der Python-Konsole sehen Sie nun die Website-Aufrufe.
+
+Nun möchten wir das Programm anpassen. Ändern Sie den Port von `8000` auf den HTTP-Standardport `80` und zeigen Sie die Website unter der richtigen Adresse an.
+
+::: warning
+Falls Sie beim Starten des Webservers aufgrund der Portänderung einen Fehler erhalten, belassen Sie den Port bei `8000`
 :::
 
-### Aufgabe 8.1:  Programmierumgebung aufsetzen
+### Aufgabe 6.5: Intranet
 
-**Jupyter Notebook installieren**
+Wenn ihr Computer und der ihrer Nachbaren im selben WLAN bzw. Netzwerk sind, sind die Voraussetzungen für ein Intranet gegeben.
 
-* Öffne Visual Studio Code
-* Öffne den Extension Manager (<kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>x</kbd>)
-* Suche nach `Jupyter` im Suchfeld
-* Jupyter Installieren
-* Visuals Studio Code neustarten
+Haben ihre Nachbaren die Website gestartet können Sie anhand der IP-Adresse darauf zugreifen.
 
-**Pandas, plotly.express und skelarn Paket installieren**
+Zeigen Sie ihre lokale IPv4-Adresse über die Netzwerkeinstellungen des Computers an. Dazu ein Beispiel wie das auf einem Linux-Computer aussieht:
 
-* Öffne Visual Studio Code
-* Öffne den Extension Manager (<kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>x</kbd>)
-* Suche nach `Pip Manager` im Suchfeld
-* Pip Manager Installieren
-* Pip Manager öffnen (Neues Symbol auf der linken Seite in Visual Studio)
-* Das in der Sidebar ersichtliche "+" Symbol klicken, `pandas` eingeben und mit Enter-Taste installieren
-* Das in der Sidebar ersichtliche "+" Symbol klicken, `plotly-express` eingeben und mit Enter-Taste installieren
-* Das in der Sidebar ersichtliche "+" Symbol klicken, `scikit-learn` eingeben und mit Enter-Taste installieren
-* Das in der Sidebar ersichtliche "+" Symbol klicken, `matplotlib` eingeben und mit Enter-Taste installieren
+![](../linux-ipv4.png)
 
-### Aufgabe 8.2:  Dateien herunterladen und ausführen
-
-Um im Jupyter Notebook fortzufahren müssen folgende Dateien aus dem Python.casa Kurs heruntergeladen werden:
-
-* [`ExerciseNotebook.ipynb`](https://raw.githubusercontent.com/janikvonrotz/python.casa/main/topic-8/ExerciseNotebook.ipynb)
-* [`heart.csv`](https://raw.githubusercontent.com/janikvonrotz/python.casa/main/topic-8/heart.csv)
-
-Speichern Sie Dateien mit <kbd>ctrl</kbd> + <kbd>s</kbd>, wenn Sie im Browser angezeigt werden.  Legen Sie die Dateien in einem Ordner ab und öffnen Sie diesen Visual Studio Code.
-
-🎬 Nun können Sie dem gemäss dem Inhalt des Jupyter Notebooks fortfahren.
-
-::: tip
-Falls VSCode nach der Erweiterung `ipykernel` fragt, kann man den Dialog mit *Installieren* bestätigen.
-![](../ipykernel-prompt.png)
-![](../ipykernel.png)
-:::
-
-### Alternative bei Installationsproblemen
-
-Falls es nicht möglich ist die Programmierumgebung aufzusetzen, kann das ExerciseNotebook.ipynb in einer Browser basierten Jupyter Umgebung ausgeführt werden.
-
-Dabei muss folgendermassen vorgegangen werden
-* Öffne [https://www.kaggle.com/code](https://www.kaggle.com/code)
-* Klicke *+ New Notebook*
-* Klicke auf *+ Add Data* oben rechts
-* Suche nach `Heart Attack Analysis & Prediction Dataset` im Suchfenster oben rechts
-
-![](../kaggle-heart-attack-data.png)
-
-* Klicke auf *Add* um das Datenset hinzuzufügen, dabei schliesst sich das Fenster
-* Kicken Sie *File > Import Notebook > Browse File* und wählen Sie die `` Datei aus (Diese muss vorher heruntergeladen werden)
-* Anschliessend *Import* klicken
-
-🎬 Nun können Sie dem gemäss dem Inhalt des Jupyter Notebooks fortfahren.
+Tauschen Sie die IP-Adresse mit ihrem Nachbarn aus und rufen Sie die Website im Browser damit auf. Beispiel: <http://192.168.1.104:8000>.

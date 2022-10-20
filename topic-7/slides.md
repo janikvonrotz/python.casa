@@ -1,279 +1,137 @@
-## Module und Import
+## Objektorientierte Programmierung
 
-[Thema 7](./README.md)
+[◀️ Thema 7](README.md)
 
 ⚡[Anwesenheit bestätigen](https://moodle.medizintechnik-hf.ch/mod/attendance/manage.php?id=6139)
 
-📖 Kapitel 12 Module
+📖 Kapitel 11 Funktionen
 
 ---
 
-### Python-Module
+### Code Aufbau
 
- Die `import` Anweisung importiert Code aus der Python-Bibliothek.
+Bis anhin haben wir funktional programmiert.
 
- Sie importieren damit Python-Module.
+Abhängig von der Projektgrösse muss man Code entsprechend aufbauen.
 
- Dieser modulare Ansatz von Python schauen wir uns genauer an.
-
----
-
-### Python-Module auflisten
-
-Welche Python-Module sind vorhanden?
-
-🎬 In der Python-Konsole geben Sie den Befehl `help('modules')` ein und erhalten so eine Liste der verfügbaren Module.
-
-🎬 Details zu den Modulen erhalten Sie beispielsweise mit `help('glob')`.
+Python unterstützt auch die objektorientierte Programmierung (OOP).
 
 ---
 
-### Visual Studio Code installieren
+### Daten und Code
 
-Wir werden selber Python-Module erstellen und deshalb brauchen wir ein IDE-Upgrade.
+Sie Idee von OOP ist die Bündelung von Daten (Variablen) und Code (Methoden)
 
-🎬 Installatieren Sie [Visual Studio Code](https://code.visualstudio.com/) auf ihrem Computer.
-
----
-
-### VSCode Python-Erweiterung installieren
-
-Visual Studio Code (VSCode) unterstützt verschiedene Programmiersprachen. Damit Python verwendet werden kann, muss eine Erweiterung installiert werden.
-
-🎬 Installieren Sie die [Python extension for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=ms-python.python).
-
-Je nach dem müssen Sie noch [Python](https://www.python.org/downloads/) installieren.
+![](../oop-class.png)
 
 ---
 
-### Projektordner erstellen
+### Objekte und Klassen
 
-VSCode stellt nicht nur einzelne Dateien dar, sondern ganze Verzeichnisse.
+Es gibt neue Begriffe.
 
-🎬 Führen Sie diese Aktionen aus:
-* Neuer Ordner `Thema7` erstellen
-* Ordner mit VSCode öffnen
-
----
-
-### Ordner mit VSCode öffnen
-
-Wenn Sie VSCode starten, können Sie die Aktion *Open Folder...* anwählen.
-
-![](../vscode-start.png)
+* **Klasse**: Bauplan oder wie das Objekt aussehen soll
+* **Objekt**: Alles ist ein Objekt, beispielsweise Personen, Autos, Bäume, Häuser, Länder, Werkzeuge und Schuhe
 
 ---
 
-### Hello.py erstellen
+### Beispiel Auto
 
-🎬 Erstellen Sie im Ordner die Datei `Hello.py`
+Eine Veranschaulichung anhand des Objekts Auto.
 
-```
-msg = "Hello World"
-print(msg)
-```
-
-In VSCode sollte das so aussehen:
-
-![](../vscode-hello.png)
-
+![](../car-example.png)
 
 ---
 
-### Python Interpreter bestimmen
+### Modelierung der Realität
 
-Stellen Sie sicher, dass VSCode den Python-Interpreter erkannt hat (siehe blaube Leiste).
+Mit OOP versucht man reale Objekte in Code auszudrücken.
 
-![](../vscode-python.png)
-
----
-
-### Python-Code ausführen
-
-🎬 Führen Sie das Skript `Hello.py` mit dem dem *Run*-Knopf oben rechts aus.
-
-![](../vscode-execute.png)
-
-Der Output des Skript wird im *Terminal* angezeigt.
+Im Folgenden wollen wir die Funktionsweise einer Kaffeemaschine mit Code ausdrücken.
 
 ---
 
-### Linx-Probleme beheben
+### Eine Klasse definieren
 
-Falls Sie ein Linux-Computer haben, kann es gut sein, dass Sie eine andere Shell verwenden müssen.
-
-![](../vscode-linux-shell.png)
-
----
-
-### Wichtige Tastaturkürzel
-
-Mit der Tastatur ist man immer schneller.
-
-<kbd>ctrl</kbd>+ <kbd>shift</kbd> + <kbd>p</kbd>: VSCode-Befehle aufrufen
-
-<kbd>ctrl</kbd> + <kbd>p</kbd>: Datei anzeigen
-
-<kbd>ctrl</kbd> + <kbd>,</kbd>: Einstellungen öffnen
-
----
-
-### Modul mit Funktion erstellen
-
-Nun erstellen wir unser erstes Python-Modul.
-
-🎬 Erzeugen Sie die Datei `lib.py` im geöffneten Ordner mit diesem Code:
+🎬 Erstellen Sie die Datei `Kaffeemaschine.py` mit diesem Inhalt:
 
 ```py
-def world():
-	print('World')
+class Kaffeemaschine:
+    def __init__(self, marke, anzahl):
+        self.marke = marke
+        self.anzahl = anzahl
+    
+    def Zustand(self):
+        print(f"Ich bin eine {self.marke} Maschine")
+        print(f"Es sind noch {self.anzahl} Kaffee(s) verfügbar")
+    
+    def Bestellen(self, anzahl):
+        self.anzahl -= anzahl
 ```
+
+ℹ️ Wir haben hier den Bauplan für eine Kaffeemaschine. Nun können wir beliebig viele Kaffeemaschinen erstellen.
 
 ---
 
-### Modul importieren
+### Objekt instanzieren
 
-🎬 Aktualisieren Sie `Hello.py` mit diesem Inhalt und führen Sie das Skript aus.
+Nun erstellen wir anhand des Bauplans eine Kaffeemaschine.
+
+🎬 Fügen Sie diesen Code an:
 
 ```py
-import lib
+# Instanzieren
+kaffeemaschine = Kaffeemaschine('Nespresso', 3)
 
-msg = "Hello "
-print(msg)
-lib.world()
+# Methoden aufrufen
+kaffeemaschine.Bestellen(2)
+kaffeemaschine.Zustand()
 ```
-
-ℹ️ Sie haben die Funktion `world` aus dem Modul `lib` geladen.
 
 ---
 
-### Modul mit mehreren Funktionen
+### Lebenszyklus eines Objekts
 
-Dasselbe funktioniert für mehrere Funktionen.
+1. Objekt instanzieren
+	1. Konstruktor `__init__` aufrufen
+2. Objektmethoden aufrufen
+3. Objekt löschen (Progamm Ende)
 
-🎬 Aktualisieren Sie `lib.py` mit diesem Inhalt:
+---
+
+### Initialisierung / Konstruktor
+
+Die Initialisierung übernimmt der Konstruktor. Der Konstruktor ist eine Funktion mit dem Namen `__init__`.
 
 ```py
-def world():
-    print('World')
-
-def hello():
-    print('Hello')
+def __init__(self, marke, anzahl):
 ```
-
-ℹ️ Sie können Klassen auf dieselbe art in einem Modul bereitstellen.
 
 ---
 
-### Nur Funktionen/Klassen importieren
+### Selbstbezug / Instanzvariablen
 
-🎬 Und so importieren Sie mehre Funktionen in `Hello.py`:
+`self` bezieht sich auf das Objekt (die Instanz) selbst. Die self-Variablen nennt man Instanzvariablen.
 
 ```py
-from lib import world,hello
-
-hello()
-world()
+self.marke = marke
+self.anzahl = anzahl
 ```
 
 ---
 
-### Mehrere Module bündeln
+### Interaktion / Methoden
 
-Mehre Module können in einem Paket-Ordner gebündelt werden.
-
-🎬 Erstellen Sie im Projektordner ein Ordner `paket` mit zwei Dateien:
-
-**paket/hello.py**
+Mittels Methoden interagiert man mit dem Objekt.
 
 ```py
-def hello():
-	return 'Hello '
+def Zustand(self):
+	print(f"Ich bin eine {self.marke} Maschine")
+	print(f"Es sind noch {self.anzahl} Kaffee(s) verfügbar")
+
+def Bestellen(self, anzahl):
+	self.anzahl -= anzahl
 ```
-
-**paket/world.py**
-
-```py
-def world():
-	return 'World!'
-```
-
-**paket/__init__.py**
-
-Datei leer lassen.
-
----
-
-### Module aus Bündel importieren
-
-🎬 Erstellen Sie eine neue Datei `main.py` mit diesem Inhalt:
-
-```py
-from paket import hello, world
-
-print(hello.hello(), world.world())
-```
-
----
-
-### Pakete, Module und mehr
-
-Python-Pakete beinhalten Module und Module beinhalten Funktionen, Klassen oder weitere Python-Module.
-
-Mit dem modularen Ansatz können komplexe Projektstrukturen erzeugt werden.
-
-![](../complex-project.png)
-
----
-
-### Python-Pakete
-
-Bis anhin haben wir nur vorhandene Python-Pakete verwenden. Zusätzliche Python-Pakete können vom Internet mit dem Python-Packet-Manager `pip` installiert werden.
-
----
-
-### pip-Erweiterung in VSCode installieren
-
-Es gibt für alles eine VSCode-Erweiterung, so auch für pip.
-
-🎬 Installieren Sie die Erweiterung *Pip Manager* mit VSCode:
-
-![vscode-pip](../vscode-pip.gif)
-
-🎬 Installieren Sie die Erweiterung  [`cowsay`](https://pypi.org/project/cowsay/) mit *Pip Manager*.
-
----
-
-### Alternative Installation mit Terminal
-
-Wir möchten das Python-Paket [`cowsay`](https://pypi.org/project/cowsay/) mit dem Terminal installieren.
-
-🎬 Öffnen Sie das Terminal in VSCode und führen Sie den Befehl `pip install cowsay` aus.
-
-![](../pip-install-cowsay.png)
-
----
-
-### Python-Paket importieren
-
-🎬 Erweitern Sie `main.py` mit:
-
-```py
-import cowsay
-cowsay.cow('pip is great.')
-```
-
-Und führen Sie das Programm aus.
-
-![](../cowsay.png)
-
----
-
-### Installationsort der Pakete
-
-Wo Pakete von pip instaliert werden, kann je nach Entwicklungsumgebung unterschiedlich sein. Mit dem Befehl `pip show cowsay` zeigt pip wo genau das Paket installiert wurde.
-
-![](../pip-location.png)
 
 ---
 
@@ -283,6 +141,172 @@ Lösen Sie die ersten zwei Aufgaben.
 
 ⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 10 Minuten
 
-Ziel: Aufgabe 7.1 und 7.2 gelöst.
+Ziel: Aufgabe 5.5.1 und 5.5.2 gelöst.
+
+---
+
+### Bestehende Python-Klassen
+
+Sie haben bereits bestehende Python-Klassen verwendet. Beispielsweise die Klasse `date`.
+
+```py
+from datetime import date
+today = date.today()  
+```
+
+Dazu der [Klassen-Code in der Python-Bibliothek](https://github.com/python/cpython/blob/86d18019e96167c5ab6f5157fa90598202849904/Lib/datetime.py#L762).
+
+---
+
+### Klassen- und Instanzvariablen
+
+Man unterscheidet zwischen Klassen- und Instanvariablen.
+
+**Instanzvariablen**:  Alle Variablen, denen `self` vorangestellt wird, sind Instanzvariablen.
+
+**Klassenvariablen**: Variablen, die auf Klassenebene definiert werden, gehören zur Klasse, nicht zu einzelnen Objekten
+
+---
+
+### Beispiel Klassen- und Instanzvariablen
+
+```py
+class MyClass():  
+    magicNumber = 42 # Klassenvariable
+    def __init__(self, somedata, otherdata):
+        somevar = 123 # lokale Variable
+        self.data = somedata # Instanzvariablen
+        self.other = otherdata
+```
+
+ℹ️ Attribute ist ein Sammelbegriff für Variablen und Methoden von Klassen bzw. Objekten.
+
+---
+
+### Dekoratoren
+
+Dekoratoren werden mit `@` eingeleitet und dienen als Zusatzattribute für Funktionen, Methoden oder Klassen. Sie können die Intention von Code verdeutlichen und Informationen an den Python-Interpreter bzw. -Compiler weitergeben.
+
+```
+@hello
+def name():                                                                                                 
+    print("Alice")  
+```
+
+---
+
+### Beispiel Dekoraten
+
+🎬  Erstellen Sie eine Datei `Dekoraten.py`, fügen Sie den Code von unten ein.
+
+```py
+# Dekoraten-Funktion
+def hello(func):                                                                                            
+    def inner():                                                                                            
+        print("Hello ")                                                                                     
+        func()                                                                                              
+    return inner                                                                                 
+
+# Funktion wird mit Dekorator erweitert
+@hello
+def name():                                                                                                 
+    print("Alice")                                                                                          
+                                                                                                                                                                                
+name()
+```
+
+ℹ️ Durch das "dekorieren" einer Methode ändert man die "Wirkung".
+
+---
+
+### Getter- und Setter-Methoden
+
+Der Konstruktor wird nur einmal ausgeführt. Bestimmte Variabeln kann man nicht mehr ändern. Mit Getter- und Setter-Methoden ermöglicht man den Zugriff auf diese Variablen.
+
+```py
+class Kaffeemaschine:
+    def __init__(self, name):
+        self._name = name
+    
+    @property
+    def name(self):
+        return self._name
+    
+    @name.setter
+    def name(self, name):
+        self._name = name
+```
+
+ℹ️ Offensichtlich kommen hier Dekoratoren zum Einsatz.
+
+---
+
+### Beispiel Getter und Setter
+
+🎬  Erstellen Sie eine Datei `Getter-Setter.py` und instanzieren Sie die Klasse von vorhin wie folgt:
+
+```py
+maschine = Kaffeemaschine("Jura")
+print(maschine.name)
+maschine.name = "Gaccia"
+print(maschine.name)
+```
+
+---
+
+### Vererbung
+
+Dieses Thema werden wir nur anschneiden.
+
+Klassen können vererbt werden. Das heisst Sie erhalten einen neuen Namen und zusätzliche Attribute.
+
+![](../vererbung-tier.png)
+
+---
+
+### Beispiel Vererbung
+
+In der Definition der Klasse kann die darüberliegende Superklasse angegeben werden. Bei der Initialisierung ruft man den Konstruktor der Superklasse auf.
+
+```py
+class Tier():
+    def __init__(self, name, farbe, alter):
+        self.rufname = name
+        self.farbe   = farbe
+        self.alter   = alter
+
+class Katze(Tier): # Katze ist ein Tier
+    def __init__(self, rufname, farbe, alter):
+        super().__init__(rufname, farbe, alter) # Aufruf Konstruktor von Tier
+
+katze = Katze("Sammy", "orange", 3)
+print(katze.farbe)
+```
+
+---
+
+### Hierarchie
+
+Beim Vererben der Klassen entsteht eine Hierarchie.
+
+![](../hierarchie.png)
+
+---
+
+### Aufgaben 2
+
+Lösen Sie die nächsten zwei Aufgaben.
+
+⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 10 Minuten
+
+Ziel: Aufgabe 5.5.3 und 5.5.4 gelöst.
+
+---
+
+### Abschluss
+
+Ich hoffe das war nicht viel! Nun habt ihr die wichtigsten Element der Programmierung mit Python gelernt.
+
+Jetzt heisst es anwenden!
 
 ---

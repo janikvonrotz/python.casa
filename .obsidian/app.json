@@ -7,8 +7,9 @@
   "trashOption": "local",
   "showUnsupportedFiles": true,
   "legacyEditor": false,
-  "livePreview": true,
+  "livePreview": false,
   "spellcheckLanguages": [
     "de"
-  ]
+  ],
+  "showInlineTitle": false
 }

@@ -1,8 +1,8 @@
-# Thema 10 - Versionskontrolle mit Git
+# Thema 10 - Datenbanken
 
-Umfang ⏱️: 2 Lektionen
+Umfang ⏱️: 3 Lektionen
 
-[Alle Unterlagen anzeigen](https://github.com/janikvonrotz/python.casa/tree/main/topic-10)
+[Alle Unterlagen anzeigen](https://github.com/janikvonrotz/python.casa/tree/main/topic-7-5)
 
 ## [Slides](slides.md)
 

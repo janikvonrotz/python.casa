@@ -37,8 +37,7 @@ Wichtige Punkte zur Gestatlung des Unterrichts:
 
 ## Resourcen
 
-Ressourcen für die Unterrichtsgestaltung.
-
+Ressourcen für die Unterrichtsgestaltung:
 * [Einführung ins Programmieren mit Python](https://pythonbuch.com)
 * [Interaktiv Python-Code ausführen](https://trinket.io/)
 * [W3Schools - Python Tutorial](https://www.w3schools.com/python)

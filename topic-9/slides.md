@@ -1,350 +1,271 @@
-## Webapplikation mit Python Flask
+## Module und Import
 
-[Thema 9](./README.md)
+[◀️ Thema 9](README.md)
 
 ⚡[Anwesenheit bestätigen](https://moodle.medizintechnik-hf.ch/mod/attendance/manage.php?id=6139)
 
----
-
-### Was ist eine Webapplikation?
-
-* Applikation im Browser
-* Verwendet HTML, CSS und JavaScript
-* Keine Installation auf Client
+📖 Kapitel 12 Module
 
 ---
 
-### 3-Tier Architektur
+### Python-Module
 
-Die Architektur von Webapps in 3 Schichten:
+ Die `import` Anweisung importiert Code aus der Python-Bibliothek.
 
-1. Präsentation (Client)
-2. Logik (Anwendung)
-3. Datenhaltung (Datenbank)
+ Sie importieren damit Python-Module.
 
----
-
-### Was ist Python Flask?
-
-[Python Flask](https://flask.palletsprojects.com/)  ist eine Framework zur Entwicklung von Webapplikation mit Python.
+ Dieser modulare Ansatz von Python schauen wir uns genauer an.
 
 ---
 
-### Architektur Flask
+### Python-Module auflisten
 
-Für Python Flask sieht die Architektur so aus:
+Welche Python-Module sind vorhanden?
 
-![webapp-architecture](../webapp-architecture.svg)
+🎬 In der Python-Konsole geben Sie den Befehl `help('modules')` ein und erhalten so eine Liste der verfügbaren Module.
+
+🎬 Details zu den Modulen erhalten Sie beispielsweise mit `help('glob')`.
 
 ---
 
-### VSCode vorbereiten
+### VSCode Python-Erweiterung installieren
+
+Visual Studio Code (VSCode) unterstützt verschiedene Programmiersprachen. Damit Python verwendet werden kann, muss eine Erweiterung installiert werden.
+
+🎬 Installieren Sie die [Python extension for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=ms-python.python).
+
+Je nach dem müssen Sie noch [Python](https://www.python.org/downloads/) installieren.
+
+---
+
+### Projektordner erstellen
+
+VSCode stellt nicht nur einzelne Dateien dar, sondern ganze Verzeichnisse.
 
 🎬 Führen Sie diese Aktionen aus:
-* Neuer Ordner `Thema 9` erstellen
+* Neuer Ordner `Thema7` erstellen
 * Ordner mit VSCode öffnen
-* Datei `db.py` anlegen
----
-
-### Flask installieren
-
-🎬 Installieren Sie das Package `flask` mit dem *Pip Manager*.
-
-![](../vscode-install-flask.png)
 
 ---
 
-### Datenbank erstellen
+### Ordner mit VSCode öffnen
 
-🎬 Ergänzen Sie `db.py` und führen Sie das Skript aus.
+Wenn Sie VSCode starten, können Sie die Aktion *Open Folder...* anwählen.
 
-```python
-import sqlite3
-connection = sqlite3.connect('lager.db')
-sql = """CREATE TABLE lager(
-    id INTEGER PRIMARY KEY,
-    name TEXT,
-    referenz TEXT,
-    barcode TEXT,
-    lager INTEGER,
-    preis REAL)"""
-connection.execute(sql)
-connection.close()
+![](../vscode-start.png)
+
+---
+
+### Hello.py erstellen
+
+🎬 Erstellen Sie im Ordner die Datei `Hello.py`
+
+```
+msg = "Hello World"
+print(msg)
+```
+
+In VSCode sollte das so aussehen:
+
+![](../vscode-hello.png)
+
+
+---
+
+### Python Interpreter bestimmen
+
+Stellen Sie sicher, dass VSCode den Python-Interpreter erkannt hat (siehe blaube Leiste).
+
+![](../vscode-python.png)
+
+---
+
+### Python-Code ausführen
+
+🎬 Führen Sie das Skript `Hello.py` mit dem dem *Run*-Knopf oben rechts aus.
+
+![](../vscode-execute.png)
+
+Der Output des Skript wird im *Terminal* angezeigt.
+
+---
+
+### Linx-Probleme beheben
+
+Falls Sie ein Linux-Computer haben, kann es gut sein, dass Sie eine andere Shell verwenden müssen.
+
+![](../vscode-linux-shell.png)
+
+---
+
+### Wichtige Tastaturkürzel
+
+Mit der Tastatur ist man immer schneller.
+
+<kbd>ctrl</kbd>+ <kbd>shift</kbd> + <kbd>p</kbd>: VSCode-Befehle aufrufen
+
+<kbd>ctrl</kbd> + <kbd>p</kbd>: Datei anzeigen
+
+<kbd>ctrl</kbd> + <kbd>,</kbd>: Einstellungen öffnen
+
+---
+
+### Modul mit Funktion erstellen
+
+Nun erstellen wir unser erstes Python-Modul.
+
+🎬 Erzeugen Sie die Datei `lib.py` im geöffneten Ordner mit diesem Code:
+
+```py
+def world():
+	print('World')
 ```
 
 ---
 
-### Templates erstellen
+### Modul importieren
 
-🎬 Erstellen seinen Ordner `templates` mit diesen leeren Dateien:
-* `index.html`
-* `layout.html`
-* `list.html`
-* `submit.html`
+🎬 Aktualisieren Sie `Hello.py` mit diesem Inhalt und führen Sie das Skript aus.
 
-![](../topic-9-folders.png)
+```py
+import lib
 
----
-
-### Was ist ein Template?
-
-Python Flask verwendet [Jinja](https://jinja.palletsprojects.com) als *Template Engine*. Eine Template Engine macht folgendes:
-
-![](../template-engine.png)
-Wir verwenden Jinja um die Ansicht der Webapp zu generieren.
-
----
-
-### Layout Template erstellen
-
-🎬 Füllen Sie das `layout.html` mit diesem Inhalt aus:
-
-```html
-<!doctype html>
-<html>
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Webapplikation Lager</title>
-    <link rel="stylesheet" href="https://fonts.xz.style/serve/inter.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css">
-</head>
-
-<body>
-    <header>
-        <h1>Webapplikation Lager</h1>
-        <nav>
-            <a href="/">Home</a>
-        </nav>
-    </header>
-
-    {% block content %}{% endblock %}
-</body>
-
-</html>
+msg = "Hello "
+print(msg)
+lib.world()
 ```
 
-Es handelt sich hierbei um ein einfaches HTML-Dokument. Sie können die Datei `layout.html` im Browser öffnen.
-
---- 
-
-### Jinja Blockelemente
-
-Ihnen ist sicher der Inhalt `{% block content %}{% endblock %}` aufgefallen. Alles was mit `{%` oder `{{` beginnt und mit `%}` oder `}}` endet sind Jinja-Variablen. Damit steuern Sie die Verarbeitungslogik der Daten.
+ℹ️ Sie haben die Funktion `world` aus dem Modul `lib` geladen.
 
 ---
 
-### Index Template erstellen
+### Modul mit mehreren Funktionen
 
-🎬 Füllen Sie das `index.html` mit diesem Inhalt aus:
+Dasselbe funktioniert für mehrere Funktionen.
 
-```html
-{% extends "layout.html" %}
-{% block content %}
-<h1>Aktionen</h1>
-<p><a href="/insert">Produkt hinzufügen</a></p>
-<p><a href="/list">Produkte auflisten</a></p>
-{% endblock %}
+🎬 Aktualisieren Sie `lib.py` mit diesem Inhalt:
+
+```py
+def world():
+    print('World')
+
+def hello():
+    print('Hello')
 ```
 
-Dieses Template verwendet das `layout.html` als Vorlage.
+ℹ️ Sie können Klassen auf dieselbe art in einem Modul bereitstellen.
 
 ---
 
-### List Template erstellen
+### Nur Funktionen/Klassen importieren
 
-🎬 Füllen Sie das `list.html` mit diesem Inhalt aus:
+🎬 Und so importieren Sie mehre Funktionen in `Hello.py`:
 
-```html
-{% extends "layout.html" %}
-{% block content %}
-<h1>Produktliste</h1>
-<table>
-  <thead>
-    <td>ID</td>
-    <td>Name</td>
-    <td>Referenz</td>
-    <td>Barcode</td>
-    <td>Lager</td>
-    <td>Preis</td>
-  </thead>
-  {% for row in data %}
-  <tr>
-    <td>{{row[0]}}</td>
-    <td>{{row[1]}}</td>
-    <td>{{row[2]}}</td>
-    <td>{{row[3]}}</td>
-    <td>{{row[4]}}</td>
-    <td>{{row[5]}}</td>
-  </tr>
-  {% endfor %}
-</table>
-{% endblock %}
+```py
+from lib import world,hello
+
+hello()
+world()
 ```
 
-Damit werden die Inhalte aus der Datenbank in einer Tabelle aufgelistet.
-
 ---
 
-### Submit Template erstellen
+### Mehrere Module bündeln
 
-🎬 Füllen Sie das `submit.html` mit diesem Inhalt aus:
+Mehre Module können in einem Paket-Ordner gebündelt werden.
 
-```html
-{% extends "layout.html" %}
-{% block content %}
-<h1>Produkt hinzufügen</h1>
-{% if message %}
-<blockquote>
-    Nachricht: {{ message }}
-</blockquote>
-{% endif %}
-<form action="{{ url_for('insert') }}" method="POST">
-    <fieldset>
-        <label for="name">Name:</label>
-        <input required type="text" name="name"/><br><br>
-        <label for="referenz">Referenz:</label>
-        <input required type="text" name="referenz"/><br><br>
-        <label for="barcode">Barcode:</label>
-        <input required type="text" name="barcode"/><br><br>
-        <label for="lager">Lager:</label>
-        <input required type="number" name="lager"/><br><br>
-        <label for="preis">Preis:</label>
-        <input required type="number" name="preis"/>
-    </fieldset>
-    <input type="submit" value="submit" />
-</form>
-{% endblock %}
+🎬 Erstellen Sie im Projektordner ein Ordner `paket` mit zwei Dateien:
+
+**paket/hello.py**
+
+```py
+def hello():
+	return 'Hello '
 ```
 
-Mit diesem Formular erstellen Sie neue Inhalte in der Datenbank.
+**paket/world.py**
 
----
-
-### Pause
-
-⚡Wir machen eine Pause ⏱️ 15 Minuten
-
-<iframe src="https://giphy.com/embed/iigcSmBaMUC5FoSUlu" width="280" height="280" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-
----
-
-### Python-Flask App erstellen
-
-🎬 Erstellen Sie die Datei `app.py` mit diesem Inhalt:
-
-```python
-from distutils.log import error
-from flask import Flask, render_template, request, redirect, url_for
-import sqlite3
-app = Flask(__name__)
-
-@app.route('/')
-def index():
-    return render_template('index.html')
-
-@app.route('/insert', methods=['POST', 'GET'])
-def insert():
-    message=""
-    if request.method == 'POST':
-        name = request.form['name']
-        referenz = request.form['referenz']
-        barcode = request.form['barcode']
-        lager = request.form['lager']
-        preis = request.form['preis']
-        connection = sqlite3.connect("lager.db")
-        cursor = connection.cursor()
-        sql = "INSERT INTO lager(name,referenz,barcode,lager,preis) VALUES('%s', '%s', '%s', %s, %s)" % (name,referenz,barcode,lager,preis)
-        print(sql)
-        cursor.execute(sql)
-        connection.commit()
-        connection.close()
-        message="Produkt hinzugefügt."
-    return render_template("submit.html", message=message)
-
-@app.route('/list')
-def list():
-    connection = sqlite3.connect("lager.db")
-    cursor = connection.cursor()
-    sql = "SELECT * FROM lager"
-    cursor.execute(sql)
-    data = cursor.fetchall()
-    print(data)
-    return render_template("list.html", data=data)
-
-if __name__ == '__main__':
-   app.run(debug = True)
+```py
+def world():
+	return 'World!'
 ```
 
-Die Elemente werden nun erläutert.
+**paket/__init__.py**
+
+Datei leer lassen.
 
 ---
 
-### Was ist eine Route?
+### Module aus Bündel importieren
 
-Mit der folgenden Anweisung verbindet Python-Flask die Anfrage des Browser mit einer Antwort.
+🎬 Erstellen Sie eine neue Datei `main.py` mit diesem Inhalt:
 
-```python
-@app.route('/')
-def index():
-    return render_template('index.html')
+```py
+from paket import hello, world
+
+print(hello.hello(), world.world())
 ```
 
-Schickt der Browser ein HTTP-Request für `/` auf wird das Template `index.html` verarbeitet und zurückgegeben.
+---
 
-![http](../http.png)
+### Pakete, Module und mehr
+
+Python-Pakete beinhalten Module und Module beinhalten Funktionen, Klassen oder weitere Python-Module.
+
+Mit dem modularen Ansatz können komplexe Projektstrukturen erzeugt werden.
+
+![](../complex-project.png)
 
 ---
 
-### GET und POST
+### Python-Pakete
 
-Man unterscheidet bei HTTP-Requests zwischen GET und POST. Eine Route kann beides verarbeiten.
+Bis anhin haben wir nur vorhandene Python-Pakete verwenden. Zusätzliche Python-Pakete können vom Internet mit dem Python-Packet-Manager `pip` installiert werden.
 
-```python
-@app.route('/insert', methods=['POST', 'GET'])
-def insert():
+---
+
+### pip-Erweiterung in VSCode installieren
+
+Es gibt für alles eine VSCode-Erweiterung, so auch für pip.
+
+🎬 Installieren Sie die Erweiterung *Pip Manager* mit VSCode:
+
+![vscode-pip](../vscode-pip.gif)
+
+🎬 Installieren Sie die Erweiterung  [`cowsay`](https://pypi.org/project/cowsay/) mit *Pip Manager*.
+
+---
+
+### Alternative Installation mit Terminal
+
+Wir möchten das Python-Paket [`cowsay`](https://pypi.org/project/cowsay/) mit dem Terminal installieren.
+
+🎬 Öffnen Sie das Terminal in VSCode und führen Sie den Befehl `pip install cowsay` aus.
+
+![](../pip-install-cowsay.png)
+
+---
+
+### Python-Paket importieren
+
+🎬 Erweitern Sie `main.py` mit:
+
+```py
+import cowsay
+cowsay.cow('pip is great.')
 ```
 
-Bei GET liefert man ein HTML-Dokument als Antwort und bei POST nimmt man Daten entgegen und verarbeitet diese.
+Und führen Sie das Programm aus.
 
-![http-get-post](../http-get-post.jpeg)
-
----
-
-### Webapp starten
-
-Nun sind wir bereit um die Python Flask Webapplikation zu starten.
-
-🎬 Führen Sie die Datei `app.py` aus.
-
-![](../flask-start.png)
-
-Öffnen Sie die Adresse <http://127.0.0.1:5000/> in ihrem Browser.
+![](../cowsay.png)
 
 ---
 
-### Webserver gestartet
+### Installationsort der Pakete
 
-Wenn Sie folgenden Ausschnitt im Browser sehen, haben Sie erfolgreich einen Python Flask Webserver gestartet und eine Webapplikation bereitgestellt.
+Wo Pakete von pip instaliert werden, kann je nach Entwicklungsumgebung unterschiedlich sein. Mit dem Befehl `pip show cowsay` zeigt pip wo genau das Paket installiert wurde.
 
-![](../flask-server.png)
-
----
-
-### Produkt hinzufügen
-
-🎬 Klicken Sie auf *Produkt hinzufügen*, füllen Sie das Formular aus und klicken auf *submit*
-
-![](../topic-9-add-product.png)
-
----
-
-### Produkte auflisten
-
-🎬 Navigieren Sie auf die Starteseite und wählen Sie *Produkte auflisten*.
-
-Wird das erfasste Produkt angezeigt?
+![](../pip-location.png)
 
 ---
 
@@ -352,12 +273,8 @@ Wird das erfasste Produkt angezeigt?
 
 Lösen Sie die ersten zwei Aufgaben.
 
-⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 30 Minuten
+⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 10 Minuten
 
-Ziel: Aufgabe 9.1 und 9.2 gelöst.
+Ziel: Aufgabe 7.1 und 7.2 gelöst.
 
 ---
-
-### Restliche Zeit
-
-* Arbeit an Leistungsnachweis

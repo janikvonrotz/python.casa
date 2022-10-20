@@ -1,266 +1,233 @@
-# Übungen Thema 5
+# Übungen Thema 4
 
 ## Aufgaben
 
 Aufgaben zum Thema.
 
-### Aufgabe 5.1: Vereinfachen mit Funktion
+### Aufgabe 4.1: Listenkonfusion
 
-Für die Ansage von Zugabfahren wurde ein Programm erstellt.
+Lies das folgende Programm und versuche zu erraten, was die Ausgabe ist. Probiere es anschliessend aus und suche nach einer Erklärung des Verhaltens.
 
 ```py
-print("Der nächste Zug fährt nach Bern.")
-print("Der nächste Zug fährt nach Luzern.")
-print("Der nächste Zug fährt nach Zürch.")
-print("Der nächste Zug fährt nach Genf.")
-print("Der nächste Zug fährt nach Chur.")
+liste_a = ['Hallo', 'schönes', 'Wetter']
+liste_b = liste_a
+
+liste_b[1] = 'schlechtes'
+
+print(liste_a[0], liste_a[1], liste_a[2])  
 ```
 
-Es wird immer der gleiche Satz verwendet, nur der Name des Zuges ändert. Versuchen Sie dieses Programm mit einer Funktion zu vereinfachen.
+Das Verhalten dieses Programms ist der Grund, warum wir uns in Python Variablen nicht als Speicherplätze sondern als Namensschilder für Objekte vorstellen. Kannst du dies erklären?
 
-::: tip
-Erstelle Sie eine Funktion `ansage`, die als Parameter den Ort erhält und rufen Sie die Funktion wie folgt auf:
+### Aufgabe 4.2: Listen verstehen
+
+Speichere die Elemente `'Schwalbe'`, `'Kokosnuss'`, `13`, `'Spam'` und `3.14` in einer Liste mit dem Namen `liste` ab und versuche zu verstehen was die folgenden Methoden machen.
 
 ```py
-ansage("Bern")
-ansage("Luzern")
-ansage("Zürich")
-ansage("Genf")
-ansage("Chur")
+liste[2] = 666
+len(liste)
+liste.append('Ni')
+liste.extend([4, 5, 3.14])
+liste.insert(2, 'Taube')
+liste.count(3.14)
+liste.index(3.14)
+liste.remove(3.14)
+liste.pop()
+liste.reverse()
+sum([1,3,5])
+```
+
+### Aufgabe 4.3: Minimum und Maximum
+
+Schreibe ein Programm, welches vom Benutzer 10 Zahlen einliest und diese in einer Liste speichert. Anschliessend soll das Minimum und das Maximum der Zahlen aus der liste bestimmt und ausgegeben werden.
+
+::: tip
+Die folgenden Elemente sollten weiterhelfen:
+
+```py
+# Eine leere Listeerstellen
+liste = []
+```
+
+```py
+# Zahl eingeben
+zahl = input("Eingabe: ")
+```
+
+```py
+# Schleife von 1 bis 4
+for i in range(1,5):
+    print(i)
+```
+
+```py
+# Kleinste Zahl aus Liste ausgeben
+min([1,3,2])
 ```
 :::
 
-### Aufgabe 5.2: Vereinfachen mit Schleife
+### Aufgabe 4.4: Zoo
 
-Unser Programm kann noch verbessert werden. Erstellen Sie eine Liste der Orte und übergeben Sie diese Parameter an die Ansage-Funktion.
-
-### Aufgabe 5.3: Parameter validieren
-
-Wir möchten sicherstellen, dass die Ansage-Funktion nur Variablen vom Typ `str` verarbeitet. Erstellen Sie eine entsprechende Prüfung vor der Ausgabe.
-
-### Aufgabe 5.4: Quersumme berechnen
-
-Schreibe eine Funktion `quersumme(zahl)`, welche die Quersumme von `zahl` berechnet und zurückgibt.
-
-::: tip
-Wenn man die Zahl in einen String umwandelt kann man Sie in einer Schleife verarbeiten.
-:::
-
-### Aufgabe 5.5: Rekursion auf der Festplatte
-
-Schreiben Sie eine rekursive Funktion, die als Parameter einen Ordnerpfad erwartet und alle Unterordner ausgibt.
-
-::: tip
-Dazu eine Hilfestellung. Das folgende Programm gibt alle Dateien und Ordner unterhalb eines bestimmten Ordnerpfads aus:
+Gegeben ist der folgende Anfang eines Programms:
 
 ```py
-import os
-
-basepath = '/pfad/to/my/directory'
-
-for entry in os.listdir(basepath):
-
-	fullpath = os.path.join(path, entry)
-
-    if os.path.isfile(fullpath):
-        print("Datei: ", entry)
-		
-    if os.path.isdir(fullpath):
-        print("Ordner:", entry)
-```
-:::
-
-### Aufgabe 5.6: Filtern mit Lambda
-
-Kopieren Sie die Datenstruktur von <https://jsonplaceholder.typicode.com/users> nach Python.
-
-![kopieren-daten-jsonplaceholder](../kopieren-daten-jsonplaceholder.gif)
-
-Filter sind alle Benutzer aus der Liste, die eine Telefonnumer haben, die mit einer `1` beginnt. Verwenden Sie dazu eine Lambda-Funktion.
-
-::: tip
-Verwenden Sie die folgende Bausteine:
-
-```py
-print(user.get('email'))
+animals = ["tiger", "mouse", "bird", "python", "elephant", "monkey"]
 ```
 
-```py
-for user in users:
-```
+Ergänze das Programm so, dass für jedes Tier aus der Liste animals der Satz "… ist ein Tier" in der Konsole ausgegeben wird. Benutze dafür die print() Funktion.
 
-```py
-filter(lambda user: user["name"] == "Leanne Graham", data)
-```
+### Aufgabe 4.5: Ohne for-Schleife
 
-```py
-users = list(filter)
-```
-:::
+Schreibe ein Programm, welches alle Zahlen von 1 bis 100 auf den Bildschirm schreibt, ohne dafür eine for-Schleife zu verwenden.
 
-### Aufgabe 5.7: Chart to Code
+### Aufgabe 4.6: Euklid
 
-Schreiben Sie diese Flowchart als Code:
-
-![diagram](../diagram.svg)
-
-### Aufgabe 5.8: Code to Chart
-
-Erstellen Sie einen Flowchart mit [draw.io](https://draw.io) anhand dieses Codes:
-
-```py
-spicyfood = input("Do you like spicy food? True or False?")
-if spicyfood == "True":
-    level = input("How spicy do you like it? hot, very hot, super hot ?")
-    if level == "super hot":
-        print(f"The user likes {level} spicy food!")
-    else:
-        print("The user likes spicy food!")
-if spicyfood == "False":
-    print("The user hates spicy food!")
-```
-
-### Aufgabe 5.9: Hangman
-
-Entwickeln Sie das Spiel *Hangman*. Implementierung Sie dazu folgende Punkte:
-* Zu Finden des Worts hat man 5 Versuche
-* Das zu suchende Wort wird in Grossbuchstaben umgewandelt
-* Der eingegebene Buchstabe wird in Grossbuchstaben umgewandelt
-* Das zu suchende Wort wird als Liste gespeichert
-
-::: tip
-
-Als Anschub haben wir die folgenden Bausteine:
-
-```py
-wort = list("python".upper())
-laenge = len(wort)
-zensiert = list(laenge * '_')
-versuche = 5
-gefunden = []
-gewonnen = False
-```
-
-```py
-if eingabe in wort:
-        gefunden.extend([eingabe])
-```
-
-```py
-while versuche > 0  and not gewonnen:
-    eingabe = input("Geben Sie einen Buchstaben ein: ").upper()
-```
-
-```py
-for i in range(0, laenge):
-	if wort[i] in gefunden:
-		zensiert[i] = wort[i]
-```
-
-```py
-if '_' not in zensiert:
-	gewonnen = True
-	print("Du hast gewonnen!")
-```
-
-```py
-if not gewonnen:
-    print("Du hast verloren!")
-```
-
-```py
-print(f"Treffer! Der aktuelle Stand: {' '.join(zensiert)}.")
-print(f"Deine Treffer: {' '.join(gefunden)}.")
-```
-:::
+Schreibe ein Programm, welches mit `input()` zwei Zahlen vom Benutzer einliest und den grössten gemeinsamen Teiler der beiden Zahlen mit`print()` ausgibt.
+    
+Dazu kannst du den Euklidischen Algorithmus benutzen. Mehr dazu findest du hier: <https://de.wikipedia.org/wiki/Euklidischer_Algorithmus>.
 
 ## Wiederholungsfragen
 
-**W1**: Die in Python vordefinierten Funktionen min und max ermitteln das kleinste bzw. größte Element einer Liste. Programmieren Sie die Funktion minmax, die die beiden entsprechenden Elemente als Tupel zurückgibt – natürlich, ohne auf min und max zurückzugreifen.
+**W1**: Versuchen Sie, drei unterschiedliche Wege zu finden, eine Liste mit den Vielfachen von 7 zu bilden, die kleiner als 100 sind (also [7, 14, ..., 98]).
 
 <details>
-Die triviale Lösung zur Aufgabenstellung greift auf die vorgegebenen min- und max-Funktionen zurück und gibt die beiden Ergebnisse als Tupel zurück:
+Der einfachste und effizienteste Weg, eine Liste mit Vielfachen von 7 kleiner 100 zu generieren, bietet die range-Funktion:
 <pre>
-def minmax(lst):   
-    return min(lst), max(lst)
+lst = list(range(7,100,7))  
+print(lst)  
+  [7, 14, 21, 28, 35, 42, 49, 56, 63, 70, 77, 84, 91, 98]
 </pre>
-Wenn Sie die Funktion selbst implementieren, müssen Sie in einer Schleife alle Elemente der Liste durchlaufen – das ist Ihnen vermutlich klar. Schwierig ist es, Startwerte für die beiden Ergebnisvariablen min und max zu wählen. Sie könnten für min eine sehr große und für max eine sehr kleine Zahl nehmen (min=100000 und max=-100000). Wenn die Liste dann allerdings noch kleinere oder noch größere Werte enthält, erhalten Sie ein falsches Ergebnis.
-Auf der sicheren Seite sind Sie, wenn Sie als Startwerte einfach das jeweils erste Element der Liste verwenden. Wenn Sie Glück haben, ist das schon das Endergebnis. Wenn nicht, werden min bzw. max in der for-Schleife immer wieder korrigiert, bis die beiden Variablen schließlich den kleinsten bzw. größten Wert enthalten.
+Deutlich umständlicher ist es, von einer Liste aller Zahlen zwischen 1 und 100 auszugehen und dann die herauszufiltern, die durch 7 teilbar sind:
 <pre>
-# Beispieldatei minmax.py  
-def minmax(lst):   
-    min = lst[0]   
-    max = lst[0]      
-    for itm in lst:   
-        if itm &lt; min:   
-            min = itm   
-        if itm > max:   
-            max = itm   
-    return (min, max)  # Tupel zurückgeben
+hundred = list(range(1,101))  # [1, 2, ..., 100]  
+lst = list(filter(lambda x: x%7==0, hundred))
+</pre>
+Eine weitere Variante besteht darin, mit den Zahlen von 1 bis 14 zu beginnen und jedes Element mit 7 zu multiplizieren. Im folgenden Beispiel kommt dabei die List-Comprehension-Syntax zur Anwendung.
+<pre>
+fourteen = list(range(1,15))  # [1, 2, ..., 14]  
+lst = [ x*7 for x in fourteen ]
+</pre>
+Zum gleichen Ergebnis kommt list(map(...)) mit der Funktion x*7:
+<pre>
+lst = list(map(lambda x: x*7, fourteen))
 </pre>
 </details>
 
-**W2**: Ein Palindrom ist ein Text, der von vorn und hinten gelesen den gleichen Inhalt hat – z. B. "Lagerregal" oder "Trug Tim eine so helle Hose nie mit Gurt?"". Leer- und Satzzeichen werden dabei ignoriert. Weitere Beispiele finden Sie hier: <https://de.wikipedia.org/wiki/Palindrom>. Schreiben Sie eine Funktion, die testet, ob eine Zeichenkette ein Palindrom ist. Tipp: Verwenden Sie die Funktion str.isalpha, um zu testen, ob ein Zeichen ein Buchstabe ist.
+**W2**: Extrahieren Sie aus der Zeichenkette Hello, World! alle Vokale und verbinden Sie diese zu einer neuen Zeichenkette.
 
 <details>
-Die Lösungsfunktion wandelt die übergebene Zeichenkette zuerst in Kleinbuchstaben um und bildet daraus eine Liste. Aus dieser Liste filtert Sie nun mit isalpha alle Buchstaben heraus und eliminiert so Leer- und Satzzeichen. join bildet aus den verbliebenen Listenelementen wieder eine Zeichenkette. Als Rückgabeergebnis gilt der Test, ob diese Zeichenkette identisch ist mit einer Zeichenkette in umgekehrter Reihenfolge (Slicing-Notation [::-1]).
+Diese Übung ist schon etwas schwieriger! list bildet aus der Zeichenkette eine Liste. list(filter(...)) bildet daraus eine neue Liste, die nur Vokale enthält. Den dabei eingesetzten in-Operator haben Sie bereits im Kapitel 3, »Operatoren«, kennengelernt. join fügt diese Liste wieder zu einer Zeichenkette zusammen.
 <pre>
-# Beispieldatei palindrom.py  
-def palindrom(s):          
-    lst = list(s.lower())  
-    plainlst = filter(str.isalpha, lst)        
-    plain = ''.join(plainlst)     
-    return plain == plain[::-1]
+lst = list('Hello, World!')
+vocals = list(filter(
+  lambda x: x in ('a', 'e', 'i', 'o', 'u'), lst))
+print(vocals)
+  ['e', 'o', 'o']
+result = ''.join(vocals)
+print(result)
+  eoo
+</pre>
+Der obige Code hat den Nachteil, dass er nur für Kleinbuchstaben funktioniert. Dieser Mangel lässt sich beheben, indem Sie im Filterausdruck Großbuchstaben mit lower in Kleinbuchstaben umwandeln:
+<pre>
+vocals = list(filter(
+  lambda x: x.lower() in ('a', 'e', 'i', 'o', 'u'), lst))
 </pre>
 </details>
 
-**W3**: Die Python-Funktion sum(a, b, c) berechnet die Summe aller übergebenen Parameter. Schreiben Sie eine äquivalente Funktion prod, die alle Parameter multipliziert.
+**W3**: Welchen Datentyp verwenden Sie, um Lottozahlen zu speichern?
 
 <details>
-Der entscheidende Punkt bei dieser Aufgabe ist die variable Parameteranzahl, die Sie in der Schreibweise *para realisieren. Innerhalb der Funktion können Sie auf die übergebenen Elemente in Form einer Liste zugreifen. Davon ausgehend gibt es mehrere Lösungsvarianten. Am naheliegendsten ist die Programmierung einer Schleife. Dabei wird der erste Parameter in der lokalen Variablen result gespeichert und in der Folge mit allen weiteren Parametern (Slicing-Notation [:1]) multipliziert.
+Hier gibt es keine eindeutige Antwort: Eine Grundregel bei Lottozahlen ist, dass Sie eindeutig sein müssen. Es darf also keine Zahl mehrfach vorkommen. Aus diesem Grund bieten sich Sets an.
+Oft sollen Lottozahlen aber geordnet dargestellt werden – und das können nur Listen. Die folgenden Zeilen zeigen, wie Sie Lottozahlen zuerst als Set speichern und daraus bei Bedarf eine geordnete Liste machen.
 <pre>
-# Beispieldatei prod.py  
-def prod(*f):  
-    result = f[0]  
-    for factor in f[1:]:  
-        result = result * factor  
-    return result
-</pre>
-»Schöner« wird der Code (zumindest in Python-Denkweise), wenn Sie die reduce-Funktion anwenden. An reduce müssen Sie eine Lambda-Funktion übergeben, die die Multiplikation durchführt:
-<pre>
-from functools import reduce  
-def prod(*f):  
-    if len(f)&lt;2:  
-        return f[0]  
-    else:  
-        return reduce(lambda x, y: x*y, f)
-Auf die Lambda-Funktion können Sie verzichten, wenn Sie wissen, dass Sie alle Python-Operatoren im operator-Modul auch als Funktionen zur Verfügung stehen:
-import operator  
-def prod(*f):  
-    if len(f)&lt;2:  
-        return f[0]  
-    else:  
-        return reduce(operator.mul, f)
+lotto = {34, 12, 25, 26, 3, 40}  
+geordnet = sorted(lotto)  
+print(geordnet)  
+  [3, 12, 25, 26, 34, 40]
 </pre>
 </details>
 
-**W4**: Schreiben Sie eine Funktion, die eine Zeichenkette nach allen Vorkommen einer anderen Zeichenkette durchsucht und die Startpositionen als Liste zurückgibt. Beispiel:
+**W4**: Entfernen Sie die Doppelgänger aus einer Liste von Zahlen, z. B. aus [1, 2, 3, 2, 7, 3, 9]. Die Ergebnisliste soll aufsteigend sortiert sein.
+
+<details>
+Durch die Umwandlung in ein set werden alle Doppelgänger eliminiert. sorted macht aus dem Set eine geordnete Liste.
+<pre>
+lst = [1, 2, 3, 2, 7, 3, 9]  
+result = sorted(set(lst))  
+print(result)  
+  [1, 2, 3, 7, 9]
+</pre>
+</details>
+
+**W5**: Erstellen Sie ein kleines Deutsch-Englisch-Wörterbuch für Zahlen. Beispielsweise soll woerter['eins'] die englische Bezeichnung 'one' liefern.
+
+<details>
+Wie die Aufgabenstellung schon andeutet, ist hier ein Dictionary die optimale Datenstruktur. Beachten Sie aber, dass das Wörterbuch nur in eine Richtung funktioniert! woerter['three'] würde einen Key Error liefern, weil ja ausschließlich deutsche Wörter als Schlüssel verwendet wurden.
+<pre>
+woerter = { 'eins': 'one', 'zwei': 'two', 'drei': 'three'}  
+woerter['zwei']  
+  'two'
+</pre>
+</details>
+
+**W6**: Berechnen Sie die Fakultät der Zahlen von 1 bis 20. (Die Fakultät ist als das Produkt aller Zahlen bis n definiert. Die Fakultät von 6 ist also 1×2×3×4×5×6 = 720.)
+
+<details>
+<pre>
+f = 1  
+for i in range(1, 21):  
+  f = f * i  
+  print('Die Fakultät von', i, 'beträgt', f)
+</pre>
+</details>
+
+**W7**: Berechnen Sie die Summe der Funktion 1/x^2, wenn Sie für x alle Zahlen zwischen 2 und 30 einsetzen.
+
+<details>
+<pre>
+Die Summe von 1/2 + 1/4 + 1/9 + … + 1/900 berechnen Sie z. B. so:
+sum = 0   
+for i in range(2, 31):   
+    sum += 1 / (i*i)
+</pre>
+</details>
+
+**W8**: Was wird bei der Ausführung des folgenden Codes ausgegeben?
 
 ```py
-print(findAll('abcefgabcxyzabcd', 'abc'))
-# Ausgabe: [0, 6, 12]
+for i in range(1, 3):
+    for j in range(i):
+        print(i+j)
 ```
 
 <details>
-findAll sucht zuerst nach dem ersten Vorkommen von pattern in s. Wenn es eines gibt, also pos einen Wert ungleich –1 enthält, wird dieser Wert in der while-Schleife dem Ergebnis hinzugefügt. Danach wird die Suche an der Stelle pos+1 fortgesetzt.
+Das Programm gibt die Zahlen 1, 2 und 3 aus. Die Begründung lautet: In der äußeren Schleife hat i zuerst den Wert 0. Für die innere Schleife gilt nun range(1), was eine Kurzschreibweise für range(0, 1) ist. Da die obere Schranke exklusiv, wird die Schleife nur einmal mit j=0 ausgeführt. Das führt zur Ausgabe 1.
+In der äußeren Schleife erhält i nun den Wert 2. Die j-Schleife durchläuft mit range(2) (entspricht range(0, 2)) die Werte 0 und 1. Damit werden die Zahlen 2 und 3 ausgegeben.
+</details>
+
+**W9**: Schreiben Sie eine while-Schleife, die in 5er-Schritten von 100 bis 0 zählt.
+
+<details>
 <pre>
-# Beispieldatei findall.py  
-def findAll(s, pattern):  
-    matches = []  
-    pos = s.find(pattern)  
-    while pos != -1:  
-        matches += [pos]  
-        pos = s.find(pattern, pos+1)  
-    return matches
+i=100  
+while i>=0:  
+  print(i)  
+  i-=5
+</pre>
+</details>
+
+**W10**: Formulieren Sie eine Schleife, um den Wertebereich zwischen 125 und 160 in elf Schritten zu durchlaufen. Das Programm soll alle elf Zahlen ausgeben, beginnend mit 125,0 und endend mit 160,0.
+
+<details>
+Der Lösungscode beginnt mit der Definition von vier Variablen: min und max legen die obere und untere Grenze des Zahlenbereichs fest. nmax bestimmt die Anzahl der Schleifendurchläufe. delta gibt an, wie stark sich die Zielvariable x mit jedem Durchlauf ändern soll. In der Schleife durchläuft i die Werte von 0 bis einschließlich nmax.
+<pre>
+min = 125.0  
+max = 160.0  
+nmax = 11    
+delta = (max - min) / (nmax - 1)  
+for i in range(nmax):  
+  x = min + delta * i  
+  print(x)  
+# Ausgabe: 125.0  128.5 132.0 135.5 ... 156.5 160.0
 </pre>
 </details>

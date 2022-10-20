@@ -1,6 +1,6 @@
 # Über diesen Kurs
 
-[Thema 0](./README.md)
+[◀️Thema 0](./README.md)
 
 ---
 ### Wer bin ich?
@@ -15,7 +15,7 @@
 ### Geschäftlich
 
 * <https://www.mint-system.ch/>
-* Softwwareentwicklung mit Python für ERP-System Odoo
+* Softwareentwicklung mit Python für ERP-System Odoo
 * Die Brücke zwischen Technik und Geschäft schlagen
 
 ---
@@ -31,8 +31,7 @@
 
 * Interesse an Erwachsenenbildung
 * Ideen und Konzepte vermitteln
-* Verständnis für komplexe IT fördern
-* [Systemtheorie](https://de.wikipedia.org/wiki/Systemtheorie)
+* IT-Themen vereinfachen
 
 ---
 ### Ziele
@@ -46,8 +45,8 @@
 ### Erwartungen
 
 * Bereitschaft zum Probieren
-* Webcam always on
-* Anwesenheit [hier](https://moodle.medizintechnik-hf.ch/mod/attendance/manage.php?id=4479) eintragen
+* Aufmerksam im Unterricht
+* Anwesenheit ist immer eingetragen
 
 ---
 ### Unterlagen
@@ -57,11 +56,12 @@ Ihr findet alles unter <https://python.casa/>.
 [![](../buch.png)](https://kofler.info/buecher/python/)
 
 ---
-### Leistungsnachweis
+### Prüfungen
 
-* "Proof of Knowledge"
-* "Proof of Work"
-* Details unter [Prüfung](exam.md)
+* 2 Wissensprüfungen
+* 1 Leistungsnachweis
+* 3 Noten
+* Details unter [Prüfungen](exam.md)
 
 ---
 ### Feedback

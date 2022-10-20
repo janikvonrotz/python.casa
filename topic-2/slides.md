@@ -1,6 +1,6 @@
-v## Variablen und Datentypen
+## Variablen und Datentypen
 
-[Thema 2](./README.md)
+[◀️ Thema 2](./README.md)
 
 ⚡[Anwesenheit bestätigen](https://moodle.medizintechnik-hf.ch/mod/attendance/manage.php?id=6139)
 
