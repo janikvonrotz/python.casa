@@ -8,7 +8,7 @@ Aufgaben zum Thema.
 
 Erstellen Sie ein Programm, dass als erstes `Hello` und anschliessend `World!` ausgiebt. Speichern Sie die Datei als `Hello_World.py` ab.
 
-⭐ [Hello_World.py](Hello_World.py)
+⭐ [Hello_World.py](https://github.com/janikvonrotz/python.casa/blob/main/topic-1/Hello_World.py)
 
 ### Aufgabe 1.2: Input and Output
 
@@ -20,7 +20,7 @@ Erstellen Sie ein Programm, das nach ihrem Namen fragt und diesen in Grossbuchst
 Setzen Sie nach `name` die folgende Funktion an `.upper()`. 
 :::
 
-⭐ [Hello_World.py](InputOutput.py)
+⭐ [InputOutput.py](https://github.com/janikvonrotz/python.casa/blob/main/topic-1/InputOutput.py)
 
 ### Aufgabe 1.3: Kommentieren
 
