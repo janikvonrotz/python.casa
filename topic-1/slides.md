@@ -201,6 +201,15 @@ IDE=Integrierte Entwicklungsumgebung
 Ziel: Jeder kann die IDE starten.
 
 ---
+
+### Ordnern öffnen
+
+🎬 Folgende Aktionen ausführen:
+* Starten Sie die IDE
+* Wählen Sie *Datei > Ordner öffnen...*
+* Suchen wählen Sie den Ordner `Thema1` aus.
+
+---
 ### Skript öffnen
 
 🎬 Folgende Aktionen ausführen:
@@ -254,7 +263,8 @@ Anweisungen müssen eingeruckt sein.
 ---
 ### Input
 
-Eingabe des Benutzers empfangen und ausgeben.
+Eingabe des Benutzname = input('Geben Sie Ihren Namen an:')
+print('Ihr Name lautet:', name)ers empfangen und ausgeben.
 
 ```py
 name = input('Geben Sie Ihren Namen an:')
@@ -278,7 +288,7 @@ Lösen Sie die Aufgaben und besprechen Sie die Wiederholungsfragen.
 
 ⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 10 Minuten
 
-Ziel: [Aufgabe](./excercise.md) 1.1 gelöst.
+Ziel: [Aufgabe](./excercise.md#aufgaben) 1.1 gelöst.
 
 ---
 ### Review
@@ -302,7 +312,7 @@ Wir haben noch Zeit für:
 
 * Besprechung von Aufgaben und Wiederholungsfragen
 * Fragen zum Thema
-* Direkte Unterstützung Studierende
+* Direkte Unterstützung
 
 ---
 ### Quellen
