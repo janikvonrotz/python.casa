@@ -8,7 +8,7 @@ Aufgaben zum Thema.
 
 Erstellen Sie ein Programm, dass als erstes `Hello` und anschliessend `World!` ausgiebt. Speichern Sie die Datei als `Hello_World.py` ab.
 
-⭐ [Hello_World.py](./Hello_World.py)
+⭐ [Hello_World.py](Hello_World.py)
 
 ### Aufgabe 1.2: Input and Output
 
