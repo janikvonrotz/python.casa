@@ -18,9 +18,13 @@ from random import uniform
 ```
 :::
 
+⭐ [Zufall.py](https://github.com/janikvonrotz/python.casa/blob/main/topic-2/Zufall.py)
+
 ### Aufgabe 2.2: Runden
 
 Runden Sie die generierte Zahl auf 3 Stellen nach dem Komma.
+
+⭐ [Runden.py](https://github.com/janikvonrotz/python.casa/blob/main/topic-2/Runden.py)
 
 ### Aufgabe 2.3: Modulo
 
@@ -29,6 +33,8 @@ Fragen Sie den Benutzer nach einer ersten und einer zweiten Zahl. Geben Sie den 
 ::: warning
 Wenn die Heap-Ansicht noch aktiviert ist, kann es sein, das Python nicht den Wert der Zahl liefert, sondern deren Referenz. Deaktivieren Sie die Heap-Ansicht um sicher zu gehen.
 :::
+
+⭐ [Modulo.py](https://github.com/janikvonrotz/python.casa/blob/main/topic-2/Modulo.py)
 
 ### Aufgabe 2.4: Ungleich
 

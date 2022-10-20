@@ -13,10 +13,18 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "topic-1/excercise.md",
+                "file": "😉 Emojis.md",
                 "mode": "source",
                 "source": true
               }
+            }
+          },
+          {
+            "id": "b48654d1d4675663",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -38,7 +46,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Ziel: Aufgabe",
+                "query": "🚧",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -57,8 +65,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -78,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "topic-1/excercise.md",
+                "file": "😉 Emojis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +102,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "topic-1/excercise.md"
+                "file": "😉 Emojis.md"
               }
             }
           },
@@ -118,15 +125,15 @@
   },
   "active": "a26bd85603505e0e",
   "lastOpenFiles": [
-    "topic-1/slides.md",
+    "topic-8/archive.md",
     "topic-2/slides.md",
-    "topic-1/excercise.md",
-    "topic-1/README.md",
-    "exam.md",
-    "firefox-save-page-as.png",
     "README.md",
-    "topic-9/README.md",
-    "topic-9/slides.md",
-    "windows-python-installer-path.png"
+    "topic-3/excercise.md",
+    "exam2.md",
+    "topic-2/README.md",
+    "topic-2/excercise.md",
+    "topic-2/archive.md",
+    "topic-1/excercise.md",
+    "topic-1/slides.md"
   ]
 }

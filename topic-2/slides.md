@@ -44,7 +44,6 @@ b = 'abc'
 ---
 ### Gültige Variablennamen 🚧
 
-
 ```
 
 ```

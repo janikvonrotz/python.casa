@@ -26,6 +26,8 @@ Setzen Sie nach `name` die folgende Funktion an `.upper()`.
 
 Fügen Sie zu jeder Anweisung des Programs aus Aufgabe 1 einen Kommentar hinzu.
 
+⭐ [Kommentar.py](https://github.com/janikvonrotz/python.casa/blob/main/topic-1/Kommentar.py)
+
 ## Wiederholungsfragen
 
 Wiederholungsfragen zum Thema.
