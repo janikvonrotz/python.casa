@@ -37,7 +37,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "topic-1/archive.md",
+                "file": "timetable.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "daa04a5fd71a5c46",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "topic-1/README.md",
                 "mode": "source",
                 "source": true
               }
@@ -56,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -99,7 +111,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 510.5
+    "width": 347.5
   },
   "right": {
     "id": "23c06486c0583ed2",
@@ -115,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "topic-1/archive.md",
+                "file": "topic-1/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "topic-1/archive.md"
+                "file": "topic-1/README.md"
               }
             }
           },
@@ -144,27 +156,26 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 575.5
+    "width": 321.5
   },
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "14331c4954c485b7",
+  "active": "daa04a5fd71a5c46",
   "lastOpenFiles": [
-    "topic-2/archive.md",
-    "topic-1/archive.md",
     "topic-1/slides.md",
+    "😉 Emojis.md",
+    "linux-python-shell.png",
+    "cmd-python.png",
+    "history-of-programming-languages.png",
     "topic-1/README.md",
-    "timetable.md",
-    "topic-2/README.md",
-    "topic-2/slides.md",
-    "topic-3/slides.md",
-    "topic-3/README.md",
-    "topic-1/excercise.md"
+    "README.md",
+    "topic-0/README.md",
+    "topic-0/slides.md",
+    "topic-2/README.md"
   ]
 }

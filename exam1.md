@@ -2,7 +2,7 @@
 
 Ziel: Die Stundierenden verstehen die elemmentaren Bausteine der Programmierung und können die Python-Programmiersprache lesen und interpretieren.
 
-Aufwand: 45 Minuten\
+Dauer: 45 Minuten\
 Anteil Gesamtnote: 15%
 
 ## Abgrenzung

@@ -14,8 +14,8 @@
 ---
 ### Geschäftlich
 
-* <https://www.mint-system.ch/>
-* Softwareentwicklung mit Python für ERP-System Odoo
+*  <https://www.mint-system.ch/>
+* Softwareentwicklung mit Python für das ERP-System Odoo
 * Die Brücke zwischen Technik und Geschäft schlagen
 
 ---
@@ -23,15 +23,14 @@
 
 * Open Source Software
 * [CH Open](https://www.ch-open.ch/)
-* [engage.ch](https://www.engage.ch)
-* [Civic Tech](https://www.demokratie-toolbox.ch/)
+* [Odoo Community Association](https://odoo-community.org/)
 
 ---
 ### Warum unterrichte ich?
 
-* Interesse an Erwachsenenbildung
+* Alles wird digitalisiert -> Wir brauchen Kontrolle
 * Ideen und Konzepte vermitteln
-* IT-Themen vereinfachen
+* Digitale Themen vereinfachen
 
 ---
 ### Ziele
@@ -46,7 +45,7 @@
 
 * Bereitschaft zum Probieren
 * Aufmerksam im Unterricht
-* Anwesenheit ist immer eingetragen
+* Anwesenheit ist geregelt
 
 ---
 ### Unterlagen
@@ -66,6 +65,6 @@ Ihr findet alles unter <https://python.casa/>.
 ---
 ### Feedback
 
-Das ist die zweite Durchführung.
+Das ist die dritte Durchführung.
 
 Feedback immer am Ende des Unterrichts oder per mail an <hi@janikv.ch>.

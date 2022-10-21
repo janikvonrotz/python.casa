@@ -17,7 +17,7 @@ Unterrichtsmaterial erstellt von [Janik von Rotz](https://janikvonrotz.ch/).
 
 * [Thema 0 - Über diesen Kurs](topic-0/README.md)
 
-### Teil 1 - Theoretisch
+### Teil 1 - Theorie
 
 * [Thema 1 - Einführung Programmiersprache](topic-1/README.md)
 * [Thema 2 - Variablen und Datentypen](topic-2/README.md)
@@ -28,7 +28,7 @@ Unterrichtsmaterial erstellt von [Janik von Rotz](https://janikvonrotz.ch/).
 * [Thema 7 - Objektorientierte Programmierung](topic-7/README.md)
 * [Thema 8 - Ein- und Ausgabe](topic-8/README.md)
 
-### Teil 2 - Angewandt
+### Teil 2 - Anwendung
 
 * [Thema 9 - Module und Import](topic-9/README.md)
 * [Thema 10 - Datenbanken](topic-10/README.md)

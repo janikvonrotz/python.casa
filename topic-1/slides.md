@@ -20,6 +20,13 @@ Ich kann ...
 ![](../elments-of-computer-system.png)
 
 ---
+### Warum braucht es Programmierung?
+
+Der Computer führt unsere Anweisungen aus. Damit der Computer die Anweisungen versteht, müssen die Anweisungen in einer Programmiersprache verfasst werden.
+
+![](../history-of-programming-languages.png)
+
+---
 ### Begriffe der Programmierung
 
 Umso schwieriger die Begriffe:
@@ -74,6 +81,8 @@ Wir machen unsere erste Schritte in der Python-Shell.
 
 > Keine Angst vor dem Terminal
 
+![](../cmd-python.png)
+
 ---
 ### Terminal starten
 
@@ -90,7 +99,7 @@ Wir starten nun die Python-Shell.
 
 > Wir arbeiten mit Python 3.6 und höher.
 
-Alternativ `C:\Program Files\Python\python.exe` öffnen.
+Alternativ `C:\Program Files\Python\python.exe` öffnen oder nach *Python Shell* suchen und starten.
 
 ---
 ### Anweisung interaktiv ausführen
@@ -100,6 +109,8 @@ Alternativ `C:\Program Files\Python\python.exe` öffnen.
 ```python
 print('Hello, World!')
 ```
+
+![](../linux-python-shell.png)
 
 ---
 ### Anweisung
@@ -213,6 +224,8 @@ Ziel: Jeder kann die IDE starten.
 * Starten Sie die IDE
 * Wählen Sie *Datei > Ordner öffnen...*
 * Suchen wählen Sie den Ordner `Thema1` aus.
+
+🙋 Was ist der Unterschied zwischen Ordner und Arbeitsbereich?
 
 ---
 ### Skript öffnen

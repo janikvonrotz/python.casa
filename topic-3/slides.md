@@ -128,11 +128,9 @@ bool({})
 ---
 ### Aufgaben 1
 
-Lösen Sie die ersten zwei [Aufgaben](excercise.md#aufgaben).
+Lösen Sie die ersten zwei [Aufgaben](excercise.md#aufgaben) 3.1 und 3.2.
 
 ⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 10 Minuten
-
-Ziel: Aufgabe 3.1 und 3.2 gelöst.
 
 ---
 ### Grundregeln Zeichenketten
@@ -382,11 +380,9 @@ print(f'{name} ist {alter:.3} Jahre alt.')
 ---
 ### Aufgaben 2
 
-Lösen Sie die nächsten zwei [Aufgaben](excercise.md#aufgaben).
+Lösen Sie die nächsten zwei [Aufgaben](excercise.md#aufgaben) 3.3 und 3.4.
 
 ⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 10 Minuten
-
-Ziel: Aufgabe 3.3 und 3.4 gelöst.
 
 ---
 ### Review
