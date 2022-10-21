@@ -62,7 +62,7 @@ Umso schwieriger die Begriffe:
 ---
 ### Installation Python
 
-Installation via [Python Download](https://www.python.org/downloads).
+🎬 Installation via [Python Download](https://www.python.org/downloads).
 
 ![](../windows-python-installer-path.png)
 
@@ -183,7 +183,7 @@ Im Unterordner das Terminal starten.
 🎬 Programm in Terminal ausführen 
 
 ```bash
-python ./HelloWorld.py
+python HelloWorld.py
 ```
 
 ℹ️ Unter MacOS und GNU/Linux muss das Programm mit `chmod +x ./HelloWorld.py` ausführbar gemacht werden.
