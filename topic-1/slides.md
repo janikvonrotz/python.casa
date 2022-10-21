@@ -208,7 +208,6 @@ IDE=Integrierte Entwicklungsumgebung
 
 🎬 Folgende Punkte erledigen:
 * Installieren Sie [Visual Studio Code](https://code.visualstudio.com/) auf ihrem Computer
-* Installieren Sie die Python-Extension für Visual Studio Code
 
 Video: [Visual Studio Code installieren](https://www.youtube.com/watch?v=fuM8hJMyDeg)
 
@@ -228,6 +227,21 @@ Ziel: Jeder kann die IDE starten.
 🙋 Was ist der Unterschied zwischen Ordner und Arbeitsbereich?
 
 ---
+### Aufforderungen bestätigen
+
+Die folgenden Aufforderung können Sie bestätigen:
+
+![](../visual-studio-code-trust-author.png)
+
+Diese Aufforderung installiert die Python-Erweiterung von Visual Studio Code:
+
+![](../visual-studio-code-install-python.png)
+
+Diese wird benötigt damit Visual Studio Code die Syntax von Python versteht.
+
+![](../visual-studio-code-python-extension.png)
+
+---
 ### Skript öffnen
 
 🎬 Folgende Aktionen ausführen:
@@ -236,6 +250,10 @@ Ziel: Jeder kann die IDE starten.
 * Das Skript mit der IDE oder dem Terminal ausführen
 
 ![](../vs-code-run-python-file.png)
+
+Output auf Windows:
+
+![](../visual-studio-code-terminal-powershell.png)
 
 ---
 ### Was läuft hier?
