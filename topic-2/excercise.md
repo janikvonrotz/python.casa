@@ -60,7 +60,8 @@ print(a is b) # Ausgabe: False
 
 Warum sind sind die Werte im ersten Fall gleich und im zweiten Fall nicht?
 
-⭐ <details>
+⭐
+<details>
 Der Operator `is` vergleich nicht den Wert wie `==`, sondern die Adresse im RAM-Speicher.
 </details>
 

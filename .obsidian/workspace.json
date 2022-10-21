@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "topic-1/README.md",
+                "file": "topic-2/excercise.md",
                 "mode": "source",
                 "source": true
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "topic-1/README.md",
+                "file": "topic-2/excercise.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "topic-1/README.md"
+                "file": "topic-2/excercise.md"
               }
             }
           },
@@ -167,12 +167,12 @@
   },
   "active": "daa04a5fd71a5c46",
   "lastOpenFiles": [
+    "topic-1/README.md",
     "topic-1/slides.md",
     "😉 Emojis.md",
     "linux-python-shell.png",
     "cmd-python.png",
     "history-of-programming-languages.png",
-    "topic-1/README.md",
     "README.md",
     "topic-0/README.md",
     "topic-0/slides.md",
