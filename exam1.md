@@ -19,7 +19,7 @@ Zur Orientierung werden 5 Beispiele für Augabenstellungen und Wissenfragen zur 
 
 1\. Der folgende Code ist fehlerhaft. Warum? Wie könnte eine Lösung aussehen?
 
-```py
+```python
 n=22.7
 msg='Die Temperatur beträgt ' + n + ' Grad.'
 ```
@@ -28,13 +28,13 @@ msg='Die Temperatur beträgt ' + n + ' Grad.'
 
 3\. Ist die folgende Bedingung Wahr oder Falsch?
 
-```py
+```python
 True == 1
 ```
 
 4\. Wir haben eine Liste und möchte das dritte Element ausgeben. Was geben Sie für `X` ein?
 
-```py
+```python
 liste = ['Bern', 'Luzern', 'Zürich', 'Genf']
 print(list[X])
 ```

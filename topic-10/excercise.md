@@ -17,7 +17,7 @@ Schauen Sie sich die Datenbank mit VSCode an und beantworten Sie diese Fragen:
 
 Erstellen Sie nun ein Progamm um einen bestimmten Datensatz auszulesen. Ergänzen Sie dazu die Markierungen `?????` im folgenden Code:
 
-```py
+```python
 import sqlite3
 
 # Verbindung, Cursor
@@ -45,18 +45,18 @@ Mit dem `input` Befehl können wir nach einer bestimmten Frage-ID und Antwort-Nu
 
 Dazu diese Inputs:
 
-```py
+```python
 # SQL-Abfrage mit Eingabe
 frage = input("Bitte geben Sie eine Frage-ID ein: ")
 sql = "SELECT * FROM questions WHERE questionID = " + frage
 ```
 
-```py
+```python
 	# Eingabe Antwort
     antwort = input("Ihre Antwort 1-4: ")
 ```
 
-```py
+```python
     # Ausgabe korrekt/falsch
     korrekt = str(datensatz[6])
     if korrekt == antwort:

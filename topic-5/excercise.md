@@ -8,7 +8,7 @@ Aufgaben zum Thema.
 
 Lies das folgende Programm und versuche zu erraten, was die Ausgabe ist. Probiere es anschliessend aus und suche nach einer Erklärung des Verhaltens.
 
-```py
+```python
 liste_a = ['Hallo', 'schönes', 'Wetter']
 liste_b = liste_a
 
@@ -23,7 +23,7 @@ Das Verhalten dieses Programms ist der Grund, warum wir uns in Python Variablen 
 
 Speichere die Elemente `'Schwalbe'`, `'Kokosnuss'`, `13`, `'Spam'` und `3.14` in einer Liste mit dem Namen `liste` ab und versuche zu verstehen was die folgenden Methoden machen.
 
-```py
+```python
 liste[2] = 666
 len(liste)
 liste.append('Ni')
@@ -44,23 +44,23 @@ Schreibe ein Programm, welches vom Benutzer 10 Zahlen einliest und diese in eine
 ::: tip
 Die folgenden Elemente sollten weiterhelfen:
 
-```py
+```python
 # Eine leere Listeerstellen
 liste = []
 ```
 
-```py
+```python
 # Zahl eingeben
 zahl = input("Eingabe: ")
 ```
 
-```py
+```python
 # Schleife von 1 bis 4
 for i in range(1,5):
     print(i)
 ```
 
-```py
+```python
 # Kleinste Zahl aus Liste ausgeben
 min([1,3,2])
 ```
@@ -70,7 +70,7 @@ min([1,3,2])
 
 Gegeben ist der folgende Anfang eines Programms:
 
-```py
+```python
 animals = ["tiger", "mouse", "bird", "python", "elephant", "monkey"]
 ```
 
@@ -194,7 +194,7 @@ for i in range(2, 31): 
 
 **W8**: Was wird bei der Ausführung des folgenden Codes ausgegeben?
 
-```py
+```python
 for i in range(1, 3):
     for j in range(i):
         print(i+j)

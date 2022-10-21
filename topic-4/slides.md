@@ -2,7 +2,7 @@
 
 [◀️ Thema 4](README.md)
 
-⚡[Anwesenheit bestätigen](https://moodle.medizintechnik-hf.ch/mod/attendance/manage.php?id=6139)
+⚡[Anwesenheit bestätigen](https://moodle.medizintechnik-hf.ch/mod/attendance/manage.php?id=8024)
 
 📖 Kapitel 6 Datum und Zeit
 
@@ -16,7 +16,7 @@
 
 ---
 
-### Thonny vorbereiten
+### IDE vorbereiten
 
 🎬 Führen Sie diese Aktionen aus:
 * Neuer Ordner `Thema4` erstellen
@@ -28,7 +28,7 @@
 
 🎬 Das aktuelle Datum und Uhrzeit ausgeben.
 
-```py
+```python
 from datetime import datetime
 now = datetime.now()
 print(now) # Ausgabe: YYYY-MM-DD HH:MM:SS
@@ -52,7 +52,7 @@ print(now.timestamp())
 
 Wann haben 32-Bit Computer ein Problem?
 
-```py
+```python
 from datetime import datetime
 sekunden = int(datetime.now().timestamp())
 sekunden_binär = bin(sekunden)
@@ -71,7 +71,7 @@ Output eingeben unter: <https://www.unixtimestamp.com/>
 
 🎬 Jahr oder Monat ausgeben.
 
-```py
+```python
 print(now.year)
 print(now.month)
 ```
@@ -82,7 +82,7 @@ print(now.month)
 
 🎬 Datum und Zeit können formatiert werden.
 
-```py
+```python
 print(now.isoformat())
 print(now.strftime('%d.%m.%Y %H:%M'))
 ```
@@ -97,7 +97,7 @@ Liste der Platzhalter: <https://docs.python.org/3/library/time.html#time.strftim
 
 🎬 Erstellen Sie eine eigene Formatierung.
 
-```py
+```python
 print(now.strftime('%A, %d. %B %Y'))
 ```
 
@@ -107,7 +107,7 @@ print(now.strftime('%A, %d. %B %Y'))
 
 🎬 Ausgabe in der lokalen Sprache.
 
-```py
+```python
 import locale  
 locale.setlocale(locale.LC_ALL, 'de_DE.utf8')  # Linux    
 locale.setlocale(locale.LC_ALL, 'de_DE.UTF-8') # macOS  
@@ -123,7 +123,7 @@ print(datetime.now.strftime('%A, %d. %B %Y'))
 
 🎬 Bei der Eingabe eines Datum ist das Format entscheidend.
 
-```py
+```python
 from datetime import datetime
 s = '2018-08-01 18:47'  
 dt = datetime.strptime(s, '%Y-%m-%d %H:%M')
@@ -136,7 +136,7 @@ print(dt)
 
 Wir haben keine Zeit.
 
-```py
+```python
 from datetime import date
 print(date.today())
 ```
@@ -149,7 +149,7 @@ print(date.today())
 
 Wir haben kein Datum.
 
-```py
+```python
 from datetime import datetime
 print(datetime.now().time())
 ```
@@ -160,7 +160,7 @@ print(datetime.now().time())
 
 🎬 Mit `timedelta` können Sie Zeit dazu rechnen.
 
-```py
+```python
 from datetime import datetime, timedelta
 today = datetime.now()
 week = timedelta(weeks=1)
@@ -174,7 +174,7 @@ print(today + week)
 
 🎬 Verwendet man `today()` kann die Differenz in Tagen berechnen.
 
-```py
+```python
 from datetime import date, timedelta  
 today = date.today()  
 weihnachten = date(today.year, 12, 24)  
@@ -205,7 +205,7 @@ Wir leben in verschiedenen Zeitzonen.
 
 🎬 Wir geben das Datum in der Zeitzone Coordinated Universal Time (UTC) aus.
 
-```py
+```python
 from datetime import datetime  
 import pytz  
 utc = datetime.now(pytz.utc)  
@@ -218,7 +218,7 @@ print(utc)
 
 🎬 Wir können ein Datum einer bestimmten Zeitzone zuordnen.
 
-```py
+```python
 berlin = pytz.timezone('Europe/Berlin')
 berlintime = berlin.localize(datetime.now())
 print(berlintime)
@@ -232,7 +232,7 @@ Wie lange braucht der Computer für eine Berechnung?
 
 🎬 Führen Sie dieses Programm aus.
 
-```py
+```python
 import time, math
 start = time.process_time()
 

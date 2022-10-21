@@ -2,7 +2,7 @@
 
 [◀️ Thema 2](./README.md)
 
-⚡[Anwesenheit bestätigen](https://moodle.medizintechnik-hf.ch/mod/attendance/manage.php?id=6139)
+⚡[Anwesenheit bestätigen](https://moodle.medizintechnik-hf.ch/mod/attendance/manage.php?id=8024)
 
 📖 Kapitel 2 Variablen, 3 Operatoren und 4 Zahlen
 
@@ -35,17 +35,22 @@ Programm speichert vorübergehend Werte, Zeichenketten und andere Informationen.
 
 Variable deklarieren:
 
-```py
+```python
 a = 1
-b = 'abc'
+xyz = 'abc'
 ```
-
 
 ---
-### Gültige Variablennamen 🚧
+### Gültige Variablennamen
 
-```
+Normalerweise bestehen Variablennamen aus lauter Kleinbuchstaben. 
 
+```python
+einLangerName = 3        # OK
+ein_langer_name = 4      # auch OK
+länge=3                  # OK, aber unüblich
+so gehts nicht = 5       # Fehler: Leerzeichen sind nicht erlaubt.
+so-gehts-auch-nicht = 6  # Fehler: Als einziges Sonderzeichen ist _ erlaubt.
 ```
 
 ---
@@ -79,40 +84,41 @@ Im sogenannten Heap speichert Python die Werte der Variablen
 ---
 ### Fensterdarstellung wechseln 1
 
-Für den weiteren Verlauf des Unterrichts arbeiten wir mit Thonny und der Website gleichzeitig. Dazu wechseln wir die Fensterdarstellung.
+Für den weiteren Verlauf des Unterrichts arbeiten wir mit der IDE und der Website gleichzeitig. Dazu wechseln wir die Fensterdarstellung.
 
 ---
 ### Fensterdarstellung wechseln 2
 
 🎬 Folgende Aktion ausführen:
-* Thonny öffnen und das Fenster auf die linke Seite schieben
+* IDE öffnen und das Fenster auf die linke Seite schieben
 	* Windows: <kbd>windows</kbd> + <kbd>←</kbd> drücken
 * [python.casa - Thema 2 Slides](https://python.casa/topic-2/slides.html#fensterdarstellung-wechseln-1) öffnen und auf die rechte Seite schieben
 	* Windows: <kbd>windows</kbd> + <kbd>→</kbd> drücken
 
 ---
-### Heap anzeigen
+### Skript mit Variablen erstellen
 
-Mit Thonny können wir sehen wie Python die Variablen und deren Werte verwaltet.
-
-🎬 In Tonny Menu *Ansicht* anwählen und die Optionen *Heap* und *Variablen* aktivieren.
-
----
-### Variablen anzeigen
-
-> Variablen sind lediglich Referenzen
-
-🎬 Folgende Aktionen in Thonny ausführen:
+🎬 Folgende Aktionen in der IDE ausführen:
 * Neues leeres Skript erstellen
-* Datei speichern im neuen Ordner `Thema2` als `Heap.py`
-* Anweisung `x=1` eingeben und ausführen
+* Datei im neuen Ordner `Thema2` als `Heap.py` speichern
+* Diesen Inhalt einfügen:
+
+```python
+x=1
+y=2
+```
 
 ---
-### Ergebnis Heap
+### Debugger
 
-Eine Variable ist eine Referenz zu einem Eintrag im Heap.
+---
+### Debugger starten
 
-![](../thonny-variables-and-heap.png)
+🎬 Folgende Aktionen in der IDE ausführen:
+* Klicken Sie links neben der Zeilennummer 2 um einen *Breakpoint* zu setzen
+* Starten Sie den Debugger via *Run and Debug*
+
+![](../visual-code-debugger.png)
 
 ---
 ### Datentyp anzeigen
@@ -121,9 +127,16 @@ Variablen haben keinen Typ, aber deren Wert.
 
 🎬 Im Programm `Heap.py` diesen Code anfügen und ausführen.
 
-```py
+```python
 print(type(x)) # Ausgabe: <class 'int'>
 ```
+
+---
+### Aufgaben 1
+
+Lösen Sie die [Aufgabe](excercise.md#aufgaben) 2.1.
+
+⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 10 Minuten
 
 ---
 ### Typumwandlung automatisch
@@ -132,7 +145,7 @@ Bei Berechnungen wandelt Python automatisch den Typ um.
 
 🎬 Datei `Umwandlung.py` erstellen, Code eingeben und ausführen.
 
-```py
+```python
 a = 2 # int
 b = 2.4 # float
 c = a*b # auch float
@@ -146,7 +159,7 @@ Im Normalfall müssen Typumwandlungen explizit festgelegt werden.
 
 🎬 Datei `Umwandlung.py` mit Code erweitern und ausführen.
 
-```py
+```python
 s = 'abc' # str
 x = 3 # int
 s = s + str(x)
@@ -158,13 +171,13 @@ print(s) # Ergebnis 'abc3'
 
 Ist eine Variable einmal definiert, kann Sie weiterverwendet werden.
 
-```py
+```python
 if 1: # das ist immer erfüllt
     x=1 # daher wird diese Zuweisung ausgeführt
 print(x) # ok, Ausgabe 1
 ```
 
-```py
+```python
 if 0: # das ist nie erfüllt
     x = 1 # daher wird diese Zuweisung nicht ausgeführt
 print(x) # Fehler: name 'x' is not defined
@@ -188,7 +201,7 @@ Python ...
 
 Mit dem `=` macht man eine Zuweisung. Zur Prüfung der Gleicheit braucht es `==`.
 
-```py
+```python
 print(1 == 1) # Ausgabe: True
 ```
 
@@ -197,7 +210,7 @@ print(1 == 1) # Ausgabe: True
 
 Der `%`-Operator macht eine Division und gibt es Restwert zurück.
 
-```py
+```python
 7 % 3 # Ausgabe: 1
 ```
 
@@ -208,12 +221,12 @@ Der `%`-Operator macht eine Division und gibt es Restwert zurück.
 
 Bestimmte Operatoren kann man zusammennehmen.
 
-```py
+```python
 a = 1
 a = a + 1
 ```
 
-```py
+```python
 a = 1
 a += 1
 ```
@@ -223,13 +236,13 @@ a += 1
 
 Gewöhnliche Division liefert immer Fliesskommazahlen.
 
-```py
+```python
 print(2/3, 6/3) # Ausgabe: 0.6666666666666666 2.0
 ```
 
 Für ganzzahlige Division `//` verwenden.
 
-```py
+```python
 print(2//3, 6//3) # Ausgabe: 0 2
 ```
 
@@ -240,7 +253,7 @@ print(2//3, 6//3) # Ausgabe: 0 2
 
 🎬  Zum Runden die Funktion `round` verwenden.
 
-```py
+```python
 print(round(1.5)) # Ausgabe: 2
 print(round(1.4)) # Ausgabe: 1
 ```
@@ -254,7 +267,7 @@ print(round(1.4)) # Ausgabe: 1
 
 Zusätzliche Funktionen können mit `import` importiert werden.
 
-```py
+```python
 from random import randint
 print(randint(0, 7))
 ```
@@ -268,7 +281,7 @@ Boolsche Werte kennen zwei Zustände.
 
 🎬  Führt das folgende Skript aus:
 
-```py
+```python
 a = True
 b = 7==8
 c = not 0
@@ -277,13 +290,11 @@ print(a,b,c,d)
 ```
 
 ---
-### Aufgaben
+### Aufgaben 2
 
-Lösen Sie die [Aufgaben](excercise.md#aufgaben) und besprechen Sie die [Wiederholungsfragen](excercise.md#wiederholungsfragen).
+Lösen Sie die [Aufgaben](excercise.md#aufgaben) 2.2 bis 2.5 und besprechen Sie die [Wiederholungsfragen](excercise.md#wiederholungsfragen).
 
 ⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 10 Minuten
-
-Ziel: Alle Aufgaben gelöst.
 
 ---
 ### Review

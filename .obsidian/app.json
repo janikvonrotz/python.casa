@@ -11,5 +11,8 @@
   "spellcheckLanguages": [
     "de"
   ],
-  "showInlineTitle": false
+  "showInlineTitle": false,
+  "userIgnoreFilters": [
+    "node_modules/"
+  ]
 }

@@ -4,30 +4,59 @@
     "type": "split",
     "children": [
       {
-        "id": "26cce0b2419a0b43",
+        "id": "0ce005c5abf1c44f",
         "type": "tabs",
         "children": [
           {
-            "id": "a26bd85603505e0e",
+            "id": "d1f410405586c15d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "😉 Emojis.md",
+                "file": "topic-2/slides.md",
                 "mode": "source",
                 "source": true
               }
             }
           },
           {
-            "id": "b48654d1d4675663",
+            "id": "009864f57332c5c6",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "topic-1/slides.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "14331c4954c485b7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "topic-1/archive.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "d613a138794ee66c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "topic-1/excercise.md",
+                "mode": "source",
+                "source": true
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -46,7 +75,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "🚧",
+                "query": "### Aufgaben",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,11 +94,12 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 428.5
+    "width": 510.5
   },
   "right": {
     "id": "23c06486c0583ed2",
@@ -85,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "😉 Emojis.md",
+                "file": "topic-1/archive.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +132,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "😉 Emojis.md"
+                "file": "topic-1/archive.md"
               }
             }
           },
@@ -114,26 +144,27 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 679.5
+    "width": 575.5
   },
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "a26bd85603505e0e",
+  "active": "14331c4954c485b7",
   "lastOpenFiles": [
-    "topic-8/archive.md",
-    "topic-2/slides.md",
-    "README.md",
-    "topic-3/excercise.md",
-    "exam2.md",
-    "topic-2/README.md",
-    "topic-2/excercise.md",
     "topic-2/archive.md",
-    "topic-1/excercise.md",
-    "topic-1/slides.md"
+    "topic-1/archive.md",
+    "topic-1/slides.md",
+    "topic-1/README.md",
+    "timetable.md",
+    "topic-2/README.md",
+    "topic-2/slides.md",
+    "topic-3/slides.md",
+    "topic-3/README.md",
+    "topic-1/excercise.md"
   ]
 }

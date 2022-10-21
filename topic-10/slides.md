@@ -2,7 +2,7 @@
 
 [◀️ Thema 10](README.md)
 
-⚡[Anwesenheit bestätigen](https://moodle.medizintechnik-hf.ch/mod/attendance/manage.php?id=6139)
+⚡[Anwesenheit bestätigen](https://moodle.medizintechnik-hf.ch/mod/attendance/manage.php?id=8024)
 
 📖 Kapitel 20 Wissenschaftliche Anwendung
 
@@ -143,7 +143,7 @@ SQLite wird über das Modul `sqlite3` direkt in Python eingebunden. Es bietet st
 
 Aktualisiert die Datei `lager.py` mit diesem Code:
 
-```py
+```python
 import os, sys, sqlite3
 
 # Datei entfernen wenn existiert
@@ -163,7 +163,7 @@ cursor = connection.cursor()
 
 🎬 Mit SQL erstellen wir nun eine Tabelle. Fügen Sie diesen Code hinzu:
 
-```py
+```python
 # Datenbanktabelle erzeugen
 sql = """CREATE TABLE lager(
     id INTEGER PRIMARY KEY,
@@ -181,7 +181,7 @@ cursor.execute(sql)
 
 🎬 Fügen Sie diesen Code an, um einen Datensatz zu erzeugen:
 
-```py
+```python
 # Datensatz erzeugen
 sql = "INSERT INTO lager VALUES(1, 'Holztisch', 'E-COM06', '601647855633', 3, 147)"
 cursor.execute(sql)
@@ -217,7 +217,7 @@ Mit dieser VSCode-Erweiterung können Sie die Datenbank-Datei anschauen:
 
 🎬 Fügen wie weitere Datensätze hinzu, indem Sie den Code unten an der richtigen Stelle einfügen.
 
-```py
+```python
 # Datensatz erzeugen
 sql = "INSERT INTO lager VALUES(1, 'Holztisch', 'E-COM06', '601647855633', 3, 147)"
 cursor.execute(sql)
@@ -242,7 +242,7 @@ Wir möchten die Daten mit SQL/Python auslesen.
 
 🎬 Ergänzen Sie `abfragen.py` und führen Sie den Code aus.
 
-```py
+```python
 import sqlite3
 
 # Verbindung, Cursor
@@ -274,7 +274,7 @@ Das Schlüsselwort heisst `WHERE`.
 
 🎬 Ersetzen Sie die SQL-Abfrage mit:
 
-```py
+```python
 sql = "SELECT * FROM lager WHERE id = 1"
 ```
 
@@ -290,7 +290,7 @@ Das Schlüsselwort heisst `UPDATE`.
 
 🎬 Ersetzen Sie die SQL-Abfrage mit:
 
-```py
+```python
 # Datensatz aktualisieren
 sql = "UPDATE lager SET preis = 71 WHERE id = 2"
 cursor.execute(sql)
@@ -311,7 +311,7 @@ Das Schlüsselwort heisst `DELETE`.
 
 🎬 Ersetzen Sie die SQL-Abfrage mit:
 
-```py
+```python
 # Datensatz löschen
 sql = "DELETE FROM lager WHERE id = 3"
 cursor.execute(sql)

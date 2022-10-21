@@ -2,7 +2,7 @@
 
 [◀️ Thema 13](README.md)
 
-⚡[Anwesenheit bestätigen](https://moodle.medizintechnik-hf.ch/mod/attendance/manage.php?id=6139)
+⚡[Anwesenheit bestätigen](https://moodle.medizintechnik-hf.ch/mod/attendance/manage.php?id=8024)
 
 ---
 
@@ -128,7 +128,7 @@ VSCode sollte git automatisch erkennen.
 * Ordner mit VSCode öffnen
 * Datei `main.py` mit diesem Code anlegen:
 
-```python
+```pythonthon
 print('Hello git!')
 ```
 

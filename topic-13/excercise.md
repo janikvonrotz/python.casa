@@ -12,7 +12,7 @@ Auf GitHub haben Sie das vielversprechende Repository <https://github.com/fluent
 
 Suchen Sie das Programm `bus.py` mithilfe der Suchfunktion <kbd>ctrl</kbd> + <kbd>p</kbd>. Fügen Sie dem Programm den Code unten an und führen Sie das Beispiel aus:
 
-```py
+```python
 bus1 = Bus(['Alice', 'Bill', 'Claire', 'David'])
 print(bus1.passengers)
 bus1.pick('Bob')

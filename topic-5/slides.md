@@ -2,7 +2,7 @@
 
 [◀️ Thema 5](README.md)
 
-⚡[Anwesenheit bestätigen](https://moodle.medizintechnik-hf.ch/mod/attendance/manage.php?id=6139)
+⚡[Anwesenheit bestätigen](https://moodle.medizintechnik-hf.ch/mod/attendance/manage.php?id=8024)
 
 📖 Kapitel 7 Listen, Tupel, Sets und Dictionairies  
 📖 Kapitel 8 Verzweigungen und Schleifen
@@ -46,7 +46,7 @@ Thema 5:
 * Formulierung mit `[]`-Klammern
 
 ---
-### Thonny vorbereiten
+### IDE vorbereiten
 
 🎬 Führen Sie diese Aktionen aus:
 * Neuer Ordner `Thema5` erstellen
@@ -59,7 +59,7 @@ Wir erstellen eine einfache Liste und geben das dritte Element aus.
 
 🎬 In der IDE ausführen:
 
-```py
+```python
 lst = [1, 2.3, 'abc', 'efg', 12]
 print(lst[2]) # Ausgabe: abc
 ```
@@ -71,7 +71,7 @@ Mit der Range-Syntax Reihenfolgen definieren.
 
 🎬 In der IDE ausführen:
 
-```py
+```python
 lst = list(range(10, 101, 10))
 print(lst) # Ausgabe: [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
 ```
@@ -81,7 +81,7 @@ print(lst) # Ausgabe: [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
 
 🎬 Zeichenketten können einfach in Listen umgewandelt werden.
 
-```py
+```python
 lst = list('Hello, World!')
 print(lst) # ['H', 'e', 'l', 'l', 'o', ',', ' ', 'W', 'o', 'r', 'l', 'd', '!'
 ```
@@ -94,7 +94,7 @@ print(lst) # ['H', 'e', 'l', 'l', 'o', ',', ' ', 'W', 'o', 'r', 'l', 'd', '!'
 
 🎬 Fügen Sie diesen Code an:
 
-```py
+```python
 [print(s) for s in lst]
 ```
 
@@ -114,7 +114,7 @@ Die wichtigsten Funktionen und Methoden zur Bearbeitung von Liste:
 * Erstellen Sie die Datei `Funktionen.py`
 * Schreiben Sie diesen Code:
 
-```py
+```python
 lst = list(range(10, 101, 10))
 lst.extend([110]) # Fügt eins oder mehre Elemente hinzu
 lst.pop(2) # Entfernt element an der zweiten Position
@@ -129,7 +129,7 @@ Mit `map` kann eine Funktion auf jedes Listenelement angewendet werden.
 
 🎬 Fügen Sie diesen Code an:
 
-```py
+```python
 def double(x):
     return x*2
 
@@ -145,7 +145,7 @@ Mit `reduce` wird eine Funktion auf jedes Listenelement (x) und auf das Resultat
 
 🎬 Fügen Sie diesen Code an:
 
-```py
+```python
 from functools import reduce
 def sum(x,y):
     return x+y
@@ -160,7 +160,7 @@ Mit `filter` werden alle Listenelemente zurückgegeben, die eine Bedingung erfü
 
 🎬 Fügen Sie diesen Code an:
 
-```py
+```python
 def IstGrösserAls(x,y=100):
     return (x > y)
 
@@ -174,7 +174,7 @@ Elemente einer Liste werden nicht automatisch sortiert.
 
 🎬 Führen Sie diesen Code aus:
 
-```py
+```python
 lst = list('Hello, World!')
 lst.sort()
 print(lst) # [' ', '!', ',', 'H', 'W', 'd', 'e', 'l', 'l', 'l', 'o', 'o', 'r']
@@ -202,7 +202,7 @@ print(lst) # [' ', '!', ',', 'H', 'W', 'd', 'e', 'l', 'l', 'l', 'o', 'o', 'r']
 
 **Tupel.py**
 
-```py
+```python
 t = (12, 73, 3)
 print(t)
 ```
@@ -214,7 +214,7 @@ Mit Tupel sind Zuweisungen und Vergleiche mit mehreren Variablen möglich.
 
 🎬 Fügen Sie diesen Code an:
 
-```py
+```python
 (a, b, c) = (1, 2, 3)
 if (a, b, c) == (1, 2, 3):
     print('Vollständige Übereinstimmung')
@@ -235,7 +235,7 @@ if (a, b, c) == (1, 2, 3):
 
 **Sets.py**
 
-```py
+```python
 s = {1,2,3,3}
 print(s)
 ```
@@ -247,7 +247,7 @@ Im Vergleich zu Listen gibt es weitere Methoden zur Bearbeitung eines Sets.
 
 🎬 Fügen Sie diesen Code hinzu:
 
-```py
+```python
 s.add(4)
 s.remove(2) # Entfernt Element
 s.discard(2) # Gibt keinen Fehler aus, auch wenn Element bereits entfernt ist.
@@ -269,7 +269,7 @@ print(s)
 
 **Dict.py**
 
-```py
+```python
 key = "Blau"
 value = '#FFFF00'
 d = {'Rot': '#FF0000', key: '#0000FF', "Gelb": value}
@@ -281,7 +281,7 @@ print(d)
 
 🎬 Fügen Sie diesen Code hinzu:
 
-```py
+```python
 print(d.get('Gelb')) # Ausgabe: #FFFF00
 print(d.values()) # dict_values(['#FF0000', '#0000FF', '#FFFF00'])
 print(d.keys()) # dict_keys(['Rot', 'Blau', 'Gelb'])
@@ -340,7 +340,7 @@ x = wert1 if bedingung else wert2
 
 🎬 Erstellen und führen Sie die Datei `if.py` mit diesem Inhalt aus:
 
-```py
+```python
 antwort = input("Möchtest du Feierabend: ")
 
 if antwort in ["Ja", "ja", "jep"]:
@@ -364,7 +364,7 @@ for var in elemente:
 
 🎬 Erstellen und führen Sie die Datei `for.py` mit diesem Inhalt aus:
 
-```py
+```python
 for c in 'abc':
     print(c)
 ```
@@ -374,7 +374,7 @@ for c in 'abc':
 
 🎬 Fügen Sie diesen Code hinzu:
 
-```py
+```python
 for c in 'abc':
     print(c)
     
@@ -388,7 +388,7 @@ Bei Schleifen mit Dictionaries enthält die Variable den Schlüssel.
 
 🎬 Fügen Sie diesen Code hinzu:
 
-```py
+```python
 dict = {'a':12, 'c':78, 'b':3, 'd':43}
 for k in dict:
     print(k,dict[k])
@@ -411,7 +411,7 @@ while bedingung:
 
 🎬 Erstellen und führen Sie die Datei `while.py` mit diesem Inhalt aus:
 
-```py
+```python
 i=1
 while i<5:
     print(i)

@@ -12,13 +12,13 @@ Der Getränkeautomat hat diese Instanzvariablen:
 
 Ein Dictionary mit den verfügbaren Produkten:
 
-```py
+```python
 produkte = { 1: "Apfelsaft", 2: "Wasser", 1: "Redbull"}
 ```
 
 Ein Dictionary mit dem Bestand:  
 
-```py
+```python
 bestand = { "Apfelsaft": 3, "Wasser": "4", "Redbull": 0}
 ```
 
@@ -32,14 +32,14 @@ Im Weiteren hat der Automat diese Methoden:
 
 Die Methode `Auflisten` listet die Produkte auf
 
-```py
+```python
 for key,value in self.produkte.items():
 	print(f"Auswal {key}: {value}")
 ```
 
 Die Methode `Ausgeben` erwartet eine Nummer, prüft den Bestand und simuliert eine Ausgabe des Produkts
 
-```py
+```python
 bestand = self.bestand[nummer]
 if(bestand > 0):
 	print(f"Das Produkt {self.produkte[nummer]} wurde ausgeben.")
@@ -51,7 +51,7 @@ else:
 
 Fügen Sie die Eigenschaften und Methoden zu einer fertigen Python-Klasse zusammen.
 
-```py
+```python
 class Getränkeautomat:
     def __init__(self, produkte, ...):
 		self.produkte = produkte
@@ -69,7 +69,7 @@ Sie haben die Python-Klasse für den Getränkeautomat entworf und können nun di
 
 Dazu folgende Inputs:
 
-```py
+```python
 produkte = { 1: "Apfelsaft", 2: "Wasser", 3: "Redbull"}
 bestand = { 1: 3, 2: 4, 3: 0}
 
@@ -84,13 +84,13 @@ automat.Ausgeben(3)
 
 Wir möchten den Namen des Getränkeautomats auch nach der Instanzierung ändern können. Erstellen Sie eine Getter- und Setter-Methode für die Instanzvariable `name`.
 
-```py
+```python
 @property
 def name(self):
 	return self._name
 ```
 
-```py
+```python
 @name.setter
 def name(self, name):
 	self._name = name
@@ -102,13 +102,13 @@ Bennen Sie die Instanzvariable von `name` zu `_name`.
 
 Erweitern Sie die Ausgabe der Methode `Auflisten` mit folgendem Code:
 
-```py
+```python
 print(f"Der Geränkeautomat {self._name} hat dieses Angebot:")
 ```
 
 Instanzieren Sie die Klasse und rufen Sie die neue Setter-Methode auf.
 
-```py
+```python
 produkte = { 1: "Redbull", 2: "Redbull", 3: "Redbull"}
 bestand = { 1: 3, 2: 4, 3: 0}
 
@@ -145,7 +145,7 @@ Zum Aufruf des Konstruktors kommt es, wenn Sie ein Objekt erzeugen, also var = M
 
 **W3**: Die folgende Klasse sei gegeben:
 
-```py
+```python
 class MyClass():
 def __init__(self, a, b):
     self.a = a
@@ -154,7 +154,7 @@ def __init__(self, a, b):
 
 Welche Ausgaben liefern die beiden folgenden print-Funktionen?
 
-```py
+```python
 obj = MyClass(3, 4)
 print(MyClass.a)
 print(obj.a)
@@ -162,7 +162,7 @@ print(obj.a)
 
 Ist der folgende Code zulässig?
 
-```py
+```python
 obj.c = 7
 print(obj.c)
 ```
@@ -184,7 +184,7 @@ print(obj.c)       # Ausgabe 7
 
 **W4**: Entwerfen Sie den Code für eine Bankkontoklasse, die sich wie folgt nutzen lässt:
 
-```py
+```python
 k1 = Konto('Michael', 200, 0)
 k2 = Konto('Maria')
 k3 = Konto('Peter', 1000, 500)

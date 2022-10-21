@@ -2,7 +2,7 @@
 
 [◀️ Thema 3](./README.md)
 
-⚡[Anwesenheit bestätigen](https://moodle.medizintechnik-hf.ch/mod/attendance/manage.php?id=6139)
+⚡[Anwesenheit bestätigen](https://moodle.medizintechnik-hf.ch/mod/attendance/manage.php?id=8024)
 
 📖 Kapitel 3 Operatoren und 5 Zeichenketten
 
@@ -33,7 +33,7 @@ In den nächsten Slides schauen wir uns die Gesetze[^1] der boolschen Algebra an
 
 🎬 Deklariert diese Variablen in der Python-Shell:
 
-```py
+```python
 a = True
 b = False
 ```
@@ -43,7 +43,7 @@ b = False
 
 🎬 In der Python-Shell ausführen:
 
-```py
+```python
 a and b
 ```
 
@@ -52,7 +52,7 @@ a and b
 
 🎬 In der Python-Shell ausführen:
 
-```py
+```python
 a or b
 ```
 
@@ -61,7 +61,7 @@ a or b
 
 🎬 In der Python-Shell ausführen:
 
-```py
+```python
 not a
 not b
 ```
@@ -71,7 +71,7 @@ not b
 
 🎬 In der Python-Shell ausführen:
 
-```py
+```python
 (a or (a and b)) == a
 (a and (a or b)) == a
 ```
@@ -81,7 +81,7 @@ not b
 
 🎬 In der Python-Shell ausführen:
 
-```py
+```python
 (not not a) == a
 ```
 
@@ -92,7 +92,7 @@ Es gibt noch [viele weitere Gesetze](../topic-2/archive.md).
 
 Evaluation wird abgebrochen sobald Ergebnis feststeht.
 
-```py
+```python
 x = True
 y = False
 y and (x and y) or (y and x) # Evaluation wird nach y abgebrochen
@@ -104,7 +104,7 @@ x and (x and y) or (y and x) # Evaluation vollständig geprüft
 
 Die meisten Werte sind wahr.
 
-```py
+```python
 bool("abc")
 bool(123)
 bool(["apple", "cherry", "banana"])
@@ -115,7 +115,7 @@ bool(["apple", "cherry", "banana"])
 
 Andere Werte sind falsch.
 
-```py
+```python
 bool(False)
 bool(None)
 bool(0)
@@ -142,7 +142,7 @@ Ziel: Aufgabe 3.1 und 3.2 gelöst.
 
 Beispiel:
 
-```py
+```python
 s='abc'
 print(type(s)) # <class 'str'>
 ```
@@ -152,7 +152,7 @@ print(type(s)) # <class 'str'>
 
 Einfache oder doppelte Apostrophe sind gleichwertig.
 
-```py
+```python
 'abc' == "abc"
 ```
 
@@ -161,7 +161,7 @@ Einfache oder doppelte Apostrophe sind gleichwertig.
 
 🎬 Erstellen Sie eine mehrzeilige Zeichenkette:
 
-```py
+```python
 s = """Das ist
        eine lange
     Zeichenkette."""
@@ -179,7 +179,7 @@ print(s)
 
 **Zeichenkette.py**
 
-```py
+```python
 s1 = 'abc'
 s2 = 'efg'
 s3 = s1 + s2 + s1
@@ -189,7 +189,7 @@ print(s3) # Ergebnis 'abcefgabc'
 ---
 ### Zeichenketten vervielfältigen
 
-```py
+```python
 s1 = 'abc'
 s2 = s1*3 + 'x'*2
 print(s2) # Ergebnis 'abcabcabcxx'
@@ -209,7 +209,7 @@ Sonderzeichen können mit Escape-Sequenzen eingebettet werden.
 
 ![](../escape-sequences.png)
 
-```py
+```python
 print("Hallo\nWelt")
 ```
 
@@ -218,7 +218,7 @@ print("Hallo\nWelt")
 
 Python interpretiert \\-Sequenzen als Sonderzeichen, um das zu vermeiden, stellen Sie den Buchstaben r (raw) voran:
 
-```py
+```python
 latexcode = r'\section{Überschrift}'
 ```
 
@@ -234,7 +234,7 @@ Mit der Slicing-Syntax `s[start:ende]` kann auf Teile einer Zeichenkette zugegri
 
 🎬  Führen Sie die folgenden Zeilen aus:
 
-```py
+```python
 s='abcdefghijklmnopqrstuvwxyz'
 print(s[3]) # Viertes Zeichen
 print(s[3:6])
@@ -250,7 +250,7 @@ Mit dem dritten Parameter kann die Schrittweite angegeben werden.
 
 🎬  Fügen Sie diese Zeilen an:
 
-```py
+```python
 print(s[::2]) # jedes zweite Zeichen
 ```
 
@@ -259,7 +259,7 @@ print(s[::2]) # jedes zweite Zeichen
 
 Mit negativen Schrittweite kehrt die Reihenfolge:
 
-```py
+```python
 print(s[::-1]) # alles in umgekehrter Reihenfolge
 print(s[::-2]) # Jedes zweite Zeichen in umgekehrter Reihenfolge
 ```
@@ -276,7 +276,7 @@ Zeichenketten können mit vielen Funktionen und Methoden bearbeitet werden.
 
 Methoden sind etwas Ähnliches wie Funktionen, Sie werden aber direkt auf die zugrundeliegenden Daten (Objekte) angewendet.
 
-```py
+```python
 funktion(daten)
 daten.methode(weitere, daten)
 ```
@@ -286,7 +286,7 @@ daten.methode(weitere, daten)
 
 🎬  Erstellen Sie die Datei `Methoden.py` mit diesem Inhalt:
 
-```py
+```python
 s='abcdefghijklmnopqrstuvwxyz'
 print(s.upper()) # Alles in Grossbuchstaben
 print(s.count('efg')) 
@@ -299,7 +299,7 @@ Mit `str.isxxx`-Funktionen können Sie Zeichenketten nach bestimmten Eigenschaft
 
 🎬  Erstellen Sie die Datei `Eigenschaften.py` mit diesem Inhalt:
 
-```py
+```python
 print(len('abc')) # 3
 print(str.isalpha('abcäöü')) # True
 print(str.isalpha('abc123')) # False
@@ -318,7 +318,7 @@ print(str.islower('abcD')) # False
 
 **Suchen.py**
 
-```py
+```python
 s="abcdefghijklmnopqrstuvwxyz"
 print(s.find("hij")) # Ergebnis: 7
 print(s.find("hij",8)) # -1 also nicht gefunden
@@ -332,7 +332,7 @@ print(s.rfind("hij")) # Suche von Rechts nach Links
 
 🎬 Fügen Sie diesen Code an die letzte Datei:
 
-```py
+```python
 print(s.replace('e', 'X'))
 ```
 
@@ -351,7 +351,7 @@ Es gibt mehrere Ansätze zum Formatieren von Zeichenketten:
 
 🎬 Führen Sie diesen Code aus:
 
-```py
+```python
 print('%s ist %d Jahre alt.' % ('Matthias', 11))
 print('1/7 mit drei Nachkommastellen: %.3f' % (1/7))
 ```
@@ -361,7 +361,7 @@ print('1/7 mit drei Nachkommastellen: %.3f' % (1/7))
 
 🎬 Führen Sie diesen Code aus:
 
-```py
+```python
 print('{} ist {} Jahre alt.'.format('Sebastian', 13))
 print('{name} ist {alter} Jahre alt.'.format(alter=13, name='Sebastian'))
 ```
@@ -371,7 +371,7 @@ print('{name} ist {alter} Jahre alt.'.format(alter=13, name='Sebastian'))
 
 🎬 Führen Sie diesen Code aus:
 
-```py
+```python
 alter=26/3
 name='Sebastian'
 print(f'{name} ist {alter:.3} Jahre alt.')

@@ -2,7 +2,7 @@
 
 [◀️ Thema 9](README.md)
 
-⚡[Anwesenheit bestätigen](https://moodle.medizintechnik-hf.ch/mod/attendance/manage.php?id=6139)
+⚡[Anwesenheit bestätigen](https://moodle.medizintechnik-hf.ch/mod/attendance/manage.php?id=8024)
 
 📖 Kapitel 12 Module
 
@@ -116,7 +116,7 @@ Nun erstellen wir unser erstes Python-Modul.
 
 🎬 Erzeugen Sie die Datei `lib.py` im geöffneten Ordner mit diesem Code:
 
-```py
+```python
 def world():
 	print('World')
 ```
@@ -127,7 +127,7 @@ def world():
 
 🎬 Aktualisieren Sie `Hello.py` mit diesem Inhalt und führen Sie das Skript aus.
 
-```py
+```python
 import lib
 
 msg = "Hello "
@@ -145,7 +145,7 @@ Dasselbe funktioniert für mehrere Funktionen.
 
 🎬 Aktualisieren Sie `lib.py` mit diesem Inhalt:
 
-```py
+```python
 def world():
     print('World')
 
@@ -161,7 +161,7 @@ def hello():
 
 🎬 Und so importieren Sie mehre Funktionen in `Hello.py`:
 
-```py
+```python
 from lib import world,hello
 
 hello()
@@ -178,14 +178,14 @@ Mehre Module können in einem Paket-Ordner gebündelt werden.
 
 **paket/hello.py**
 
-```py
+```python
 def hello():
 	return 'Hello '
 ```
 
 **paket/world.py**
 
-```py
+```python
 def world():
 	return 'World!'
 ```
@@ -200,7 +200,7 @@ Datei leer lassen.
 
 🎬 Erstellen Sie eine neue Datei `main.py` mit diesem Inhalt:
 
-```py
+```python
 from paket import hello, world
 
 print(hello.hello(), world.world())
@@ -250,7 +250,7 @@ Wir möchten das Python-Paket [`cowsay`](https://pypi.org/project/cowsay/) mit d
 
 🎬 Erweitern Sie `main.py` mit:
 
-```py
+```python
 import cowsay
 cowsay.cow('pip is great.')
 ```

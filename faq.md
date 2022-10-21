@@ -8,7 +8,7 @@ Frage: Wie kann ich ein Programm mehrmals ausführen?
 
 Antwort:
 
-```py
+```python
 # Programm mehrmals auführen
 
 ausführen = 'Ja'
@@ -57,7 +57,7 @@ Frage: Wie kann ich das HTML-Dokument erweitern?
 
 Antwort:
 
-```py
+```python
 from yattag import Doc
 
 doc, tag, text = Doc().tagtext() # HTML-Funktionen abrufen
@@ -88,7 +88,7 @@ Frage: Wie kann eine HTTP-Response mit JSON-Inhalt verarbeiten?
 
 Antwort:
 
-```py
+```python
 url = 'https://raw.githubusercontent.com/janikvonrotz/python.casa/main/topic-6/B%C3%BCcher.json'
 
 import json

@@ -2,7 +2,7 @@
 
 [◀️ Thema 8](README.md)
 
-⚡[Anwesenheit bestätigen](https://moodle.medizintechnik-hf.ch/mod/attendance/manage.php?id=6139)
+⚡[Anwesenheit bestätigen](https://moodle.medizintechnik-hf.ch/mod/attendance/manage.php?id=8024)
 
 📖 Kapitel 10 Umgang mit Fehlern (Exceptions)\
 📖 Kapitel 14 Dateien lesen und schreiben\
@@ -63,7 +63,7 @@ In der Python-Biblitothek findet man [`pathlib`](https://docs.python.org/3/libra
 
 ---
 
-### Thonny vorbereiten
+### IDE vorbereiten
 
 🎬 Führen Sie diese Aktionen aus:
 * Neuer Ordner `Thema6` erstellen
@@ -74,7 +74,7 @@ In der Python-Biblitothek findet man [`pathlib`](https://docs.python.org/3/libra
 
 🎬 Diesen Code einfügen uns ausgeben.
 
-```py
+```python
 from pathlib import Path
 current = Path.cwd() # Gibt das aktuelle Verzichnis wo das Skript ausgeführt wird
 print('Aktuelles Verzeichnis:', current.absolute())
@@ -88,7 +88,7 @@ print('Aktuelles Verzeichnis:', current.absolute())
 
 Erweitern Sie das Beispiel mit:
 
-```py
+```python
 print(type(current))
 print('Aktueller Verzeichnisname:', current.name)
 ```
@@ -101,7 +101,7 @@ Wenn eine Python-Anweisung einen Fehler generiert, kann man darau reagieren ohne
 
 🎬 Erstellen Sie die Datei `Error.py` mit diesem Code:
 
-```py
+```python
 ergebnis = 1/0
 print(ergebnis)
 ```
@@ -116,7 +116,7 @@ Mit den Befehlen `try` und `except` kann man versuchen eine Code-Block auszufüh
 
 🎬 Ersetzen Sie den vorhergehenden Inhalt mit:
 
-```py
+```python
 try:
     ergebnis = 1/0
     print(ergebnis)
@@ -130,7 +130,7 @@ except ZeroDivisionError:
 
 🎬 Erstellen Sie die Datei `Except.py` mit diesem Code:
 
-```py
+```python
 try:
     print(z)
 except NameError as error:
@@ -156,7 +156,7 @@ Es gibt viele Fehlerquellen: ungültiger Pfad, Schreibschutz, ungültiger Datein
 
 🎬 Erstellen Sie die Datei `Schreiben.py` mit diesem Code:
 
-```py
+```python
 try:
     f = open('test.txt', 'wt')
     f.write('Lorem ipsum dolor sit amet, ...\n')
@@ -173,7 +173,7 @@ except BaseException as err:
 ### Textdatei lesen
 🎬 Erstellen Sie die Datei `Lesen.py` mit diesem Code:
 
-```py
+```python
 try:
     f = open('test.txt', 'rt')
     for line in f:
@@ -233,7 +233,7 @@ Wir haben eine unstrukturierte Textdatei erstellt. Im Umgang mit Daten und Kalku
 
 🎬 Datei `JSON.py` mit diesem Code ausführen:
 
-```py
+```python
 import json
 with open('Bücher.json', 'r') as f:
     data = json.load(f)
@@ -250,7 +250,7 @@ Der JSON-Inhalt kann ganz einfach verarbeitet werden.
 
 🎬 Fügen Sie diesen Code an:
 
-```py
+```python
 for book in data:
 	print(f"Titel: {book['title']}")
 	for author in book['authors']:
@@ -276,7 +276,7 @@ Möchte man die Datei `Bücher.json` in einem anderen Programm bearbeiten wird e
 ### CSV-Datei schreiben
 🎬 Erstellen Sie die Datei `CSV.py` und fügen Sie diesen Code ein:
 
-```py
+```python
 import csv
 
 with open('Mitarbeiter.csv', mode='w') as file:
@@ -298,7 +298,7 @@ with open('Mitarbeiter.csv', mode='w') as file:
 
 🎬 Fügen Sie diesen Code an:
 
-```py
+```python
 with open('Mitarbeiter.csv', newline='') as file:
     file_reader = csv.reader(file, delimiter=',', quotechar='"')
     line_count = 0
@@ -456,7 +456,7 @@ HTML-Dokument kann man mit Python herunterladen.
 
 🎬 Erstellen Sie die Datei `HTTP.py` und fügen Sie diesen Code ein:
 
-```py
+```python
 import urllib.request
 
 url = 'https://example.com'
@@ -476,7 +476,7 @@ f.close()
 
 Damit man mit Python ein HTML-Dokument erstellen kann, braucht es ein zusätzliches Python-Paket.
 
-🎬  Öffnet den Thonny Paketmmanager und installiert das Paket `yattag`.
+🎬  Öffnet den IDE Paketmmanager und installiert das Paket `yattag`.
 
 Mehr zu [Yattag](https://www.yattag.org/).
 
@@ -485,7 +485,7 @@ Mehr zu [Yattag](https://www.yattag.org/).
 
 🎬 Erstellen Sie die Datei `HTML.py` und fügen Sie diesen Code ein:
 
-```py
+```python
 from yattag import Doc
 
 doc, tag, text = Doc().tagtext() # HTML-Funktionen abrufen
@@ -508,7 +508,7 @@ with open('example.html', 'wt') as file:
 
 🎬 Fügen Sie diesen Code an um die Datei direkt im Browser zu öffnen:
 
-```py
+```python
 # Die HTML-Datei im Browser aufrufen
 import webbrowser
 from pathlib import Path

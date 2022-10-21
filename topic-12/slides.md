@@ -2,7 +2,7 @@
 
 [◀️ Thema 12](README.md)
 
-⚡[Anwesenheit bestätigen](https://moodle.medizintechnik-hf.ch/mod/attendance/manage.php?id=6139)
+⚡[Anwesenheit bestätigen](https://moodle.medizintechnik-hf.ch/mod/attendance/manage.php?id=8024)
 
 ---
 
@@ -58,7 +58,7 @@ Für Python Flask sieht die Architektur so aus:
 
 🎬 Ergänzen Sie `db.py` und führen Sie das Skript aus.
 
-```python
+```pythonthon
 import sqlite3
 connection = sqlite3.connect('lager.db')
 sql = """CREATE TABLE lager(
@@ -234,7 +234,7 @@ Mit diesem Formular erstellen Sie neue Inhalte in der Datenbank.
 
 🎬 Erstellen Sie die Datei `app.py` mit diesem Inhalt:
 
-```python
+```pythonthon
 from distutils.log import error
 from flask import Flask, render_template, request, redirect, url_for
 import sqlite3
@@ -285,7 +285,7 @@ Die Elemente werden nun erläutert.
 
 Mit der folgenden Anweisung verbindet Python-Flask die Anfrage des Browser mit einer Antwort.
 
-```python
+```pythonthon
 @app.route('/')
 def index():
     return render_template('index.html')
@@ -301,7 +301,7 @@ Schickt der Browser ein HTTP-Request für `/` auf wird das Template `index.html`
 
 Man unterscheidet bei HTTP-Requests zwischen GET und POST. Eine Route kann beides verarbeiten.
 
-```python
+```pythonthon
 @app.route('/insert', methods=['POST', 'GET'])
 def insert():
 ```

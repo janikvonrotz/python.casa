@@ -8,7 +8,7 @@ Aufgaben zum Thema.
 
 Vereinfachen Sie den folgenden Ausdruck:
 
-```py
+```python
 not (not (a)) and (b and (b or a))
 ```
 
@@ -58,7 +58,7 @@ Zum entschlüsseln, müssen wir die Reihenfolge umkehren, jedes zweite Zeichen l
 
 Die Nachricht verrät nicht viel. Der Internet-Kenner weiss aber, dass es sich um eine Youtube-ID handelt. Vervollständigen Sie den folgenden Code und führen Sie ihn aus:
 
-```py
+```python
 import webbrowser
 
 youtube_id = 

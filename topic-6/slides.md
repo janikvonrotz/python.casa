@@ -2,7 +2,7 @@
 
 [◀️ Thema 6](README.md)
 
-⚡[Anwesenheit bestätigen](https://moodle.medizintechnik-hf.ch/mod/attendance/manage.php?id=6139)
+⚡[Anwesenheit bestätigen](https://moodle.medizintechnik-hf.ch/mod/attendance/manage.php?id=8024)
 
 📖 Kapitel 9 Funktionen
 
@@ -53,7 +53,7 @@ def funktionsname(para1, para2, para3):
 
 ----
 
-### Thonny starten und einrichten
+### IDE starten und einrichten
 
 🎬 Führen Sie diese Aktionen aus:
 * Neuer Ordner `Thema5` erstellen
@@ -66,7 +66,7 @@ Wir erstellen eine Funktion.
 
 🎬 Diesen Code eingeben:
 
-```py
+```python
 # Funktion ohne Ergebnis
 def f1(x, y):
     print('Parameter 1:', x)
@@ -80,7 +80,7 @@ Und fügen eine zweite Funktion hinzu
 
 🎬 Diesen Code anfügen:
 
-```py
+```python
 # Funktion mit Ergebnis
 def f2(x, y):
   return x+y
@@ -93,7 +93,7 @@ Diese Funktionen führen wir nun aus.
 
 🎬 Diesen Code anfügen:
 
-```py
+```python
 # Hier beginnt die Programmausführung
 f1(2, 3)
 # Ausgabe: Parameter 1: 2
@@ -122,7 +122,7 @@ Variablen können innerhalb und ausserhalb einer Funktion deklariert werden.
 
 🎬 Datei `Ausserhalb.py` erstellen und ausführen:
 
-```py
+```python
 def f1():
     print(x)
 
@@ -135,7 +135,7 @@ f1() # Ausgabe 3
 
 🎬 Datei `Lokal.py` erstellen und ausführen:
 
-```py
+```python
 def f1():
     z=5
     print(z)
@@ -150,7 +150,7 @@ print(z) # Ausgabe 3
 
 Variablen mit der Kennzeichung `global` sind ausserhalb der Funktion verfügbar.
 
-```py
+```python
 def f1():
     global z
     z=z+3
@@ -182,7 +182,7 @@ print(z) # Ausgabe 6
 
 🎬 Datei `Parameter.py` erstellen und ausführen:
 
-```py
+```python
 def f1(x):
     print(x)
 
@@ -203,7 +203,7 @@ Es können mehrere Parameter mit Standardwerten definiert werden.
 
 🎬 Diesen Code anfügen:
 
-```py
+```python
 def f(a,b,c=-1,d=0):
     print(a,b,c,d)
 
@@ -235,7 +235,7 @@ Das funktioniert auch beim Funktionsaufruf.
 
 ### Beispiel mit Liste
 
-```py
+```python
 liste = ['a','b','c']
 
 print(liste) # Ausgabe ['a', 'b', 'c']
@@ -250,7 +250,7 @@ print(*liste) # a b c
 
 🎬 Datei `Mehrere.py` mit diesem Code erstellen:
 
-```py
+```python
 def f(a,*b):
     print(a,b,type(b))
     
@@ -273,7 +273,7 @@ f(*l) # 0 (1, 2, 3, 4, 5) <class 'tuple'>
 
 🎬 Datei `Ungültig.py` mit diesem Code erstellen:
 
-```py
+```python
 def f(n):
     if isinstance(n,int):
         return 2*n
@@ -291,7 +291,7 @@ Funktionen können sich selber aufrufen.
 
 🎬 Datei `Rekursion.py` mit diesem Code erstellen:
 
-```py
+```python
 def f(n):
     if n < 20:
         print(n)
@@ -321,14 +321,14 @@ Eine Kurzschreibweise für Funktionen.
 
 🎬 Datei `Lambda.py` mit diesem Code erstellen:
 
-```py
+```python
 x = lambda a : a + 10  
 print(x(5)) # Ausgabe: 15
 ```
 
 ℹ️ Die Lambda-Funktion macht das gleiche wie:
 
-```py
+```python
 def x(a)
 	return a + 10
 print(5
@@ -342,7 +342,7 @@ Wir erinnern uns an die filter-Funktion? `filter(function,list)`
 
 🎬 Datei `Lambda.py` mit diesem Code erweitern:
 
-```py
+```python
 data = [1,2,3,9,345,36,33]
 
 filtered = list(filter(lambda x: x%3==0, data))

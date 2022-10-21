@@ -26,7 +26,7 @@ Sie möchten eine neue Funktion in der Webapplikation einbauen. Benutzer sollen 
 
 **app.py**
 
-```python
+```pythonthon
 @app.route('/delete', methods=['POST'])
 def delete():
     connection = sqlite3.connect("lager.db")

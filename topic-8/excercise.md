@@ -8,14 +8,14 @@ Aufgaben zum Thema.
 
 Angenommen Sie erhalten diese Python-Funktion.
 
-```py
+```python
 def pluszwei(zahl):
 	return (zahl + 2)
 ```
 
 Und verwenden Sie in ihrem Programm.
 
-```py
+```python
 print(pluszwei(2))
 print(pluszwei('3'))
 ```
@@ -52,28 +52,28 @@ Entwickeln Sie ein Programm, dass dieses JSON-Dokuments zu einem CSV konvertiert
 
 Dazu diese Inputs:
 
-```py
+```python
 import json
 import csv
 ```
 
-```py
+```python
 with open('people.json', 'r') as f:
     data = json.load(f)
 print(data)
 ```
 
-```py
+```python
 for person in data:
     print(f"name: {person['name']}")
 ```
 
-```py
+```python
 with open('people.csv', mode='w') as file:
     csv_writer = csv.writer(file, delimiter=',', quotechar='"')
 ```
 
-```py
+```python
     csv_writer.writerow(['Name', 'Gender', 'Age'])
     for person in data:
         csv_writer.writerow(person.values())
@@ -108,7 +108,7 @@ Die erstellte Website wollen wir nun publizieren. Dazu erstellen wir einen HTTP-
 
 Führen Sie das folgende Programm `Server.py` aus.
 
-```py
+```python
 import http.server
 import socketserver
 

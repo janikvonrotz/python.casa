@@ -4,7 +4,18 @@
 
 Aufgaben zum Thema.
 
-### Aufgabe 2.1: Zufall
+### Aufgabe 2.1: Variablen dekalieren
+
+Erstellen Sie ein Skript, welches die folgenden Variablen und Werte deklariert:
+
+* Variable `pi` mit Wert `3.1415926535`
+* Variable `erdumfang_km` mit Wert `40075`
+
+Geben Sei zu jeder Variable den Variablentyp aus. Entsprechen die Datentypen ihren Erwartungen?
+
+⭐ [Variablen.py](https://github.com/janikvonrotz/python.casa/blob/main/topic-2/Variablen.py)
+
+### Aufgabe 2.2: Zufall
 
 Generieren Sie eine Zufallszahl vom Typ `float` im Bereich von 1.0 bis 10.0.
 
@@ -13,20 +24,20 @@ Die Python Dokumentation bietet zu allen Module Informationen. Hier der Link zum
 
 Verwenden Sie die `uniform`-Funktion für diese Aufgabe.
 
-```py
+```python
 from random import uniform
 ```
 :::
 
 ⭐ [Zufall.py](https://github.com/janikvonrotz/python.casa/blob/main/topic-2/Zufall.py)
 
-### Aufgabe 2.2: Runden
+### Aufgabe 2.3: Runden
 
 Runden Sie die generierte Zahl auf 3 Stellen nach dem Komma.
 
 ⭐ [Runden.py](https://github.com/janikvonrotz/python.casa/blob/main/topic-2/Runden.py)
 
-### Aufgabe 2.3: Modulo
+### Aufgabe 2.4: Modulo
 
 Fragen Sie den Benutzer nach einer ersten und einer zweiten Zahl. Geben Sie den Restwert einer Division der ersten durch die zweite Zahl aus.
 
@@ -36,11 +47,11 @@ Wenn die Heap-Ansicht noch aktiviert ist, kann es sein, das Python nicht den Wer
 
 ⭐ [Modulo.py](https://github.com/janikvonrotz/python.casa/blob/main/topic-2/Modulo.py)
 
-### Aufgabe 2.4: Ungleich
+### Aufgabe 2.5: Ungleich
 
 Führen Sie das folgende Programm aus:
 
-```py
+```python
 a = True
 b = 1
 print(a == b) # Ausgabe: True
@@ -49,11 +60,15 @@ print(a is b) # Ausgabe: False
 
 Warum sind sind die Werte im ersten Fall gleich und im zweiten Fall nicht?
 
+⭐ <details>
+Der Operator `is` vergleich nicht den Wert wie `==`, sondern die Adresse im RAM-Speicher.
+</details>
+
 ## Wiederholungsfragen
 
 **W1**: Der folgende Code löst einen Fehler aus. Warum?
 
-```py
+```python
 x=1; y=2
 print(x+y+z)
 ```
@@ -74,7 +89,7 @@ In Python haben Variablen keinen Typ! Nach i=3 zeigt i auf ein Objekt mit der ga
 
 **W3**: Welche Werte gibt das folgende Programm aus?
 
-```py
+```python
 a = 'abcde'
 b = a
 a = a+'fg'
@@ -94,7 +109,7 @@ print(b)
 
 **W4**: Der folgende Code ist fehlerhaft. Warum? Wie könnte eine Lösung aussehen?
 
-```py
+```python
 n=22.7
 msg='Die Temperatur beträgt ' + n + ' Grad.'
 ```

@@ -2,7 +2,7 @@
 
 [◀️ Thema 7](README.md)
 
-⚡[Anwesenheit bestätigen](https://moodle.medizintechnik-hf.ch/mod/attendance/manage.php?id=6139)
+⚡[Anwesenheit bestätigen](https://moodle.medizintechnik-hf.ch/mod/attendance/manage.php?id=8024)
 
 📖 Kapitel 11 Funktionen
 
@@ -55,7 +55,7 @@ Im Folgenden wollen wir die Funktionsweise einer Kaffeemaschine mit Code ausdrü
 
 🎬 Erstellen Sie die Datei `Kaffeemaschine.py` mit diesem Inhalt:
 
-```py
+```python
 class Kaffeemaschine:
     def __init__(self, marke, anzahl):
         self.marke = marke
@@ -79,7 +79,7 @@ Nun erstellen wir anhand des Bauplans eine Kaffeemaschine.
 
 🎬 Fügen Sie diesen Code an:
 
-```py
+```python
 # Instanzieren
 kaffeemaschine = Kaffeemaschine('Nespresso', 3)
 
@@ -103,7 +103,7 @@ kaffeemaschine.Zustand()
 
 Die Initialisierung übernimmt der Konstruktor. Der Konstruktor ist eine Funktion mit dem Namen `__init__`.
 
-```py
+```python
 def __init__(self, marke, anzahl):
 ```
 
@@ -113,7 +113,7 @@ def __init__(self, marke, anzahl):
 
 `self` bezieht sich auf das Objekt (die Instanz) selbst. Die self-Variablen nennt man Instanzvariablen.
 
-```py
+```python
 self.marke = marke
 self.anzahl = anzahl
 ```
@@ -124,7 +124,7 @@ self.anzahl = anzahl
 
 Mittels Methoden interagiert man mit dem Objekt.
 
-```py
+```python
 def Zustand(self):
 	print(f"Ich bin eine {self.marke} Maschine")
 	print(f"Es sind noch {self.anzahl} Kaffee(s) verfügbar")
@@ -149,7 +149,7 @@ Ziel: Aufgabe 5.5.1 und 5.5.2 gelöst.
 
 Sie haben bereits bestehende Python-Klassen verwendet. Beispielsweise die Klasse `date`.
 
-```py
+```python
 from datetime import date
 today = date.today()  
 ```
@@ -170,7 +170,7 @@ Man unterscheidet zwischen Klassen- und Instanvariablen.
 
 ### Beispiel Klassen- und Instanzvariablen
 
-```py
+```python
 class MyClass():  
     magicNumber = 42 # Klassenvariable
     def __init__(self, somedata, otherdata):
@@ -199,7 +199,7 @@ def name():
 
 🎬  Erstellen Sie eine Datei `Dekoraten.py`, fügen Sie den Code von unten ein.
 
-```py
+```python
 # Dekoraten-Funktion
 def hello(func):                                                                                            
     def inner():                                                                                            
@@ -223,7 +223,7 @@ name()
 
 Der Konstruktor wird nur einmal ausgeführt. Bestimmte Variabeln kann man nicht mehr ändern. Mit Getter- und Setter-Methoden ermöglicht man den Zugriff auf diese Variablen.
 
-```py
+```python
 class Kaffeemaschine:
     def __init__(self, name):
         self._name = name
@@ -245,7 +245,7 @@ class Kaffeemaschine:
 
 🎬  Erstellen Sie eine Datei `Getter-Setter.py` und instanzieren Sie die Klasse von vorhin wie folgt:
 
-```py
+```python
 maschine = Kaffeemaschine("Jura")
 print(maschine.name)
 maschine.name = "Gaccia"
@@ -268,7 +268,7 @@ Klassen können vererbt werden. Das heisst Sie erhalten einen neuen Namen und zu
 
 In der Definition der Klasse kann die darüberliegende Superklasse angegeben werden. Bei der Initialisierung ruft man den Konstruktor der Superklasse auf.
 
-```py
+```python
 class Tier():
     def __init__(self, name, farbe, alter):
         self.rufname = name

@@ -8,7 +8,7 @@ Aufgaben zum Thema.
 
 Wir erinnern uns an das Kaffeemaschinen-Programm bzw. deren Klasse?
 
-```py
+```python
 class Kaffeemaschine:
     def __init__(self, marke, anzahl):
         self.marke = marke
@@ -45,7 +45,7 @@ camelcase
 
 **camel.py**
 
-```py
+```python
 import camelcase  
   
 c = camelcase.CamelCase()  

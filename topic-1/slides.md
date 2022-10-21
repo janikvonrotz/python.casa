@@ -2,7 +2,7 @@
 
 [◀️ Thema 1](./README.md)
 
-⚡[Anwesenheit bestätigen](https://moodle.medizintechnik-hf.ch/mod/attendance/manage.php?id=6139)
+⚡[Anwesenheit bestätigen](https://moodle.medizintechnik-hf.ch/mod/attendance/manage.php?id=8024)
 
 📖 Kapitel 1 Hello, World!
 
@@ -30,6 +30,7 @@ Umso schwieriger die Begriffe:
 * Deklarieren
 * Variable
 * IDE
+* Debugger
 
 ---
 ### Programmiersprache
@@ -96,7 +97,7 @@ Alternativ `C:\Program Files\Python\python.exe` öffnen.
 
 🎬 Anweisung eingeben und mit <kbd>enter</kbd> bestätigen:
 
-```py
+```python
 print('Hello, World!')
 ```
 
@@ -110,7 +111,7 @@ print('Hello, World!')
 
 🎬 Anweisung eingeben:
 
-```py
+```python
 name='Michael'
 print('Hallo ' + name + '!')
 ```
@@ -120,7 +121,7 @@ print('Hallo ' + name + '!')
 
 Links Name des Speichers und Rechts der Wert.
 
-```py
+```python
 irgendwas = 'Ein Text'
 ```
 
@@ -179,7 +180,7 @@ python ./HelloWorld.py
 ---
 ### Shebang
 
-```py
+```python
 #!/usr/bin/env python3
 ```
 
@@ -194,7 +195,11 @@ Windows: `.py` -> `python.exe`
 
 IDE=Integrierte Entwicklungsumgebung  
 
-🎬 Installieren Sie [Visual Studio Code](https://code.visualstudio.com/) auf ihrem Computer.
+🎬 Folgende Punkte erledigen:
+* Installieren Sie [Visual Studio Code](https://code.visualstudio.com/) auf ihrem Computer
+* Installieren Sie die Python-Extension für Visual Studio Code
+
+Video: [Visual Studio Code installieren](https://www.youtube.com/watch?v=fuM8hJMyDeg)
 
 ⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 10 Minuten
 
@@ -217,6 +222,8 @@ Ziel: Jeder kann die IDE starten.
 * Den Ausgabe-Text ändern und speichern
 * Das Skript mit der IDE oder dem Terminal ausführen
 
+![](../vs-code-run-python-file.png)
+
 ---
 ### Was läuft hier?
 
@@ -234,14 +241,14 @@ Ziel: Jeder kann die IDE starten.
 
 Ist normalerweise Einzeilig.
 
-```py
+```python
 print('abc')
 print('efg')
 ```
 
 Mehre Anweisungen auf einer Zeile:
 
-```py
+```python
 a=1; b=2; c=3
 ```
 
@@ -250,7 +257,7 @@ a=1; b=2; c=3
 
 Sprachelemente über mehrere Zeilen.
 
-```py
+```python
 if xxx:
     anweisung1a
     anweisung1b
@@ -266,7 +273,7 @@ Anweisungen müssen eingeruckt sein.
 Eingabe des Benutzname = input('Geben Sie Ihren Namen an:')
 print('Ihr Name lautet:', name)ers empfangen und ausgeben.
 
-```py
+```python
 name = input('Geben Sie Ihren Namen an:')
 print('Ihr Name lautet:', name)
 ```
@@ -276,7 +283,7 @@ print('Ihr Name lautet:', name)
 
 Kommentieren direkt im Code.
 
-```py
+```python
 # ein Kommentar
 print('abc')  # noch ein Kommentar
 ```
@@ -284,11 +291,9 @@ print('abc')  # noch ein Kommentar
 ---
 ### Aufgaben
 
-Lösen Sie die Aufgaben und besprechen Sie die Wiederholungsfragen.
+Lösen Sie die [Aufgaben](./excercise.md#aufgaben) und besprechen Sie die Wiederholungsfragen.
 
 ⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 10 Minuten
-
-Ziel: [Aufgabe](./excercise.md#aufgaben) 1.1 gelöst.
 
 ---
 ### Review
@@ -296,23 +301,6 @@ Ziel: [Aufgabe](./excercise.md#aufgaben) 1.1 gelöst.
 🎯 Wurden die [Lernziele](#Lernziele) erreicht?
 
 ⚡ Feedback zu den Zielen einholen.
-
----
-### Feedback
-
-<iframe src="https://giphy.com/embed/UVZCz81UWkobY3oHbd" width="300" height="300" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-
-* Was lief gut?
-* Was kann ich verbessern?
-
----
-### Abschluss
-
-Wir haben noch Zeit für:
-
-* Besprechung von Aufgaben und Wiederholungsfragen
-* Fragen zum Thema
-* Direkte Unterstützung
 
 ---
 ### Quellen

@@ -8,7 +8,7 @@ Aufgaben zum Thema.
 
 Für die Ansage von Zugabfahren wurde ein Programm erstellt.
 
-```py
+```python
 print("Der nächste Zug fährt nach Bern.")
 print("Der nächste Zug fährt nach Luzern.")
 print("Der nächste Zug fährt nach Zürch.")
@@ -21,7 +21,7 @@ Es wird immer der gleiche Satz verwendet, nur der Name des Zuges ändert. Versuc
 ::: tip
 Erstelle Sie eine Funktion `ansage`, die als Parameter den Ort erhält und rufen Sie die Funktion wie folgt auf:
 
-```py
+```python
 ansage("Bern")
 ansage("Luzern")
 ansage("Zürich")
@@ -53,7 +53,7 @@ Schreiben Sie eine rekursive Funktion, die als Parameter einen Ordnerpfad erwart
 ::: tip
 Dazu eine Hilfestellung. Das folgende Programm gibt alle Dateien und Ordner unterhalb eines bestimmten Ordnerpfads aus:
 
-```py
+```python
 import os
 
 basepath = '/pfad/to/my/directory'
@@ -81,19 +81,19 @@ Filter sind alle Benutzer aus der Liste, die eine Telefonnumer haben, die mit ei
 ::: tip
 Verwenden Sie die folgende Bausteine:
 
-```py
+```python
 print(user.get('email'))
 ```
 
-```py
+```python
 for user in users:
 ```
 
-```py
+```python
 filter(lambda user: user["name"] == "Leanne Graham", data)
 ```
 
-```py
+```python
 users = list(filter)
 ```
 :::
@@ -108,7 +108,7 @@ Schreiben Sie diese Flowchart als Code:
 
 Erstellen Sie einen Flowchart mit [draw.io](https://draw.io) anhand dieses Codes:
 
-```py
+```python
 spicyfood = input("Do you like spicy food? True or False?")
 if spicyfood == "True":
     level = input("How spicy do you like it? hot, very hot, super hot ?")
@@ -132,7 +132,7 @@ Entwickeln Sie das Spiel *Hangman*. Implementierung Sie dazu folgende Punkte:
 
 Als Anschub haben wir die folgenden Bausteine:
 
-```py
+```python
 wort = list("python".upper())
 laenge = len(wort)
 zensiert = list(laenge * '_')
@@ -141,34 +141,34 @@ gefunden = []
 gewonnen = False
 ```
 
-```py
+```python
 if eingabe in wort:
         gefunden.extend([eingabe])
 ```
 
-```py
+```python
 while versuche > 0  and not gewonnen:
     eingabe = input("Geben Sie einen Buchstaben ein: ").upper()
 ```
 
-```py
+```python
 for i in range(0, laenge):
 	if wort[i] in gefunden:
 		zensiert[i] = wort[i]
 ```
 
-```py
+```python
 if '_' not in zensiert:
 	gewonnen = True
 	print("Du hast gewonnen!")
 ```
 
-```py
+```python
 if not gewonnen:
     print("Du hast verloren!")
 ```
 
-```py
+```python
 print(f"Treffer! Der aktuelle Stand: {' '.join(zensiert)}.")
 print(f"Deine Treffer: {' '.join(gefunden)}.")
 ```
@@ -246,7 +246,7 @@ def prod(*f):
 
 **W4**: Schreiben Sie eine Funktion, die eine Zeichenkette nach allen Vorkommen einer anderen Zeichenkette durchsucht und die Startpositionen als Liste zurückgibt. Beispiel:
 
-```py
+```python
 print(findAll('abcefgabcxyzabcd', 'abc'))
 # Ausgabe: [0, 6, 12]
 ```

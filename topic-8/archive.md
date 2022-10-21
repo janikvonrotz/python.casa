@@ -1,6 +1,6 @@
 ## Archive
 
----
+---VS Code
 
 ### Benutzeroberfläche
 
@@ -25,7 +25,7 @@ Damit wir ein Graphical User Interface (GUI) entwickeln können, müssen Softwar
 
 🎬 Erstellen Sie die Datei `GUI.py` mit diesem Code:
 
-```py
+```python
 import sys
 from PyQt5 import QtCore, QtWidgets
 from PyQt5.QtWidgets import QMainWindow, QLabel, QWidget             
@@ -63,7 +63,7 @@ Wer sich weiter einarbeiten möchte kann diese Tutorial-Reihe schauen: [Python G
 
 Das folgende Programm liest Temperaturdaten aus einer Textdatei aus und stellt diese als Balkendiagramm dar. Versuchen Sie den Code des Programms zu versehen.
 
-```py
+```python
 from datetime import datetime
 from functools import reduce
 from PyQt5 import QtCore, QtWidgets
