@@ -33,9 +33,9 @@ from random import uniform
 
 ### Aufgabe 2.3: Runden
 
-Runden Sie die generierte Zahl auf 3 Stellen nach dem Komma.
+Runden Sie die generierte Zahl aus Aufgabe 2.2 auf 3 Stellen nach dem Komma.
 
-⭐ [Zufall.py](https://github.com/janikvonrotz/python.casa/blob/main/topic-2/Zufall.py)
+⭐ [Round.py](https://github.com/janikvonrotz/python.casa/blob/main/topic-2/Round.py)
 
 ### Aufgabe 2.4: Modulo
 
