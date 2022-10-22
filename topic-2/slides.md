@@ -106,6 +106,7 @@ Für den weiteren Verlauf des Unterrichts arbeiten wir mit der IDE und der Websi
 ```python
 x=1
 y=2
+z=3
 ```
 
 ---

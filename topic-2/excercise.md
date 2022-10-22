@@ -41,10 +41,6 @@ Runden Sie die generierte Zahl aus Aufgabe 2.2 auf 3 Stellen nach dem Komma.
 
 Fragen Sie den Benutzer nach einer ersten und einer zweiten Zahl. Geben Sie den Restwert einer Division der ersten durch die zweite Zahl aus.
 
-::: warning
-Wenn die Heap-Ansicht noch aktiviert ist, kann es sein, das Python nicht den Wert der Zahl liefert, sondern deren Referenz. Deaktivieren Sie die Heap-Ansicht um sicher zu gehen.
-:::
-
 ⭐ [Modulo.py](https://github.com/janikvonrotz/python.casa/blob/main/topic-2/Modulo.py)
 
 ### Aufgabe 2.5: Ungleich
