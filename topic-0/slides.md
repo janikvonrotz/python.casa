@@ -1,4 +1,7 @@
-# Über diesen Kurs
+# EidP 
+Einführung in die Programmierung
+
+Mit dem Kurs sollen die Grundlagen der Software-Entwicklung vermittelt und das Verständnis für die Computertechnik geschaffen werden.
 
 [◀️Thema 0](./README.md)
 

@@ -299,7 +299,7 @@ Lösen Sie die [Aufgaben](excercise.md#aufgaben) 2.2 bis 2.5 und besprechen Sie 
 ---
 ### Review
 
-🎯 Wurden die [Lernziele](#Lernziele) erreicht?
+🎯 Wurden die [Lernziele](#lernziele) erreicht?
 
 ⚡ Feedback zu den Zielen einholen.
 

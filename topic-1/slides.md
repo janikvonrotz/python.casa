@@ -170,7 +170,7 @@ Im Unterordner das Terminal starten.
 
 🎬 Folgende Punkte erledigen:
 
-* Ordner im Explorer/Finder öffnen
+* Ordner `Thema1` im Explorer/Finder öffnen
 * Windows: In Adressleiste `powershell.exe` eingeben und mit `enter` bestätigen
 
 ![open-powershell](../open-powershell.gif)
@@ -301,8 +301,7 @@ Anweisungen müssen eingeruckt sein.
 ---
 ### Input
 
-Eingabe des Benutzname = input('Geben Sie Ihren Namen an:')
-print('Ihr Name lautet:', name)ers empfangen und ausgeben.
+Python kann mit `input` Eingaben entgegennehmen.
 
 ```python
 name = input('Geben Sie Ihren Namen an:')
@@ -329,7 +328,7 @@ Lösen Sie die [Aufgaben](./excercise.md#aufgaben) und besprechen Sie die Wieder
 ---
 ### Review
 
-🎯 Wurden die [Lernziele](#Lernziele) erreicht?
+🎯 Wurden die [Lernziele](#lernziele) erreicht?
 
 ⚡ Feedback zu den Zielen einholen.
 

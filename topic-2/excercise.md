@@ -35,7 +35,7 @@ from random import uniform
 
 Runden Sie die generierte Zahl auf 3 Stellen nach dem Komma.
 
-⭐ [Runden.py](https://github.com/janikvonrotz/python.casa/blob/main/topic-2/Runden.py)
+⭐ [Zufall.py](https://github.com/janikvonrotz/python.casa/blob/main/topic-2/Zufall.py)
 
 ### Aufgabe 2.4: Modulo
 
