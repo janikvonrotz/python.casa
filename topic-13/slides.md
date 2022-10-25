@@ -30,8 +30,6 @@ Das Schreiben von versioniertem Code kann man sich wie das Wachstum eines Baumes
 * **Head**: Die Baumkrohne
 * **History**: Verlauf des Wachstum
 
-
-
 ![](../svn-tree.png)
 
 ---

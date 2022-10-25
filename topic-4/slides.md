@@ -7,6 +7,14 @@
 📖 Kapitel 6 Datum und Zeit
 
 ---
+### Lernziele
+
+Ich kann ...
+* Datum und Uhrzeit einlesen und in einer Variable speichern.
+* Datum und Uhrzeit in einem bestimmten Format ausgeben.
+* Zeitdifferenzen in Stunde, Tagen und Jahren berechnen.
+
+---
 
 ### Timestamp
 
@@ -189,7 +197,7 @@ Lösen Sie die ersten zwei [Aufgaben](excercise.md#aufgaben).
 
 ⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 10 Minuten
 
-Ziel: Aufgabe 3.5.1 und 3.5.2 sind gelöst.
+Ziel: Aufgabe 4.1 und 4.2 sind gelöst.
 
 ---
 
@@ -271,13 +279,11 @@ Lösen Sie die dritte [Aufgabe](excercise.md#aufgaben).
 
 ⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 10 Minuten
 
-Ziel: Aufgabe 3.5.3 ist gelöst.
+Ziel: Aufgabe 4.3 und 4.4 ist gelöst.
 
 ---
-
 ### Review
 
-🎯 Ziele erreicht?
-* Datum und Uhrzeit einlesen und ausgeben
-* Datum und Uhrzeit formatieren
-* Mit Datum und Uhrzeit rechnen
+🎯 Wurden die [Lernziele](#lernziele) erreicht?
+
+⚡ Feedback zu den Zielen einholen.

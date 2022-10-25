@@ -303,12 +303,3 @@ Lösen Sie die [Aufgaben](excercise.md#aufgaben) 2.2 bis 2.5 und besprechen Sie 
 🎯 Wurden die [Lernziele](#lernziele) erreicht?
 
 ⚡ Feedback zu den Zielen einholen.
-
----
-<!--
-### Abschluss
-
-📝 Ich bitte euch die restlichen Aufgaben und Wiederholungsfragen im Selbststudium durchzugehen.
-
-👋 Bis zum nächsten Mal.
--->

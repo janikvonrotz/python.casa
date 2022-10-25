@@ -366,6 +366,6 @@ Ziel: Aufgabe 7.5.1 und 7.5.2 gelöst.
 
 ---
 
-### Referenzen
+### Quellen
 
 [^1]: https://www.sqlite.org/mostdeployed.html

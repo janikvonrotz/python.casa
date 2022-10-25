@@ -7,6 +7,14 @@
 📖 Kapitel 3 Operatoren und 5 Zeichenketten
 
 ---
+### Lernziele
+
+Ich kann ...
+* boolsche Operationen anwenden und vereinfachen.
+* Zeichenketten erstellen, bearbeiten und formatieren.
+* mit der IDE Ordner und Skripte erstellen, ausführen und debuggen.
+
+---
 ### Herkunft Boolean
 
 * Boolean sind benannt nach Georg Boole (1815)
@@ -270,9 +278,9 @@ Zeichenketten können mit vielen Funktionen und Methoden bearbeitet werden.
 ![](../string-methods.png)
 
 ---
-### ℹ️ Funktionen versus Methoden
+### Funktionen versus Methoden
 
-Methoden sind etwas Ähnliches wie Funktionen, Sie werden aber direkt auf die zugrundeliegenden Daten (Objekte) angewendet.
+ℹ️ Methoden sind etwas Ähnliches wie Funktionen, Sie werden aber direkt auf die zugrundeliegenden Daten (Objekte) angewendet.
 
 ```python
 funktion(daten)
@@ -387,19 +395,11 @@ Lösen Sie die nächsten zwei [Aufgaben](excercise.md#aufgaben) 3.3 und 3.4.
 ---
 ### Review
 
-🎯 Ziele erreicht?
-* Gesetze der boolschen Algebra sind bekannt
-* Zeichenketten können erstellt, bearbeitet und formatiert werden
-* Das Erstellen von Skripten ist inzwischen kein Problem
+🎯 Wurden die [Lernziele](#lernziele) erreicht?
+
+⚡ Feedback zu den Zielen einholen.
 
 ---
-### Abschluss
-
-📝 Ich bitte euch die restlichen Aufgaben und Wiederholungsfragen im Selbststudium durchzugehen.
-
-👋 Bis zum nächsten Mal.
-
----
-### Referenzen
+### Quellen
 
 [^1]: [Wikipedia - Boolesche Algebra](https://de.wikipedia.org/wiki/Boolesche_Algebra#Definition)

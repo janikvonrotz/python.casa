@@ -4,7 +4,9 @@
 
 Aufgaben zum Thema.
 
-### Aufgabe 3.1: Vereinfachen
+### Aufgabe 3.1:  Wahr oder Falsch  🚧
+
+### Aufgabe 3.2: Vereinfachen
 
 Vereinfachen Sie den folgenden Ausdruck:
 
@@ -12,25 +14,25 @@ Vereinfachen Sie den folgenden Ausdruck:
 not (not (a)) and (b and (b or a))
 ```
 
-### Aufgabe 3.2: Kurzschluss
-
-Nehmen Sie den logischen Ausdruck von **Aufgabe 3.1** und bestimmen sie, ob dieser unter den folgenden Bedinungen vollständig evaluiert wird oder nicht:
+Bestimmen sie, ob dieser unter den folgenden Bedinungen vollständig evaluiert wird oder nicht:
 
 Bedingung 1:
 
-```
+```python
 a = True
 b = False
 ```
 
 Bedingung 2:
 
-```
+```python
 a = False
 b = True
 ```
 
-### Aufgabe 3.3: DNA
+### Aufgabe 3.3: Suchen und Erstetzen 🚧
+
+### Aufgabe 3.4: DNA
 
 Eine Analyse hat eine DNA-Sequenz zurückgeben. 
 
@@ -40,11 +42,11 @@ ACTNGTGCTYGATRGTAGC
 
 Wir möchten herausfinden, ob diese Sequenz auch wirklich DNA enthält [^1]. Zählen Sie die Anzahl der Buchstaben A, T, G und C in der Sequenz zu einer Summe.
 
-### Aufgabe 3.4: DNA 2
+### Aufgabe 3.5: DNA 2
 
-Rechnen Sie die Summe geteilt durch die Anzahl Zeichen der Sequenz. Das Ergebnis ist eine Prozentzahl. Formatiert die Ausgabe so, dass die Zahl zwei Stellen nach dem Komma und mit Prozentzeichen ausgegeben wird.
+Rechnen Sie die Summe geteilt durch die Anzahl Zeichen der Sequenz. Das Ergebnis ist eine Prozentzahl. Formatieren Sie Ausgabe so, dass die Zahl zwei Stellen nach dem Komma und mit Prozentzeichen ausgegeben wird.
 
-### Aufgabe 3.5: Geheim 🚧
+### Aufgabe 3.6: Geheim 🚧
 
 Wir haben eine geheime Zeichensequenz erhalten:
 
@@ -52,18 +54,12 @@ Wir haben eine geheime Zeichensequenz erhalten:
 1x1A1H1R1Y1J1S151g1H1o
 ```
 
-Zum entschlüsseln, müssen wir die Reihenfolge umkehren, jedes zweite Zeichen lesen und `x` mit `0` ersetzen.
+Zum entschlüsseln müssen wir ...
+* die Reihenfolge umkehren
+* jedes zweite Zeichen lesen
+* `x` mit `0` ersetzen
 
-### Aufgabe 3.6: Bonusaufgabe 🚧
-
-Die Nachricht verrät nicht viel. Der Internet-Kenner weiss aber, dass es sich um eine Youtube-ID handelt. Vervollständigen Sie den folgenden Code und führen Sie ihn aus:
-
-```python
-import webbrowser
-
-youtube_id = 
-webbrowser.open('https://www.youtube.com/watch?v=%s' % (youtube_id))
-```
+Wie lautet die geheime Nachricht.
 
 ## Wiederholungsfragen
 
@@ -151,6 +147,6 @@ if rechenfunktion(x)>0 and rechenfunktion(y)>0: 
 </pre>
 </details>
 
-## Referenzen
+## Quellen
 
 [^1]: [How to count non-DNA bases in a sequence using Python](https://pythonforbiologists.com/counting-non-dna-bases-in-a-sequence.html)

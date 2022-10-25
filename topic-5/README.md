@@ -12,37 +12,6 @@ Umfang ⏱️: 3 Lektionen
 
 [Hier](excercise.md) geht es zu den Übungen.
 
-## Ankündigung
-
-**Vorbereitung und Projektthemen**
-
-Hallo Zusammen
-
-Am Samstag Morgen werden wir uns in die Verzweigung und Verschleifung der Programmierung vertiefen. Zur Vorbereitung habe ich diese Inputs:
-* [Python3-Einstieg #7 - if-Verzweigung](https://www.youtube.com/watch?v=eWRTSdLF_4Y)
-* [Python3-Einstieg #8 - Listen](https://www.youtube.com/watch?v=LFC7P24G5Tw)
-* [Python3-Einstieg #9 - Dictionary](https://www.youtube.com/watch?v=q_545AUYYiY)
-
-Am Sonntag wäre dann der Eingabeschluss für den Projektvorschlag. Die [Themenwahl](https://python.casa/exam.html#themenwahl) habe ich noch aktualisiert.
-
-Ich freue mich.
-
-Freundlicher Gruss
-
-Janik
-
-**Projektvorschlag**
-
-Hallo Miteinander
-
-Im letzten Unterrichtsblock habe ich euch den Leistungsnachweis erläutert. Die ersten Eingaben habe ich bereits erhalten. Bitte ladet euren Projektvorschlag bis am 28.02.2021 auf [Moodle](https://moodle.medizintechnik-hf.ch/mod/assign/view.php?id=4680) hoch.
-
-Bei Fragen bitte melden.
-
-Freundlicher Gruss
-
-Janik
-
 ## Meta
 
 Ziele:

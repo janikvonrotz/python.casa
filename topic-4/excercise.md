@@ -1,30 +1,32 @@
-# Übungen Thema 3.5
+# Übungen Thema 4
 
 ## Aufgaben
 
 Augaben zum Thema.
 
-### Aufgabe 3.5.1: Tage seit Geburt
+### Aufgabe 4.1: Datum ausgeben 🚧
+
+### Aufgabe 4.2: Tage seit Geburt
 
 Entwickeln Sie eine Programm, dass nach ihrem Geburtsdatum im Format `'%d.%m.%Y'` fragt.
 
 Berechne Sie die Anzahl Tage, die seit dem Geburtsdatum vergangen sind und geben Sie diese aus.
 
 ::: tip
-Damit die Differenz berechent werden kann, muss das heutige Datum und das Geburtsdatum Format ohne Zeit sein.
+Damit die Differenz berechent werden kann, muss das heutige Datum und das Geburtsdatum im Format ohne Zeit sein.
 
-```
+```python
 differenz = date.today() - geburtsdatum.date()
 ```
 :::
 
-### Aufgabe 3.5.2: Tage bis Geburtstag
+### Aufgabe 4.3: Tage bis Geburtstag
 
 Erweitern das Programme mit einer Berechnung der Anzahl Tage bis zum nächsten Geburstag aus. 
 
 Geben Sie sie folgenden Text aus: `'Sie haben in {differenz.days} Tagen an einem {geburtstag.strftime("%A")} Geburtstag.'`
 
-### Aufgabe 3.5.3: Schnellschreiber
+### Aufgabe 4.4: Schnellschreiber
 
 Schreiben Sie ein Programm, dass diesen Text ausgibt:
 

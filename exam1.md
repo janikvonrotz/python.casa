@@ -7,7 +7,7 @@ Anteil Gesamtnote: 15%
 
 ## Abgrenzung
 
-Die Inhaltliche Abgrenzung sind die Folien, Aufgaben und Wiederholungsfragen von [Teil 1](README.md#teil-1).
+Die Inhaltliche Abgrenzung sind die Folien, Aufgaben und Wiederholungsfragen von [T1](topic-1/README.md), [T2](topic-2/README.md) , , [T3](topic-3/README.md), [T4](topic-4/README.md) .
 
 ## Durchführung
 
@@ -46,4 +46,4 @@ print(list[X])
 Tupel: \_\_\
 Set:  \_\_\
 Dictionary:  \_\_\
-Liste:  \_\_
+Liste:  \_\_Thema 12
