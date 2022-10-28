@@ -18,7 +18,7 @@ Ich kann ...
 
 ### Timestamp
 
-🤔 Wie speichert der Computer eine Uhrzeit?
+🤔 Wie speichert der Computer die aktuelle Uhrzeit?
 
 🙋 <https://www.unixtimestamp.com/>
 
@@ -37,7 +37,7 @@ Ich kann ...
 🎬 Das aktuelle Datum und Uhrzeit ausgeben.
 
 ```python
-from datetime import datetime
+from datetime import datetime # Neue Funktionen aus der Python-Bibliothek
 now = datetime.now()
 print(now) # Ausgabe: YYYY-MM-DD HH:MM:SS
 ```
@@ -48,7 +48,7 @@ print(now) # Ausgabe: YYYY-MM-DD HH:MM:SS
 
 🎬 Anzahl Sekunden seit 01.01.1970
 
-```
+```python
 print(now.timestamp())
 ```
 
@@ -193,11 +193,9 @@ print('Noch', warten.days, 'Tage bis Weihnachten.')
 ---
 ### Aufgaben 1
 
-Lösen Sie die ersten zwei [Aufgaben](excercise.md#aufgaben).
+Lösen Sie die ersten zwei [Aufgaben](excercise.md#aufgaben) 4.1 und 4.2.
 
 ⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 10 Minuten
-
-Ziel: Aufgabe 4.1 und 4.2 sind gelöst.
 
 ---
 
@@ -275,11 +273,9 @@ print(end - start, 'Sekunden')
 ---
 ### Aufgaben 2
 
-Lösen Sie die dritte [Aufgabe](excercise.md#aufgaben).
+Lösen Sie die restlichen [Aufgaben](excercise.md#aufgaben).
 
 ⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 10 Minuten
-
-Ziel: Aufgabe 4.3 und 4.4 ist gelöst.
 
 ---
 ### Review
