@@ -127,7 +127,7 @@ print(datetime.now.strftime('%A, %d. %B %Y'))
 
 ---
 
-### Datum einlesen
+### Datum aus String lesen
 
 🎬 Bei der Eingabe eines Datum ist das Format entscheidend.
 
@@ -262,7 +262,7 @@ Wie lange wird das Programm ausgeführt?
 
 🎬 Führen Sie dieses Programm aus.
 
-```
+```python
 from datetime import datetime
 start = int(datetime.now().timestamp())
 

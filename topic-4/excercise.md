@@ -4,11 +4,22 @@
 
 Augaben zum Thema.
 
-### Aufgabe 4.1: Datum ausgeben 🚧
+### Aufgabe 4.1: Datum oder Zeit ausgeben
+
+Erstellen Sie eine Variable `heute` und speichern den heutigen Tag in dieser Variable. Geben Sie den Inhalt der Variable aus.
+
+Erstellen Sie eine Variable `jetzt` und speichern Sie die aktuelle Uhrzeit in dieser Variable. Geben Sie nur die Uhrzeit aus.
+
+⭐ [HeuteJetzt.py](https://github.com/janikvonrotz/python.casa/blob/main/topic-4/HeuteJetzt.py)
 
 ### Aufgabe 4.2: Tage seit Geburt
 
 Entwickeln Sie eine Programm, dass nach ihrem Geburtsdatum im Format `'%d.%m.%Y'` fragt.
+
+```python
+from datetime import datetime, date
+geburtsdatum = input('Geben Sie ihr Geburtsdatum (DD.MM.YYYY) ein: ')
+```
 
 Berechne Sie die Anzahl Tage, die seit dem Geburtsdatum vergangen sind und geben Sie diese aus.
 
@@ -20,11 +31,15 @@ differenz = date.today() - geburtsdatum.date()
 ```
 :::
 
+⭐ [Tage seit Geburt.py](https://github.com/janikvonrotz/python.casa/blob/main/topic-4/Tage%20seit%20Geburt.py)
+
 ### Aufgabe 4.3: Tage bis Geburtstag
 
 Erweitern das Programme mit einer Berechnung der Anzahl Tage bis zum nächsten Geburstag aus. 
 
 Geben Sie sie folgenden Text aus: `'Sie haben in {differenz.days} Tagen an einem {geburtstag.strftime("%A")} Geburtstag.'`
+
+⭐ [Tage bis Geburtstag.py](https://github.com/janikvonrotz/python.casa/blob/main/topic-4/Tage%20bis%20Geburtstag.py)
 
 ### Aufgabe 4.4: Schnellschreiber
 
@@ -34,13 +49,15 @@ Schreiben Sie ein Programm, dass diesen Text ausgibt:
 Am 19. Januar 2038 haben 32-Bit Computer ein Problem.
 ```
 
-Anschliessend soll man den Text wieder eingeben.
+Anschliessend soll man den Text wieder eintippen.
 
 Vergleichen Sie den originalen String und die Eingabe. Geben Sie den Vergleichswert (Boolean) aus.
 
 Messen Sie die Zeit der ganzen Programmausführung und geben Sie diese in Sekunden aus.
 
 ℹ️ Ausgabe heisst immer `print()` und Eingabe immer `input()`
+
+⭐ [Schnellschreiber .py](https://github.com/janikvonrotz/python.casa/blob/main/topic-4/Schnellschreiber.py)
 
 ## Wiederholungsfragen
 
