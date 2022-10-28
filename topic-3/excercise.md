@@ -4,7 +4,7 @@
 
 Aufgaben zum Thema.
 
-### Aufgabe 3.1:  Wahr oder Falsch  🚧
+### Aufgabe 3.1:  Wahr oder Falsch
 
 Es folgt ein Skript mit 3 Ausgaben (`print`). Bestimmen Sie für jede Ausgabe ob der Ausdruck `True` oder `False` ist.
 
