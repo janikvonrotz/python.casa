@@ -10,7 +10,7 @@
 ### Lernziele
 
 Ich kann ...
-* Datum und Uhrzeit einlesen und in einer Variable speichern.
+* Datum und Uhrzeit in einer Variable speichern.
 * Datum und Uhrzeit in einem bestimmten Format ausgeben.
 * Zeitdifferenzen in Stunde, Tagen und Jahren berechnen.
 
