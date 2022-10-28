@@ -11,6 +11,7 @@
 
 Ich kann ...
 * Datum und Uhrzeit in einer Variable speichern.
+* erklären wie der Computer die Zeit speichert.
 * Datum und Uhrzeit in einem bestimmten Format ausgeben.
 * Zeitdifferenzen in Stunde, Tagen und Jahren berechnen.
 
@@ -18,7 +19,7 @@ Ich kann ...
 
 ### Timestamp
 
-🤔 Wie speichert der Computer die aktuelle Uhrzeit?
+🤔 Wie speichert bzw. weiss der Computer die aktuelle Uhrzeit?
 
 🙋 <https://www.unixtimestamp.com/>
 
@@ -46,7 +47,7 @@ print(now) # Ausgabe: YYYY-MM-DD HH:MM:SS
 
 ### Unix Timestamp ausgeben
 
-🎬 Anzahl Sekunden seit 01.01.1970
+🎬 Anzahl Sekunden seit 01.01.1970 ausgeben.
 
 ```python
 print(now.timestamp())
