@@ -1,9 +1,15 @@
-msg='1x1A1H1R1Y1J1S151g1H1o'
+# Verschlüsseln
+
+msg = 'SnapeKillsDumbledore'
+
+msg = ''.join([c + 'L' for c in msg])
+msg = msg[::-1]
+msg = 'LeLr' + msg + 'LeLr' 
+
 print(msg)
 
-msg = msg[::-1][::2].replace('x', '0')
+msg = msg[4:44]
+msg = msg[::-1]
+msg = msg[::2]
 
-import webbrowser
-
-youtube_id = msg
-webbrowser.open('https://www.youtube.com/watch?v=%s' % (youtube_id))
+print(msg)

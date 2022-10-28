@@ -236,6 +236,16 @@ Mit der Slicing-Syntax `s[start:ende]` kann auf Teile einer Zeichenkette zugegri
 🎬  Erstellen Sie die Datei `Teilzeichenketten.py`
 
 ---
+
+### Index
+
+Wir greifen nun auf den Index der Zeichenkette. Der Index beginnt immer bei 0!
+
+| 0   | 1   | 2   | 3   | 4   | 5   | 6   | 7   | ...    |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| a   | b   | c   | d   | e   | f   | g   | h   | ...    |
+
+---
 ### Zugriff Teilzeichenketten
 
 🎬  Führen Sie die folgenden Zeilen aus:
@@ -243,7 +253,7 @@ Mit der Slicing-Syntax `s[start:ende]` kann auf Teile einer Zeichenkette zugegri
 ```python
 s='abcdefghijklmnopqrstuvwxyz'
 print(s[3]) # Viertes Zeichen
-print(s[3:6])
+print(s[3:6]) # Viertes bis Sechstes Zeichen
 print(s[:3]) # Alles bis und mit dem dritten Zeichen
 print(s[-4]) # Das viertletzte Zeichen
 print(s[-4:]) # Alles ab dem iertletzten Zeichen
@@ -271,6 +281,14 @@ print(s[::-2]) # Jedes zweite Zeichen in umgekehrter Reihenfolge
 ```
 
 ---
+### Aufgaben 2
+
+Lösen Sie die [Aufgabe](excercise.md#aufgaben) 3.3.
+
+⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 10 Minuten
+
+---
+
 ### Zeichenkettenfunktionen
 
 Zeichenketten können mit vielen Funktionen und Methoden bearbeitet werden.
@@ -325,9 +343,10 @@ print(str.islower('abcD')) # False
 **Suchen.py**
 
 ```python
+help(str.find)
 s="abcdefghijklmnopqrstuvwxyz"
 print(s.find("hij")) # Ergebnis: 7
-print(s.find("hij",8)) # -1 also nicht gefunden
+print(s.find("hij", 8)) # -1 also nicht gefunden
 print(s.rfind("hij")) # Suche von Rechts nach Links
 ```
 
@@ -386,9 +405,9 @@ print(f'{name} ist {alter:.3} Jahre alt.')
 ℹ️ Diese Formatierung ist ab Python 3.6 verfügbar.
 
 ---
-### Aufgaben 2
+### Aufgaben 3
 
-Lösen Sie die nächsten zwei [Aufgaben](excercise.md#aufgaben) 3.3 und 3.4.
+Lösen Sie restlichen [Aufgaben](excercise.md#aufgaben) 3.4 bis 3.6.
 
 ⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 10 Minuten
 

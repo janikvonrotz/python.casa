@@ -6,6 +6,22 @@ Aufgaben zum Thema.
 
 ### Aufgabe 3.1:  Wahr oder Falsch  🚧
 
+Es folgt ein Skript mit 3 Ausgaben (`print`). Bestimmen Sie für jede Ausgabe ob der Ausdruck `True` oder `False` ist.
+
+```python
+x = False
+y = True
+z = 1
+
+print(x and y and z)
+print(x or z)
+print(not(x and not y)) # True
+```
+
+Konnten Sie die Ausgaben richtig bestimmen? Prüfen Sie ihre Antworten indem Sie das Skript ausführen.
+
+⭐ [WahrFalsch.py](https://github.com/janikvonrotz/python.casa/blob/main/topic-3/WahrFalsch.py)
+
 ### Aufgabe 3.2: Vereinfachen
 
 Vereinfachen Sie den folgenden Ausdruck:
@@ -30,9 +46,54 @@ a = False
 b = True
 ```
 
-### Aufgabe 3.3: Suchen und Erstetzen 🚧
+⭐ [Vereinfachen.py](https://github.com/janikvonrotz/python.casa/blob/main/topic-3/Vereinfachen.py)
 
-### Aufgabe 3.4: DNA
+### Aufgabe 3.3: Geheim
+
+Wir haben eine geheime Zeichensequenz erhalten:
+
+```
+msg = 'LeLrLeLrLoLdLeLlLbLmLuLDLsLlLlLiLKLeLpLaLnLSLeLr'
+```
+
+Zum entschlüsseln müssen wir ...
+* die Position 4 bis 44 herausschneiden
+* die Reihenfolge umkehren
+* jede zweite Position lesen
+
+Zur Hilfe haben wir diese Slice-Anweisungen:
+
+```python
+msg = msg[::-1]
+msg = msg[::2]
+msg = msg[4:44]
+```
+
+Wie lautet die geheime Nachricht?
+
+⭐ [Geheim.py](https://github.com/janikvonrotz/python.casa/blob/main/topic-3/Geheim.py)
+
+### Aufgabe 3.4: Suchen und Erstetzen
+
+Sie erhalten diesen Text:
+
+```python
+text = 'The quick brown fox jumps over the lazy dog'
+```
+
+Führen Sie diese Anweisungen aus:
+
+* Suchen Sie nach dem Wort `fox`. Sie erhalten die Position als Antwort.
+* Ersetzen Sie das Wort `fox` mit `cat`.
+
+Wenn das zu einfach war führen Sie diese Anweisungen aus:
+1. Alle Zeichen bis zum Wort `brown` ausgeben.
+2. Alle Zeichen ab Wort `brown` ausgeben.
+3. Die Anweisungen 1 und 2 kombinieren damit `The quick fox jumps over the lazy dog` ausgeben wird.
+
+⭐ [SuchenErsetzen.py](https://github.com/janikvonrotz/python.casa/blob/main/topic-3/SuchenErsetzen.py)
+
+### Aufgabe 3.5: DNA
 
 Eine Analyse hat eine DNA-Sequenz zurückgeben. 
 
@@ -42,24 +103,13 @@ ACTNGTGCTYGATRGTAGC
 
 Wir möchten herausfinden, ob diese Sequenz auch wirklich DNA enthält [^1]. Zählen Sie die Anzahl der Buchstaben A, T, G und C in der Sequenz zu einer Summe.
 
-### Aufgabe 3.5: DNA 2
+⭐ [DNA.py](https://github.com/janikvonrotz/python.casa/blob/main/topic-3/DNA.py)
+
+### Aufgabe 3.6: DNA 2
 
 Rechnen Sie die Summe geteilt durch die Anzahl Zeichen der Sequenz. Das Ergebnis ist eine Prozentzahl. Formatieren Sie Ausgabe so, dass die Zahl zwei Stellen nach dem Komma und mit Prozentzeichen ausgegeben wird.
 
-### Aufgabe 3.6: Geheim 🚧
-
-Wir haben eine geheime Zeichensequenz erhalten:
-
-```
-1x1A1H1R1Y1J1S151g1H1o
-```
-
-Zum entschlüsseln müssen wir ...
-* die Reihenfolge umkehren
-* jedes zweite Zeichen lesen
-* `x` mit `0` ersetzen
-
-Wie lautet die geheime Nachricht.
+⭐ [DNA.py](https://github.com/janikvonrotz/python.casa/blob/main/topic-3/DNA.py)
 
 ## Wiederholungsfragen
 
