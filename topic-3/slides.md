@@ -91,6 +91,7 @@ not b
 
 ```python
 (not not a) == a
+a == a
 ```
 
 Es gibt noch [viele weitere Gesetze](../topic-2/archive.md).

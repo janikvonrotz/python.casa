@@ -15,7 +15,7 @@ z = 1
 
 print(x and y and z)
 print(x or z)
-print(not(x and not y)) # True
+print(not(x and not y))
 ```
 
 Konnten Sie die Ausgaben richtig bestimmen? Prüfen Sie ihre Antworten indem Sie das Skript ausführen.
