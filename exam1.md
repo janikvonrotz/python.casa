@@ -7,7 +7,7 @@ Anteil Gesamtnote: 15%
 
 ## Abgrenzung
 
-Die Inhaltliche Abgrenzung sind die Folien, Aufgaben und Wiederholungsfragen von [T1](topic-1/README.md), [T2](topic-2/README.md) , , [T3](topic-3/README.md), [T4](topic-4/README.md) .
+Die Inhaltliche Abgrenzung sind die Folien, Aufgaben und Wiederholungsfragen von [T1](topic-1/README.md), [T2](topic-2/README.md) ,  [T3](topic-3/README.md), [T4](topic-4/README.md) .
 
 ## Durchführung
 
@@ -15,7 +15,7 @@ Am Ende von Lektion 6 absolvieren die Studierenden eine Papier-Prüfung unter Au
 
 ## Beispielfragen
 
-Zur Orientierung werden 5 Beispiele für Augabenstellungen und Wissenfragen zur Verfügung gestellt:
+Zur Orientierung werden 4 Beispiele für Augabenstellungen und Wissenfragen zur Verfügung gestellt:
 
 1\. Der folgende Code ist fehlerhaft. Warum? Wie könnte eine Lösung aussehen?
 
@@ -32,18 +32,18 @@ msg='Die Temperatur beträgt ' + n + ' Grad.'
 True == 1
 ```
 
-4\. Wir haben eine Liste und möchte das dritte Element ausgeben. Was geben Sie für `X` ein?
+4\. Ordnen Sie die Werte den Datentypen zu:
+
+1\. `1.1` 2. `0` 3. `False` 4. `'1.1'`
+
+str: \_\_\
+float:  \_\_\
+int:  \_\_\
+bool:  \_\_
+
+4\. Wir haben einen String und möchten den Buchstaben `d` ausgeben. Was geben Sie für `X` ein?
 
 ```python
-liste = ['Bern', 'Luzern', 'Zürich', 'Genf']
-print(list[X])
+text = 'abcdefghijklmnopqrstuvwxyz'
+print(text[X])
 ```
-
-5\. Ordnen Sie Syntax den Aufzählungstypen zu:
-
-1\. `[]` 2. `()` 3. `{}` 4. `{key: vlaue}`
-
-Tupel: \_\_\
-Set:  \_\_\
-Dictionary:  \_\_\
-Liste:  \_\_Thema 12

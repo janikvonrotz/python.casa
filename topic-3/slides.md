@@ -30,6 +30,9 @@ Im Programmieren sind wir immer mit logischen Problemstellungen konfrontiert.
 Boolsche Algebra hilft uns diese Probleme zu lösen.
 
 ---
+### Beispiel Schaltkreis 🚧
+
+---
 ### Binäre und logische Operatoren
 
 ![](../binary-operators.png)
@@ -77,21 +80,26 @@ not b
 ---
 ### Absorption
 
+Bestimmte Ausdrücke können vereinfacht werden.
+
 🎬 In der Python-Shell ausführen:
 
 ```python
 (a or (a and b)) == a
 (a and (a or b)) == a
+a == a # Das gleiche wie oben
 ```
 
 ---
 ### Doppelte Negation
 
+Wenn man einer doppelten Negation begegnet, kann man das auch vereinfachen.
+
 🎬 In der Python-Shell ausführen:
 
 ```python
 (not not a) == a
-a == a
+a == a # Das gleiche wie oben
 ```
 
 Es gibt noch [viele weitere Gesetze](../topic-2/archive.md).
@@ -375,15 +383,28 @@ Es gibt mehrere Ansätze zum Formatieren von Zeichenketten:
 ---
 ### Formatierung mit %-Operator
 
+Als Platzhalter kann man in einem String `%s` verwenden. Wendet man den `%`-Operator an, wird der Platzhalter mit einer Variable ersetzt.
+
 🎬 Führen Sie diesen Code aus:
 
 ```python
-print('%s ist %d Jahre alt.' % ('Matthias', 11))
-print('1/7 mit drei Nachkommastellen: %.3f' % (1/7))
+name = 'Matthias'
+print('%s ist 11 Jahre alt.' % name)
 ```
+### Formatierung mit Nachkommastellen
 
+Der Platzhalter `%.3f` bedeutet, dass eine Zahl mit 2 Nachkommastellen ausgeben werden soll.
+
+🎬 Führen Sie diesen Code aus:
+
+```python
+zahl = 1/7
+print('1/7 mit drei Nachkommastellen: %.3f' % zahl)
+```
 ---
 ### Formatierung mit format-Methode
+
+Eine ganz andere Formatierung funktioniert mit `{}` als Platzhalter und der Methode `format()` zum übergeben der Variablen..
 
 🎬 Führen Sie diesen Code aus:
 
@@ -394,6 +415,8 @@ print('{name} ist {alter} Jahre alt.'.format(alter=13, name='Sebastian'))
 
 ---
 ### Formatierung mit format-Kurzschreibweise
+
+Die wohl einfachste Formatierung ist die Schreibweise mit `f''` und den `{variable}`-Platzhalter.
 
 🎬 Führen Sie diesen Code aus:
 

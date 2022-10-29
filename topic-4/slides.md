@@ -219,6 +219,8 @@ utc = datetime.now(pytz.utc)
 print(utc)
 ```
 
+ℹ️ Wenn `pytz` in Bibliothek nicht vorhanden ist, kann man `pip install pytz` auf der Kommandozeile ausführen.
+
 ---
 
 ### Datum bestimmte Zeitzone
