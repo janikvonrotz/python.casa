@@ -1,3 +1,5 @@
+# Slides Thema 5
+
 ## Kontrollstrukturen und Listen
 
 [◀️ Thema 5](README.md)
@@ -131,7 +133,7 @@ print(lst)
 ---
 ### Aufgaben 1
 
-Lösen Sie die [Aufgaben](excercise.md#aufgaben) 4.1 und 4.2.
+Lösen Sie die [Aufgaben](excercise5.md#aufgaben) 5.1 und 5.2.
 
 ⚡Aufteilung in Breakout-Rooms ⏱️ 10 Minuten
 
@@ -303,7 +305,7 @@ print(d.keys()) # dict_keys(['Rot', 'Blau', 'Gelb'])
 ---
 ### Aufgaben 2
 
-Lösen Sie die [Aufgaben](excercise.md#aufgaben) 4.3, 4.4 und 4.5.
+Lösen Sie die [Aufgaben](excercise5.md#aufgaben) 5.3, 5.4 und 5.5.
 
 ⚡Aufteilung in Breakout-Rooms ⏱️ 10 Minuten
 
@@ -429,9 +431,9 @@ while i<5:
 ```
 
 ---
-### Aufgaben 2
+### Aufgaben 3
 
-Lösen Sie die [Aufgaben](excercise.md#aufgaben) 4.6, 4.7 und 4.8.
+Lösen Sie die [Aufgaben](excercise5.md#aufgaben) 5.6, 5.7 und 5.8.
 
 ⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 10 Minuten
 

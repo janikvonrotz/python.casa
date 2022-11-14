@@ -4,13 +4,13 @@ Umfang ⏱️: 2 Lektionen
 
 [Alle Unterlagen anzeigen](https://github.com/janikvonrotz/python.casa/tree/main/topic-2)
 
-## [Slides](slides.md)
+## [Slides](slides2.md)
 
-[Hier](slides.md) geht es zu den Slides.
+[Hier](slides2.md) geht es zu den Slides.
 
-## [Übungen](excercise.md)
+## [Übungen](excercise2.md)
 
-[Hier](excercise.md) geht es zu den Übungen.
+[Hier](excercise2.md) geht es zu den Übungen.
 
 ## Meta
 

@@ -1,10 +1,10 @@
-# Übungen Thema 4
+# Übungen Thema 5
 
 ## Aufgaben
 
 Aufgaben zum Thema.
 
-### Aufgabe 4.1: Liste deklarieren
+### Aufgabe 5.1: Liste deklarieren
 
 Erstellen Sie eine Liste mit den allen 12 Monaten.
 
@@ -20,7 +20,7 @@ print(monate[?])
 
 ⭐ [Monate.py](https://github.com/janikvonrotz/python.casa/blob/main/topic-5/Monate.py)
 
-### Aufgabe 4.2: Listen kombinieren
+### Aufgabe 5.2: Listen kombinieren
 
 Sie erhalten diese Liste:
 
@@ -38,7 +38,7 @@ Kombinieren Sie die beiden Listen zu einer neuen Liste `woche` mithilfe der `ext
 
 ⭐ [ListeKombinieren.py](https://github.com/janikvonrotz/python.casa/blob/main/topic-5/ListeKombinieren.py)
 
-### Aufgabe 4.3: Listenkonfusion
+### Aufgabe 5.3: Listenkonfusion
 
 Lies das folgende Programm und versuche zu erraten, was die Ausgabe ist. Probiere es anschliessend aus und suche nach einer Erklärung des Verhaltens.
 
@@ -53,7 +53,7 @@ print(a[0], a[1], a[2])
 
 Das Verhalten dieses Programms ist der Grund, warum wir uns in Python Variablen nicht als Speicherplätze sondern als Namensschilder für Objekte vorstellen. Kannst du dies erklären?
 
-### Aufgabe 4.4: Listen verstehen
+### Aufgabe 5.4: Listen verstehen
 
 Speicheren Sie die Elemente `'Schwalbe'`, `'Kokosnuss'`, `13`, `'Spam'` und `3.14` in einer Liste mit dem Namen `liste` ab und versuchen zu verstehen was die folgenden Methoden machen.
 
@@ -73,7 +73,7 @@ sum([1,3,5])
 
 ⭐ [ListenMethoden.py](https://github.com/janikvonrotz/python.casa/blob/main/topic-5/ListenMethoden.py)
 
-### Aufgabe 4.5: Duplikate entfernen
+### Aufgabe 5.5: Duplikate entfernen
 
 Sie erhalten eine Liste von Programmiersprachen:
 
@@ -89,7 +89,7 @@ Diese Liste enthält Duplikate und ist nicht sortiert. Um das zu verbesseren geh
 
 ⭐ [DuplikateEntfernen.py](https://github.com/janikvonrotz/python.casa/blob/main/topic-5/DuplikateEntfernen.py)
 
-### Aufgabe 4.6: Zoo
+### Aufgabe 5.6: Zoo
 
 Gegeben ist der folgende Anfang eines Programms:
 
@@ -101,7 +101,7 @@ Ergänze das Programm so, dass für jedes Tier aus der Liste animals der Satz "�
 
 ⭐ [Zoo.py](https://github.com/janikvonrotz/python.casa/blob/main/topic-5/Zoo.py)
 
-### Aufgabe 4.7: Minimum und Maximum
+### Aufgabe 5.7: Minimum und Maximum
 
 Schreiben Sie ein Programm, welches vom Benutzer 10 Zahlen einliest und diese in einer Liste speichert. Anschliessend soll das Minimum und das Maximum der Zahlen aus der Liste bestimmt und ausgegeben werden.
 
@@ -132,7 +132,7 @@ min([1,3,2])
 
 ⭐ [MinimumMaximum.py](https://github.com/janikvonrotz/python.casa/blob/main/topic-5/MinimumMaximum.py)
 
-### Aufgabe 4.8: Übersetzung
+### Aufgabe 5.8: Übersetzung
 
 Sie erhalten dieses Dictionary:
 
@@ -157,7 +157,7 @@ Schreiben Sie ein Programm welches für jeden Monat in der Liste den folgenden S
 
 ⭐ [Übersetzung.py](https://github.com/janikvonrotz/python.casa/blob/main/topic-5/Übersetzung.py)
 
-### Aufgabe 4.9: Euklid
+### Aufgabe 5.9: Euklid
 
 Schreibe ein Programm, welches mit `input()` zwei Zahlen vom Benutzer einliest und den grössten gemeinsamen Teiler der beiden Zahlen mit`print()` ausgibt.
     

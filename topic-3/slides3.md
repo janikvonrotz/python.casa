@@ -1,3 +1,4 @@
+# Slides Thema 3
 ## Boolsche Algebra  und Zeichenketten
 
 [◀️ Thema 3](./README.md)
@@ -145,7 +146,7 @@ bool({})
 ---
 ### Aufgaben 1
 
-Lösen Sie die ersten zwei [Aufgaben](excercise.md#aufgaben) 3.1 und 3.2.
+Lösen Sie die ersten zwei [Aufgaben](excercise3.md#aufgaben) 3.1 und 3.2.
 
 ⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 10 Minuten
 
@@ -292,7 +293,7 @@ print(s[::-2]) # Jedes zweite Zeichen in umgekehrter Reihenfolge
 ---
 ### Aufgaben 2
 
-Lösen Sie die [Aufgabe](excercise.md#aufgaben) 3.3.
+Lösen Sie die [Aufgabe](excercise3.md#aufgaben) 3.3.
 
 ⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 10 Minuten
 
@@ -431,7 +432,7 @@ print(f'{name} ist {alter:.3} Jahre alt.')
 ---
 ### Aufgaben 3
 
-Lösen Sie restlichen [Aufgaben](excercise.md#aufgaben) 3.4 bis 3.6.
+Lösen Sie restlichen [Aufgaben](excercise3.md#aufgaben) 3.4 bis 3.6.
 
 ⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 10 Minuten
 

@@ -1,3 +1,4 @@
+# Slides Thema 4
 ## Datum und Zeit
 
 [◀️ Thema 4](README.md)
@@ -194,7 +195,7 @@ print('Noch', warten.days, 'Tage bis Weihnachten.')
 ---
 ### Aufgaben 1
 
-Lösen Sie die ersten zwei [Aufgaben](excercise.md#aufgaben) 4.1 und 4.2.
+Lösen Sie die ersten zwei [Aufgaben](excercise4.md#aufgaben) 4.1 und 4.2.
 
 ⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 10 Minuten
 
@@ -276,7 +277,7 @@ print(end - start, 'Sekunden')
 ---
 ### Aufgaben 2
 
-Lösen Sie die restlichen [Aufgaben](excercise.md#aufgaben).
+Lösen Sie die restlichen [Aufgaben](excercise4.md#aufgaben).
 
 ⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 10 Minuten
 

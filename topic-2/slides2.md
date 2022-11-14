@@ -1,3 +1,4 @@
+# Slides Thema 2
 ## Variablen und Datentypen
 
 [◀️ Thema 2](./README.md)
@@ -135,7 +136,7 @@ print(type(x)) # Ausgabe: <class 'int'>
 ---
 ### Aufgaben 1
 
-Lösen Sie die [Aufgabe](excercise.md#aufgaben) 2.1.
+Lösen Sie die [Aufgabe](excercise2.md#aufgaben) 2.1.
 
 ⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 10 Minuten
 
@@ -293,7 +294,7 @@ print(a,b,c,d)
 ---
 ### Aufgaben 2
 
-Lösen Sie die [Aufgaben](excercise.md#aufgaben) 2.2 bis 2.5 und besprechen Sie die [Wiederholungsfragen](excercise.md#wiederholungsfragen).
+Lösen Sie die [Aufgaben](excercise2.md#aufgaben) 2.2 bis 2.5 und besprechen Sie die [Wiederholungsfragen](excercise2.md#wiederholungsfragen).
 
 ⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 10 Minuten
 

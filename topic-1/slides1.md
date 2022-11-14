@@ -1,3 +1,4 @@
+# Slides Thema 1
 ## Einführung Programmiersprache
 
 [◀️ Thema 1](./README.md)
@@ -321,7 +322,7 @@ print('abc')  # noch ein Kommentar
 ---
 ### Aufgaben
 
-Lösen Sie die [Aufgaben](./excercise.md#aufgaben) und besprechen Sie die Wiederholungsfragen.
+Lösen Sie die [Aufgaben](excercise1.md#aufgaben) und besprechen Sie die Wiederholungsfragen.
 
 ⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 10 Minuten
 
