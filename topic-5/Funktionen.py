@@ -15,7 +15,7 @@ def sum(x,y):
 
 print(reduce(sum,lst))
 
-def IstGrösserAls(x,y=100):
+def IstGrösserAls(x, y=100):
     return (x > y)
 
 print(list(filter(IstGrösserAls, lst)))

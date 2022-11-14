@@ -140,8 +140,6 @@ Lösen Sie die [Aufgaben](excercise.md#aufgaben) 4.1 und 4.2.
 
 Mit `map` kann eine Funktion auf jedes Listenelement angewendet werden.
 
-🎬 Fügen Sie diesen Code an:
-
 ```python
 def double(x):
     return x*2
@@ -156,8 +154,6 @@ print(list(map(double,lst)))
 
 Mit `reduce` wird eine Funktion auf jedes Listenelement (x) und auf das Resultat des Vorgänger (y) angewendet. 
 
-🎬 Fügen Sie diesen Code an:
-
 ```python
 from functools import reduce
 def sum(x,y):
@@ -171,10 +167,8 @@ print(reduce(sum,lst))
 
 Mit `filter` werden alle Listenelemente zurückgegeben, die eine Bedingung erfüllen. 
 
-🎬 Fügen Sie diesen Code an:
-
 ```python
-def IstGrösserAls(x,y=100):
+def IstGrösserAls(x, y=100):
     return (x > y)
 
 print(list(filter(IstGrösserAls, lst)))
@@ -319,6 +313,8 @@ Lösen Sie die [Aufgaben](excercise.md#aufgaben) 4.3, 4.4 und 4.5.
 * **Verzweigungen**: Abhängig von Bedingungen Codeteile ausführen
 * **Schleifen**: Code mehrfach ausführen solange Bedingung erfüllt ist
 
+![](../loop-with-condition.png)
+
 ---
 ### if-Verzweigung
 
@@ -401,8 +397,10 @@ Bei Schleifen mit Dictionaries enthält die Variable den Schlüssel.
 
 ```python
 dict = {'a':12, 'c':78, 'b':3, 'd':43}
+
 for k in dict:
     print(k, dict[k])
+
 for k,v in dict.items():
     print(k, v)
 ```

@@ -78,13 +78,14 @@ sum([1,3,5])
 Sie erhalten eine Liste von Programmiersprachen:
 
 ```python
-languages = ['Java', 'Python', 'Java', 'C++', 'C', 'C#', 'JavaScript', 'Python', 'Go', 'Swift', 'Go', 'PHP', 'C']
+lang = ['Java', 'Python', 'Java', 'C++', 'C', 'C#', 'JavaScript', 'Python', 'Go', 'Swift', 'Go', 'PHP', 'C']
 ```
 
 Diese Liste enthält Duplikate und ist nicht sortiert. Um das zu verbesseren gehen Sie wie folgt vor:
+* Wandeln Sie die Liste mit `set()` in Set um
+* Wandel Sie das Set mit `list()` wieder in eine Liste um
 * Sortieren Sie die Liste mihilfe dert `sort`-Methode
-* Wandeln Sie die Liste in einen Tupel um
-* Geben Sie den Inhalt des Tupel aus
+* Geben Sie den Inhalt der Liste aus
 
 ⭐ [DuplikateEntfernen.py](https://github.com/janikvonrotz/python.casa/blob/main/topic-5/DuplikateEntfernen.py)
 
