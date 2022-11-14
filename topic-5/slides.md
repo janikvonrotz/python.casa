@@ -8,22 +8,26 @@
 📖 Kapitel 8 Verzweigungen und Schleifen
 
 ---
-### Rückblick
+### Lernziele
 
-Besprechung der Wiederholungsfragen.
+Ich kann ...
+* die verschiedene Aufzählungstypen erkennen und benennen
+* den richtigen Aufzählungstyp gemäss Anforderungen verwenden.
+* Verzweigungen und Schleifen anwenden.
+* Listen und Schleifen kombinieren.
 
 ---
 ### Ausblick
 
-Thema 4:
+Thema 5:
 * Listen, Tupel, Sets und Dictionaries
 * Verzweigungen und Schleifen
 
-Thema 5:
+Thema 6:
 * Funktionen
 * Flowcharts
 
-ℹ️ In diesem Thema werden Funktionen gezeigt.
+ℹ️ In diesem Thema werden bereits erste Funktionen gezeigt.
 
 ---
 ### Listen, Tupel, Sets und Dictionaries
@@ -33,6 +37,8 @@ Thema 5:
 
 ---
 ### Übersicht Aufzählungstypen
+
+Aufzählungen werden eingeklammert: `[]`, `()`, `{}` und `{key: value}`.
 
 * **Listen**: Wichtigster und flexibelster Datentyp
 * **Tupel**: Verwendung für zusammengehörende Daten
@@ -121,6 +127,13 @@ lst.pop(2) # Entfernt element an der zweiten Position
 lst.remove(80) # Entfern einen bestimmten Eintrag
 print(lst)
 ```
+
+---
+### Aufgaben 1
+
+Lösen Sie die [Aufgaben](excercise.md#aufgaben) 4.1 und 4.2.
+
+⚡Aufteilung in Breakout-Rooms ⏱️ 10 Minuten
 
 ---
 ### map-Funktion
@@ -294,13 +307,11 @@ print(d.keys()) # dict_keys(['Rot', 'Blau', 'Gelb'])
 * Arrays sind nicht so flexibel wie Listen, Sets und Dictionairies
 
 ---
-### Aufgaben 1
+### Aufgaben 2
 
-Lösen Sie die ersten zwei Aufgaben.
+Lösen Sie die [Aufgaben](excercise.md#aufgaben) 4.3, 4.4 und 4.5.
 
 ⚡Aufteilung in Breakout-Rooms ⏱️ 10 Minuten
-
-Ziel: Aufgabe 4.1 und 4.2 gelöst.
 
 ---
 ### Verzweigungen und Schleifen
@@ -391,9 +402,9 @@ Bei Schleifen mit Dictionaries enthält die Variable den Schlüssel.
 ```python
 dict = {'a':12, 'c':78, 'b':3, 'd':43}
 for k in dict:
-    print(k,dict[k])
+    print(k, dict[k])
 for k,v in dict.items():
-    print(k,v)
+    print(k, v)
 ```
 
 ---
@@ -422,11 +433,9 @@ while i<5:
 ---
 ### Aufgaben 2
 
-Lösen Sie die nächsten zwei Aufgaben.
+Lösen Sie die [Aufgaben](excercise.md#aufgaben) 4.6, 4.7 und 4.8.
 
 ⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 10 Minuten
-
-Ziel: Aufgabe 4.3 und 4.4 gelöst.
 
 ---
 ### Pause
@@ -438,7 +447,6 @@ Ziel: Aufgabe 4.3 und 4.4 gelöst.
 ---
 ### Review
 
-🎯 Ziele erreicht?
-*  Aufzählungstypen `[]`, `()`, `{}` und `{key: value}` sind bekannt
-*  Die Anwendung von Verzweigungen und Schleifen ist verstanden
-*  Listen und Schleifen können kombiniert werden
+🎯 Wurden die [Lernziele](#lernziele) erreicht?
+
+⚡ Feedback zu den Zielen einholen.

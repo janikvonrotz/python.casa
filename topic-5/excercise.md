@@ -4,24 +4,58 @@
 
 Aufgaben zum Thema.
 
-### Aufgabe 4.1: Listenkonfusion
+### Aufgabe 4.1: Liste deklarieren
+
+Erstellen Sie eine Liste mit den allen 12 Monaten.
+
+```python
+monate = ['Januar', 'Feburar', ...]
+```
+
+Und geben Sie den den zehnten Monat aus. Was müssen Sie für `?` einsetzen?
+
+```python
+print(monate[?])
+```
+
+⭐ [Monate.py](https://github.com/janikvonrotz/python.casa/blob/main/topic-5/Monate.py)
+
+### Aufgabe 4.2: Listen kombinieren
+
+Sie erhalten diese Liste:
+
+```python
+arbeitstage = ['Montag', 'Dienstag', 'Mittwoch', 'Donnerstag', 'Freitag']
+```
+
+Und diese Liste:
+
+```python
+wochenende = ['Samstag', 'Sonntag']
+```
+
+Kombinieren Sie die beiden Listen zu einer neuen Liste `woche` mithilfe der `extend`-Methode und geben Sie den Inhalt der Liste aus.
+
+⭐ [ListeKombinieren.py](https://github.com/janikvonrotz/python.casa/blob/main/topic-5/ListeKombinieren.py)
+
+### Aufgabe 4.3: Listenkonfusion
 
 Lies das folgende Programm und versuche zu erraten, was die Ausgabe ist. Probiere es anschliessend aus und suche nach einer Erklärung des Verhaltens.
 
 ```python
-liste_a = ['Hallo', 'schönes', 'Wetter']
-liste_b = liste_a
+a = ['Hallo', 'schönes', 'Wetter']
+b = a
 
-liste_b[1] = 'schlechtes'
+b[1] = 'schlechtes'
 
-print(liste_a[0], liste_a[1], liste_a[2])  
+print(a[0], a[1], a[2])  
 ```
 
 Das Verhalten dieses Programms ist der Grund, warum wir uns in Python Variablen nicht als Speicherplätze sondern als Namensschilder für Objekte vorstellen. Kannst du dies erklären?
 
-### Aufgabe 4.2: Listen verstehen
+### Aufgabe 4.4: Listen verstehen
 
-Speichere die Elemente `'Schwalbe'`, `'Kokosnuss'`, `13`, `'Spam'` und `3.14` in einer Liste mit dem Namen `liste` ab und versuche zu verstehen was die folgenden Methoden machen.
+Speicheren Sie die Elemente `'Schwalbe'`, `'Kokosnuss'`, `13`, `'Spam'` und `3.14` in einer Liste mit dem Namen `liste` ab und versuchen zu verstehen was die folgenden Methoden machen.
 
 ```python
 liste[2] = 666
@@ -37,9 +71,38 @@ liste.reverse()
 sum([1,3,5])
 ```
 
-### Aufgabe 4.3: Minimum und Maximum
+⭐ [ListenMethoden.py](https://github.com/janikvonrotz/python.casa/blob/main/topic-5/ListenMethoden.py)
 
-Schreibe ein Programm, welches vom Benutzer 10 Zahlen einliest und diese in einer Liste speichert. Anschliessend soll das Minimum und das Maximum der Zahlen aus der liste bestimmt und ausgegeben werden.
+### Aufgabe 4.5: Duplikate entfernen
+
+Sie erhalten eine Liste von Programmiersprachen:
+
+```python
+languages = ['Java', 'Python', 'Java', 'C++', 'C', 'C#', 'JavaScript', 'Python', 'Go', 'Swift', 'Go', 'PHP', 'C']
+```
+
+Diese Liste enthält Duplikate und ist nicht sortiert. Um das zu verbesseren gehen Sie wie folgt vor:
+* Sortieren Sie die Liste mihilfe dert `sort`-Methode
+* Wandeln Sie die Liste in einen Tupel um
+* Geben Sie den Inhalt des Tupel aus
+
+⭐ [DuplikateEntfernen.py](https://github.com/janikvonrotz/python.casa/blob/main/topic-5/DuplikateEntfernen.py)
+
+### Aufgabe 4.6: Zoo
+
+Gegeben ist der folgende Anfang eines Programms:
+
+```python
+animals = ["tiger", "mouse", "bird", "python", "elephant", "monkey"]
+```
+
+Ergänze das Programm so, dass für jedes Tier aus der Liste animals der Satz "… ist ein Tier" in der Konsole ausgegeben wird. Benutze dafür wie immer `print()` Funktion.
+
+⭐ [Zoo.py](https://github.com/janikvonrotz/python.casa/blob/main/topic-5/Zoo.py)
+
+### Aufgabe 4.7: Minimum und Maximum
+
+Schreiben Sie ein Programm, welches vom Benutzer 10 Zahlen einliest und diese in einer Liste speichert. Anschliessend soll das Minimum und das Maximum der Zahlen aus der Liste bestimmt und ausgegeben werden.
 
 ::: tip
 Die folgenden Elemente sollten weiterhelfen:
@@ -66,25 +129,40 @@ min([1,3,2])
 ```
 :::
 
-### Aufgabe 4.4: Zoo
+⭐ [MinimumMaximum.py](https://github.com/janikvonrotz/python.casa/blob/main/topic-5/MinimumMaximum.py)
 
-Gegeben ist der folgende Anfang eines Programms:
+### Aufgabe 4.8: Übersetzung
+
+Sie erhalten dieses Dictionary:
 
 ```python
-animals = ["tiger", "mouse", "bird", "python", "elephant", "monkey"]
+monate = {
+    'january': 'Januar',
+    'february': 'Feburar',
+    'march': 'März',
+    'april': 'April',
+    'mai': 'Mai',
+    'june': 'Juni',
+    'july': 'Juli',
+    'august': 'August',
+    'september': 'September',
+    'october': 'Oktober',
+    'november': 'November',
+    'december': 'Dezember'
+}
 ```
 
-Ergänze das Programm so, dass für jedes Tier aus der Liste animals der Satz "… ist ein Tier" in der Konsole ausgegeben wird. Benutze dafür die print() Funktion.
+Schreiben Sie ein Programm welches für jeden Monat in der Liste den folgenden Satz ausgibt: `The german translation for 'january' is 'Januar'`.
 
-### Aufgabe 4.5: Ohne for-Schleife
+⭐ [Übersetzung.py](https://github.com/janikvonrotz/python.casa/blob/main/topic-5/Übersetzung.py)
 
-Schreibe ein Programm, welches alle Zahlen von 1 bis 100 auf den Bildschirm schreibt, ohne dafür eine for-Schleife zu verwenden.
-
-### Aufgabe 4.6: Euklid
+### Aufgabe 4.9: Euklid
 
 Schreibe ein Programm, welches mit `input()` zwei Zahlen vom Benutzer einliest und den grössten gemeinsamen Teiler der beiden Zahlen mit`print()` ausgibt.
     
-Dazu kannst du den Euklidischen Algorithmus benutzen. Mehr dazu findest du hier: <https://de.wikipedia.org/wiki/Euklidischer_Algorithmus>.
+Dazu können Sie den Euklidischen Algorithmus implementieren. Mehr dazu finden Sie hier: <https://de.wikipedia.org/wiki/Euklidischer_Algorithmus>.
+
+⭐ [Euklid.py](https://github.com/janikvonrotz/python.casa/blob/main/topic-5/Euklid.py)
 
 ## Wiederholungsfragen
 
