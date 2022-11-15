@@ -34,14 +34,14 @@ True == 1
 
 4\. Ordnen Sie die Werte den Datentypen zu:
 
-1\. `1.1` 2. `0` 3. `False` 4. `'1.1'`
+(1) `1.1` (2) `0` (3) `False` (4) `'1.1'`
 
 str: \_\_\
 float:  \_\_\
 int:  \_\_\
 bool:  \_\_
 
-4\. Wir haben einen String und möchten den Buchstaben `d` ausgeben. Was geben Sie für `X` ein?
+5\. Wir haben einen String und möchten den Buchstaben `d` ausgeben. Was geben Sie für `X` ein?
 
 ```python
 text = 'abcdefghijklmnopqrstuvwxyz'
