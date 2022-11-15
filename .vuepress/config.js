@@ -67,7 +67,7 @@ module.exports = {
                     text: 'Prüfung',
                     collapsible: true,
                     // link: 'exam.md',
-                    children: ['exam1.md', 'exam2.md', 'exam3.md']
+                    children: ['/exam1.md', '/exam2.md', '/exam3.md']
                 }
             ]
         }
