@@ -11,7 +11,7 @@ Die Inhaltliche Abgrenzung sind die Folien, Aufgaben und Wiederholungsfragen von
 
 ## Durchführung
 
-Am Ende von Lektion 6 absolvieren die Studierenden eine Papier-Prüfung unter Aufsicht des Dozierenden.
+Am Ende von Lektion 5 absolvieren die Studierenden eine Papier-Prüfung unter Aufsicht des Dozierenden.
 
 ## Beispielfragen
 
