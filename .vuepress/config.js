@@ -35,7 +35,7 @@ module.exports = {
         sidebar: {
             '/': [
                 {
-                    text: 'Teil 1',
+                    text: 'Stundenplan',
                     link: 'timetable.md'
                 },
                 {

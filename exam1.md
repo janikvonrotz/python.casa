@@ -1,4 +1,4 @@
-## Wissensprüfung 1
+# Wissensprüfung 1
 
 Ziel: Die Stundierenden verstehen die elemmentaren Bausteine der Programmierung und können die Python-Programmiersprache lesen und interpretieren.
 
