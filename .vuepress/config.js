@@ -36,7 +36,7 @@ module.exports = {
             '/': [
                 {
                     text: 'Stundenplan',
-                    link: 'timetable.md'
+                    link: './timetable.md'
                 },
                 {
                     text: 'Teil 1',
@@ -68,13 +68,9 @@ module.exports = {
                     collapsible: true,
                     link: 'exam.md',
                     children: [
-                        { text: 'Wissenprüfung1', link: 'exam1.md' },
-                        { text: 'Wissenprüfung2', link: 'exam2.md' },
-                        { text: 'Leistungsnachweis', link: 'exam3.md' },
-                        { text: 'Thema 10 - Datenbanken', link: '/topic-10/', collapsible: true, children: ['slides10.md', 'excercise10.md'], },
-                        { text: 'Thema 11 - Jupiter-Notebooks, SciPy und Matplotlib', link: '/topic-11/', collapsible: true, children: ['slides11.md', 'excercise11.md'], },
-                        { text: 'Thema 12 - Webapplikation mit Python Flask', link: '/topic-12/', collapsible: true, children: ['slides12.md', 'excercise12.md'], },
-                        { text: 'Thema 13 - Versionskontrolle mit Git', link: '/topic-13/', collapsible: true, children: ['slides13.md', 'excercise13.md'], },
+                        { text: 'Wissenprüfung1', link: './exam1.md' },
+                        { text: 'Wissenprüfung2', link: './exam2.md' },
+                        { text: 'Leistungsnachweis', link: './exam3.md' },
                     ]
                 }
             ]
