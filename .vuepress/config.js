@@ -65,7 +65,7 @@ module.exports = {
                 },
                 {
                     text: 'Prüfung',
-                    // collapsible: true,
+                    collapsible: true,
                     // link: 'exam.md',
                     children: [
                         { text: 'Wissenprüfung1', collapsible: true, link: './exam1.md' },
