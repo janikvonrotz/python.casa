@@ -62,7 +62,7 @@ module.exports = {
                         { text: 'Thema 12 - Webapplikation mit Python Flask', link: '/topic-12/', collapsible: true, children: ['slides12.md', 'excercise12.md'], },
                         { text: 'Thema 13 - Versionskontrolle mit Git', link: '/topic-13/', collapsible: true, children: ['slides13.md', 'excercise13.md'], },
                     ]
-                }
+                },
                 {
                     text: 'Prüfung',
                     collapsible: true,
