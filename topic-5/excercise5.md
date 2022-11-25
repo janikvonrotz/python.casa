@@ -55,7 +55,7 @@ Das Verhalten dieses Programms ist der Grund, warum wir uns in Python Variablen 
 
 ### Aufgabe 5.4: Listen verstehen
 
-Speicheren Sie die Elemente `'Schwalbe'`, `'Kokosnuss'`, `13`, `'Spam'` und `3.14` in einer Liste mit dem Namen `liste` ab und versuchen zu verstehen was die folgenden Methoden machen.
+Speicheren Sie die Elemente `'Schwalbe'`, `'Kokosnuss'`, `13`, `'Spam'` und `3.14` in einer Liste mit dem Namen `liste` ab und versuchen zu verstehen was die folgenden Methoden machen. Verwenden Sie dazu den Python-Debugger.
 
 ```python
 liste[2] = 666
@@ -97,13 +97,13 @@ Gegeben ist der folgende Anfang eines Programms:
 animals = ["tiger", "mouse", "bird", "python", "elephant", "monkey"]
 ```
 
-Ergänze das Programm so, dass für jedes Tier aus der Liste animals der Satz "… ist ein Tier" in der Konsole ausgegeben wird. Benutze dafür wie immer `print()` Funktion.
+Ergänze das Programm so, dass für jedes Tier aus der Liste animals der Satz `VARIABLE ist ein Tier.` in der Konsole ausgegeben wird. Benutze dafür wie immer `print()` Funktion.
 
 ⭐ [Zoo.py](https://github.com/janikvonrotz/python.casa/blob/main/topic-5/Zoo.py)
 
 ### Aufgabe 5.7: Minimum und Maximum
 
-Schreiben Sie ein Programm, welches vom Benutzer 10 Zahlen einliest und diese in einer Liste speichert. Anschliessend soll das Minimum und das Maximum der Zahlen aus der Liste bestimmt und ausgegeben werden.
+Schreiben Sie ein Programm, welches vom Benutzer 5 Zahlen einliest und diese in einer Liste speichert. Anschliessend soll das Minimum und das Maximum der Zahlen aus der Liste bestimmt und ausgegeben werden.
 
 ::: tip
 Die folgenden Elemente sollten weiterhelfen:
@@ -119,8 +119,8 @@ zahl = input("Eingabe: ")
 ```
 
 ```python
-# Schleife von 1 bis 4
-for i in range(1,5):
+# Schleife von 1 bis 5
+for i in range(1,6):
     print(i)
 ```
 

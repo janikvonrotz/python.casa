@@ -1,5 +1,6 @@
 # Wissensprüfung 2 🚧
 
+Format: Schriftlich\
 Dauer: 45 Minuten\
 Anteil Gesamtnote: 35%
 

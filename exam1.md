@@ -2,12 +2,13 @@
 
 Ziel: Die Stundierenden verstehen die elemmentaren Bausteine der Programmierung und können die Python-Programmiersprache lesen und interpretieren.
 
+Format: Schriftlich\
 Dauer: 45 Minuten\
 Anteil Gesamtnote: 15%
 
 ## Abgrenzung
 
-Die Inhaltliche Abgrenzung sind die Folien, Aufgaben und Wiederholungsfragen von [T1](topic-1/README.md), [T2](topic-2/README.md) ,  [T3](topic-3/README.md), [T4](topic-4/README.md) .
+Die Inhaltliche Abgrenzung sind die Folien, Aufgaben und Wiederholungsfragen von [T1](topic-1/README.md), [T2](topic-2/README.md) ,  [T3](topic-3/README.md), [T4](topic-4/README.md).
 
 ## Durchführung
 

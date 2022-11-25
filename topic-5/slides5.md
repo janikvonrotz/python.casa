@@ -13,8 +13,8 @@
 ### Lernziele
 
 Ich kann ...
-* die verschiedene Aufzählungstypen erkennen und benennen
-* den richtigen Aufzählungstyp gemäss Anforderungen verwenden.
+* die verschiedene Aufzählungstypen erkennen und benennen.
+* den richtigen Aufzählungstyp gemäss Anforderung verwenden.
 * Verzweigungen und Schleifen anwenden.
 * Listen und Schleifen kombinieren.
 
@@ -36,6 +36,10 @@ Thema 6:
 
 * Mehrere Variablen als Daten speichern
 * Aufzählungen verarbeiten
+
+| 0          | 1           | 2        | 3         | 4       | 5        | 6        | 7           | ... |
+| ---------- | ----------- | -------- | --------- | ------- | -------- | -------- | ----------- | --- |
+| `'Januar'` | `'Februar'` | `'März'` | `'April'` | `'Mai'` | `'Juni'` | `'Juli'` | `'August'` | ... |
 
 ---
 ### Übersicht Aufzählungstypen
@@ -190,13 +194,6 @@ print(lst) # [' ', '!', ',', 'H', 'W', 'd', 'e', 'l', 'l', 'l', 'o', 'o', 'r']
 ```
 
 ---
-### Pause
-
-⚡Wir machen eine Pause ⏱️ 10 Minuten
-
-<iframe src="https://giphy.com/embed/Q6joirtIBHUsw" width="280" height="280" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-
----
 ### Tupel
 
 *  Ist eine unveränderliche liste
@@ -264,6 +261,13 @@ print(s)
 ```
 
 ---
+### Pause
+
+⚡Wir machen eine Pause ⏱️ 15 Minuten
+
+<iframe src="https://giphy.com/embed/Q6joirtIBHUsw" width="280" height="280" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+
+---
 ### Dictionaries
 
 * Elementaufzählungen mit einem Schlüssel zur Verwaltung
@@ -307,7 +311,7 @@ print(d.keys()) # dict_keys(['Rot', 'Blau', 'Gelb'])
 
 Lösen Sie die [Aufgaben](excercise5.md#aufgaben) 5.3, 5.4 und 5.5.
 
-⚡Aufteilung in Breakout-Rooms ⏱️ 10 Minuten
+⚡Aufteilung in Breakout-Rooms ⏱️ 15 Minuten
 
 ---
 ### Verzweigungen und Schleifen
@@ -435,14 +439,7 @@ while i<5:
 
 Lösen Sie die [Aufgaben](excercise5.md#aufgaben) 5.6, 5.7 und 5.8.
 
-⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 10 Minuten
-
----
-### Pause
-
-⚡Wir machen eine Pause ⏱️ 10 Minuten
-
-<iframe src="https://giphy.com/embed/Q6joirtIBHUsw" width="280" height="280" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 15 Minuten
 
 ---
 ### Review
