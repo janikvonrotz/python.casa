@@ -6,7 +6,7 @@ Aufgaben zum Thema.
 
 ### Aufgabe 5.1: Liste deklarieren
 
-Erstellen Sie eine Liste mit den allen 12 Monaten.
+Erstellen Sie eine Liste mit allen 12 Monaten.
 
 ```python
 monate = ['Januar', 'Feburar', ...]
@@ -59,7 +59,6 @@ Speicheren Sie die Elemente `'Schwalbe'`, `'Kokosnuss'`, `13`, `'Spam'` und `3.1
 
 ```python
 liste[2] = 666
-len(liste)
 liste.append('Ni')
 liste.extend([4, 5, 3.14])
 liste.insert(2, 'Taube')

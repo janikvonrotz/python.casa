@@ -1,6 +1,5 @@
 liste = ['Schwalbe', 'Kokosnuss', 13, 'Spam', 3.14]
 liste[2] = 666 # Drittes Element wird mit neuem Wert überschreiben
-len(liste) # Länge der Liste: 5
 liste.append('Ni') # Neues Element wird angefügt
 liste.extend([4, 5, 3.14]) # Liste wird mit Liste erweitert
 liste.insert(2, 'Taube') # An dritter Stelle wird Element einfgügt.

@@ -99,20 +99,6 @@ print(lst) # ['H', 'e', 'l', 'l', 'o', ',', ' ', 'W', 'o', 'r', 'l', 'd', '!'
 ```
 
 ---
-### List Comprehension
-
-* Ein elegantes Konzpet zum verarbeiten von Listen.
-* Form: `[ausdruck for x in liste]`
-
-🎬 Fügen Sie diesen Code an:
-
-```python
-[print(s) for s in lst]
-```
-
-ℹ️ Schleifen sind Verarbeitungsmethoden für Listen.
-
----
 ### Funktionen zur Verarbeitung
 
 Die wichtigsten Funktionen und Methoden zur Bearbeitung von Liste:
@@ -371,6 +357,20 @@ Die Syntax:
 for var in elemente:
     anweisungen
 ```
+---
+### Listen vereinfachen
+
+Wie kann man das vereinfachen?
+
+```python
+print('a')
+print('b')
+print('c')
+print('d')
+...
+```
+
+Befehl `print(Plathalter)` einmal schreiben, aber mehrmals ausführen.
 
 ---
 ### for mit Zeichenkette
@@ -378,9 +378,11 @@ for var in elemente:
 🎬 Erstellen und führen Sie die Datei `for.py` mit diesem Inhalt aus:
 
 ```python
-for c in 'abc':
-    print(c)
+for element in 'abcd':
+    print(element)
 ```
+
+**Für** jedes Element **in** der List mach folgendes: Ausgabe Element.
 
 ---
 ### for mit Listen, Tupel und Sets
@@ -388,7 +390,7 @@ for c in 'abc':
 🎬 Fügen Sie diesen Code hinzu:
 
 ```python
-for c in 'abc':
+for c in ['a', 'b', 'c']:
     print(c)
     
 for i in (17, 87, 4): 
@@ -433,6 +435,20 @@ while i<5:
     i+=1
 # Ausgabe: 1 2 3 4
 ```
+
+---
+### List Comprehension
+
+* Ein elegantes Konzpet zum verarbeiten von Listen.
+* Form: `[ausdruck for x in liste]`
+
+🎬 Fügen Sie diesen Code an:
+
+```python
+[print(s) for s in lst]
+```
+
+ℹ️ Schleifen sind Verarbeitungsmethoden für Listen.
 
 ---
 ### Aufgaben 3
