@@ -328,13 +328,15 @@ f(0)
 
 ### Lambda-Funktionen
 
-Die Lambda-Funktion spart Platz.
+Lambda-Funktionen sind ganz spezielle Funktionen:
+* Sie haben keinen Funktionsnamen.
+* Parameter und Ausdruck müssen auf einer Zeile Platz haben.
+
+Dazu die Syntax:
 
 ```
 lambda var1, var2, var3, ...: ausdruck
 ```
-
-Sofern alles auf einer Zeile Platz hat.
 
 ---
 
@@ -345,42 +347,44 @@ Eine Kurzschreibweise für Funktionen.
 🎬 Datei `Lambda.py` mit diesem Code erstellen:
 
 ```python
-x = lambda a : a + 10  
-print(x(5)) # Ausgabe: 15
+x = lambda a : a + 10 # Lambda Funktion wird einer Variable zugewiesen
+y = x(5) # Lambda Funktion wird aufgerufen
+print(y) # Ausgabe: 15
 ```
 
 ℹ️ Die Lambda-Funktion macht das gleiche wie:
 
 ```python
-def x(a)
+def x(a):
 	return a + 10
-print(5
+y = x(5)
+print(y)
 ```
 
 ---
 
 ### Filter mit Lambda
 
-Wir erinnern uns an die filter-Funktion? `filter(function,list)`
+Lambda Funktionen sind ausgezeichnet um Daten zu filtern.
+
+Wir erinnern uns an die filter-Funktion `filter(function,list)`?
 
 🎬 Datei `Lambda.py` mit diesem Code erweitern:
 
 ```python
-data = [1,2,3,9,345,36,33]
+data = [1, 2, 3, 9, 345, 36, 33]
 
-filtered = list(filter(lambda x: x%3==0, data))
-print(filtered) # Ausgabe [3, 9, 345, 36, 33]
+filtered = list(filter(lambda x: x > 9, data))
+print(filtered) # Ausgabe [345, 36, 33]
 ```
 
 ---
 
-### Aufgaben 2
+### Aufgaben 3
 
-Lösen Sie die ersten zwei Aufgaben.
+Lösen Sie die [Aufgaben](excercise6.md#aufgaben) 6.5 und 6.6.
 
-⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 10 Minuten
-
-Ziel: Aufgaben 5.3 bis 5.6 sind gelöst.
+⚡Aufteilung in Breakout-Rooms ⏱️ 10 Minuten
 
 ---
 

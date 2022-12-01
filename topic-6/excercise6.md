@@ -68,10 +68,16 @@ Wenn man die Zahl in einen String umwandelt kann man Sie in einer Schleife verar
 
 ⭐ [Quersumme berechnen](https://github.com/janikvonrotz/python.casa/blob/main/topic-6/Quersumme%20berechnen.py)
 
-### Aufgabe 5.3: Parameter validieren
+### Aufgabe 5.5: Parameter validieren
 
 Wir möchten sicherstellen, dass die Ansage-Funktion nur Variablen vom Typ `str` verarbeitet. Erstellen Sie eine entsprechende Prüfung vor der Ausgabe.
 
+```python
+def ansage(ort):
+	print(f"Der nächste Zug fährt nach {ort}.")
+```
+
+⭐ [Quersumme berechnen](https://github.com/janikvonrotz/python.casa/blob/main/topic-6/Quersumme%20berechnen.py)
 
 ### Aufgabe 5.5: Rekursion auf der Festplatte
 
