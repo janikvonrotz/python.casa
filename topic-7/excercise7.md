@@ -8,9 +8,9 @@ Aufgaben zum Thema.
 
 ### Aufgabe 7.2: Objekt Ampel instanzieren
 
-### Aufgabe 7.3: Klasse Ampel entwerfen
+### Aufgabe 7.3: Getter und Setter hinzufügen
 
-### Aufgabe 7.4: Objekt Ampel instanzieren
+### Aufgabe 7.4: Objekt Ampel verbergen
 
 ### Aufgabe 7.5: Klasse Getränkeautomat entwerfen
 

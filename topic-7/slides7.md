@@ -361,7 +361,7 @@ Beim Vererben der Klassen entsteht eine Hierarchie.
 
 ---
 
-### Aufgaben 1
+### Aufgaben 2
 
 Lösen Sie die [Aufgaben](excercise7.md#aufgaben) 7.3 und 7.4.
 
