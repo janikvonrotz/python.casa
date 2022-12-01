@@ -30,6 +30,8 @@ ansage("Chur")
 ```
 :::
 
+⭐ [Monate.py](https://github.com/janikvonrotz/python.casa/blob/main/topic-5/Monate.py)
+
 ### Aufgabe 5.2: Vereinfachen mit Schleife
 
 Unser Programm kann noch verbessert werden. Erstellen Sie eine Liste der Orte und übergeben Sie diese Parameter an die Ansage-Funktion.
