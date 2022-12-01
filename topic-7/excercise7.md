@@ -4,7 +4,7 @@
 
 Aufgaben zum Thema.
 
-### Aufgabe 5.5.1: Klasse Getränkeautomat entwerfen
+### Aufgabe 7.1: Klasse Getränkeautomat entwerfen
 
 Sie wurden beauftragt eine Software zur Steuerung eines Getränkeautomats zu schreiben. Sie haben sich für die Programmiersprache Python und den objektorientierten Ansatz entschieden. Sie möchten den Getränkeautomat als Klasse abbilden und haben sich folgende Notizen gemacht:
 
@@ -63,7 +63,9 @@ class Getränkeautomat:
 	...
 ```
 
-### Aufgabe 5.5.2: Getränkeautomat ausführen
+⭐ [Vereinfachen mit Funktion.py](https://github.com/janikvonrotz/python.casa/blob/main/topic-6/Vereinfachen%20mit%20Funktion.py)
+
+### Aufgabe 7.2: Getränkeautomat ausführen
 
 Sie haben die Python-Klasse für den Getränkeautomat entworf und können nun die Software ausführen. Instanzieren Sie die Getränkeautomat-Klasse mit den benötigen Parameter. Rufen Sie die beiden Methoden auf und testen Sie den Automaten.
 
@@ -80,7 +82,7 @@ automat.Ausgeben(2)
 automat.Ausgeben(3)
 ```
 
-### Aufgabe 5.5.3: Klasse Getränkeautomat erweitern
+### Aufgabe 7.3: Klasse Getränkeautomat erweitern
 
 Wir möchten den Namen des Getränkeautomats auch nach der Instanzierung ändern können. Erstellen Sie eine Getter- und Setter-Methode für die Instanzvariable `name`.
 
@@ -98,7 +100,7 @@ def name(self, name):
 
 Bennen Sie die Instanzvariable von `name` zu `_name`.
 
-### Aufgabe 5.5.4: Getränkeautomat ausführen
+### Aufgabe 7.4: Getränkeautomat prüfen
 
 Erweitern Sie die Ausgabe der Methode `Auflisten` mit folgendem Code:
 

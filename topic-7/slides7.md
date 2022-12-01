@@ -9,11 +9,38 @@
 
 ---
 
+### Lernziele
+
+Ich kann ...
+* das Idee der objektorientieren Programmierung eklären.
+* kann ein Klasse entwickeln.
+* kann ein Objekt anhand einer Klasse instanzieren.
+* den unterschied zwischen Klassen- und Instanzvariablen erläutern.
+* Getter- und Setter-Methoden anwenden.
+
+---
+
 ### Code Aufbau
 
-Bis anhin haben wir funktional programmiert.
+Abhängig von der Projektgrösse muss der Code (Ordner und Dateien) organisiert werden.
 
-Abhängig von der Projektgrösse muss man Code entsprechend aufbauen.
+Programmierung-Projekte werden mit numehnder Grösse komplexer.
+
+---
+
+### Funktionale Programmierung
+
+Bis jetzt haben wir funktional programmiert.
+
+Unser Code ist Funktionen organisiert.
+
+---
+
+### Objektorientierte Programmierung
+
+Die objektorientierte Programmierung ist weiteres Programmierparadigma.
+
+> Die Grundidee besteht darin, die Architektur einer Software an den Grundstrukturen desjenigen Bereichs der Wirklichkeit auszurichten, der die gegebene Anwendung betrifft.
 
 Python unterstützt auch die objektorientierte Programmierung (OOP).
 
@@ -21,7 +48,7 @@ Python unterstützt auch die objektorientierte Programmierung (OOP).
 
 ### Daten und Code
 
-Sie Idee von OOP ist die Bündelung von Daten (Variablen) und Code (Methoden)
+Mit OOP bündeln wir Daten (Variablen) und Code (Methoden) in einem Objekt:
 
 ![](../oop-class.png)
 
@@ -36,25 +63,50 @@ Es gibt neue Begriffe.
 
 ---
 
-### Beispiel Auto
+### Bauplan Auto
 
-Eine Veranschaulichung anhand des Objekts Auto.
+Eine Klasse dient als Bauplan für verschiedene Objekte.
 
 ![](../car-example.png)
 
 ---
 
-### Modelierung der Realität
-
-Mit OOP versucht man reale Objekte in Code auszudrücken.
+### Kaffeemaschine
 
 Im Folgenden wollen wir die Funktionsweise einer Kaffeemaschine mit Code ausdrücken.
 
 ---
 
-### Eine Klasse definieren
+### Klasse erstellen
+
+Alles beginnt mit `class name:`.
 
 🎬 Erstellen Sie die Datei `Kaffeemaschine.py` mit diesem Inhalt:
+
+```python
+class Kaffeemaschine:
+```
+
+### Konstruktur hinzufúgen
+
+Jede Python-Klasse braucht einen Konstruktor `def __init__(self, var1, var2, ...):`.
+
+🎬 Fügen Sie den Konstruktor hinzu:
+
+```python
+class Kaffeemaschine:
+    def __init__(self, marke, anzahl):
+        self.marke = marke
+        self.anzahl = anzahl
+```
+
+ℹ️  Was es mit `self` auf sich hat, kommt weiter unten.
+
+### Methode Zustand hinzufügen
+
+Die Kaffeemaschine zeigt den Bestand an.
+
+🎬 Fügen Sie die Methode `Zustand` hinzu:
 
 ```python
 class Kaffeemaschine:
@@ -65,7 +117,24 @@ class Kaffeemaschine:
     def Zustand(self):
         print(f"Ich bin eine {self.marke} Maschine")
         print(f"Es sind noch {self.anzahl} Kaffee(s) verfügbar")
+```
+
+### Methode Zustand hinzufügen
+
+Die Kaffeemaschine nimmt Bestellungen entgegen.
+
+🎬 Fügen Sie die Methode `Bestellen` hinzu:
+
+```python
+class Kaffeemaschine:
+    def __init__(self, marke, anzahl):
+        self.marke = marke
+        self.anzahl = anzahl
     
+    def Zustand(self):
+        print(f"Ich bin eine {self.marke} Maschine")
+        print(f"Es sind noch {self.anzahl} Kaffee(s) verfügbar")
+
     def Bestellen(self, anzahl):
         self.anzahl -= anzahl
 ```
@@ -76,7 +145,7 @@ class Kaffeemaschine:
 
 ### Objekt instanzieren
 
-Nun erstellen wir anhand des Bauplans eine Kaffeemaschine.
+Wir rufen anhand des Bauplans eine Kaffeemaschine ins "Leben".
 
 🎬 Fügen Sie diesen Code an:
 
@@ -123,7 +192,7 @@ self.anzahl = anzahl
 
 ### Interaktion / Methoden
 
-Mittels Methoden interagiert man mit dem Objekt.
+Über Methoden interagieren Sie mit dem Objekt.
 
 ```python
 def Zustand(self):
@@ -138,11 +207,9 @@ def Bestellen(self, anzahl):
 
 ### Aufgaben 1
 
-Lösen Sie die ersten zwei Aufgaben.
+Lösen Sie die [Aufgaben](excercise7.md#aufgaben) 7.1 und 7.2.
 
-⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 10 Minuten
-
-Ziel: Aufgabe 5.5.1 und 5.5.2 gelöst.
+⚡Aufteilung in Breakout-Rooms ⏱️ 10 Minuten
 
 ---
 
@@ -301,6 +368,14 @@ Lösen Sie die nächsten zwei Aufgaben.
 ⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 10 Minuten
 
 Ziel: Aufgabe 5.5.3 und 5.5.4 gelöst.
+
+---
+
+### Review
+
+🎯 Wurden die [Lernziele](#lernziele) erreicht?
+
+⚡ Feedback zu den Zielen einholen.
 
 ---
 
