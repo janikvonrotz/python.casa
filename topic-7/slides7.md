@@ -374,13 +374,3 @@ Lösen Sie die [Aufgaben](excercise7.md#aufgaben) 7.3 und 7.4.
 🎯 Wurden die [Lernziele](#lernziele) erreicht?
 
 ⚡ Feedback zu den Zielen einholen.
-
----
-
-### Abschluss
-
-Ich hoffe das war nicht viel! Nun habt ihr die wichtigsten Element der Programmierung mit Python gelernt.
-
-Jetzt heisst es anwenden!
-
----
