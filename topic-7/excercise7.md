@@ -14,7 +14,7 @@ Führen Sie diese Anweisungen aus:
 	* Den Laut des Tieres als `laut`
 * Schreiben Sie eine Methode `ausgabe` und geben Sie diesen Satz aus: `"Das {_farbe}e Tier namens {name} macht: {laut}`
 
-⭐ [Klasse Tier entfwerden]()
+⭐ [Klasse Tier entfwerden](https://github.com/janikvonrotz/python.casa/blob/main/topic-7/Klasse%20Tier%20entwerfen.py)
 
 ### Aufgabe 7.2: Objekt Tier instanzieren
 
@@ -24,25 +24,25 @@ Rufen Sie ein Tier mit den folgenden Angaben ins Leben:
 * Laut: Joink!
 Führen Sie die Objekt-Methode `ausgabe` aus.
 
-⭐ [Objekt Tier instanzieren]()
+⭐ [Objekt Tier instanzieren](https://github.com/janikvonrotz/python.casa/blob/main/topic-7/Objekt%20Tier%20instanzieren.py)
 
 ### Aufgabe 7.3: Getter und Setter hinzufügen
 
 Erstellen Sie eine Getter- und Setter-Methode für die Eigenschaft `_farbe`. 
 Passen Sie die Farbe des Tieres aus der vorhergehenden Aufgabe an und führen Sie erneut die Methode `ausgabe` aus.
 
-⭐ [Getter und Setter hinzufügen]()
+⭐ [Getter und Setter hinzufügen](https://github.com/janikvonrotz/python.casa/blob/main/topic-7/Getter%20und%20Setter%20hinzuf%C3%BCgen.py)
 
 ### Aufgabe 7.4: Klasse Tier vererben
 
-Vereben Sie Klasse `Tief` zu einer neuen Klasse `Hund`. Die neue Klasse nimmt als zusätzlichen Parameter die Variable `alter` entgegen. Erstellen Sie ein neues Objekt aus der Klasse Hund mit diesen Angaben:
+Vereben Sie Klasse `Tier` zu einer neuen Klasse `Hund`. Die neue Klasse nimmt als zusätzlichen Parameter die Variable `alter` entgegen. Erstellen Sie ein neues Objekt aus der Klasse Hund mit diesen Angaben:
 * Name: Dogster
 * Farbe: blau
 * Laut: Yikes!
 * Alter: 37
 Führen Sie die Objekt-Methode `ausgabe` aus.
 
-⭐ [Klasse Tier vererben]()
+⭐ [Klasse Tier vererben](https://github.com/janikvonrotz/python.casa/blob/main/topic-7/Klasse%20Tier%20verben.py)
 
 ### Aufgabe 7.5: Klasse Getränkeautomat entwerfen
 
