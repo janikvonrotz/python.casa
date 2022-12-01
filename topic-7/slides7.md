@@ -15,8 +15,8 @@ Ich kann ...
 * das Idee der objektorientieren Programmierung eklären.
 * kann ein Klasse entwickeln.
 * kann ein Objekt anhand einer Klasse instanzieren.
-* den unterschied zwischen Klassen- und Instanzvariablen erläutern.
 * Getter- und Setter-Methoden anwenden.
+* die Idee der Klassen-Verberung erläutern.
 
 ---
 
@@ -350,6 +350,14 @@ class Katze(Tier): # Katze ist ein Tier
 katze = Katze("Sammy", "orange", 3)
 print(katze.farbe)
 ```
+
+---
+
+### super() Funktion
+
+Mit `super()` greift man auf die Instanz der Superklasse zu.
+
+Beim Instanzieren der Klasse Katze wird damit der Konstruktur der Klasse Tief aufgerufen.
 
 ---
 
