@@ -30,7 +30,7 @@ ansage("Chur")
 ```
 :::
 
-⭐ [Vereinfachen mit Funktion.py](https://github.com/janikvonrotz/python.casa/blob/main/topic-6/Vereinfachen%20mit%20Funktion.py)
+⭐ [Vereinfachen mit Funktion](https://github.com/janikvonrotz/python.casa/blob/main/topic-6/Vereinfachen%20mit%20Funktion.py)
 
 ### Aufgabe 6.2: Vereinfachen mit Schleife
 
@@ -56,7 +56,7 @@ print(output_eur)
 
 Passen Sie das Programm so an, dass die Funktion `wechsel` den Franken als Parameter `input_chf` und die Wechselrate als `rate` entgegennimmt.
 
-⭐ [Währungswechsel.py](https://github.com/janikvonrotz/python.casa/blob/main/topic-6/Währungswechsel.py)
+⭐ [Währungswechsel](https://github.com/janikvonrotz/python.casa/blob/main/topic-6/Währungswechsel.py)
 
 ### Aufgabe 6.4: Quersumme berechnen
 

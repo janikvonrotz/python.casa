@@ -4,7 +4,11 @@
 
 Aufgaben zum Thema.
 
-### Aufgabe 7.1: Klasse Getränkeautomat entwerfen
+### Aufgabe 7.1: Klasse Ampel entwerfen
+
+### Aufgabe 7.2: Objekt Ampel instanzieren
+
+### Aufgabe 7.3: Klasse Getränkeautomat entwerfen
 
 Sie wurden beauftragt eine Software zur Steuerung eines Getränkeautomats zu schreiben. Sie haben sich für die Programmiersprache Python und den objektorientierten Ansatz entschieden. Sie möchten den Getränkeautomat als Klasse abbilden und haben sich folgende Notizen gemacht:
 
@@ -63,11 +67,11 @@ class Getränkeautomat:
 	...
 ```
 
-⭐ [Vereinfachen mit Funktion.py](https://github.com/janikvonrotz/python.casa/blob/main/topic-6/Vereinfachen%20mit%20Funktion.py)
+⭐ [Klasse Getränkeautomat entwerfen](https://github.com/janikvonrotz/python.casa/blob/main/topic-7/Klasse%20Getr%C3%A4nkeautomat%20entwerfen.py)
 
-### Aufgabe 7.2: Getränkeautomat ausführen
+### Aufgabe 7.4: Getränkeautomat ausführen
 
-Sie haben die Python-Klasse für den Getränkeautomat entworf und können nun die Software ausführen. Instanzieren Sie die Getränkeautomat-Klasse mit den benötigen Parameter. Rufen Sie die beiden Methoden auf und testen Sie den Automaten.
+Sie haben die Python-Klasse für den Getränkeautomat entworfen und können nun die Software ausführen. Instanzieren Sie die Getränkeautomat-Klasse mit den benötigen Parameter. Rufen Sie die beiden Methoden auf und testen Sie den Automaten.
 
 Dazu folgende Inputs:
 
@@ -82,7 +86,9 @@ automat.Ausgeben(2)
 automat.Ausgeben(3)
 ```
 
-### Aufgabe 7.3: Klasse Getränkeautomat erweitern
+⭐ [Getränkeautomat ausführen](https://github.com/janikvonrotz/python.casa/blob/main/topic-7/Getr%C3%A4nkeautomat%20ausf%C3%BChren.py)
+
+### Aufgabe 7.5: Klasse Getränkeautomat erweitern
 
 Wir möchten den Namen des Getränkeautomats auch nach der Instanzierung ändern können. Erstellen Sie eine Getter- und Setter-Methode für die Instanzvariable `name`.
 
@@ -100,7 +106,9 @@ def name(self, name):
 
 Bennen Sie die Instanzvariable von `name` zu `_name`.
 
-### Aufgabe 7.4: Getränkeautomat prüfen
+⭐ [Klasse Getränkeautomat erweitern](https://github.com/janikvonrotz/python.casa/blob/main/topic-7/Klasse%20Getr%C3%A4nkeautomat%20erweitern.py)
+
+### Aufgabe 7.6: Getränkeautomat prüfen
 
 Erweitern Sie die Ausgabe der Methode `Auflisten` mit folgendem Code:
 
@@ -122,6 +130,9 @@ automat.Auflisten()
 ```
 
 Als zusätzliche Aufgaben können Sie Getter- und Setter-Methoden für die Instanzvariablen `produkte` und `bestand` hinzufügen.
+
+⭐ [Getränkeautomat prüfen](https://github.com/janikvonrotz/python.casa/blob/main/topic-7/Getr%C3%A4nkeautomat%20pr%C3%BCfen.py)
+
 
 ## Wiederholungsfragen
 
