@@ -2,7 +2,7 @@
 
 import os
 
-basepath = '/home/janikvonrotz/janikv.cloud/python.casa'
+basepath = '/home/janikvonrotz/python.casa/'
 
 def walk(path):
     print("Ausgabe ", path, ":")

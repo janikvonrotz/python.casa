@@ -4,7 +4,7 @@
 
 Aufgaben zum Thema.
 
-### Aufgabe 5.1: Vereinfachen mit Funktion
+### Aufgabe 6.1: Vereinfachen mit Funktion
 
 Für die Ansage von Zugabfahren wurde ein Programm erstellt.
 
@@ -32,13 +32,13 @@ ansage("Chur")
 
 ⭐ [Vereinfachen mit Funktion.py](https://github.com/janikvonrotz/python.casa/blob/main/topic-6/Vereinfachen%20mit%20Funktion.py)
 
-### Aufgabe 5.2: Vereinfachen mit Schleife
+### Aufgabe 6.2: Vereinfachen mit Schleife
 
 Unser Programm kann noch verbessert werden. Erstellen Sie eine Liste der Orte und übergeben Sie diese als Parameter an die Ansage-Funktion.
 
 ⭐ [Vereinfachen mit Schleife.py](https://github.com/janikvonrotz/python.casa/blob/main/topic-6/Vereinfachen%20mit%20Schleife.py)
 
-### Aufgabe 5.3: Währungswechsel
+### Aufgabe 6.3: Währungswechsel
 
 Sie haben ein Programm geschrieben, welches Franken in Euro umrechnet. Dabei haben Sie für die Wechselrate und den Franken globale Variablen verwendet.
 
@@ -58,7 +58,7 @@ Passen Sie das Programm so an, dass die Funktion `wechsel` den Franken als Param
 
 ⭐ [Währungswechsel.py](https://github.com/janikvonrotz/python.casa/blob/main/topic-6/Währungswechsel.py)
 
-### Aufgabe 5.4: Quersumme berechnen
+### Aufgabe 6.4: Quersumme berechnen
 
 Schreiben Sie eine Funktion `quersumme(zahl)`, welche die Quersumme von `zahl` berechnet und zurückgibt.
 
@@ -68,7 +68,7 @@ Wenn man die Zahl in einen String umwandelt kann man Sie in einer Schleife verar
 
 ⭐ [Quersumme berechnen](https://github.com/janikvonrotz/python.casa/blob/main/topic-6/Quersumme%20berechnen.py)
 
-### Aufgabe 5.5: Parameter validieren
+### Aufgabe 6.5: Parameter validieren
 
 Wir möchten sicherstellen, dass die Ansage-Funktion nur Variablen vom Typ `str` verarbeitet. Erstellen Sie eine entsprechende Prüfung vor der Ausgabe.
 
@@ -77,9 +77,30 @@ def ansage(ort):
 	print(f"Der nächste Zug fährt nach {ort}.")
 ```
 
-⭐ [Quersumme berechnen](https://github.com/janikvonrotz/python.casa/blob/main/topic-6/Quersumme%20berechnen.py)
+⭐ [Parameter berechnen](https://github.com/janikvonrotz/python.casa/blob/main/topic-6/Parameter%20validieren.py)
 
-### Aufgabe 5.5: Rekursion auf der Festplatte
+### Aufgabe 6.6: Freigabe
+
+Sie haben diese Funktion geschrieben:
+
+```pyhon
+def freigabe(kosten):
+	if kosten < 2000 and kosten > 0:
+		return True
+	else:
+		return False
+
+betrag1 = 1000
+betrag2 = 3000
+print(freigabe(betrag1))
+print(freigabe(betrag2))
+```
+
+Schreiben Sie die `freigabe` Funktion als Lamdba und weisen Sie die Funktion der Variable `freigabe` zu.
+
+⭐ [Freigabe](https://github.com/janikvonrotz/python.casa/blob/main/topic-6/Freigabe.py)
+
+### Aufgabe 6.7: Rekursion auf der Festplatte
 
 Schreiben Sie eine rekursive Funktion, die als Parameter einen Ordnerpfad erwartet und alle Unterordner ausgibt.
 
@@ -103,7 +124,9 @@ for entry in os.listdir(basepath):
 ```
 :::
 
-### Aufgabe 5.6: Filtern mit Lambda
+⭐ [Rekursion auf der Festplatte](https://github.com/janikvonrotz/python.casa/blob/main/topic-6/Rekursion%20auf%20der%20Festplatte.py)
+
+### Aufgabe 5.8: Filtern mit Lambda
 
 Kopieren Sie die Datenstruktur von <https://jsonplaceholder.typicode.com/users> nach Python.
 
@@ -131,13 +154,17 @@ users = list(filter)
 ```
 :::
 
-### Aufgabe 5.7: Chart to Code
+⭐ [Filtern mit Lambda](https://github.com/janikvonrotz/python.casa/blob/main/topic-6/Filtern%20mit%20Lambda.py)
+
+### Aufgabe 6.9: Chart to Code
 
 Schreiben Sie diese Flowchart als Code:
 
 ![diagram](../diagram.svg)
 
-### Aufgabe 5.8: Code to Chart
+⭐ [Chart to Code](https://github.com/janikvonrotz/python.casa/blob/main/topic-6/Chart%20to%20Code.py)
+
+### Aufgabe 6.10: Code to Chart
 
 Erstellen Sie einen Flowchart mit [draw.io](https://draw.io) anhand dieses Codes:
 
@@ -153,7 +180,9 @@ if spicyfood == "False":
     print("The user hates spicy food!")
 ```
 
-### Aufgabe 5.9: Hangman
+⭐ [Code to Chart](https://github.com/janikvonrotz/python.casa/blob/main/topic-6/Code%20to%20Chart.svg)
+
+### Aufgabe 6.11: Hangman
 
 Entwickeln Sie das Spiel *Hangman*. Implementierung Sie dazu folgende Punkte:
 * Zu Finden des Worts hat man 5 Versuche
@@ -206,6 +235,8 @@ print(f"Treffer! Der aktuelle Stand: {' '.join(zensiert)}.")
 print(f"Deine Treffer: {' '.join(gefunden)}.")
 ```
 :::
+
+⭐ [Hangman](https://github.com/janikvonrotz/python.casa/blob/main/topic-6/Hangman.py)
 
 ## Wiederholungsfragen
 

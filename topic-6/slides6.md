@@ -405,6 +405,13 @@ Mit Flowcharts kann man einen Vorgang oder Prozess visualisieren.
 Zur Darstellung gibt es verschiedene Symbole. Hier die wichtigsten:
 
 ---
+### diagrams.net
+
+🎬 Öffnen Sie die Website <https://app.diagrams.net/ und erstellen Sie ein ein Diagramm mit den Element aus dem Bereich *General*.
+
+![](../diagrams-general.png)
+
+---
 
 ### Symbol Pfeil
 
@@ -465,11 +472,9 @@ Repräsentiert eine andere Funktion/Prozess.
 
 ### Aufgaben 3
 
-Lösen Sie die ersten zwei Aufgaben.
+Lösen Sie die [Aufgaben](excercise6.md#aufgaben) 6.9 und 6.10.
 
 ⚡Aufteilung in Breakout-Rooms ⏱️ 10 Minuten
-
-Ziel: Aufgaben 5.7 und 5.8 sind gelöst.
 
 ---
 ### Review
