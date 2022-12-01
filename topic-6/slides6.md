@@ -8,6 +8,16 @@
 📖 Kapitel 9 Funktionen
 
 ---
+### Lernziele
+
+Ich kann ...
+* neue Python-Funktionen schreiben und wiederverwenden.
+* Paramter für Funktionen gemäss Anforderungen definieren.
+* Den unterschied von lokalen und globalen Variablen erklären.
+* Code mit einem Flowchart visualisieren.
+* anhand eines Flowchart Code ableiten.
+
+---
 
 ### Code gestalten
 
@@ -15,7 +25,7 @@ Mit `if` kann man nur bestimmte Teile im Code ausführen.
 
 Mit `while` und `for` können wir Anweisungen im Code wiederholen.
 
-Wie können wir Code-Teile mehrfach verwenden?
+Wie können wir Code-Teile wiederverenden?
 
 ---
 
@@ -30,11 +40,17 @@ Funktionen helfen uns:
 
 ---
 
-### Achtung Funktion
+### Aufbau einer Funktion
+
+![](../python-function-definition.png)
+
+---
+
+### Achtung bei Funktionen!
 
 Bei der Anwendung von Funktionen gelten einige Regeln:
 * Zuerst definieren dann verwenden
-* Funktionen ohne Parameter ist erlaubt
+* Funktionen ohne Parameter sind erlaubt
 * Alle Datentypen sind als Rückgabewerte erlaubt
 * Funktionen können verschachtelt werden
 * Mehrere Funktionen dürfen nicht den gleichen Namen haben
@@ -147,6 +163,7 @@ print(z) # Ausgabe 3
 ```
 
 ---
+
 ### Globale Variable
 
 Variablen mit der Kennzeichung `global` sind ausserhalb der Funktion verfügbar.
@@ -192,6 +209,14 @@ f1([1, 2]) # Ausgabe [1, 2]
 
 ---
 
+### Aufgaben 1
+
+Lösen Sie die [Aufgaben](excercise6.md#aufgaben) 6.1 und 6.2.
+
+⚡Aufteilung in Breakout-Rooms ⏱️ 10 Minuten
+
+---
+
 ### Optionale Parameter
 
 Mit `para=default` definieren Sie für einen Parameter einen Standardwert. Dieser ist damit gleichzeitig optional.
@@ -202,7 +227,7 @@ Mit `para=default` definieren Sie für einen Parameter einen Standardwert. Diese
 
 Es können mehrere Parameter mit Standardwerten definiert werden.
 
-🎬 Diesen Code anfügen:
+🎬 Diesen Code in der Datei `Parameter.py` anfügen:
 
 ```python
 def f(a,b,c=-1,d=0):
@@ -212,16 +237,6 @@ f(6,7,8,9) # Ausgabe 6 7 8 9
 f(6,7,8) # Ausgabe 6 7 8 0
 f() # Fehler a und b werden vermisst
 ```
-
----
-
-### Aufgaben 1
-
-Lösen Sie die ersten zwei Aufgaben.
-
-⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 10 Minuten
-
-Ziel: Aufgabe 5.1 und 5.2 gelöst.
 
 ---
 
@@ -252,15 +267,22 @@ print(*liste) # a b c
 🎬 Datei `Mehrere.py` mit diesem Code erstellen:
 
 ```python
-def f(a,*b):
-    print(a,b,type(b))
+def f(a, *b):
+    print(a, b, type(b))
     
 l = range(0,6)
-f(1,l) # Ausgabe 1 (range(0, 6),) <class 'tuple'>
-f(*l) # 0 (1, 2, 3, 4, 5) <class 'tuple'>
+f(1, l) # Ausgabe 1 (range(0, 6),) <class 'tuple'>
 ```
 
 ℹ️ Keep it simple! Verwenden Sie einfache Parameter.
+
+---
+
+### Aufgaben 2
+
+Lösen Sie die [Aufgaben](excercise6.md#aufgaben) 6.3 und 6.4.
+
+⚡Aufteilung in Breakout-Rooms ⏱️ 10 Minuten
 
 ---
 
@@ -446,12 +468,8 @@ Lösen Sie die ersten zwei Aufgaben.
 Ziel: Aufgaben 5.7 und 5.8 sind gelöst.
 
 ---
-
 ### Review
 
-🎯 Ziele erreicht?
-* Eigene Funktionen schreiben
-* Parameter für Funktionen definieren
-* Code mit Flowchart visualisieren
+🎯 Wurden die [Lernziele](#lernziele) erreicht?
 
----
+⚡ Feedback zu den Zielen einholen.

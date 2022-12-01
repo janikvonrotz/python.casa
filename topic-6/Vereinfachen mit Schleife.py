@@ -1,15 +1,19 @@
+# Lösung 1
+
 def ansage(ort):
     print(f"Der nächste Zug fährt nach {ort}.")
 
 orte = ['Bern','Luzern','Zürich','Genf','Chur']
 
-[ansage(ort) for ort in orte]
+for ort in orte:
+    ansage(ort)
 
-# Oder it mehreren Parameter
+# Lösung 2
 
-def ansage(*orte):
-    [print(f"Der nächste Zug fährt nach {ort}.") for ort in orte]
+def ansage(orte):
+    for ort in orte:
+        print(f"Der nächste Zug fährt nach {ort}.")
 
 orte = ['Bern','Luzern','Zürich','Genf','Chur']
 
-ansage(*orte[0:2],*orte[2:5])
+ansage(orte)

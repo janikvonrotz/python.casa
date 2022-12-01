@@ -30,23 +30,48 @@ ansage("Chur")
 ```
 :::
 
-⭐ [Monate.py](https://github.com/janikvonrotz/python.casa/blob/main/topic-5/Monate.py)
+⭐ [Vereinfachen mit Funktion.py](https://github.com/janikvonrotz/python.casa/blob/main/topic-6/Vereinfachen%20mit%20Funktion.py)
 
 ### Aufgabe 5.2: Vereinfachen mit Schleife
 
-Unser Programm kann noch verbessert werden. Erstellen Sie eine Liste der Orte und übergeben Sie diese Parameter an die Ansage-Funktion.
+Unser Programm kann noch verbessert werden. Erstellen Sie eine Liste der Orte und übergeben Sie diese als Parameter an die Ansage-Funktion.
+
+⭐ [Vereinfachen mit Schleife.py](https://github.com/janikvonrotz/python.casa/blob/main/topic-6/Vereinfachen%20mit%20Schleife.py)
+
+### Aufgabe 5.3: Währungswechsel
+
+Sie haben ein Programm geschrieben, welches Franken in Euro umrechnet. Dabei haben Sie für die Wechselrate und den Franken globale Variablen verwendet.
+
+```python
+rate = 0.95
+input_chf = 500
+
+def wechsel():
+	return input_chf * rate
+
+output_eur = wechsel()
+
+print(output_eur)
+```
+
+Passen Sie das Programm so an, dass die Funktion `wechsel` den Franken als Parameter `input_chf` und die Wechselrate als `rate` entgegennimmt.
+
+⭐ [Währungswechsel.py](https://github.com/janikvonrotz/python.casa/blob/main/topic-6/Währungswechsel.py)
+
+### Aufgabe 5.4: Quersumme berechnen
+
+Schreiben Sie eine Funktion `quersumme(zahl)`, welche die Quersumme von `zahl` berechnet und zurückgibt.
+
+::: tip
+Wenn man die Zahl in einen String umwandelt kann man Sie in einer Schleife verarbeiten.
+:::
+
+⭐ [Quersumme berechnen](https://github.com/janikvonrotz/python.casa/blob/main/topic-6/Quersumme%20berechnen.py)
 
 ### Aufgabe 5.3: Parameter validieren
 
 Wir möchten sicherstellen, dass die Ansage-Funktion nur Variablen vom Typ `str` verarbeitet. Erstellen Sie eine entsprechende Prüfung vor der Ausgabe.
 
-### Aufgabe 5.4: Quersumme berechnen
-
-Schreibe eine Funktion `quersumme(zahl)`, welche die Quersumme von `zahl` berechnet und zurückgibt.
-
-::: tip
-Wenn man die Zahl in einen String umwandelt kann man Sie in einer Schleife verarbeiten.
-:::
 
 ### Aufgabe 5.5: Rekursion auf der Festplatte
 

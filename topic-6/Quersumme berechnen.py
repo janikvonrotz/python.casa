@@ -8,6 +8,6 @@ def quersumme(zahl):
 zahl = 177
 print(f"Quersumme von {zahl} ist: {quersumme(zahl)}")
 
-# Oder so
+# Oder so ;)
 
 print(f"Quersumme von {zahl} ist: {sum([int(i) for i in [*str(zahl)]])}")
