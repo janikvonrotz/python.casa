@@ -470,7 +470,7 @@ Repräsentiert eine andere Funktion/Prozess.
 
 ---
 
-### Aufgaben 3
+### Aufgaben 4
 
 Lösen Sie die [Aufgaben](excercise6.md#aufgaben) 6.9 und 6.10.
 
