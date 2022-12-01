@@ -4,13 +4,45 @@
 
 Aufgaben zum Thema.
 
-### Aufgabe 7.1: Klasse Ampel entwerfen
+### Aufgabe 7.1: Klasse Tier entwerfen
 
-### Aufgabe 7.2: Objekt Ampel instanzieren
+Führen Sie diese Anweisungen aus:
+* Erstellen Sie eine Klasse mit den Namen `Tier`
+* Fügen Sie einen Konstuktor mit diesen Variablen hinzu:
+	* Den Namen als `name`
+	* Die Hautfarbe als `_farbe`
+	* Den Laut des Tieres als `laut`
+* Schreiben Sie eine Methode `ausgabe` und geben Sie diesen Satz aus: `"Das {_farbe}e Tier namens {name} macht: {laut}`
+
+⭐ [Klasse Tier entfwerden]()
+
+### Aufgabe 7.2: Objekt Tier instanzieren
+
+Rufen Sie ein Tier mit den folgenden Angaben ins Leben:
+* Name: Pixel
+* Farbe: grau
+* Laut: Joink!
+Führen Sie die Objekt-Methode `ausgabe` aus.
+
+⭐ [Objekt Tier instanzieren]()
 
 ### Aufgabe 7.3: Getter und Setter hinzufügen
 
-### Aufgabe 7.4: Objekt Ampel verbergen
+Erstellen Sie eine Getter- und Setter-Methode für die Eigenschaft `_farbe`. 
+Passen Sie die Farbe des Tieres aus der vorhergehenden Aufgabe an und führen Sie erneut die Methode `ausgabe` aus.
+
+⭐ [Getter und Setter hinzufügen]()
+
+### Aufgabe 7.4: Klasse Tier vererben
+
+Vereben Sie Klasse `Tief` zu einer neuen Klasse `Hund`. Die neue Klasse nimmt als zusätzlichen Parameter die Variable `alter` entgegen. Erstellen Sie ein neues Objekt aus der Klasse Hund mit diesen Angaben:
+* Name: Dogster
+* Farbe: blau
+* Laut: Yikes!
+* Alter: 37
+Führen Sie die Objekt-Methode `ausgabe` aus.
+
+⭐ [Klasse Tier vererben]()
 
 ### Aufgabe 7.5: Klasse Getränkeautomat entwerfen
 
