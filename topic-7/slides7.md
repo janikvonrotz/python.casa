@@ -279,7 +279,7 @@ def hello(func):
 @hello
 def name():                                                                                                 
     print("Alice")                                                                                          
-                                                                                                                                                                                
+
 name()
 ```
 
@@ -361,13 +361,11 @@ Beim Vererben der Klassen entsteht eine Hierarchie.
 
 ---
 
-### Aufgaben 2
+### Aufgaben 1
 
-Lösen Sie die nächsten zwei Aufgaben.
+Lösen Sie die [Aufgaben](excercise7.md#aufgaben) 7.3 und 7.4.
 
-⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 10 Minuten
-
-Ziel: Aufgabe 5.5.3 und 5.5.4 gelöst.
+⚡Aufteilung in Breakout-Rooms ⏱️ 10 Minuten
 
 ---
 
