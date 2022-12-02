@@ -6,7 +6,7 @@ Aufgaben zum Thema.
 
 ### Aufgabe 6.1: Vereinfachen mit Funktion
 
-Für die Ansage von Zugabfahren wurde ein Programm erstellt.
+Für die Ansage von Zugabfahrten wurde ein Programm erstellt.
 
 ```python
 print("Der nächste Zug fährt nach Bern.")
@@ -58,15 +58,11 @@ Passen Sie das Programm so an, dass die Funktion `wechsel` den Franken als Param
 
 ⭐ [Währungswechsel](https://github.com/janikvonrotz/python.casa/blob/main/topic-6/Währungswechsel.py)
 
-### Aufgabe 6.4: Quersumme berechnen
+### Aufgabe 6.3: Währungswechsel
 
-Schreiben Sie eine Funktion `quersumme(zahl)`, welche die Quersumme von `zahl` berechnet und zurückgibt.
+Übernehmen Sie die Funkion aus der vorhergehenden Aufgaben und definieren Sie einen Standardwert für den Parameter `rate` mit dem Wert `0.8`.
 
-::: tip
-Wenn man die Zahl in einen String umwandelt kann man Sie in einer Schleife verarbeiten.
-:::
-
-⭐ [Quersumme berechnen](https://github.com/janikvonrotz/python.casa/blob/main/topic-6/Quersumme%20berechnen.py)
+⭐ [Standardwert](https://github.com/janikvonrotz/python.casa/blob/main/topic-6/Standardwert.py)
 
 ### Aufgabe 6.5: Parameter validieren
 
@@ -83,7 +79,7 @@ def ansage(ort):
 
 Sie haben diese Funktion geschrieben:
 
-```pyhon
+```python
 def freigabe(kosten):
 	if kosten < 2000 and kosten > 0:
 		return True
@@ -100,7 +96,18 @@ Schreiben Sie die `freigabe` Funktion als Lamdba und weisen Sie die Funktion der
 
 ⭐ [Freigabe](https://github.com/janikvonrotz/python.casa/blob/main/topic-6/Freigabe.py)
 
-### Aufgabe 6.7: Rekursion auf der Festplatte
+### Aufgabe 6.7: Quersumme berechnen
+
+Schreiben Sie eine Funktion `quersumme(zahl)`, welche die Quersumme von `zahl` berechnet und zurückgibt.
+
+::: tip
+Wenn man die Zahl in einen String umwandelt kann man Sie in einer Schleife verarbeiten.
+:::
+
+⭐ [Quersumme berechnen](https://github.com/janikvonrotz/python.casa/blob/main/topic-6/Quersumme%20berechnen.py)
+
+
+### Aufgabe 6.8: Rekursion auf der Festplatte
 
 Schreiben Sie eine rekursive Funktion, die als Parameter einen Ordnerpfad erwartet und alle Unterordner ausgibt.
 
@@ -126,7 +133,7 @@ for entry in os.listdir(basepath):
 
 ⭐ [Rekursion auf der Festplatte](https://github.com/janikvonrotz/python.casa/blob/main/topic-6/Rekursion%20auf%20der%20Festplatte.py)
 
-### Aufgabe 5.8: Filtern mit Lambda
+### Aufgabe 6.9: Filtern mit Lambda
 
 Kopieren Sie die Datenstruktur von <https://jsonplaceholder.typicode.com/users> nach Python.
 
@@ -156,7 +163,7 @@ users = list(filter)
 
 ⭐ [Filtern mit Lambda](https://github.com/janikvonrotz/python.casa/blob/main/topic-6/Filtern%20mit%20Lambda.py)
 
-### Aufgabe 6.9: Chart to Code
+### Aufgabe 6.10: Chart to Code
 
 Schreiben Sie diese Flowchart als Code:
 
@@ -164,9 +171,9 @@ Schreiben Sie diese Flowchart als Code:
 
 ⭐ [Chart to Code](https://github.com/janikvonrotz/python.casa/blob/main/topic-6/Chart%20to%20Code.py)
 
-### Aufgabe 6.10: Code to Chart
+### Aufgabe 6.11: Code to Chart
 
-Erstellen Sie einen Flowchart mit [draw.io](https://draw.io) anhand dieses Codes:
+Erstellen Sie einen Flowchart mit [diagrams.net](https://app.diagrams.net) anhand dieses Codes:
 
 ```python
 spicyfood = input("Do you like spicy food? True or False?")

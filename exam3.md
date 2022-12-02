@@ -28,17 +28,18 @@ Hier einige Ideen für Projekte:
 
 | Titel                                                                                                                                                            | Schwierigkeitsgrad |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------ |
-| Suche nach bestimmten Begriffen in [Log-Dateien](https://raw.githubusercontent.com/elastic/examples/master/Common%20Data%20Formats/nginx_logs/nginx_logs)        |                    |
-| Wort mit LED und Raspberry Pi als Morsecode ausgeben                                                                                                             |                    |
-| Daten aus Postgres Datenbank lesen und schreiben                                                                                                                 |                    |
-| Wetter-Informationen abrufen und als HTML-Dokument ausgeben                                                                                                      |                    |
-| Tweet von Twitter-Account anzeigen lassen                                                                                                                        |                    |
+| Covid-Daten mit Python verarbeiten und als HTML-Bericht präsentieren                                                                                             |                    |
 | Datei auf Dropbox speichern                                                                                                                                      |                    |
-| Textbasiertes Hangman                                                                                                                                            |                    |
+| Daten aus Postgres Datenbank lesen und schreiben                                                                                                                 |                    |
 | Detektion von Herzfrequenz anhand [EKG-Daten](https://github.com/janikvonrotz/python.casa/blob/main/ekg-data..csv)                                               |                    |
-| Temperaturdaten ploten und Min/Max bestimmen. Daten von  [https://sarneraa.huetstock.ch](https://sarneraa.huetstock.ch) können auf Anfrage bereitgestellt werden |                    |
+| Deutscher [Wordle](https://www.nytimes.com/games/wordle/index.html)-Klon                                                                                         |                    |
 | Passwortgenerator gemäss [xkcd-Comic](https://xkcd.com/936/)                                                                                                     |                    |
-| Covid-Daten mit Python verarbeiten und als HTML-Bericht präsentieren                                                                                                                                                                 |                    |
+| Suche nach bestimmten Begriffen in [Log-Dateien](https://raw.githubusercontent.com/elastic/examples/master/Common%20Data%20Formats/nginx_logs/nginx_logs)        |                    |
+| Temperaturdaten ploten und Min/Max bestimmen. Daten von [https://sarneraa.huetstock.ch](https://sarneraa.huetstock.ch) können auf Anfrage bereitgestellt werden |                    |
+| Textbasiertes Hangman                                                                                                                                            |                    |
+| Tweet von Twitter-Account anzeigen lassen                                                                                                                        |                    |
+| Wetter-Informationen abrufen und als HTML-Dokument ausgeben                                                                                                      |                    |
+| Wort mit LED und Raspberry Pi als Morsecode ausgeben                                                                                                             |                    |
 
 ## Projektvorschlag
 

@@ -13,7 +13,7 @@
 
 Ich kann ...
 * neue Python-Funktionen schreiben und wiederverwenden.
-* Paramter für Funktionen gemäss Anforderungen definieren.
+* Parameter für Funktionen gemäss Anforderungen definieren.
 * Den unterschied von lokalen und globalen Variablen erklären.
 * Code mit einem Flowchart visualisieren.
 * anhand eines Flowchart Code ableiten.
@@ -218,9 +218,29 @@ Lösen Sie die [Aufgaben](excercise6.md#aufgaben) 6.1 und 6.2.
 
 ---
 
-### Optionale Parameter
+### Aufruf ohne Parameter
+
+Ein Aufruf ohne Parameter ist nicht möglich.
+
+```python
+def f1(x):
+    print(x)
+
+f1()
+```
+
+---
+
+### Standardwert Parameter
 
 Mit `para=default` definieren Sie für einen Parameter einen Standardwert. Dieser ist damit gleichzeitig optional.
+
+```python
+def f1(x=1):
+    print(x)
+
+f1()
+```
 
 ---
 
@@ -299,7 +319,7 @@ Lösen Sie die [Aufgaben](excercise6.md#aufgaben) 6.3 und 6.4.
 
 ```python
 def f(n):
-    if isinstance(n,int):
+    if isinstance(n, int):
         return 2*n
     else:
         print('Ungültig')
@@ -408,7 +428,7 @@ Zur Darstellung gibt es verschiedene Symbole. Hier die wichtigsten:
 ---
 ### diagrams.net
 
-🎬 Öffnen Sie die Website <https://app.diagrams.net/ und erstellen Sie ein ein Diagramm mit den Element aus dem Bereich *General*.
+🎬 Öffnen Sie die Website <https://app.diagrams.net> und erstellen Sie ein ein Diagramm mit den Element aus dem Bereich *General*.
 
 ![](../diagrams-general.png)
 
@@ -473,7 +493,7 @@ Repräsentiert eine andere Funktion/Prozess.
 
 ### Aufgaben 4
 
-Lösen Sie die [Aufgaben](excercise6.md#aufgaben) 6.9 und 6.10.
+Lösen Sie die [Aufgaben](excercise6.md#aufgaben) 6.10 und 6.11.
 
 ⚡Aufteilung in Breakout-Rooms ⏱️ 10 Minuten
 

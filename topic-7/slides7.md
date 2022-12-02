@@ -5,7 +5,7 @@
 
 ⚡[Anwesenheit bestätigen](https://moodle.medizintechnik-hf.ch/mod/attendance/manage.php?id=8024)
 
-📖 Kapitel 11 Funktionen
+📖 Kapitel 11 Objektorientierte Programmierung
 
 ---
 
