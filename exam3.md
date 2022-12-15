@@ -49,6 +49,7 @@ Hier einige Ideen für Projekte:
 
 Der Projektvorschlag wird auf Moodle mitgeteilt und besteht im wesentlichen aus einem Titel, Fragestellung und dem geplanten Vorgehen (max. 200 Wörter / 1500 Zeichen).
 
+Dazu ein Beispiel:
 <details>
 **Titel:**  
 TicTacToe-Spiel mithilfe von Python programmieren
