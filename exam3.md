@@ -47,9 +47,32 @@ Hier einige Ideen für Projekte:
 
 ## Projektvorschlag
 
-Der Projektvorschlag wird auf Moodle mitgeteilt und besteht im wesentlichen aus einem Titel und einer kurzen Beschreibung (~100 Wörter).
+Der Projektvorschlag wird auf Moodle mitgeteilt und besteht im wesentlichen aus einem Titel, Fragestellung und dem geplanten Vorgehen (max. 200 Wörter / 1500 Zeichen).
 
-![](./moodle-kurs.png)
+<details>
+**Titel:**  
+TicTacToe-Spiel mithilfe von Python programmieren
+
+**Fragestellung:**  
+Ist es möglich, nur mit den im Unterricht «Einführung ins Programmieren» kennengelernten Python-Befehlen ein funktionstüchtiges TicTacToe-Spiel zu programmieren?
+
+**Geplantes Vorgehen:**  
+Als erstes wird mit einer Listen-Funktion ein Spielefeld erstellt, bei dem die Kästchen nummeriert  
+sind. Die beiden Spieler können anhand der Nummerierung später auf die Kästchen zugreifen, um die  
+Position ihres Spielzuges einzugeben.  
+Damit gespielt werden kann, muss die gewünschte Kästchen-Nummer des Spielers mit einer  
+Nummer der Kästchen überreinstimmen. Ansonsten wird eine Fehlermeldung ausgegeben. Dies wird  
+mit einem if/while-Befehl programmiert. Zusätzlich soll der Spieler die Möglichkeit haben das Spiel  
+frühzeitig zu unterbrechen und die beiden Spieler, die durch Variablen unterschieden werden, sollen  
+nacheinander aufgefordert werden ihren Spielzug zu tätigen. Dies wird ebenfalls mit einem if/while-  
+Befehl gemacht.  
+Das Spiel soll beendet werden, wenn eine Spieler-Variable entweder senkrecht, waagerecht oder  
+diagonal dreimal nebeneinander vorkommt. Dazu muss eine Schleife programmiert werden, die die  
+Liste, die als Spielfeld dient, nach jedem Spielzug überprüft.  
+Falls ein Sieger feststeht, soll das Programm dem Sieger gratulieren.
+</details>
+
+![](moodle-projektvorschlag.png)
 
 ## Dokumentation
 
