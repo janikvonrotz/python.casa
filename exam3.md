@@ -73,7 +73,7 @@ Liste, die als Spielfeld dient, nach jedem Spielzug überprüft.
 Falls ein Sieger feststeht, soll das Programm dem Sieger gratulieren.
 </details>
 
-![](moodle-projektvorschlag.png)
+![](./moodle-projektvorschlag.png)
 
 ## Dokumentation
 
