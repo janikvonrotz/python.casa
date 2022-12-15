@@ -26,20 +26,24 @@ Auf [Moodle](https://moodle.medizintechnik-hf.ch/mod/assign/view.php?id=6716) ge
 
 Hier einige Ideen für Projekte:
 
-| Titel                                                                                                                                                            | Schwierigkeitsgrad |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------ |
-| Covid-Daten mit Python verarbeiten und als HTML-Bericht präsentieren                                                                                             |                    |
-| Datei auf Dropbox speichern                                                                                                                                      |                    |
-| Daten aus Postgres Datenbank lesen und schreiben                                                                                                                 |                    |
-| Detektion von Herzfrequenz anhand [EKG-Daten](https://github.com/janikvonrotz/python.casa/blob/main/ekg-data..csv)                                               |                    |
-| Deutscher [Wordle](https://www.nytimes.com/games/wordle/index.html)-Klon                                                                                         |                    |
-| Passwortgenerator gemäss [xkcd-Comic](https://xkcd.com/936/)                                                                                                     |                    |
-| Suche nach bestimmten Begriffen in [Log-Dateien](https://raw.githubusercontent.com/elastic/examples/master/Common%20Data%20Formats/nginx_logs/nginx_logs)        |                    |
-| Temperaturdaten ploten und Min/Max bestimmen. Daten von [https://sarneraa.huetstock.ch](https://sarneraa.huetstock.ch) können auf Anfrage bereitgestellt werden |                    |
-| Textbasiertes Hangman                                                                                                                                            |                    |
-| Tweet von Twitter-Account anzeigen lassen                                                                                                                        |                    |
-| Wetter-Informationen abrufen und als HTML-Dokument ausgeben                                                                                                      |                    |
-| Wort mit LED und Raspberry Pi als Morsecode ausgeben                                                                                                             |                    |
+| Titel                                                                                                                                                           | Schwierigkeitsgrad |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------ |
+| Covid-Daten mit Python verarbeiten und als HTML-Bericht präsentieren                                                                                            | Mittel             |
+| Datei auf Dropbox speichern                                                                                                                                     | Einfach            |
+| Daten aus Postgres Datenbank lesen und schreiben                                                                                                                | Einfach            |
+| Detektion von Herzfrequenz anhand [EKG-Daten](https://github.com/janikvonrotz/python.casa/blob/main/ekg-data.csv)                                               | Mittel             |
+| Deutscher [Wordle](https://www.nytimes.com/games/wordle/index.html)-Klon                                                                                        | Schwer             |
+| Passwortgenerator gemäss [xkcd-Comic](https://xkcd.com/936/)                                                                                                    | Schwer             |
+| Suche nach bestimmten Begriffen in [Log-Dateien](https://raw.githubusercontent.com/elastic/examples/master/Common%20Data%20Formats/nginx_logs/nginx_logs)       | Mittel             |
+| Temperaturdaten ploten und Min/Max bestimmen. Daten von [https://sarneraa.huetstock.ch](https://sarneraa.huetstock.ch) können auf Anfrage bereitgestellt werden | Einfach            |
+| Textbasiertes Hangman programmieren                                                                                                                             | Mittel             |
+| Tweet von Twitter-Account anzeigen lassen                                                                                                                       | Einfach            |
+| Wetter-Informationen abrufen und als HTML-Dokument ausgeben                                                                                                     | Einfach            |
+| Wort mit LED und Raspberry Pi als Morsecode ausgeben                                                                                                            | Einfach            |
+| Textadventure auf der Kommandozeile                                                                                                                             | Mittel             |
+| Quiz mit Daten SQLite-Datenbank                                                                                                                                 | Mittel             |
+| Währungsrechner mit grafischer Oberfläche                                                                                                                       | Mittel             |
+| TicTacToe auf Kommandozeile                                                                                                                                     | Einfach            |
 
 ## Projektvorschlag
 
