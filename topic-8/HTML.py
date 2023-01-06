@@ -11,12 +11,14 @@ with tag('html'):
         with tag('a', href='https://example.com'):
             text('Linktext')
 
-html = doc.getvalue() # HTML-Code generieren
+# HTML-Code generieren
+html = doc.getvalue()
 
+# HTML-Dokument schreiben
 with open('example.html', 'wt') as file:
     file.write(html)
 
-# Die HTML-Datei im Browser aufrufen
+# Die HTML-Dokument im Browser aufrufen
 import webbrowser
 from pathlib import Path
 webbrowser.open('file://' + str(Path('example.html').absolute()))
