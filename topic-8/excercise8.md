@@ -6,7 +6,9 @@ Aufgaben zum Thema.
 
 ### Aufgabe 8.1: Fehler abfangen
 
-### Aufgabe 8.2: Fehler Datentyp behandeln
+⭐ [Fehler abfangen](https://github.com/janikvonrotz/python.casa/blob/main/topic-8/Fehler%20abfragen.py)
+
+### Aufgabe 8.2: Datentyp-Fehler behandeln
 
 Angenommen Sie haben diese Python-Funktion.
 
@@ -24,9 +26,13 @@ print(pluszwei('3'))
 
 Bei der Ausführung erhalten Sie einen Fehler vom Typ `TypeError`. Fangen Sie diesen Fehler in ihrem Programm mithilfe von `try` and `except` ab.
 
-### Aufgabe 8.3: Datei lesen und schreiben
+⭐ [Fehler abfangen](https://github.com/janikvonrotz/python.casa/blob/main/topic-8/Datentyp-Fehler%20abfragen.py)
 
-### Aufgabe 8.4: JSON to CSV konvertieren
+### Aufgabe 8.3: Datei verarbeiten
+
+⭐ [Datei verarbeiten](https://github.com/janikvonrotz/python.casa/blob/main/topic-8/Datei%20verarbeiten.py)
+
+### Aufgabe 8.4: JSON zu CSV
 
 Sie erhalten das folgende JSON-Dokument `people.json`:
 
@@ -83,6 +89,8 @@ with open('people.csv', mode='w') as file:
         csv_writer.writerow(person.values())
 ```
 
+⭐ [JSON zu CSV](https://github.com/janikvonrotz/python.casa/blob/main/topic-8/JSON%20zu%20CSV.py)
+
 ### Aufgabe 8.5: Erste Website
 
 Erstellen Sie eine persönliche Website mit einem HTML-Dokument. Nennen Sie das Dokument `mypage.html`.
@@ -106,13 +114,17 @@ print(data)
 </html>
 ```
 
+⭐ [mypage](https://github.com/janikvonrotz/python.casa/blob/main/topic-8/mypage.html)
+
 ### Aufgabe 8.6: Dynamische Website
+
+⭐ [Dynamische Website](https://github.com/janikvonrotz/python.casa/blob/main/topic-8/Dynamische%20Website.py)
 
 ### Aufgabe 8.7: Webserver
 
 Die erstellte Website wollen wir nun publizieren. Dazu erstellen wir einen HTTP-Server. Dieser lädt unsere Website und stellt Sie für andere Computer bereit.
 
-Führen Sie das folgende Programm `Server.py` aus.
+Führen Sie das folgende Programm `Webserver.py` aus.
 
 ```python
 import http.server
@@ -142,6 +154,8 @@ Nun möchten wir das Programm anpassen. Ändern Sie den Port von `8000` auf den 
 ::: warning
 Falls Sie beim Starten des Webservers aufgrund der Portänderung einen Fehler erhalten, belassen Sie den Port bei `8000`
 :::
+
+⭐ [Webserver](https://github.com/janikvonrotz/python.casa/blob/main/topic-8/Webserver.py)
 
 ### Aufgabe 8.8: Intranet
 
