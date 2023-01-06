@@ -125,7 +125,7 @@ print(lst)
 
 Lösen Sie die [Aufgaben](excercise5.md#aufgaben) 5.1 und 5.2.
 
-⚡Aufteilung in Breakout-Rooms ⏱️ 10 Minuten
+⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 10 Minuten
 
 ---
 ### map-Funktion
@@ -297,7 +297,7 @@ print(d.keys()) # dict_keys(['Rot', 'Blau', 'Gelb'])
 
 Lösen Sie die [Aufgaben](excercise5.md#aufgaben) 5.3, 5.4 und 5.5.
 
-⚡Aufteilung in Breakout-Rooms ⏱️ 15 Minuten
+⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 15 Minuten
 
 ---
 ### Verzweigungen und Schleifen

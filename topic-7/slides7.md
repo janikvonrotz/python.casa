@@ -209,7 +209,7 @@ def Bestellen(self, anzahl):
 
 Lösen Sie die [Aufgaben](excercise7.md#aufgaben) 7.1 und 7.2.
 
-⚡Aufteilung in Breakout-Rooms ⏱️ 10 Minuten
+⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 10 Minuten
 
 ---
 
@@ -255,7 +255,7 @@ class MyClass():  
 
 Dekoratoren werden mit `@` eingeleitet und dienen als Zusatzattribute für Funktionen, Methoden oder Klassen. Sie können die Intention von Code verdeutlichen und Informationen an den Python-Interpreter bzw. -Compiler weitergeben.
 
-```
+```python
 @hello
 def name():                                                                                                 
     print("Alice")  
@@ -373,7 +373,7 @@ Beim Vererben der Klassen entsteht eine Hierarchie.
 
 Lösen Sie die [Aufgaben](excercise7.md#aufgaben) 7.3 und 7.4.
 
-⚡Aufteilung in Breakout-Rooms ⏱️ 10 Minuten
+⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 10 Minuten
 
 ---
 

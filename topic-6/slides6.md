@@ -74,7 +74,7 @@ def funktionsname(para1, para2, para3):
 ### IDE starten und einrichten
 
 🎬 Führen Sie diese Aktionen aus:
-* Neuer Ordner `Thema5` erstellen
+* Neuer Ordner `Thema6` erstellen
 * Neue Datei in Ordner `Funktion.py` erstellen
 
 ---
@@ -214,7 +214,7 @@ f1([1, 2]) # Ausgabe [1, 2]
 
 Lösen Sie die [Aufgaben](excercise6.md#aufgaben) 6.1 und 6.2.
 
-⚡Aufteilung in Breakout-Rooms ⏱️ 10 Minuten
+⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 10 Minuten
 
 ---
 
@@ -303,7 +303,7 @@ f(1, l) # Ausgabe 1 (range(0, 6),) <class 'tuple'>
 
 Lösen Sie die [Aufgaben](excercise6.md#aufgaben) 6.3 und 6.4.
 
-⚡Aufteilung in Breakout-Rooms ⏱️ 10 Minuten
+⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 10 Minuten
 
 ---
 
@@ -405,7 +405,7 @@ print(filtered) # Ausgabe [345, 36, 33]
 
 Lösen Sie die [Aufgaben](excercise6.md#aufgaben) 6.5 und 6.6.
 
-⚡Aufteilung in Breakout-Rooms ⏱️ 10 Minuten
+⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 10 Minuten
 
 ---
 
@@ -495,7 +495,7 @@ Repräsentiert eine andere Funktion/Prozess.
 
 Lösen Sie die [Aufgaben](excercise6.md#aufgaben) 6.10 und 6.11.
 
-⚡Aufteilung in Breakout-Rooms ⏱️ 10 Minuten
+⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 10 Minuten
 
 ---
 ### Review

@@ -4,9 +4,11 @@
 
 Aufgaben zum Thema.
 
-### Aufgabe 6.1: Fehler abfangen
+### Aufgabe 8.1: Fehler abfangen
 
-Angenommen Sie erhalten diese Python-Funktion.
+### Aufgabe 8.2: Fehler Datentyp behandeln
+
+Angenommen Sie haben diese Python-Funktion.
 
 ```python
 def pluszwei(zahl):
@@ -22,7 +24,9 @@ print(pluszwei('3'))
 
 Bei der Ausführung erhalten Sie einen Fehler vom Typ `TypeError`. Fangen Sie diesen Fehler in ihrem Programm mithilfe von `try` and `except` ab.
 
-### Aufgabe 6.2: JSON to CSV konvertieren
+### Aufgabe 8.3: Datei lesen und schreiben
+
+### Aufgabe 8.4: JSON to CSV konvertieren
 
 Sie erhalten das folgende JSON-Dokument `people.json`:
 
@@ -79,7 +83,7 @@ with open('people.csv', mode='w') as file:
         csv_writer.writerow(person.values())
 ```
 
-### Aufgabe 6.3: Erste Website
+### Aufgabe 8.5: Erste Website
 
 Erstellen Sie eine persönliche Website mit einem HTML-Dokument. Nennen Sie das Dokument `mypage.html`.
 
@@ -102,7 +106,9 @@ print(data)
 </html>
 ```
 
-### Aufgabe 6.4: Webserver
+### Aufgabe 8.6: Dynamische Website
+
+### Aufgabe 8.7: Webserver
 
 Die erstellte Website wollen wir nun publizieren. Dazu erstellen wir einen HTTP-Server. Dieser lädt unsere Website und stellt Sie für andere Computer bereit.
 
@@ -137,7 +143,7 @@ Nun möchten wir das Programm anpassen. Ändern Sie den Port von `8000` auf den 
 Falls Sie beim Starten des Webservers aufgrund der Portänderung einen Fehler erhalten, belassen Sie den Port bei `8000`
 :::
 
-### Aufgabe 6.5: Intranet
+### Aufgabe 8.8: Intranet
 
 Wenn ihr Computer und der ihrer Nachbaren im selben WLAN bzw. Netzwerk sind, sind die Voraussetzungen für ein Intranet gegeben.
 

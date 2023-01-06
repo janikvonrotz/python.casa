@@ -1,9 +1,10 @@
 import urllib.request
 
-url = 'https://example.com'
+# HTTP-Request ausführen
+url = 'http://example.com'
 response = urllib.request.urlopen(url)
 binary = response.read() # Download durchführen
-html = binary.decode('utf-8')
-f = open('index.html', 'wt')
-f.write(html)
-f.close()
+html = binary.decode('utf-8') # Dokument muss decodiert werden
+
+with open('index.html', 'wt') as file:
+    file.write(html)

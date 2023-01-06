@@ -1,5 +1,8 @@
+# ergebnis = 1/0
+# print(ergebnis)
+
 try:
     ergebnis = 1/0
     print(ergebnis)
 except ZeroDivisionError:
-    print("Man kann nicht durch Null teilen.")
+    print("Durch Null teilen ist nicht möglich.")

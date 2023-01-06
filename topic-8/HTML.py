@@ -1,9 +1,11 @@
 from yattag import Doc
 
-doc, tag, text = Doc().tagtext() # HTML-Funktionen abrufen
+# HTML-Funktionen abrufen
+doc, tag, text = Doc().tagtext()
 
-with tag('html'): # HTML-Dokumente mit den Elementen zusammenstellen
-    with tag('body'): # Mit with werden Funktionsaufrufe aneinander gereiht
+# HTML-Dokument mit Elementen erstellen
+with tag('html'):
+    with tag('body'):
         with tag('p', id = 'main'):
             text('Beispiel')
         with tag('a', href='https://example.com'):
