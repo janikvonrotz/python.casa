@@ -168,7 +168,7 @@ Wir möchten nun mit Python eine Datei schreiben. Ähnlich wie bei Word müssen 
 
 ```python
 try:
-    f = open('test.txt', 'wt')
+    f = open('test.txt', 'w')
     f.write('Lorem ipsum dolor sit amet, ...\n')
     f.write('Unicode äöüß✅ \n')
     f.close()
@@ -177,7 +177,7 @@ except BaseException as err:
     print('Fehler:', err)
 ```
 
-ℹ️ Der Fehlertyp `BaseException` ist die Superklasse aller Fehlertypen.
+ℹ️ Der Fehlertyp `BaseException` ist die Superklasse aller Fehlertypen. Das `w` bedeute *Write*.
 
 ---
 
@@ -189,7 +189,7 @@ Die Zeilen einer existierenden Datei können Sie auslesen.
 
 ```python
 try:
-    f = open('test.txt', 'rt')
+    f = open('test.txt')
     for line in f:
         print(line, end='')
     f.close() 
@@ -279,7 +279,7 @@ Das `with` Statement schliesst die Datei automatisch.
 
 ```python
 import json
-with open('Bücher.json', 'r') as f:
+with open('Bücher.json') as f:
     data = json.load(f)
 print(data)
 ```
@@ -323,7 +323,7 @@ Möchten Sie die Datei `Bücher.json` in einem anderen Programm, beispielsweise 
 ```python
 import csv
 
-with open('Mitarbeiter.csv', mode='w') as file:
+with open('Mitarbeiter.csv', 'w') as file:
 
 	# Um ein CSV zu schreiben, braucht es einen sogennanten Writer
     file_writer = csv.writer(file, delimiter=',', quotechar='"')
@@ -529,7 +529,7 @@ response = urllib.request.urlopen(url)
 binary = response.read() # Download durchführen
 html = binary.decode('utf-8') # Dokument muss decodiert werden
 
-with open('index.html', 'wt') as file:
+with open('index.html', 'w') as file:
     file.write(html)
 ```
 
@@ -584,7 +584,7 @@ with tag('html'):
 html = doc.getvalue()
 
 # HTML-Dokument schreiben
-with open('example.html', 'wt') as file:
+with open('example.html', 'w') as file:
     file.write(html)
 ```
 
@@ -603,7 +603,7 @@ webbrowser.open('file://' + str(Path('example.html').absolute()))
 
 ---
 
-### Aufgaben 2
+### Aufgaben 3
 
 Lösen Sie die [Aufgaben](excercise7.md#aufgaben) 8.5 und 8.6.
 

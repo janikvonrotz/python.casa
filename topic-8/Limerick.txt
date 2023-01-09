@@ -1,0 +1,6 @@
+
+Python was a language for you and for me
+It was simple and clean, but slow we agree.
+But that was ok,
+We loved it anyway.
+Until it went from version 2 to version 3.

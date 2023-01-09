@@ -10,7 +10,7 @@ class HttpRequestHandler(http.server.SimpleHTTPRequestHandler):
 # Erstelle ein Objekt anhand der obigen Klasse
 handler = HttpRequestHandler
 
-server = socketserver.TCPServer(("", 8000), handler)
+server = socketserver.TCPServer(('', 1234), handler)
 
 # Starte den Server
 server.serve_forever()

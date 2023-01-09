@@ -1,5 +1,5 @@
 import json
-with open('Bücher.json', 'r') as f:
+with open('Bücher.json') as f:
     data = json.load(f)
 print(data)
 

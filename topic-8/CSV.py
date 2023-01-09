@@ -1,6 +1,6 @@
 import csv
 
-with open('Mitarbeiter.csv', mode='w') as file:
+with open('Mitarbeiter.csv', 'w') as file:
 
 	# Um ein CSV zu schreiben, braucht es einen sogennanten Writer
     file_writer = csv.writer(file, delimiter=',', quotechar='"')

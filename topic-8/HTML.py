@@ -15,7 +15,7 @@ with tag('html'):
 html = doc.getvalue()
 
 # HTML-Dokument schreiben
-with open('example.html', 'wt') as file:
+with open('example.html', 'w') as file:
     file.write(html)
 
 # Die HTML-Dokument im Browser aufrufen
