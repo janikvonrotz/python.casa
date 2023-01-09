@@ -10,6 +10,14 @@ Anteil Gesamtnote: 15%
 
 Die Inhaltliche Abgrenzung sind die Folien, Aufgaben und Wiederholungsfragen von [T1](topic-1/README.md), [T2](topic-2/README.md) ,  [T3](topic-3/README.md), [T4](topic-4/README.md).
 
+Mögliche Fragetypen der Prüfung sind:
+
+* Ja/Nein bzw. Wahr/Falsch
+* Mehrere Antworten
+* Zuordnung
+* Code-Zeile ergänzen
+* Bild markieren und kommentieren
+
 ## Durchführung
 
 Am Ende von Lektion 5 absolvieren die Studierenden eine Papier-Prüfung unter Aufsicht des Dozierenden.
