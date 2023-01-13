@@ -100,6 +100,12 @@ Eine Vorlage für ein `.docx` kann [hier heruntergeladen](https://janikv.cloud/s
 
 Punkte in eckigen Klammern.
 
+### Kommentare / ChatGPT
+
+Die Aufgabenstellung wie Sie hier beschreiben wird, könnte mithilfe von [ChatGPT](https://chat.openai.com/chat/) gelöst werden. Das kann ChatGPT so gut, dass man nicht mit Gewissenheit sagen kann, ob die Aufgabe vom einem Studierenden oder ChatGPT gelöst wurde.\
+Es spricht grundsätzlich nichts Aufgaben mit ChatGPT zu lösen. Es wirft aber die Frage auf, was der Wert des Leistungsnachweises ist. Das Ziel des Leistungsnachweises sollte nicht sein ein gutes Ergebnis zu erzielen, sondern zu beweisen, dass man die fachliche Kompetenz, ein Problem mithilfe der Programmierung zu lösen, erlangen hat.\
+Der Umgang mit ChatGPT führt direkt zu Frage: Möchte ich lernen wie man mithilfe der Programmierung Probleme löst?
+
 ### Dokumentation
 
 Punkte: 9
