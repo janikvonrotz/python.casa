@@ -139,7 +139,7 @@ except:
 
 ### Aufgaben 1
 
-Lösen Sie die [Aufgaben](excercise7.md#aufgaben) 8.1 und 8.2.
+Lösen Sie die [Aufgaben](excercise8.md#aufgaben) 8.1 und 8.2.
 
 ⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 10 Minuten
 
@@ -375,7 +375,7 @@ with open('Mitarbeiter.csv', newline='') as file:
 
 ### Aufgaben 2
 
-Lösen Sie die [Aufgaben](excercise7.md#aufgaben) 8.3 und 8.4.
+Lösen Sie die [Aufgaben](excercise8.md#aufgaben) 8.3 und 8.4.
 
 ⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 10 Minuten
 
@@ -521,11 +521,11 @@ HTML-Dokumente könen mit Python heruntergeladen werden.
 🎬 Erstellen Sie die Datei `HTTP.py` und fügen Sie diesen Code ein:
 
 ```python
-import urllib.request
+from urllib import request
 
 # HTTP-Request ausführen
 url = 'http://example.com'
-response = urllib.request.urlopen(url)
+response = request.urlopen(url)
 binary = response.read() # Download durchführen
 html = binary.decode('utf-8') # Dokument muss decodiert werden
 
@@ -605,7 +605,7 @@ webbrowser.open('file://' + str(Path('example.html').absolute()))
 
 ### Aufgaben 3
 
-Lösen Sie die [Aufgaben](excercise7.md#aufgaben) 8.5 und 8.6.
+Lösen Sie die [Aufgaben](excercise8.md#aufgaben) 8.5 und 8.6.
 
 ⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 10 Minuten
 

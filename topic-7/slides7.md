@@ -338,16 +338,16 @@ In der Definition der Klasse kann die darüberliegende Superklasse angegeben wer
 
 ```python
 class Tier():
-    def __init__(self, name, farbe, alter):
+    def __init__(self, name, farbe, laut):
         self.rufname = name
         self.farbe   = farbe
-        self.alter   = alter
+        self.alter   = laut
 
 class Katze(Tier): # Katze ist ein Tier
-    def __init__(self, rufname, farbe, alter):
-        super().__init__(rufname, farbe, alter) # Aufruf Konstruktor von Tier
+    def __init__(self, name, farbe):
+        super().__init__(rufname, farbe, "Miau!") # Aufruf Konstruktor von Tier
 
-katze = Katze("Sammy", "orange", 3)
+katze = Katze("Sammy", "orange")
 print(katze.farbe)
 ```
 

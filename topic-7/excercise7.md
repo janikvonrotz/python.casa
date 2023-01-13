@@ -12,7 +12,7 @@ Führen Sie diese Anweisungen aus:
 	* Den Namen als `name`
 	* Die Hautfarbe als `_farbe`
 	* Den Laut des Tieres als `laut`
-* Schreiben Sie eine Methode `ausgabe` und geben Sie diesen Satz aus: `"Das {_farbe}e Tier namens {name} macht: {laut}`
+* Schreiben Sie eine Methode `ausgabe` und geben Sie diesen Satz aus: `"Das {self._farbe}e Tier namens {self.name} macht: {self.laut}"`
 
 ⭐ [Klasse Tier entwerfen](https://github.com/janikvonrotz/python.casa/blob/main/topic-7/Klasse%20Tier%20entwerfen.py)
 
