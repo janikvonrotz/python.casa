@@ -24,6 +24,8 @@ Auf [Moodle](https://moodle.medizintechnik-hf.ch/mod/assign/view.php?id=6716) ge
 
 ## Themenwahl
 
+In der Tehmenwahl sind die Studierenden frei. Das ausgewählte Thema soll für den Studierenden eine Herausforderung sein und den individiuellen Fähigkeiten gerecht werden.
+
 Hier einige Ideen für Projekte:
 
 | Titel                                                                                                                                                           | Schwierigkeitsgrad |
