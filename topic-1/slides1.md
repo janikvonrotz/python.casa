@@ -243,6 +243,15 @@ Diese wird benötigt damit Visual Studio Code die Syntax von Python versteht.
 ![](../visual-studio-code-python-extension.png)
 
 ---
+
+### Python Interpreter bestimmen
+
+Stellen Sie sicher, dass VSCode den Python-Interpreter erkannt hat (siehe blaube Leiste).
+
+![](../vscode-python.png)
+
+---
+
 ### Skript öffnen
 
 🎬 Folgende Aktionen ausführen:
@@ -257,6 +266,7 @@ Output auf Windows:
 ![](../visual-studio-code-terminal-powershell.png)
 
 ---
+
 ### Was läuft hier?
 
 * Quellcode wird direkt vom Interpreter (Python) ausgeführt
@@ -264,6 +274,19 @@ Output auf Windows:
 * Program wird als C-Code ausgeführt
 
 ---
+
+### Wichtige Tastaturkürzel
+
+Mit der Tastatur ist man immer schneller.
+
+<kbd>ctrl</kbd>+ <kbd>shift</kbd> + <kbd>p</kbd>: VSCode-Befehle aufrufen
+
+<kbd>ctrl</kbd> + <kbd>p</kbd>: Datei anzeigen
+
+<kbd>ctrl</kbd> + <kbd>,</kbd>: Einstellungen öffnen
+
+---
+
 ### Was passiert beim kompilieren?
 
 ![](../python-datei-kompilieren.png)
@@ -285,6 +308,7 @@ a=1; b=2; c=3
 ```
 
 ---
+
 ### Blockelemente
 
 Sprachelemente über mehrere Zeilen.
@@ -300,6 +324,7 @@ else:
 Anweisungen müssen eingeruckt sein.
 
 ---
+
 ### Input
 
 Python kann mit `input` Eingaben entgegennehmen.
@@ -310,6 +335,7 @@ print('Ihr Name lautet:', name)
 ```
 
 ---
+
 ### Kommentare
 
 Kommentieren direkt im Code.
@@ -320,6 +346,7 @@ print('abc')  # noch ein Kommentar
 ```
 
 ---
+
 ### Aufgaben
 
 Lösen Sie die [Aufgaben](excercise1.md#aufgaben) und besprechen Sie die Wiederholungsfragen.
@@ -327,6 +354,7 @@ Lösen Sie die [Aufgaben](excercise1.md#aufgaben) und besprechen Sie die Wiederh
 ⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 10 Minuten
 
 ---
+
 ### Review
 
 🎯 Wurden die [Lernziele](#lernziele) erreicht?
@@ -334,6 +362,7 @@ Lösen Sie die [Aufgaben](excercise1.md#aufgaben) und besprechen Sie die Wiederh
 ⚡ Feedback zu den Zielen einholen.
 
 ---
+
 ### Quellen
 
 [^1]: <https://de.statista.com/infografik/16544/anteile-der-populaersten-programmiersprachen-weltweit/>

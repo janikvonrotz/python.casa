@@ -9,13 +9,32 @@
 
 ---
 
+### Lernziele
+
+Ich kann ...
+* die verfügbaren Python-Module auflisten und importieren.
+* ein eigenes Python-Modul entwickeln.
+* mit pip Python-Pakete installieren und verwenden.
+
+---
+
+### Python-Bibliothek
+
+Auch für Programm-Code gibt es Bibliotheken.
+
+![](../Pasted%20image%2020230120171750.png)
+
+---
+
 ### Python-Module
 
- Die `import` Anweisung importiert Code aus der Python-Bibliothek.
+Die `import` Anweisung importiert Code aus der Python-Bibliothek.
 
- Sie importieren damit Python-Module.
+Sie importieren damit Python-Module.
 
- Dieser modulare Ansatz von Python schauen wir uns genauer an.
+> Modul == Buch
+
+Dieser modulare Ansatz von Python schauen wir uns genauer an.
 
 ---
 
@@ -25,35 +44,17 @@ Welche Python-Module sind vorhanden?
 
 🎬 In der Python-Konsole geben Sie den Befehl `help('modules')` ein und erhalten so eine Liste der verfügbaren Module.
 
-🎬 Details zu den Modulen erhalten Sie beispielsweise mit `help('glob')`.
-
----
-
-### VSCode Python-Erweiterung installieren
-
-Visual Studio Code (VSCode) unterstützt verschiedene Programmiersprachen. Damit Python verwendet werden kann, muss eine Erweiterung installiert werden.
-
-🎬 Installieren Sie die [Python extension for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=ms-python.python).
-
-Je nach dem müssen Sie noch [Python](https://www.python.org/downloads/) installieren.
+🎬 Details zu den Modulen erhalten Sie beispielsweise mit `help('os')`.
 
 ---
 
 ### Projektordner erstellen
 
-VSCode stellt nicht nur einzelne Dateien dar, sondern ganze Verzeichnisse.
+Im Umgang mit Modulen muss die Ordner-Struktur stimmen.
 
 🎬 Führen Sie diese Aktionen aus:
-* Neuer Ordner `Thema7` erstellen
+* Neuer Ordner `Thema9` erstellen
 * Ordner mit VSCode öffnen
-
----
-
-### Ordner mit VSCode öffnen
-
-Wenn Sie VSCode starten, können Sie die Aktion *Open Folder...* anwählen.
-
-![](../vscode-start.png)
 
 ---
 
@@ -70,50 +71,17 @@ In VSCode sollte das so aussehen:
 
 ![](../vscode-hello.png)
 
-
 ---
 
-### Python Interpreter bestimmen
+### Code auslagern
 
-Stellen Sie sicher, dass VSCode den Python-Interpreter erkannt hat (siehe blaube Leiste).
+Wir möchten nun ein Teil des Code in ein Modul namens `lib` abspalten.
 
-![](../vscode-python.png)
-
----
-
-### Python-Code ausführen
-
-🎬 Führen Sie das Skript `Hello.py` mit dem dem *Run*-Knopf oben rechts aus.
-
-![](../vscode-execute.png)
-
-Der Output des Skript wird im *Terminal* angezeigt.
-
----
-
-### Linx-Probleme beheben
-
-Falls Sie ein Linux-Computer haben, kann es gut sein, dass Sie eine andere Shell verwenden müssen.
-
-![](../vscode-linux-shell.png)
-
----
-
-### Wichtige Tastaturkürzel
-
-Mit der Tastatur ist man immer schneller.
-
-<kbd>ctrl</kbd>+ <kbd>shift</kbd> + <kbd>p</kbd>: VSCode-Befehle aufrufen
-
-<kbd>ctrl</kbd> + <kbd>p</kbd>: Datei anzeigen
-
-<kbd>ctrl</kbd> + <kbd>,</kbd>: Einstellungen öffnen
+Dieses Modul importieren wir in unser Hauptprogramm.
 
 ---
 
 ### Modul mit Funktion erstellen
-
-Nun erstellen wir unser erstes Python-Modul.
 
 🎬 Erzeugen Sie die Datei `lib.py` im geöffneten Ordner mit diesem Code:
 
@@ -131,8 +99,6 @@ def world():
 ```python
 import lib
 
-msg = "Hello "
-print(msg)
 lib.world()
 ```
 
@@ -219,6 +185,14 @@ Mit dem modularen Ansatz können komplexe Projektstrukturen erzeugt werden.
 
 ---
 
+### Aufgaben 1
+
+Lösen Sie die [Aufgaben](excercise9.md#aufgaben) 9.1 und 9.2.
+
+⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 10 Minuten
+
+---
+
 ### Python-Pakete
 
 Bis anhin haben wir nur vorhandene Python-Pakete verwenden. Zusätzliche Python-Pakete können vom Internet mit dem Python-Packet-Manager `pip` installiert werden.
@@ -270,12 +244,16 @@ Wo Pakete von pip instaliert werden, kann je nach Entwicklungsumgebung unterschi
 
 ---
 
-### Aufgaben 1
+### Aufgaben 2
 
-Lösen Sie die ersten zwei Aufgaben.
+Lösen Sie die [Aufgaben](excercise9.md#aufgaben) 9.3 und 9.4.
 
 ⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 10 Minuten
 
-Ziel: Aufgabe 7.1 und 7.2 gelöst.
-
 ---
+
+### Review
+
+🎯 Wurden die [Lernziele](#lernziele) erreicht?
+
+⚡ Feedback zu den Zielen einholen.

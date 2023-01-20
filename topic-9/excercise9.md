@@ -4,7 +4,9 @@
 
 Aufgaben zum Thema.
 
-### Aufgabe 7.1: Programm aufteilen
+### Aufgabe 9.1:
+
+### Aufgabe 9.2: Programm aufteilen
 
 Wir erinnern uns an das Kaffeemaschinen-Programm bzw. deren Klasse?
 
@@ -33,7 +35,9 @@ Zerlegen Sie das Programm in  ein `Kaffeemaschine.py` und ein `main.py`. Erstere
 
 Führen Sie das Programm `main.py` ohne Fehler aus.
 
-## Aufgabe 7.2: Python-Paket verwenden
+⭐ [Programm aufteilen](https://github.com/janikvonrotz/python.casa/blob/main/topic-9/Programm%20aufteilen)
+
+## Aufgabe 7.3: Python-Paket verwenden
 
 Sie haben ein Programm `camel.py` und eine `requirements.txt` Datei erhalten.
 
@@ -58,3 +62,5 @@ Die *requirements* Datei enhählt eine Liste der pip-Pakete, die Sie zusätzlich
 Erstellen Sie einen Ordner mit den Dateien und führen Sie auf dem VSCode-Terminal den Befehl `pip install -r requirements.txt` aus. Anschliessend führen Sie das Programm aus.
 
 Was macht die Methode `hump` mit dem Text-Parameter?
+
+⭐ [Python-Paket verwenden](https://github.com/janikvonrotz/python.casa/blob/main/topic-9/Python-Paket%20verwenden)

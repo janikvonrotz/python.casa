@@ -17,7 +17,7 @@ Ich kann ...
 * Fehler abfangen und behandeln.
 * Text-Dateien schreiben, lesen und verarbeiten.
 * HTTP-Requests mit Python senden und empfangen.
-* HTML-Dokumente lesen und schreiben
+* HTML-Dokumente lesen und schreiben.
 
 ---
 
