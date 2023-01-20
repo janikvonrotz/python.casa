@@ -4,7 +4,22 @@
 
 Aufgaben zum Thema.
 
-### Aufgabe 9.1:
+### Aufgabe 9.1:  Funktion importieren
+
+Erstellen Sie eine Datei `quersumme.py` mit diesem Code:
+
+```python
+def quersumme(zahl):
+    summe = 0
+    szahl = str(zahl)
+    for s in szahl:
+        summe += int(s)
+    return summe
+```
+
+Erstellen Sie eine zweite Datei `main.py`, importieren Sie die Funktion und berechnen Sie die Quersumme von `9192`.
+
+⭐ [Funktion importieren](https://github.com/janikvonrotz/python.casa/blob/main/topic-9/Funktion%20importieren)
 
 ### Aufgabe 9.2: Programm aufteilen
 

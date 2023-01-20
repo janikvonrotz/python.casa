@@ -22,7 +22,7 @@ Ich kann ...
 
 Auch für Programm-Code gibt es Bibliotheken.
 
-![](../Pasted%20image%2020230120171750.png)
+![](../library.png)
 
 ---
 
@@ -103,6 +103,20 @@ lib.world()
 ```
 
 ℹ️ Sie haben die Funktion `world` aus dem Modul `lib` geladen.
+
+---
+
+### Funktion importieren
+
+Sie können auch nur eine Funktion aus dem Modul importieren.
+
+🎬 Aktualisieren Sie `Hello.py` mit diesem Inhalt und führen Sie das Skript aus.
+
+```python
+from lib import world
+
+world()
+```
 
 ---
 
