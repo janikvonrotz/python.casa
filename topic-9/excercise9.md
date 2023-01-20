@@ -57,7 +57,12 @@ Führen Sie das Programm `main.py` ohne Fehler aus.
 Installieren Sie das Python-Paket `emoji` und stellen Sie sicher, dass Sie das folgende Programm ausführen können:
 
 ```python
+import emoji
+result = emoji.emojize('Python is :thumbs_up:')
+print(result)
 
+result = emoji.demojize('Python is 👍')
+print(result)
 ```
 
 ⭐ [Python-Paket installieren](https://github.com/janikvonrotz/python.casa/blob/main/topic-9/Python-Paket%20installieren.py)

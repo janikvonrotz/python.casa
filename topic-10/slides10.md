@@ -9,21 +9,12 @@
 
 ---
 
-### Program
+### Lernziele
 
-- Unterricht durchführen
-- Besprechen Wissensprüfung / Feedback
-- Rückmeldung Projektvorschläge
-
----
-
-### Pip Manager installieren
-
-Mit ver VSCode-Erweiterung *Pip Manager* können Sie *pip* Pakete verwalten.
-
-🎬 Installieren Sie die Erweiterung *Pip Manager* mit VSCode:
-
-![vscode-pip](../vscode-pip.gif)
+Ich kann ...
+* die verfügbaren Python-Module auflisten und importieren.
+* ein eigenes Python-Modul entwickeln.
+* mit pip Python-Pakete installieren und verwenden.
 
 ---
 
@@ -41,7 +32,6 @@ Wie man Text-Daten liest und speichert, wissen wir. Im Umgang mit grossen Datenm
 Daten in einer Datenbank an einem Ort speichern.
 
 ![](../data-central.png)
-
 
 ---
 
@@ -134,7 +124,7 @@ SQLite wird über das Modul `sqlite3` direkt in Python eingebunden. Es bietet st
 ### VSCode vorbereiten
 
 🎬 Führen Sie diese Aktionen aus:
-* Neuer Ordner `Thema7.5` erstellen
+* Neuer Ordner `Thema10` erstellen
 * Ordner mit VSCode öffnen
 * Datei `lager.py` anlegen
 
@@ -345,25 +335,17 @@ Wer mehr zu SQL wissen wollt, besucht das [SQL Tutorial](https://www.w3schools.c
 
 ### Aufgaben 1
 
-Lösen Sie die ersten zwei Aufgaben.
+Lösen Sie die [Aufgaben](excercise10.md#aufgaben) 10.1 und 10.2.
 
 ⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 10 Minuten
 
-Ziel: Aufgabe 7.5.1 und 7.5.2 gelöst.
-
 ---
 
-### Ausblick
+### Review
 
-* Bioinformatik mit Python
-* Experte eingeladen 🙏 Alle anwesend
+🎯 Wurden die [Lernziele](#lernziele) erreicht?
 
----
-
-### Restliche Zeit
-
-* Arbeit an Leistungsnachweis
-* Fragen zur Prüfung klären
+⚡ Feedback zu den Zielen einholen.
 
 ---
 

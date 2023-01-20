@@ -6,7 +6,7 @@ Aufgaben zum Thema.
 
 Danke an Hari Thavachchelvam für die Idee zur Aufgabenstellung. 
 
-### Aufgabe 7.5.1: Datenbank auslesen und sortieren
+### Aufgabe 10.1: Datenbank auslesen und sortieren
 
 Laden Sie als erstes die Datei [`quiz.db`](https://raw.githubusercontent.com/janikvonrotz/python.casa/main/topic-7-5/quiz.db) herunter und speichern Sie es in einem Ordner. Erstellen Sie die Datei `quiz.py` im selben Ordner.
 
@@ -39,7 +39,7 @@ for datensatz in cursor:
 connection.close()
 ```
 
-### Aufgabe 7.5.2: Abfrage mit Input
+### Aufgabe 10.2: Abfrage mit Input
 
 Mit dem `input` Befehl können wir nach einer bestimmten Frage-ID und Antwort-Nummer fragen. Erweitern Sie das Skript aus der vorhergehenden Aufgabe mit dem Befehl.
 
