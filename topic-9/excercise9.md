@@ -62,7 +62,7 @@ Installieren Sie das Python-Paket `emoji` und stellen Sie sicher, dass Sie das f
 
 ⭐ [Python-Paket installieren](https://github.com/janikvonrotz/python.casa/blob/main/topic-9/Python-Paket%20installieren.py)
 
-### Aufgabe 7.4: Python-Paket verwenden
+### Aufgabe 9.4: Python-Paket verwenden
 
 Sie haben ein Programm `camel.py` und eine `requirements.txt` Datei erhalten.
 
