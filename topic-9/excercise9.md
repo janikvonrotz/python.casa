@@ -52,7 +52,17 @@ Führen Sie das Programm `main.py` ohne Fehler aus.
 
 ⭐ [Programm aufteilen](https://github.com/janikvonrotz/python.casa/blob/main/topic-9/Programm%20aufteilen)
 
-## Aufgabe 7.3: Python-Paket verwenden
+### Aufgabe 9.3: Pyhton-Paket installieren
+
+Installieren Sie das Python-Paket `emoji` und stellen Sie sicher, dass Sie das folgende Programm ausführen können:
+
+```python
+
+```
+
+⭐ [Python-Paket installieren](https://github.com/janikvonrotz/python.casa/blob/main/topic-9/Python-Paket%20installieren.py)
+
+### Aufgabe 7.4: Python-Paket verwenden
 
 Sie haben ein Programm `camel.py` und eine `requirements.txt` Datei erhalten.
 

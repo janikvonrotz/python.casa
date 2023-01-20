@@ -237,7 +237,7 @@ Wir möchten das Python-Paket [`cowsay`](https://pypi.org/project/cowsay/) mit d
 
 ### Python-Paket importieren
 
-🎬 Erweitern Sie `main.py` mit:
+🎬 Erstellen Sie eine Datei `pip.py` mit:
 
 ```python
 import cowsay
@@ -255,6 +255,15 @@ Und führen Sie das Programm aus.
 Wo Pakete von pip instaliert werden, kann je nach Entwicklungsumgebung unterschiedlich sein. Mit dem Befehl `pip show cowsay` zeigt pip wo genau das Paket installiert wurde.
 
 ![](../pip-location.png)
+
+---
+
+### Python-Pakete suchen
+
+Auf dem Python-Package-Index findet ihr alle möglichen Python-Pakete: <https://pypi.org/>
+
+🎬 Suchen Sie auf der pypi-Website nach `art`. Installieren Sie das Paket,  importieren Sie es und wenden Sie Befehle gemäss der Dokumentation an.
+<!-- https://pypi.org/project/freegames/ -->
 
 ---
 
