@@ -33,7 +33,7 @@ class Kaffeemaschine:
     
     def Zustand(self):
         print(f"Ich bin eine {self.marke} Maschine")
-        print(f"Es sind noch {self.anzahl} Kaffee(s) verfügbar")
+        print(f"Es hat noch {self.anzahl} Kaffee verfügbar")
     
     def Bestellen(self, anzahl):
         self.anzahl -= anzahl

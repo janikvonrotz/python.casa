@@ -171,7 +171,7 @@ def world():
 	return 'World!'
 ```
 
-**paket/__init__.py**
+**paket/\_\_init\_\_.py**
 
 Datei leer lassen.
 

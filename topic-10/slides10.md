@@ -12,9 +12,9 @@
 ### Lernziele
 
 Ich kann ...
-* die verfügbaren Python-Module auflisten und importieren.
-* ein eigenes Python-Modul entwickeln.
-* mit pip Python-Pakete installieren und verwenden.
+* den Begriff Datenbank und relationales Datenbankmanagementsystem erklären.
+* mit Python eine SQLite-Datenbankdatei erstellen.
+* auf einer SQLite-Datenbank die CRUD-Operationen ausführen .
 
 ---
 
