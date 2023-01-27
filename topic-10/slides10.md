@@ -219,6 +219,8 @@ cursor.execute(sql)
 connection.commit()
 ```
 
+⭐ [lager.py](https://github.com/janikvonrotz/python.casa/blob/main/topic-10/lager.py)
+
 ---
 
 ### Daten abfragen
@@ -311,6 +313,8 @@ connection.commit()
 # SQL-Abfrage
 sql = "SELECT * FROM lager"
 ```
+
+⭐ [abfrage.py](https://github.com/janikvonrotz/python.casa/blob/main/topic-10/abfrage.py)
 
 ---
 

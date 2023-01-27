@@ -67,7 +67,7 @@ sql = "SELECT * FROM questions WHERE questionID = " + frage
         print("\nDie Antwort ist falsch!\n")
 ```
 
-⭐ [Abfrage mit Input](https://github.com/janikvonrotz/python.casa/blob/main/topic-10)
+⭐ [Abfrage mit Input](https://github.com/janikvonrotz/python.casa/blob/main/topic-10/Abfrage%20mit%20Input.py)
 
 **Zusatzaufgabe**
 
