@@ -39,7 +39,7 @@ for datensatz in cursor:
 connection.close()
 ```
 
-⭐ [Datenbank auslesen und sortieren](https://github.com/janikvonrotz/python.casa/blob/main/topic-10)
+⭐ [Datenbank auslesen und sortieren](https://github.com/janikvonrotz/python.casa/blob/main/topic-10/Datenbank%20auslesen%20und%20sortieren.py)
 
 ### Aufgabe 10.2: Abfrage mit Input
 
@@ -66,6 +66,8 @@ sql = "SELECT * FROM questions WHERE questionID = " + frage
     else:
         print("\nDie Antwort ist falsch!\n")
 ```
+
+⭐ [Abfrage mit Input](https://github.com/janikvonrotz/python.casa/blob/main/topic-10)
 
 **Zusatzaufgabe**
 
