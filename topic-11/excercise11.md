@@ -90,6 +90,35 @@ change_button.grid(row=4, column=4, pady=0, padx=0)
 exit_button.grid(row=5, column=4, pady=0, padx=10)
 ```
 
+Führen Sie das Programm aus und testen Sie es mit verschiedenen Eingaben.
+
 ⭐ [Eingabefelder erstellen.py](https://github.com/janikvonrotz/python.casa/blob/main/topic-11/Eingabefelder%20erstellen.py)
 
-### Aufabe 11.4: Messagebox anzeigen
+### Aufabe 11.4: Fehler in Messagebox
+
+Verwenden Sie die Lösung aus Aufgabe 11.3 als neuer Code. Vielleicht haben Sie es festgestellt, wenn die Eingabefelder leer sind, stürtzt das Programm ab. Das möchten wir nun verbessern.
+
+Wir erinnern uns an die `try` und `except` Statements und möchten nun die Fehlermeldung in einer Messagebox ausgeben.
+
+Importieren Sie dazu die Messagebox:
+
+```python
+from tkinter import messagebox
+```
+
+Anschliessend passen Sie die Methode folgendermassen an:
+
+```python
+# Funktion für Button
+def button_action():
+    try:
+        x = float(zahl1.get())
+        y = float(zahl2.get())
+        label2.config(text=f'= {x+y}')
+    except BaseException as error:
+        messagebox.showerror(message=error, title='Error')
+```
+
+Führen Sie das Programm aus und machen Sie ungültige Eingaben.
+
+![](../tkinter-error.png)
