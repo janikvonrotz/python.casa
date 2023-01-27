@@ -21,10 +21,37 @@ def button_action(x=1, y=2):
 
 Führen Sie das Programm aus.
 
-⭐ [Fenster anpassen.py](https://github.com/janikvonrotz/python.casa/blob/main/topic-11/gui.py)
+⭐ [Fenster anpassen.py](https://github.com/janikvonrotz/python.casa/blob/main/topic-11/Fenster%20anpassen.py)
 
-### Aufgabe 11.2: Fenster mit Eingabe
+### Aufgabe 11.2: Fester fixieren
 
-### Aufgabe 11.3: Menü
+Verwenden Sie den Code oder Lösung aus der Aufgabe 1.1. In dieser Aufgabe möchten Sie die Grösse des Fenster ändern und die Breite der der Zellen im Koordinatensystem festlegen. Dazu verwenden Sie diesen Code:
 
-### Aufabe 11.4: Messagebox
+```python
+fenster.geometry('300x200')
+rows = 9
+columns = 9
+for i in range(rows):
+    fenster.rowconfigure(index=i,weight=1)
+for i in range(columns):
+    fenster.columnconfigure(index=i, weight=1)
+```
+
+Fügen Sie diesen Code nach Zeile 7 ein.
+
+Damit die Elemente in der Mitte platziert werden, verwenden Sie diesen Code:
+
+```python
+# Elemente mit Grid laden
+anweisungs_label.grid(row=1, column=4, pady=10, padx=10)
+change_button.grid(row=2, column=4, pady=10, padx=10)
+exit_button.grid(row=3, column=4, pady=10, padx=10)
+```
+
+Führen Sie das Programm aus.
+
+⭐ [Fenster fixieren.py](https://github.com/janikvonrotz/python.casa/blob/main/topic-11/Fenster%20fixieren.py)
+
+### Aufgabe 11.3: Eingabefelder erstellen
+
+### Aufabe 11.4: Messagebox anzeigen

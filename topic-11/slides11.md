@@ -161,19 +161,113 @@ Lösen Sie die [Aufgaben](excercise10.md#aufgaben) 11.1 und 11.2.
 
 ---
 
-### Eingabefeld
+### Eingabe in GUI
+
+Mit `input` kann der Benutzer eine Eingabe machen. Dasselbe funktioniert auch auf einem GUI mit einem Eingabe feld.
+
+🎬 Erstellen Sie eine neue Datei `eingabe.py` mit diesem Inhalt:
+
+```python
+from tkinter import *
+fenster = Tk()
+fenster.title('Eingabe')
+
+def button_action():
+    text = eingabe.get()
+    ausgabe.config(text=text)
+
+eingabe = Entry(fenster, width=20)
+button = Button(fenster, text='Eintragen', command=button_action)
+ausgabe = Label(fenster, text='')
+
+eingabe.pack(padx=10, pady=10)
+button.pack(padx=10, pady=10)
+ausgabe.pack(padx=10, pady=10)
+
+fenster.mainloop()
+```
 
 ---
 
-### Kalkulation
+### Eingabefeld
+
+🎬 Führen Sie das Programm aus, machen Sie eine Eingabe und drücken Sie auf *Eintragen*.
+
+![](../tkinter-eingabe.png)
+
+Mit der `get`-Methode kann der Text aus dem Eingabefeld ausgelesen werden und mit der `config`-Methode können die Elemente angepasst werden.
 
 ---
 
 ### Menü hinzufügen
 
+Sie können "ganz einfach" eine Menüleiste dem Fenster hinzufügen.
+
+🎬 Erstellen Sie eine neue Datei `menü.py` mit diesem Inhalt:
+
+```python
+from tkinter import *
+fenster = Tk()
+fenster.title('Menü')
+
+# Menüleiste erstellen 
+menuleiste = Menu(fenster)
+# Menüeintrag erstellen 
+datei_menu = Menu(menuleiste, tearoff=0)
+# Menüaktion hinzufügen
+datei_menu.add_command(label='Schliessend', command=fenster.quit)
+# Menüeintrag an Menüleiste übertragen
+menuleiste.add_cascade(label='Datei', menu=datei_menu)
+# Menüleiste in Fenster laden
+fenster.config(menu=menuleiste)          
+
+label = Label(fenster, text='Klick auf "Datei > Schliessen".')
+label.pack(padx=30, pady=30)
+
+fenster.mainloop()
+```
+
+---
+
+### Fenster mit Menü anzeigen
+
+🎬 Führen Sie das Programm und die angezeigte Anweisung aus.
+
+![](../tkinter-menu.png)
+
 ---
 
 ### Messagebox hinzufügen
+
+Bei einem Fehler können Sie eine Nachricht in einer Messagebox ausgeben.
+
+🎬 Erstellen Sie eine neue Datei `messagebox.py` mit diesem Inhalt:
+
+```python
+from tkinter import *
+from tkinter import messagebox
+fenster = Tk()
+fenster.title('Messagebox')
+
+def ping():
+	nachricht = """
+    Pong
+    """
+	messagebox.showinfo(message=nachricht, title='Infos')
+
+button = Button(fenster, text='Ping', command=ping)
+button.pack(padx=30, pady=30)
+
+fenster.mainloop()
+```
+
+Damit die Messagebox im Programm verfügbar ist muss Sie explizit mit `from tkinter import messagebox` importiert werden.
+
+### Messagebox anzeigen.
+
+🎬 Führen Sie das Programm und klicken Sie auf den Button.
+
+![](../tkinter-dialog.png)
 
 ---
 
