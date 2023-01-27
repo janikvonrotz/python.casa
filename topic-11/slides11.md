@@ -141,7 +141,15 @@ change_button.grid(row=2, column=1, pady=10, padx=10)
 exit_button.grid(row=3, column=1, pady=10, padx=10)
 ```
 
-⭐ [gui.py](https://github.com/janikvonrotz/python.casa/blob/main/topic-10/gui.py)
+⭐ [gui.py](https://github.com/janikvonrotz/python.casa/blob/main/topic-11/gui.py)
+
+---
+
+### Elemente mit Grid anzeigen
+
+🎬 Führen Sie das Programm wieder aus.
+
+![](../tkinter-grid.png)
 
 ---
 

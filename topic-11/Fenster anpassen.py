@@ -4,16 +4,16 @@ from tkinter import *
 fenster = Tk()
 
 # Den Fenstertitle festlegen
-fenster.title('Nur ein Fenster')
+fenster.title('Kalkulator')
 
 # Funktion für Button
-def button_action():
-    anweisungs_label.config(text='Sie haben auf "Ändern" geklickt.')
+def button_action(x=1, y=2):
+	anweisungs_label.config(text=f'Sie Summe von {x} und {y} ist {x+y}.')
 
 # Button und Labels erstellen
-change_button = Button(fenster, text='Ändern', command=button_action)
+change_button = Button(fenster, text='Berechnen', command=button_action)
 exit_button = Button(fenster, text='Beenden', command=fenster.quit)
-anweisungs_label = Label(fenster, text='Klicken Sie auf Ändern')
+anweisungs_label = Label(fenster, text='Was ergibt 1 + 2?')
 
 # Elemente in Reihenfolge laden
 # anweisungs_label.pack()
