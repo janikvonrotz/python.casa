@@ -23,7 +23,7 @@ Führen Sie das Programm aus.
 
 ⭐ [Fenster anpassen.py](https://github.com/janikvonrotz/python.casa/blob/main/topic-11/Fenster%20anpassen.py)
 
-### Aufgabe 11.2: Fester fixieren
+### Aufgabe 11.2: Fenster fixieren
 
 Verwenden Sie den Code oder Lösung aus der Aufgabe 1.1. In dieser Aufgabe möchten Sie die Grösse des Fenster ändern und die Breite der der Zellen im Koordinatensystem festlegen. Dazu verwenden Sie diesen Code:
 
@@ -122,3 +122,5 @@ def button_action():
 Führen Sie das Programm aus und machen Sie ungültige Eingaben.
 
 ![](../tkinter-error.png)
+
+⭐ [Fehler in Messageboxn.py](https://github.com/janikvonrotz/python.casa/blob/main/topic-11/Fehler%20in%20Messagebox.py)
