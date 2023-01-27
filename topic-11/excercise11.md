@@ -54,4 +54,42 @@ Führen Sie das Programm aus.
 
 ### Aufgabe 11.3: Eingabefelder erstellen
 
+Verwenden Sie den Code von Aufgabe 11.2 und ersetzen Sie Teile aus dem Code mit den folgenden Teilen.
+
+Die Funktion berechnet die Summe aus Eingabefelder:
+
+```python
+# Funktion für Button
+def button_action():
+    x = float(zahl1.get())
+    y = float(zahl2.get())
+    label2.config(text=f'= {x+y}')
+```
+
+Die Elemente bestehen aus diesen Definitionen:
+
+```python
+# Button und Labels erstellen
+zahl1 = Entry(fenster, width=20)
+label1 = Label(fenster, text='+')
+zahl2 = Entry(fenster, width=20)
+label2 = Label(fenster, text='= ?')
+change_button = Button(fenster, text='Berechnen', command=button_action)
+exit_button = Button(fenster, text='Beenden', command=fenster.quit)
+```
+
+Die Positionierung wird neu gemacht:
+
+```python
+# Elemente mit Grid laden
+zahl1.grid(row=0, column=4, pady=0, padx=10)
+label1.grid(row=1, column=4, pady=0, padx=0)
+zahl2.grid(row=2, column=4, pady=0, padx=10)
+label2.grid(row=3, column=4, pady=0, padx=0)
+change_button.grid(row=4, column=4, pady=0, padx=0)
+exit_button.grid(row=5, column=4, pady=0, padx=10)
+```
+
+⭐ [Eingabefelder erstellen.py](https://github.com/janikvonrotz/python.casa/blob/main/topic-11/Eingabefelder%20erstellen.py)
+
 ### Aufabe 11.4: Messagebox anzeigen
