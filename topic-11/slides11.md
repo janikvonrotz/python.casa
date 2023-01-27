@@ -155,7 +155,7 @@ exit_button.grid(row=3, column=1, pady=10, padx=10)
 
 ### Aufgaben 1
 
-Lösen Sie die [Aufgaben](excercise10.md#aufgaben) 11.1 und 11.2.
+Lösen Sie die [Aufgaben](excercise11.md#aufgaben) 11.1 und 11.2.
 
 ⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 10 Minuten
 
@@ -273,7 +273,7 @@ Damit die Messagebox im Programm verfügbar ist muss Sie explizit mit `from tkin
 
 ### Aufgaben 2
 
-Lösen Sie die [Aufgaben](excercise10.md#aufgaben) 11.3 und 11.4.
+Lösen Sie die [Aufgaben](excercise11.md#aufgaben) 11.3 und 11.4.
 
 ⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 10 Minuten
 
