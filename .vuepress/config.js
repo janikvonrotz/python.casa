@@ -26,9 +26,10 @@ module.exports = {
                     { text: 'Thema 8 - Ein- und Ausgabe', link: '/topic-8/' },
                     { text: 'Thema 9 - Module und Import', link: '/topic-9/' },
                     { text: 'Thema 10 - Datenbanken', link: '/topic-10/' },
-                    { text: 'Thema 11 - Jupiter-Notebooks, SciPy und Matplotlib', link: '/topic-11/' },
+                    { text: 'Thema 11 - Grafische Benutzeroberfläche', link: '/topic-11/' },
                     { text: 'Thema 12 - Webapplikation mit Python Flask', link: '/topic-12/' },
                     { text: 'Thema 13 - Versionskontrolle mit Git', link: '/topic-13/' },
+                    { text: 'Thema 14 - Jupiter-Notebooks, SciPy und Matplotlib', link: '/topic-14/' },
                 ]
             }
         ],
@@ -58,9 +59,10 @@ module.exports = {
                     children: [
                         { text: 'Thema 9 - Module und Import', link: '/topic-9/', collapsible: true, children: ['slides9.md', 'excercise9.md'], },
                         { text: 'Thema 10 - Datenbanken', link: '/topic-10/', collapsible: true, children: ['slides10.md', 'excercise10.md'], },
-                        { text: 'Thema 11 - Jupiter-Notebooks, SciPy und Matplotlib', link: '/topic-11/', collapsible: true, children: ['slides11.md', 'excercise11.md'], },
+                        { text: 'Thema 11 - Grafische Benutzeroberfläche', link: '/topic-11/', collapsible: true, children: ['slides11.md', 'excercise11.md'], },
                         { text: 'Thema 12 - Webapplikation mit Python Flask', link: '/topic-12/', collapsible: true, children: ['slides12.md', 'excercise12.md'], },
                         { text: 'Thema 13 - Versionskontrolle mit Git', link: '/topic-13/', collapsible: true, children: ['slides13.md', 'excercise13.md'], },
+                        { text: 'Thema 14 - Jupiter-Notebooks, SciPy und Matplotlib', link: '/topic-14/', collapsible: true, children: ['slides14.md', 'excercise14.md'], },
                     ]
                 },
                 {

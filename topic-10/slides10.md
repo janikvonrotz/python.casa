@@ -14,7 +14,7 @@
 Ich kann ...
 * den Begriff Datenbank und relationales Datenbankmanagementsystem erklären.
 * mit Python eine SQLite-Datenbankdatei erstellen.
-* auf einer SQLite-Datenbank die CRUD-Operationen ausführen .
+* auf einer SQLite-Datenbank die CRUD-Operationen ausführen.
 
 ---
 
