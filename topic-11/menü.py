@@ -7,7 +7,7 @@ menuleiste = Menu(fenster)
 # Menüeintrag erstellen 
 datei_menu = Menu(menuleiste, tearoff=0)
 # Menüaktion hinzufügen
-datei_menu.add_command(label='Schliessend', command=fenster.quit)
+datei_menu.add_command(label='Schliessen', command=fenster.quit)
 # Menüeintrag an Menüleiste übertragen
 menuleiste.add_cascade(label='Datei', menu=datei_menu)
 # Menüleiste in Fenster laden
