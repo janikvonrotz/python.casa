@@ -114,3 +114,28 @@ Antwort:
 Frage: Ich konnte für mein Projekt "Ersatzteilverwaltung" eine Datenbank erstellen (wie im Unterricht) und über die Webapplikation mit Python Flask (wie im Unterricht) aufrufen. Jetzt möchte ich noch unsere bestehende Ersatzteilliste in diese Datenbank importieren, damit nicht alle Positionen (ca. 1800) von Hand eingetragen werden müssen. Nach einigen Stunden suchen und ausprobieren (SQL, CSV, ..., habe ich das Gefühl nicht wirklich zum Ziel zu gelangen. Wie würdest du so etwas lösen?
 
 Antwort: Ich nehme an, dass die Spalten im CSV und im der SQLite Tabelle die gleichen Namen haben. Der einfachste Weg um das CSV zu importieren ist wohl mit dem SQLiteStudio [https://sqlitestudio.pl/](https://sqlitestudio.pl/). Dazu ein Link mit einem Beispiel (weiter unten): [https://www.sqlitetutorial.net/sqlite-import-csv/](https://www.sqlitetutorial.net/sqlite-import-csv/). Mit dem SQLiteStudio kannst du die Datenbankdatei direkt bearbeiten. Natürlich geht das auch über die Kommandozeile, dazu musst du die SQLite Tools installieren: [https://www.sqlite.org/index.html](https://www.sqlite.org/index.html). Dieser Vorgang ist aber etwas schwieriger und ist ebenfall in meinem Beispiel-Link vorhanden.
+
+### Spielfeld auf Kommandozeile
+
+Frage: Wie kann ich ein Spielfeld, beispielsweise für Tic Tac Toe auf der Kommandozeile ausgeben?
+
+Antwort: Dazu braucht es die folgenden Elemente: eine Schleife, eine Ausgabe einer Spielfeldzeile und eine Aktion die den Bildschirm zurücksetzt. Den Vorgang nennt man "Rendern".
+
+```python
+import os
+
+# 3x3 Matrix erstellen
+matrix = [[' ' for i in range(0,3)] for i in range(0, 3)]
+
+# Matrix-Feld anpassen
+matrix[1][1] = 'x'
+
+# Funktion zur Ausgabe der Matrix
+def ausgabe():
+    for row in matrix:
+        print('|{0}|{1}|{2}|'.format(row[0], row[1], row[2]))
+
+# Bildschirm löschen und Matrix ausgeben
+os.system('clear')
+ausgabe()
+```
