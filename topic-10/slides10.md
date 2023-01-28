@@ -199,8 +199,23 @@ Mit dieser VSCode-Erweiterung können Sie die Datenbank-Datei anschauen:
 ### SQLite Datenbank anschauen
 
 🎬 Zeigen Sie den Inhalt von `lager.db` wie folgt an:
+* <kbd>ctrl</kbd> + <kbd>shift</kbd> gedrückt halten und zusätzlich <kbd>p</kbd> drücken
+* Im Dialog `Open Database` eingeben und Befehl mit <kbd>Enter</kbd> bestätigen
+* Die vorgeschlagene Datenbank auswählen und mit <kbd>Enter</kbd> bestätigen
+* Unten links erscheint der `SQLite Explorer`, darauf klicken und die Datenbank anzeigen
 
 ![sqlite-browse](../sqlite-browse.gif)
+
+---
+
+### SQLlite Datenbank anschauen
+
+🎬 Zeigen Sie den Inhalt von `lager.db` wie folgt an:
+* Rechtsklick auf die Datebank-Datei machen
+* Aktion *Opten Database* wählen.
+* Unten links erscheint der `SQLite Explorer`, darauf klicken und die Datenbank anzeigen
+
+![](../vscode-sqlite-open-database.png)
 
 ---
 

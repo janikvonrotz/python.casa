@@ -122,7 +122,7 @@ Die Reihenfolge der Elemente wird gemäss der Reihenfolge der Anweisungen gelade
 
 ### Elemente platzieren
 
-Statt `pack` zur Platzierung der Elemente können Sie auch `row=1, column=1, pady=10, padx=10` verwenden. Damit platzieren Sie die Elemente in einem Koordinatensystem.
+Statt `pack` zur Platzierung der Elemente können Sie auch `gird(row=1, column=1, pady=10, padx=10)` verwenden. Damit platzieren Sie die Elemente in einem Koordinatensystem.
 
 ![](../tkinter-coordinates.png)
 
@@ -215,7 +215,7 @@ menuleiste = Menu(fenster)
 # Menüeintrag erstellen 
 datei_menu = Menu(menuleiste, tearoff=0)
 # Menüaktion hinzufügen
-datei_menu.add_command(label='Schliessend', command=fenster.quit)
+datei_menu.add_command(label='Schliessen', command=fenster.quit)
 # Menüeintrag an Menüleiste übertragen
 menuleiste.add_cascade(label='Datei', menu=datei_menu)
 # Menüleiste in Fenster laden
