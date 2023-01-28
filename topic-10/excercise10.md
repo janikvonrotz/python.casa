@@ -8,7 +8,7 @@ Danke an Hari Thavachchelvam für die Idee zur Aufgabenstellung.
 
 ### Aufgabe 10.1: Datenbank auslesen und sortieren
 
-Laden Sie als erstes die Datei [`quiz.db`](https://raw.githubusercontent.com/janikvonrotz/python.casa/main/topic-11/quiz.db) herunter und speichern Sie es in einem Ordner. Erstellen Sie die Datei `quiz.py` im selben Ordner.
+Laden Sie als erstes die Datei [`quiz.db`](https://raw.githubusercontent.com/janikvonrotz/python.casa/main/topic-10/quiz.db) herunter und speichern Sie es in einem Ordner. Erstellen Sie die Datei `quiz.py` im selben Ordner.
 
 Schauen Sie sich die Datenbank mit VSCode an und beantworten Sie diese Fragen:
 * Wieviele Datensätze gibt es?
