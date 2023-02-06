@@ -137,7 +137,7 @@ VSCode sollte git automatisch erkennen.
 * Ordner mit VSCode öffnen
 * Datei `main.py` mit diesem Code anlegen:
 
-```pythonthon
+```python
 print('Hello git!')
 ```
 

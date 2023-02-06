@@ -2,6 +2,7 @@ from distutils.log import error
 from flask import Flask, render_template, request, redirect, url_for, send_file
 import sqlite3
 app = Flask(__name__)
+import export
 
 @app.route('/')
 def index():
@@ -33,6 +34,20 @@ def list():
     cursor.execute(sql)
     data = cursor.fetchall()
     return render_template("list.html", data=data)
+
+@app.route('/delete', methods=['POST'])
+def delete():
+    connection = sqlite3.connect("lager.db")
+    cursor = connection.cursor()
+    sql = "DELETE FROM lager WHERE id = %s" % (request.form['productID'])
+    cursor.execute(sql)
+    connection.commit()
+    return redirect(url_for('list'))
+
+@app.route('/file')
+def file():
+    export.xlsx()
+    return send_file('output.xlsx')
 
 if __name__ == '__main__':
    app.run(debug = True)

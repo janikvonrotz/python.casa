@@ -4,7 +4,7 @@
 
 Aufgaben zum Thema.
 
-### Aufgabe 9.1: Template anpassen
+### Aufgabe 12.1: Template anpassen
 
 Auf dem Formular für *Produkt hinzufügen* steht auf dem Knopf `submit`. Benennen Sie die Text auf `Abschicken` um.
 
@@ -20,13 +20,15 @@ thead {
 
 Sie möchten in der Navigation der Webapp neuen Link hinzu. Fügen die den a-Tag `<a href="https://python.casa">python.casa</a>` an der richtien Stelle im `layout.html` ein.
 
-### Aufgabe 9.2: Aktion Löschen hinzufügen
+⭐ [Template anpassen.py](https://github.com/janikvonrotz/python.casa/blob/main/topic-12/Template%20anpassen)
+
+### Aufgabe 12.2: Aktion Löschen hinzufügen
 
 Sie möchten eine neue Funktion in der Webapplikation einbauen. Benutzer sollen Produkte löschen können. Dazu haben diese Code-Teile erstellt:
 
 **app.py**
 
-```pythonthon
+```python
 @app.route('/delete', methods=['POST'])
 def delete():
     connection = sqlite3.connect("lager.db")
@@ -74,3 +76,12 @@ def delete():
 ```
 
 Aktualisieren Sie die entsprechenden Dateien und starten Sie Webapplikation.
+
+⭐ [Aktion Löschen hinzufügen.py](https://github.com/janikvonrotz/python.casa/blob/main/topic-12/Aktion%20Löschen%20hinzufügen)
+
+### Aufgabe 12.3: Excel-Export hinzügen
+
+⭐ [Excel-Export hinzufügen.py](https://github.com/janikvonrotz/python.casa/blob/main/topic-12/Exccel-Export%20hinzufügen)
+
+### Aufgabe 12.4: Aktion Bearbeiten hinzufügen
+

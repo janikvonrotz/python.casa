@@ -1,5 +1,5 @@
 import sqlite3
-connection = sqlite3.connect("lager.db")
+connection = sqlite3.connect('lager.db')
 sql = """CREATE TABLE lager(
     id INTEGER PRIMARY KEY,
     name TEXT,

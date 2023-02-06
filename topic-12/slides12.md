@@ -21,7 +21,7 @@ Ich kann ...
 
 * Applikation im Browser
 * Verwendet HTML, CSS und JavaScript
-* Keine Installation auf Client
+* Keine Installation auf Client-Computer
 
 ---
 
@@ -52,7 +52,7 @@ Für Python Flask sieht die Architektur so aus:
 ### VSCode vorbereiten
 
 🎬 Führen Sie diese Aktionen aus:
-* Neuer Ordner `Thema 9` erstellen
+* Neuer Ordner `Thema12` erstellen
 * Ordner mit VSCode öffnen
 * Datei `db.py` anlegen
 ---
@@ -63,13 +63,15 @@ Für Python Flask sieht die Architektur so aus:
 
 ![](../vscode-install-flask.png)
 
+Auf der Kommandozeile können Sie das mit `pip install flask` erledigen.
+
 ---
 
 ### Datenbank erstellen
 
 🎬 Ergänzen Sie `db.py` und führen Sie das Skript aus.
 
-```pythonthon
+```python
 import sqlite3
 connection = sqlite3.connect('lager.db')
 sql = """CREATE TABLE lager(
@@ -82,6 +84,8 @@ sql = """CREATE TABLE lager(
 connection.execute(sql)
 connection.close()
 ```
+
+Im selben Ordner wir die Datei `lager.db` erstellt.
 
 ---
 
@@ -231,21 +235,11 @@ Damit werden die Inhalte aus der Datenbank in einer Tabelle aufgelistet.
 
 Mit diesem Formular erstellen Sie neue Inhalte in der Datenbank.
 
----
-
-### Pause
-
-⚡Wir machen eine Pause ⏱️ 15 Minuten
-
-<iframe src="https://giphy.com/embed/iigcSmBaMUC5FoSUlu" width="280" height="280" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-
----
-
 ### Python-Flask App erstellen
 
 🎬 Erstellen Sie die Datei `app.py` mit diesem Inhalt:
 
-```pythonthon
+```python
 from distutils.log import error
 from flask import Flask, render_template, request, redirect, url_for
 import sqlite3
@@ -296,7 +290,7 @@ Die Elemente werden nun erläutert.
 
 Mit der folgenden Anweisung verbindet Python-Flask die Anfrage des Browser mit einer Antwort.
 
-```pythonthon
+```python
 @app.route('/')
 def index():
     return render_template('index.html')
@@ -312,7 +306,7 @@ Schickt der Browser ein HTTP-Request für `/` auf wird das Template `index.html`
 
 Man unterscheidet bei HTTP-Requests zwischen GET und POST. Eine Route kann beides verarbeiten.
 
-```pythonthon
+```python
 @app.route('/insert', methods=['POST', 'GET'])
 def insert():
 ```
@@ -361,11 +355,49 @@ Wird das erfasste Produkt angezeigt?
 
 ### Aufgaben 1
 
-Lösen Sie die ersten zwei Aufgaben.
+Lösen Sie die [Aufgaben](excercise12.md#aufgaben) 12.1 und 12.2.
 
-⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 30 Minuten
+⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 10 Minuten
 
-Ziel: Aufgabe 9.1 und 9.2 gelöst.
+---
+
+Excel-Export
+
+xlsxwriter
+
+---
+
+### CRUD-Operationen
+
+Haben wir alle CRUD-Operationen implementiert?
+
+✅ Create
+✅ READ
+🚫 Update
+✅ Delete
+
+Es fehlt noch die Operation um Produkte zu aktualisieren.
+
+---
+
+### Daten in Formular laden
+
+
+---
+
+### Datensatz aktualiseren
+
+---
+
+### Aufgaben 2
+
+Lösen Sie die [Aufgaben](excercise12.md#aufgaben) 12.3 und 12.4.
+
+⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 10 Minuten
+
+---
+
+### Vollstände Webapplaktion
 
 ---
 
