@@ -11,3 +11,21 @@ Umfang ⏱️: 2 Lektionen
 ## [Übungen](excercise13.md)
 
 [Hier](excercise13.md) geht es zu den Übungen.
+
+## Meta
+
+Praxisbezug: Die Studierenden verstehen die Kollaboration an Programmier-Projekten erfolgt.
+
+Ausbildungsziel: [Lernziele](slides12.md#Lernziele)
+
+Inhalte:
+* Git Kommandozeilenwerkzeug
+* Softwareversionskontrolle
+* Kollaboration mit Remote-Repository
+
+Didaktische Unterlagen:
+* Präsenzunterricht
+* Angeleitetes Selbststudium
+* Live-Demonstration
+* Gruppenarbeit
+* Online Unterlagen

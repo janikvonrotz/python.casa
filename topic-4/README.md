@@ -14,8 +14,18 @@ Umfang ⏱️: 1 Lektion
 
 ## Meta
 
-Ziele:
-* Variabeln für Datum und Uhrzeit erstellen
-* Datum und Uhrzeit formatieren
-* Mit Datum und Zeit rechnen
-* Einordung von Zeitzonen
+Praxisbezug: Die Studierenden wie Computer Datum und Uhrzeit verstehen.
+
+Ausbildungsziel: [Lernziele](slides4.md#Lernziele)
+
+Inhalte:
+* Unix Timestamp
+* Datum, Uhrzeit und Zeitzonen
+* Berechnungen mit Zeitangaben
+
+Didaktische Unterlagen:
+* Präsenzunterricht
+* Angeleitetes Selbststudium
+* Live-Demonstration
+* Gruppenarbeit
+* Online Unterlagen

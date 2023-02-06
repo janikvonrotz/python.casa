@@ -7,6 +7,16 @@
 
 ---
 
+### Lernziele
+
+Ich kann ...
+* die 3-Tier Architektur von Webapplikationen erläutern.
+* eine Webapplikation mit Python entwickeln.
+* GET- und POST-Methoden mit einem Webserver verarbeiten.
+* eine grafische Oberfläche mit einem HTML-Template erstellen.
+
+---
+
 ### Was ist eine Webapplikation?
 
 * Applikation im Browser
@@ -359,6 +369,10 @@ Ziel: Aufgabe 9.1 und 9.2 gelöst.
 
 ---
 
-### Restliche Zeit
+### Review
 
-* Arbeit an Leistungsnachweis
+🎯 Wurden die [Lernziele](#lernziele) erreicht?
+
+⚡ Feedback zu den Zielen einholen.
+
+---

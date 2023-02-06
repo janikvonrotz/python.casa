@@ -14,28 +14,18 @@ Umfang ⏱️: 3 Lektionen
 
 ## Meta
 
-Ziele:
-* Flowcharts
-* if-Anweisung
-* if-else-Anweisung
-* while-Schleife
-* for-Schleife
+Praxisbezug: Die Studierenden verstehen wie komplexe Datenstrukturen gebildet werden.
 
-Kompetenzen: Die Studierenden ...
-* können Probleme als sequentielle Abläufe erkennen
-* können repetetive Aufgaben als Kombination von Verzweigungen und Schlaufen erkennen, Programmabläufe entwerfen und als Flowcharts darstellen
-* können die Probleme mithilfe von Kontrollstrukturen in der Software abbilden
+Ausbildungsziel: [Lernziele](slides5.md#Lernziele)
 
-Didaktische Umsetzung:
-* Einführung Flowchart mit Live-Beispiel
-* Frontalunterricht Theorie
-* In Projektarbeiten aus Alltagssituationen Flowcharts erstellen
-* Selbständige Programmier-Aufgaben
+Inhalte:
+* Listen und Datentypen
+* Filter und Methoden
+* Verzweigungen und Schleifen
 
-Vernetzung:
-* Labview
-* Eingebette Systeme
-
-Querverweis Rahmenlehrplan:
-* Prozess 12: Systeme projektieren (Auswahl der angemessenen Softwarestruk-
-tur)
+Didaktische Unterlagen:
+* Präsenzunterricht
+* Angeleitetes Selbststudium
+* Live-Demonstration
+* Gruppenarbeit
+* Online Unterlagen

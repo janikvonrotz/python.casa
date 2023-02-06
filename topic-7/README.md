@@ -11,3 +11,21 @@ Umfang ⏱️: 2 Lektionen
 ## [Übungen](excercise7.md)
 
 [Hier](excercise7.md) geht es zu den Übungen.
+
+## Meta
+
+Praxisbezug: Die Studierenden lernen wie reale Objekte abstrahiert werden können. Sie verstehen den Mechanismus der Vererbung.
+
+Ausbildungsziel: [Lernziele](slides7.md#Lernziele)
+
+Inhalte:
+* Opjektorientierte Programmierung
+* Klassen und Objekte
+* Vererbung
+
+Didaktische Unterlagen:
+* Präsenzunterricht
+* Angeleitetes Selbststudium
+* Live-Demonstration
+* Gruppenarbeit
+* Online Unterlagen

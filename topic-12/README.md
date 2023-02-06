@@ -11,3 +11,21 @@ Umfang ⏱️: 2 Lektionen
 ## [Übungen](excercise12.md)
 
 [Hier](excercise12.md) geht es zu den Übungen.
+
+## Meta
+
+Praxisbezug: Die Studierenden verstehen wie Webapplikationen funktionieren.
+
+Ausbildungsziel: [Lernziele](slides12.md#Lernziele)
+
+Inhalte:
+* 3-Tier Architektur
+* HTML und Vorlagen
+* Router
+
+Didaktische Unterlagen:
+* Präsenzunterricht
+* Angeleitetes Selbststudium
+* Live-Demonstration
+* Gruppenarbeit
+* Online Unterlagen

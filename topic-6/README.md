@@ -14,25 +14,18 @@ Umfang ⏱️: 3 Lektionen
 
 ## Meta
 
-Ziele:
-* Modularisierung und Strukturierung
-* Funktionsargumente
-* Rückgabewerte
+Praxisbezug: Die Studierenden können Vorgänge und Prozesse mit Diagrammen visualisieren. Sie lernen das Fundament von Algorithmen kennen.
 
-Kompetenzen: Die Studierenden ...
-* können die Systematik von ähnlichen Anweisungen in Programmcode erkennen
-* können mithilfe von Variablen Anweisungen in Programmcode generalisieren
-* können Anweisungen in Programmcode in Funktionen isolieren
-* können Flowcharts entsprechend mit Subroutinene erweitern
+Ausbildungsziel: [Lernziele](slides6.md#Lernziele)
 
-Didaktische Umsetzung:
-* Einführung Modularisierung mit Live-Beispiel
-* Frontalunterricht Theorie
-* Selbständige Übungen
+Inhalte:
+* Funktionen und Parameter
+* Lokale und Globare Variablen
+* Flowcharts
 
-Vernetzung:
-* Labview
-* Eingebette Systeme
-
-Querverweis Rahmenlehrplan:
-* Prozess 14: Systeme aufbauen und in Betrieb setzen
+Didaktische Unterlagen:
+* Präsenzunterricht
+* Angeleitetes Selbststudium
+* Live-Demonstration
+* Gruppenarbeit
+* Online Unterlagen

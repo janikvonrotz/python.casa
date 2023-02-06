@@ -2,7 +2,7 @@
 
 Umfang ⏱️: 4 Lektionen
 
-[Alle Unterlagen anzeigen](https://github.com/janikvonrotz/python.casa/tree/main/topic-6)
+[Alle Unterlagen anzeigen](https://github.com/janikvonrotz/python.casa/tree/main/topic-8)
 
 ## [Slides](slides8.md)
 
@@ -14,24 +14,18 @@ Umfang ⏱️: 4 Lektionen
 
 ## Meta
 
-Ziele:
-* Konsolen-Interaktion
-* Ein-/Ausgabe in Konsole
-* Ein-/Ausgabe in Datei
-* Ein-/Ausgabe über das Netzwerk
-* Kommandozeilenargumente
+Praxisbezug: Die Studierenden lernen Daten gespeichert und über Netzwerke hinweg kommuniziert werden.
 
-Kompetenzen: Die Studierenden ...
-* können Algorithmen mit Ein- und Ausgaben anreichern, um deren Nützlichkeit für Alltagsprobleme zu erhöhen
+Ausbildungsziel: [Lernziele](slides8.md#Lernziele)
 
-Didaktische Umsetzung:
-* Frontalunterricht Theorie
-* Übungen Gruppenarbeit
+Inhalte:
+* Dateisystem
+* Text-, CSV-, und JSON-Dateien
+* Kommunikation mit HTTP
 
-Vernetzung:
-* Labview
-* Eingebette Systeme
-* Computernetzwerke
-
-Querverweis Rahmenlehrplan:
-* Prozess 14: Systeme aufbauen und in Betrieb setzen
+Didaktische Unterlagen:
+* Präsenzunterricht
+* Angeleitetes Selbststudium
+* Live-Demonstration
+* Gruppenarbeit
+* Online Unterlagen

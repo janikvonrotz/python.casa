@@ -11,3 +11,21 @@ Umfang ⏱️: 3 Lektionen
 ## [Übungen](excercise10.md)
 
 [Hier](excercise10.md) geht es zu den Übungen.
+
+## Meta
+
+Praxisbezug: Die Studierenden wissen wie Datenbanksysteme funktionieren.
+
+Ausbildungsziel: [Lernziele](slides10.md#Lernziele)
+
+Inhalte:
+* Relationale Datenbanksysteme
+* SQLite
+* SQL-Statements
+
+Didaktische Unterlagen:
+* Präsenzunterricht
+* Angeleitetes Selbststudium
+* Live-Demonstration
+* Gruppenarbeit
+* Online Unterlagen

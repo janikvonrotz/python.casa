@@ -7,6 +7,16 @@
 
 ---
 
+### Lernziele
+
+Ich kann ...
+* die Begriffe der Softwareversionskontrolle erklären.
+* mit Git die Änderungen an Programm-Code dokumentieren.
+* mithilfe von Git mit einem Remote-Repository synchronisieren.
+* besteheender Code mit Git auf die lokale Entwicklungsumgebung laden.
+
+---
+
 ### Was ist Versionskontrolle?
 
 > Eine Versionskontrolle ist ein System, das zur Erfassung von Änderungen an Dokumenten oder Dateien verwendet wird.
@@ -312,14 +322,10 @@ Ziel: Aufgabe 10.1 und 10.2 gelöst.
 
 ---
 
-### Restliche Zeit
+### Review
 
-* Arbeit an Leistungsnachweis
+🎯 Wurden die [Lernziele](#lernziele) erreicht?
+
+⚡ Feedback zu den Zielen einholen.
 
 ---
-
-### Abschluss
-
-Ich möchte mich herzlich für die Teilnahme am Kurs und tolle Mitarbeit bedanken.
-
-Für Feedback bin ich dankbar und zu Python-Fragen immer erreichbar.

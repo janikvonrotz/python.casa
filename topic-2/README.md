@@ -14,27 +14,19 @@ Umfang ⏱️: 2 Lektionen
 
 ## Meta
 
-Ziele:
-* Variablen
-* Basisdatentypen
+Praxisbezug: Die Studierenden wissen wie Platzhalter in Form von Variablen verwendet werden.
 
-Kompetenzen: Die Studierenden ...
-* können die Notwendigkeit von Variablen erkennen
-* können Variablen sinnvoll einsetzen
-* kennen die Eigenschaften der verschiedenen Basisdatentypen
-	* Numerischen Datentypen
-	* Sequentielle Datentypen
-	* Zuordnende Datentypen
+Ausbildungsziel: [Lernziele](slides2.md#Lernziele)
 
-Didaktische Umsetzung:
-* Einführung Variablen Deklaration und Initialisierung
-* Selbständige Übungen
+Inhalte:
+* Umgang mit der IDE
+* Variablen und Datentypen
+* Operatoren der Programmierung
 
-Vernetzung:
-* Labview
-* Eingebette Systeme
-* Computernetzwerke
+Didaktische Unterlagen:
+* Präsenzunterricht
+* Angeleitetes Selbststudium
+* Live-Demonstration
+* Gruppenarbeit
+* Online Unterlagen
 
-Querverweis Rahmenlehrplan:
-* Prozess 11: Systems Engineering Entwurf eines Konzeptes
-* Prozess 12: Systeme projektieren

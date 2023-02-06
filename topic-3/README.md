@@ -14,28 +14,18 @@ Umfang ⏱️: 2 Lektionen
 
 ## Meta
 
-Ziele:
-* Vergleichende Operatoren
-* UND-Verknüpfung
-* ODER-Verknüpfung
+Praxisbezug: Die Studierenden verstehen logische Operationen und können die Speicherung von Text-Daten nachvollziehen.
 
-Kompetenzen: Die Studierenden ...
-* können vergleichende Operatoren anwenden
-* können UND-Verknüpfung anwenden
-* Können ODER-Verknüpfung anwenden
-* können Probleme als Verknüpfungen aus vergleichende Operatoren und UND/ODER-Verknüpfung formulieren
+Ausbildungsziel: [Lernziele](slides3.md#Lernziele)
 
-Didaktische Umsetzung:
-* Live-Beispiel zur Motivation von vergleichenden Variablen
-* Frontalunterricht Theorie
-* Schriftliche Übungen Boolsche Algebra
-* Selbständige Übungen
+Inhalte:
+* Gesetze der Boolsche Algebra
+* Zeichenketten und Formatierungs-Methoden
+* Ausgabe von Sonderzeichen 
 
-Vernetzung:
-* Labview
-* Eingebette Systeme
-* Digitaltechnik
-
-Querverweis Rahmenlehrplan:
-* Prozess 11: Systems Engineering Entwurf eines Konzeptes
-* Prozess 12: Systeme projektieren
+Didaktische Unterlagen:
+* Präsenzunterricht
+* Angeleitetes Selbststudium
+* Live-Demonstration
+* Gruppenarbeit
+* Online Unterlagen
