@@ -79,9 +79,88 @@ Aktualisieren Sie die entsprechenden Dateien und starten Sie Webapplikation.
 
 ⭐ [Aktion Löschen hinzufügen.py](https://github.com/janikvonrotz/python.casa/blob/main/topic-12/Aktion%20Löschen%20hinzufügen)
 
-### Aufgabe 12.3: Excel-Export hinzügen
+### Aufgabe 12.3: Xlsx-Export hinzufügen
 
-⭐ [Excel-Export hinzufügen.py](https://github.com/janikvonrotz/python.casa/blob/main/topic-12/Exccel-Export%20hinzufügen)
+Wir möchten die Daten aus der Datenbank in eine Excel-Datei exportieren. Dazu erstellen Sie eine Funktion, die den Export ausführt und passen die Weboberfläche an.
+
+Fügen Sie die folgende Datei dem Projekt hinzu und ergänzen Sie alle mit `# Kommentar` markierten Zeile mit einem Kommentar. Versuchen Sie den Code zu verstehen.
+
+**export.py**
+
+```python
+# Kommentar
+from xlsxwriter.workbook import Workbook
+import sqlite3
+
+def xlsx():
+    # Kommentar
+    connection = sqlite3.connect("lager.db")
+    cursor = connection.cursor()
+    
+    # Kommentar
+    sql = "SELECT * FROM lager"
+    cursor.execute(sql)
+    data = cursor.fetchall()
+
+    # Kommentar
+    workbook = Workbook('output.xlsx')
+    # NKommentar
+    worksheet = workbook.add_worksheet()
+    # Kommentar
+    worksheet.write(0, 0, "ID")
+    worksheet.write(0, 1, "Name")
+    worksheet.write(0, 2, "Referenz")
+    worksheet.write(0, 3, "Barcode")
+    worksheet.write(0, 4, "Lager")
+    worksheet.write(0, 5, "Preis")
+
+    # Kommentar
+    for index, record in enumerate(data):
+        # Kommentar
+        index = index+1
+        # Kommentar
+        worksheet.write(index, 0, record[0])
+        worksheet.write(index, 1, record[1])
+        worksheet.write(index, 2, record[2])
+        worksheet.write(index, 3, record[3])
+        worksheet.write(index, 4, record[4])
+        worksheet.write(index, 5, record[5])
+
+    # Kommentar
+    connection.close()
+    workbook.close()
+```
+
+Wie Sie gesehen haben, braucht es die zum Ausführen der Funktion das Paketr [XlsxWriter](https://pypi.org/project/XlsxWriter/). Installieren Sie es mit dem Pip Manager oder führen Sie den Befehl `pip install XlsxWriter` im Terminal aus.
+
+In der `app.py` fügen Sie zuoberst den Import-Befehl hinzu.
+
+```python
+import export
+```
+
+Und vor dem Aufruf der `__main__` Funktion erstellen Sie die Route für den Export.
+
+```python
+@app.route('/file')
+def file():
+    export.xlsx()
+    return send_file('output.xlsx', attachment_filename='output.xlsx')
+```
+
+Als letztes ersetzen Sie den Inhalt des `index.html` Template mit diesem Inhalt:
+
+```html
+{% extends "layout.html" %}
+{% block content %}
+<h1>Aktionen</h1>
+<p><a href="/insert">Produkt hinzufügen</a></p>
+<p><a href="/list">Produkte auflisten</a></p>
+<p><a href="/file">output.xlsx herunterladen</a></p>
+{% endblock %}
+```
+
+⭐ [Xlsx-Export hinzufügen.py](https://github.com/janikvonrotz/python.casa/blob/main/topic-12/Xlsx-Export%20hinzufügen)
 
 ### Aufgabe 12.4: Aktion Bearbeiten hinzufügen
 

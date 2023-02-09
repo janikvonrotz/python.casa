@@ -72,16 +72,26 @@ Auf der Kommandozeile können Sie das mit `pip install flask` erledigen.
 🎬 Ergänzen Sie `db.py` und führen Sie das Skript aus.
 
 ```python
-import sqlite3
+import os, sys, sqlite3
+if os.path.exists('lager.db'):
+    os.remove('lager.db')
 connection = sqlite3.connect('lager.db')
-sql = """CREATE TABLE lager(
+cursor = connection.cursor()
+sql = """CREATE TABLE IF NOT EXISTS lager(
     id INTEGER PRIMARY KEY,
     name TEXT,
-    referenz TEXT,
+    referenz TEXT ,
     barcode TEXT,
     lager INTEGER,
     preis REAL)"""
-connection.execute(sql)
+cursor.execute(sql)
+sql = "INSERT INTO lager VALUES(1, 'Holztisch', 'E-COM06', '601647855633', 3, 147)"
+cursor.execute(sql)
+sql = "INSERT INTO lager VALUES(2, 'Bürostuhl', 'E-COM06', '601647855634', 1, 70.50)"
+cursor.execute(sql)
+sql = "INSERT INTO lager VALUES(3, 'Abfalleimer', 'E-COM06', '601647855649', 5, 43)"
+cursor.execute(sql)
+connection.commit()
 connection.close()
 ```
 
@@ -241,7 +251,7 @@ Mit diesem Formular erstellen Sie neue Inhalte in der Datenbank.
 
 ```python
 from distutils.log import error
-from flask import Flask, render_template, request, redirect, url_for
+from flask import Flask, render_template, request, redirect, url_for, send_file
 import sqlite3
 app = Flask(__name__)
 
@@ -327,6 +337,29 @@ Nun sind wir bereit um die Python Flask Webapplikation zu starten.
 
 Öffnen Sie die Adresse <http://127.0.0.1:5000/> in ihrem Browser.
 
+
+
+---
+
+### Webapp in Unterordner starten
+
+Wenn Sie die `app.py` in einem Unterordner im Arbeitsbereich von VSCode haben. Können Sie einen Rechtsklick auf die Datei machen und `Run Python File in Terminal` ausführen. VSCode navigiert dann zuerst in den Unterodner.
+
+Oder Sie navigieren zur Ausführung in den Unterordner, beispielsweise mit `cd Thema12` und starten anschliessend die App mit dem Befehl `python app.py`.
+
+```zsh
+➜  python.casa git:(main) ✗ cd topic-12 
+➜  topic-12 git:(main) ✗ python app.py 
+ * Serving Flask app 'app'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 605-689-980
+```
+
 ---
 
 ### Webserver gestartet
@@ -361,9 +394,13 @@ Lösen Sie die [Aufgaben](excercise12.md#aufgaben) 12.1 und 12.2.
 
 ---
 
-Excel-Export
+### Xlsx-Export
 
-xlsxwriter
+Damit Sie die Daten in einer Datenbank analysieren können, braucht es einen Export.
+
+Wir haben gelernt wie Sie einen Export in eine .csv-Datei machen, dasselbe Vorgehen können Sie auch für .xlsx-Dateien verwenden.
+
+In [Aufgaben 2](#Aufgaben%202) werden Sie einen entsprechenden Export programmieren.
 
 ---
 
@@ -382,10 +419,29 @@ Es fehlt noch die Operation um Produkte zu aktualisieren.
 
 ### Daten in Formular laden
 
+Damit die Daten im Webformular bearbeitet werde können, muss ein bestimmter Datensatz geladen werden.
+
+Sie brauchen also folgendes.
+* Eine Route um das Produkt zu bearbeiten `/edit/<id>`
+* Ein neues Template zur Bearbeitung des Produkts
+* Eine weitere Route zum Speichern der Bearbeitung `/save`
 
 ---
 
-### Datensatz aktualiseren
+### Route mit Parameter
+
+Über die URL des Browser können Parameter an die Route übergeben werden.
+
+```python
+@app.route('/edit/<id>')
+def edit(id):
+    connection = sqlite3.connect("lager.db")
+    cursor = connection.cursor()
+    sql = f"SELECT * FROM lager WHERE id = {id}"
+    cursor.execute(sql)
+    data = cursor.fetchall()
+    return render_template("edit.html", data=data[0])
+```
 
 ---
 
@@ -398,6 +454,10 @@ Lösen Sie die [Aufgaben](excercise12.md#aufgaben) 12.3 und 12.4.
 ---
 
 ### Vollstände Webapplaktion
+
+Die komplette Applikation 
+
+⭐ [Complete](https://github.com/janikvonrotz/python.casa/blob/main/topic-12/Complete)
 
 ---
 

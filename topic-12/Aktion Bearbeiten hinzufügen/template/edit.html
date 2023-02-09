@@ -1,0 +1,20 @@
+{% extends "layout.html" %}
+{% block content %}
+<h1>Produkt bearbeiten</h1>
+<form action="{{ url_for('save') }}" method="POST">
+    <fieldset>
+        <input type="hidden" name="id" value="{{data[0]}}">
+        <label for="name">Name:</label>
+        <input required type="text" name="name" value="{{data[1]}}"/><br><br>
+        <label for="referenz">Referenz:</label>
+        <input required type="text" name="referenz" value="{{data[2]}}"/><br><br>
+        <label for="barcode">Barcode:</label>
+        <input required type="text" name="barcode" value="{{data[3]}}"/><br><br>
+        <label for="lager">Lager:</label>
+        <input required type="number" name="lager" value="{{data[4]}}"/><br><br>
+        <label for="preis">Preis:</label>
+        <input required type="number" name="preis" value="{{data[5]}}"/>
+    </fieldset>
+    <input type="submit" value="Speichern" />
+</form>
+{% endblock %}
