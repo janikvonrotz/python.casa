@@ -15,7 +15,9 @@ Erstellen Sie ein neues Git-Projekt indem Sie die folgenden Aktionen ausführen:
 * Eine zusätzliche Datei `db.py` mit Inhalt `print('Hello SQLite')` hinzufügen
 * Die neue Datei ebenfalls committen
 
-⭐ [.py](https://github.com/janikvonrotz/python.casa/blob/main/topic-13/)
+Geben Sie die Git History mit dem Befehl `git log` aus.
+
+⭐ [Git-Projekt erstellen](https://github.com/janikvonrotz/python.casa/tree/main/topic-13/Git-Projekt%20erstellen)
 
 ### Aufgabe 13.2: Projekt auschecken
 
@@ -41,6 +43,8 @@ Erstellen Sie einen Branch `my-example` und comitten Sie die gemachten Änderung
 ![git-branch](../git-branch.gif)
 
 Wie wechseln Sie zwischen dem Branch `master` und `my-example`?
+
+⭐ [Branch erstellen](https://github.com/janikvonrotz/python.casa/tree/main/topic-13/Branch%20erstellen)
 
 ### Aufgabe 13.4: Branch zusammenführen
 

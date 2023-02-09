@@ -238,6 +238,14 @@ In der Git History sind nun 2 Commits.
 
 ---
 
+### Aufgaben 1
+
+Lösen Sie die [Aufgaben](excercise13.md#aufgaben) 13.1.
+
+⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 10 Minuten
+
+---
+
 ### Referenz eines Commits
 
 Jeder Commit ist über mit einem Hash referenziert.
@@ -322,13 +330,19 @@ Hier nochmals der git Workflow:
 
 ---
 
-### Aufgaben 1
+### Einen neuen Branch erstellen
 
-Lösen Sie die ersten zwei Aufgaben.
+---
+
+### Zwischen Branches wechseln
+
+---
+
+### Aufgaben 2
+
+Lösen Sie die [Aufgaben](excercise13.md#aufgaben) 13.2, 13.3 und 13.4.
 
 ⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 10 Minuten
-
-Ziel: Aufgabe 10.1 und 10.2 gelöst.
 
 ---
 
