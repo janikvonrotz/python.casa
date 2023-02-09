@@ -160,6 +160,8 @@ Als letztes ersetzen Sie den Inhalt des `index.html` Template mit diesem Inhalt:
 {% endblock %}
 ```
 
+Führen Sie das `app.py` aus und klicken Sie auf *output.xlsx herunterladen*.
+
 ⭐ [Xlsx-Export hinzufügen](https://github.com/janikvonrotz/python.casa/blob/main/topic-12/Xlsx-Export%20hinzufügen)
 
 ### Aufgabe 12.4: Aktion Bearbeiten hinzufügen
