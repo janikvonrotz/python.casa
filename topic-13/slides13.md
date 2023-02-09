@@ -10,7 +10,7 @@
 ### Lernziele
 
 Ich kann ...
-* die Begriffe der Softwareversionskontrolle erklären.
+* die Begriffe der Versionskontrolle erklären.
 * mit Git die Änderungen an Programm-Code dokumentieren.
 * mithilfe von Git mit einem Remote-Repository synchronisieren.
 * besteheender Code mit Git auf die lokale Entwicklungsumgebung laden.
@@ -84,6 +84,7 @@ Versionsstand von Software-Code mit mehreren Mitarbeitenden (Contributors) synch
 ### Git Arbeitsbereiche
 
 Bei der Arbeit mit gibt, gibt es verschiedene Arbeitsbereiche:
+
 * **Workspace**: Lokaler Ordner mit Code
 * **Index**: Interne Liste mit Dateien die verfolgt werden
 * **Stage**: Erfasste Änderungen in Dateien
@@ -133,7 +134,8 @@ VSCode sollte git automatisch erkennen.
 ### VSCode vorbereiten
 
 🎬 Führen Sie diese Aktionen aus:
-* Neuer Ordner `Thema 10` erstellen
+
+* Neuer Ordner `Thema 13` erstellen
 * Ordner mit VSCode öffnen
 * Datei `main.py` mit diesem Code anlegen:
 
@@ -145,19 +147,19 @@ print('Hello git!')
 
 ### Beispiel mit VSCode und git
 
-Die folgenden Beispielen zeigt wie man mithilfe von VSCode mit git arbeitet. Dabei gilt es zu beachten, dass im Hintergrund immer auf der Kommandozeile die git-Befehle abgesetzt werden.
+Die folgenden Beispielen zeigt wie man mithilfe von VSCode mit git arbeitet. Dabei gilt es zu beachten, dass im Hintergrund ie git-Befehle immer auf der Kommandozeile ausgeführt werden.
 
-VSCode macht die Arbeit mit git "einfacher". Zu jedem Beispiel wird wenn möglich der entsprechende git-Befehl aufgeführt.
+VSCode macht die Arbeit mit git "einfacher". Zu jedem Beispiel wird, wenn möglich, der entsprechende git-Befehl gezeigt.
 
 ---
 
 ### Git konfigurieren
 
-🎬 Starten Sie ein neues Terminal und geben Sie die folgenden Befehle ein. Natürlich müssen Sie einen eigenen Benutzernamen und E-Mail defineiren.
+🎬 Starten Sie ein neues Terminal und geben Sie die folgenden Befehle ein.  Definieren Sei einen eigenen Benutzernamen und E-Mail defineiren.
 
 ```bash
-git config --global user.name "janikvonrotz"
-git config --global user.email "contact@janikvonrotz.ch"
+git config --global user.name "Mitchel Admin"
+git config --global user.email "mitcheladmin@example.com"
 ```
 
 ![](../git-config.png)
@@ -176,7 +178,7 @@ git config --global user.email "contact@janikvonrotz.ch"
 
 ### Datei stagen
 
-Git hat die Datei `main.py` erkannt und bietet an die Datei zu stagen.
+Git hat die Datei `main.py` erkannt und möchte die Datei "stagen".
 
 🎬 Stagen Sie die Datei `main.py` wie folgt:
 
@@ -188,7 +190,7 @@ Git hat die Datei `main.py` erkannt und bietet an die Datei zu stagen.
 
 ### Datei comitten
 
-Änderungen in der Stage kann man comitten. Dazu braucht es eine Nachricht.
+Änderungen in der Stage können Sie "comitten". Dazu braucht es eine Nachricht.
 
 🎬 Comitten Sie die Änderungen wie folgt:
 
@@ -200,7 +202,13 @@ Git hat die Datei `main.py` erkannt und bietet an die Datei zu stagen.
 
 ### Datei ändern und vergleichen
 
-🎬 Ändern Sie die Ausgabe in `main.py` zu `'Git is great!'` und vergleichen Sie die Datei:
+🎬 Ersetzen Sie den Inhalt von `main.py` mit
+
+```python
+print('Git is great!')
+```
+
+🎬  Vergleichen Sie die Änderung der Datei:
 
 ![git-diff](../git-diff.gif)
 
@@ -210,6 +218,8 @@ Git hat die Datei `main.py` erkannt und bietet an die Datei zu stagen.
 
 ### Änderung committen
 
+Git hat offensichtlich die Änderung erkannt und möchte sie aufzeichnen.
+
 🎬 Stagen und comitten Sie die Änderung mit der Nachricht `changed output`.
 
 ℹ️ Der Terminal-Befehl ist `git commit -a -m "changed output"`
@@ -218,7 +228,7 @@ Git hat die Datei `main.py` erkannt und bietet an die Datei zu stagen.
 
 ### History anzeigen
 
-Die History umfasst alle Commits.
+In der Git History sind nun 2 Commits.
 
 🎬 Öffnen Sie ein Terminal und geben Sie `git log` ein.
 
@@ -230,9 +240,9 @@ Die History umfasst alle Commits.
 
 ### Referenz eines Commits
 
-Jeder Commit ist über einen Hash referenziert.
+Jeder Commit ist über mit einem Hash referenziert.
 
-In diesem Beispiel hat der Commit mit Nachricht `init main` den Hash `14b3b432a7318eede6d09e3aad62b2f417a28b37`.
+Im vorhergeheenden Beispiel hatte der Commit mit Nachricht `init main` den Hash `14b3b432a7318eede6d09e3aad62b2f417a28b37`.
 
 ---
 

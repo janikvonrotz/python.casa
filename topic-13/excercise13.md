@@ -4,7 +4,20 @@
 
 Aufgaben zum Thema.
 
-### Aufgabe 10.1: Projekt auschecken
+### Aufgabe 13.1: Git-Projekt erstellen
+
+Erstellen Sie ein neues Git-Projekt indem Sie die folgenden Aktionen ausführen:
+
+* Ordner `Thema 13.1` erstellen
+* Eine Datei `app.py` mit Inhalt `print('Hello Git')` hinzufügen
+* Das lokale Git-Repository initialisieren
+* Einen ersten Commit mit Nachricht `Init app` erstellen
+* Eine zusätzliche Datei `db.py` mit Inhalt `print('Hello SQLite')` hinzufügen
+* Die neue Datei ebenfalls committen
+
+⭐ [.py](https://github.com/janikvonrotz/python.casa/blob/main/topic-13/)
+
+### Aufgabe 13.2: Projekt auschecken
 
 Auf GitHub haben Sie das vielversprechende Repository <https://github.com/fluentpython/example-code> entdeckt und möchten nun den Code lokal ausführen. Kopieren Sie die HTTPS-Url und klonen Sie das Projekt mit VSCode.
 
@@ -21,7 +34,7 @@ print(bus1.passengers)
 
 Haben Sie das Programm verstanden?
 
-### Aufgabe 10.2: Branch erstellen
+### Aufgabe 13.3: Branch erstellen
 
 Erstellen Sie einen Branch `my-example` und comitten Sie die gemachten Änderungen.
 
@@ -29,7 +42,7 @@ Erstellen Sie einen Branch `my-example` und comitten Sie die gemachten Änderung
 
 Wie wechseln Sie zwischen dem Branch `master` und `my-example`?
 
-### Aufgabe 10.3: Branch zusammenführen
+### Aufgabe 13.4: Branch zusammenführen
 
 Wechseln Sie zum `master` Branch und *mergen* Sie den `my-example` branch. Geben Sie dazu diesem Befehl auf dem Terminal ein: `git merge my-example -m "merge my example"`.
 
