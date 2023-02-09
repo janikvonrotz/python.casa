@@ -160,7 +160,103 @@ Als letztes ersetzen Sie den Inhalt des `index.html` Template mit diesem Inhalt:
 {% endblock %}
 ```
 
-⭐ [Xlsx-Export hinzufügen.py](https://github.com/janikvonrotz/python.casa/blob/main/topic-12/Xlsx-Export%20hinzufügen)
+⭐ [Xlsx-Export hinzufügen](https://github.com/janikvonrotz/python.casa/blob/main/topic-12/Xlsx-Export%20hinzufügen)
 
 ### Aufgabe 12.4: Aktion Bearbeiten hinzufügen
 
+**app.py**
+
+```python
+@app.route('/edit/<id>')
+def edit(id):
+    connection = sqlite3.connect("lager.db")
+    cursor = connection.cursor()
+    sql = f"SELECT * FROM lager WHERE id = {id}"
+    cursor.execute(sql)
+    data = cursor.fetchall()
+    return render_template("edit.html", data=data[0])
+
+@app.route('/save', methods=['POST'])
+def save():
+    message=""
+    if request.method == 'POST':
+        connection = sqlite3.connect("lager.db")
+        cursor = connection.cursor()
+        sql = f"""
+        UPDATE lager SET
+        name = '{request.form['name']}',
+        referenz = '{request.form['referenz']}',
+        barcode = '{request.form['barcode']}',
+        lager = '{request.form['lager']}',
+        preis = '{request.form['preis']}'
+        WHERE id = '{request.form['id']}'
+        """
+        print(sql)
+        cursor.execute(sql)
+        connection.commit()
+        connection.close()
+        return redirect(url_for('list'))
+```
+
+**template/list.hmtl**
+
+```html
+{% extends "layout.html" %}
+{% block content %}
+<h1>Produktliste</h1>
+<table>
+  <thead>
+    <td>ID</td>
+    <td>Name</td>
+    <td>Referenz</td>
+    <td>Barcode</td>
+    <td>Lager</td>
+    <td>Preis</td>
+    <td>Aktion</td>
+  </thead>
+  {% for row in data %}
+  <tr>
+    <td>{{row[0]}}</td>
+    <td><a href="/edit/{{row[0]}}">{{row[2]}}</a></td>
+    <td>{{row[2]}}</td>
+    <td>{{row[3]}}</td>
+    <td>{{row[4]}}</td>
+    <td>{{row[5]}}</td>
+    <td>
+      <form action="{{ url_for('delete') }}" method="post">
+        <input type="hidden" name="productID" value="{{row[0]}}">
+        <input type="submit" value="Löschen" />
+      </form>
+    </td>
+  </tr>
+  {% endfor %}
+</table>
+{% endblock %}
+```
+
+**template/edit.html**
+
+```html
+{% extends "layout.html" %}
+{% block content %}
+<h1>Produkt bearbeiten</h1>
+<form action="{{ url_for('save') }}" method="POST">
+    <fieldset>
+        <input type="hidden" name="id" value="{{data[0]}}">
+        <label for="name">Name:</label>
+        <input required type="text" name="name" value="{{data[1]}}"/><br><br>
+        <label for="referenz">Referenz:</label>
+        <input required type="text" name="referenz" value="{{data[2]}}"/><br><br>
+        <label for="barcode">Barcode:</label>
+        <input required type="text" name="barcode" value="{{data[3]}}"/><br><br>
+        <label for="lager">Lager:</label>
+        <input required type="number" name="lager" value="{{data[4]}}"/><br><br>
+        <label for="preis">Preis:</label>
+        <input required type="number" name="preis" value="{{data[5]}}"/>
+    </fieldset>
+    <input type="submit" value="Speichern" />
+</form>
+{% endblock %}
+```
+
+⭐ [Aktion Bearbeiten hinzufügen](https://github.com/janikvonrotz/python.casa/blob/main/topic-12/Xlsx-Export%20hinzufügen)
