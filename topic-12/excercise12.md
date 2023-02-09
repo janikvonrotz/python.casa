@@ -39,7 +39,7 @@ def delete():
     return redirect(url_for('list'))
 ```
 
-**list.index**
+**template/list.index**
 
 ```html
 {% extends "layout.html" %}
@@ -164,6 +164,10 @@ Als letztes ersetzen Sie den Inhalt des `index.html` Template mit diesem Inhalt:
 
 ### Aufgabe 12.4: Aktion Bearbeiten hinzufügen
 
+Damit die Webapplikation alle CRUD-Operationen ermöglicht, muss noch die Funktion zur Bearbeitung hinzugefügt werden.
+
+Aktualisieren Sie als erstes die `app.py` mit folgendem Code:
+
 **app.py**
 
 ```python
@@ -198,7 +202,11 @@ def save():
         return redirect(url_for('list'))
 ```
 
-**template/list.hmtl**
+Mit diesen zwei Routen können Sie einen Datensatz zur Bearbeitung aufrufen und die Anpassungen speichern.
+
+Damit der Datensatz zum Bearbeiten aufgerufen werde kann, braucht es einen Link. Ersetzen Sie den Inhalt von `list.hmtl` mit diesem Template:
+
+**template/list.html**
 
 ```html
 {% extends "layout.html" %}
@@ -234,6 +242,8 @@ def save():
 {% endblock %}
 ```
 
+Nun fehlt noch das Formular zur Bearbeitung des Datensatzes. Erstellen Sie die folgende Datei:
+
 **template/edit.html**
 
 ```html
@@ -258,5 +268,7 @@ def save():
 </form>
 {% endblock %}
 ```
+
+Führen Sie die `app.py` aus und bearbeiten Sie ein bestehendes Produkt.
 
 ⭐ [Aktion Bearbeiten hinzufügen](https://github.com/janikvonrotz/python.casa/blob/main/topic-12/Xlsx-Export%20hinzufügen)

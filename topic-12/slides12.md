@@ -453,11 +453,25 @@ Lösen Sie die [Aufgaben](excercise12.md#aufgaben) 12.3 und 12.4.
 
 ---
 
-### Vollstände Webapplaktion
+### Vollstände Webapplikation
 
-Die komplette Applikation 
+Die komplette Applikation ist hier verfügbar: ⭐ [Complete](https://github.com/janikvonrotz/python.casa/blob/main/topic-12/Complete)
 
-⭐ [Complete](https://github.com/janikvonrotz/python.casa/blob/main/topic-12/Complete)
+---
+
+### SQL-Statements generieren?
+
+Wie Sie vielleicht bemerkt haben, ist die Übersetzung von Python Datenstrukturen und Aktionen in die SQL-Sprache sehr aufwändig. Wäre es nicht möglich, dass die Interaktion mit der Datenbank vereinfacht wird?
+
+![](../relational-table-python-class.png)
+
+---
+
+### Object Relational Mapper
+
+Die Antwort auf diese Frage sind Object Relation Mapper (ORM). Also Software die Objekte mit relationalen Tabellen verknüpft.
+
+Das bekannteste ORM für Python ist [SQLAlchemy](https://www.sqlalchemy.org/).
 
 ---
 
