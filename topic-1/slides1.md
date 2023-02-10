@@ -82,7 +82,7 @@ Wir machen unsere erste Schritte in der Python-Shell.
 
 > Keine Angst vor dem Terminal
 
-![](../cmd-python.png)
+![](./cmd-python.png)
 
 ---
 ### Terminal starten

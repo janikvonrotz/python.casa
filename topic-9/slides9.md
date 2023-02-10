@@ -195,7 +195,7 @@ Python-Pakete beinhalten Module und Module beinhalten Funktionen, Klassen oder w
 
 Mit dem modularen Ansatz können komplexe Projektstrukturen erzeugt werden.
 
-![](../complex-project.png)
+![](./complex-project.png)
 
 ---
 

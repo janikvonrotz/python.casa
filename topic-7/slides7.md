@@ -67,7 +67,7 @@ Es gibt neue Begriffe.
 
 Eine Klasse dient als Bauplan für verschiedene Objekte.
 
-![](../car-example.png)
+![](./car-example.png)
 
 ---
 
