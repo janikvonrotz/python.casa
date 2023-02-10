@@ -466,7 +466,7 @@ Wird eine Website aufgerufen erhalten wir ein HTML-Dokument als Antwort.
 
 HTML beschreibt wie ein Dokument aussieht und der Browser stellt es entsprechend dar. Diesen Vorgang nennt man *Rendern*.
 
-![browser-rendern](../browser-rendern.gif)
+![browser-rendern](./browser-rendern.gif)
 
 ---
 

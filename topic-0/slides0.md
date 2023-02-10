@@ -55,7 +55,7 @@ Mit dem Kurs sollen die Grundlagen der Software-Entwicklung vermittelt und das V
 
 Ihr findet alles unter <https://python.casa/>.
 
-[![](../buch.png)](https://kofler.info/buecher/python/)
+[![](./buch.png)](https://kofler.info/buecher/python/)
 
 ---
 ### Prüfungen
