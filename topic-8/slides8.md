@@ -397,7 +397,7 @@ Eine Website ist nur ein Dokument. Das World Wide Web (WWW) bezeichnet alle Webs
 
 Mit Kommunikationsprotokoll HTTP laden Computer Websites als Dokumente herunter und zeigen diese im Browser an. 
 
-![](../browser-document.png)
+![](./browser-document.png)
 
 ---
 
