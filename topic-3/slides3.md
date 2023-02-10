@@ -36,7 +36,7 @@ Boolsche Algebra hilft uns diese Probleme zu lösen.
 ---
 ### Binäre und logische Operatoren
 
-![](../binary-operators.png)
+![](binary-operators.png)
 
 ---
 ### Gesetze
