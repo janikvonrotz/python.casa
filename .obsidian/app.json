@@ -14,5 +14,6 @@
   "showInlineTitle": false,
   "userIgnoreFilters": [
     "node_modules/"
-  ]
+  ],
+  "attachmentFolderPath": "./"
 }

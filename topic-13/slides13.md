@@ -49,7 +49,7 @@ Das Schreiben von versioniertem Code kann man sich wie das Wachstum eines Baumes
 
 Die bekannteste und meistverwendete Versionskontrolle ist **git**.
 
-![](../git.png)
+![](./git.png)
 
 🤔 Wer ist diese Person?
 
@@ -162,7 +162,7 @@ git config --global user.name "Mitchel Admin"
 git config --global user.email "mitcheladmin@example.com"
 ```
 
-![](../git-config.png)
+![](./git-config.png)
 
 ---
 
@@ -194,7 +194,7 @@ Git hat die Datei `main.py` erkannt und möchte die Datei "stagen".
 
 🎬 Comitten Sie die Änderungen wie folgt:
 
-![git-commit](../git-commit.gif)
+![git-commit](./git-commit.gif)
 
 ℹ️ Der Terminal-Befehl ist `git commit -m "init main"`
 
@@ -210,7 +210,7 @@ print('Git is great!')
 
 🎬  Vergleichen Sie die Änderung der Datei:
 
-![git-diff](../git-diff.gif)
+![git-diff](./git-diff.gif)
 
 ℹ️ Der Terminal-Befehl ist `git diff`
 
@@ -258,7 +258,7 @@ Im vorhergeheenden Beispiel hatte der Commit mit Nachricht `init main` den Hash 
 
 🎬 Kopieren Sie den Hash ihres `init main` Commits und geben Sie im Terminal `git checkout $HASH` ein:
 
-![git-checkout](../git-checkout.gif)
+![git-checkout](./git-checkout.gif)
 
 Nun sollte die vorhergehende Version der Datei `main.py` angezeigt werden.
 
@@ -268,7 +268,7 @@ Nun sollte die vorhergehende Version der Datei `main.py` angezeigt werden.
 
 🎬 Wechseln Sie wieder zurück zum `master`:
 
-![git-checkout-master](../git-checkout-master.gif)
+![git-checkout-master](./git-checkout-master.gif)
 
 ℹ️ Der Terminal-Befehl ist `git checkout master`
 
@@ -298,7 +298,7 @@ Damit die Änderung lokal verfügbar wird, muss zuerst *gefetched* und anschlies
 
 🎬 Führen Sie diese Aktion aus:
 
-![git-fetch-and-pull](../git-fetch-and-pull.gif)
+![git-fetch-and-pull](./git-fetch-and-pull.gif)
 
 ℹ️ Die Terminal-Befehl sind `git fetch` und `git pull`
 
@@ -326,7 +326,7 @@ Hier nochmals der git Workflow:
 
 Wenn Sie eine neues Feature entwickeln, einen Bug lösen oder verschiedene Versionen der Software entwickeln, brauchen Sie "Branches".
 
-![](../git-branch-master-bugfix-feature.png)
+![](./git-branch-master-bugfix-feature.png)
 
 ---
 

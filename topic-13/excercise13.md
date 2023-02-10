@@ -23,7 +23,7 @@ Geben Sie die Git History mit dem Befehl `git log` aus.
 
 Auf GitHub haben Sie das vielversprechende Repository <https://github.com/fluentpython/example-code> entdeckt und möchten nun den Code lokal ausführen. Kopieren Sie die HTTPS-Url und klonen Sie das Projekt mit VSCode.
 
-![git-clone](../git-clone.gif)
+![git-clone](./git-clone.gif)
 
 Suchen Sie das Programm `bus.py` mithilfe der Suchfunktion <kbd>ctrl</kbd> + <kbd>p</kbd>. Fügen Sie dem Programm den Code unten an und führen Sie das Beispiel aus:
 
@@ -40,7 +40,7 @@ Haben Sie das Programm verstanden?
 
 Erstellen Sie einen Branch `my-example` und comitten Sie die gemachten Änderungen.
 
-![git-branch](../git-branch.gif)
+![git-branch](./git-branch.gif)
 
 Wie wechseln Sie zwischen dem Branch `master` und `my-example`?
 

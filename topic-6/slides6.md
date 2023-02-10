@@ -413,7 +413,7 @@ Lösen Sie die [Aufgaben](excercise6.md#aufgaben) 6.5 und 6.6.
 
 Mit Flowcharts kann man einen Vorgang oder Prozess visualisieren.
 
-![](../flowchart.png)
+![](./flowchart.png)
 
 Zur Darstellung gibt es verschiedene Symbole. Hier die wichtigsten:
 
