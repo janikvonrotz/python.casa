@@ -5,6 +5,16 @@ Ziel: Die Studierenden definieren ein Problem oder Projekt und lösen dieses mit
 Aufwand: 8 Stunden\
 Anteil Gesamtnote: 50%
 
+---
+
+### Lernziele
+
+Ich kann ...
+* eine Problem oder Herausforderung formulieren.
+* zur Programmierung einen Lösungsvorschlag entwickeln.
+* den Lösungsvorschlag implementieren.
+* die Lösung dokumentieren und den Code sachgemäss kommentieren.
+
 ## Durchführung
 
 Der Prozess für den Leistungsnachweis sieht wie folgt aus:

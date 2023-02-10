@@ -16,7 +16,7 @@ Umfang ⏱️: 2 Lektionen
 
 Praxisbezug: Die Studierenden verstehen die Kollaboration an Programmier-Projekten erfolgt.
 
-Ausbildungsziel: [Lernziele](slides12.md#Lernziele)
+Ausbildungsziel: [Lernziele](slides13.md#Lernziele)
 
 Inhalte:
 * Git Kommandozeilenwerkzeug
