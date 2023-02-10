@@ -246,7 +246,7 @@ cowsay.cow('pip is great.')
 
 Und führen Sie das Programm aus.
 
-![](../cowsay.png)
+![](./cowsay.png)
 
 ---
 

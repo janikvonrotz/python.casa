@@ -64,7 +64,7 @@ so-gehts-auch-nicht = 6  # Fehler: Als einziges Sonderzeichen ist _ e
 
 Es gibt verschiedene Typen zum Speichern von Daten.
 
-![](../datentypen.png)
+![](./datentypen.png)
 
 ---
 ### Lebensdauer

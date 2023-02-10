@@ -31,7 +31,7 @@ Wie man Text-Daten liest und speichert, wissen wir. Im Umgang mit grossen Datenm
 
 Daten in einer Datenbank an einem Ort speichern.
 
-![](../data-central.png)
+![](./data-central.png)
 
 ---
 
@@ -47,7 +47,7 @@ Daten in einer Datenbank an einem Ort speichern.
 
 Auf einem Server installiert man ein Datenbankmanagementsystem.
 
-![](../datenbanksystem.png)
+![](./datenbanksystem.png)
 
 Auf dem Desktop kann man direkt auf die Datenbank zugreifen.
 
