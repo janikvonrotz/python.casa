@@ -20,13 +20,15 @@ thead {
 
 Sie möchten in der Navigation der Webapp neuen Link hinzu. Fügen die den a-Tag `<a href="https://python.casa">python.casa</a>` an der richtien Stelle im `layout.html` ein.
 
-⭐ [Template anpassen.py](https://github.com/janikvonrotz/python.casa/blob/main/topic-12/Template%20anpassen)
+⭐ [Template anpassen](https://github.com/janikvonrotz/python.casa/blob/main/topic-12/Template%20anpassen)
 
 ### Aufgabe 12.2: Aktion Löschen hinzufügen
 
-Sie möchten eine neue Funktion in der Webapplikation einbauen. Benutzer sollen Produkte löschen können. Dazu haben diese Code-Teile erstellt:
+Sie möchten eine neue Funktion in der Webapplikation einbauen. Benutzer sollen Produkte löschen können. Dazu haben diese Code-Teile zur verfügung.
 
 **app.py**
+
+Fügen Sie den folgenden Code in die `app.py` Datei vor 
 
 ```python
 @app.route('/delete', methods=['POST'])
@@ -39,7 +41,9 @@ def delete():
     return redirect(url_for('list'))
 ```
 
-**template/list.index**
+**template/list.html**
+
+Ersetzen Sie den Inhalt der Datei mit:
 
 ```html
 {% extends "layout.html" %}
@@ -86,6 +90,8 @@ Wir möchten die Daten aus der Datenbank in eine Excel-Datei exportieren. Dazu e
 Fügen Sie die folgende Datei dem Projekt hinzu und ergänzen Sie alle mit `# Kommentar` markierten Zeile mit einem Kommentar. Versuchen Sie den Code zu verstehen.
 
 **export.py**
+
+Erstellen Sie die Datei `export.py` mit diesem Inhalt:
 
 ```python
 # Kommentar
@@ -145,7 +151,7 @@ Und vor dem Aufruf der `__main__` Funktion erstellen Sie die Route für den Expo
 @app.route('/file')
 def file():
     export.xlsx()
-    return send_file('output.xlsx', attachment_filename='output.xlsx')
+    return send_file('output.xlsx')
 ```
 
 Als letztes ersetzen Sie den Inhalt des `index.html` Template mit diesem Inhalt:
@@ -168,9 +174,9 @@ Führen Sie das `app.py` aus und klicken Sie auf *output.xlsx herunterladen*.
 
 Damit die Webapplikation alle CRUD-Operationen ermöglicht, muss noch die Funktion zur Bearbeitung hinzugefügt werden.
 
-Aktualisieren Sie als erstes die `app.py` mit folgendem Code:
-
 **app.py**
+
+Aktualisieren Sie als erstes die `app.py` mit folgendem Code:
 
 ```python
 @app.route('/edit/<id>')

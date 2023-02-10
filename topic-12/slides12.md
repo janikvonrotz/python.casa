@@ -122,7 +122,7 @@ Wir verwenden Jinja um die Ansicht der Webapp zu generieren.
 
 ### Layout Template erstellen
 
-🎬 Füllen Sie das `layout.html` mit diesem Inhalt aus:
+🎬 Füllen Sie das `layout.html` mit diesem Inhalt aus und speichern Sie die Datei mit <kbd>ctrl</kbd>+<kbd>s</kbd>:
 
 ```html
 <!doctype html>
@@ -162,7 +162,7 @@ Ihnen ist sicher der Inhalt `{% block content %}{% endblock %}` aufgefallen. All
 
 ### Index Template erstellen
 
-🎬 Füllen Sie das `index.html` mit diesem Inhalt aus:
+🎬 Füllen Sie das `index.html` mit diesem Inhalt aus und speichern Sie die Datei mit <kbd>ctrl</kbd>+<kbd>s</kbd>:
 
 ```html
 {% extends "layout.html" %}
@@ -179,7 +179,7 @@ Dieses Template verwendet das `layout.html` als Vorlage.
 
 ### List Template erstellen
 
-🎬 Füllen Sie das `list.html` mit diesem Inhalt aus:
+🎬 Füllen Sie das `list.html` mit diesem Inhalt aus und speichern Sie die Datei mit <kbd>ctrl</kbd>+<kbd>s</kbd>:
 
 ```html
 {% extends "layout.html" %}
@@ -214,7 +214,7 @@ Damit werden die Inhalte aus der Datenbank in einer Tabelle aufgelistet.
 
 ### Submit Template erstellen
 
-🎬 Füllen Sie das `submit.html` mit diesem Inhalt aus:
+🎬 Füllen Sie das `submit.html` mit diesem Inhalt aus und speichern Sie die Datei mit <kbd>ctrl</kbd>+<kbd>s</kbd>:
 
 ```html
 {% extends "layout.html" %}

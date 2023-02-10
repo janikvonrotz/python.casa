@@ -127,7 +127,7 @@ Nun installieren wir git auf dem Computer.
 
 ### Git und VSCode
 
-VSCode sollte git automatisch erkennen.
+VSCode sollte Git automatisch erkennen.
 
 ---
 
@@ -135,7 +135,7 @@ VSCode sollte git automatisch erkennen.
 
 🎬 Führen Sie diese Aktionen aus:
 
-* Neuer Ordner `Thema 13` erstellen
+* Neuer Ordner `Thema13` erstellen
 * Ordner mit VSCode öffnen
 * Datei `main.py` mit diesem Code anlegen:
 
@@ -147,7 +147,7 @@ print('Hello git!')
 
 ### Beispiel mit VSCode und git
 
-Die folgenden Beispielen zeigt wie man mithilfe von VSCode mit git arbeitet. Dabei gilt es zu beachten, dass im Hintergrund ie git-Befehle immer auf der Kommandozeile ausgeführt werden.
+Die folgenden Beispielen zeigt wie man mithilfe von VSCode mit git arbeitet. Dabei gilt es zu beachten, dass im Hintergrund die git-Befehle immer auf der Kommandozeile ausgeführt werden.
 
 VSCode macht die Arbeit mit git "einfacher". Zu jedem Beispiel wird, wenn möglich, der entsprechende git-Befehl gezeigt.
 
