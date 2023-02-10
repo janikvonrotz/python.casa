@@ -48,7 +48,7 @@ Umso schwieriger die Begriffe:
 ---
 ### Anteile der Programmiersprachen
 
-![](../anteile-programmiersprachen.png)
+![](./anteile-programmiersprachen.png)
 
 ---
 ### Programmiersprache Python
