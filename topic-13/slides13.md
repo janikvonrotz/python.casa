@@ -77,7 +77,7 @@ Was man mit git normalerweise macht:
 
 Versionsstand von Software-Code mit mehreren Mitarbeitenden (Contributors) synchron halten.
 
-![](../git-goal.png)
+![](./git-goal.png)
 
 ---
 
@@ -371,7 +371,7 @@ So wie man Branches verzweigen kann, kann man sie auch wieder zusammenführen.
 
 Die Änderungen vom Feature-Branch sollten nun auf dem Master-Branch erscheinen.
 
-![](../git-merge-branches.gif)
+![](./git-merge-branches.gif)
 
 ℹ️ Der Terminal-Befehl ist `git merge feature-xy`.
 
@@ -381,7 +381,7 @@ Die Änderungen vom Feature-Branch sollten nun auf dem Master-Branch erscheinen.
 
 Wenn Sie auf unterschiedlichen Branches auf der gleichen Zeile in einer Datei eine Änderungen machen, comitten und anschliessend den einen Branch in den anderen mergen wollen, wird eine Konflikt entstehen.
 
-![](../git-merge-konflikt.png)
+![](./git-merge-konflikt.png)
 
 VSCode bietet entsprechende Funktionen um den Konflikt zu beheben. Die Korrektur des Konflikts resultiert in einem neuen Commit.
 
