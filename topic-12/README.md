@@ -20,8 +20,9 @@ Ausbildungsziel: [Lernziele](slides12.md#Lernziele)
 
 Inhalte:
 * 3-Tier Architektur
-* HTML und Vorlagen
-* Router
+* Grafische Oberfläche mit HTML
+* Router mit Templates
+* Xlsx-Export
 
 Didaktische Unterlagen:
 * Präsenzunterricht

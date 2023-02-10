@@ -12,16 +12,14 @@ Der Kurs erfordert drei Semesternoten um die Abschlussnote zu bilden. Es wurde e
 
 Praxisbezug: Die Studierenden lernen wie Sie ein formuliertes Problem mit Programmierung selbständig lösen.
 
-Ausbildungsziel: [Lernziele](slides12.md#Lernziele)
+Ausbildungsziel: [Lernziele](exam3.md#Lernziele)
 
 Inhalte:
-* Git Kommandozeilenwerkzeug
-* Softwareversionskontrolle
-* Kollaboration mit Remote-Repository
+* Entwicklung Problemstellung
+* Code mit Dokumentation
+* Ideen zur Programmierung
 
 Didaktische Unterlagen:
-* Präsenzunterricht
 * Angeleitetes Selbststudium
 * Live-Demonstration
-* Gruppenarbeit
 * Online Unterlagen

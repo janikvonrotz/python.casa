@@ -14,7 +14,7 @@ Umfang ⏱️: 1 Lektion
 
 ## Meta
 
-Praxisbezug: Die Studierenden wie Computer Datum und Uhrzeit verstehen.
+Praxisbezug: Die Studierenden wissen wie Computer das Datum und Uhrzeit verstehen.
 
 Ausbildungsziel: [Lernziele](slides4.md#Lernziele)
 

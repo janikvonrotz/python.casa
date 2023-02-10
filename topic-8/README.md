@@ -19,8 +19,8 @@ Praxisbezug: Die Studierenden lernen Daten gespeichert und über Netzwerke hinwe
 Ausbildungsziel: [Lernziele](slides8.md#Lernziele)
 
 Inhalte:
-* Dateisystem
-* Text-, CSV-, und JSON-Dateien
+* Aufbau Dateisystem
+* Text-, CSV-, und JSON-Dateiformat
 * Kommunikation mit HTTP
 
 Didaktische Unterlagen:

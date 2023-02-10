@@ -14,7 +14,7 @@ Umfang ⏱️: 3 Lektionen
 
 ## Meta
 
-Praxisbezug: Die Studierenden verstehen wie grafische Oberflächen entstehen.
+Praxisbezug: Die Studierenden verstehen wie grafische Oberflächen entwickelt werden.
 
 Ausbildungsziel: [Lernziele](slides11.md#Lernziele)
 

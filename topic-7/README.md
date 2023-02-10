@@ -14,7 +14,7 @@ Umfang ⏱️: 2 Lektionen
 
 ## Meta
 
-Praxisbezug: Die Studierenden lernen wie reale Objekte abstrahiert werden können. Sie verstehen den Mechanismus der Vererbung.
+Praxisbezug: Die Studierenden lernen wie reale Objekte in Programmcode abstrahiert werden.
 
 Ausbildungsziel: [Lernziele](slides7.md#Lernziele)
 

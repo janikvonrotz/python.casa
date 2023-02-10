@@ -14,7 +14,7 @@ Umfang ⏱️: 3 Lektionen
 
 ## Meta
 
-Praxisbezug: Die Studierenden können Vorgänge und Prozesse mit Diagrammen visualisieren. Sie lernen das Fundament von Algorithmen kennen.
+Praxisbezug: Die Studierenden können Vorgänge und Prozesse mit Diagrammen visualisieren. Sie lernen die Funktionsweise von Algorithmen kennen.
 
 Ausbildungsziel: [Lernziele](slides6.md#Lernziele)
 

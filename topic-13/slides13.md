@@ -61,7 +61,7 @@ Git zu lernen ist nicht schwierig. Git zu verstehen aber schon.
 
 ---
 
-### Arbeit mit git
+### Arbeit mit Git
 
 Was man mit git normalerweise macht:
 1. **Inititalisierung**: Git Projekt erstellen
@@ -73,7 +73,7 @@ Was man mit git normalerweise macht:
 
 ---
 
-### Ziel von git
+### Ziel von Git
 
 Versionsstand von Software-Code mit mehreren Mitarbeitenden (Contributors) synchron halten.
 
@@ -292,7 +292,7 @@ Nun möchten wir die Änderungen auf GitHub publizieren.
 
 ---
 
-### Fetchen und pullen
+### Fetch und Pull
 
 Damit die Änderung lokal verfügbar wird, muss zuerst *gefetched* und anschliessend *gepullt* werden.
 

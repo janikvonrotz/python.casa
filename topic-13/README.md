@@ -14,7 +14,7 @@ Umfang ⏱️: 2 Lektionen
 
 ## Meta
 
-Praxisbezug: Die Studierenden verstehen die Kollaboration an Programmier-Projekten erfolgt.
+Praxisbezug: Die Studierenden verstehen wie die Kollaboration an Programmier-Projekten erfolgt.
 
 Ausbildungsziel: [Lernziele](slides13.md#Lernziele)
 
