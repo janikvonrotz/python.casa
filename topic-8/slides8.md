@@ -381,14 +381,6 @@ Lösen Sie die [Aufgaben](excercise8.md#aufgaben) 8.3 und 8.4.
 
 ---
 
-### Pause
-
-⚡Wir machen eine Pause ⏱️ 15 Minuten
-
-<iframe src="https://giphy.com/embed/iigcSmBaMUC5FoSUlu" width="280" height="280" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-
----
-
 ### Dateien übertragen
 
 Dateien wie wir Sie gerade erstellt und gelesen haben, können über ein Netzwerk zwischen Computer übertragen werden.

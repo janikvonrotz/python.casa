@@ -13,7 +13,7 @@ Ich kann ...
 * die Begriffe der Versionskontrolle erklären.
 * mit Git die Änderungen an Programm-Code dokumentieren.
 * mithilfe von Git mit einem Remote-Repository synchronisieren.
-* besteheender Code mit Git auf die lokale Entwicklungsumgebung laden.
+* bestehender Code mit Git auf die lokale Entwicklungsumgebung laden.
 
 ---
 
@@ -234,13 +234,13 @@ In der Git History sind nun 2 Commits.
 
 ![git-log](../git-log.gif)
 
-ℹ️ Zum schliessen der Ansicht drücken Sie `q`.
+ℹ️ Zum schliessen der Ansicht drücken Sie <kbd>q</kbd>.
 
 ---
 
 ### Aufgaben 1
 
-Lösen Sie die [Aufgaben](excercise13.md#aufgaben) 13.1.
+Lösen Sie die [Aufgabe](excercise13.md#aufgaben) 13.1.
 
 ⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 10 Minuten
 
@@ -271,14 +271,6 @@ Nun sollte die vorhergehende Version der Datei `main.py` angezeigt werden.
 ![git-checkout-master](../git-checkout-master.gif)
 
 ℹ️ Der Terminal-Befehl ist `git checkout master`
-
----
-
-### Pause
-
-⚡Wir machen eine Pause ⏱️ 15 Minuten
-
----
 
 ### Repository veröffentlichen
 
@@ -330,11 +322,68 @@ Hier nochmals der git Workflow:
 
 ---
 
+### Branching
+
+Wenn Sie eine neues Feature entwickeln, einen Bug lösen oder verschiedene Versionen der Software entwickeln, brauchen Sie "Branches".
+
+![](../git-branch-master-bugfix-feature.png)
+
+---
+
 ### Einen neuen Branch erstellen
+
+Ein Branch ist ein neuer Ast ihres Code-Baums.
+
+🎬 Klicken in VSCode unten links auf *master* und im neuen Dialog wählen Sie *Create new branch...*. Geben Sie als Bezeichnung `feature-xy`.
+
+![](../vsocde-checkout-branch.png)
+
+ℹ️ Der Terminal-Befehl ist `git switch -c feature-xy`.
 
 ---
 
 ### Zwischen Branches wechseln
+
+Über denselben Dialog können 
+
+🎬 Führen Sie diese Aktionen aus:
+
+* Machen Sie eine Änderung auf dem `feature-xy` Branch
+* Wechseln Sie zurück auf den `master` Branch
+
+Ihre Änderung sollte auf dem Branch nicht vorhanden sein.
+
+![](../git-switch-branches.gif)
+
+ℹ️ Der Terminal-Befehl ist `git switch master`.
+
+---
+
+### Branches zusammenführen
+
+So wie man Branches verzweigen kann, kann man sie auch wieder zusammenführen.
+
+🎬 Führen Sie diese Aktionen aus:
+
+* Zeigen Sie den `master` Branch an
+* Frühren Sie die Aktion *Git: Merge Branch...* aus
+* Wahlen Sie `feature-xy` als Branch
+
+Die Änderungen vom Feature-Branch sollten nun auf dem Master-Branch erscheinen.
+
+![](../git-merge-branches.gif)
+
+ℹ️ Der Terminal-Befehl ist `git merge feature-xy`.
+
+---
+
+### Merge Konflikte
+
+Wenn Sie auf unterschiedlichen Branches auf der gleichen Zeile in einer Datei eine Änderungen machen, comitten und anschliessend den einen Branch in den anderen mergen wollen, wird eine Konflikt entstehen.
+
+![](../git-merge-konflikt.png)
+
+VSCode bietet entsprechende Funktionen um den Konflikt zu beheben. Die Korrektur des Konflikts resultiert in einem neuen Commit.
 
 ---
 
@@ -343,6 +392,14 @@ Hier nochmals der git Workflow:
 Lösen Sie die [Aufgaben](excercise13.md#aufgaben) 13.2, 13.3 und 13.4.
 
 ⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 10 Minuten
+
+---
+
+### Mehr von Git lernen
+
+Wenn Sie von noch nicht genug haben, besuchen und installieren das Spiel [Oh My Git!](https://ohmygit.org/)
+
+![](../oh-my-git.png)
 
 ---
 

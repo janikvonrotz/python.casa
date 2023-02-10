@@ -1,2 +1,3 @@
-git switch my-example
+git switch -c my-example
 git switch master
+git switch my-example

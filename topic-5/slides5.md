@@ -247,13 +247,7 @@ print(s)
 ```
 
 ---
-### Pause
 
-⚡Wir machen eine Pause ⏱️ 15 Minuten
-
-<iframe src="https://giphy.com/embed/Q6joirtIBHUsw" width="280" height="280" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-
----
 ### Dictionaries
 
 * Elementaufzählungen mit einem Schlüssel zur Verwaltung

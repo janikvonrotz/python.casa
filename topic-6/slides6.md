@@ -409,14 +409,6 @@ Lösen Sie die [Aufgaben](excercise6.md#aufgaben) 6.5 und 6.6.
 
 ---
 
-### Pause
-
-⚡Wir machen eine Pause ⏱️ 10 Minuten
-
-<iframe src="https://giphy.com/embed/3o7aCVTfelG4XSbv3y" width="280" height="280" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-
----
-
 ### Flowcharts
 
 Mit Flowcharts kann man einen Vorgang oder Prozess visualisieren.

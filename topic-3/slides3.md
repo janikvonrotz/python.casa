@@ -212,13 +212,7 @@ print(s2) # Ergebnis 'abcabcabcxx'
 ```
 
 ---
-### Pause
 
-⚡Wir machen eine Pause ⏱️ 10 Minuten
-
-<iframe src="https://giphy.com/embed/pp6pC4XgyDOiQ" width="280" height="280" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-
----
 ### Sonderzeichen
 
 Sonderzeichen können mit Escape-Sequenzen eingebettet werden.
