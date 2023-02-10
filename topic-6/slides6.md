@@ -422,7 +422,7 @@ Zur Darstellung gibt es verschiedene Symbole. Hier die wichtigsten:
 
 🎬 Öffnen Sie die Website <https://app.diagrams.net> und erstellen Sie ein ein Diagramm mit den Element aus dem Bereich *General*.
 
-![](../diagrams-general.png)
+![](./diagrams-general.png)
 
 ---
 

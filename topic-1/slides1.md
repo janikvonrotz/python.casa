@@ -18,7 +18,7 @@ Ich kann ...
 ---
 ### Der Computer ist einfach
 
-![](../elments-of-computer-system.png)
+![](./elments-of-computer-system.png)
 
 ---
 ### Warum braucht es Programmierung?
@@ -154,7 +154,7 @@ Wir laden ein Programmcode herunter und speichern ihn in einem Ordner.
 * Projektordner und Unterordner `Thema1` erstellen
 * Datei-Link [HelloWorld.py](https://raw.githubusercontent.com/janikvonrotz/python.casa/main/topic-1/HelloWorld.py) öffnen
 
-![](../firefox-save-page-as.png)
+![](./firefox-save-page-as.png)
 
 * Rechtsklick auf die Seite machen und *Seite speichern unter...* wählen
 * Speichern als `HelloWorld.py` im neuen Ordner

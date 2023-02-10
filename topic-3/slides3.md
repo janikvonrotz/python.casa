@@ -217,7 +217,7 @@ print(s2) # Ergebnis 'abcabcabcxx'
 
 Sonderzeichen können mit Escape-Sequenzen eingebettet werden.
 
-![](../escape-sequences.png)
+![](./escape-sequences.png)
 
 ```python
 print("Hallo\nWelt")

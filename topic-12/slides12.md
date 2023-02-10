@@ -333,11 +333,9 @@ Nun sind wir bereit um die Python Flask Webapplikation zu starten.
 
 🎬 Führen Sie die Datei `app.py` aus.
 
-![](../flask-start.png)
+![](./flask-start.png)
 
 Öffnen Sie die Adresse <http://127.0.0.1:5000/> in ihrem Browser.
-
-
 
 ---
 
@@ -366,7 +364,7 @@ Press CTRL+C to quit
 
 Wenn Sie folgenden Ausschnitt im Browser sehen, haben Sie erfolgreich einen Python Flask Webserver gestartet und eine Webapplikation bereitgestellt.
 
-![](../flask-server.png)
+![](./flask-server.png)
 
 ---
 

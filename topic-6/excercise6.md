@@ -167,7 +167,7 @@ users = list(filter)
 
 Schreiben Sie diese Flowchart als Code:
 
-![diagram](diagram.svg)
+![diagram](./diagram.svg)
 
 ⭐ [Chart to Code](https://github.com/janikvonrotz/python.casa/blob/main/topic-6/Chart%20to%20Code.py)
 
