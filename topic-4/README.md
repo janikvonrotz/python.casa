@@ -2,7 +2,7 @@
 
 Umfang ⏱️: 1 Lektion
 
-[Alle Unterlagen anzeigen](https://github.com/janikvonrotz/python.casa/tree/main/topic-3-5)
+[Alle Unterlagen anzeigen](https://github.com/janikvonrotz/python.casa/tree/main/topic-4)
 
 ## [Slides](slides4.md)
 
