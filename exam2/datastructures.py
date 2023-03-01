@@ -1,0 +1,8 @@
+print(type(1.5))
+print(type(False))
+print(type('False'))
+print(type([1.5]))
+print(type(-15))
+print(type((1, 5)))
+print(type({1:5}))
+print(type(b'1'))
