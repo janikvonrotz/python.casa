@@ -141,3 +141,7 @@ Punkte: 17
 * **Ausführbar \[2\]**: Der Code kann gemäss "Technische Anleitung" ausgeführt werden.
 * **Optimierung \[2\]**: Schleifen und Funktionen werden genutzt.
 * **Komplexität \[3\]**: Die Problemstellung entspricht HF-Niveau.
+
+## Abgabe
+
+Die Dokumentation wird als `.pdf` Datei und der Code als `.zip` Datei in das entsprechende Abgabefenster auf Moodle hochgeladen.
