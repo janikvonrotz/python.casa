@@ -106,7 +106,7 @@ Auf <https://carbon.now.sh/> kann man seinen Code einfügen und als Bild darstel
 Mit [draw.io](https://draw.io) kann man Flowcharts erstellen und so den Code dokumentieren.
 :::
 
-Eine Vorlage für ein `.docx` kann [hier heruntergeladen](https://github.com/janikvonrotz/python.casa/raw/main/Dokumentation.docx) werden.
+Eine Vorlage für ein `.docx` kann [hier heruntergeladen](https://github.com/janikvonrotz/python.casa/raw/main/Dokumentation.docx) werden und eine Vorlage im Markdown-Format gibt es [Dokumentation](Dokumentation.md).
 
 ## Kriterien
 
