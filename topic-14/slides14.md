@@ -104,7 +104,7 @@ The end ...
 
 🎬 Machen Sie einen Rechtsklick auf die Datei `README.md` und wählen Sie *Open Preview*.
 
-![](vscode-preview-readme.png)
+![](./vscode-preview-readme.png)
 
 
 ---
