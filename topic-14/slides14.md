@@ -211,7 +211,7 @@ Obsidian erstellt das Dokument `About`. Sie können das Dokument bearbeiten.
 
 🎬 Wählen Sie auf der Linken Seite *Graph-Ansicht öffnen*.
 
-![](obsidian-graph.png)
+![](./obsidian-graph.png)
 
 Die Verlinkung zwischen dem Dokument `README` und `About` wird visualisiert.
 
