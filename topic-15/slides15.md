@@ -139,7 +139,7 @@ Neuronales Netzerk (Modell) trainieren mit Bilder von handgeschriebenen Zahlen (
 * Bilder mit der korrekten Zahl *labeln*
 * Model trainieren (Ziel korrektes Label voraussagen)
 * Model optimieren
-![](machine-learning.png)
+![](./machine-learning.png)
 
 ---
 
