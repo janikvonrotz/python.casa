@@ -109,7 +109,7 @@ The end ...
 
 ---
 
-### Live-Vorschlau
+### Live-Vorschau
 
 🎬 Schiebt das Vorschau-Fenster auf die rechte Seite und bearbeitet das Markdown-Dokument.
 
