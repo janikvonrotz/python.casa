@@ -219,6 +219,16 @@ Die Verlinkung zwischen dem Dokument `README` und `About` wird visualisiert.
 
 ---
 
+### Was kann mich mit Obsidian?
+
+* Komplexe Dokumentationen schreiben.
+* Wikis für das Unternehmen erstellen.
+* Persönliche Projekte planen und ausführen.
+
+Es gibt noch weitere Alternativen wie <https://joplinapp.org/>, <https://logseq.com/>
+
+---
+
 ### Review
 
 🎯 Wurden die [Lernziele](#lernziele) erreicht?
