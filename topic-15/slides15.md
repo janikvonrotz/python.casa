@@ -114,13 +114,13 @@ Datenwissenschaft (Data Science) ist ein interdisplinäres Fachgebiet zwischen I
 Dabei werden wissenschaftliche Methoden, Algorithmen und Prozesse verwendet um Wissen und Einglick aus strukturierten und unstrukturierten Daten zu gewinnen. Verwertbare Erkenntnisse werden dann wieder als Produkt angewandt
 
 
-![](data-science-field.png)
+![](./data-science-field.png)
 
 ---
 
 ### Herangehensweise im Data Science Bereich
 
-![](topic8_ml_procedure.jpg)
+![](./topic8_ml_procedure.jpg)
 Das grundlegende Vorgehen ist immer gleich[^4] :
 * Daten erfassen
 * Daten bereinigen und vorbereiten
