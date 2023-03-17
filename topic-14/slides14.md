@@ -1,5 +1,5 @@
 # Slides Thema 14
-## Jupiter-Notebooks, Pandas und Plotly
+## Dokumentation mit Markdown
 
 [◀️ Thema 14](README.md)
 
@@ -7,243 +7,222 @@
 
 ---
 
-### Sebastian von Rotz
+### Lernziele
 
-**Hintergrund**:
-
-* Gelernter Chemielaborant
-* Bachelor in Biotechnologie
-* Master in Data Science
-
-**Aktuelle Tätigkeiten**:
-
-Securecell AG (Medtech / Biotech)
-* 60% Applikationsspezialist für Software im Biotechnologie Bereich
-
-ZHAW LSFM
-* 40% Wissenschaftlicher Assistent in Fachgruppe Bioprozesstechnologie
-
-♻️ Bioinformatik, Bioprozesstechnologie, Data Science, Software
+Ich kann ...
+* Markdown-Dokumente erstellen.
+* die Markdown-Syntax anwenden.
+* Markdown-Erweiterungen verstehen.
+* mit Obsidian Markdown-Dateien vearbeiten und verlinken.
 
 ---
 
-### Ausblick
+### Was ist Markdown?
 
-Themen für die heutigen Lektonen:
+Markdown ist eine vereinfachte Auszeichnungssprache.
 
-* Relevanz *Data Science* Werkzeuge in der Medizintechnik
-* Aufsetzen, Bearbeitung und Ausführung von Jupyter Notebooks
-* Implementierung der Pandas und Plotly-express Python Pakete
-* Laden, Inspizierung, Visualisierung von Daten
-* Machine Learning Modell (*AI*) anwenden auf Medizin Technik relevantes Datenset
-
-🎯 Überblick über Anwendung von Datenwissenschaften im Gesundheitsbereich. Jupyter Notebook als Programmierumgebung kennenlernen
+Ein Ziel von Markdown ist eine leicht lesbare Ausgangsform bereits vor der Konvertierung.
 
 ---
 
-### Daten im Gesundheitsbereich
+### Beispiel eines Markdown-Dokument
 
-Die meisten Daten im Gesundheitsbereich werden natürlich rund um einen Patienten erfasst. Dabei können die art der Daten sehr divers sein[^1] :
+Markdown-Dokumente sind Text-Dateien mit der Dateiendung `.md`.
 
-* **Physiologisch** (Butdruck, Sauerstoffsättigung,...)
-* **Omics-Big Data** (Genom Sequenzierung, Protein Analysen,...)
-* **Bildgebend** (Mikroskopie, MRI, X-Ray,...)
-* **Logistik** (Spital Mngmt, Temperatur Sensoren)
+```markdown
+Markdown Lernen
+===============
 
----
+## Einleitung
 
-### Quelle der Daten
+**Markdown** ist eine vereinfachte Auszeichnungssprache.
+```
 
-Nicht nur sind die Daten Typen sind divers, so auch sind die Quellen welche diese erfassen[^2]:
-
-* **Medizintechnische Geräte**
-* **Wearables** (Sensoren am Patienten, Smartwatches,...)
-* **IoT Sensoren** (Temperatur, Gaszusammensetzung,...)
-* **Datenerfassung** von Spitalpersonal
+🤔 Für was stehen die Spezialzeichen `=, #, *`?
 
 ---
 
-### Ziele der Datenwissenschaften im Gesundheitsbereich
+### Mardown als HTML-Dokument
 
-**Personalisierung**
+Markdown kann in HTML umgewandelt werden.
 
-Besonders anfallende Daten rund um den Patienten sind von Interesse, da diese es erlauben patientenspezifische Voraussagen Im Kontext der Diagnoistik, Krankheitsverläufe und personalisierter Medizin zu etablieren.
+```html
+<h1 id="markdown-lernen">Markdown Lernen</h1>
+<h2 id="einleitung">Einleitung</h2>
+<p><strong>Markdown</strong> ist eine vereinfachte Auszeichnungssprache.</p>
+```
 
-**Voraussage**
+ℹ️ Diese Website ist volltständig in Markdown geschrieben.
 
-Dabei sollen Softwareprodukte und Geräte entwickelt werden welche es erlauben Krankheiten zu detektieren und Krankheitsveräufe vorauszusagen.
+### README erstellen
 
-**Innovation**
+🎬 Führen Sie diese Aktionen aus:
 
-Neue Innovationen vorallem im Bereich computergestützte Modelle zur Predikitiven Diagnostik (Bsp. Herzinfarkt Risiko abschätzen, Automatisches Screenen von Tumoren)
+* Neuer Ordner `Thema14` erstellen
+* Ordner mit VSCode öffnen
+* Datei `README.md` mit diesem Code anlegen:
 
----
-### Relevanz in der Medizintechnik
+`````markdown
+# Sample Markdown
 
-Trend zu Datengetriebenen Diagnose und Monitoring Systemen. Heisst Geräte werden vernetzter und *smarter* und die Hauptkomponente ist ein Modell welches automatisch Daten auswertet.
+This is some basic, sample markdown.
 
-Beispiele für datengetriebene medizintechnische Systeme:
-* IoT in Healthcare
-* Remote Monitoring von Patienten
-* Automatisches Auswerten von CT-Scans
+## Second Heading
 
-ℹ️ Ein datengetriebenes Produkt kann sowohl eine Software sein wie auch ein Gerät welches Daten aufzeichnet und diese mittels eines Algorithmus auswertet[^5].
-* Software -> Automatische Bildauswertung (Screenen von Lebererkrankung)
-* Gerät -> Sensor für physiologische Daten welcher Wahrscheinlichkeit und Verlauf einer Krankheit prediktiert (Smartwatch)
+ * Unordered lists, and:
+  1. One
+  1. Two
+  1. Three
+ * More
 
----
+> Blockquote
 
-### Herausforderungen für datengetriebene Medizintechnik Produkte
+And **bold**, *italics*, and even *italics and later **bold***. Even ~~strikethrough~~. [A link](https://markdowntohtml.com) to somewhere.
 
-Um datengestützte Modelle und datengetriebene Medizinaltechnische Produkte zu etablieren müssen einige Herausforderungen überwunden werden.
+And code highlighting:
 
-* Hohe regulatorische Anforderungen
-* Aufreinigung von Daten ist mit grossem Aufwand verbunden
-* Kombination von verschiedenen Datenquellen
-* Verschiedene Patientendatenbanken (Kantonal)
-* Big Data Handhabung
+```js
+var foo = 'bar';
 
-ℹ️ Besonders regulatorische Anforderungen bilden eine grosse Hürde für Datengetriebene Produkte[^3] (Bsp. Black Box Modell wie neuronale Netzwerke)
+function baz(s) {
+   return foo + ':' + s;
+}
+```
 
----
+Or inline code like `var foo = 'bar';`.
 
-### Data Science im Allgemeinen
+Or an image of bears
 
-Datenwissenschaft (Data Science) ist ein interdisplinäres Fachgebiet zwischen Informatik, Mathematik und einer weiteren Domäne (Biologie, Medizin, Elektronik).
+![bears](http://placebear.com/200/200)
 
-Dabei werden wissenschaftliche Methoden, Algorithmen und Prozesse verwendet um Wissen und Einglick aus strukturierten und unstrukturierten Daten zu gewinnen. Verwertbare Erkenntnisse werden dann wieder als Produkt angewandt
-
-
-![](./data-science-field.png)
-
----
-
-### Herangehensweise im Data Science Bereich
-
-![](./topic8_ml_procedure.jpg)
-Das grundlegende Vorgehen ist immer gleich[^4] :
-* Daten erfassen
-* Daten bereinigen und vorbereiten
-* Ein Modell trainieren
-* Das Modell auswerten
-* Das Modell weiter optimieren und einsetzen
-
-ℹ️ Grösster Teil der Arbeit findet in der Aggregation und Aufarbeitung statt
+The end ...
+`````
 
 ---
 
-### Beispiel: Erkennung von handgeschriebenen Zahlen
+### HTML-Vorschau anzeigen
 
-Neuronales Netzerk (Modell) trainieren mit Bilder von handgeschriebenen Zahlen (Daten)[^6] : 
-* Bilder von handgeschribenen Zahlen erfassen
-* Bilder mit der korrekten Zahl *labeln*
-* Model trainieren (Ziel korrektes Label voraussagen)
-* Model optimieren
-![](./machine-learning.png)
+🎬 Machen Sie einen Rechtsklick auf die Datei `README.md` und wählen Sie *Open Preview*.
+
+![](vscode-preview-readme.png)
+
 
 ---
 
-### Datensatz und Modell
+### Live-Vorschlau
 
-Grundsätzlich benötigt man 2 Komponenten:
-* **Datensatz**
-* **Modell**
-
-Der Datensatz erlaubt es ein Modell auf automatische weise zu trainieren, das Modell erlaubt es dann aufgrund der Daten voraussagen und Prediktionen zu treffen.
+🎬 Schiebt das Vorschau-Fenster auf die rechte Seite und bearbeitet das Markdown-Dokument.
 
 ---
 
-### Werkzeuge im Data Science Bereich
+### Bilder einfügen
 
-Es gibt eine schier unüberblickbare Anzahl an Werkzeugen im Data Science Bereich.
+Die Anzeige von Bilder ist etwas umständlicher als gewohnt.
 
-![](./ml-ai-infrastructure.png)
+🎬 Führen Sie diese Aktionen aus:
 
-Grundlegend werden aber meistens Werkzeuge in den folgenden Kategorien verwendet:
-* **Datenverarbeitung**: Daten Datensatz speichern und manipulieren
-* **Machine Learning Modell**: Modell trainieren und optimieren
-* **Visualisierungen**: Daten und Modell visualisieren
+* Laden Sie das Bild des Bären herunter: <https://placebear.com/200/200>
+	* Rechtsklick auf Bild machen und *Grafik speichern unter* wählen
+* Speichern Sie die Datei in denselben Ordner wie `README.md`
+* Erstetzen Sie `![bears](http://placebear.com/200/200)` mit `![](200.jpeg)`
 
----
-
-### Werkzeuge welche in diesem Kurs verwendet werden
-
-* **Programmierumgebung**: Jupyter Notebook
-* **Datenverarbeitung**: Pandas
-* **Visualisierungen**: Pandas und Plotly.express
-* **Machine Learning Modell**: sklearn
-* **Datensatz**: Heart-Attack von Kaggle.com[^7]
+In der Vorschau sollte das Bild immer noch erscheinen.
 
 ---
 
-### Jupyter Notebooks
-Quelle[^9]
+### Syntax
 
-* Sind *Python Skripte* mit der Datei Endung `.ipynb`
-* Kann als ein Dokument angesehen werden welches Text und Codezeilen beinhaltet
-* Ein Notebook ist in 2 verwschiedene Zellen aufgebaut:
-	* Text Zelle: Text kann in Markdown Syntax geschrieben werden
-	* Code Zelle: Code kann in einer Programmiersprache wie Python geschrieben werden
+Es gibt verschiedene Markdown-Syntaxen.
 
-ℹ️ Jupyter Notebooks eignes sich besonder für Data Science Projekte, da Sie eine geordnete Liste an Ein-und Ausgangs Zellen beihnalten, welche Text wie auch Code beinhalten können. Dies wiederspiegelt die Struktur eine typischen Data Science Prozesses.
+Eine gute Übersicht zur Basis-Syntax bietet: <https://www.markdownguide.org/basic-syntax/>
 
 ---
 
-### Pandas 
-Quelle[^10]
+### Erweiterte Syntaxen
 
-Um Datensätze einfacher zu handhaben werden diese mittels eines Datenanalyse und Manipulations Werkzeugs bearbeitet. Eines der bekanntesten Werkzeuge is Pandas.
-
-* Daten werde in Dataframes gespeichert
-* Das Dataframe kann auf einfache weise manipuliert werden
-* Weiter sind diese Dataframes of ein strukturierter Datenbaustein für weitere Applikationen
-
-ℹ️ Ein Dataframe kann man sich wie eine Excel Tabelle vorstellen, also mit Zeilen, Kolonnen und entsprechenden Werte in den jeweiligen Zellen.
+Auf derselben Seite findet man eine Liste von weiteren Syntaxen: <https://www.markdownguide.org/extended-syntax/>
 
 ---
 
-### Plotly-express 
-Quelle[^11]
+### Tabelle erstellen
 
-Das `plotly.express` Python Paket beinhaltet Funktionen um Grafiken und Visualisierungen zu erstellen und ist Teil der Plotly Bibliothek
+Wenn Github-Flavored-Markdown (GFM) unterstützt wird, können Sie in Markdown-Tabellen erstellen.
 
-* Es können über 30 verschieden Arten von Visualisierungstypen erstellt werden
-* Die struktur erlaubt aus auf einfache weise zwischen den typer zu wechseln (Bsp. *Line Plot* zu *Scatter Plot*)
+🎬 Kopieren Sie den folgenden Code in die `README.md` Datei:
 
-ℹ️ Es gibt eine Vielzahl and Visualisierungsprogrammen in Python, jede mit entsprechenden Vor-und Nachteilen.
-
----
-
-### Datensatz
-Quelle[^12]
-
-In der nachfolgenden Übung wir das *Heart Attack Analysis & Prediction Dataset* verwendet. Dies ist ein Trainingsdatenset um Modelle zu entwickeln welche es erlauben aufgrund physiologischen Daten (**13 Parameter**) das Risiko eines Herzinfarktes zu klassifizieren (**1 Output**).
-
-ℹ️ Das Datenset wurde von der Universität California Irwine aggregiert und bereitgestellt. Die UCI hat eine grosse Sammlung an Datensets[^13]
+```markdown
+| Syntax      | Description |
+| ----------- | ----------- |
+| Header      | Title       |
+| Paragraph   | Text        |
+```
 
 ---
 
-### Aufgaben 1
+### Dokumentation mit Markdown
 
-Lösen Sie die ersten zwei Aufgaben.
+Warum sollte man Dokumente / Dokumentationen mit Markdown erstellen?
 
-⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 30 Minuten
-
-Ziel: Aufgabe 8.1 und 8.2 gelöst.
+* Text-Dateien können immer gelesen werden.
+* Es braucht keine zusätzliche Software (Word, Adobe, ...)
+* Die Inhalte können als Website publiziert werden
 
 ---
 
-### Quellen
+### Notizen mit Obsidian
 
-[^1]: [Integrating Data Science into Medical Device Development](https://www.medtechintelligence.com/feature_article/integrating-data-science-into-medical-device-development/)\
-[^2]: [IoT in Healthcare Market Worth $534.3 Billion By 2025 | CAGR: 19.9%](https://www.grandviewresearch.com/press-release/global-iot-in-healthcare-market)\
-[^3]: [Regulatorische Anforderungen an Medizinprodukte mit Machine Learning](https://www.johner-institut.de/blog/regulatory-affairs/regulatorische-anforderungen-an-medizinprodukte-mit-machine-learning/)\
-[^4]: [ML Vorgehen](https://www.langton.cloud/machine-learning-model-training-over-time/)\
-[^5]: [Software und Gerät](http://starfishmedical.com/blog/medical-device-artificial-intelligence/)\
-[^6]: [MNIST](https://towardsdatascience.com/image-classification-in-10-minutes-with-mnist-dataset-54c35b77a38d)\
-[^7]: [Heart Attack Data](https://towardsdatascience.com/26-datasets-for-your-data-science-projects-658601590a4c)\
-[^9]: [JupyterNotebook](https://jupyter.org/)\
-[^10]: [Pandas](https://pandas.pydata.org/)\
-[^11]: [Plotly-express](https://plotly.com/python/plotly-express/)\
-[^12]: [Dataset Heart Attack](https://www.kaggle.com/rashikrahmanpritom/heart-attack-analysis-prediction-dataset)\
-[^13]: [UCI](https://archive.ics.uci.edu/ml/datasets/Heart+Disease)
+Diese Website wird mit <https://obsidian.md/>.
+
+Obsidian ist eine Knowledge Base, die aber im wesentlichen die Bearbeitung und Verknüpfung von Markdown-Dateien erlaubt.
+
+---
+
+### Obsidian testen
+
+Dieselbe `README.md` Datei können Sie mit Obsidian bearbeiten.
+
+🎬 Führen Sie diese Aktionen aus:
+
+* Obsidain herunterladen und installieren
+* Obsidian starten und *Order als Vault öffnen*
+
+![](./obsidian-öffne-vault.png)
+
+* Den Ordner `Thema14` auswählen und öffnen
+
+![](./obsiidan-open.png)
+
+---
+
+### Verlinkung erstellen
+
+Mit Obsidian können Sie Dateien verlinken.
+
+🎬 Führen Sie diese Aktionen aus:
+
+* Fügen Sie am Ende von `README` den Text `[[About]]` ein
+* Halten <kbd>ctrl</kbd> gedrück und klicken Sie auf `[[About]]`
+
+Obsidian erstellt das Dokument `About`. Sie können das Dokument bearbeiten.
+
+---
+
+### Graph-Ansicht öffnen
+
+🎬 Wählen Sie auf der Linken Seite *Graph-Ansicht öffnen*.
+
+![](obsidian-graph.png)
+
+Die Verlinkung zwischen dem Dokument `README` und `About` wird visualisiert.
+
+🎬 Erstellen Sie weitere Links und Dokumente.
+
+---
+
+### Review
+
+🎯 Wurden die [Lernziele](#lernziele) erreicht?
+
+⚡ Feedback zu den Zielen einholen.
+
+---

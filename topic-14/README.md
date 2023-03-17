@@ -1,13 +1,9 @@
-# Thema 14 - Jupiter-Notebooks, SciPy und Matplotlib
+# Thema 14 - Dokumentation mit Markdown
 
-Umfang ⏱️: 3 Lektionen
+Umfang ⏱️: 1 Lektion
 
 [Alle Unterlagen anzeigen](https://github.com/janikvonrotz/python.casa/tree/main/topic-14)
 
 ## [Slides](slides14.md)
 
 [Hier](slides14.md) geht es zu den Slides.
-
-## [Übungen](excercise14.md)
-
-[Hier](excercise14.md) geht es zu den Übungen.

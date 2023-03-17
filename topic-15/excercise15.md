@@ -1,10 +1,10 @@
-# Übungen Thema 14
+# Übungen Thema 15
 
 ## Aufgaben
 
 Aufgaben zum Thema.
 
-Alle Erklährungen und Aufgaben sind im [`ExerciseNotebook.ipynb`](https://raw.githubusercontent.com/janikvonrotz/python.casa/main/topic-14/ExerciseNotebook.ipynb) Jupyter Notebook. Um dieses Notebook zu öffnen und den Inhalt auszuführen wird die Visual Studio Code Jupyter Notebook Extension sowie weitere Python Pakete benötigt. 
+Alle Erklährungen und Aufgaben sind im [`ExerciseNotebook.ipynb`](https://raw.githubusercontent.com/janikvonrotz/python.casa/main/topic-15/ExerciseNotebook.ipynb) Jupyter Notebook. Um dieses Notebook zu öffnen und den Inhalt auszuführen wird die Visual Studio Code Jupyter Notebook Extension sowie weitere Python Pakete benötigt. 
 
 Befolgen Sie die nächsten Schritte um die Programmierumgebung bereitzustellen.
 
@@ -17,7 +17,7 @@ Dieser Teil ist optional. Um Python-Pakete zu installieren, verwenden wir die VS
 * Starten Sie ein Terminal im Ordner
 * Geben Sie `python get-pip.py` ein und installieren Sie pip mit Enter
 
-![](./pip-install.png)
+![](pip-install.png)
 
 * War die Installation erfolgreich, können Sie mit dem Befehl `pip install cowsay` die Installation von Python Paketen testen.
 
@@ -51,8 +51,8 @@ Falls der `pip`-Befehl im Terminal nicht funktioniert, versuchen Sie es mit `pip
 
 Um im Jupyter Notebook fortzufahren müssen folgende Dateien aus dem Python.casa Kurs heruntergeladen werden:
 
-* [`ExerciseNotebook.ipynb`](https://raw.githubusercontent.com/janikvonrotz/python.casa/main/topic-14/ExerciseNotebook.ipynb)
-* [`heart.csv`](https://raw.githubusercontent.com/janikvonrotz/python.casa/main/topic-14/heart.csv)
+* [`ExerciseNotebook.ipynb`](https://raw.githubusercontent.com/janikvonrotz/python.casa/main/topic-15/ExerciseNotebook.ipynb)
+* [`heart.csv`](https://raw.githubusercontent.com/janikvonrotz/python.casa/main/topic-15/heart.csv)
 
 Speichern Sie Dateien mit <kbd>ctrl</kbd> + <kbd>s</kbd>, wenn Sie im Browser angezeigt werden.  Legen Sie die Dateien in einem Ordner ab und öffnen Sie diesen Visual Studio Code.
 
@@ -60,8 +60,8 @@ Speichern Sie Dateien mit <kbd>ctrl</kbd> + <kbd>s</kbd>, wenn Sie im Browser an
 
 ::: tip
 Falls VSCode nach der Erweiterung `ipykernel` fragt, kann man den Dialog mit *Installieren* bestätigen.
-![](./ipykernel-prompt.png)
-![](./ipykernel.png)
+![](ipykernel-prompt.png)
+![](ipykernel.png)
 :::
 
 ### Alternative bei Installationsproblemen
@@ -74,7 +74,7 @@ Dabei muss folgendermassen vorgegangen werden
 * Klicke auf *+ Add Data* oben rechts
 * Suche nach `Heart Attack Analysis & Prediction Dataset` im Suchfenster oben rechts
 
-![](./kaggle-heart-attack-data.png)
+![](kaggle-heart-attack-data.png)
 
 * Klicke auf *Add* um das Datenset hinzuzufügen, dabei schliesst sich das Fenster
 * Kicken Sie *File > Import Notebook > Browse File* und wählen Sie die `` Datei aus (Diese muss vorher heruntergeladen werden)

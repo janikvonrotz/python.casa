@@ -37,7 +37,7 @@ Hier einige Ideen für Projekte:
 | Covid-Daten mit Python verarbeiten und als HTML-Bericht präsentieren                                                                                            | Mittel             |
 | Datei auf Dropbox speichern                                                                                                                                     | Einfach            |
 | Daten aus Postgres Datenbank lesen und schreiben                                                                                                                | Einfach            |
-| Detektion von Herzfrequenz anhand [EKG-Daten](https://github.com/janikvonrotz/python.casa/blob/main/topic-14/ekg-data.csv)                                               | Mittel             |
+| Detektion von Herzfrequenz anhand [EKG-Daten](https://github.com/janikvonrotz/python.casa/blob/main/topic-15/ekg-data.csv)                                               | Mittel             |
 | Deutscher [Wordle](https://www.nytimes.com/games/wordle/index.html)-Klon                                                                                        | Schwer             |
 | Passwortgenerator gemäss [xkcd-Comic](https://xkcd.com/936/)                                                                                                    | Schwer             |
 | Suche nach bestimmten Begriffen in [Log-Dateien](https://raw.githubusercontent.com/elastic/examples/master/Common%20Data%20Formats/nginx_logs/nginx_logs)       | Mittel             |
