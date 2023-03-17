@@ -26,12 +26,6 @@ Der Prozess für den Leistungsnachweis sieht wie folgt aus:
 6. Die Studierenden laden das Resultat auf Moodle hoch
 7. Der Dozierende macht eine Bewertung anhand der [Kriterien](#Kriterien)
 
-## Resultat
-
-Auf [Moodle](https://moodle.medizintechnik-hf.ch/mod/assign/view.php?id=6716) geben Sie zwei Dateien ab:
-* `Code.zip`: Python-Programm (gezippter Ordner mit Pyton-Dateien)
-* `Dokumentation.{pdf,epub,docx}:` Dokumentation zum Programm (4-8 Seiten, ohne Cover)
-
 ## Themenwahl
 
 In der Tehmenwahl sind die Studierenden frei. Das ausgewählte Thema soll für den Studierenden eine Herausforderung sein und den individiuellen Fähigkeiten gerecht werden.
@@ -142,6 +136,10 @@ Punkte: 17
 * **Optimierung \[2\]**: Schleifen und Funktionen werden genutzt.
 * **Komplexität \[3\]**: Die Problemstellung entspricht HF-Niveau.
 
-## Abgabe
+## Resulat / Abgabe
 
-Die Dokumentation wird als `.pdf` Datei und der Code als `.zip` Datei in das entsprechende Abgabefenster auf Moodle hochgeladen.
+Die Dokumentation wird als `.pdf` Datei und der Code als `.zip` Datei in das entsprechende Abgabefenster auf Moodle hochgeladen:
+
+* `Code.zip`: Python-Programm (gezippter Ordner mit Pyton-Dateien)
+* `Dokumentation.{pdf,epub,docx}:` Dokumentation zum Programm (4-8 Seiten, ohne Cover)
+
