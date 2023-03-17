@@ -22,7 +22,7 @@ Ich kann ...
 
 Die Grafische Benutzeroberfläche (GUI) ermöglicht eine einfachere Interaktion mit Programmen.
 
-![](../tkinter-gui.png)
+![](./tkinter-gui.png)
 
 ---
 
@@ -62,7 +62,7 @@ fenster.mainloop()
 
 Sie sollten ein Fenster sehen, solange das Progamm läuft oder bis das Fenster geschlossen wird.
 
-![](../tkinter-fenster.png)
+![](./tkinter-fenster.png)
 
 ---
 
@@ -116,7 +116,7 @@ Die Reihenfolge der Elemente wird gemäss der Reihenfolge der Anweisungen gelade
 
 🎬 Führen Sie das Programm `gui.py` aus und Klicken Sie auf den Button *Ändern*.
 
-![](../tkinter-button-labels.png)
+![](./tkinter-button-labels.png)
 
 ---
 
@@ -124,7 +124,7 @@ Die Reihenfolge der Elemente wird gemäss der Reihenfolge der Anweisungen gelade
 
 Statt `pack` zur Platzierung der Elemente können Sie auch `gird(row=1, column=1, pady=10, padx=10)` verwenden. Damit platzieren Sie die Elemente in einem Koordinatensystem.
 
-![](../tkinter-coordinates.png)
+![](./tkinter-coordinates.png)
 
 Der erste Wert ist `row` und der zweite Wert `column`. Mit `pady` und `padx` definieren Sie zusätzliche Abstände.
 
@@ -149,7 +149,7 @@ exit_button.grid(row=3, column=1, pady=10, padx=10)
 
 🎬 Führen Sie das Programm wieder aus.
 
-![](../tkinter-grid.png)
+![](./tkinter-grid.png)
 
 ---
 
@@ -193,7 +193,7 @@ fenster.mainloop()
 
 🎬 Führen Sie das Programm aus, machen Sie eine Eingabe und drücken Sie auf *Eintragen*.
 
-![](../tkinter-eingabe.png)
+![](./tkinter-eingabe.png)
 
 Mit der `get`-Methode kann der Text aus dem Eingabefeld ausgelesen werden und mit der `config`-Methode können die Elemente angepasst werden.
 
@@ -233,7 +233,7 @@ fenster.mainloop()
 
 🎬 Führen Sie das Programm und die angezeigte Anweisung aus.
 
-![](../tkinter-menu.png)
+![](./tkinter-menu.png)
 
 ---
 
@@ -267,7 +267,7 @@ Damit die Messagebox im Programm verfügbar ist muss Sie explizit mit `from tkin
 
 🎬 Führen Sie das Programm und klicken Sie auf den Button.
 
-![](../tkinter-dialog.png)
+![](./tkinter-dialog.png)
 
 ---
 

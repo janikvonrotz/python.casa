@@ -22,7 +22,7 @@ Ich kann ...
 
 Auch für Programm-Code gibt es Bibliotheken.
 
-![](../library.png)
+![](./library.png)
 
 ---
 
@@ -69,7 +69,7 @@ print(msg)
 
 In VSCode sollte das so aussehen:
 
-![](../vscode-hello.png)
+![](./vscode-hello.png)
 
 ---
 
@@ -219,7 +219,7 @@ Es gibt für alles eine VSCode-Erweiterung, so auch für pip.
 
 🎬 Installieren Sie die Erweiterung *Pip Manager* mit VSCode:
 
-![vscode-pip](../vscode-pip.gif)
+![vscode-pip](./vscode-pip.gif)
 
 🎬 Installieren Sie die Erweiterung  [`cowsay`](https://pypi.org/project/cowsay/) mit *Pip Manager*.
 
@@ -231,7 +231,7 @@ Wir möchten das Python-Paket [`cowsay`](https://pypi.org/project/cowsay/) mit d
 
 🎬 Öffnen Sie das Terminal in VSCode und führen Sie den Befehl `pip install cowsay` aus.
 
-![](../pip-install-cowsay.png)
+![](./pip-install-cowsay.png)
 
 ---
 
@@ -254,7 +254,7 @@ Und führen Sie das Programm aus.
 
 Wo Pakete von pip instaliert werden, kann je nach Entwicklungsumgebung unterschiedlich sein. Mit dem Befehl `pip show cowsay` zeigt pip wo genau das Paket installiert wurde.
 
-![](../pip-location.png)
+![](./pip-location.png)
 
 ---
 

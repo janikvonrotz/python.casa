@@ -103,7 +103,7 @@ print(lst) # ['H', 'e', 'l', 'l', 'o', ',', ' ', 'W', 'o', 'r', 'l', 'd', '!'
 
 Die wichtigsten Funktionen und Methoden zur Bearbeitung von Liste:
 
-![](../list-functions-and-methods.png)
+![](./list-functions-and-methods.png)
 
 ---
 ### Listenelemente hinzufügen
@@ -299,7 +299,7 @@ Lösen Sie die [Aufgaben](excercise5.md#aufgaben) 5.3, 5.4 und 5.5.
 * **Verzweigungen**: Abhängig von Bedingungen Codeteile ausführen
 * **Schleifen**: Code mehrfach ausführen solange Bedingung erfüllt ist
 
-![](../loop-with-condition.png)
+![](./loop-with-condition.png)
 
 ---
 ### if-Verzweigung

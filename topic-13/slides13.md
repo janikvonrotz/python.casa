@@ -41,7 +41,7 @@ Das Schreiben von versioniertem Code kann man sich wie das Wachstum eines Baumes
 * **Head**: Die Baumkrohne
 * **History**: Verlauf des Wachstum
 
-![](../svn-tree.png)
+![](./svn-tree.png)
 
 ---
 
@@ -91,7 +91,7 @@ Bei der Arbeit mit gibt, gibt es verschiedene Arbeitsbereiche:
 * **Local Repository**: Zustand des lokalen Codes
 * **Remote Repository**: Zustand des gesamten Codes
 
-![](../git-workflow.png)
+![](./git-workflow.png)
 
 ---
 
@@ -170,7 +170,7 @@ git config --global user.email "mitcheladmin@example.com"
 
 🎬 In VSCode klicken Sie auf die Versionskontrolle und initialisieren das Repo.
 
-![](../repo-init.png)
+![](./repo-init.png)
 
 ℹ️ Der Terminal-Befehl ist `git init`
 
@@ -182,7 +182,7 @@ Git hat die Datei `main.py` erkannt und möchte die Datei "stagen".
 
 🎬 Stagen Sie die Datei `main.py` wie folgt:
 
-![git-stagen](../git-stagen.gif)
+![git-stagen](./git-stagen.gif)
 
 ℹ️ Der Terminal-Befehl ist `git add main.py`
 
@@ -232,7 +232,7 @@ In der Git History sind nun 2 Commits.
 
 🎬 Öffnen Sie ein Terminal und geben Sie `git log` ein.
 
-![git-log](../git-log.gif)
+![git-log](./git-log.gif)
 
 ℹ️ Zum schliessen der Ansicht drücken Sie <kbd>q</kbd>.
 
@@ -278,7 +278,7 @@ Nun möchten wir die Änderungen auf GitHub publizieren.
 
 🎬 Drücken Sie <kbd>ctrl</kbd>+ <kbd>shift</kbd> + <kbd>p</kbd> wählen `Publish to GitHub`. Anschliessend befolgen Sie den Dialog:
 
-![git-publish](../git-publish.gif)
+![git-publish](./git-publish.gif)
 
 ℹ️ Die Aktion kann auf dem Terminal nur bedingt ausgeführt werden.
 
@@ -288,7 +288,7 @@ Nun möchten wir die Änderungen auf GitHub publizieren.
 
 🎬 Fügen Sie gemäss Vorschlag auf GitHub die Datei `README.md` hinzu:
 
-![github-readme](../github-readme.gif)
+![github-readme](./github-readme.gif)
 
 ---
 
@@ -308,7 +308,7 @@ Damit die Änderung lokal verfügbar wird, muss zuerst *gefetched* und anschlies
 
 🎬 Passen Sie den Text im `README.md`, committen und pushen Sie die Änderung:
 
-![git-push](../git-push.gif)
+![git-push](./git-push.gif)
 
 ℹ️ Der Terminal-Befehl ist `git push`.
 
@@ -318,7 +318,7 @@ Damit die Änderung lokal verfügbar wird, muss zuerst *gefetched* und anschlies
 
 Hier nochmals der git Workflow:
 
-![](../git-workflow.png)
+![](./git-workflow.png)
 
 ---
 
@@ -336,7 +336,7 @@ Ein Branch ist ein neuer Ast ihres Code-Baums.
 
 🎬 Klicken in VSCode unten links auf *master* und im neuen Dialog wählen Sie *Create new branch...*. Geben Sie als Bezeichnung `feature-xy`.
 
-![](../vsocde-checkout-branch.png)
+![](./vsocde-checkout-branch.png)
 
 ℹ️ Der Terminal-Befehl ist `git switch -c feature-xy`.
 
@@ -353,7 +353,7 @@ Ein Branch ist ein neuer Ast ihres Code-Baums.
 
 Ihre Änderung sollte auf dem Branch nicht vorhanden sein.
 
-![](../git-switch-branches.gif)
+![](./git-switch-branches.gif)
 
 ℹ️ Der Terminal-Befehl ist `git switch master`.
 
@@ -399,7 +399,7 @@ Lösen Sie die [Aufgaben](excercise13.md#aufgaben) 13.2, 13.3 und 13.4.
 
 Wenn Sie von noch nicht genug haben, besuchen und installieren das Spiel [Oh My Git!](https://ohmygit.org/)
 
-![](../oh-my-git.png)
+![](./oh-my-git.png)
 
 ---
 

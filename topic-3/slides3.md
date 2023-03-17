@@ -297,7 +297,7 @@ Lösen Sie die [Aufgabe](excercise3.md#aufgaben) 3.3.
 
 Zeichenketten können mit vielen Funktionen und Methoden bearbeitet werden.
 
-![](../string-methods.png)
+![](./string-methods.png)
 
 ---
 ### Funktionen versus Methoden

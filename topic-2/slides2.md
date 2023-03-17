@@ -73,14 +73,14 @@ Variablen leben bis zum Programmende.
 
 Beim Start eines Programms wird es in den Arbeitsspeicher (Memory) geladen
 
-![](../microprocessor.png)
+![](./microprocessor.png)
 
 ---
 ### Der Heap
 
 Im sogenannten Heap speichert Python die Werte der Variablen
 
-![](../python-vm.png)
+![](./python-vm.png)
 
 ---
 ### Fensterdarstellung wechseln 1
@@ -120,7 +120,7 @@ z=3
 * Klicken Sie links neben der Zeilennummer 2 um einen *Breakpoint* zu setzen
 * Starten Sie den Debugger via *Run and Debug*
 
-![](../visual-code-debugger.png)
+![](./visual-code-debugger.png)
 
 ---
 ### Datentyp anzeigen
@@ -196,7 +196,7 @@ Python ...
 ---
 ### Operatoren
 
-![](../operatoren.png)
+![](./operatoren.png)
 
 ---
 ### Gleicheit

@@ -233,6 +233,6 @@ Haben ihre Nachbaren die Website gestartet, können Sie anhand der IP-Adresse un
 
 Zeigen Sie ihre lokale IPv4-Adresse über die Netzwerkeinstellungen des Computers an. Dazu ein Beispiel wie das auf einem Linux-Computer aussieht:
 
-![](../linux-ipv4.png)
+![](./linux-ipv4.png)
 
 Tauschen Sie die IP-Adresse mit ihrem Nachbarn aus und rufen Sie die Website im Browser damit auf. Beispiel: <http://192.168.1.104:1234>.

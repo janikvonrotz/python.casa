@@ -17,7 +17,7 @@ Dieser Teil ist optional. Um Python-Pakete zu installieren, verwenden wir die VS
 * Starten Sie ein Terminal im Ordner
 * Geben Sie `python get-pip.py` ein und installieren Sie pip mit Enter
 
-![](../pip-install.png)
+![](./pip-install.png)
 
 * War die Installation erfolgreich, können Sie mit dem Befehl `pip install cowsay` die Installation von Python Paketen testen.
 
@@ -60,8 +60,8 @@ Speichern Sie Dateien mit <kbd>ctrl</kbd> + <kbd>s</kbd>, wenn Sie im Browser an
 
 ::: tip
 Falls VSCode nach der Erweiterung `ipykernel` fragt, kann man den Dialog mit *Installieren* bestätigen.
-![](../ipykernel-prompt.png)
-![](../ipykernel.png)
+![](./ipykernel-prompt.png)
+![](./ipykernel.png)
 :::
 
 ### Alternative bei Installationsproblemen
@@ -74,7 +74,7 @@ Dabei muss folgendermassen vorgegangen werden
 * Klicke auf *+ Add Data* oben rechts
 * Suche nach `Heart Attack Analysis & Prediction Dataset` im Suchfenster oben rechts
 
-![](../kaggle-heart-attack-data.png)
+![](./kaggle-heart-attack-data.png)
 
 * Klicke auf *Add* um das Datenset hinzuzufügen, dabei schliesst sich das Fenster
 * Kicken Sie *File > Import Notebook > Browse File* und wählen Sie die `` Datei aus (Diese muss vorher heruntergeladen werden)

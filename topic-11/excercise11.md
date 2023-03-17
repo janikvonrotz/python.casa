@@ -121,6 +121,6 @@ def button_action():
 
 Führen Sie das Programm aus und machen Sie ungültige Eingaben.
 
-![](../tkinter-error.png)
+![](./tkinter-error.png)
 
 ⭐ [Fehler in Messageboxn.py](https://github.com/janikvonrotz/python.casa/blob/main/topic-11/Fehler%20in%20Messagebox.py)

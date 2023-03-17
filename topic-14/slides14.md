@@ -120,7 +120,7 @@ Dabei werden wissenschaftliche Methoden, Algorithmen und Prozesse verwendet um W
 
 ### Herangehensweise im Data Science Bereich
 
-![](../topic8_ml_procedure.jpg)
+![](./topic8_ml_procedure.jpg)
 Das grundlegende Vorgehen ist immer gleich[^4] :
 * Daten erfassen
 * Daten bereinigen und vorbereiten
@@ -139,7 +139,7 @@ Neuronales Netzerk (Modell) trainieren mit Bilder von handgeschriebenen Zahlen (
 * Bilder mit der korrekten Zahl *labeln*
 * Model trainieren (Ziel korrektes Label voraussagen)
 * Model optimieren
-![](../machine-learning.png)
+![](./machine-learning.png)
 
 ---
 
@@ -157,7 +157,7 @@ Der Datensatz erlaubt es ein Modell auf automatische weise zu trainieren, das Mo
 
 Es gibt eine schier unüberblickbare Anzahl an Werkzeugen im Data Science Bereich.
 
-![](../ml-ai-infrastructure.png)
+![](./ml-ai-infrastructure.png)
 
 Grundlegend werden aber meistens Werkzeuge in den folgenden Kategorien verwendet:
 * **Datenverarbeitung**: Daten Datensatz speichern und manipulieren

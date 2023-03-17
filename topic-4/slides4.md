@@ -205,7 +205,7 @@ Lösen Sie die ersten zwei [Aufgaben](excercise4.md#aufgaben) 4.1 und 4.2.
 
 Wir leben in verschiedenen Zeitzonen.
 
-![](../zeitzonen.png)
+![](./zeitzonen.png)
 
 ---
 

@@ -137,7 +137,7 @@ for entry in os.listdir(basepath):
 
 Kopieren Sie die Datenstruktur von <https://jsonplaceholder.typicode.com/users> nach Python.
 
-![kopieren-daten-jsonplaceholder](../kopieren-daten-jsonplaceholder.gif)
+![kopieren-daten-jsonplaceholder](./kopieren-daten-jsonplaceholder.gif)
 
 Filter sind alle Benutzer aus der Liste, die eine Telefonnumer haben, die mit einer `1` beginnt. Verwenden Sie dazu eine Lambda-Funktion.
 

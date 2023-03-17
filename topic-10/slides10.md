@@ -63,7 +63,7 @@ Grundtypen:
 
 ### Beispiel Relational/Non-Relational
 
-![](../relational-non-relatonal.png)
+![](./relational-non-relatonal.png)
 
 ---
 
@@ -80,7 +80,7 @@ Es gibt verschiedene RDBMS. Wir interessieren uns für *PostgreSQL* und *SQLite*
 
 Ist die meist verbreitete Datenbank-Engine[^1]. Sie ist auf jedem Smartphone vorhanden.
 
-![](../sqlite.png)
+![](./sqlite.png)
 
 Wie viele andere Datenbanksysteme ist SQLite SQL-basiert. Bei SQL (Structured Query Language) handelt es sich um die am meisten verwendete Datenbanksprache.
 
@@ -190,7 +190,7 @@ connection.close()
 
 Mit dieser VSCode-Erweiterung können Sie die Datenbank-Datei anschauen:
 
-![](../vscode-sqlite.png)
+![](./vscode-sqlite.png)
 
 🎬 Installieren Sie diese Erweiterung.
 
@@ -204,7 +204,7 @@ Mit dieser VSCode-Erweiterung können Sie die Datenbank-Datei anschauen:
 * Die vorgeschlagene Datenbank auswählen und mit <kbd>Enter</kbd> bestätigen
 * Unten links erscheint der `SQLite Explorer`, darauf klicken und die Datenbank anzeigen
 
-![sqlite-browse](../sqlite-browse.gif)
+![sqlite-browse](./sqlite-browse.gif)
 
 ---
 
@@ -215,7 +215,7 @@ Mit dieser VSCode-Erweiterung können Sie die Datenbank-Datei anschauen:
 * Aktion *Opten Database* wählen.
 * Unten links erscheint der `SQLite Explorer`, darauf klicken und die Datenbank anzeigen
 
-![](../vscode-sqlite-open-database.png)
+![](./vscode-sqlite-open-database.png)
 
 ---
 

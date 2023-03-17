@@ -45,7 +45,7 @@ Die Architektur von Webapps in 3 Schichten:
 
 Für Python Flask sieht die Architektur so aus:
 
-![webapp-architecture](../webapp-architecture.svg)
+![webapp-architecture](./webapp-architecture.svg)
 
 ---
 
@@ -61,7 +61,7 @@ Für Python Flask sieht die Architektur so aus:
 
 🎬 Installieren Sie das Package `flask` mit dem *Pip Manager*.
 
-![](../vscode-install-flask.png)
+![](./vscode-install-flask.png)
 
 Auf der Kommandozeile können Sie das mit `pip install flask` erledigen.
 
@@ -107,7 +107,7 @@ Im selben Ordner wir die Datei `lager.db` erstellt.
 * `list.html`
 * `submit.html`
 
-![](../topic-9-folders.png)
+![](./template-folders.png)
 
 ---
 
@@ -115,7 +115,7 @@ Im selben Ordner wir die Datei `lager.db` erstellt.
 
 Python Flask verwendet [Jinja](https://jinja.palletsprojects.com) als *Template Engine*. Eine Template Engine macht folgendes:
 
-![](../template-engine.png)
+![](./template-engine.png)
 Wir verwenden Jinja um die Ansicht der Webapp zu generieren.
 
 ---
@@ -308,7 +308,7 @@ def index():
 
 Schickt der Browser ein HTTP-Request für `/` auf wird das Template `index.html` verarbeitet und zurückgegeben.
 
-![http](../http.png)
+![http](./http.png)
 
 ---
 
@@ -323,7 +323,7 @@ def insert():
 
 Bei GET liefert man ein HTML-Dokument als Antwort und bei POST nimmt man Daten entgegen und verarbeitet diese.
 
-![http-get-post](../http-get-post.jpeg)
+![http-get-post](./http-get-post.jpeg)
 
 ---
 
@@ -372,7 +372,7 @@ Wenn Sie folgenden Ausschnitt im Browser sehen, haben Sie erfolgreich einen Pyth
 
 🎬 Klicken Sie auf *Produkt hinzufügen*, füllen Sie das Formular aus und klicken auf *submit*
 
-![](../topic-9-add-product.png)
+![](./webapp-add-product.png)
 
 ---
 
@@ -461,7 +461,7 @@ Die komplette Applikation ist hier verfügbar: ⭐ [Complete](https://github.com
 
 Wie Sie vielleicht bemerkt haben, ist die Übersetzung von Python Datenstrukturen und Aktionen in die SQL-Sprache sehr aufwändig. Wäre es nicht möglich, dass die Interaktion mit der Datenbank vereinfacht wird?
 
-![](../relational-table-python-class.png)
+![](./relational-table-python-class.png)
 
 ---
 

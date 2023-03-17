@@ -42,7 +42,7 @@ Das Dateisystem ist hierarchisch aufgebaut.
 
 ### Hierarchie Linux
 
-![](../linux-fs.png)
+![](./linux-fs.png)
 ℹ️ Auf Linux ist der oberste Ordner der `/` *Root* und bei Windows das `C:\` Laufwerk
 
 ---
@@ -51,7 +51,7 @@ Das Dateisystem ist hierarchisch aufgebaut.
 
 In der Python-Biblitothek finden Sie [`pathlib`](https://docs.python.org/3/library/pathlib.html). Mit Pathlib können Sie mit dem Dateisystem interagieren.
 
-![](../python-pathlib-cheatsheet.png)
+![](./python-pathlib-cheatsheet.png)
 
 ---
 
@@ -204,7 +204,7 @@ except BaseException as err:
 
 Wir haben eine unstrukturierte Textdatei erstellt. Im Umgang mit Daten und Kalkulationen brauchen wir ein besseres Format.
 
-![](../word-vs-excel.png)
+![](./word-vs-excel.png)
 
 ---
 
@@ -387,7 +387,7 @@ Dateien wie wir Sie gerade erstellt und gelesen haben, können über ein Netzwer
 
 Das Internet ist ein weltumspannendes Netzwerk von Computern.
 
-![](../wan-network.png)
+![](./wan-network.png)
 
 ---
 
@@ -407,7 +407,7 @@ Mit Kommunikationsprotokoll HTTP laden Computer Websites als Dokumente herunter 
 * Kommunikationsprotokoll für das WWW
 * Browser rufen Webseiten über HTTP auf
 
-![](../http.png)
+![](./http.png)
 
 ---
 
@@ -426,7 +426,7 @@ Mit Kommunikationsprotokoll HTTP laden Computer Websites als Dokumente herunter 
 
 Der HTML-Code der Webseite wird als HTTP-Response zurückgegeben.
 
-![](../http-response.png)
+![](./http-response.png)
 
 ---
 
@@ -495,7 +495,7 @@ HTML beschreibt wie ein Dokument aussieht und der Browser stellt es entsprechend
 
 Ein kurze Übersicht zu den HTML-Tags.
 
-![](../html-tag.png)
+![](./html-tag.png)
 
 * **html**: Zeigt den Beginnt des HTML-Dokument an
 * **body**: Hier beginnt der Seiteninhalt

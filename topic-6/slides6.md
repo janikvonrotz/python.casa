@@ -43,7 +43,7 @@ Funktionen helfen uns:
 
 ### Aufbau einer Funktion
 
-![](../python-function-definition.png)
+![](./python-function-definition.png)
 
 ---
 
@@ -125,7 +125,7 @@ print(n) # Ausgabe: 9
 
 ### Gültigkeitsbereiche
 
-![](../python-scope.png)
+![](./python-scope.png)
 
 ---
 
@@ -186,7 +186,7 @@ print(z) # Ausgabe 6
 
 ### Parameter und Argumente
 
-![](../parameters-and-arguments.png)
+![](./parameters-and-arguments.png)
 
 ---
 
@@ -430,7 +430,7 @@ Zur Darstellung gibt es verschiedene Symbole. Hier die wichtigsten:
 
 Zeigt den logischen Fluss mit der Verbindung der Symbole.
 
-![symbol-pfeil](../symbol-pfeil.svg)
+![symbol-pfeil](./symbol-pfeil.svg)
 
 ---
 
@@ -438,7 +438,7 @@ Zeigt den logischen Fluss mit der Verbindung der Symbole.
 
 Start und Ende des Prozesses.
 
-![symbol-start](../symbol-start.svg)
+![symbol-start](./symbol-start.svg)
 
 ---
 
@@ -446,7 +446,7 @@ Start und Ende des Prozesses.
 
 Ein- und Ausgabe von Daten.
 
-![symbol-eingabe](../symbol-eingabe.svg)
+![symbol-eingabe](./symbol-eingabe.svg)
 
 ---
 
@@ -454,7 +454,7 @@ Ein- und Ausgabe von Daten.
 
 Arithmetische Operationen und Datenverarbeitung.
 
-![symbol-prozess](../symbol-prozess.svg)
+![symbol-prozess](./symbol-prozess.svg)
 
 ---
 
@@ -462,7 +462,7 @@ Arithmetische Operationen und Datenverarbeitung.
 
 Enscheidungsfindung für ein oder mehrere Alternativen.
 
-![symbol-entscheidung](../symbol-entscheidung.svg)
+![symbol-entscheidung](./symbol-entscheidung.svg)
 
 ---
 
@@ -470,7 +470,7 @@ Enscheidungsfindung für ein oder mehrere Alternativen.
 
 Repräsentiert eine andere Funktion/Prozess.
 
-![symbol-vordefiniert](../symbol-vordefiniert.svg)
+![symbol-vordefiniert](./symbol-vordefiniert.svg)
 
 ---
 

@@ -50,7 +50,7 @@ Python unterstützt auch die objektorientierte Programmierung (OOP).
 
 Mit OOP bündeln wir Daten (Variablen) und Code (Methoden) in einem Objekt:
 
-![](../oop-class.png)
+![](./oop-class.png)
 
 ---
 
@@ -328,7 +328,7 @@ Dieses Thema werden wir nur anschneiden.
 
 Klassen können vererbt werden. Das heisst Sie erhalten einen neuen Namen und zusätzliche Attribute.
 
-![](../vererbung-tier.png)
+![](./vererbung-tier.png)
 
 ---
 
@@ -365,7 +365,7 @@ Beim Instanzieren der Klasse Katze wird damit der Konstruktur der Klasse Tief au
 
 Beim Vererben der Klassen entsteht eine Hierarchie.
 
-![](../hierarchie.png)
+![](./hierarchie.png)
 
 ---
 

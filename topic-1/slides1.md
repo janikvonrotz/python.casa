@@ -25,7 +25,7 @@ Ich kann ...
 
 Der Computer führt unsere Anweisungen aus. Damit der Computer die Anweisungen versteht, müssen die Anweisungen in einer Programmiersprache verfasst werden.
 
-![](../history-of-programming-languages.png)
+![](./history-of-programming-languages.png)
 
 ---
 ### Begriffe der Programmierung
@@ -65,7 +65,7 @@ Umso schwieriger die Begriffe:
 
 🎬 Installation via [Python Download](https://www.python.org/downloads).
 
-![](../windows-python-installer-path.png)
+![](./windows-python-installer-path.png)
 
 Videos:
 * [Python3 auf Windows 10 installieren](https://www.youtube.com/watch?v=hr1P_F7Vp9Y)  
@@ -111,7 +111,7 @@ Alternativ `C:\Program Files\Python\python.exe` öffnen oder nach *Python Shell*
 print('Hello, World!')
 ```
 
-![](../linux-python-shell.png)
+![](./linux-python-shell.png)
 
 ---
 ### Anweisung
@@ -174,7 +174,7 @@ Im Unterordner das Terminal starten.
 * Ordner `Thema1` im Explorer/Finder öffnen
 * Windows: In Adressleiste `powershell.exe` eingeben und mit `enter` bestätigen
 
-![open-powershell](../open-powershell.gif)
+![open-powershell](./open-powershell.gif)
 
 * MacOS: In Finder Rechtsklick auf den Ordner machen und Terminal in Ordner starten.
 
@@ -232,15 +232,15 @@ Ziel: Jeder kann die IDE starten.
 
 Die folgenden Aufforderung können Sie bestätigen:
 
-![](../visual-studio-code-trust-author.png)
+![](./visual-studio-code-trust-author.png)
 
 Diese Aufforderung installiert die Python-Erweiterung von Visual Studio Code:
 
-![](../visual-studio-code-install-python.png)
+![](./visual-studio-code-install-python.png)
 
 Diese wird benötigt damit Visual Studio Code die Syntax von Python versteht.
 
-![](../visual-studio-code-python-extension.png)
+![](./visual-studio-code-python-extension.png)
 
 ---
 
@@ -248,7 +248,7 @@ Diese wird benötigt damit Visual Studio Code die Syntax von Python versteht.
 
 Stellen Sie sicher, dass VSCode den Python-Interpreter erkannt hat (siehe blaube Leiste).
 
-![](../vscode-python.png)
+![](./vscode-python.png)
 
 ---
 
@@ -259,11 +259,11 @@ Stellen Sie sicher, dass VSCode den Python-Interpreter erkannt hat (siehe blaube
 * Den Ausgabe-Text ändern und speichern
 * Das Skript mit der IDE oder dem Terminal ausführen
 
-![](../vs-code-run-python-file.png)
+![](./vs-code-run-python-file.png)
 
 Output auf Windows:
 
-![](../visual-studio-code-terminal-powershell.png)
+![](./visual-studio-code-terminal-powershell.png)
 
 ---
 
@@ -289,7 +289,7 @@ Mit der Tastatur ist man immer schneller.
 
 ### Was passiert beim kompilieren?
 
-![](../python-datei-kompilieren.png)
+![](./python-datei-kompilieren.png)
 
 ---
 ### Anweisungen ein- und mehrzeilig
