@@ -157,7 +157,7 @@ Der Datensatz erlaubt es ein Modell auf automatische weise zu trainieren, das Mo
 
 Es gibt eine schier unüberblickbare Anzahl an Werkzeugen im Data Science Bereich.
 
-![](ml-ai-infrastructure.png)
+![](./ml-ai-infrastructure.png)
 
 Grundlegend werden aber meistens Werkzeuge in den folgenden Kategorien verwendet:
 * **Datenverarbeitung**: Daten Datensatz speichern und manipulieren
