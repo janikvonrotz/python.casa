@@ -63,7 +63,7 @@ module.exports = {
                         { text: 'Thema 11 - Grafische Benutzeroberfläche', link: '/topic-11/', collapsible: true, children: ['slides11.md', 'excercise11.md'], },
                         { text: 'Thema 12 - Webapplikation mit Python Flask', link: '/topic-12/', collapsible: true, children: ['slides12.md', 'excercise12.md'], },
                         { text: 'Thema 13 - Versionskontrolle mit Git', link: '/topic-13/', collapsible: true, children: ['slides13.md', 'excercise13.md'], },
-                        { text: 'Thema 14 - Dokumentation mit Markdown', link: '/topic-14/', collapsible: true, children: ['slides14.md', 'excercise14.md'], },
+                        { text: 'Thema 14 - Dokumentation mit Markdown', link: '/topic-14/', collapsible: true, children: ['slides14.md'], },
                         { text: 'Thema 15 - Jupiter-Notebooks, SciPy und Matplotlib', link: '/topic-15/', collapsible: true, children: ['slides15.md', 'excercise15.md'], },
                     ]
                 },
