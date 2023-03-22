@@ -140,7 +140,7 @@ Punkte: 17
 	* Die Formatierung des Codes unterstützt die Lesbarkeit.
 * **Authentizität \[2\]**: Der Code ist selber verfasst. Code-Teile von Dritten werden als solche deklariert.
 * **Ausführbar \[2\]**: Der Code kann gemäss "Technische Anleitung" ausgeführt werden.
-* **Optimierung \[2\]**: Schleifen und Funktionen werden genutzt.
+* **Optimiert \[2\]**: Schleifen und Funktionen werden genutzt.
 * **Komplexität \[3\]**: Die Problemstellung entspricht HF-Niveau.
 
 ## Resulat / Abgabe
