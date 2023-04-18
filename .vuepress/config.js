@@ -6,6 +6,9 @@ module.exports = {
     lang: 'de-CH',
     title: 'python.casa',
     description: 'Einführung in die Programmierung.',
+    head: [
+        ['link', { rel: 'icon', href: '/icon.png' }]
+    ],
     theme: defaultTheme({
         logo: 'logo.png',
         repo: 'janikvonrotz/python.casa',
