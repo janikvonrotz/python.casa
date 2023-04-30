@@ -4,9 +4,20 @@ Der Kurs erfordert drei Semesternoten um die Abschlussnote zu bilden. Es wurde e
 
 ## [Wissensprüfung 1](exam1.md)
 
+Format: Schriftlich\
+Dauer: 45 Minuten\
+Anteil Gesamtnote: 15%
+
 ## [Wissensprüfung 2](exam2.md)
 
+Format: Schriftlich\
+Dauer: 45 Minuten\
+Anteil Gesamtnote: 35%
+
 ## [Leistungsnachweis](exam3.md)
+
+Aufwand: 8 Stunden\
+Anteil Gesamtnote: 50%
 
 ### Meta
 
