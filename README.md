@@ -35,7 +35,8 @@ Unterrichtsmaterial erstellt von [Janik von Rotz](https://janikvonrotz.ch/).
 * [Thema 11 - Grafische Oberflächen](topic-11/README.md)
 * [Thema 12 - Webapplikation mit Python Flask](topic-12/README.md)
 * [Thema 13 -  Versionskontrolle mit Git](topic-13/README.md)
-* [Thema 14 - Jupiter-Notebooks, SciPy und Matplotlib](topic-14/README.md)
+* [Thema 14 - Dokumentation mit Markdown](topic-14/README.md)
+* [Thema 15 - Jupiter-Notebooks, SciPy und Matplotlib](topic-15/README.md)
 
 ✅ = Bereit\
 🟠 = Wird revidiert\
