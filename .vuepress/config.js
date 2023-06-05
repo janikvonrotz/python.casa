@@ -1,8 +1,9 @@
-const { defaultTheme } = require('vuepress')
-const { searchPlugin } = require('@vuepress/plugin-search')
-const { plausiblePlugin } = require('./plausible')
+import { defaultTheme } from 'vuepress'
+import { searchPlugin } from '@vuepress/plugin-search'
+import { plausiblePlugin } from './plausible'
+import { defineUserConfig } from 'vuepress'
 
-module.exports = {
+export default defineUserConfig({
     lang: 'de-CH',
     title: 'python.casa',
     description: 'Einführung in die Programmierung.',
@@ -85,4 +86,4 @@ module.exports = {
             'domain': 'python.casa'
         })
     ],
-}
+})
