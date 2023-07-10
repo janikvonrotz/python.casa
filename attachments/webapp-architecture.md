@@ -19,9 +19,9 @@ HTTP ^S6qPu6L7
 
 
 # Embedded files
-4f3a47fa6e7ac6abfe2a7aa88419abf95b1b108b: [[assets/slite-logo.png]]
-f0ad8a5322ae8e4ad592dfae7848479acc97a952: [[assets/python-flask-logo.png]]
-5b92fadd9f832af517957a859e706dda41b832ef: [[assets/html-css-js.png]]
+4f3a47fa6e7ac6abfe2a7aa88419abf95b1b108b: [[slite-logo.png]]
+f0ad8a5322ae8e4ad592dfae7848479acc97a952: [[python-flask-logo.png]]
+5b92fadd9f832af517957a859e706dda41b832ef: [[html-css-js.png]]
 
 %%
 # Drawing
