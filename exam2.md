@@ -43,11 +43,9 @@ Set:  \_\_\
 Dictionary:  \_\_\
 Liste:  \_\_
 
-3\. Was ist der Unterschied zwischen Python Klassen und Objekten? Erläutern Sie in
-eigenen Worten.
+3\. Was ist der Unterschied zwischen Python Klassen und Objekten? Erläutern Sie in eigenen Worten.
 
-4\. Sie erhalten einen Klassen-Code. Wie instanzieren Sie das Objekt dazu? Schreiben ihre
-Ergänzung unten hin.
+4\. Sie erhalten einen Klassen-Code. Wie instanzieren Sie das Objekt dazu? Schreiben ihre Ergänzung unten hin.
 
 ```python
 class Kaffeemaschine:
@@ -59,5 +57,4 @@ class Kaffeemaschine:
 kaffeemaschine = ____________________________________________________
 ```
 
-5\. Schreiben Sie ein Programm mit einer `while` Schleife, das von 100 bis 0 zählt. Schreiben sie
-das Programm unten hin.
+5\. Schreiben Sie ein Programm mit einer `while` Schleife, das von 100 bis 0 zählt. Schreiben sie das Programm unten hin.
