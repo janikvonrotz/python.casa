@@ -8,9 +8,7 @@
   "showUnsupportedFiles": true,
   "legacyEditor": false,
   "livePreview": false,
-  "spellcheckLanguages": [
-    "de"
-  ],
+  "spellcheckLanguages": null,
   "showInlineTitle": false,
   "userIgnoreFilters": [
     "node_modules/"
