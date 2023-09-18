@@ -1,6 +1,6 @@
 # Leistungsnachweis
 
-Ziel: Die Studierenden definieren ein Problem oder Projekt und lösen dieses mithilfe eines selbstgeschriebenen Programms.
+Ziel: Die Studierenden definieren ein Problem oder Projekt und lösen dieses mithilfe eines selbst geschriebenen Programms.
 
 Aufwand: 8 Stunden\
 Anteil Gesamtnote: 50%
