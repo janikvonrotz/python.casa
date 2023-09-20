@@ -4,7 +4,7 @@ Unterricht 4. Semester.
 
 | KW        | Datum    | Von   | Bis   | Lektionen | Thema                                                                               |
 | --------- | -------- | ----- | ----- | --------- | ----------------------------------------------------------------------------------- |
-| 43        | SA 27.10 | 08:00 | 11:15 | 4         | [T0](topic-0/README.md), [T1](topic-1/README.md), [T2](topic-2/README.md)           |
+| 43        | SA 28.10 | 08:00 | 11:15 | 4         | [T0](topic-0/README.md), [T1](topic-1/README.md), [T2](topic-2/README.md)           |
 | 45        | SA 11.11 | 08:00 | 11:15 | 4         | [T2](topic-2/README.md), [T3](topic-3/README.md), [T4](topic-4/README.md)           |
 | 47        | FR 24.11 | 10:30 | 14:30 | 4         | [T4](topic-4/README.md), [T5](topic-5/README.md), [Wissensprüfung 1](exam1.md)      |
 | 49        | SA 09.12 | 08:00 | 11:15 | 4         | [T6](topic-6/README.md), [T7](topic-7/README.md)                                    |
