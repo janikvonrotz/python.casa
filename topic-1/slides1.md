@@ -165,7 +165,7 @@ Wir laden ein Programmcode herunter und speichern ihn in einem Ordner.
 > Quelltext, auch Quellcode oder unscharf Programmcode genannt, ist in der Informatik der für Menschen lesbare, in einer Programmiersprache geschriebene Text eines Computerprogrammes.
 
 ---
-### Programmcode ausführen
+### Terminal vorbereiten
 
 Im Unterordner das Terminal starten.
 
@@ -344,6 +344,16 @@ Kommentieren direkt im Code.
 # ein Kommentar
 print('abc')  # noch ein Kommentar
 ```
+
+---
+
+### ChatGPT
+
+Die Nutzung von ChatGPT ist empfohlen, aber nur im Ausmass?
+
+> Möchte ich Programmieren lernen oder erleben?
+
+![](chatgpt.png)
 
 ---
 

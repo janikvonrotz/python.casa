@@ -28,6 +28,14 @@ Fügen Sie zu jeder Anweisung des Programs aus Aufgabe 1 einen Kommentar hinzu.
 
 ⭐ [Kommentar.py](https://github.com/janikvonrotz/python.casa/blob/main/topic-1/Kommentar.py)
 
+### Aufgabe 1.4: ChatGPT
+
+Rufen Sie <https://chat.openai.com> auf und geben Sie `Code a christmas tree with blinking lights in python using ascii art only.` ein. Kopieren Sie den Code in die Datei `ChatGPT.py` und führen Sie diese mit `python ./ChatGPT.py` lokal aus.
+
+Klicken Sie im ChatGPT-Dialog auf *Regenerate*. Sie erhalten einen neuen Code. Kopieren Sie diesen und führen Sie den Code aus. Wiederholen Sie diesen Vorgang nach Belieben.
+
+⭐ [ChatGPT.py](https://github.com/janikvonrotz/python.casa/blob/main/topic-1/ChatGPT.py)
+
 ## Wiederholungsfragen
 
 Wiederholungsfragen zum Thema.
