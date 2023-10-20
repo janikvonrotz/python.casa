@@ -11,11 +11,11 @@ An der [Höheren Fachschule Medizintechnik Sarnen](https://www.medizintechnik-hf
 
 ## Voraussetzungen
 
-* Computer mit Administratoren-Zugriff
-* Interesse an der Programmierung / Sprache lernen
-* Verständnis für unterschiedliche Geschwindigkeiten und Startfeld 1
-* Neugier für Computertechnologien
-* Selbständiges Lernen und Error/Try-Vorgehen
+Damit der Kurs absolviert werden kann, gibt es diese Voraussetzungen
+
+* Ein Laptop um Code zu entwickeln
+* Internetverbindung um diese Website aufzurufen
+* Lokaler Administratoren-Zugriff um Python-Software zu installieren
 
 ## Aufbau
 
