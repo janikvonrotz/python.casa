@@ -12,7 +12,7 @@
 
 Ich kann ...
 * Python installieren und aufrufen.
-* Srkipte erstellen und ausführen.
+* Skripte erstellen und ausführen.
 * den Vorgang der Kompilierung an einem Beispiel erklären.
 
 ---
