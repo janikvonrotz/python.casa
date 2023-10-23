@@ -8,17 +8,15 @@ Mit dem Kurs sollen die Grundlagen der Software-Entwicklung vermittelt und das V
 ---
 ### Wer bin ich?
 
-* Aktuell: Wirtschaftsinformatiker
-* Vorher:
-	* System Integrator
-	* Web Entwickler / Designer
-	* Systemtechniker
+* Name: Janik von Rotz
+* Wohnort: Sarnen
+* Beruf: Wirtschaftsinformatiker
 
 ---
 ### Geschäftlich
 
-*  <https://www.mint-system.ch/>
-* Softwareentwicklung mit Python für das ERP-System Odoo
+* <https://www.mint-system.ch/>
+* Prozesse optimieren mit Open Source Software
 * Die Brücke zwischen Technik und Geschäft schlagen
 
 ---
@@ -68,6 +66,6 @@ Ihr findet alles unter <https://python.casa/>.
 ---
 ### Feedback
 
-Das ist die dritte Durchführung.
+Das ist die vierte Durchführung.
 
 Feedback immer am Ende des Unterrichts oder per mail an <hi@janikv.ch>.
