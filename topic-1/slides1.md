@@ -43,7 +43,7 @@ Umso schwieriger die Begriffe:
 ---
 ### Programmiersprache
 
-> Eine Programmiersprache ist eine formale Sprache zur Formulierung von Datenstrukturen und Algorithmen, d. h. von Rechenvorschriften, die von einem Computer ausgeführt werden können
+> Eine Programmiersprache ist eine formale Sprache zur Formulierung von Datenstrukturen und Algorithmen, d.h. von Rechenvorschriften, die von einem Computer ausgeführt werden können
 
 ---
 ### Anteile der Programmiersprachen
