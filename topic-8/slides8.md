@@ -3,7 +3,7 @@
 
 [◀️ Thema 8](README.md)
 
-⚡[Anwesenheit bestätigen](https://moodle.medizintechnik-hf.ch/mod/attendance/manage.php?id=8024)
+⚡Anwesenheit bestätigen
 
 📖 Kapitel 10 Umgang mit Fehlern (Exceptions)\
 📖 Kapitel 14 Dateien lesen und schreiben\

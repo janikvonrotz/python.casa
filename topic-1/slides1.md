@@ -3,7 +3,7 @@
 
 [◀️ Thema 1](./README.md)
 
-⚡[Anwesenheit bestätigen](https://moodle.medizintechnik-hf.ch/mod/attendance/manage.php?id=8024)
+⚡Anwesenheit bestätigen
 
 📖 Kapitel 1 Hello, World!
 

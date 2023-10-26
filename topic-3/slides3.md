@@ -3,7 +3,7 @@
 
 [◀️ Thema 3](./README.md)
 
-⚡[Anwesenheit bestätigen](https://moodle.medizintechnik-hf.ch/mod/attendance/manage.php?id=8024)
+⚡Anwesenheit bestätigen
 
 📖 Kapitel 3 Operatoren und 5 Zeichenketten
 

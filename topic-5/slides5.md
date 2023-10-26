@@ -4,7 +4,7 @@
 
 [◀️ Thema 5](README.md)
 
-⚡[Anwesenheit bestätigen](https://moodle.medizintechnik-hf.ch/mod/attendance/manage.php?id=8024)
+⚡Anwesenheit bestätigen
 
 📖 Kapitel 7 Listen, Tupel, Sets und Dictionairies  
 📖 Kapitel 8 Verzweigungen und Schleifen

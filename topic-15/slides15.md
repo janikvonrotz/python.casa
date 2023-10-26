@@ -3,7 +3,7 @@
 
 [◀️ Thema 15](README.md)
 
-⚡[Anwesenheit bestätigen](https://moodle.medizintechnik-hf.ch/mod/attendance/manage.php?id=8024)
+⚡Anwesenheit bestätigen
 
 ---
 
