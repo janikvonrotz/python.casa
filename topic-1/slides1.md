@@ -349,9 +349,9 @@ print('abc')  # noch ein Kommentar
 
 ### ChatGPT
 
-Die Nutzung von ChatGPT ist empfohlen, aber nur im Ausmass?
+Die Nutzung von ChatGPT ist empfohlen, aber nicht zu viel.
 
-> Möchte ich Programmieren lernen oder erleben?
+> Möchte ich Programmieren lernen oder erfahren?
 
 ![](chatgpt.png)
 
