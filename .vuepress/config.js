@@ -42,7 +42,7 @@ export default defineUserConfig({
             '/': [
                 {
                     text: 'Stundenplan',
-                    link: './timetable.md'
+                    link: '/timetable.md'
                 },
                 {
                     text: 'Teil 1',
