@@ -12,12 +12,10 @@ Erstellen Sie ein Programm, dass als erstes `Hello` und anschliessend `World!` a
 
 ### Aufgabe 1.2: Input and Output
 
-Erstellen Sie ein Programm, das nach ihrem Namen fragt und diesen in Grossbuchstaben wieder ausgibt. Suchen Sie im Internet nach `Python Grossbuchstaben` um eine HIlfestellung zu finden.
+Erstellen Sie ein Programm, das nach ihrem Namen fragt und diesen in Grossbuchstaben wieder ausgibt. Verwenden Sie dazu die Funktion `input()` um eine Variable in Grossbuchstaben auszugeben schreiben Sie `print(name.upper())`, wobei `name` der Variablenname ist.
 
-> Kopieren Sie den Code nicht! Schreiben Sie jedes Zeichen und Anweisung, nur so finden Sie auch die Zeichen auf der Tastatur. 
-
-:::tip
-Setzen Sie nach `name` die folgende Funktion an `.upper()`. 
+::: tip
+Kopieren Sie den Code nicht! Schreiben Sie jedes Zeichen und Anweisung, nur so finden Sie auch die Zeichen auf der Tastatur. 
 :::
 
 ⭐ [InputOutput.py](https://github.com/janikvonrotz/python.casa/blob/main/topic-1/InputOutput.py)
