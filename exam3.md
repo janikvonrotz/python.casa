@@ -18,13 +18,13 @@ Ich kann ...
 ## Durchführung
 
 Der Prozess für den Leistungsnachweis sieht wie folgt aus:
-1. Studierende suchen sich eine Problemstellung oder Thema, dass Sie mit einem Python-Programm lösen möchten
-2. Die Studierenden formulieren dazu einen Projektvorschlag und laden diesen auf Moodle
-3. Der Dozierende gibt ein Feedback und teilt mir, ob der Projektvorschlag den Erwartungen gerecht wird
-4. Die Studierenden haben Zeit um den Leistungsnachweis zu erarbeiten und eine Dokumentation zu erstellen
-5. Der Dozierende gibt Inputs und kann bei Problemen kontaktiert werden
-6. Die Studierenden laden das Resultat auf Moodle hoch
-7. Der Dozierende macht eine Bewertung anhand der [Kriterien](#Kriterien)
+1. Studierende suchen sich eine Problemstellung oder Thema, dass Sie mit einem Python-Programm lösen möchten.
+2. Die Studierenden formulieren dazu einen Projektvorschlag und laden diesen auf Moodle hoch.
+3. Der Dozierende gibt ein Feedback und teilt mir, ob der Projektvorschlag den Erwartungen gerecht wird.
+4. Die Studierenden haben Zeit um den Leistungsnachweis zu erarbeiten und eine Dokumentation zu erstellen. Sie führen ein Arbeitsprotokoll, welcher als Arbeitsnachweis dient.
+5. Der Dozierende gibt Inputs und kann bei Problemen kontaktiert werden.
+6. Die Studierenden laden das Resultat auf Moodle hoch.
+7. Der Dozierende erstellt eine Bewertung anhand der [Kriterien](#Kriterien).
 
 ## Themenwahl
 
@@ -90,7 +90,7 @@ Kapitelüberschriften der Dokumentation:
 * **Einleitung**: Um was geht es in diesem Dokument?
 * **Problemstellung**: Beschreibung des Problems.
 * **Vorgehen**: Vorgehen um das Problem zu lösen. Visualisierung mittels Flowchart.
-* **Umsetzung**: Wie wurde die Lösung effektiv implementiert? Beschreibung der wichtigsten Programm-Teile.
+* **Protokoll**: Wie wurde die Lösung effektiv implementiert? Resultat ist ein Arbeitsprotkoll.
 * **Rückblick**: Gab es Problem bei der Umsetzung? Was lief gut und was nicht?
 * **Technische Anleitung**: Wie kann man das Program ausführen? Welche Vorbereitungen müssen getroffen werden?
 

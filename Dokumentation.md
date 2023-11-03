@@ -13,9 +13,9 @@ Dokumentation PROJEKTNAME
 
 <!-- Vorgehen um das Problem zu lösen. Visualisierung mittels Flowchart. -->
 
-## Umsetzung
+## Protokoll
 
-<!-- Wie wurde die Lösung effektiv implementiert? Beschreibung der wichtigsten Programm-Teile. -->
+<!-- Wie wurde die Lösung effektiv implementiert? Resultat ist ein Arbeitsprotkoll. -->
 
 ## Rückblick
 
