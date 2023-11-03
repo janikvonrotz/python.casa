@@ -77,7 +77,7 @@ Wie lautet die geheime Nachricht?
 
 <!-- Einfache Aufgabe mit String als Variable und Ausgeben in text. -->
 
-### Aufgabe 3.4: Suchen und Erstetzen
+### Aufgabe 3.4: Suchen und Ersetzen
 
 Sie erhalten diesen Text:
 
@@ -97,9 +97,7 @@ Wenn das zu einfach war führen Sie diese Anweisungen aus:
 
 ⭐ [SuchenErsetzen.py](https://github.com/janikvonrotz/python.casa/blob/main/topic-3/SuchenErsetzen.py)
 
-### Aufgabe 3.5: DNA 🚧
-
-<!-- Aufgabe ist zu schwierig und muss aufgeteilt werden. -->
+### Aufgabe 3.5: DNA
 
 Eine Analyse hat eine DNA-Sequenz zurückgeben. 
 
@@ -111,11 +109,11 @@ Wir möchten herausfinden, ob diese Sequenz auch wirklich DNA enthält [^1]. Zä
 
 ⭐ [DNA.py](https://github.com/janikvonrotz/python.casa/blob/main/topic-3/DNA.py)
 
-### Aufgabe 3.6: DNA 2 🚧
+### Aufgabe 3.6: DNA 2
 
-Rechnen Sie die Summe geteilt durch die Anzahl Zeichen der Sequenz. Das Ergebnis ist eine Prozentzahl. Formatieren Sie Ausgabe so, dass die Zahl zwei Stellen nach dem Komma und mit Prozentzeichen ausgegeben wird.
+Rechnen Sie die Summe geteilt durch die Anzahl Zeichen der Sequenz. Das Ergebnis ist eine Prozentzahl. Formatieren Sie Prozentzahl so, dass die Zahl zwei Stellen nach dem Komma und mit Prozentzeichen ausgegeben wird.
 
-⭐ [DNA.py](https://github.com/janikvonrotz/python.casa/blob/main/topic-3/DNA.py)
+⭐ [DNA2.py](https://github.com/janikvonrotz/python.casa/blob/main/topic-3/DNA2.py)
 
 ## Wiederholungsfragen
 

@@ -1,6 +1,6 @@
 # Wissensprüfung 1
 
-Ziel: Die Stundierenden verstehen die elemmentaren Bausteine der Programmierung und können die Python-Programmiersprache lesen und interpretieren.
+Ziel: Die Stundierenden verstehen die elementaren Bausteine der Programmierung und können die Python-Programmiersprache lesen und interpretieren.
 
 Format: Schriftlich\
 Dauer: 45 Minuten\
@@ -24,7 +24,7 @@ Am Ende von Lektion 5 absolvieren die Studierenden eine Papier-Prüfung unter Au
 
 ## Beispielfragen
 
-Zur Orientierung werden 4 Beispiele für Augabenstellungen und Wissenfragen zur Verfügung gestellt:
+Zur Orientierung werden 4 Beispiele für Aufgabenstellungen und Wissensfragen zur Verfügung gestellt:
 
 1\. Der folgende Code ist fehlerhaft. Warum? Wie könnte eine Lösung aussehen?
 

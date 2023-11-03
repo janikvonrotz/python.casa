@@ -4,7 +4,7 @@
 
 Aufgaben zum Thema.
 
-### Aufgabe 2.1: Variablen dekalieren
+### Aufgabe 2.1: Variablen deklarieren
 
 Erstellen Sie ein Skript, welches die folgenden Variablen und Werte deklariert:
 

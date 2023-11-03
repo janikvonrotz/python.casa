@@ -28,7 +28,7 @@ Der Prozess für den Leistungsnachweis sieht wie folgt aus:
 
 ## Themenwahl
 
-In der Tehmenwahl sind die Studierenden frei. Das ausgewählte Thema soll für den Studierenden eine Herausforderung sein und den individiuellen Fähigkeiten gerecht werden.
+In der Themenwahl sind die Studierenden frei. Das ausgewählte Thema soll für den Studierenden eine Herausforderung sein und den individuellen Fähigkeiten gerecht werden.
 
 Hier einige Ideen für Projekte:
 
