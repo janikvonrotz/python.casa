@@ -66,11 +66,11 @@ TicTacToe-Spiel mithilfe von Python programmieren
 Ist es möglich, nur mit den im Unterricht «Einführung ins Programmieren» kennengelernten Python-Befehlen ein funktionstüchtiges TicTacToe-Spiel zu programmieren?
 
 **Geplantes Vorgehen:**  
-Als erstes wird mit einer Listen-Funktion ein Spielefeld erstellt, bei dem die Kästchen nummeriert  
+Als erstes wird mit einer Listen-Funktion ein Spielfeld erstellt, bei dem die Kästchen nummeriert  
 sind. Die beiden Spieler können anhand der Nummerierung später auf die Kästchen zugreifen, um die  
 Position ihres Spielzuges einzugeben.  
 Damit gespielt werden kann, muss die gewünschte Kästchen-Nummer des Spielers mit einer  
-Nummer der Kästchen überreinstimmen. Ansonsten wird eine Fehlermeldung ausgegeben. Dies wird  
+Nummer der Kästchen übereinstimmen. Ansonsten wird eine Fehlermeldung ausgegeben. Dies wird  
 mit einem if/while-Befehl programmiert. Zusätzlich soll der Spieler die Möglichkeit haben das Spiel  
 frühzeitig zu unterbrechen und die beiden Spieler, die durch Variablen unterschieden werden, sollen  
 nacheinander aufgefordert werden ihren Spielzug zu tätigen. Dies wird ebenfalls mit einem if/while-  
