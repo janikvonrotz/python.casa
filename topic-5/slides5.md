@@ -343,16 +343,12 @@ else:
 ```
 
 ---
-### for-Schleife
+### Schleifen
 
-Die Syntax:
+Mit Schleifen können Sie Anweisungen wiederholen, ohne diese mehrfach zu schreiben.
 
-```
-for var in elemente:
-    anweisungen
-```
 ---
-### Listen vereinfachen
+### Mehrfache Anweisungen vereinfachen
 
 Wie kann man das vereinfachen?
 
@@ -361,10 +357,19 @@ print('a')
 print('b')
 print('c')
 print('d')
+print('e')
 ...
 ```
 
-Befehl `print(Plathalter)` einmal schreiben, aber mehrmals ausführen.
+---
+### for-Schleife
+
+Die Syntax:
+
+```
+for var in elemente:
+    anweisungen
+```
 
 ---
 ### for mit Zeichenkette
@@ -372,7 +377,7 @@ Befehl `print(Plathalter)` einmal schreiben, aber mehrmals ausführen.
 🎬 Erstellen und führen Sie die Datei `for.py` mit diesem Inhalt aus:
 
 ```python
-for element in 'abcd':
+for element in 'abcde':
     print(element)
 ```
 
