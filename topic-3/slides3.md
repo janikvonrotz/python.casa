@@ -31,7 +31,11 @@ Im Programmieren sind wir immer mit logischen Problemstellungen konfrontiert.
 Boolsche Algebra hilft uns diese Probleme zu lösen.
 
 ---
-### Beispiel Schaltkreis 🚧
+### Beispiel Schaltkreis
+
+Anwendung in der Elektronik.
+
+![](logik-bausteine.png)
 
 ---
 ### Binäre und logische Operatoren

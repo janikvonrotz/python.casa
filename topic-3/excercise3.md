@@ -90,7 +90,7 @@ Führen Sie diese Anweisungen aus:
 * Suchen Sie nach dem Wort `fox`. Sie erhalten die Position als Antwort.
 * Ersetzen Sie das Wort `fox` mit `cat`.
 
-Wenn das zu einfach war führen Sie diese Anweisungen aus:
+Wenn das zu einfach war, führen Sie diese Anweisungen aus:
 1. Alle Zeichen bis zum Wort `brown` ausgeben.
 2. Alle Zeichen ab Wort `brown` ausgeben.
 3. Die Anweisungen 1 und 2 kombinieren damit `The quick fox jumps over the lazy dog` ausgeben wird.
