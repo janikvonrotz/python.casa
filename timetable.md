@@ -19,5 +19,5 @@ Unterricht 4. Semester.
 
 ## Ferien
 
-Weihnachtsferien: **23.12.2022 - 05.01.2023**\
-Fasnachtsferien: **13.02. - 26.02.2023**
+Weihnachtsferien: **23.12.2023 - 05.01.2023**\
+Fasnachtsferien: **13.02.2023 - 26.02.2023**
