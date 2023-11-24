@@ -30,7 +30,7 @@ Vereinfachen Sie den folgenden Ausdruck:
 not (not (a)) and (b and (b or a))
 ```
 
-Bestimmen sie, ob dieser unter den folgenden Bedinungen vollständig evaluiert wird oder nicht:
+Bestimmen sie, ob dieser unter den folgenden Bedingungen vollständig evaluiert wird oder nicht:
 
 Bedingung 1:
 
