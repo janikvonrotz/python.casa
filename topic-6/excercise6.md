@@ -58,7 +58,7 @@ Passen Sie das Programm so an, dass die Funktion `wechsel` den Franken als Param
 
 ⭐ [Währungswechsel](https://github.com/janikvonrotz/python.casa/blob/main/topic-6/Währungswechsel.py)
 
-### Aufgabe 6.3: Währungswechsel
+### Aufgabe 6.4: Währungswechsel
 
 Übernehmen Sie die Funkion aus der vorhergehenden Aufgaben und definieren Sie einen Standardwert für den Parameter `rate` mit dem Wert `0.8`.
 
@@ -176,15 +176,25 @@ Schreiben Sie diese Flowchart als Code:
 Erstellen Sie einen Flowchart mit [diagrams.net](https://app.diagrams.net) anhand dieses Codes:
 
 ```python
-spicyfood = input("Do you like spicy food? True or False?")
-if spicyfood == "True":
-    level = input("How spicy do you like it? hot, very hot, super hot ?")
-    if level == "super hot":
-        print(f"The user likes {level} spicy food!")
+zahl1 = input("Eingabe Zahl 1:")
+
+zahl2 = input("Eingabe Zahl 2:")
+
+if zahl1 > zahl2:
+
+    print("Die erste Zahl ist grösser als die Zweite.")
+
+else:
+
+	zahl3 = input("Eingabe Zahl 3:")
+	
+    if zahl3 > zahl2:
+
+		 print("Die dritte Zahl ist grösser als die Zweite.")
+
     else:
-        print("The user likes spicy food!")
-if spicyfood == "False":
-    print("The user hates spicy food!")
+    
+        print("Die dritte Zahl ist kleiner als die Zweite.")
 ```
 
 ⭐ [Code to Chart](https://github.com/janikvonrotz/python.casa/blob/main/topic-6/Code%20to%20Chart.svg)

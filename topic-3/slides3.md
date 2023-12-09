@@ -107,7 +107,7 @@ Wenn man einer doppelten Negation begegnet, kann man das auch vereinfachen.
 a == a # Das gleiche wie oben
 ```
 
-Es gibt noch [viele weitere Gesetze](../topic-2/archive.md).
+Es gibt noch [viele weitere Gesetze](archive.md).
 
 ---
 ### Short-Circuit-Evaluation

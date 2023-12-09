@@ -22,7 +22,7 @@ Mit Thonny können wir sehen wie Python die Variablen und deren Werte verwaltet.
 
 Eine Variable ist eine Referenz zu einem Eintrag im Heap.
 
-![](./thonny-variables-and-heap.png)
+![](../topic-2/thonny-variables-and-heap.png)
 
 ---
 ### Kommutativ

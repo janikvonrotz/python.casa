@@ -20,41 +20,25 @@ Ich kann ...
 
 ---
 
-### Code gestalten
+### Was sind Funktionen?
 
-Mit `if` kann man nur bestimmte Teile im Code ausführen.
+> Eine Funktion ist ein erstellter Programmcode, der aus dem „von-oben-nach-unten“-Ablauf des Programmes genommen wird und gezielt aufgerufen werden muss.
 
-Mit `while` und `for` können wir Anweisungen im Code wiederholen.
-
-Wie können wir Code-Teile wiederverwendbar machen?
-
----
-
-### Funktionen
-
-Wir haben Funktionen bereits kennengelernt, beispielsweise `len`. 
+Wir haben bereits einige Funktionen verwendet, beispielsweise `len`. 
 
 Funktionen helfen uns:
 
 * Rendundanz zu vermeiden
 * Code in Unterprogramme aufteilen
+* Programm zu strukturieren
 
 ---
 
 ### Aufbau einer Funktion
 
-![](./python-function-definition.png)
+Eine Funktion hat einen Input (Parameter) einen Output (Ergebnis).
 
----
-
-### Achtung bei Funktionen!
-
-Bei der Anwendung von Funktionen gelten einige Regeln:
-* Zuerst definieren dann verwenden
-* Funktionen ohne Parameter sind erlaubt
-* Alle Datentypen sind als Rückgabewerte erlaubt
-* Funktionen können verschachtelt werden
-* Mehrere Funktionen dürfen nicht den gleichen Namen haben
+![](len-function-input-output.png)
 
 ---
 
@@ -69,6 +53,17 @@ def funktionsname(para1, para2, para3):
     noch mehr code
 ```
 
+---
+
+### Achtung bei Funktionen!
+
+Bei der Anwendung von Funktionen gelten einige Regeln:
+* Zuerst definieren dann verwenden
+* Funktionen ohne Parameter sind erlaubt
+* Alle Datentypen sind als Rückgabewerte erlaubt
+* Funktionen können verschachtelt werden
+* Mehrere Funktionen dürfen nicht den gleichen Namen haben
+
 ----
 
 ### IDE starten und einrichten
@@ -78,47 +73,48 @@ def funktionsname(para1, para2, para3):
 * Neue Datei in Ordner `Funktion.py` erstellen
 
 ---
-### Funktion ohne Ergebnis
-
-Wir erstellen eine Funktion.
-
-🎬 Diesen Code eingeben:
-
-```python
-# Funktion ohne Ergebnis
-def f1(x, y):
-    print('Parameter 1:', x)
-    print('Parameter 2:', y)
-    print('Summe:', x+y)
-
-f1(2, 3)
-```
-
----
 ### Funktion mit Ergebnis
 
-Und fügen eine zweite Funktion hinzu.
+Wir starten mit einer einfachen Funktion Summe.
 
 🎬 Diesen Code anfügen:
 
 ```python
-# Funktion mit Ergebnis
-def f2(x, y):
+def summe(x, y):
   return x+y
 
-print(f2(4,5))
+print(summe(4,5))
+print(summe(7,5))
+print(summe(11,9))
 ```
 
 ---
-### Rückgabe zur Weiterverarbeitung
+### Funktion ohne Ergebnis
+
+Die Rückgabe eines Ergebnis ist nicht zwingend.
+
+🎬 Diesen Code eingeben:
+
+```python
+def print_summe(x, y):
+    print(x+y)
+
+print_summe(4,5)
+print_summe(7,5)
+print_summe(11,9)
+```
+
+---
+
+### Egebnis zur Weiterverarbeitung
 
 Das Ergebnis einer Funktion kann weiter verarbeitet werden.
 
 🎬 Diesen Code anfügen:
 
 ```python
-n = f2(4, 5)
-print(n) # Ausgabe: 9
+n = summe(4, 5)
+print(summe)
 ```
 
 ---
@@ -210,14 +206,6 @@ f1([1, 2]) # Ausgabe [1, 2]
 
 ---
 
-### Aufgaben 1
-
-Lösen Sie die [Aufgaben](excercise6.md#aufgaben) 6.1 und 6.2.
-
-⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 10 Minuten
-
----
-
 ### Aufruf ohne Parameter
 
 Ein Aufruf ohne Parameter ist nicht möglich.
@@ -242,70 +230,15 @@ def f1(x=1):
 f1()
 ```
 
----
-
-### Variable Parameteranzahl
-
-Es können mehrere Parameter mit Standardwerten definiert werden.
-
-🎬 Diesen Code in der Datei `Parameter.py` anfügen:
-
-```python
-def f(a,b,c=-1,d=0):
-    print(a,b,c,d)
-
-f(6,7,8,9) # Ausgabe 6 7 8 9
-f(6,7,8) # Ausgabe 6 7 8 0
-f() # Fehler a und b werden vermisst
-```
+Zur Definition der Parameter gibt noch [weitere Aspekte](archive.md).
 
 ---
 
-### Parameter mit mehreren Werten
+### Aufgaben 1
 
-Wenn man einen Parameter mit `*para` oder `**para` definiert, kann man beliebig viele Werte übertragen.
+Lösen Sie die [Aufgaben](excercise6.md#aufgaben) 6.1 bis 6.4.
 
-* `*para` ist ein Tupel
-* `**para` ist ein Dictionary
-
-Das funktioniert auch beim Funktionsaufruf.
-
----
-
-### Beispiel mit Liste
-
-```python
-liste = ['a','b','c']
-
-print(liste) # Ausgabe ['a', 'b', 'c']
-print(*liste) # a b c
-```
-
-ℹ️ Der `*` nimmt die Struktur einer oder mehreren Variablen auseinander oder vereinigt diesen.
-
----
-
-### Beispiel mehrere Werte
-
-🎬 Datei `Mehrere.py` mit diesem Code erstellen:
-
-```python
-def f(a, *b):
-    print(a, b, type(b))
-    
-l = range(0,6)
-f(1, l) # Ausgabe 1 (range(0, 6),) <class 'tuple'>
-```
-
-ℹ️ Keep it simple! Verwenden Sie einfache Parameter.
-
----
-
-### Aufgaben 2
-
-Lösen Sie die [Aufgaben](excercise6.md#aufgaben) 6.3 und 6.4.
-
-⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 10 Minuten
+⚡Aufteilung in Gruppen/Breakout-Rooms ⏱️ 20 Minuten
 
 ---
 
@@ -315,7 +248,7 @@ Lösen Sie die [Aufgaben](excercise6.md#aufgaben) 6.3 und 6.4.
 
 ---
 
-### Parameter dennoch überprüfen
+### Parameter in der Funktion prüfen
 
 🎬 Datei `Ungültig.py` mit diesem Code erstellen:
 
@@ -331,7 +264,7 @@ print(f(1))
 
 ---
 
-### Rekursion
+### Rekursive Funktionen
 
 Funktionen können sich selber aufrufen.
 
@@ -403,7 +336,7 @@ print(filtered) # Ausgabe [345, 36, 33]
 
 ---
 
-### Aufgaben 3
+### Aufgaben 2
 
 Lösen Sie die [Aufgaben](excercise6.md#aufgaben) 6.5 und 6.6.
 
