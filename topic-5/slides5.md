@@ -330,15 +330,59 @@ x = wert1 if bedingung else wert2
 ℹ️ In anderen Programmiersprachen gibt es dafür den [*Ternary Operator*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator)
 
 ---
+
+### Einfache Verzweigung
+
+🎬 Erstellen und führen Sie die Datei `zahl.py` mit diesem Inhalt aus:
+
+```python
+zahl = 10
+
+if zahl > 5:
+	print("Zahl ist grösser als 5.")
+else:
+	print("Zahl ist kleiner gleich 5. ")
+```
+
+Wie kann man das auf einer Zeile schreiben?
+
+---
+
+### Element in Liste
+
+Mit dem `in` Operator können Sie prüfen, ob ein Element in einer Liste enthalten ist.
+
+```
+element in liste
+```
+
+---
+
 ### if-Beispiel
 
 🎬 Erstellen und führen Sie die Datei `if.py` mit diesem Inhalt aus:
 
 ```python
-antwort = input("Möchtest du Feierabend: ")
+antwort = input("Möchtest du Feierabend?: ")
 
 if antwort in ["Ja", "ja", "jep"]:
     print("Sehr gut!")
+else:
+    print("Ich glaube dir nicht!")
+```
+
+---
+### elif-Beispiel
+
+🎬 Ersetzen Sie die Datei `if.py` mit diesem Inhalt:
+
+```python
+antwort = input("Möchtest du Feierabend?: ")
+
+if antwort in ["Ja", "ja", "jep"]:
+    print("Sehr gut!")
+elif antwort in ["Nein", "nein", "niet"]:
+	print("Du bist ein Workaholic!")
 else:
     print("Ich glaube dir nicht!")
 ```
