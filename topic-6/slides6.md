@@ -26,7 +26,7 @@ Mit `if` kann man nur bestimmte Teile im Code ausführen.
 
 Mit `while` und `for` können wir Anweisungen im Code wiederholen.
 
-Wie können wir Code-Teile wiederverenden?
+Wie können wir Code-Teile wiederverwendbar machen?
 
 ---
 
@@ -37,7 +37,7 @@ Wir haben Funktionen bereits kennengelernt, beispielsweise `len`.
 Funktionen helfen uns:
 
 * Rendundanz zu vermeiden
-* Code übersichtlicher zu gestalten
+* Code in Unterprogramme aufteilen
 
 ---
 
@@ -89,12 +89,15 @@ Wir erstellen eine Funktion.
 def f1(x, y):
     print('Parameter 1:', x)
     print('Parameter 2:', y)
+    print('Summe:', x+y)
+
+f1(2, 3)
 ```
 
 ---
 ### Funktion mit Ergebnis
 
-Und fügen eine zweite Funktion hinzu
+Und fügen eine zweite Funktion hinzu.
 
 🎬 Diesen Code anfügen:
 
@@ -102,21 +105,18 @@ Und fügen eine zweite Funktion hinzu
 # Funktion mit Ergebnis
 def f2(x, y):
   return x+y
+
+print(f2(4,5))
 ```
 
 ---
-### Funktion ausführen
+### Rückgabe zur Weiterverarbeitung
 
-Diese Funktionen führen wir nun aus.
+Das Ergebnis einer Funktion kann weiter verarbeitet werden.
 
 🎬 Diesen Code anfügen:
 
 ```python
-# Hier beginnt die Programmausführung
-f1(2, 3)
-# Ausgabe: Parameter 1: 2
-#          Parameter 2: 3
-
 n = f2(4, 5)
 print(n) # Ausgabe: 9
 ```
@@ -269,6 +269,8 @@ Wenn man einen Parameter mit `*para` oder `**para` definiert, kann man beliebig 
 * `**para` ist ein Dictionary
 
 Das funktioniert auch beim Funktionsaufruf.
+
+---
 
 ### Beispiel mit Liste
 

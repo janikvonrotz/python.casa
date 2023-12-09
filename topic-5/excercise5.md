@@ -96,7 +96,7 @@ Gegeben ist der folgende Anfang eines Programms:
 animals = ["tiger", "mouse", "bird", "python", "elephant", "monkey"]
 ```
 
-Ergänze das Programm so, dass für jedes Tier aus der Liste animals der Satz `VARIABLE ist ein Tier.` in der Konsole ausgegeben wird. Benutze dafür wie immer `print()` Funktion.
+Ergänze das Programm so, dass für jedes Tier aus der Liste animals der Satz `VARIABLE ist ein Tier.` in der Konsole ausgegeben wird. Benutze dafür wie immer die `print()` Funktion.
 
 ⭐ [Zoo.py](https://github.com/janikvonrotz/python.casa/blob/main/topic-5/Zoo.py)
 

@@ -92,7 +92,7 @@ print(freigabe(betrag1))
 print(freigabe(betrag2))
 ```
 
-Schreiben Sie die `freigabe` Funktion als Lamdba und weisen Sie die Funktion der Variable `freigabe` zu.
+Schreiben Sie die `freigabe` Funktion als Lambda und weisen Sie die Funktion der Variable `freigabe` zu.
 
 ⭐ [Freigabe](https://github.com/janikvonrotz/python.casa/blob/main/topic-6/Freigabe.py)
 
