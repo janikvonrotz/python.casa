@@ -49,6 +49,7 @@ Aufzählungen werden eingeklammert: `[]`, `()`, `{}` und `{key: value}`.
 * **Listen**: Wichtigster und flexibelster Datentyp
 * **Tupel**: Verwendung für zusammengehörende Daten
 * **Sets**: Ungeordnete Menge ohne Doppelgänger
+* **Dictionaries**: Kombination aus Schlüssel und Wert
 * **Arrays**: Spielt eine untergeordnete Rolle
 
 ---
@@ -284,7 +285,7 @@ print(d.keys()) # dict_keys(['Rot', 'Blau', 'Gelb'])
 ### Arrays
 
 * Bei vielen Programmiersprachen haben Arrays eine zentrale Bedeutung
-* Arrays sind nicht so flexibel wie Listen, Sets und Dictionairies
+* Arrays sind nicht so flexibel wie Listen, Tupel, Sets und Dictionairies
 
 ---
 ### Aufgaben 2
