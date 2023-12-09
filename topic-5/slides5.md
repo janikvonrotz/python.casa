@@ -353,8 +353,10 @@ Wie kann man das auf einer Zeile schreiben?
 Mit dem `in` Operator können Sie prüfen, ob ein Element in einer Liste enthalten ist.
 
 ```
-element in liste
+if element in liste:
 ```
+
+Die `for`-Schleife hat eine ähnliche Struktur, dazu später mehr.
 
 ---
 
