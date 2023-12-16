@@ -251,6 +251,48 @@ class MyClass():  
 
 ---
 
+### Ungeschützte Variablen
+
+Objektvariablen können nach der Instanzierung überschrieben werden.
+
+```python
+class Kaffeemaschine:
+    def __init__(self, pin):
+        self.pin = pin
+
+kaffeemaschine = Kaffeemaschine(5432)
+
+kaffeemaschine.pin = 1234
+
+print(kaffeemaschine.pin) # Ausgabe: 1234
+```
+
+Das möchte man in bestimmten Fällen (Pin-Code, Passwörter, ...) verhindern.
+
+---
+
+### Geschützte Variablen
+
+Die Variablen können geschützt werden, indem man den Variablennamen mit `_` prefixed.
+
+```python
+class Kaffeemaschine:
+    def __init__(self, pin):
+        self._pin = pin
+
+kaffeemaschine = Kaffeemaschine(5432)
+
+kaffeemaschine._pin = 1234 # Warnung: Acccess to protected member
+
+print(kaffeemaschine._pin) # Warnung: Acccess to protected member
+```
+
+Der Zugriff auf die Variablen wird nicht verhindert, aber es gibt eine Warnung.
+
+Nun möchten wir den Wert der Variable via Methoden festlegen.
+
+---
+
 ### Dekoratoren
 
 Dekoratoren werden mit `@` eingeleitet und dienen als Zusatzattribute für Funktionen, Methoden oder Klassen. Sie können die Intention von Code verdeutlichen und Informationen an den Python-Interpreter bzw. -Compiler weitergeben.
@@ -345,7 +387,7 @@ class Tier():
 
 class Katze(Tier): # Katze ist ein Tier
     def __init__(self, name, farbe):
-        super().__init__(rufname, farbe, "Miau!") # Aufruf Konstruktor von Tier
+        super().__init__(name, farbe, "Miau!") # Aufruf Konstruktor von Tier
 
 katze = Katze("Sammy", "orange")
 print(katze.farbe)
