@@ -10,9 +10,9 @@ Unterricht 4. Semester.
 | 49        | SA 09.12 | 08:00 | 11:15 | 4         | Online: [T6](topic-6/README.md), [T7](topic-7/README.md)                            |
 | 50        | SA 16.12 | 08:45 | 11:15 | 3         | [T7](topic-7/README.md), [T8](topic-8/README.md), [Themenwahl](exam3.md#Themenwahl) |
 | 4         | SA 27.01 | 08:00 | 11:15 | 4         | Repetition, [T9](topic-9/README.md)                                                 |
-| 5         | SA 03.02 | 08:00 | 11:15 | 4         | [T10](topic-10/README.md), [T11](topic-11/README.md)                                |
+| 5         | SA 03.02 | 08:00 | 11:15 | 4         | [Wissensprüfung 2](exam2.md), [T10](topic-10/README.md), [T11](topic-11/README.md)                                |
 | 8         | FR 23.02 | 14:45 | 18:00 | 4         | [T12](topic-12/README.md), [T13](topic-13/README.md)                                |
-| 9         | FR 01.03 | 10:30 | 14:30 | 4         | [Wissensprüfung 2](exam2.md), [Leistungsnachweis](exam.md#leistungsnachweis)        |
+| 9         | FR 01.03 | 10:30 | 14:30 | 4         | [Leistungsnachweis](exam.md#leistungsnachweis)        |
 | 10        | FR 08.03 | 14:45 | 18:00 | 4         | [Leistungsnachweis](exam.md#leistungsnachweis)                                      |
 | **Total** |          |       |       | 39        |                                                                                     |
 <!-- TBLFM: @>$5=sum(@I..@-1) -->
