@@ -179,9 +179,9 @@ def __init__(self, marke, anzahl):
 
 ---
 
-### Selbstbezug / Instanzvariablen
+### Interner Speicher / Instanzvariablen
 
-`self` bezieht sich auf das Objekt (die Instanz) selbst. Die self-Variablen nennt man Instanzvariablen.
+`self` bezieht sich auf das Objekt (die Instanz) selbst. Die `self`-Variablen nennt man Instanzvariablen. Sie können sich die Instanz als interner Speicher des Objekts vorstellen.
 
 ```python
 self.marke = marke
