@@ -23,7 +23,7 @@ except:
 	print('Es gibt einen Fehler im Code!')
 ```
 
-⭐ [Fehler abfangen](https://github.com/janikvonrotz/python.casa/blob/main/topic-8/Fehler%20abfragen.py)
+⭐ [Fehler abfangen](https://github.com/janikvonrotz/python.casa/blob/main/topic-8/Fehler%20abfangen.py)
 
 ### Aufgabe 8.2: Datentyp-Fehler behandeln
 

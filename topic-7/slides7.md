@@ -12,7 +12,7 @@
 ### Lernziele
 
 Ich kann ...
-* das Idee der objektorientieren Programmierung eklären.
+* das Idee der objektorientierten Programmierung eklären.
 * kann ein Klasse entwickeln.
 * kann ein Objekt anhand einer Klasse instanzieren.
 * Getter- und Setter-Methoden anwenden.
