@@ -304,7 +304,7 @@ for book in data:
 
 ### Dateiformate
 
-Möchten Sie die Datei `Bücher.json` in einem anderen Programm, beispielsweise Excelm bearbeiten wird es schwierig. Wir brauchen ein einheitliches Dateiformat.
+Möchten Sie die Datei `Bücher.json` in einem anderen Programm, beispielsweise Excel bearbeiten wird es schwierig. Wir brauchen ein einheitliches Dateiformat.
 
 ---
 
