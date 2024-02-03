@@ -57,13 +57,13 @@ Der Getränkeautomat hat diese Instanzvariablen:
 Ein Dictionary mit den verfügbaren Produkten:
 
 ```python
-produkte = { 1: "Apfelsaft", 2: "Wasser", 1: "Redbull"}
+produkte = { 1: "Apfelsaft", 2: "Wasser", 3: "Redbull"}
 ```
 
 Ein Dictionary mit dem Bestand:  
 
 ```python
-bestand = { "Apfelsaft": 3, "Wasser": "4", "Redbull": 0}
+bestand = { "Apfelsaft": 3, "Wasser": 4, "Redbull": 0}
 ```
 
 Ein String mit dem Automatennamen:
