@@ -9,10 +9,11 @@ class Getränkeautomat:
             print(f"Auswahl {key}: {value}")
     
     def Ausgabe(self, nummer):
-        bestand = self.bestand[nummer]
+        produkt = self.produkte[nummer]
+        bestand = self.bestand[produkt]
         if(bestand > 0):
             print(f"Das Produkt {self.produkte[nummer]} wurde ausgeben.")
-            self.bestand[nummer] = (bestand - 1)
-            print(f"Es sind noch {self.bestand[nummer]} Stk. verfügbar.")
+            self.bestand[produkt] = (bestand - 1)
+            print(f"Es sind noch {self.bestand[produkt]} Stk. verfügbar.")
         else:
             print("Das gewählte Produkt ist nicht verfügbar.")

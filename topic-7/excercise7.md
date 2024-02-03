@@ -77,20 +77,21 @@ Im Weiteren hat der Automat diese Methoden:
 Die Methode `Auflisten` listet die Produkte auf
 
 ```python
-for key,value in self.produkte.items():
-	print(f"Auswal {key}: {value}")
+        for key,value in self.produkte.items():
+            print(f"Auswal {key}: {value}")
 ```
 
 Die Methode `Ausgeben` erwartet eine Nummer, prüft den Bestand und simuliert eine Ausgabe des Produkts
 
 ```python
-bestand = self.bestand[nummer]
-if(bestand > 0):
-	print(f"Das Produkt {self.produkte[nummer]} wurde ausgeben.")
-	self.bestand[nummer] = (bestand - 1)
-	print(f"Es sind noch {self.bestand[nummer]} Stk. verfügbar.")
-else:
-	print("Das gewählte Produkt ist nicht verfügbar.")
+        produkt = self.produkte[nummer]
+        bestand = self.bestand[produkt]
+        if(bestand > 0):
+            print(f"Das Produkt {self.produkte[nummer]} wurde ausgeben.")
+            self.bestand[produkt] = (bestand - 1)
+            print(f"Es sind noch {self.bestand[produkt]} Stk. verfügbar.")
+        else:
+            print("Das gewählte Produkt ist nicht verfügbar.")
 ```
 
 Fügen Sie die Eigenschaften und Methoden zu einer fertigen Python-Klasse zusammen.
