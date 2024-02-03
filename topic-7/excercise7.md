@@ -161,8 +161,9 @@ print(f"Der Geränkeautomat {self._name} hat dieses Angebot:")
 Instanzieren Sie die Klasse und rufen Sie die neue Setter-Methode auf.
 
 ```python
-produkte = { 1: "Redbull", 2: "Redbull", 3: "Redbull"}
-bestand = { 1: 3, 2: 4, 3: 0}
+produkte = { 1: "Apfelsaft", 2: "Wasser", 3: "Redbull", 4: "Snickers"}
+
+bestand = { "Apfelsaft": 3, "Wasser": 4, "Redbull": 0, "Snickers": 5}
 
 automat = Getränkeautomat(produkte, bestand, "Gratis")
 

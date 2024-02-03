@@ -18,16 +18,18 @@ class Getränkeautomat:
             print(f"Auswal {key}: {value}")
     
     def Ausgabe(self, nummer):
-        bestand = self.bestand[nummer]
+        produkt = self.produkte[nummer]
+        bestand = self.bestand[produkt]
         if(bestand > 0):
             print(f"Das Produkt {self.produkte[nummer]} wurde ausgeben.")
-            self.bestand[nummer] = (bestand - 1)
-            print(f"Es sind noch {self.bestand[nummer]} Stk. verfügbar.")
+            self.bestand[produkt] = (bestand - 1)
+            print(f"Es sind noch {self.bestand[produkt]} Stk. verfügbar.")
         else:
             print("Das gewählte Produkt ist nicht verfügbar.")
 
-produkte = { 1: "Redbull", 2: "Redbull", 3: "Redbull"}
-bestand = { 1: 3, 2: 4, 3: 0}
+produkte = { 1: "Apfelsaft", 2: "Wasser", 3: "Redbull", 4: "Snickers"}
+
+bestand = { "Apfelsaft": 3, "Wasser": 4, "Redbull": 0, "Snickers": 5}
 
 automat = Getränkeautomat(produkte, bestand, "Gratis")
 
