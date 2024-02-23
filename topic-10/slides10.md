@@ -173,7 +173,7 @@ cursor.execute(sql)
 🎬 Fügen Sie diesen Code an, um einen Datensatz zu erzeugen:
 
 ```python
-# Datensatz erzeugen
+# Datensatz hinzufügen
 sql = "INSERT INTO lager VALUES(1, 'Holztisch', 'E-COM06', '601647855633', 3, 147)"
 cursor.execute(sql)
 connection.commit()
@@ -221,17 +221,20 @@ Mit dieser VSCode-Erweiterung können Sie die Datenbank-Datei anschauen:
 
 ### Weitere Datensätze einfügen
 
-🎬 Fügen wie weitere Datensätze hinzu, indem Sie den Code unten an der richtigen Stelle einfügen.
+🎬 Fügen wie weitere Datensätze hinzu, indem Sie den Code unten mit dem bestehenden "Hinzufügen"-Code ersetzen.
 
 ```python
-# Datensatz erzeugen
+# Datensatz hinzufügen
 sql = "INSERT INTO lager VALUES(1, 'Holztisch', 'E-COM06', '601647855633', 3, 147)"
 cursor.execute(sql)
-sql = "INSERT INTO lager VALUES(2, 'Bürostuhl', 'E-COM06', '601647855634', 1, 70.50)"
+sql = "INSERT INTO lager VALUES(2, 'Bürostuhl', 'FURN_7777', '601647855634', 1, 70.50)"
 cursor.execute(sql)
-sql = "INSERT INTO lager VALUES(3, 'Abfalleimer', 'E-COM06', '601647855649', 5, 43)"
+sql = "INSERT INTO lager VALUES(3, 'Abfalleimer', 'E-COM10', '601647855649', 5, 43)"
 cursor.execute(sql)
 connection.commit()
+
+# Verbindung beenden
+connection.close()
 ```
 
 ⭐ [lager.py](https://github.com/janikvonrotz/python.casa/blob/main/topic-10/lager.py)
