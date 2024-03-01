@@ -106,12 +106,6 @@ Eine Vorlage für ein `.docx` kann [hier heruntergeladen](https://github.com/jan
 
 Punkte in eckigen Klammern.
 
-### Kommentar zu ChatGPT
-
-Die Aufgabenstellung wie Sie hier beschreiben wird, könnte mithilfe von [ChatGPT](https://chat.openai.com/chat/) gelöst werden. Das kann ChatGPT so gut, dass man nicht mit Gewissenheit sagen kann, ob die Aufgabe vom einem Studierenden oder ChatGPT gelöst wurde.\
-Es spricht grundsätzlich nichts dagegen Aufgaben mit ChatGPT zu lösen. Es wirft aber die Frage auf, was der Wert des Leistungsnachweises ist. Das Ziel des Leistungsnachweises sollte nicht sein ein gutes Ergebnis zu erzielen, sondern zu beweisen, dass man die fachliche Kompetenz, ein Problem mithilfe der Programmierung zu lösen, erlangt hat.\
-Der Umgang mit ChatGPT führt direkt zu Frage: Möchte ich lernen (die Kompetenz haben) wie man mithilfe der Programmierung Probleme löst?
-
 ### Allgemein
 
 Punkte: 2
@@ -124,7 +118,7 @@ Punkte: 2
 Punkte: 9
 
 * **Vollständigkeit \[1\]**: Alle Kapitel gemäss Vorgaben sind enthalten.
-* **Formatierung \[1\]**: Die Formatierung des Dokuments enspricht einem professionellen Standard.
+* **Formatierung \[1\]**: Die Formatierung des Dokuments entspricht einem professionellen Standard.
 * **Sprache \[2\]**: Die Dokumentation ist in korrektem Deutsch formuliert und Fachwörter werden korrekt verwendet.
 * **Visualisierung \[3\]**: Der Code ist mithilfe einem Flowchart visualisiert. (Formatierung, Vollständigkeit, Logik)
 * **Reflexion \[2\]**: Die konfrontierten Herausforderungen und der entsprechende Lerneffekt sind reflektiert.
@@ -150,3 +144,8 @@ Die Dokumentation wird als `.pdf` Datei und der Code als `.zip` Datei in das ent
 * `Code.zip`: Python-Programm (gezippter Ordner mit Pyton-Dateien)
 * `Dokumentation.{pdf,epub,docx}:` Dokumentation zum Programm (4-8 Seiten, ohne Cover)
 
+## Kommentar zu ChatGPT
+
+Die Aufgabenstellung wie Sie hier beschreiben wird, könnte mithilfe von [ChatGPT](https://chat.openai.com/chat/) gelöst werden. Das kann ChatGPT so gut, dass man nicht mit Gewissenheit sagen kann, ob die Aufgabe vom einem Studierenden oder ChatGPT gelöst wurde.\
+Es spricht grundsätzlich nichts dagegen Aufgaben mit ChatGPT zu lösen. Es wirft aber die Frage auf, was der Wert des Leistungsnachweises ist. Das Ziel des Leistungsnachweises sollte nicht sein ein gutes Ergebnis zu erzielen, sondern zu beweisen, dass man die fachliche Kompetenz, ein Problem mithilfe der Programmierung zu lösen, erlangt hat.\
+Der Umgang mit ChatGPT führt direkt zu Frage: Möchte ich lernen (die Kompetenz haben) wie man mithilfe der Programmierung Probleme löst?
