@@ -115,27 +115,27 @@ Punkte: 2
 
 ### Dokumentation
 
-Punkte: 9
+Punkte: 10
 
-* **Vollständigkeit \[1\]**: Alle Kapitel gemäss Vorgaben sind enthalten.
-* **Formatierung \[1\]**: Die Formatierung des Dokuments entspricht einem professionellen Standard.
+* **Vollständigkeit \[2\]**: Alle Kapitel gemäss Vorgaben sind enthalten. Die Formatierung des Dokuments entspricht einem professionellen Standard.
 * **Sprache \[2\]**: Die Dokumentation ist in korrektem Deutsch formuliert und Fachwörter werden korrekt verwendet.
-* **Visualisierung \[3\]**: Der Code ist mithilfe einem Flowchart visualisiert. (Formatierung, Vollständigkeit, Logik)
+* **Visualisierung \[2\]**: Der Code ist mithilfe einem Flowchart visualisiert. (Formatierung, Vollständigkeit, Logik)
+* **Protokoll \[2\]**: Die Arbeit am Leistungsnachweis ist protokolliert und die Arbeitsvorgänge sind nachvollziehbar beschrieben.
 * **Reflexion \[2\]**: Die konfrontierten Herausforderungen und der entsprechende Lerneffekt sind reflektiert.
 
 ### Code
 
-Punkte: 17
+Punkte: 18
 
 * **Kommentare \[2\]**: Die Code-Anweisungen und Blöcke sind sinnvoll und vollständig kommentiert.
 * **Struktur \[6\]**: 
 	* Der Code ist sinnvoll strukturiert (Module und Funktionen).
 	* Die Variablen, Dateien und Ordner sind gemäss ihrer Funktion benannt.
 	* Die Formatierung des Codes unterstützt die Lesbarkeit.
-* **Authentizität \[2\]**: Der Code ist selber verfasst. Code-Teile von Dritten werden als solche deklariert.
+* **Authentizität \[3\]**: Der Code ist selber verfasst. Code-Teile von Dritten werden als solche deklariert.
 * **Ausführbar \[2\]**: Der Code kann gemäss "Technische Anleitung" ausgeführt werden.
-* **Optimiert \[2\]**: Schleifen und Funktionen werden genutzt.
-* **Komplexität \[3\]**: Die Problemstellung entspricht HF-Niveau.
+* **Optimiert \[2\]**: Logik des Code wurde Schleifen und Funktionen optimiert.
+* **Komplexität \[3\]**: Die gewählte Problemstellung entspricht HF-Niveau.
 
 ## Resulat / Abgabe
 

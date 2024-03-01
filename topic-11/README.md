@@ -1,6 +1,6 @@
 # Thema 11 - Grafische Benutzeroberfläche
 
-Umfang ⏱️: 3 Lektionen
+Umfang ⏱️: 2 Lektionen
 
 [Alle Unterlagen anzeigen](https://github.com/janikvonrotz/python.casa/tree/main/topic-11)
 
