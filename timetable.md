@@ -1,4 +1,4 @@
-# Stundenplan 2022
+# Stundenplan 2023
 
 Unterricht 4. Semester.
 

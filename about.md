@@ -35,7 +35,7 @@ Informationen zum Modul werden an zwei Orten gespeichert. Auf Moodle kann der St
 
 Allgemeine Informationen, Slides, Inhalte und Aufgaben werden als GitHub-Repository publiziert und sind unter der Adresse <https://python.casa> abrufbar.
 
-Die bereitgestellten Unterlagen sind eine Zusammenfassung des Buches. Mit Slides werden die wichtigsten Inhalte zusammengefasst und mit den dazugehörenden Übungen angwendet.
+Die bereitgestellten Unterlagen sind eine Zusammenfassung des Buches. Mit Slides werden die wichtigsten Inhalte zusammengefasst und mit den dazugehörenden Übungen angewendet.
 
 **Durchführung**
 
