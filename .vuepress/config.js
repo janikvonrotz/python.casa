@@ -1,6 +1,7 @@
 import { viteBundler } from '@vuepress/bundler-vite'
 import { defaultTheme } from '@vuepress/theme-default'
 import { searchPlugin } from '@vuepress/plugin-search'
+import { shikiPlugin } from '@vuepress/plugin-shiki'
 import { plausiblePlugin } from './plausible'
 import { defineUserConfig } from 'vuepress'
 
@@ -84,8 +85,12 @@ export default defineUserConfig({
     }),
     plugins: [
         searchPlugin(),
+        shikiPlugin({ theme: 'dark-plus' }),
         plausiblePlugin({
             'domain': 'python.casa'
-        })
+        }),
+        shikiPlugin({
+            theme: 'dark-plus'
+        }),
     ],
 })
