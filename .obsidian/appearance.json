@@ -3,5 +3,8 @@
   "baseFontSize": 15,
   "theme": "moonstone",
   "accentColor": "",
-  "showViewHeader": true
+  "showViewHeader": true,
+  "enabledCssSnippets": [
+    "snippet"
+  ]
 }
