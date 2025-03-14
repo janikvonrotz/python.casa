@@ -4,7 +4,7 @@
   "useMarkdownLinks": true,
   "newLinkFormat": "relative",
   "promptDelete": false,
-  "trashOption": "local",
+  "trashOption": "none",
   "showUnsupportedFiles": true,
   "legacyEditor": false,
   "livePreview": false,
